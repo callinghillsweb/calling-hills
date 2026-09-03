@@ -2192,19 +2192,19 @@
 }
 
 .sd-card-1 {
-    background: linear-gradient(135deg, #1aa3a3, #085a5a);
+    background: linear-gradient(135deg, #2b5c3a, #0f2e1a);
     align-self: flex-start;
 }
 .sd-card-2 {
-    background: linear-gradient(135deg, #66b3ff, #005ce6);
+    background: linear-gradient(135deg, #d48a3e, #8f4f13);
     align-self: flex-end;
 }
 .sd-card-3 {
-    background: linear-gradient(135deg, #1a75ff, #003d99);
+    background: linear-gradient(135deg, #1e6b36, #0b3b19);
     align-self: flex-start;
 }
 .sd-card-4 {
-    background: linear-gradient(135deg, #1aa3a3, #085a5a) !important;
+    background: linear-gradient(135deg, #4a7b96, #1f3d4f) !important;
     align-self: flex-end;
 }
 
