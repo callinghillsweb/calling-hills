@@ -50,6 +50,10 @@
             overflow-x: hidden;
         }
 
+        body:has(.ambient-gradient-bg) {
+            background: transparent;
+        }
+
         /* ═══════════════════════════════════════════
            NAVBAR
         ═══════════════════════════════════════════ */
@@ -3000,11 +3004,11 @@
     z-index: -2;
     background: linear-gradient(
         135deg, 
-        rgba(244, 242, 238, 1) 0%, 
-        rgba(216, 226, 214, 0.4) 25%, 
-        rgba(48, 109, 41, 0.05) 50%, 
-        rgba(216, 226, 214, 0.3) 75%, 
-        rgba(244, 242, 238, 1) 100%
+        rgba(13, 31, 23, 1) 0%, 
+        rgba(5, 20, 10, 0.95) 25%, 
+        rgba(48, 109, 41, 0.15) 50%, 
+        rgba(200, 169, 110, 0.08) 75%, 
+        rgba(13, 31, 23, 1) 100%
     );
     background-size: 400% 400%;
     animation: gradientFlow 18s ease-in-out infinite;
