@@ -81,8 +81,17 @@
                 </div>
             </div>
         </div>
+        <!-- Quick Selection Tabs -->
+        <div style="max-width: 1200px; margin: 0 auto 36px; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <a href="#contact" style="padding: 12px 26px; border-radius: 50px; font-weight: 600; text-decoration: none; background: var(--ch-green); color: white; display: inline-flex; align-items: center; gap: 8px; font-size: 15px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+                <span>👤</span> Direct Guest Enquiry
+            </a>
+            <a href="#b2b-enquiry" style="padding: 12px 26px; border-radius: 50px; font-weight: 600; text-decoration: none; border: 1.5px solid #1ABC9C; color: #1ABC9C; background: rgba(26, 188, 156, 0.1); display: inline-flex; align-items: center; gap: 8px; font-size: 15px; transition: all 0.3s ease;">
+                <span>🏢</span> B2B Travel Partner Enquiry &darr;
+            </a>
+        </div>
 
-                <div class="contact-container">
+        <div class="contact-container">
             <!-- Left Side: Enquiry Form -->
             <div class="contact-left">
                 <h2>Let's Plan Your Journey</h2>
@@ -206,8 +215,195 @@
                 </div>
             </div>
         </div>
+
+        <!-- ═══════════ B2B ENQUIRY SECTION ═══════════ -->
+        <div class="contact-container b2b-container" id="b2b-enquiry" style="grid-template-columns: 1fr; max-width: 1200px; margin-top: 60px; border: 1px solid rgba(26, 188, 156, 0.2); background: #0f1f18;">
+            <!-- Header Box -->
+            <div class="b2b-header-box" style="text-align: center; margin-bottom: 24px;">
+                <div style="display: inline-block; color: #1ABC9C; font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 8px; font-weight: 600;">✦ ENQUIRY &amp; CONVERSION</div>
+                <h2 style="font-family: var(--font-heading); font-size: clamp(28px, 4vw, 42px); color: #2ECC71; margin-bottom: 8px;">B2B ENQUIRY</h2>
+                <h3 style="font-family: var(--font-heading); font-size: clamp(18px, 2.5vw, 24px); color: var(--ch-mist); font-weight: 400; margin-bottom: 12px;">Tell Us About Your Guest</h3>
+                <p style="color: var(--ch-mist-dim); max-width: 720px; margin: 0 auto; font-size: 15px; line-height: 1.6;">
+                    Partner with CallingHills for wholesale ground handling, hotel inventory, transport, and customized itineraries in the Eastern Himalayas. Share your guest specifications below for a rapid quotation.
+                </p>
+
+                <!-- Fast Quotation Prompt & Direct Email Card -->
+                <div class="b2b-quick-strip" style="background: rgba(26, 188, 156, 0.08); border: 1px solid rgba(26, 188, 156, 0.25); border-radius: 14px; padding: 20px 24px; margin: 24px auto 0; max-width: 860px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; text-align: left;">
+                    <div style="flex: 1; min-width: 280px;">
+                        <div style="font-weight: 600; color: #1ABC9C; font-size: 14px; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+                            <span>⚡</span> For a faster quotation, please share:
+                        </div>
+                        <div style="font-size: 13px; color: var(--ch-mist-dim); line-height: 1.6;">
+                            Travel Date &bull; Destination &bull; Number of Guests &bull; Number of Rooms &bull; Pickup &amp; Drop &bull; Hotel Category &bull; Meal Plan &bull; Vehicle Requirement &bull; Sightseeing Requirement &bull; Special Requests
+                        </div>
+                    </div>
+                    <div style="border-left: 1px solid rgba(26, 188, 156, 0.25); padding-left: 20px; min-width: 240px;">
+                        <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #1ABC9C; font-weight: 600;">B2B Email</div>
+                        <a href="mailto:hello@callinghills.com?subject=B2B%20Enquiry%20%7C%20Destination%20%7C%20Travel%20Date" style="color: var(--ch-mist); font-weight: 600; text-decoration: underline; font-size: 14px; display: block; margin: 2px 0;">hello@callinghills.com</a>
+                        <div style="font-size: 11px; color: var(--ch-mist-dim); margin-top: 3px;">Suggested Subject:<br><strong style="color: #2ECC71;">B2B Enquiry | Destination | Travel Date</strong></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- B2B Form Container -->
+            <div class="contact-form-container">
+                <form class="contact-form b2b-form" id="b2b-form" onsubmit="handleB2BSubmit(event)">
+                    <!-- Section 1: Partner / Agency Details -->
+                    <div style="margin-bottom: 28px; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 20px;">
+                        <div style="color: #1ABC9C; font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                            <span>🏢</span> Agency &amp; Contact Details
+                        </div>
+                        <div class="form-row-2col" style="margin-bottom: 16px;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Travel Agency / Company Name *</label>
+                                <input type="text" id="b2b-agency" class="form-control" placeholder="e.g. Himalayan Trails Holidays" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Contact Person &amp; City *</label>
+                                <input type="text" id="b2b-contact-person" class="form-control" placeholder="e.g. Rajesh Ghosh (Kolkata)" required>
+                            </div>
+                        </div>
+                        <div class="form-row-2col">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Official Email ID *</label>
+                                <input type="email" id="b2b-email" class="form-control" placeholder="agency@example.com" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Phone / WhatsApp Number *</label>
+                                <input type="tel" id="b2b-phone" class="form-control" placeholder="+91 98765 43210" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 2: Guest Trip Specifications -->
+                    <div style="margin-bottom: 24px;">
+                        <div style="color: #1ABC9C; font-size: 15px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                            <span>🧳</span> Guest &amp; Quotation Requirements
+                        </div>
+
+                        <!-- Travel Date & Destination -->
+                        <div class="form-row-2col" style="margin-bottom: 16px;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Travel Date *</label>
+                                <input type="text" id="b2b-travel-date" class="form-control" placeholder="e.g. 15th Oct 2026 or Nov 2nd Week" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Destination *</label>
+                                <select id="b2b-destination" class="form-control" required>
+                                    <option value="" disabled selected>Select Destination</option>
+                                    <option value="Darjeeling Hills">Darjeeling Hills</option>
+                                    <option value="Kalimpong Hills">Kalimpong Hills</option>
+                                    <option value="Dooars Wildlife & Forests">Dooars Wildlife &amp; Forests</option>
+                                    <option value="North Sikkim (Lachen, Lachung, Gurudongmar)">North Sikkim (Lachen, Lachung, Gurudongmar)</option>
+                                    <option value="East Sikkim & Old Silk Route (Zuluk)">East Sikkim &amp; Old Silk Route (Zuluk)</option>
+                                    <option value="West Sikkim (Pelling, Yuksom)">West Sikkim (Pelling, Yuksom)</option>
+                                    <option value="South Sikkim (Ravangla, Namchi)">South Sikkim (Ravangla, Namchi)</option>
+                                    <option value="Sandakphu - Phalut Trek">Sandakphu &ndash; Phalut Trek</option>
+                                    <option value="Complete Sikkim & Darjeeling Grand Tour">Complete Sikkim &amp; Darjeeling Grand Tour</option>
+                                    <option value="Custom Multi-Region">Custom Multi-Region</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Number of Guests, Rooms & Pickup/Drop -->
+                        <div class="form-row-3col" style="margin-bottom: 16px;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Number of Guests *</label>
+                                <input type="text" id="b2b-guests" class="form-control" placeholder="e.g. 4 Adults + 1 Child" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Number of Rooms *</label>
+                                <input type="text" id="b2b-rooms" class="form-control" placeholder="e.g. 2 DBL + 1 Extra Bed" required>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Pickup &amp; Drop *</label>
+                                <select id="b2b-pickup" class="form-control" required>
+                                    <option value="" disabled selected>Select Pickup &amp; Drop</option>
+                                    <option value="NJP Railway Station (Both Ways)">NJP Railway Station (Both Ways)</option>
+                                    <option value="Bagdogra Airport IXB (Both Ways)">Bagdogra Airport IXB (Both Ways)</option>
+                                    <option value="NJP Pickup & Bagdogra Drop">NJP Pickup &amp; Bagdogra Drop</option>
+                                    <option value="Pakyong Airport PYG (Sikkim)">Pakyong Airport PYG (Sikkim)</option>
+                                    <option value="Siliguri Town">Siliguri Town</option>
+                                    <option value="Custom Pickup / Drop">Custom Pickup / Drop</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Hotel Category, Meal Plan, Vehicle -->
+                        <div class="form-row-3col" style="margin-bottom: 16px;">
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Hotel Category *</label>
+                                <select id="b2b-hotel-cat" class="form-control" required>
+                                    <option value="" disabled selected>Select Hotel Category</option>
+                                    <option value="Standard / Budget Homestay">Standard / Budget Homestay</option>
+                                    <option value="Deluxe (3-Star Equivalent)">Deluxe (3-Star Equivalent)</option>
+                                    <option value="Super Deluxe / Kanchenjunga View">Super Deluxe / Kanchenjunga View</option>
+                                    <option value="Luxury / 4-5 Star Heritage Resort">Luxury / 4-5 Star Heritage Resort</option>
+                                    <option value="Curated Authentic Village Homestay">Curated Authentic Village Homestay</option>
+                                    <option value="Transport Only (No Hotel)">Transport Only (No Hotel)</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Meal Plan *</label>
+                                <select id="b2b-meal-plan" class="form-control" required>
+                                    <option value="" disabled selected>Select Meal Plan</option>
+                                    <option value="EP (Room Only)">EP (Room Only)</option>
+                                    <option value="CP (Breakfast Only)">CP (Breakfast Only)</option>
+                                    <option value="MAP (Breakfast + Dinner / Lunch)">MAP (Breakfast + Dinner / Lunch)</option>
+                                    <option value="AP (All Meals: Breakfast + Lunch + Dinner)">AP (All Meals: Breakfast + Lunch + Dinner)</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 0;">
+                                <label class="form-label">Vehicle Requirement *</label>
+                                <select id="b2b-vehicle" class="form-control" required>
+                                    <option value="" disabled selected>Select Vehicle</option>
+                                    <option value="Dedicated SUV (Innova / Crysta / Scorpio / Xylo)">Dedicated SUV (Innova / Crysta / Scorpio)</option>
+                                    <option value="Standard Hill SUV (Sumo / Bolero / Maxx)">Standard Hill SUV (Sumo / Bolero)</option>
+                                    <option value="Small Car (WagonR / Swift / Dzire / Sedan)">Small Car (WagonR / Swift / Sedan)</option>
+                                    <option value="Tempo Traveller (12 to 26 Seater)">Tempo Traveller (12 to 26 Seater)</option>
+                                    <option value="Point-to-Point Transfers Only">Point-to-Point Transfers Only</option>
+                                    <option value="No Vehicle Needed (Hotel Only)">No Vehicle Needed</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Sightseeing Requirement -->
+                        <div class="form-group" style="margin-bottom: 16px;">
+                            <label class="form-label">Sightseeing Requirement *</label>
+                            <select id="b2b-sightseeing" class="form-control" required>
+                                <option value="" disabled selected>Select Sightseeing Preference</option>
+                                <option value="Complete Standard Sightseeing as per Itinerary">Complete Standard Sightseeing as per Itinerary</option>
+                                <option value="Offbeat &amp; Village Experiences Focus">Offbeat &amp; Village Experiences Focus</option>
+                                <option value="Sightseeing + Sunrise Points (Tiger Hill, etc.)">Sightseeing + Sunrise Points (Tiger Hill, etc.)</option>
+                                <option value="High Altitude Special Permits (Nathula Pass / Zero Point / Gurudongmar)">High Altitude Special Permits (Nathula / Zero Point / Gurudongmar)</option>
+                                <option value="Point-to-Point Transfers Only (No Fixed Sightseeing)">Point-to-Point Transfers Only (No Fixed Sightseeing)</option>
+                                <option value="Custom Tailor-made Sightseeing Plan">Custom Tailor-made Sightseeing Plan</option>
+                            </select>
+                        </div>
+
+                        <!-- Special Requests -->
+                        <div class="form-group" style="margin-bottom: 24px;">
+                            <label class="form-label">Special Requests &amp; Guest Notes</label>
+                            <textarea id="b2b-special-requests" class="form-control" rows="3" placeholder="Specify guest dietary preferences (Jain / Veg / Non-veg), high-floor room request, guide requirement, senior citizen assistance, or specific itinerary notes..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button & Helper -->
+                    <div style="display: flex; flex-direction: column; gap: 12px;">
+                        <button type="submit" class="btn-submit" style="background: linear-gradient(135deg, #2ECC71, #1ABC9C); color: white; font-weight: 700; font-size: 16px; padding: 16px; text-transform: uppercase; letter-spacing: 0.06em; cursor: pointer; transition: all 0.3s ease; border: none; border-radius: 10px; box-shadow: 0 4px 20px rgba(46, 204, 113, 0.3);">
+                            SEND B2B ENQUIRY &rarr;
+                        </button>
+                        <div style="text-align: center; font-size: 13px; color: var(--ch-mist-dim); line-height: 1.5;">
+                            📧 Pre-formats an email to <strong style="color: #2ECC71;">hello@callinghills.com</strong> with your guest specifications for instant quotation.
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
-<footer class="footer">
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="footer">
         <div class="footer-watermark">CallingHills</div>
         <div class="footer-container">
             <div class="footer-top">
@@ -219,13 +415,14 @@
                     <p>Discover Hidden Trails, Hill Villages & Nature's Soul</p>
                 </div>
                 
-                                                <div class="footer-links">
+                <div class="footer-links">
                     <h4>Explore</h4>
                     <ul>
                         <li><a href="./destinations.html">Destinations</a></li>
                         <li><a href="./packages.html">Signature Packages</a></li>
-                        <li><a href="./treks.html">Trekking Routes</a></li>
+                        <li><a href="./hotels.html">Partner Hotels</a></li>
                         <li><a href="./about.html#services">Our Services</a></li>
+                        <li><a href="./about.html#faq">FAQ</a></li>
                     </ul>
                 </div>
                 
@@ -235,7 +432,7 @@
                         <li><a href="./about.html">About Us</a></li>
                         <li><a href="./gallery.html">Gallery</a></li>
                         <li><a href="./contact.html">Contact Us</a></li>
-                        <li><a href="#">B2B Partnership</a></li>
+                        <li><a href="#b2b-enquiry">B2B Partnership</a></li>
                     </ul>
                 </div>
                 
@@ -343,6 +540,56 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="./js/main.js"></script>
+
+    <!-- B2B Enquiry Script -->
+    <script>
+    function handleB2BSubmit(e) {
+        e.preventDefault();
+        const agency = document.getElementById('b2b-agency').value;
+        const person = document.getElementById('b2b-contact-person').value;
+        const email = document.getElementById('b2b-email').value;
+        const phone = document.getElementById('b2b-phone').value;
+        const travelDate = document.getElementById('b2b-travel-date').value;
+        const destination = document.getElementById('b2b-destination').value;
+        const guests = document.getElementById('b2b-guests').value;
+        const rooms = document.getElementById('b2b-rooms').value;
+        const pickup = document.getElementById('b2b-pickup').value;
+        const hotelCat = document.getElementById('b2b-hotel-cat').value;
+        const mealPlan = document.getElementById('b2b-meal-plan').value;
+        const vehicle = document.getElementById('b2b-vehicle').value;
+        const sightseeing = document.getElementById('b2b-sightseeing').value;
+        const requests = document.getElementById('b2b-special-requests').value || 'None';
+
+        const subject = encodeURIComponent(`B2B Enquiry | ${destination} | ${travelDate}`);
+        const body = encodeURIComponent(
+`B2B ENQUIRY DETAILS
+========================================
+Agency Name: ${agency}
+Contact Person: ${person}
+Official Email: ${email}
+Phone / WhatsApp: ${phone}
+
+GUEST & TRIP REQUIREMENTS
+========================================
+Travel Date: ${travelDate}
+Destination: ${destination}
+Number of Guests: ${guests}
+Number of Rooms: ${rooms}
+Pickup & Drop: ${pickup}
+Hotel Category: ${hotelCat}
+Meal Plan: ${mealPlan}
+Vehicle Requirement: ${vehicle}
+Sightseeing Requirement: ${sightseeing}
+Special Requests: ${requests}
+
+========================================
+Sent via CallingHills B2B Partner Portal`
+        );
+
+        window.location.href = `mailto:hello@callinghills.com?subject=${subject}&body=${body}`;
+        alert('Thank you! Your B2B Enquiry details have been prepared. Please send the pre-filled email to hello@callinghills.com for a prompt quotation.');
+    }
+    </script>
 </body>
 </html>
 

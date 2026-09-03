@@ -444,6 +444,7 @@
                         <li><a href="./packages.html">Signature Packages</a></li>
                         <li><a href="./treks.html">Trekking Routes</a></li>
                         <li><a href="./about.html#services">Our Services</a></li>
+                        <li><a href="./about.html#faq">FAQ</a></li>
                     </ul>
                 </div>
                 
@@ -453,7 +454,7 @@
                         <li><a href="./about.html">About Us</a></li>
                         <li><a href="./gallery.html">Gallery</a></li>
                         <li><a href="./contact.html">Contact Us</a></li>
-                        <li><a href="#">B2B Partnership</a></li>
+                        <li><a href="./contact.html#b2b-enquiry">B2B Partnership</a></li>
                     </ul>
                 </div>
                 
@@ -562,100 +563,228 @@
     // ═══════════ REVIEWS DATA & RENDERING ═══════════
     const reviews = [
         {
-            text: "CallingHills made our Darjeeling trip absolutely magical. The sunrise at Tiger Hill was breathtaking, and our guide knew every hidden tea garden. We felt like locals, not tourists.",
-            name: "Priya Sharma",
-            from: "Mumbai",
-            trip: "Darjeeling Leisure",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/women/44.jpg"
+            text: `We visited Tinchuley,Darjeeling and Sittong,last month,(May 2026) with "Calling Hills". From top to bottom,all of their services grabbed my attention and gratitude for sure.<br><br>3 star category properties with kanchenjunga view rooms.<br><br>Delicious Bengali meals, 2times a day including breakfast and evening snacks, served hot and fresh.<br><br>Very experienced driver and a neat and clean vehicle,for sightseeing and traveling across the mountain trails.<br><br>24×7 Direct communication setup with the owner (Mr. Arijit),via WhatsApp and call. He is extremely professional,trained,well behaved, generous and truly a gentleman.<br>They kept all their promises, including breathtaking mountain views,tea estates,lakes,pine forests and more of a heaven! No time limit while sightseeing,very cooperative, adjustable and flexible too! Moreover,he kept on listening to our issues, cleared our doubts and gave us the most memorable trip our life, with wide greenery and unreal landscapes of the magical hillstation darjeeling.<br>I will highly recommend everyone out there to not fall into any traps with scammer travel agents who are running their fake agencies in Siliguri,and instead travel with calling hills and be tension free!<br>Thank you so much Arijit Da and Oindrila Di☺️`,
+            name: "Debdip Chakraborty.",
+            from: "Google Review",
+            trip: "Darjeeling & Sittong",
+            stars: 5
         },
         {
-            text: "The Sandakphu trek was challenging but incredibly rewarding. Seeing four of the world's highest peaks in one panoramic view is something I'll never forget. CallingHills arranged everything perfectly.",
-            name: "Arjun Mehta",
-            from: "Delhi",
-            trip: "Sandakphu Trek",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/men/32.jpg"
+            text: `One of the best travell agency in darjeeling situated at Darjeeling to provide us to full comfort and safety with delicious food and and stay`,
+            name: "Smriti Dewan",
+            from: "Google Review",
+            trip: "Darjeeling Trip",
+            stars: 5
         },
         {
-            text: "We took the North Sikkim package and were blown away. From Gurudongmar Lake to Yumthang Valley, every moment felt like a painting come alive. The team was extremely supportive throughout.",
-            name: "Sneha Patel",
-            from: "Ahmedabad",
-            trip: "North Sikkim",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/women/68.jpg"
+            text: `Best services, wonderful experience, Thank you CallingHills for hotel management, driver support, good food and good experience.`,
+            name: "Tapas Das",
+            from: "Google Review",
+            trip: "Hotel & Cab Services",
+            stars: 5
         },
         {
-            text: "Best wildlife experience in Dooars! We spotted a one-horned rhino at Gorumara and the jungle safari at Jaldapara was incredible. CallingHills' local expertise made all the difference.",
-            name: "Rahul Das",
-            from: "Kolkata",
-            trip: "Dooars Wildlife",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/men/75.jpg"
+            text: `Nice experience with callinghills, management, vehicle,driver,hotel, homestay, hospitality,hosting was excellent. But weather was not clear.`,
+            name: "Aneek Modak",
+            from: "Google Review",
+            trip: "Homestay Tour",
+            stars: 4
         },
         {
-            text: "Our honeymoon in Kalimpong was perfectly curated. The peaceful monasteries, stunning Delo Hill views, and that cozy homestay — every detail was thoughtfully planned.",
-            name: "Aishwarya Nair",
-            from: "Bengaluru",
-            trip: "Kalimpong Retreat",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/women/89.jpg"
+            text: `The food was wonderful, their behavior and service were all very good. The driver was also very nice, and the rooms were excellent. Everyone in my family liked it very much. Thank you so much dii ❤️`,
+            name: "Labani Das",
+            from: "Google Review",
+            trip: "Family Trip",
+            stars: 5
         },
         {
-            text: "The Silk Route trip through old trade paths was fascinating. Zuluk's hairpin bends, Nathang Valley's moonscape, and Aritar Lake — CallingHills showed us a Sikkim most people never see.",
-            name: "Vikram Singh",
-            from: "Jaipur",
-            trip: "Sikkim Silk Route",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/men/52.jpg"
+            text: `We were a group of college friends who went on a 4 nights 5 days trip with CallingHills, covering Mairong Gaon (2 nights) and Rishop (1 night)—and it turned out to be one of our most memorable journeys!<br><br>The places were peaceful, raw, and beautiful—far from the tourist crowd. Everything was well managed: stay, food, transport, and the local guidance. The CallingHills team was helpful, warm, and always available when we needed something.<br><br>One of our favorite moments was sitting together under the stars in Mairong Gaon, singing songs around a small campfire with the locals joining in. That memory will stay with us forever.<br><br>We highly recommend CallingHills not just for college groups, but also for families, solo travelers, nature lovers, and travel bloggers who want to explore real, offbeat North Bengal in a responsible and heartfelt way.<br><br>Thank you, CallingHills, for making this trip so special!`,
+            name: "Amal Sarkar",
+            from: "Google Review",
+            trip: "Group Trip",
+            stars: 5
         },
         {
-            text: "I travelled solo and CallingHills made me feel completely safe and welcome. The offbeat village stays near Darjeeling were the highlight. Authentic chai, warm hosts, and zero crowds!",
-            name: "Meera Iyer",
-            from: "Chennai",
-            trip: "Offbeat Darjeeling",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/women/26.jpg"
+            text: `Outstanding experience, Thank you CallingHills❤️ for the memorable moments`,
+            name: "Pradip Das",
+            from: "Google Review",
+            trip: "Memorable Journey",
+            stars: 5
         },
         {
-            text: "Took my parents on the Gangtok–Pelling trip. The pace was perfect for seniors, and the team was incredibly patient and caring. Mom still talks about the view from Pelling!",
-            name: "Sanjay Gupta",
-            from: "Lucknow",
-            trip: "Gangtok–Pelling",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/men/46.jpg"
+            text: `Amazing experience, with calling hills<br>1. 24*7 available<br>2. They provide bonus sightseeing point when crowd is very less.<br>3. Commitment on point<br><br>Thankyou ❤️<br>Will reach you again ✌️`,
+            name: "Sheikh Aman",
+            from: "Google Review",
+            trip: "Custom Sightseeing",
+            stars: 5
         },
         {
-            text: "The Goechala trek was the most challenging and rewarding thing I've ever done. CallingHills' experienced mountain guides kept us safe through every pass and glacier.",
-            name: "Tanvi Reddy",
-            from: "Hyderabad",
-            trip: "Goechala Trek",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/women/57.jpg"
+            text: `As a solo traveler, CallingHills was the perfect retreat. I came here to disconnect from city life and reconnect with nature — and it delivered beyond expectations. The peaceful surroundings, fresh mountain air, and scenic views helped me truly relax.<br><br>The staff were kind, attentive, and made me feel completely at home. I also appreciated the thoughtful details — from the delicious local food to the nature trails nearby. Highly recommend for anyone looking for a solo escape into the calm of North Bengal.`,
+            name: "Surajit Mukherjee",
+            from: "Google Review",
+            trip: "Solo Retreat",
+            stars: 5
         },
         {
-            text: "We booked a customized family trip covering Darjeeling, Kalimpong, and Dooars in 8 days. The itinerary was flawless — not rushed at all. Kids loved the toy train and jungle safari!",
-            name: "Amit Banerjee",
-            from: "Pune",
-            trip: "Custom Family Trip",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/men/22.jpg"
+            text: `Outstanding experience, Thanks CallingHills❤️ for the memorable moments.<br>Homestay was excellent, Driver behaviour and responsibility unbelievable. CallingHills's team always supported us. Well planning , Budget friendly. Allover 10/10❤️`,
+            name: "Rita Paul",
+            from: "Google Review",
+            trip: "Homestay Experience",
+            stars: 5
         },
         {
-            text: "Rhododendron season in Barsey was like walking through a painting. The flowers, the mist, the silence — CallingHills timed everything perfectly. Absolutely stunning experience.",
-            name: "Kavita Joshi",
-            from: "Dehradun",
-            trip: "Barsey Trek",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/women/33.jpg"
+            text: `Our experience was wonderful with wonderful views. Stay was amazing. All together it's a heavenly experience`,
+            name: "Sangita sarker",
+            from: "Google Review",
+            trip: "Heavenly Stay",
+            stars: 5
         },
         {
-            text: "As a photographer, I needed flexible timings and remote locations. CallingHills understood my needs perfectly. Got the most incredible shots of Kanchenjunga I've ever taken.",
-            name: "Rohan Kapoor",
-            from: "Chandigarh",
-            trip: "Photography Tour",
-            stars: 5,
-            image: "https://randomuser.me/api/portraits/men/67.jpg"
+            text: `Rooms, Driver, vehicle, homestay everything are good. Recommended all to choose Callinghills.`,
+            name: "SADANANDA PAL",
+            from: "Google Review",
+            trip: "Complete Package",
+            stars: 5
+        },
+        {
+            text: `We were a group of 4 friends looking for a peaceful and offbeat Himalayan experience — and CallingHills gave us exactly that.<br><br>Our journey began from Dhotrey, a beautiful village surrounded by pine forests. The walk to Tumling was refreshing, and the first glimpse of the Sleeping Buddha range made us all speechless. At Tonglu, we stayed in a simple and warm homestay — the views and the local food were perfect.<br><br>The team from CallingHills ensured everything went smoothly. The trek to Manebhanjan was well-planned, with time for rest and local interaction. We especially loved our stop at Majua, a quiet village with forest vibes — very peaceful and soulful.<br><br>Finally, we reached NJP with tired legs but happy hearts. It was a short trip, but full of nature, friendship, and emotion.<br><br>Thanks to CallingHills for the perfect planning, safety, and genuine hospitality. Highly recommended for small groups who love nature and want something different from regular tourist spots.`,
+            name: "Joy biswas Roy",
+            from: "Google Review",
+            trip: "Offbeat Himalayas",
+            stars: 5
+        },
+        {
+            text: `"We travelled to Sittong, Dawaipani, and Darjeeling through CallingHills, and it turned out to be one of the most beautiful journeys of our lives. From the very beginning, the CallingHills team guided us with perfect planning, personalized suggestions, and clear communication.<br><br>The hotels selected by CallingHills were exactly as promised — clean rooms, peaceful surroundings, and tasty homely food served fresh. We especially appreciated the warm and polite behaviour of the hotel staff, who treated us with care and made our stay very comfortable.<br><br>The car and driver arranged by CallingHills added to the experience. The driver was punctual, reliable, and extremely safe on the mountain roads. He also shared local insights and helped us enjoy hidden offbeat places in Sittong and Dawaipani that we would have otherwise missed.<br><br>What makes CallingHills truly special is their complete support system — right from hotel booking, food arrangements, and car service to constant guidance during the journey. They don’t just arrange a trip, they create an emotional travel experience where you feel cared for at every step.<br><br>For anyone looking to explore Darjeeling, Sittong, Dawaipani, or any offbeat North Bengal destination, I can confidently say CallingHills is the most reliable, professional, and friendly travel partner you can trust."`,
+            name: "Sk Shoaib Akhtar",
+            from: "Google Review",
+            trip: "Sittong & Dawaipani",
+            stars: 5
+        },
+        {
+            text: `Very polite and very good management . We are very pleased . Thank you for lovely arrangement.`,
+            name: "Tours And Bites",
+            from: "Google Review",
+            trip: "Great Arrangement",
+            stars: 5
+        },
+        {
+            text: `If you love quiet forests, misty hills, and local culture, CallingHills is the way to go. Every detail was taken care of. Felt like home away from home."<br>— Laxmi Paul`,
+            name: "Laxmi Paul",
+            from: "Google Review",
+            trip: "Forest & Culture Tour",
+            stars: 5
+        },
+        {
+            text: `Beautiful stay with warm hospitality and stunning views. Felt like home in the hills.<br>I'm very satisfied<br>10/10`,
+            name: "Ritwik Tah",
+            from: "Google Review",
+            trip: "Warm Hospitality",
+            stars: 5
+        },
+        {
+            text: `Very good service`,
+            name: "Sushanta Pramanik",
+            from: "Google Review",
+            trip: "Himalayan Tour",
+            stars: 5
+        },
+        {
+            text: `Very good service`,
+            name: "gaming tanmay",
+            from: "Google Review",
+            trip: "Himalayan Tour",
+            stars: 5
+        },
+        {
+            text: `Had an excellent journey with callinghills, form now on hills will be calling you more..`,
+            name: "SUCHETAN mandal",
+            from: "Google Review",
+            trip: "Excellent Journey",
+            stars: 5
+        },
+        {
+            text: `Excellent customer service`,
+            name: "Suhina Dhar",
+            from: "Google Review",
+            trip: "Great Service",
+            stars: 5
+        },
+        {
+            text: `Very good survice...<br>I'm very satisfied`,
+            name: "robin adhikary",
+            from: "Google Review",
+            trip: "Satisfying Tour",
+            stars: 5
+        },
+        {
+            text: `5 star services`,
+            name: "Anil Modak",
+            from: "Google Review",
+            trip: "5 Star Service",
+            stars: 5
+        },
+        {
+            text: `Very good service`,
+            name: "Manika Pramanik",
+            from: "Google Review",
+            trip: "Good Service",
+            stars: 5
+        },
+        {
+            text: `Best Services`,
+            name: "Sunil Modak",
+            from: "Google Review",
+            trip: "Best Services",
+            stars: 5
+        },
+        {
+            text: `Very good service`,
+            name: "Priyanka Chatterjee",
+            from: "Google Review",
+            trip: "Himalayan Tour",
+            stars: 5
+        },
+        {
+            text: `We had a 3 Night 4 Days Darjeeling and Dawaipani trip with Calling Hills and it was one of the best experiences I have ever had with any travel agency. They are very polite, supportive and always take care of us. Great food, cozy homestays and hotels with amazing views. Special mention to the driver - he was really nice and sweet. We had a great experience, would recommend everyone to go with Calling Hills. Thank you! ❤️`,
+            name: "Lina Bisai",
+            from: "Google Review",
+            trip: "Darjeeling & Dawaipani",
+            stars: 5
+        },
+        {
+            text: `⭐⭐⭐⭐⭐ A Wonderful and Memorable Experience with Calling Hills<br>Traveling with Calling Hills was truly a delightful experience from start to finish.<br>After my son's school exams were over, we were unsure about where to go for a vacation. That's when we contacted Calling Hills, and despite the short notice, they planned a wonderful  off beat derjeeling tour for us.<br>The service provided by the team was excellent. Our driver was  professional, the homestays were comfortable, and the food served at every homestay was delicious and homely.<br>A special mention goes to the Peshok Homestay, which was undoubtedly the highlight of our trip. The owner personally stayed in touch with us throughout our stay.  To make it even more special, the homestay offered a breathtaking view of a beautiful waterfall, which made our stay even more memorable.<br>A heartfelt thank you to Calling Hills for planning such a beautiful and well-organized tour.`,
+            name: "Aishik Pal",
+            from: "Google Review",
+            trip: "Delightful Experience",
+            stars: 5
+        },
+        {
+            text: `I took car service and it was very satisfying experience!`,
+            name: "joydeep mukherjee",
+            from: "Google Review",
+            trip: "Car Service",
+            stars: 5
+        },
+        {
+            text: ``,
+            name: "Sangrilla Paul",
+            from: "Google Review",
+            trip: "Great Experience",
+            stars: 5
+        },
+        {
+            text: ``,
+            name: "Suvojit Paul",
+            from: "Google Review",
+            trip: "Great Experience",
+            stars: 5
+        },
+        {
+            text: ``,
+            name: "Sandipan Tah",
+            from: "Google Review",
+            trip: "Great Experience",
+            stars: 5
         }
     ];
 
@@ -664,16 +793,20 @@
     }
 
     function createCard(review) {
+        let textHtml = '';
+        if (review.text && review.text.trim() !== '' && review.text !== '[No review text provided]') {
+            textHtml = `<p class="review-text">"${review.text}"</p>`;
+        }
+        
         return `
             <div class="review-card">
                 <div class="review-stars">${createStars(review.stars)}</div>
-                <p class="review-text">"${review.text}"</p>
+                ${textHtml}
                 <div class="review-trip-tag">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                     ${review.trip}
                 </div>
                 <div class="review-author">
-                    <img src="${review.image}" alt="${review.name}" class="review-avatar" loading="lazy">
                     <div class="review-author-info">
                         <div class="review-author-name">${review.name}</div>
                         <div class="review-author-from">${review.from}</div>
@@ -683,10 +816,9 @@
         `;
     }
 
-    // Split into 3 columns and duplicate for infinite scroll
-    const col1Data = reviews.slice(0, 4);
-    const col2Data = reviews.slice(4, 8);
-    const col3Data = reviews.slice(8, 12);
+    const col1Data = reviews.slice(0, 11);
+    const col2Data = reviews.slice(11, 22);
+    const col3Data = reviews.slice(22, 32);
 
     function renderColumn(el, data) {
         // Duplicate the data twice for seamless looping
