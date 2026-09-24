@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CallingHills — Offbeat Himalayan Journeys | Darjeeling · Kalimpong · Dooars · Sikkim</title>
+    <title>CallingHills — Explore the Best of North Bengal & Sikkim</title>
     <meta name="description" content="Discover soulful, offbeat Himalayan travel experiences across Darjeeling, Kalimpong, Dooars & Sikkim. Handcrafted journeys that answer with adventure.">
 
     <!-- Fonts -->
@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/main.css?v=2">
+    <link rel="stylesheet" href="./css/destinations.css?v=1">
     <link rel="icon" type="image/png" href="./logo up.jpeg">
 </head>
 <body>
@@ -66,161 +67,170 @@
         <a href="./packages.html" style="color: var(--ch-gold); margin-top: 16px;">Plan My Trip &rarr;</a>
     </div>
 
-<div style="height: 72px;"></div>
-<section class="destinations-section" id="destinations">
-        <div class="dest-container">
-            <div class="section-tag">✦ WHERE WE TAKE YOU</div>
-            <h2 class="section-title" style="margin-bottom: 12px;">Handpicked Destinations</h2>
-            <p style="font-family: var(--font-body); font-size: 18px; color: var(--ch-text-mid); max-width: 600px;">
-                From misty tea gardens to ancient monasteries — explore the hidden soul of the Eastern Himalayas.
-            </p>
+    <div style="height: 72px;"></div>
 
-            <div class="dest-grid">
-                <!-- Card 1: Darjeeling -->
-                <div class="dest-card">
-                    <div class="dest-image-wrapper">
-                        <img src="dest-darjeeling.png" alt="Aerial view of Darjeeling tea gardens with Kanchenjunga" loading="lazy">
-                    </div>
-                    <div class="dest-content">
-                        <h3 class="dest-title">Darjeeling Hills</h3>
-                        <div class="dest-tagline">"Queen of the Hills — but the offbeat side"</div>
-                        
-                        <div class="dest-blog">
-                            Darjeeling is not just Tiger Hill and the famous toy train. The real magic lives in its hidden corners — Dawaipani's pine-clad slopes, Rishihat's tea garden homestays, the suspension bridges of Jogighat, the misty trails of Lepchajagat. With CallingHills, you'll skip the tourist queues and walk into the living, breathing Darjeeling that locals know and love.
-                        </div>
-                        
-                        <div class="dest-spots">
-                            Darjeeling Town · Kurseong · Mirik · Sittong I · Sittong II · Sittong III · Upper Sittong · Jogighat · Mungpoo · Ahaldara · Latpanchar · Lamahatta · Tinchuley · Takdah · Dawaipani · Chatakpur · Lepchajagat · Rangaroon · Rishihaat · Bara Mangwa · Chota Mangwa · Peshok · Rangli Rangliot · Tukvar · Mineral Spring · Tabakoshi · Sukhia Pokhri · Simana · Soureni · Manebhanjan · Chitrey · Tonglu · Tumling · Meghma · Gairibas · Kalipokhri · Sandakphu · Phalut · Gurdum · Srikhola · Ramam · Rimbik · Bijanbari · Rangeet Majua · Pal Majua · Lebong · Ghoom · Sonada · Chimney Village · Mahaldiram · Dudhia · Longview Tea Estate · Mim Tea Estate · Puttabong Tea Estate · Rampuria · Lamagaon · Pokhriabong · Shivkhola · Lopchu · Jorebungalow<br><br>
-                            🥾 <b>Sandakphu Region:</b> Manebhanjan · Chitrey · Meghma · Tonglu · Tumling · Gairibas · Kalipokhri · Bikheybhanjang · Sandakphu · Sabarkum · Phalut · Gorkhey · Samanden · Ramam · Srikhola · Rimbik · Dhotrey · Lamhaydhura · Sepi · Timburey · Bhareng · Molley · Aal · Ribdi · Sabargram · Singalila National Park · Singalila Ridge · Tonglu Top · Tumling View Area · Kalipokhri Lake · Sandakphu View Point · Phalut Top · Gurdum · Habre's Nest · Kaiyakatta · Jaubari · Chia Bhanjyang
-                        </div>
-                        
-                        <div class="dest-ctas">
-                            <button class="btn-primary">Enquire Now &rarr;</button>
-                            <button class="btn-more-details" data-region="darjeeling" onclick="openRegionPopup('darjeeling')">More Details</button>
-                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
-                        </div>
-                        <!-- pdf links removed -->
-                    </div>
-                </div>
+    <!-- ═══════════ DESTINATION HUB PAGE ═══════════ -->
+    <div class="dest-page-wrapper">
 
-                <!-- Card 2: Kalimpong -->
-                <div class="dest-card">
-                    <div class="dest-image-wrapper">
-                        <img src="dest-kalimpong.png" alt="Kalimpong hillside monastery and flower gardens" loading="lazy">
-                    </div>
-                    <div class="dest-content">
-                        <h3 class="dest-title">Kalimpong Hills</h3>
-                        <div class="dest-tagline">"Orchids, monks, and mountain roads"</div>
-                        
-                        <div class="dest-blog">
-                            Kalimpong is the quieter cousin of Darjeeling — and all the better for it. Its hillsides bloom with orchids, its lanes hum with a quieter kind of life. From the bird-watching forests of Kolakham and Rishop to the fog-draped meadows of Loleygaon and Sillery Gaon, Kalimpong rewards the traveller who slows down and looks closely.
-                        </div>
-                        
-                        <div class="dest-spots">
-                            Kalimpong Town · Deolo · Durpin Dara · Lava · Lolegaon · Rishop · Kolakham · Pedong · Sillery Gaon · Ramdhura · Icchey Gaon · Charkhole · Reshi · Rishi Khola · Munsong · Algarah · Lingsey · Fikkalay Gaon · Dara Gaon · Kaffer Gaon · Chuikhim · Rikisum · Damsang · Chibo · Gitdubling · Pabong · Rongli · Todey · Tangta · Sangsay · Chisang · Dalapchand · Samthar · Ringking · Paiyong · Bhalukhop · Tarkhola · Reshep · Silent Valley · Duka Valley · Kagey · Jhandi Dara · Nokdara Lake · Pankhasari · Sakyong · Yangmakum · Purbong · Sindibong · Teesta Bazaar · Mayrong Gaon · Sinji · Dalimtar · Mulkharka · Lolay Khasmahal · Sangser · Sangtok · Pabringtar · Bidyang · Samabeong Tea Estate · Tendrabong · Jhepi · Kharka Gaon · Kashyone · Tinchuley Gaon · Bhotaykharka · Kankebong · Rambi · Lohapul
-                        </div>
-                        
-                        <div class="dest-ctas">
-                            <button class="btn-primary">Enquire Now &rarr;</button>
-                            <button class="btn-more-details" data-region="kalimpong" onclick="openRegionPopup('kalimpong')">More Details</button>
-                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
-                        </div>
-                        <!-- pdf links removed -->
-                    </div>
-                </div>
+        <!-- HERO BANNER -->
+        <section class="dh-hero" id="dh-hero">
 
-                <!-- Card 3: Dooars -->
-                <div class="dest-card">
-                    <div class="dest-image-wrapper">
-                        <img src="dest-dooars.png" alt="Dooars jungle road with elephant silhouette" loading="lazy">
-                    </div>
-                    <div class="dest-content">
-                        <h3 class="dest-title">Dooars</h3>
-                        <div class="dest-tagline">"The doorway to the Eastern Himalayas"</div>
-                        
-                        <div class="dest-blog">
-                            Dooars — literally "the doors" — is where the plains meet the mountains in a rush of green. Riverbed campsites, jungle jeep safaris, birdwatcher's paradises, and elephant corridors make this one of India's most underrated wilderness zones. CallingHills takes you to Jhalong's riverside camps and Rocky Island's wildness.
-                        </div>
-                        
-                        <div class="dest-spots">
-                            Gorumara · Jaldapara · Chilapata · Buxa · Jayanti · Rajabhatkhawa · Raimatang · Lepchakha · Murti · Samsing · Suntalekhola · Rocky Island · Jhalong · Bindu · Paren · Gorubathan · Chapramari · Lataguri · Chalsa · Nagrakata · Totopara · Hollong · Madarihat · Rongo · Bhutanghat · Turturi · Dangi · Panbari · South Khayerbari · Mendabari · Kalchini · Hasimara · Kumargram · Batabari · Dhupjhora · Gajoldoba · Rasikbil · Pabhojhora · Nimati · Garuchira · Bichabhanga · Chekamari · Laliguras · Salkumarhat · Cooch Behar · Hamiltonganj · Kumargramduar · Alipurduar · Falakata · Khayerbari · Damanpur · Uttar Mendabari · South Mendabari · Sisamara · Phaskhawa · Rydak · Chunia · Jatraprasad · Rhino Point · Medla · Bania River Side · Sikiajhora · Khunia · Jaldhaka · Diana River
-                        </div>
-                        
-                        <div class="dest-ctas">
-                            <button class="btn-primary">Enquire Now &rarr;</button>
-                            <button class="btn-more-details" data-region="dooars" onclick="openRegionPopup('dooars')">More Details</button>
-                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
-                        </div>
-                        <!-- pdf links removed -->
-                    </div>
+            <div class="dh-hero-content">
+                <h1>Explore the<span>Best of North Bengal & Sikkim</span></h1>
+                <div class="dh-hero-tags">
+                    <span>Hills</span>
+                    <span>Forests</span>
+                    <span>Rivers</span>
+                    <span>Culture</span>
                 </div>
-
-                <!-- Card 4: Sikkim -->
-                <div class="dest-card">
-                    <div class="dest-image-wrapper">
-                        <img src="dest-sikkim.png" alt="Yuksom monastery courtyard with Kanchenjunga" loading="lazy">
-                    </div>
-                    <div class="dest-content">
-                        <h3 class="dest-title">All Over Sikkim</h3>
-                        <div class="dest-tagline">"Four directions, four kinds of wonder"</div>
-                        
-                        <div class="dest-blog">
-                            Sikkim is one state with four completely different souls. North Sikkim offers high-altitude valleys and yak meadows. West Sikkim is all sacred forests and monastery trails. East Sikkim has the legendary Silk Route. South Sikkim holds the tea estates. CallingHills builds your Sikkim story around the direction that calls to you.
-                        </div>
-                        
-                        <div class="dest-spots">
-                            🏔️ <b>North:</b> Mangan · Singhik · Seven Sisters Waterfall · Naga Waterfall · Amitabh Bachchan Waterfall · Chungthang · Bhim Nala Waterfall · Lachen · Gurudongmar Lake · Thangu Valley · Chopta Valley · Kala Patthar · Sasoma · Muguthang · Tso Lhamo Lake · Lachung · Yumthang Valley · Zero Point (Yumesamdong) · Katao · Shingba Rhododendron Sanctuary · Yumthang Hot Spring · Dzongu · Passingdang · Rong Lungten Lee · Tingvong · Lingdem · Hee Gyathang · Phodong · Phensang · Namprikdang<br><br>
-                            ☀️ <b>South:</b> Namchi · Ravangla · Buddha Park · Samdruptse · Siddhesvara Dham (Char Dham) · Temi Tea Garden · Tendong · Maenam · Borong · Ralong · Kewzing · Yangang · Tarey Bhir · Jorethang · Sikip · Narsing Village · Damthang · Borong Hot Spring · Old Ralong Monastery · New Ralong Monastery · Doling Gompa · Poklok · Mamley · Bermiok · Chalamthang · Kitam Bird Sanctuary · Namchi Rock Garden · Kewzing Village · Maenam Wildlife Sanctuary · Kitchudumra · Phurchachu · Assangthang · Tarku · Melli · Payong<br><br>
-                            🛣️ <b>East:</b> Gangtok · Rumtek · Rumtek Monastery · Lingdum · Ranka · Ranka Monastery · Tsomgo Lake (Changu Lake) · Nathula Pass · Baba Harbhajan Singh Mandir · Old Baba Mandir · Kupup · Elephant Lake · Sherathang · Kyongnosla Alpine Sanctuary · Zuluk · Padamchen · Lungthung · Gnathang Valley · Tukla Valley · Tukla War Memorial · Zig Zag Road (Zuluk Loops) · Aritar · Lampokhari Lake · Mankhim · Rolep · Rongli · Rorathang · Reshikhola · Sillery Gaon · Icchey Gaon · Kabi Lungchok · Fambong Lho Wildlife Sanctuary · Enchey Monastery · Ganesh Tok · Hanuman Tok · Tashi View Point · Ban Jhakri Falls · Banjhakri Energy Park · Bakthang Waterfall · Himalayan Zoological Park · Ridge Park · Flower Exhibition Centre · MG Marg · Lal Bazaar · Nam Nam View Point · Tsuklakhang Palace · Do Drul Chorten · Jawaharlal Nehru Botanical Garden · Pakyong<br><br>
-                            🌿 <b>West:</b> Pelling · Geyzing (Gyalshing) · Yuksom · Khecheopalri Lake · Pemayangtse Monastery · Rabdentse Ruins · Sanga Choeling Monastery · Chenrezig Statue · Pelling Sky Walk · Rimbi Waterfall · Kanchenjunga Waterfall · Sewaro Rock Garden · Darap Village · Dentam · Uttarey · Rinchenpong · Kaluk · Hee Bermiok · Okhrey · Varsey · Singshore Bridge · Yangtey · Soreng · Tashiding Monastery · Dubdi Monastery · Kartok Monastery · Uttarey Trout Farm · Varsey Rhododendron Sanctuary · Yuksom Coronation Throne · Khangchendzonga National Park Entry Point · Tikjuk · Mabong · Buriakhop · Hee Water Garden · Karthok Lake · Chayatal · Reshi Hot Spring · Sombaria · Nayabazar · Nambu
-                        </div>
-                        
-                        <div class="dest-ctas">
-                            <button class="btn-primary">Enquire Now &rarr;</button>
-                            <button class="btn-more-details" data-region="sikkim" onclick="openRegionPopup('sikkim')">More Details</button>
-                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
-                        </div>
-                        <!-- pdf links removed -->
-                    </div>
-                </div>
-            
-                <!-- Animated Summary Text -->
-                <div class="dest-summary-text" id="karaoke-text">
-                    <p>Darjeeling Hills, Kalimpong Hills, Dooars, and Sikkim together offer a unique blend of natural beauty, culture, wildlife, and adventure in the Eastern Himalayas. The Darjeeling Hills are famous for their rolling tea gardens, colonial heritage, stunning views of Kanchenjunga, and the historic Darjeeling Himalayan Railway. Visitors can explore monasteries, bustling markets, and experience the region’s rich Himalayan culture.</p>
-                    <p>The Kalimpong Hills provide a peaceful mountain retreat with scenic viewpoints, flower nurseries, monasteries, and charming villages, making it an ideal destination for relaxation and nature lovers.</p>
-                    <p>The Dooars, located in the Himalayan foothills, is known for its lush forests, tea estates, rivers, and abundant wildlife. Attractions such as Jaldapara National Park and Gorumara National Park offer exciting wildlife experiences.</p>
-                    <p>Meanwhile, Sikkim enchants travelers with snow-capped peaks, alpine lakes, Buddhist monasteries, and breathtaking landscapes. Together, these destinations create a complete Himalayan experience suitable for families, couples, nature enthusiasts, and adventure seekers throughout the year.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Full-screen Region Details Popup -->
-    <div class="region-popup-overlay" id="region-popup-overlay" onclick="closeRegionPopup()"></div>
-    <div class="region-popup" id="region-popup">
-        <button class="region-popup-close" onclick="closeRegionPopup()">&times;</button>
-        <div class="region-popup-layout">
-            <div class="region-popup-sidebar" id="region-popup-sidebar">
-                <!-- Sidebar items injected by JS -->
-            </div>
-            <div class="region-popup-content" id="region-popup-content">
-                <div class="region-popup-header">
-                    <h2 id="region-popup-title">Region Details</h2>
-                    <p id="region-popup-desc">Explore the detailed list of destinations.</p>
-                </div>
-                <div class="region-popup-body" id="region-popup-body">
-                    <!-- Wikipedia-style content injected by JS -->
+                <p class="dh-hero-desc">
+                    Offbeat destinations, authentic experiences, memories for a lifetime. Discover the hidden soul of the Eastern Himalayas with CallingHills.
+                </p>
+                <!-- Search Bar -->
+                <div class="dh-search">
+                    <input type="text" id="dest-search-input" placeholder="Search destinations, places, experiences..." autocomplete="off">
+                    <button onclick="performSearch()">Search</button>
                 </div>
             </div>
+        </section>
+
+        <!-- POPULAR DESTINATIONS -->
+        <section class="dh-regions" id="dh-regions">
+            <h2 class="dh-regions-title">Popular Destinations</h2>
+            <p class="dh-regions-sub">Handpicked destinations for your next adventure</p>
+            <div class="dh-regions-grid" id="regions-grid">
+                <!-- Darjeeling -->
+                <a class="dh-region-card" href="destination-region.html?region=darjeeling" id="card-darjeeling">
+                    <div class="dh-region-card-bg" style="background-image: url('dest-darjeeling.png')"></div>
+                    <div class="dh-region-card-content">
+                        <div>
+                            <h3>Darjeeling</h3>
+                            <div class="card-subtitle">The Queen of Hills</div>
+                        </div>
+                        <div class="card-arrow">
+                            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Kalimpong -->
+                <a class="dh-region-card" href="destination-region.html?region=kalimpong" id="card-kalimpong">
+                    <div class="dh-region-card-bg" style="background-image: url('dest-kalimpong.png')"></div>
+                    <div class="dh-region-card-content">
+                        <div>
+                            <h3>Kalimpong</h3>
+                            <div class="card-subtitle">A Land of Serenity</div>
+                        </div>
+                        <div class="card-arrow">
+                            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Dooars -->
+                <a class="dh-region-card" href="destination-region.html?region=dooars" id="card-dooars">
+                    <div class="dh-region-card-bg" style="background-image: url('dest-dooars.png')"></div>
+                    <div class="dh-region-card-content">
+                        <div>
+                            <h3>Dooars</h3>
+                            <div class="card-subtitle">The Doorway to the Himalayas</div>
+                        </div>
+                        <div class="card-arrow">
+                            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Sikkim -->
+                <a class="dh-region-card" href="destination-region.html?region=sikkim" id="card-sikkim">
+                    <div class="dh-region-card-bg" style="background-image: url('dest-sikkim.png')"></div>
+                    <div class="dh-region-card-content">
+                        <div>
+                            <h3>Sikkim</h3>
+                            <div class="card-subtitle">The Himalayan Paradise</div>
+                        </div>
+                        <div class="card-arrow">
+                            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ALSO EXPLORE -->
+        <section class="dh-also-explore" id="dh-also-explore">
+            <h4>Also Explore</h4>
+            <div class="dh-also-chips">
+                <a class="dh-chip" href="destination-region.html?region=sandakphu">
+                    <svg viewBox="0 0 24 24"><path d="M8 21l4-10 4 10"/><path d="M2 21l5-7 3 3"/><path d="M22 21l-5-7-3 3"/></svg>
+                    Sandakphu Region
+                </a>
+                <a class="dh-chip" href="destination-region.html?region=darjeeling">
+                    <svg viewBox="0 0 24 24"><path d="M12 2L7 10h10L12 2z"/><path d="M12 8L5 18h14L12 8z"/><rect x="10" y="18" width="4" height="4"/></svg>
+                    North Bengal
+                </a>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE CALLINGHILLS -->
+        <section class="dh-why" id="dh-why">
+            <h3>Why Choose CallingHills?</h3>
+            <div class="dh-why-grid">
+                <div class="dh-why-item">
+                    <div class="dh-why-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                    </div>
+                    <span>Curated Destinations</span>
+                </div>
+                <div class="dh-why-item">
+                    <div class="dh-why-icon">
+                        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </div>
+                    <span>Verified Homestays & Hotels</span>
+                </div>
+                <div class="dh-why-item">
+                    <div class="dh-why-icon">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <span>Customized Packages</span>
+                </div>
+                <div class="dh-why-item">
+                    <div class="dh-why-icon">
+                        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    </div>
+                    <span>Local Support</span>
+                </div>
+                <div class="dh-why-item">
+                    <div class="dh-why-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <span>Safe & Memorable Trips</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ANIMATED SUMMARY TEXT -->
+        <section style="padding: 40px clamp(20px, 5vw, 80px) 60px;">
+            <div class="dest-summary-text" id="karaoke-text" style="color: var(--ch-text-dark);">
+                <p>Darjeeling Hills, Kalimpong Hills, Dooars, and Sikkim together offer a unique blend of natural beauty, culture, wildlife, and adventure in the Eastern Himalayas. The Darjeeling Hills are famous for their rolling tea gardens, colonial heritage, stunning views of Kanchenjunga, and the historic Darjeeling Himalayan Railway.</p>
+                <p>The Kalimpong Hills provide a peaceful mountain retreat with scenic viewpoints, flower nurseries, monasteries, and charming villages, making it an ideal destination for relaxation and nature lovers.</p>
+                <p>The Dooars, located in the Himalayan foothills, is known for its lush forests, tea estates, rivers, and abundant wildlife. Attractions such as Jaldapara National Park and Gorumara National Park offer exciting wildlife experiences.</p>
+                <p>Meanwhile, Sikkim enchants travelers with snow-capped peaks, alpine lakes, Buddhist monasteries, and breathtaking landscapes. Together, these destinations create a complete Himalayan experience suitable for families, couples, nature enthusiasts, and adventure seekers throughout the year.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ═══════════ SEARCH RESULTS OVERLAY ═══════════ -->
+    <div id="search-overlay" style="display:none; position:fixed; inset:0; z-index:200; background:rgba(13,31,23,0.6); backdrop-filter:blur(6px);" onclick="closeSearch()">
+        <div id="search-results" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; border-radius:20px; padding:32px; max-width:600px; width:90%; max-height:70vh; overflow-y:auto; box-shadow:0 20px 60px rgba(0,0,0,0.3);" onclick="event.stopPropagation()">
+            <h3 style="font-family:var(--font-heading); font-size:20px; color:var(--ch-text-dark); margin-bottom:16px;">Search Results</h3>
+            <div id="search-results-list"></div>
         </div>
     </div>
 
-
-
     <!-- Back to top -->
-    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
-        &uarr;
-    </button>
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">&uarr;</button>
 
     <!-- ═══════════ FOOTER ═══════════ -->
     <footer class="footer">
@@ -239,7 +249,6 @@
                     <ul>
                         <li><a href="./destinations.html">Destinations</a></li>
                         <li><a href="./packages.html">Signature Packages</a></li>
-                        <li><a href="./treks.html">Trekking Routes</a></li>
                         <li><a href="./hotels.html">Partner Hotels</a></li>
                         <li><a href="./car-rental.html">Car Rentals</a></li>
                         <li><a href="./about.html#services">Our Services</a></li>
@@ -285,7 +294,7 @@
                         <a href="https://youtube.com/@callinghills?si=6iCWARLhuYF7u9qm" target="_blank" class="social-icon" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
                         <a href="https://wa.me/message/IJWEKZTQMGAFH1" target="_blank" class="social-icon" aria-label="WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a>
                         <a href="https://www.linkedin.com/company/callinghills/" target="_blank" class="social-icon" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
-                        <a href="https://x.com/CallingHills?t=duZx4WDjIBnmWspT1prYQw&s=09" target="_blank" class="social-icon" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.73 16h5L9 4z"></path><path d="M4 20l6.76-6.76"></path><path d="M20 4l-5.76 5.76"></path></svg></a>
+                        <a href="https://x.com/CallingHills" target="_blank" class="social-icon" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.73 16h5L9 4z"></path><path d="M4 20l6.76-6.76"></path><path d="M20 4l-5.76 5.76"></path></svg></a>
                         <a href="https://pin.it/23Q54ZsbI" target="_blank" class="social-icon" aria-label="Pinterest"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="22" x2="12" y2="10"></line><path d="M12 2a10 10 0 1 0 10 10 10 10 0 0 0-10-10z"></path><path d="M12 14v4"></path><path d="M12 10V6"></path><path d="M9 10h6"></path><path d="M9 14h6"></path></svg></a>
                     </div>
                 </div>
@@ -301,49 +310,14 @@
     <!-- Back to top -->
     <button class="back-to-top" id="back-to-top" aria-label="Back to top">&uarr;</button>
 
-    <!-- ═══════════ MODAL & CART SYSTEM ═══════════ -->
-    <div class="enquiry-modal" id="enquiry-modal">
-        <div class="enquiry-modal-content">
-            <button class="modal-close" onclick="closeEnquiryModal()">&times;</button>
-            <div style="padding: 40px;">
-                <h3 style="font-family: var(--font-heading); font-size: 24px; color: var(--ch-mist); margin-bottom: 24px;">Enquire Now</h3>
-                <!-- Clone of contact form -->
-                <div id="modal-form-container"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Floating Cart Icon -->
-    <button class="floating-cart-btn" onclick="toggleCart()">
-        <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-        <span class="cart-badge" id="cart-badge">0</span>
-    </button>
-
-    <!-- Cart Drawer -->
-    <div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
-    <div class="cart-drawer" id="cart-drawer">
-        <div class="cart-header">
-            <div class="cart-title">Your Trip List</div>
-            <button class="cart-close" onclick="toggleCart()">&times;</button>
-        </div>
-        <div class="cart-body" id="cart-items">
-            <!-- Items injected by JS -->
-            <p style="color: var(--ch-text-mid); text-align: center; margin-top: 40px; font-family: var(--font-body);">Your list is empty.</p>
-        </div>
-        <div class="cart-footer">
-            <button class="cart-checkout-btn" onclick="proceedToEnquiry()">Proceed to Enquiry &rarr;</button>
-        </div>
-    </div>
-
-    <!-- Libraries (loaded from CDN — no Node.js needed) -->
+    <!-- Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/destinationsData.js"></script>
-    <script src="./js/popup.js"></script>
 
     <script>
+        // ─── Karaoke Text Animation ───
         document.addEventListener('DOMContentLoaded', () => {
             const textContainer = document.getElementById('karaoke-text');
             if (!textContainer) return;
@@ -368,22 +342,130 @@
             const observer = new IntersectionObserver((entries) => {
                 if (entries[0].isIntersecting) {
                     let delay = 0;
-                    wordSpans.forEach((span, index) => {
+                    wordSpans.forEach((span) => {
                         setTimeout(() => {
                             span.classList.add('active');
                         }, delay);
-                        // Very fast typing since text is extremely long
-                        delay += 80; // Slower reveal 
+                        delay += 80;
                     });
                     observer.disconnect();
                 }
             }, { threshold: 0.1 });
 
             observer.observe(textContainer);
+
+            // ─── Animate Region Cards ───
+            const cards = document.querySelectorAll('.dh-region-card');
+            const cardObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry, idx) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0)';
+                        }, idx * 100);
+                        cardObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                cardObserver.observe(card);
+            });
+
+            // ─── Animate Why Items ───
+            const whyItems = document.querySelectorAll('.dh-why-item');
+            const whyObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry, idx) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0)';
+                        }, idx * 80);
+                        whyObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            whyItems.forEach(item => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                whyObserver.observe(item);
+            });
+        });
+
+        // ─── Search Functionality ───
+        function performSearch() {
+            const query = document.getElementById('dest-search-input').value.trim().toLowerCase();
+            if (!query) return;
+
+            const data = window.destinationsData;
+            const results = [];
+
+            Object.entries(data).forEach(([regionKey, region]) => {
+                // Match region
+                if (region.title.toLowerCase().includes(query)) {
+                    results.push({
+                        type: 'region',
+                        name: region.title,
+                        subtitle: region.subtitle,
+                        url: `destination-region.html?region=${regionKey}`
+                    });
+                }
+                // Match places
+                region.places.forEach(place => {
+                    const searchText = `${place.name} ${place.tagline} ${place.famousFor} ${place.description}`.toLowerCase();
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'place',
+                            name: place.name,
+                            subtitle: place.tagline,
+                            region: region.title,
+                            url: `destination-region.html?region=${regionKey}${place.subRegion ? '&sub=' + place.subRegion : ''}&place=${place.slug}`
+                        });
+                    }
+                });
+            });
+
+            // Show results
+            const overlay = document.getElementById('search-overlay');
+            const list = document.getElementById('search-results-list');
+
+            if (results.length === 0) {
+                list.innerHTML = `<p style="text-align:center;color:#6b7c69;padding:20px;">No destinations found for "${query}". Try a different search.</p>`;
+            } else {
+                list.innerHTML = results.slice(0, 15).map(r => `
+                    <a href="${r.url}" style="display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:12px;text-decoration:none;transition:background 0.2s;border-bottom:1px solid #f0ebe3;">
+                        <div style="width:40px;height:40px;border-radius:10px;background:rgba(13,83,14,0.08);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0D530E" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <div style="font-family:var(--font-heading);font-size:15px;font-weight:600;color:var(--ch-text-dark);">${r.name}</div>
+                            <div style="font-family:var(--font-body);font-size:12px;color:#6b7c69;">${r.subtitle}${r.region ? ' · ' + r.region : ''}</div>
+                        </div>
+                    </a>
+                `).join('');
+            }
+
+            overlay.style.display = 'block';
+        }
+
+        function closeSearch() {
+            document.getElementById('search-overlay').style.display = 'none';
+        }
+
+        // Search on Enter key
+        document.addEventListener('DOMContentLoaded', () => {
+            const input = document.getElementById('dest-search-input');
+            if (input) {
+                input.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') performSearch();
+                });
+            }
         });
     </script>
 </body>
 </html>
-
-
-
