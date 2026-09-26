@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
         let progress = 0;
 
         const interval = setInterval(() => {
-            progress += Math.random() * 25 + 5;
+            progress += Math.random() * 50 + 20; // Much faster progress
             if (progress > 100) progress = 100;
             loaderBar.style.width = progress + '%';
 
@@ -25,9 +25,9 @@ gsap.registerPlugin(ScrollTrigger);
                     if (typeof initHeroAnimations === 'function') {
                         initHeroAnimations();
                     }
-                }, 400);
+                }, 100); // Shorter fade delay
             }
-        }, 200);
+        }, 30); // Run every 30ms instead of 200ms
     })();
 
     /* ═══════════════════════════════════════════
