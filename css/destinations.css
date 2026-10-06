@@ -123,7 +123,7 @@
 }
 .dh-hero-desc {
     font-family: var(--font-body);
-    font-size: clamp(14px, 1.5vw, 17px);
+    font-size: clamp(16px, 1.8vw, 19px);
     color: var(--ch-text-dark);
     line-height: 1.6;
     max-width: 550px;
@@ -432,7 +432,7 @@
 }
 .dr-hero-desc {
     font-family: var(--font-body);
-    font-size: clamp(14px, 1.5vw, 16px);
+    font-size: clamp(16px, 1.8vw, 18px);
     color: rgba(255,255,255,0.85);
     max-width: 600px;
     line-height: 1.6;
@@ -852,9 +852,9 @@
 }
 .dl-description-text {
     font-family: var(--font-body);
-    font-size: 15px;
+    font-size: 17px;
     color: #4a5f48;
-    line-height: 1.75;
+    line-height: 1.8;
     margin-bottom: 24px;
 }
 .dl-description-text p {
@@ -1476,7 +1476,7 @@
 }
 .dl-faq-answer p {
     font-family: var(--font-body);
-    font-size: 14px;
+    font-size: 16px;
     color: #6b7c69;
     line-height: 1.7;
 }
