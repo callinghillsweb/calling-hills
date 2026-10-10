@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CallingHills â€” Explore the Best of North Bengal & Sikkim</title>
+    <title>CallingHills — Explore the Best of North Bengal & Sikkim</title>
     <meta name="description" content="Discover soulful, offbeat Himalayan travel experiences across Darjeeling, Kalimpong, Dooars & Sikkim. Handcrafted journeys that answer with adventure.">
 
     <!-- Fonts -->
@@ -71,7 +71,7 @@
 
     <div style="height: 72px;"></div>
 
-    <!-- â•â•â•â•â•â•â•â•â•â•â• DESTINATION HUB PAGE â•â•â•â•â•â•â•â•â•â•â• -->
+    <!-- ═══════════ DESTINATION HUB PAGE ═══════════ -->
     <div class="dest-page-wrapper">
 
         <!-- HERO BANNER -->
@@ -223,7 +223,7 @@
 
     </div>
 
-    <!-- â•â•â•â•â•â•â•â•â•â•â• SEARCH RESULTS OVERLAY â•â•â•â•â•â•â•â•â•â•â• -->
+    <!-- ═══════════ SEARCH RESULTS OVERLAY ═══════════ -->
     <div id="search-overlay" style="display:none; position:fixed; inset:0; z-index:200; background:rgba(13,31,23,0.6); backdrop-filter:blur(6px);" onclick="closeSearch()">
         <div id="search-results" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; border-radius:20px; padding:32px; max-width:600px; width:90%; max-height:70vh; overflow-y:auto; box-shadow:0 20px 60px rgba(0,0,0,0.3);" onclick="event.stopPropagation()">
             <h3 style="font-family:var(--font-heading); font-size:20px; color:var(--ch-text-dark); margin-bottom:16px;">Search Results</h3>
@@ -234,7 +234,7 @@
     <!-- Back to top -->
     <button class="back-to-top" id="back-to-top" aria-label="Back to top">&uarr;</button>
 
-    <!-- â•â•â•â•â•â•â•â•â•â•â• FOOTER â•â•â•â•â•â•â•â•â•â•â• -->
+    <!-- ═══════════ FOOTER ═══════════ -->
     <footer class="footer">
         <div class="footer-watermark">CallingHills</div>
         <div class="footer-container">
@@ -320,7 +320,7 @@
     <script src="./js/destinationsData.js"></script>
 
     <script>
-        // â”€â”€â”€ Karaoke Text Animation â”€â”€â”€
+        // ─── Karaoke Text Animation ───
         document.addEventListener('DOMContentLoaded', () => {
             const textContainer = document.getElementById('karaoke-text');
             if (!textContainer) return;
@@ -357,7 +357,7 @@
 
             observer.observe(textContainer);
 
-            // â”€â”€â”€ Animate Region Cards â”€â”€â”€
+            // ─── Animate Region Cards ───
             const cards = document.querySelectorAll('.dh-region-card');
             const cardObserver = new IntersectionObserver((entries) => {
                 entries.forEach((entry, idx) => {
@@ -378,7 +378,7 @@
                 cardObserver.observe(card);
             });
 
-            // â”€â”€â”€ Animate Why Items â”€â”€â”€
+            // ─── Animate Why Items ───
             const whyItems = document.querySelectorAll('.dh-why-item');
             const whyObserver = new IntersectionObserver((entries) => {
                 entries.forEach((entry, idx) => {
@@ -400,7 +400,7 @@
             });
         });
 
-        // â”€â”€â”€ Search Functionality â”€â”€â”€
+        // ─── Search Functionality ───
         function performSearch() {
             const query = document.getElementById('dest-search-input').value.trim().toLowerCase();
             if (!query) return;
@@ -447,7 +447,7 @@
                         </div>
                         <div>
                             <div style="font-family:var(--font-heading);font-size:15px;font-weight:600;color:var(--ch-text-dark);">${r.name}</div>
-                            <div style="font-family:var(--font-body);font-size:12px;color:#6b7c69;">${r.subtitle}${r.region ? ' Â· ' + r.region : ''}</div>
+                            <div style="font-family:var(--font-body);font-size:12px;color:#6b7c69;">${r.subtitle}${r.region ? ' · ' + r.region : ''}</div>
                         </div>
                     </a>
                 `).join('');
