@@ -92,20 +92,32 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
         scene.add(particles);
 
         let scrollProgress = 0;
+        let isHeroVisible = true;
 
-        // Listen for scroll
+        const heroEl = document.getElementById('hero');
+        if (heroEl && 'IntersectionObserver' in window) {
+            const heroObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    isHeroVisible = entry.isIntersecting;
+                });
+            }, { rootMargin: '100px' });
+            heroObserver.observe(heroEl);
+        }
+
+        // Listen for scroll with passive flag
         window.addEventListener('scroll', () => {
-            const heroEl = document.getElementById('hero');
-            if (!heroEl) return;
+            if (!heroEl || !isHeroVisible) return;
             const rect = heroEl.getBoundingClientRect();
-            const heroH = heroEl.offsetHeight;
+            const heroH = heroEl.offsetHeight || 1;
             scrollProgress = Math.min(1, Math.max(0, -rect.top / heroH));
-        });
+        }, { passive: true });
 
         // Animation loop
         const clock = new THREE.Clock();
         function animate() {
             requestAnimationFrame(animate);
+            if (!isHeroVisible) return; // Completely pause calculations when hero is scrolled out of view
+
             const elapsed = clock.getElapsedTime();
             const posArr = geometry.attributes.position.array;
 
@@ -748,84 +760,91 @@ try { window.closeEnquiryModal = closeEnquiryModal; } catch(e) {}
    SNOW PARTICLES FOR STUNNING DESTINATIONS
    ========================================================================== */
 function initSnowParticles() {
-    console.log("initSnowParticles is running!");
     const canvas = document.getElementById('snow-canvas');
-    if (!canvas) {
-        console.log("snow-canvas not found!");
-        return;
-    }
-    console.log("snow-canvas found, parent:", canvas.parentElement);
+    if (!canvas) return;
     
+    const parentSection = canvas.parentElement;
+    if (!parentSection) return;
+
     const ctx = canvas.getContext('2d');
-    let width, height;
+    let width = 0, height = 0;
     let particles = [];
+    let isSnowVisible = false;
+    let snowRaf = null;
     
     function resize() {
-        const section = canvas.parentElement;
-        console.log("resize called, section width:", section.offsetWidth);
-        if (canvas.width !== section.offsetWidth) {
-            width = canvas.width = section.offsetWidth;
-        } else {
-            width = canvas.width;
-        }
-        if (canvas.height !== section.offsetHeight) {
-            const oldHeight = height || 0;
-            height = canvas.height = section.offsetHeight;
-            if (oldHeight < 100 && height > 100) {
-                particles.forEach(p => {
-                    p.x = Math.random() * width;
-                    p.y = Math.random() * height;
-                });
-            }
-        } else {
-            height = canvas.height;
+        if (!parentSection) return;
+        const newW = parentSection.offsetWidth || window.innerWidth;
+        const newH = parentSection.offsetHeight || 600;
+        if (canvas.width !== newW || canvas.height !== newH) {
+            width = canvas.width = newW;
+            height = canvas.height = newH;
         }
     }
     
-    window.addEventListener('resize', resize);
+    window.addEventListener('resize', resize, { passive: true });
     resize();
     
     // Create snow particles
-    const particleCount = window.innerWidth < 768 ? 40 : 100;
-    
+    const particleCount = window.innerWidth < 768 ? 35 : 75;
     for (let i = 0; i < particleCount; i++) {
         particles.push({
-            x: Math.random() * width,
-            y: Math.random() * height,
-            radius: Math.random() * 2 + 0.5, // Smaller snow
-            speedY: Math.random() * 1.5 + 0.5, // Falling speed
-            speedX: Math.random() * 1 - 0.5, // Slight wind
+            x: Math.random() * (width || window.innerWidth),
+            y: Math.random() * (height || 600),
+            radius: Math.random() * 2 + 0.5,
+            speedY: Math.random() * 1.4 + 0.6,
+            speedX: Math.random() * 0.8 - 0.4,
             opacity: Math.random() * 0.5 + 0.3
         });
     }
     
     function draw() {
-        resize(); // Recalculate dimensions dynamically
+        if (!isSnowVisible) {
+            snowRaf = null;
+            return;
+        }
+        
         ctx.clearRect(0, 0, width, height);
         
-        particles.forEach(p => {
+        for (let i = 0; i < particles.length; i++) {
+            const p = particles[i];
             ctx.beginPath();
             ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(173, 216, 230, ${p.opacity})`; // Light blue-white snow
+            ctx.fillStyle = `rgba(173, 216, 230, ${p.opacity})`;
             ctx.fill();
             
             p.x += p.speedX;
             p.y += p.speedY;
             
-            // Loop particles back to top
             if (p.y > height) {
                 p.y = -10;
                 p.x = Math.random() * width;
             }
-            // Loop particles left/right
             if (p.x > width) p.x = 0;
             if (p.x < 0) p.x = width;
-        });
+        }
         
-        requestAnimationFrame(draw);
+        snowRaf = requestAnimationFrame(draw);
     }
     
-    draw();
+    if ('IntersectionObserver' in window) {
+        const snowObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                isSnowVisible = entry.isIntersecting;
+                if (isSnowVisible) {
+                    resize();
+                    if (!snowRaf) snowRaf = requestAnimationFrame(draw);
+                } else if (snowRaf) {
+                    cancelAnimationFrame(snowRaf);
+                    snowRaf = null;
+                }
+            });
+        }, { rootMargin: '100px' });
+        snowObserver.observe(parentSection);
+    } else {
+        isSnowVisible = true;
+        snowRaf = requestAnimationFrame(draw);
+    }
 }
 
 // Initialize snow after DOM is loaded
@@ -836,127 +855,138 @@ if (document.readyState === 'loading') {
 }
 
 
-    /* ═══════════════════════════════════════════
-       HIMALAYAN TREKS — INFINITE SLIDER CONTROL
-    ═══════════════════════════════════════════ */
-    (function() {
-        const track = document.querySelector('.ht-slider-track');
-        const container = document.querySelector('.ht-slider-container');
-        const btnLeft = document.querySelector('.ht-nav-left');
-        const btnRight = document.querySelector('.ht-nav-right');
-        if (!track || !container) return;
+/* ═══════════════════════════════════════════
+   HIMALAYAN TREKS — INFINITE SLIDER CONTROL
+═══════════════════════════════════════════ */
+(function() {
+    const track = document.querySelector('.ht-slider-track');
+    const container = document.querySelector('.ht-slider-container');
+    const btnLeft = document.querySelector('.ht-nav-left');
+    const btnRight = document.querySelector('.ht-nav-right');
+    if (!track || !container) return;
 
-        let cards = track.querySelectorAll('.hanging-card');
-        if (cards.length === 0) return;
+    let cards = track.querySelectorAll('.hanging-card');
+    if (cards.length === 0) return;
 
-        // Dynamic step calculation: card width + gap (30px)
-        const getStepWidth = () => {
-            const cardWidth = cards[0].offsetWidth || 300;
-            return cardWidth + 30; // 330px default
-        };
-
-        let step = getStepWidth();
-        let halfWidth = (cards.length / 2) * step;
-
-        // Handle resize/init dynamic recalculation
-        window.addEventListener('resize', () => {
-            step = getStepWidth();
-            halfWidth = (cards.length / 2) * step;
-        });
-
-        let currentX = 0;
-        let targetX = 0;
-        let isPaused = false;
-        let isAnimating = false;
-
-        // Object state that GSAP will tween
-        const sliderState = { x: 0 };
-
-        // Wrap scroll position around cleanly for infinite loop effect
-        function wrapScroll(val) {
-            if (val <= -halfWidth) {
-                val += halfWidth;
-            } else if (val > 0) {
-                val -= halfWidth;
-            }
-            return val;
+    // Dynamic step calculation: card width + gap (30px)
+    const getStepWidth = () => {
+        if (cards[0] && cards[0].offsetWidth > 0) {
+            return cards[0].offsetWidth + 30;
         }
+        return 330; // Reliable fallback matching CSS card width (300px + 30px gap)
+    };
 
-        // Auto-scroll loop run on animation frames
-        function autoScroll() {
-            if (!isPaused && !isAnimating) {
-                currentX -= 1.1; // Smooth speed corresponding to original 40s loop
-                currentX = wrapScroll(currentX);
-                sliderState.x = currentX;
-                track.style.transform = `translateX(${currentX}px) translateZ(0)`;
-            }
-            requestAnimationFrame(autoScroll);
+    let step = getStepWidth();
+    let halfWidth = (cards.length / 2) * step;
+
+    function recalculate() {
+        step = getStepWidth();
+        halfWidth = (cards.length / 2) * step;
+    }
+
+    window.addEventListener('resize', recalculate, { passive: true });
+    window.addEventListener('load', recalculate);
+
+    let currentX = 0;
+    let isPaused = false;
+    let isAnimating = false;
+    let isTrackVisible = false;
+    let sliderRaf = null;
+
+    const sliderState = { x: 0 };
+
+    function wrapScroll(val) {
+        if (val <= -halfWidth) {
+            val += halfWidth;
+        } else if (val > 0) {
+            val -= halfWidth;
         }
+        return val;
+    }
 
-        // Mouse hover pause triggers
-        container.addEventListener('mouseenter', () => { isPaused = true; });
-        container.addEventListener('mouseleave', () => { isPaused = false; });
-        
-        // Touch events hover pause support
-        container.addEventListener('touchstart', () => { isPaused = true; }, { passive: true });
-        container.addEventListener('touchend', () => { isPaused = false; }, { passive: true });
-
-        // Nav click navigation handler
-        function navigate(direction) {
-            isAnimating = true;
-            
-            // Sync sliderState to the wrapped current scroll position
+    function autoScroll() {
+        if (!isTrackVisible) {
+            sliderRaf = null;
+            return;
+        }
+        if (!isPaused && !isAnimating) {
+            currentX -= 1.0;
             currentX = wrapScroll(currentX);
             sliderState.x = currentX;
-
-            if (typeof gsap !== 'undefined') {
-                // Stop any ongoing tweens
-                gsap.killTweensOf(sliderState);
-
-                // Target position step alignment
-                let newTarget = currentX - (direction * step);
-                
-                // Snap new target cleanly to card steps to avoid layout splits
-                newTarget = Math.round(newTarget / step) * step;
-
-                gsap.to(sliderState, {
-                    x: newTarget,
-                    duration: 0.6,
-                    ease: "power2.out",
-                    onUpdate: () => {
-                        track.style.transform = `translateX(${sliderState.x}px) translateZ(0)`;
-                    },
-                    onComplete: () => {
-                        currentX = wrapScroll(sliderState.x);
-                        sliderState.x = currentX;
-                        track.style.transform = `translateX(${currentX}px) translateZ(0)`;
-                        isAnimating = false;
-                    }
-                });
-            } else {
-                // Fallback if GSAP is not loaded
-                currentX -= (direction * step);
-                currentX = wrapScroll(currentX);
-                track.style.transform = `translateX(${currentX}px) translateZ(0)`;
-                isAnimating = false;
-            }
+            track.style.transform = `translate3d(${currentX}px, 0, 0)`;
         }
+        sliderRaf = requestAnimationFrame(autoScroll);
+    }
 
-        // Navigation click event listeners
-        if (btnLeft) {
-            btnLeft.addEventListener('click', (e) => {
-                e.preventDefault();
-                navigate(-1); // scrolls content to the right (view previous)
+    // Only run animation when slider is in or near viewport
+    if ('IntersectionObserver' in window) {
+        const sliderObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                isTrackVisible = entry.isIntersecting;
+                if (isTrackVisible) {
+                    recalculate();
+                    if (!sliderRaf) sliderRaf = requestAnimationFrame(autoScroll);
+                } else if (sliderRaf) {
+                    cancelAnimationFrame(sliderRaf);
+                    sliderRaf = null;
+                }
             });
-        }
+        }, { rootMargin: '120px' });
+        sliderObserver.observe(container);
+    } else {
+        isTrackVisible = true;
+        sliderRaf = requestAnimationFrame(autoScroll);
+    }
 
-        if (btnRight) {
-            btnRight.addEventListener('click', (e) => {
-                e.preventDefault();
-                navigate(1); // scrolls content to the left (view next)
+    // Mouse & touch pause triggers
+    container.addEventListener('mouseenter', () => { isPaused = true; });
+    container.addEventListener('mouseleave', () => { isPaused = false; });
+    container.addEventListener('touchstart', () => { isPaused = true; }, { passive: true });
+    container.addEventListener('touchend', () => { isPaused = false; }, { passive: true });
+
+    function navigate(direction) {
+        isAnimating = true;
+        currentX = wrapScroll(currentX);
+        sliderState.x = currentX;
+
+        if (typeof gsap !== 'undefined') {
+            gsap.killTweensOf(sliderState);
+            let newTarget = currentX - (direction * step);
+            newTarget = Math.round(newTarget / step) * step;
+
+            gsap.to(sliderState, {
+                x: newTarget,
+                duration: 0.5,
+                ease: "power2.out",
+                onUpdate: () => {
+                    track.style.transform = `translate3d(${sliderState.x}px, 0, 0)`;
+                },
+                onComplete: () => {
+                    currentX = wrapScroll(sliderState.x);
+                    sliderState.x = currentX;
+                    track.style.transform = `translate3d(${currentX}px, 0, 0)`;
+                    isAnimating = false;
+                }
             });
+        } else {
+            currentX -= (direction * step);
+            currentX = wrapScroll(currentX);
+            track.style.transform = `translate3d(${currentX}px, 0, 0)`;
+            isAnimating = false;
         }
+    }
 
-        // Start the infinite animation loop
-        requestAnimationFrame(autoScroll);
-    })();
+    if (btnLeft) {
+        btnLeft.addEventListener('click', (e) => {
+            e.preventDefault();
+            navigate(-1);
+        });
+    }
+
+    if (btnRight) {
+        btnRight.addEventListener('click', (e) => {
+            e.preventDefault();
+            navigate(1);
+        });
+    }
+})();

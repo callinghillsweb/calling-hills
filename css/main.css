@@ -2615,8 +2615,9 @@
     background-blend-mode: multiply, multiply, normal;
     color: var(--flag-text);
     
-    /* 3D and waving animation */
-    transform-style: preserve-3d;
+    /* GPU-accelerated waving animation */
+    will-change: transform;
+    backface-visibility: hidden;
     transform: rotate(var(--card-rotation, 0deg));
     animation: flagWave 6s ease-in-out infinite alternate;
 }
@@ -2894,16 +2895,16 @@
 
 
 
-/* Windy flag waving animations for the cards in 3D space (oscillating downward only) */
+/* Windy flag waving animations for the cards (smooth GPU-accelerated sway) */
 @keyframes flagWave {
     0% {
-        transform: rotate(var(--card-rotation, 0deg)) rotateY(-5deg) rotateX(2deg) skewX(-1.2deg) translateZ(0) translateY(0);
+        transform: rotate(var(--card-rotation, 0deg)) translateY(0px) rotateY(-2deg);
     }
     50% {
-        transform: rotate(calc(var(--card-rotation, 0deg) + 3deg)) rotateY(6deg) rotateX(-2deg) skewX(0.8deg) translateZ(15px) translateY(8px);
+        transform: rotate(calc(var(--card-rotation, 0deg) + 2deg)) translateY(5px) rotateY(3deg);
     }
     100% {
-        transform: rotate(calc(var(--card-rotation, 0deg) - 2deg)) rotateY(-4deg) rotateX(1deg) skewX(-0.8deg) translateZ(-8px) translateY(3px);
+        transform: rotate(calc(var(--card-rotation, 0deg) - 1.5deg)) translateY(2px) rotateY(-2deg);
     }
 }
 
