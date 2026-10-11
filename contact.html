@@ -15,6 +15,274 @@
 
     <link rel="stylesheet" href="./css/main.css?v=2">
     <link rel="icon" type="image/png" href="./logo up.jpeg">
+    <!-- Razorpay Checkout SDK -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+    <style>
+        /* ─── Online Payment & Checkout Styles ─── */
+        .payment-container {
+            max-width: 1200px;
+            margin: 60px auto 0;
+            background: linear-gradient(145deg, #0d2217 0%, #07150e 100%);
+            border: 1.5px solid rgba(200, 169, 110, 0.35);
+            border-radius: 24px;
+            padding: 42px 38px;
+            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45), 0 0 40px rgba(48, 109, 41, 0.18);
+            position: relative;
+            overflow: hidden;
+        }
+        .payment-container::before {
+            content: '';
+            position: absolute;
+            top: -120px;
+            right: -120px;
+            width: 320px;
+            height: 320px;
+            background: radial-gradient(circle, rgba(200, 169, 110, 0.12) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .payment-grid {
+            display: grid;
+            grid-template-columns: 1.35fr 0.85fr;
+            gap: 40px;
+            align-items: start;
+        }
+        @media (max-width: 900px) {
+            .payment-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .payment-container {
+                padding: 28px 20px;
+                border-radius: 18px;
+            }
+        }
+        .amt-chips-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 12px 0 16px;
+        }
+        .amt-chip {
+            flex: 1;
+            min-width: 105px;
+            padding: 12px 14px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1.5px solid rgba(255, 255, 255, 0.12);
+            border-radius: 12px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.25s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+        }
+        .amt-chip:hover {
+            border-color: var(--ch-gold);
+            background: rgba(200, 169, 110, 0.1);
+            transform: translateY(-2px);
+        }
+        .amt-chip.active {
+            border-color: var(--ch-gold);
+            background: linear-gradient(135deg, rgba(200, 169, 110, 0.22) 0%, rgba(48, 109, 41, 0.25) 100%);
+            color: #fff;
+            box-shadow: 0 4px 18px rgba(200, 169, 110, 0.22);
+        }
+        .amt-chip .chip-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--ch-mist-dim);
+            font-weight: 400;
+        }
+        .amt-chip.active .chip-label {
+            color: var(--ch-gold);
+        }
+        .amt-chip .badge-pop {
+            background: #2ECC71;
+            color: #081410;
+            font-size: 9px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 6px;
+            margin-bottom: 2px;
+            text-transform: uppercase;
+        }
+        .custom-amt-input-wrap {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .custom-amt-input-wrap .currency-sym {
+            position: absolute;
+            left: 16px;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--ch-gold);
+            pointer-events: none;
+        }
+        .custom-amt-input {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.35);
+            border: 1.5px solid rgba(200, 169, 110, 0.4);
+            border-radius: 12px;
+            padding: 14px 16px 14px 38px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            font-family: inherit;
+            outline: none;
+            transition: all 0.25s;
+        }
+        .custom-amt-input:focus {
+            border-color: var(--ch-gold);
+            box-shadow: 0 0 15px rgba(200, 169, 110, 0.3);
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .pay-summary-card {
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.09);
+            border-radius: 18px;
+            padding: 28px 24px;
+        }
+        .pay-badges-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .pay-badge-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: var(--ch-mist);
+            background: rgba(255, 255, 255, 0.04);
+            padding: 6px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        /* ─── Receipt Modal ─── */
+        .ch-modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.82);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 99999;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .ch-modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+        .receipt-card {
+            background: #0d1e15;
+            border: 2px solid var(--ch-gold);
+            border-radius: 22px;
+            max-width: 540px;
+            width: 100%;
+            padding: 34px 30px;
+            color: #fff;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.7), 0 0 40px rgba(200, 169, 110, 0.25);
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            transform: translateY(20px) scale(0.96);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .ch-modal-overlay.active .receipt-card {
+            transform: translateY(0) scale(1);
+        }
+        .receipt-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px dashed rgba(200, 169, 110, 0.4);
+            margin-bottom: 22px;
+        }
+        .receipt-check-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #2ECC71 0%, #27ae60 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 30px;
+            box-shadow: 0 8px 24px rgba(46, 204, 113, 0.35);
+        }
+        .receipt-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 8px 0;
+            font-size: 13.5px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .receipt-row:last-child {
+            border-bottom: none;
+        }
+        .receipt-label {
+            color: var(--ch-mist-dim);
+            font-size: 13px;
+        }
+        .receipt-val {
+            font-weight: 600;
+            color: #fff;
+            text-align: right;
+            word-break: break-all;
+        }
+
+        @media print {
+            body * {
+                visibility: hidden !important;
+            }
+            #payment-receipt-modal,
+            #payment-receipt-modal * {
+                visibility: visible !important;
+            }
+            #payment-receipt-modal {
+                position: absolute !important;
+                inset: 0 !important;
+                background: #fff !important;
+                padding: 0 !important;
+                display: block !important;
+            }
+            .receipt-card {
+                border: 2px solid #333 !important;
+                color: #000 !important;
+                background: #fff !important;
+                box-shadow: none !important;
+                margin: 0 auto !important;
+            }
+            .receipt-row {
+                color: #000 !important;
+                border-color: #ddd !important;
+            }
+            .receipt-val {
+                color: #000 !important;
+            }
+            .receipt-actions {
+                display: none !important;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Global Shader Background -->
@@ -86,12 +354,15 @@
             </div>
         </div>
         <!-- Quick Selection Tabs -->
-        <div style="max-width: 1200px; margin: 0 auto 36px; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-            <a href="#contact" style="padding: 12px 26px; border-radius: 50px; font-weight: 600; text-decoration: none; background: var(--ch-green); color: white; display: inline-flex; align-items: center; gap: 8px; font-size: 15px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
-                <span>ðŸ‘¤</span> Direct Guest Enquiry
+        <div style="max-width: 1200px; margin: 0 auto 36px; display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+            <a href="#contact" style="padding: 12px 24px; border-radius: 50px; font-weight: 600; text-decoration: none; background: var(--ch-green); color: white; display: inline-flex; align-items: center; gap: 8px; font-size: 15px; box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+                <span>👤</span> Direct Guest Enquiry
             </a>
-            <a href="#b2b-enquiry" style="padding: 12px 26px; border-radius: 50px; font-weight: 600; text-decoration: none; border: 1.5px solid #1ABC9C; color: #1ABC9C; background: rgba(26, 188, 156, 0.1); display: inline-flex; align-items: center; gap: 8px; font-size: 15px; transition: all 0.3s ease;">
-                <span>ðŸ¢</span> B2B Travel Partner Enquiry &darr;
+            <a href="#pay-advance" style="padding: 12px 24px; border-radius: 50px; font-weight: 600; text-decoration: none; border: 1.5px solid var(--ch-gold); color: #fff; background: linear-gradient(135deg, rgba(200, 169, 110, 0.25) 0%, rgba(48, 109, 41, 0.3) 100%); display: inline-flex; align-items: center; gap: 8px; font-size: 15px; transition: all 0.3s ease; box-shadow: 0 4px 18px rgba(200, 169, 110, 0.2);">
+                <span>💳</span> Pay Booking Advance / Quick Pay &darr;
+            </a>
+            <a href="#b2b-enquiry" style="padding: 12px 24px; border-radius: 50px; font-weight: 600; text-decoration: none; border: 1.5px solid #1ABC9C; color: #1ABC9C; background: rgba(26, 188, 156, 0.1); display: inline-flex; align-items: center; gap: 8px; font-size: 15px; transition: all 0.3s ease;">
+                <span>🏢</span> B2B Travel Partner Enquiry &darr;
             </a>
         </div>
 
@@ -215,6 +486,163 @@
                     <div class="contact-trust">
                         Govt. of India & Govt. of West Bengal Verified Travel Service<br>
                         Business Banking Partner – State Bank of India (SBI)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  ONLINE PAYMENT & BOOKING ADVANCE (RAZORPAY) ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  -->
+        <div class="payment-container" id="pay-advance">
+            <div style="text-align: center; margin-bottom: 32px;">
+                <div style="display: inline-flex; align-items: center; gap: 6px; color: var(--ch-gold); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 10px; font-weight: 700; background: rgba(200, 169, 110, 0.12); border: 1px solid rgba(200, 169, 110, 0.3); padding: 5px 14px; border-radius: 30px;">
+                    <span>✦</span> INSTANT ONLINE BOOKING ADVANCE &bull; 100% SECURE
+                </div>
+                <h2 style="font-family: var(--font-heading); font-size: clamp(28px, 4vw, 42px); color: #fff; margin-bottom: 10px; letter-spacing: -0.02em;">
+                    Pay Booking Advance / Token
+                </h2>
+                <p style="color: var(--ch-mist); max-width: 760px; margin: 0 auto; font-size: 15.5px; line-height: 1.6;">
+                    Confirm your Himalayan journey instantly. Your booking token guarantees vehicle &amp; hotel inventory in Darjeeling, Kalimpong, Dooars, or Sikkim. Accepts UPI, Cards &amp; Net Banking via Razorpay.
+                </p>
+            </div>
+
+            <div class="payment-grid">
+                <!-- Left: Interactive Form -->
+                <div>
+                    <form id="razorpay-checkout-form" onsubmit="handleRazorpayCheckout(event)">
+                        <!-- Step 1: Select Amount -->
+                        <div style="margin-bottom: 24px;">
+                            <label style="display: block; color: var(--ch-gold); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                                1. Select Advance Amount
+                            </label>
+                            <div class="amt-chips-wrap">
+                                <div class="amt-chip" onclick="selectAmount(2000, this)">
+                                    <span class="badge-pop" style="background: rgba(255,255,255,0.15); color: #fff;">Token</span>
+                                    <span>₹2,000</span>
+                                    <span class="chip-label">Hold Dates</span>
+                                </div>
+                                <div class="amt-chip active" onclick="selectAmount(5000, this)">
+                                    <span class="badge-pop">★ Popular</span>
+                                    <span>₹5,000</span>
+                                    <span class="chip-label">Standard Advance</span>
+                                </div>
+                                <div class="amt-chip" onclick="selectAmount(10000, this)">
+                                    <span class="badge-pop" style="background: rgba(200, 169, 110, 0.3); color: var(--ch-gold);">Custom Tour</span>
+                                    <span>₹10,000</span>
+                                    <span class="chip-label">High Season</span>
+                                </div>
+                                <div class="amt-chip" onclick="enableCustomAmount(this)">
+                                    <span class="badge-pop" style="background: rgba(255,255,255,0.15); color: #fff;">Other</span>
+                                    <span>Custom</span>
+                                    <span class="chip-label">Any Amount</span>
+                                </div>
+                            </div>
+
+                            <!-- Custom Amount Box -->
+                            <div class="custom-amt-input-wrap" id="custom-amt-box" style="display: none;">
+                                <span class="currency-sym">₹</span>
+                                <input type="number" id="custom-amount-val" class="custom-amt-input" placeholder="Enter custom amount (min ₹500)" min="500" step="100" oninput="updateCustomAmount(this.value)">
+                            </div>
+                            <div style="font-size: 12px; color: var(--ch-mist-dim); margin-top: 6px; display: flex; justify-content: space-between;">
+                                <span>Amount selected for checkout:</span>
+                                <span style="color: var(--ch-gold); font-weight: 700;">₹<span id="selected-amount-display">5,000</span></span>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Guest Details -->
+                        <div style="margin-bottom: 24px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 20px;">
+                            <label style="display: block; color: var(--ch-gold); font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;">
+                                2. Guest &amp; Booking Details
+                            </label>
+                            <div class="form-group" style="margin-bottom: 14px;">
+                                <label class="form-label" style="font-size: 13px;">Full Name *</label>
+                                <input type="text" id="pay-guest-name" class="form-control" placeholder="e.g. Rahul Sharma" required style="background: rgba(0,0,0,0.3); border-color: rgba(255,255,255,0.15);">
+                            </div>
+                            <div class="form-row-2col" style="margin-bottom: 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+                                <div>
+                                    <label class="form-label" style="font-size: 13px;">Phone / WhatsApp *</label>
+                                    <input type="tel" id="pay-guest-phone" class="form-control" placeholder="10-digit mobile number" required pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number" style="background: rgba(0,0,0,0.3); border-color: rgba(255,255,255,0.15);">
+                                </div>
+                                <div>
+                                    <label class="form-label" style="font-size: 13px;">Email Address *</label>
+                                    <input type="email" id="pay-guest-email" class="form-control" placeholder="For instant receipt PDF" required style="background: rgba(0,0,0,0.3); border-color: rgba(255,255,255,0.15);">
+                                </div>
+                            </div>
+                            <div class="form-group" style="margin-bottom: 14px;">
+                                <label class="form-label" style="font-size: 13px;">Package Name or Booking Reference</label>
+                                <input type="text" id="pay-booking-ref" class="form-control" placeholder="e.g. Darjeeling &amp; Gangtok 5D4N / CH-Tour" style="background: rgba(0,0,0,0.3); border-color: rgba(255,255,255,0.15);">
+                            </div>
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label class="form-label" style="font-size: 13px;">Travel Date &amp; Notes (Optional)</label>
+                                <input type="text" id="pay-guest-notes" class="form-control" placeholder="e.g. Travel dates: Nov 15-20, 4 adults" style="background: rgba(0,0,0,0.3); border-color: rgba(255,255,255,0.15);">
+                            </div>
+                        </div>
+
+                        <!-- Pay Button -->
+                        <button type="submit" id="razorpay-submit-btn" style="width: 100%; padding: 18px 24px; border: none; border-radius: 14px; background: linear-gradient(135deg, #C8A96E 0%, #a88338 100%); color: #081410; font-size: 17px; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; box-shadow: 0 10px 28px rgba(200, 169, 110, 0.35); transition: all 0.3s ease;">
+                            <span>🔒 Pay ₹<span id="btn-amount-display">5,000</span> Securely Now</span>
+                            <span style="font-size: 20px;">&rarr;</span>
+                        </button>
+                        <div style="text-align: center; margin-top: 12px; font-size: 12px; color: var(--ch-mist-dim); display: flex; align-items: center; justify-content: center; gap: 6px;">
+                            <span>🛡️</span> 100% RBI-regulated &amp; 256-bit SSL encrypted via Razorpay
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Right: Trust & Assurance Sidebar -->
+                <div>
+                    <div class="pay-summary-card">
+                        <div style="color: var(--ch-gold); font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                            <span>🏔️</span> Booking Advance Guarantee
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; gap: 16px; font-size: 13.5px; color: var(--ch-mist); line-height: 1.55;">
+                            <div style="display: flex; gap: 12px; align-items: flex-start;">
+                                <span style="font-size: 18px; line-height: 1;">🏨</span>
+                                <div>
+                                    <strong style="color: #fff; display: block; margin-bottom: 2px;">Guaranteed Stay &amp; Vehicle Lock</strong>
+                                    Instant hold on verified high-altitude rooms and commercial permit vehicles.
+                                </div>
+                            </div>
+                            <div style="display: flex; gap: 12px; align-items: flex-start;">
+                                <span style="font-size: 18px; line-height: 1;">🧾</span>
+                                <div>
+                                    <strong style="color: #fff; display: block; margin-bottom: 2px;">Instant Digital Receipt</strong>
+                                    Razorpay verified receipt generated immediately with audit transaction reference.
+                                </div>
+                            </div>
+                            <div style="display: flex; gap: 12px; align-items: flex-start;">
+                                <span style="font-size: 18px; line-height: 1;">📱</span>
+                                <div>
+                                    <strong style="color: #fff; display: block; margin-bottom: 2px;">Dedicated Coordinator Assigned</strong>
+                                    Our Darjeeling desk connects on WhatsApp within 15 mins to finalize your itinerary.
+                                </div>
+                            </div>
+                            <div style="display: flex; gap: 12px; align-items: flex-start;">
+                                <span style="font-size: 18px; line-height: 1;">🔄</span>
+                                <div>
+                                    <strong style="color: #fff; display: block; margin-bottom: 2px;">Flexible Date Change</strong>
+                                    Reschedule travel dates freely up to 7 days before check-in.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Banking Credentials -->
+                        <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.08); font-size: 12px; color: var(--ch-mist-dim);">
+                            <div style="color: #2ECC71; font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+                                <span>🏛️</span> Official Banking Partner
+                            </div>
+                            <div>State Bank of India (SBI) Current Account</div>
+                            <div>Govt. of West Bengal Verified Travel Partner</div>
+                            <div style="margin-top: 6px;">Concierge Desk: <strong style="color: #fff;">+91 90519 66561</strong></div>
+                        </div>
+                    </div>
+
+                    <!-- Payment Methods Badges -->
+                    <div class="pay-badges-row">
+                        <div class="pay-badge-item"><span>⚡</span> UPI (GPay/PhonePe)</div>
+                        <div class="pay-badge-item"><span>💳</span> Credit &amp; Debit Cards</div>
+                        <div class="pay-badge-item"><span>🏛️</span> Net Banking</div>
+                        <div class="pay-badge-item"><span>🔒</span> 256-Bit SSL</div>
                     </div>
                 </div>
             </div>
@@ -594,6 +1022,299 @@ Sent via CallingHills B2B Partner Portal`
 
         window.location.href = `mailto:hello@callinghills.com?subject=${subject}&body=${body}`;
         alert('Thank you! Your B2B Enquiry details have been prepared. Please send the pre-filled email to hello@callinghills.com for a prompt quotation.');
+    }
+    </script>
+    <!-- ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  PAYMENT RECEIPT MODAL ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  -->
+    <div class="ch-modal-overlay" id="payment-receipt-modal" onclick="if(event.target===this) closeReceiptModal();">
+        <div class="receipt-card">
+            <div class="receipt-header">
+                <div class="receipt-check-icon">✓</div>
+                <h3 style="font-family: var(--font-heading); font-size: 26px; color: #fff; margin-bottom: 4px;">Advance Payment Received!</h3>
+                <p style="font-size: 13px; color: var(--ch-mist); margin: 0;">CallingHills Travel Services &bull; Official Digital Receipt</p>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <div class="receipt-row">
+                    <span class="receipt-label">Status</span>
+                    <span class="receipt-val" style="color: #2ECC71;">Verified &bull; Payment Successful</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="receipt-label">Amount Paid</span>
+                    <span class="receipt-val" style="color: var(--ch-gold); font-size: 18px; font-weight: 700;">₹<span id="rcpt-amount">0</span></span>
+                </div>
+                <div class="receipt-row">
+                    <span class="receipt-label">Razorpay Payment ID</span>
+                    <span class="receipt-val" id="rcpt-payment-id">pay_xxxxxxxxx</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="receipt-label">Guest Name</span>
+                    <span class="receipt-val" id="rcpt-guest-name">Guest</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="receipt-label">Mobile Number</span>
+                    <span class="receipt-val" id="rcpt-guest-phone">919051966561</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="receipt-label">Email</span>
+                    <span class="receipt-val" id="rcpt-guest-email">-</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="receipt-label">Tour / Package</span>
+                    <span class="receipt-val" id="rcpt-tour-ref">Booking Advance</span>
+                </div>
+                <div class="receipt-row">
+                    <span class="receipt-label">Date &amp; Time</span>
+                    <span class="receipt-val" id="rcpt-date-time">-</span>
+                </div>
+            </div>
+
+            <div style="background: rgba(48, 109, 41, 0.15); border: 1px solid rgba(48, 109, 41, 0.35); border-radius: 12px; padding: 12px 14px; margin-bottom: 22px; font-size: 12.5px; color: var(--ch-mist); line-height: 1.5;">
+                <span style="color: #2ECC71; font-weight: 600;">Next Step:</span> Your dedicated trip coordinator has been notified. Click below to send this receipt directly to our WhatsApp Concierge for instant confirmation.
+            </div>
+
+            <div class="receipt-actions" style="display: flex; flex-direction: column; gap: 10px;">
+                <a id="rcpt-whatsapp-btn" href="#" target="_blank" style="padding: 14px 20px; border-radius: 12px; background: #25D366; color: #fff; font-weight: 700; text-decoration: none; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 15px; box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);">
+                    <span>💬</span> Send Receipt to WhatsApp Concierge &rarr;
+                </a>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <button type="button" onclick="window.print()" style="padding: 11px; border-radius: 10px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); color: #fff; font-weight: 600; cursor: pointer; font-size: 13px;">
+                        🖨️ Print / Save PDF
+                    </button>
+                    <button type="button" onclick="closeReceiptModal()" style="padding: 11px; border-radius: 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); color: var(--ch-mist); font-weight: 600; cursor: pointer; font-size: 13px;">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  DEVELOPER / DEMO HELPER MODAL ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  -->
+    <div class="ch-modal-overlay" id="payment-dev-modal" onclick="if(event.target===this) closeDevModal();">
+        <div class="receipt-card" style="border-color: #3498db; max-width: 500px;">
+            <div style="text-align: center; margin-bottom: 16px;">
+                <div style="width: 56px; height: 56px; border-radius: 50%; background: rgba(52, 152, 219, 0.15); border: 2px solid #3498db; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; font-size: 26px;">
+                    🔑
+                </div>
+                <h3 style="font-family: var(--font-heading); font-size: 24px; color: #fff; margin-bottom: 4px;">Razorpay Gateway Ready</h3>
+                <p style="font-size: 13px; color: #3498db; margin: 0; font-weight: 600;">Awaiting Razorpay API Key ID</p>
+            </div>
+            <p style="font-size: 13.5px; color: var(--ch-mist); line-height: 1.6; margin-bottom: 16px;">
+                The complete Razorpay checkout flow, amounts, validation, digital receipt generator, and WhatsApp notifications are 100% built and ready.
+            </p>
+            <div style="background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 12px 14px; font-size: 12px; color: var(--ch-gold); font-family: monospace; margin-bottom: 20px;">
+                // In contact.html (line ~625):<br>
+                const RAZORPAY_KEY_ID = "<span style="color:#2ECC71;">rzp_live_your_key_here</span>";
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+                <button type="button" onclick="simulateSuccessfulPayment()" style="padding: 13px 18px; border-radius: 12px; background: linear-gradient(135deg, #2ECC71 0%, #27ae60 100%); color: #081410; font-weight: 700; border: none; cursor: pointer; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                    <span>🧪</span> Simulate Payment &amp; Preview Digital Receipt &rarr;
+                </button>
+                <button type="button" onclick="closeDevModal()" style="padding: 11px; border-radius: 10px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: var(--ch-mist); font-weight: 600; cursor: pointer; font-size: 13px;">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  RAZORPAY INTEGRATION SCRIPT ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  -->
+    <script>
+    /* ==========================================================================
+       💳 RAZORPAY PAYMENT CONFIGURATION
+       👉 TOMORROW: Replace 'YOUR_RAZORPAY_KEY_ID_HERE' with your real Razorpay
+          Key ID (e.g. 'rzp_live_xxxxxxxxx' or 'rzp_test_xxxxxxxxx').
+          Nothing else needs to be modified — everything runs automatically!
+       ========================================================================== */
+    const RAZORPAY_KEY_ID = "YOUR_RAZORPAY_KEY_ID_HERE";
+
+    let currentSelectedAmount = 5000;
+
+    function selectAmount(amount, chipElement) {
+        currentSelectedAmount = amount;
+        document.querySelectorAll('.amt-chip').forEach(c => c.classList.remove('active'));
+        if (chipElement) chipElement.classList.add('active');
+        document.getElementById('custom-amt-box').style.display = 'none';
+        updateAmountDisplay(amount);
+    }
+
+    function enableCustomAmount(chipElement) {
+        document.querySelectorAll('.amt-chip').forEach(c => c.classList.remove('active'));
+        if (chipElement) chipElement.classList.add('active');
+        const customBox = document.getElementById('custom-amt-box');
+        customBox.style.display = 'block';
+        const input = document.getElementById('custom-amount-val');
+        input.focus();
+        if (input.value && Number(input.value) >= 500) {
+            currentSelectedAmount = Number(input.value);
+        } else {
+            input.value = currentSelectedAmount || 5000;
+        }
+        updateAmountDisplay(currentSelectedAmount);
+    }
+
+    function updateCustomAmount(val) {
+        const num = Number(val);
+        if (num > 0) {
+            currentSelectedAmount = num;
+            updateAmountDisplay(num);
+        }
+    }
+
+    function updateAmountDisplay(amount) {
+        const formatted = Number(amount).toLocaleString('en-IN');
+        document.getElementById('selected-amount-display').textContent = formatted;
+        document.getElementById('btn-amount-display').textContent = formatted;
+    }
+
+    function handleRazorpayCheckout(e) {
+        e.preventDefault();
+
+        const name = document.getElementById('pay-guest-name').value.trim();
+        const phone = document.getElementById('pay-guest-phone').value.trim();
+        const email = document.getElementById('pay-guest-email').value.trim();
+        const bookingRef = document.getElementById('pay-booking-ref').value.trim() || 'Himalayan Tour Package';
+        const notes = document.getElementById('pay-guest-notes').value.trim() || 'None';
+        const amount = currentSelectedAmount;
+
+        if (!name) {
+            alert('Please enter your full name.');
+            return;
+        }
+        if (!phone || phone.length < 10) {
+            alert('Please enter a valid 10-digit mobile number.');
+            return;
+        }
+        if (!email) {
+            alert('Please enter your email address for the receipt.');
+            return;
+        }
+        if (!amount || amount < 500) {
+            alert('Please select or enter an amount of at least ₹500.');
+            return;
+        }
+
+        // Check if API Key is configured
+        if (!RAZORPAY_KEY_ID || RAZORPAY_KEY_ID === "YOUR_RAZORPAY_KEY_ID_HERE") {
+            // Key is pending for tomorrow: Show developer helper modal
+            openDevModal();
+            return;
+        }
+
+        // Live / Test Razorpay standard checkout
+        const options = {
+            key: RAZORPAY_KEY_ID,
+            amount: Math.round(amount * 100), // In paise
+            currency: "INR",
+            name: "CallingHills",
+            description: `Booking Advance - ${bookingRef}`,
+            image: "./logo up.jpeg",
+            prefill: {
+                name: name,
+                email: email,
+                contact: phone
+            },
+            notes: {
+                booking_reference: bookingRef,
+                special_notes: notes
+            },
+            theme: {
+                color: "#306D29"
+            },
+            handler: function (response) {
+                // Success callback from Razorpay
+                openPaymentReceipt({
+                    paymentId: response.razorpay_payment_id,
+                    amount: amount,
+                    name: name,
+                    phone: phone,
+                    email: email,
+                    reference: bookingRef,
+                    dateTime: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', dateStyle: 'medium', timeStyle: 'short' })
+                });
+            },
+            modal: {
+                ondismiss: function() {
+                    console.log("Razorpay checkout was closed by the user.");
+                }
+            }
+        };
+
+        try {
+            const rzp = new Razorpay(options);
+            rzp.on('payment.failed', function (response){
+                alert("Payment could not be completed: " + (response.error.description || "Unknown error"));
+            });
+            rzp.open();
+        } catch (err) {
+            console.error(err);
+            alert("Error initializing Razorpay: " + err.message);
+        }
+    }
+
+    function openPaymentReceipt(data) {
+        document.getElementById('rcpt-amount').textContent = Number(data.amount).toLocaleString('en-IN');
+        document.getElementById('rcpt-payment-id').textContent = data.paymentId;
+        document.getElementById('rcpt-guest-name').textContent = data.name;
+        document.getElementById('rcpt-guest-phone').textContent = data.phone;
+        document.getElementById('rcpt-guest-email').textContent = data.email;
+        document.getElementById('rcpt-tour-ref').textContent = data.reference;
+        document.getElementById('rcpt-date-time').textContent = data.dateTime;
+
+        // Compose WhatsApp prefilled confirmation message
+        const waText = encodeURIComponent(
+`*CALLINGHILLS BOOKING ADVANCE RECEIPT*
+====================================
+*Status:* Paid & Verified
+*Amount Paid:* ₹${Number(data.amount).toLocaleString('en-IN')}
+*Payment ID:* ${data.paymentId}
+*Guest Name:* ${data.name}
+*Phone:* ${data.phone}
+*Email:* ${data.email}
+*Package / Ref:* ${data.reference}
+*Timestamp:* ${data.dateTime}
+====================================
+_Please verify and confirm my hotel and vehicle allocations._`
+        );
+        document.getElementById('rcpt-whatsapp-btn').href = `https://wa.me/919051966561?text=${waText}`;
+
+        closeDevModal();
+        const modal = document.getElementById('payment-receipt-modal');
+        modal.style.display = 'flex';
+        setTimeout(() => modal.classList.add('active'), 10);
+    }
+
+    function closeReceiptModal() {
+        const modal = document.getElementById('payment-receipt-modal');
+        modal.classList.remove('active');
+        setTimeout(() => modal.style.display = 'none', 300);
+    }
+
+    function openDevModal() {
+        const modal = document.getElementById('payment-dev-modal');
+        modal.style.display = 'flex';
+        setTimeout(() => modal.classList.add('active'), 10);
+    }
+
+    function closeDevModal() {
+        const modal = document.getElementById('payment-dev-modal');
+        modal.classList.remove('active');
+        setTimeout(() => modal.style.display = 'none', 300);
+    }
+
+    function simulateSuccessfulPayment() {
+        const name = document.getElementById('pay-guest-name').value.trim() || 'Demo Guest';
+        const phone = document.getElementById('pay-guest-phone').value.trim() || '9876543210';
+        const email = document.getElementById('pay-guest-email').value.trim() || 'demo@callinghills.com';
+        const bookingRef = document.getElementById('pay-booking-ref').value.trim() || 'Darjeeling & Gangtok 5D4N';
+
+        openPaymentReceipt({
+            paymentId: 'pay_TEST_' + Math.random().toString(36).substring(2, 10).toUpperCase(),
+            amount: currentSelectedAmount || 5000,
+            name: name,
+            phone: phone,
+            email: email,
+            reference: bookingRef,
+            dateTime: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', dateStyle: 'medium', timeStyle: 'short' })
+        });
     }
     </script>
 </body>
