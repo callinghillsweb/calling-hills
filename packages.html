@@ -107,6 +107,162 @@
         .accordion.active .accordion-content {
             max-height: 800px;
         }
+
+        /* Packages Filter & Search Controls */
+        .pkg-controls-container {
+            background: #ffffff;
+            border: 1px solid rgba(48, 109, 41, 0.2);
+            border-radius: 18px;
+            padding: 22px 24px;
+            margin: 28px 0 20px 0;
+            box-shadow: 0 4px 20px rgba(13, 31, 23, 0.05);
+        }
+        .pkg-controls-top {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .pkg-search-box {
+            flex: 1 1 320px;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .pkg-search-icon {
+            position: absolute;
+            left: 16px;
+            color: var(--ch-green-deep);
+            pointer-events: none;
+        }
+        .pkg-search-input {
+            width: 100%;
+            padding: 13px 44px 13px 46px;
+            border-radius: 12px;
+            background: #fbf9f5;
+            border: 1px solid rgba(48, 109, 41, 0.2);
+            color: var(--ch-forest-deep);
+            font-family: var(--font-body);
+            font-size: 15px;
+            transition: all 0.25s ease;
+        }
+        .pkg-search-input:focus {
+            outline: none;
+            border-color: var(--ch-green-deep);
+            background: #ffffff;
+            box-shadow: 0 0 14px rgba(48, 109, 41, 0.18);
+        }
+        .pkg-search-input::placeholder {
+            color: var(--ch-text-mid);
+        }
+        .pkg-clear-btn {
+            position: absolute;
+            right: 12px;
+            background: none;
+            border: none;
+            color: var(--ch-text-mid);
+            font-size: 20px;
+            cursor: pointer;
+            line-height: 1;
+            padding: 4px;
+            transition: color 0.2s ease;
+        }
+        .pkg-clear-btn:hover {
+            color: var(--ch-forest-deep);
+        }
+        .pkg-filters-row {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .pkg-dropdown-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #fbf9f5;
+            padding: 6px 14px;
+            border-radius: 12px;
+            border: 1px solid rgba(48, 109, 41, 0.2);
+        }
+        .pkg-dropdown-label {
+            font-size: 13px;
+            color: var(--ch-green-deep);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+        }
+        .pkg-select {
+            background: transparent;
+            border: none;
+            color: var(--ch-forest-deep);
+            font-family: var(--font-body);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            outline: none;
+            padding: 6px 4px;
+        }
+        .pkg-meta-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            padding-top: 14px;
+            border-top: 1px dashed rgba(48, 109, 41, 0.15);
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .pkg-results-count {
+            font-size: 14px;
+            color: var(--ch-text-mid);
+            font-weight: 500;
+        }
+        .pkg-results-count strong {
+            color: var(--ch-green-deep);
+            font-weight: 700;
+        }
+        .pkg-reset-btn {
+            background: rgba(48, 109, 41, 0.08);
+            border: 1px solid rgba(48, 109, 41, 0.25);
+            color: var(--ch-green-deep);
+            font-family: var(--font-body);
+            font-size: 13px;
+            font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+        .pkg-reset-btn:hover {
+            background: var(--ch-green-deep);
+            color: #ffffff;
+        }
+        .pkg-empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 60px 20px;
+            background: #ffffff;
+            border-radius: 16px;
+            border: 1px dashed rgba(48, 109, 41, 0.25);
+            margin: 20px 0;
+        }
+        .pkg-empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        .pkg-empty-state h3 {
+            font-family: var(--font-heading);
+            font-size: 26px;
+            color: var(--ch-forest-deep);
+            margin-bottom: 8px;
+        }
+        .pkg-empty-state p {
+            color: var(--ch-text-mid);
+            font-size: 15px;
+            margin-bottom: 22px;
+        }
     </style>
 </head>
 <body>
@@ -183,8 +339,53 @@
                 Every itinerary is hand-crafted — not copy-pasted. Built for travellers who want real experiences.
             </p>
 
+            <!-- Packages Filter, Search & Sort Bar -->
+            <div class="pkg-controls-container">
+                <div class="pkg-controls-top">
+                    <!-- Instant Search -->
+                    <div class="pkg-search-box">
+                        <svg class="pkg-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="pkg-search-input" class="pkg-search-input" placeholder="Search 73 tour packages (e.g. Tiger Hill, Silk Route, Tinchuley, Mirik, Goecha La, Chilapata)..." autocomplete="off">
+                        <button id="pkg-clear-search" class="pkg-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
+                    </div>
+
+                    <div class="pkg-filters-row">
+                        <!-- Duration Filter -->
+                        <div class="pkg-dropdown-group">
+                            <label for="pkg-duration-select" class="pkg-dropdown-label">Duration:</label>
+                            <select id="pkg-duration-select" class="pkg-select">
+                                <option value="all">All Durations</option>
+                                <option value="short">2 – 3 Days (Short Getaways)</option>
+                                <option value="medium">4 – 5 Days (Standard Tours)</option>
+                                <option value="long">6+ Days (Grand Expeditions)</option>
+                            </select>
+                        </div>
+
+                        <!-- Sort Select -->
+                        <div class="pkg-dropdown-group">
+                            <label for="pkg-sort-select" class="pkg-dropdown-label">Sort By:</label>
+                            <select id="pkg-sort-select" class="pkg-select">
+                                <option value="recommended">Featured &amp; Curated</option>
+                                <option value="price-asc">Price: Low to High</option>
+                                <option value="price-desc">Price: High to Low</option>
+                                <option value="duration-asc">Duration: Shortest First</option>
+                                <option value="duration-desc">Duration: Longest First</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pkg-meta-bar">
+                    <span class="pkg-results-count" id="pkg-results-count">Showing <strong>73</strong> of 73 Curated Journeys</span>
+                    <button class="pkg-reset-btn" id="pkg-reset-btn" style="display: none;">Reset Filters</button>
+                </div>
+            </div>
+
             <!-- Region Filter Bar -->
-                                    <div class="pkg-filter-bar" id="pkg-filter-bar">
+            <div class="pkg-filter-bar" id="pkg-filter-bar">
                 <button class="pkg-filter-btn active" data-filter="all">All Packages (73)</button>
                 <button class="pkg-filter-btn" data-filter="darjeeling">Darjeeling (22)</button>
                 <button class="pkg-filter-btn" data-filter="silk-route">Silk Route &amp; East Sikkim (10)</button>
@@ -11030,26 +11231,218 @@ Nights</span>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="./js/main.js"></script>
-    <!-- Package Filter Logic -->
+    <!-- Unified Package Filter, Search & Sort Logic -->
     <script>
-        document.querySelectorAll('.pkg-filter-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.pkg-filter-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                const filter = btn.getAttribute('data-filter');
-                document.querySelectorAll('.pkg-card').forEach(card => {
-                    const region = card.getAttribute('data-region');
-                    if (filter === 'all' || region === filter) {
+        (function() {
+            const grid = document.querySelector('.pkg-grid');
+            if (!grid) return;
+
+            const cards = Array.from(grid.querySelectorAll('.pkg-card'));
+            const searchInput = document.getElementById('pkg-search-input');
+            const clearSearchBtn = document.getElementById('pkg-clear-search');
+            const durationSelect = document.getElementById('pkg-duration-select');
+            const sortSelect = document.getElementById('pkg-sort-select');
+            const resultsCount = document.getElementById('pkg-results-count');
+            const resetBtn = document.getElementById('pkg-reset-btn');
+            const regionBtns = document.querySelectorAll('.pkg-filter-btn');
+
+            // Pre-parse metadata on all cards for instant 60fps filtering & sorting
+            cards.forEach((card, index) => {
+                card.dataset.index = index;
+                
+                // Title
+                const titleEl = card.querySelector('.pkg-title');
+                const title = titleEl ? titleEl.innerText.trim() : '';
+
+                // Duration in days
+                const durEl = card.querySelector('.pkg-duration');
+                let days = 3;
+                if (durEl) {
+                    const match = durEl.innerText.match(/(\d+)\s*Days?/i) || durEl.innerText.match(/(\d+)D/i);
+                    if (match) days = parseInt(match[1]);
+                }
+                card.dataset.days = days;
+
+                // Price
+                const priceEl = card.querySelector('.pkg-price-tag');
+                let price = 5000;
+                if (priceEl) {
+                    const cleanP = priceEl.innerText.replace(/[^0-9]/g, '');
+                    if (cleanP) price = parseInt(cleanP);
+                }
+                card.dataset.price = price;
+
+                // Searchable text blob (title, route, highlights, teaser, region)
+                const routeEl = card.querySelector('.pkg-route');
+                const route = routeEl ? routeEl.innerText : '';
+                const teaserEl = card.querySelector('.pkg-teaser');
+                const teaser = teaserEl ? teaserEl.innerText : '';
+                const pills = Array.from(card.querySelectorAll('.pkg-highlight-pill')).map(p => p.innerText).join(' ');
+                const region = card.dataset.region || '';
+                
+                card.dataset.searchBlob = `${title} ${route} ${teaser} ${pills} ${region}`.toLowerCase();
+            });
+
+            const state = {
+                region: 'all',
+                duration: 'all',
+                sort: 'recommended',
+                query: ''
+            };
+
+            function filterAndSortPackages() {
+                let visibleCards = [];
+
+                cards.forEach(card => {
+                    const cardRegion = card.dataset.region;
+                    const cardDays = parseInt(card.dataset.days) || 3;
+                    const cardBlob = card.dataset.searchBlob;
+
+                    // Region filter
+                    const matchesRegion = state.region === 'all' || cardRegion === state.region;
+
+                    // Duration filter
+                    let matchesDuration = true;
+                    if (state.duration === 'short') matchesDuration = cardDays <= 3;
+                    else if (state.duration === 'medium') matchesDuration = cardDays >= 4 && cardDays <= 5;
+                    else if (state.duration === 'long') matchesDuration = cardDays >= 6;
+
+                    // Search query
+                    let matchesSearch = true;
+                    if (state.query) {
+                        matchesSearch = cardBlob.includes(state.query);
+                    }
+
+                    if (matchesRegion && matchesDuration && matchesSearch) {
                         card.classList.remove('pkg-hidden');
+                        visibleCards.push(card);
                     } else {
                         card.classList.add('pkg-hidden');
                     }
                 });
+
+                // Sort visible cards
+                visibleCards.sort((a, b) => {
+                    if (state.sort === 'price-asc') {
+                        return parseInt(a.dataset.price) - parseInt(b.dataset.price);
+                    } else if (state.sort === 'price-desc') {
+                        return parseInt(b.dataset.price) - parseInt(a.dataset.price);
+                    } else if (state.sort === 'duration-asc') {
+                        return parseInt(a.dataset.days) - parseInt(b.dataset.days);
+                    } else if (state.sort === 'duration-desc') {
+                        return parseInt(b.dataset.days) - parseInt(a.dataset.days);
+                    } else {
+                        // Recommended: featured cards first, then original index
+                        const aFeat = a.classList.contains('featured-card') ? 1 : 0;
+                        const bFeat = b.classList.contains('featured-card') ? 1 : 0;
+                        if (aFeat !== bFeat) return bFeat - aFeat;
+                        return parseInt(a.dataset.index) - parseInt(b.dataset.index);
+                    }
+                });
+
+                // Re-append visible cards in sorted order to the grid
+                visibleCards.forEach(card => grid.appendChild(card));
+
+                // Update results count
+                if (resultsCount) {
+                    resultsCount.innerHTML = `Showing <strong>${visibleCards.length}</strong> of ${cards.length} Curated Journeys`;
+                }
+
+                // Show/hide reset button
+                const isFiltered = state.query !== '' || state.duration !== 'all' || state.sort !== 'recommended' || state.region !== 'all';
+                if (resetBtn) resetBtn.style.display = isFiltered ? 'inline-block' : 'none';
+                if (clearSearchBtn) clearSearchBtn.style.display = state.query ? 'block' : 'none';
+
+                // Empty state handling
+                let emptyEl = document.getElementById('pkg-empty-state');
+                if (visibleCards.length === 0) {
+                    if (!emptyEl) {
+                        emptyEl = document.createElement('div');
+                        emptyEl.id = 'pkg-empty-state';
+                        emptyEl.className = 'pkg-empty-state';
+                        emptyEl.innerHTML = `
+                            <div class="pkg-empty-icon">🏔️</div>
+                            <h3>No Packages Found</h3>
+                            <p>We couldn't find any tour packages matching your search criteria. Try adjusting your filters.</p>
+                            <button class="pkg-reset-btn" id="pkg-empty-reset-btn">View All 73 Packages</button>
+                        `;
+                        grid.appendChild(emptyEl);
+                        const emptyReset = document.getElementById('pkg-empty-reset-btn');
+                        if (emptyReset) emptyReset.addEventListener('click', resetAll);
+                    }
+                } else if (emptyEl) {
+                    emptyEl.remove();
+                }
+
                 if (typeof ScrollTrigger !== 'undefined') {
                     ScrollTrigger.refresh();
                 }
+            }
+
+            function resetAll() {
+                state.query = '';
+                state.duration = 'all';
+                state.sort = 'recommended';
+                state.region = 'all';
+
+                if (searchInput) searchInput.value = '';
+                if (durationSelect) durationSelect.value = 'all';
+                if (sortSelect) sortSelect.value = 'recommended';
+                regionBtns.forEach((b, i) => b.classList.toggle('active', i === 0));
+
+                filterAndSortPackages();
+            }
+
+            // Region button clicks
+            regionBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    regionBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    state.region = btn.getAttribute('data-filter') || 'all';
+                    filterAndSortPackages();
+                });
             });
-        });
+
+            // Search input
+            if (searchInput) {
+                searchInput.addEventListener('input', (e) => {
+                    state.query = e.target.value.trim().toLowerCase();
+                    filterAndSortPackages();
+                });
+            }
+
+            if (clearSearchBtn) {
+                clearSearchBtn.addEventListener('click', () => {
+                    state.query = '';
+                    searchInput.value = '';
+                    filterAndSortPackages();
+                });
+            }
+
+            // Duration select
+            if (durationSelect) {
+                durationSelect.addEventListener('change', (e) => {
+                    state.duration = e.target.value;
+                    filterAndSortPackages();
+                });
+            }
+
+            // Sort select
+            if (sortSelect) {
+                sortSelect.addEventListener('change', (e) => {
+                    state.sort = e.target.value;
+                    filterAndSortPackages();
+                });
+            }
+
+            // Reset button
+            if (resetBtn) {
+                resetBtn.addEventListener('click', resetAll);
+            }
+
+            // Initial run
+            filterAndSortPackages();
+        })();
     </script>
 </body>
 </html>
