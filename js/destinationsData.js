@@ -1606,13 +1606,12 @@ window.destinationsData = {
             {
                 "name": "Lachung",
                 "slug": "lachung",
-                "subRegion": "north",
                 "tagline": "The Flower Valley Village",
                 "altitude": "2,600 m (8,600 ft)",
                 "bestTime": "March–May & October–November",
                 "famousFor": "Yumthang Valley Base, Snowfalls, Waterfalls",
                 "location": "North Sikkim",
-                "description": "<p>Lachung is a picturesque mountain village in North Sikkim, located at an elevation of about 2,900 metres (9,600 ft). Surrounded by snow-capped peaks, spectacular waterfalls, and fruit orchards, Lachung is one of the most stunning destinations in Sikkim and serves as the gateway to the Yumthang Valley.</p><h3>Culture & Lifestyle</h3><p>The village is primarily inhabited by the Bhutia community, known as Lachungpas, who have retained their unique culture and traditional self-governance system called the 'Dzumsa'. The Lachung Monastery, an ancient Buddhist institution, overlooks the village and adds to its spiritual ambiance.</p><h3>Tourism & Nature</h3><p>Tourism is a significant part of the local economy, but the village has maintained its pristine environment. The area is famous for its apple, peach, and apricot orchards, which burst into bloom during spring. The roaring Lachung Chu river flows through the village, enhancing its serene beauty.</p><h3>Detailed Insights</h3><p>From ancient Buddhist monasteries and vibrant Himalayan culture to breathtaking views of Mount</p><p>activities, and peaceful mountain landscapes, Gangtok offers on e of the most complete travel</p><p>experiences in Northeast India. Combining spirituality, nature, heritage, adventure, and modern</p><p>hospitality, the capital of Sikkim continues to captivate travellers from around the world and remains</p><p>the perfect gateway to expl oring the extraordinary beauty of the Eastern Himalayas.</p>",
+                "description": "<p>Lachung is a picturesque mountain village in North Sikkim, located at an elevation of about 2,900 metres (9,600 ft). Surrounded by snow-capped peaks, spectacular waterfalls, and fruit orchards, Lachung is one of the most stunning destinations in Sikkim and serves as the gateway to the Yumthang Valley.</p><h3>Culture & Lifestyle</h3><p>The village is primarily inhabited by the Bhutia community, known as Lachungpas, who have retained their unique culture and traditional self-governance system called the 'Dzumsa'. The Lachung Monastery, an ancient Buddhist institution, overlooks the village and adds to its spiritual ambiance.</p>",
                 "attractions": [
                     "Lachung Monastery",
                     "Bhim Nala Falls",
@@ -1637,14 +1636,6 @@ window.destinationsData = {
                     {
                         "icon": "hiking",
                         "label": "River Side Walk"
-                    },
-                    {
-                        "icon": "food",
-                        "label": "Local Cuisine"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
                     }
                 ],
                 "howToReach": {
@@ -1652,6 +1643,7 @@ window.destinationsData = {
                     "byTrain": "New Jalpaiguri (230 km)",
                     "byRoad": "Via Gangtok & Chungthang (118 km from Gangtok)"
                 },
+                "subRegion": "north",
                 "packages": [
                     {
                         "title": "3N/4D North Sikkim Tour",
@@ -1688,170 +1680,1970 @@ window.destinationsData = {
             {
                 "name": "Lachen",
                 "slug": "lachen",
-                "subRegion": "north",
-                "tagline": "Gateway to Gurudongmar",
+                "tagline": "Gateway to Gurudongmar Lake",
                 "altitude": "2,750 m (9,000 ft)",
                 "bestTime": "March–May & October–November",
-                "famousFor": "High Altitude Base, Lachen Monastery, Scenic Valleys",
+                "famousFor": "Gurudongmar Base, High Altitude Valleys, Lachen Monastery",
                 "location": "North Sikkim",
-                "description": "<p>Lachen is a tranquil, high-altitude village in North Sikkim, situated at an elevation of 2,750 metres (9,000 ft). Much quieter and less commercialized than its twin village Lachung, Lachen serves as the base for journeys to the high-altitude Gurudongmar Lake and Cholamu Lake.</p><h3>History & Culture</h3><p>Historically, Lachen was a seasonal settlement for nomadic Tibetan tribes. Today, it is home to the Lachenpas, a Bhutia community that, like the Lachungpas, operates under the traditional 'Dzumsa' system. The Lachen Monastery, perched on a hill above the village, is a significant spiritual center.</p><h3>Geography & Environment</h3><p>The village is set against a backdrop of towering, snow-clad peaks and alpine forests. The Lachen Chu river carves through the deep valley, creating dramatic landscapes. The harsh winter transforms the village into a snowy wonderland, while summer brings a brief period of vibrant greenery and blooming alpine flowers.</p><h3>Detailed Insights</h3><p>Lachen is a spectacular Himalayan village located in the Mangan district of North Sikkim  at an</p><p>altitude of approximately 2,750 metres (9,022 ft) . Surrounded by towering snow -capped peaks,</p><p>alpine meadows, pristine rivers, dense coniferous forests, and dramatic mountain landscapes,</p><p>Lachen is one of the most important high -altitude destinations in Sikkim and serves as the gateway</p><p>to Gurudongmar Lake, Thangu Valley, Chopta Valley, and Kala Patthar . The name \"Lachen\"</p><p>translates to \"Big Pass\"  in the local Bhutia language, reflecting its historical significance as a major</p><p>Himalayan settlement and an important route connecting the northern frontiers of Sikkim.</p><p>Situated on the banks of the beautiful Lachen Chu River , Lachen offers breathtaking Himalayan</p><p>scenery, traditional wooden houses, Buddhist monasteries, yak grazing pastures, rich alpine</p><p>biodiversity, and warm mountain hospitality. Surrounded by glaciers, high -altitude valleys,</p><p>waterfalls, and vast mountain ran ges, the village transforms throughout the year —from lush green</p><p>alpine landscapes in summer and colourful wildflowers in spring to crystal -clear mountain</p><p>Recognised as the tourism lifeline of northern Sikkim, Lachen serves as the primary base for</p><p>exploring some of the highest and most iconic destinations in the Eastern Himalayas. Despite its</p><p>growing popularity among travellers, the village has preserved its  traditional culture, peaceful</p><p>atmosphere, and centuries -old customs through the unique Dzumsa  self-governance system.</p><p>photography, spiritual experiences, or authentic mountain village life, Lachen offers one of the most</p>",
+                "description": "<p>Lachen is a tranquil mountain village in North Sikkim situated at an elevation of 2,750 metres (9,000 ft). Serving as the base for journeys to the sacred Gurudongmar Lake and Chopta Valley, Lachen is nestled in an amphitheatre of pine-clad mountains and rushing streams.</p><h3>Heritage & Traditions</h3><p>The Lachenpa people maintain a rich social heritage governed by their traditional council, the Dzumsa. The historic Lachen Monastery, founded in 1858, commands peaceful views over the village.</p>",
                 "attractions": [
                     "Lachen Monastery",
-                    "Chopta Valley",
-                    "Thangu Valley"
+                    "Thangu Valley Gateway",
+                    "Lachen River Walks"
                 ],
                 "image": "images/gallery (10).jpg",
                 "highlights": [
-                    "Base for Gurudongmar Lake",
-                    "Remote mountain village",
-                    "Scenic valleys"
+                    "Primary base for Gurudongmar Lake",
+                    "Picturesque pine valleys",
+                    "Ancient Buddhist monastery"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "binoculars",
-                        "label": "Lake Visit"
-                    },
-                    {
                         "icon": "hiking",
-                        "label": "Valley Trek"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
+                        "label": "Valley Treks"
                     },
                     {
                         "icon": "temple",
                         "label": "Monastery Visit"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (250 km)",
-                    "byTrain": "New Jalpaiguri (245 km)",
-                    "byRoad": "Via Gangtok & Chungthang (129 km from Gangtok)"
-                }
-            },
-            {
-                "name": "Yumthang Valley",
-                "slug": "yumthang-valley",
-                "subRegion": "north",
-                "tagline": "Valley of Flowers",
-                "altitude": "3,564 m (11,693 ft)",
-                "bestTime": "March–May",
-                "famousFor": "Rhododendrons, Hot Springs, River Views",
-                "location": "North Sikkim",
-                "description": "<p>Yumthang Valley, popularly known as the 'Valley of Flowers', is a spectacular high-altitude valley in North Sikkim situated at 3,564 metres (11,693 ft). Framed by majestic snow-covered peaks, the valley is a flat expanse of lush green meadows divided by a meandering river and surrounded by dense pine and rhododendron forests.</p><h3>The Valley of Flowers</h3><p>During the spring and early summer (April to June), the valley explodes in a riot of colors as over 24 species of rhododendrons, along with primulas, poppies, and irises, bloom simultaneously. The Shingba Rhododendron Sanctuary, which covers the valley, is a major attraction during this season.</p><h3>Attractions & Environment</h3><p>The valley is a grazing pasture for yaks in the summer. Visitors can also enjoy natural hot springs located near the valley, believed to possess medicinal properties. In winter, the valley is completely blanketed in snow and becomes inaccessible for several months.</p><h3>Detailed Insights</h3><p>Lachung lies within the globally significant Eastern Himalayan Biodiversity Hotspot, supporting</p><p>diverse alpine forests and rich mountain ecosystems. The region is home to rhododendrons,</p><p>magnolias, silver fir, pine, juniper, bamboo, orchids, primulas, medic inal plants, and seasonal</p><p>The village is predominantly inhabited by the Bhutia community, with influences from Lepcha and</p><p>Nepali cultures. Agriculture, tourism, yak rearing, horticulture, and traditional handicrafts continue</p><p>to shape everyday life. The unique Dzumsa system remains an important part of Lachung's identity,</p><p>Buddhist festivals, colourful prayer flags, monasteries, and traditional Himalayan hospitality create a</p>",
-                "attractions": [
-                    "Rhododendron Sanctuary",
-                    "Yumthang Hot Spring",
-                    "Meadow Walks"
-                ],
-                "image": "images/gallery (1).jpg",
-                "highlights": [
-                    "Blooming rhododendrons",
-                    "Natural hot springs",
-                    "River meadow walks"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "hiking",
-                        "label": "Meadow Walk"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
+                        "label": "Scenic Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (240 km)",
+                    "byTrain": "New Jalpaiguri (235 km)",
+                    "byRoad": "120 km from Gangtok via Chungthang"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Yamthang Valley",
+                "slug": "yumthang-valley",
+                "tagline": "The Valley of Flowers of the Himalayas",
+                "altitude": "3,564 m (11,693 ft)",
+                "bestTime": "Late February to Mid June",
+                "famousFor": "Rhododendron Blooms, Hot Springs, Alpine Meadows, Yaks",
+                "location": "North Sikkim",
+                "description": "<p>Yumthang Valley (also spelled Yamthang), widely celebrated as the Valley of Flowers of the Himalayas, is a breathtaking alpine sanctuary located at 3,564 metres in North Sikkim. Framed by snow-crested mountain walls and the meandering Yumthang River, the valley bursts into an explosion of colors each spring.</p><p>It features natural hot sulfur springs known for therapeutic mineral properties and meadows where grazing yaks wander peacefully.</p>",
+                "attractions": [
+                    "Rhododendron Valley Meadows",
+                    "Yumthang Hot Springs",
+                    "Riverbed Alpine Vistas"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Over 24 species of blooming rhododendrons",
+                    "Natural therapeutic hot sulfur spring",
+                    "Postcard river valley surrounded by snow walls"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Valley Walk"
                     },
                     {
-                        "icon": "binoculars",
-                        "label": "Flower Viewing"
+                        "icon": "camera",
+                        "label": "Flower Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Hot Spring Visit"
                     }
                 ],
                 "howToReach": {
                     "byAir": "Bagdogra Airport (260 km)",
                     "byTrain": "New Jalpaiguri (255 km)",
-                    "byRoad": "24 km from Lachung"
-                }
+                    "byRoad": "25 km drive from Lachung"
+                },
+                "subRegion": "north"
             },
             {
                 "name": "Zero Point",
                 "slug": "zero-point",
-                "subRegion": "north",
-                "tagline": "Yumesamdong Edge",
+                "tagline": "Yumesamdong — Where the Road Ends",
                 "altitude": "4,663 m (15,300 ft)",
-                "bestTime": "March–May & October–November",
-                "famousFor": "Snow, High Altitude Desert, Panoramas",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Year-round Snow, Extreme Altitude, Himalayan Border Panoramas",
                 "location": "North Sikkim",
-                "description": "<p>Zero Point, locally known as Yumesamdong, is a breathtaking high-altitude destination in North Sikkim located at 4,663 metres (15,300 ft). It is situated about 23 km beyond Yumthang Valley and marks the end of the motorable road, beyond which civilian access is restricted due to its proximity to the international border.</p><h3>The Snow Experience</h3><p>Zero Point is famous for remaining snow-covered for the majority of the year, making it a prime destination for tourists wanting to experience snow. The landscape is stark and alpine, completely devoid of vegetation, featuring vast expanses of white snow, frozen rivers, and towering peaks.</p><h3>Conditions & Visit</h3><p>The high altitude means oxygen levels are significantly lower, and visitors must take precautions against altitude sickness. The weather is unpredictable and intensely cold. The journey offers spectacular views of the rugged Himalayan terrain and the confluence of three rivers.</p><h3>Detailed Insights</h3><p>Zero Point, officially known as Yumesamdong , is a spectacular high -altitude destination located in</p><p>the Mangan district of North Sikkim  at an altitude of approximately 4,650 metres (15,255 ft) .</p><p>Surrounded by snow -covered mountains, alpine deserts, frozen streams, and dramatic Himalayan</p><p>landscapes, Zero Point is one of the highest motorable tourist destinations in Sikkim. Situated close</p><p>to the Indo -China border, it marks the end of the civilian motorable road beyond Yumthang Valley ,</p><p>offering visitors an unforgettable experience of the raw beauty of the Eastern Himalayas.</p><p>Located about 24 km from Yumthang Valley  and 49 km from Lachung , Zero Point remains one of</p><p>North Sikkim's most sought -after attractions. The region is covered with snow for a significant part</p><p>of the year and offers breathtaking mountain panoramas, pristine alpine terrain, and an unmatched</p><p>high -altitude adventure. Unli ke commercial tourist destinations, Zero Point remains largely</p><p>untouched, making it ideal for travellers seeking nature, snow, photography, and Himalayan</p>",
+                "description": "<p>Zero Point, officially known as Yumesamdong, is the northernmost motorable outpost in Sikkim where civilian roads come to an end near the international border. Perched at an astonishing 4,663 metres (over 15,300 ft), it remains blanketed in crisp white snow for the majority of the year.</p><p>Surrounded by barren, soaring glaciated peaks, Zero Point offers an electrifying sensation of standing on top of the world.</p>",
                 "attractions": [
-                    "Snow Activities",
-                    "Yumesamdong Hot Springs",
-                    "Mountain Panoramas"
+                    "Snowfield Plains",
+                    "Curving River Confluences",
+                    "Glaciated Mountain Ridges"
                 ],
-                "image": "images/gallery (2).jpg",
+                "image": "images/gallery (12).jpg",
                 "highlights": [
-                    "End of civilian road",
-                    "Snow activities",
-                    "Breathtaking panoramas"
+                    "Standing at over 15,300 feet altitude",
+                    "Where civilian motorable roads end",
+                    "Untamed snowfields and jagged Himalayan crests"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "hiking",
-                        "label": "Snow Activities"
+                        "icon": "binoculars",
+                        "label": "Snow Play"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
+                        "label": "High Altitude Snaps"
                     },
                     {
-                        "icon": "binoculars",
-                        "label": "Mountain Views"
+                        "icon": "tea",
+                        "label": "Hot Mountain Drinks"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Bagdogra Airport (285 km)",
-                    "byTrain": "New Jalpaiguri (280 km)",
-                    "byRoad": "49 km from Lachung via Yumthang"
-                }
+                    "byAir": "Bagdogra Airport (280 km)",
+                    "byTrain": "New Jalpaiguri (275 km)",
+                    "byRoad": "50 km drive from Lachung via Yumthang Valley"
+                },
+                "subRegion": "north"
             },
             {
                 "name": "Gurudongmar Lake",
                 "slug": "gurudongmar-lake",
-                "subRegion": "north",
-                "tagline": "Sacred Alpine Lake",
+                "tagline": "Sacred Holy Lake at 17,800 Feet",
                 "altitude": "5,430 m (17,800 ft)",
-                "bestTime": "April–May & October–November",
-                "famousFor": "High Altitude Lake, Sacred Site, Stunning Vistas",
-                "location": "North Sikkim",
-                "description": "<p>Gurudongmar Lake is one of the highest lakes in the world, situated at a staggering altitude of 5,430 metres (17,800 ft) in North Sikkim. Surrounded by snow-capped mountains and stark, high-altitude desert landscapes, the lake is breathtakingly beautiful and holds deep religious significance for both Buddhists and Sikhs.</p><h3>Spiritual Significance</h3><p>According to legend, Guru Padmasambhava (Guru Rinpoche) visited the lake in the 8th century and touched a portion of it, preventing it from freezing completely even in the dead of winter, to provide drinking water for the locals. Another legend attributes this to Guru Nanak Dev Ji. Today, the unfrozen corner remains a site of immense reverence.</p><h3>The Journey & Environment</h3><p>The journey to Gurudongmar Lake is arduous, traversing through the cold desert of the Tibetan Plateau. The landscape is barren and lunar-like. Due to the extreme altitude, visitors are advised to spend only a short time at the lake to avoid altitude sickness. The pristine blue waters reflecting the sky and the surrounding white peaks create an unforgettable sight.</p><h3>Detailed Insights</h3><p>Combining spectacular Himalayan landscapes, high -altitude valleys, pristine rivers, traditional Bhutia</p><p>culture, Buddhist heritage, rich alpine biodiversity, and easy access to Gurudongmar Lake, Thangu</p><p>Valley, Chopta Valley, and Kala Patthar, Lachen offers one of the most extraordinary mountain</p><p>experiences in North Sikkim. Whether you seek breathtaking scenery, snow -covered landscapes,</p><p>wildlife, adventure, photography, or authentic Himalayan village life, Lachen stands among the finest</p>",
+                "bestTime": "March–June & October–November",
+                "famousFor": "One of the World's Highest Lakes, Sacred Never-Freezing Spot, Glacial Peaks",
+                "location": "North Sikkim Plateau",
+                "description": "<p>Gurudongmar Lake is one of the highest and most sacred alpine lakes in the world, positioned at an altitude of 5,430 metres (17,800 ft) on the high plateau of North Sikkim, just 5 kilometres from the Tibetan border.</p><p>Revered by both Buddhists and Sikhs, legend holds that Guru Padmasambhava blessed a section of the lake so it never freezes completely even during brutal winters, providing drinking water to locals.</p>",
                 "attractions": [
-                    "Sacred Lake",
-                    "High Altitude Views",
-                    "Sarva Dharma Sthal"
+                    "Sacred Glacial Lake",
+                    "Sarva Dharma Shrine",
+                    "Mount Siniolchu & Kanchenjunga Vistas"
                 ],
-                "image": "images/gallery (3).jpg",
+                "image": "images/gallery (13).jpg",
                 "highlights": [
-                    "One of world's highest lakes",
-                    "Sacred to multiple faiths",
-                    "Crystal-clear waters"
+                    "One of the highest lakes on Earth (17,800 ft)",
+                    "Sacred blessed waters that never freeze completely",
+                    "Stunning panoramic ring of 7,000-metre ice peaks"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "binoculars",
-                        "label": "Lake Views"
+                        "icon": "temple",
+                        "label": "Lake Pilgrimage"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
+                        "label": "High Altitude Photography"
                     },
                     {
-                        "icon": "temple",
-                        "label": "Sacred Visit"
+                        "icon": "binoculars",
+                        "label": "Peak Gazing"
                     }
                 ],
                 "howToReach": {
                     "byAir": "Bagdogra Airport (295 km)",
                     "byTrain": "New Jalpaiguri (290 km)",
-                    "byRoad": "Via Lachen, 67 km from Lachen"
-                }
+                    "byRoad": "66 km drive from Lachen via Thangu Valley"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Thangu Valley",
+                "slug": "thangu-valley",
+                "tagline": "High Alpine Acclimatization Valley",
+                "altitude": "3,962 m (13,000 ft)",
+                "bestTime": "March–June & October–November",
+                "famousFor": "Wooden Alpine Lodges, Snow Clad Plains, Base for Gurudongmar & Chopta",
+                "location": "North Sikkim",
+                "description": "<p>Thangu Valley is a dramatic high-altitude settlement nestled at 3,962 metres along the roaring Teesta river. It is surrounded by alpine meadows, wooden Tibetan-style houses, and towering barren peaks.</p><p>It serves as the crucial acclimatization breakpoint for travellers journeying onward to Gurudongmar Lake and Chopta Valley.</p>",
+                "attractions": [
+                    "Thangu Riverbed",
+                    "Alpine Timber Village",
+                    "Chopta Valley Gateway"
+                ],
+                "image": "images/gallery (14).jpg",
+                "highlights": [
+                    "High-altitude village at 13,000 feet",
+                    "Essential acclimatization halt for Gurudongmar",
+                    "Traditional nomadic yak-herder settlements"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "tea",
+                        "label": "Acclimatization Rest"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Riverbed Snaps"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Alpine Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (270 km)",
+                    "byTrain": "New Jalpaiguri (265 km)",
+                    "byRoad": "30 km drive from Lachen towards Gurudongmar"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Chopta Valley",
+                "slug": "chopta-valley",
+                "tagline": "Valley of Frozen Rivers & Alpine Wildflowers",
+                "altitude": "4,023 m (13,200 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Frozen River Beds, Rare Alpine Primulas, Meandering Streams",
+                "location": "North Sikkim",
+                "description": "<p>Chopta Valley is an ethereal, untouched high-altitude valley situated just above Thangu in North Sikkim. In winter, its meandering streams freeze into glistening glass ribbons under bright blue skies.</p><p>In spring and summer, the barren valley transforms into a vibrant carpet of rare alpine rhododendrons, primulas, and wildflowers.</p>",
+                "attractions": [
+                    "Frozen Riverbed Meadows",
+                    "Alpine Wildflower Plains",
+                    "Muguthang Trek Trailhead"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Frozen river landscapes in winter",
+                    "Vibrant alpine floral bloom in spring",
+                    "Pristine isolation near the high Himalayan crest"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Valley Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Landscape Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Alpine Birding"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (275 km)",
+                    "byTrain": "New Jalpaiguri (270 km)",
+                    "byRoad": "35 km from Lachen, 5 km past Thangu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Kala Patthar",
+                "slug": "kala-patthar",
+                "tagline": "Black Rock Snow Summit of North Sikkim",
+                "altitude": "4,511 m (14,800 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Year-round Snow Play, Stark Black Mountains, High Altitude Adventure",
+                "location": "North Sikkim",
+                "description": "<p>Kala Patthar (Black Rock) is one of the most exciting high-altitude snow destinations in North Sikkim, perched at over 14,800 feet. It is famous for its dramatic contrast between stark black craggy cliffs and pristine, powdery white snow.</p><p>Unlike many lower valleys, Kala Patthar offers guaranteed snow across most months of the year, making it a thrilling highlight for adventure travelers.</p>",
+                "attractions": [
+                    "Black Rock Cliff Wall",
+                    "Powder Snow Slopes",
+                    "Glacial Ridge Panoramas"
+                ],
+                "image": "images/gallery (16).jpg",
+                "highlights": [
+                    "Guaranteed snow across most months",
+                    "Spectacular contrast of black rock and snow",
+                    "Thrilling high-altitude off-roading adventure"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Snow Adventures"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Mountain Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Snowfield Walking"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (280 km)",
+                    "byTrain": "New Jalpaiguri (275 km)",
+                    "byRoad": "Drive via Lachen and Thangu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Chungthang",
+                "slug": "chungthang",
+                "tagline": "Sacred Confluence of Lachen & Lachung Rivers",
+                "altitude": "1,790 m (5,870 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Guru Nanak Sacred Rock & Gurudwara, River Confluence, Gateway to High North",
+                "location": "North Sikkim",
+                "description": "<p>Chungthang is a historic mountain town nestled at the sacred confluence of the Lachen Chu and Lachung Chu rivers, which unite here to form the mighty Teesta River. It is the crucial junction where the highway splits into the Lachen and Lachung valleys.</p><p>Revered in Sikh and Buddhist traditions, Chungthang is home to the historic Gurudwara Nanak Lama and the sacred rock bearing the footprints of Guru Nanak and Guru Padmasambhava.</p>",
+                "attractions": [
+                    "Lachen & Lachung River Confluence",
+                    "Gurudwara Nanak Lama",
+                    "Sacred Footprint Rock"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Sacred river confluence forming the Teesta",
+                    "Historic Sikh Gurudwara and Buddhist shrine",
+                    "Crucial transit hub connecting North valleys"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Gurudwara & Shrine Visit"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "River Confluence View"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Bridge Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (215 km)",
+                    "byTrain": "New Jalpaiguri (210 km)",
+                    "byRoad": "95 km from Gangtok, 25 km from Mangan"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Dzongu",
+                "slug": "dzongu",
+                "tagline": "Sacred Ancestral Realm of the Lepchas",
+                "altitude": "1,000 – 3,000 m",
+                "bestTime": "October–May",
+                "famousFor": "Exclusive Lepcha Reserve, Pristine Waterfalls, Ancient Forest Spirit Traditions",
+                "location": "North Sikkim",
+                "description": "<p>Dzongu is an exclusive, officially protected reserve in North Sikkim set aside exclusively for the indigenous Lepcha community — the original inhabitants of Sikkim. Bordered by the Teesta river and Kanchenjunga National Park, it is a realm of untamed wilderness.</p><p>Roaring waterfalls, swinging bamboo cane bridges, cardamom groves, and ancient animist folklore make Dzongu one of the most culturally profound eco-tourism destinations on Earth.</p>",
+                "attractions": [
+                    "Lingthem & Tingvong Villages",
+                    "Rongyung Chu River",
+                    "Traditional Bamboo Homestays"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Exclusive indigenous Lepcha cultural sanctuary",
+                    "Pristine waterfalls and bamboo cane footbridges",
+                    "Spectacular direct vistas of Mount Kanchenjunga"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Indigenous Homestay"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Wilderness Treks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Cultural Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (185 km)",
+                    "byTrain": "New Jalpaiguri (180 km)",
+                    "byRoad": "Entry via Sankalang Bridge (18 km from Mangan)"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Mangan",
+                "slug": "mangan",
+                "tagline": "Capital of North Sikkim & Cardamom Heart",
+                "altitude": "1,200 m (3,937 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Cardamom Capital of India, Gateway to North Sikkim, View of Kanchenjunga",
+                "location": "North Sikkim",
+                "description": "<p>Mangan is the bustling district headquarters of North Sikkim, renowned as the 'Cardamom Capital of India' due to the massive production and trading of premium black cardamom across its valleys.</p><p>Perched high above the Teesta River, Mangan offers breathtaking frontal vistas of Mount Kanchenjunga and serves as the essential permit and supply hub for all northern expeditions.</p>",
+                "attractions": [
+                    "Mangan Bazaar & Cardamom Market",
+                    "Kanchenjunga Viewpoints",
+                    "Phensang Monastery Nearby"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Largest cardamom trading center in the Himalayas",
+                    "Clear views of Mount Kanchenjunga and Mount Siniolchu",
+                    "Administrative transit hub of North Sikkim"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "shopping",
+                        "label": "Spice & Cardamom Shopping"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Mountain Gazing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Town Panoramas"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (180 km)",
+                    "byTrain": "New Jalpaiguri (175 km)",
+                    "byRoad": "65 km from Gangtok via North Sikkim Highway"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Singhik",
+                "slug": "singhik",
+                "tagline": "The Ultimate Kanchenjunga Balcony Viewpoint",
+                "altitude": "1,560 m (5,118 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Closest Frontal View of Mount Kanchenjunga & Mount Siniolchu, River Valley",
+                "location": "North Sikkim",
+                "description": "<p>Singhik is a tiny, quiet mountain settlement perched 4 kilometers north of Mangan, celebrated far and wide as one of the finest natural balconies in the Himalayas.</p><p>On clear mornings, visitors are treated to an astonishingly close, awe-inspiring frontal vista of Mount Kanchenjunga and Mount Siniolchu (hailed as one of the most beautiful mountain peaks on the planet), rising straight above the green river gorge.</p>",
+                "attractions": [
+                    "Singhik Viewpoint Pavilions",
+                    "Mount Siniolchu Panorama",
+                    "Singhik Forest Trails"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Closest frontal panorama of Kanchenjunga",
+                    "Unrivaled view of majestic Mount Siniolchu",
+                    "Peaceful rest stop on the North Sikkim Highway"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Peak Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Sunrise Photography"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Nature Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (185 km)",
+                    "byTrain": "New Jalpaiguri (180 km)",
+                    "byRoad": "4 km north of Mangan town"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Seven Sister Waterfalls",
+                "slug": "seven-sister-waterfalls",
+                "tagline": "Seven-Tiered Cascading Wonder",
+                "altitude": "1,100 m (3,608 ft)",
+                "bestTime": "Round the Year (Best May–October)",
+                "famousFor": "Spectacular Seven-Stage Waterfall, National Highway Photo Stop, Lush Cliffs",
+                "location": "North Sikkim Highway",
+                "description": "<p>The Seven Sister Waterfalls is a magnificent natural cascade located along the Gangtok-Chungthang highway in North Sikkim. Plunging in seven distinct steps over emerald cliff faces and moss-covered boulders, it is a mesmerizing spectacle.</p><p>A well-maintained footbridge and viewing pavilion allow travelers to admire the roaring mist and spray rainbows created by the tumbling waters.</p>",
+                "attractions": [
+                    "Seven Cascading Stages",
+                    "Highway Viewing Pavilion",
+                    "Suspension Footbridge"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Seven-tiered cascading waterfall",
+                    "Iconic photo stop on the North Sikkim Highway",
+                    "Lush rainforest cliff scenery"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Waterfall Photos"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Bridge Walk"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Café Refreshment"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (145 km)",
+                    "byTrain": "New Jalpaiguri (140 km)",
+                    "byRoad": "32 km from Gangtok on the highway to Mangan"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Shingba Rhododendron Sanctuary",
+                "slug": "shingba-rhododendron-sanctuary",
+                "tagline": "Valley of 40 Rare Rhododendron Species",
+                "altitude": "3,048 – 4,500 m",
+                "bestTime": "April to July",
+                "famousFor": "Vibrant Spring Floral Blooms, State Flower Dendrobium, Yumthang Buffer",
+                "location": "Yumthang Valley Belt, North Sikkim",
+                "description": "<p>Shingba Rhododendron Sanctuary is a protected high-altitude botanical wonderland surrounding the Yumthang river in North Sikkim. Spanning 43 square kilometers, it shelters over 40 distinct species of wild rhododendrons, including Sikkim's state flower, Rhododendron niveum.</p><p>During spring bloom, the entire valley turns into an awe-inspiring mosaic of crimson, purple, pink, and yellow blossoms against snowy crags.</p>",
+                "attractions": [
+                    "Rhododendron Nature Trails",
+                    "Rare Alpine Bird Habitats",
+                    "Lachung River Bank"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Over 40 wild species of rhododendrons",
+                    "Spectacular high-altitude spring floral carpet",
+                    "Habitat for Himalayan musk deer and monal pheasants"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Flora Nature Walk"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Macro Flower Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Pheasant Spotting"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (255 km)",
+                    "byTrain": "New Jalpaiguri (250 km)",
+                    "byRoad": "Situated inside Yumthang Valley, 18 km from Lachung"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Phensang",
+                "slug": "phensang",
+                "tagline": "Historic Nyingmapa Monastic Crest",
+                "altitude": "1,650 m (5,413 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Phensang Monastery (built 1721), Sacred Mask Dances, Valley Vistas",
+                "location": "Near Mangan, North Sikkim",
+                "description": "<p>Phensang is a culturally revered village and monastic ridge located in North Sikkim, celebrated for the historic Phensang Monastery established in 1721 by the 3rd Lhatsun Chempo.</p><p>Perched on a gentle mountain spur, the monastery houses over 300 resident lamas and hosts vibrant annual masked Chaam dances during the Sikkimese New Year (Lossoong).</p>",
+                "attractions": [
+                    "Phensang Monastery (1721)",
+                    "Sacred Chaam Dance Courtyard",
+                    "Panoramic Mangan Ridge View"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Over 300-year-old Nyingmapa monastery",
+                    "Vibrant annual sacred masked dances",
+                    "Serene peaceful mountain atmosphere"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Religious Art Snaps"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Village Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (175 km)",
+                    "byTrain": "New Jalpaiguri (170 km)",
+                    "byRoad": "9 km south of Mangan on the highway to Gangtok"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Tingvong",
+                "slug": "tingvong",
+                "tagline": "Fairytale Hamlet of Upper Dzongu",
+                "altitude": "1,450 m (4,757 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Panoramic Kanchenjunga Views, Traditional Lepcha Homestays, Pristine Valleys",
+                "location": "Upper Dzongu, North Sikkim",
+                "description": "<p>Tingvong is one of the most picturesque traditional villages in Upper Dzongu, perched high on the sunny mountain slopes overlooking the confluence of the Rongyung and Kanaka rivers.</p><p>With sweeping views of the sacred snow-capped Kanchenjunga range, Tingvong offers warm Lepcha homestays, local organic food, and forest trails leading into virgin woodlands.</p>",
+                "attractions": [
+                    "Tingvong Village Viewpoint",
+                    "Lepcha Cultural Heritage Homes",
+                    "Cane Bridge Confluence"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Unobstructed views of Mount Kanchenjunga",
+                    "Heartfelt traditional Lepcha hospitality",
+                    "Secluded mountain paradise far from roads"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Lepcha Homestay"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Valley Treks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Himalayan Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (195 km)",
+                    "byTrain": "New Jalpaiguri (190 km)",
+                    "byRoad": "Drive via Sankalang Bridge through Dzongu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Passingdang",
+                "slug": "passingdang",
+                "tagline": "Heart of Lower Dzongu Community Tourism",
+                "altitude": "1,300 m (4,265 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Lepcha Cultural Immersion, Cane Bridges, Organic Bamboo Architecture",
+                "location": "Lower Dzongu, North Sikkim",
+                "description": "<p>Passingdang is the welcoming cultural heart of Lower Dzongu, nestled in an amphitheatre of green cardamom hills and sparkling streams. It was the pioneer village for authentic community-based eco-tourism in Dzongu.</p><p>Visitors can sleep in traditional bamboo cottages, taste bamboo shoot delicacies, and learn about the sacred indigenous folklore of Mt. Kanchenjunga.</p>",
+                "attractions": [
+                    "Passingdang Bamboo Eco-Cottages",
+                    "Rongyung River Cane Bridges",
+                    "Cardamom Forest Treks"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Pioneer village for Lepcha eco-tourism",
+                    "Traditional bamboo architecture and dining",
+                    "Relaxing sounds of rushing river streams"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Eco-Tourism Stay"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Traditional Food Tasting"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Cane Bridge Walk"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (190 km)",
+                    "byTrain": "New Jalpaiguri (185 km)",
+                    "byRoad": "15 km from Sankalang Bridge, Dzongu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Twin Waterfalls",
+                "slug": "twin-waterfalls",
+                "tagline": "Twin Roaring Mountain Cataracts",
+                "altitude": "1,600 m (5,250 ft)",
+                "bestTime": "May to November",
+                "famousFor": "Dual Cascading Waterfalls, Lachung Highway Wonder, Spray Rainbows",
+                "location": "North Sikkim Highway",
+                "description": "<p>Twin Waterfalls is a breathtaking natural landmark located along the steep mountain route between Chungthang and Lachung. Two parallel torrents of icy glacial water plummet side-by-side down high granite cliffs.</p><p>The spray creates dancing rainbows on sunny afternoons, making it a beloved pause for travelers journeying into high North Sikkim.</p>",
+                "attractions": [
+                    "Dual Water Cataracts",
+                    "Cliffside Spray Rainbows",
+                    "Mountain Road Overlook"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Two parallel torrents plummeting from high cliffs",
+                    "Dramatic photo stop on the way to Lachung",
+                    "Refreshing mountain mist and rainbows"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Waterfall Photos"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Roadside View"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Break"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (225 km)",
+                    "byTrain": "New Jalpaiguri (220 km)",
+                    "byRoad": "Between Chungthang and Lachung on North Highway"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Bhimnala Waterfalls",
+                "slug": "bhimnala-waterfalls",
+                "tagline": "The Towering Amitabh Bachchan Falls",
+                "altitude": "1,750 m (5,741 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Highest Multi-Tier Waterfall in Sikkim, Bollywood Association, Gushing Plunge",
+                "location": "Khedum, Near Lachung, North Sikkim",
+                "description": "<p>Bhimnala Falls, popularly nicknamed the 'Amitabh Bachchan Waterfall' due to its immense height, is one of the tallest and most thunderous waterfalls in Sikkim. Located near Khedum village on the route to Lachung, it drops in three grand tiers.</p><p>Surrounded by dense green cliffs and colorful prayer flags, the roaring cascade is a must-see landmark on every North Sikkim itinerary.</p>",
+                "attractions": [
+                    "Three-Tier Giant Plunge",
+                    "Khedum Tea Stalls",
+                    "Prayer Flag Viewing Deck"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "One of the tallest waterfalls in the state of Sikkim",
+                    "Spectacular three-tiered roaring drop",
+                    "Scenic roadside viewing deck with hot tea stalls"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Giant Waterfall Photos"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Hot Snack Break"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cliff Viewing"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (230 km)",
+                    "byTrain": "New Jalpaiguri (225 km)",
+                    "byRoad": "13 km before Lachung town along the main highway"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Mt Katao",
+                "slug": "mt-katao",
+                "tagline": "Snow Paradise of the Forbidden Heights",
+                "altitude": "4,572 m (15,000 ft)",
+                "bestTime": "December–May",
+                "famousFor": "Snow Adventure, Skiing & Snowboarding, Dramatic Glaciated Mountain Wall",
+                "location": "Near Lachung, North Sikkim",
+                "description": "<p>Mount Katao is an awe-inspiring, glaciated peak located 28 kilometers from Lachung near the international frontier. Reaching an altitude of nearly 15,000 feet, Katao is celebrated for its surreal winter snowscapes.</p><p>Trekkers and adventure lovers flock to Katao for skiing, snowboarding, and walking along sparkling snowy ridges flanked by dramatic mountain walls.</p>",
+                "attractions": [
+                    "Snow Slopes of Katao",
+                    "Hanging Glaciers",
+                    "Alpine Forest Ascent"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "Premier snow destination in North Sikkim",
+                    "Ideal for skiing, snowboarding, and snow play",
+                    "Glaciated 15,000-ft mountain amphitheatre"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Snow Adventures"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Glacier Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Ridge Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (250 km)",
+                    "byTrain": "New Jalpaiguri (245 km)",
+                    "byRoad": "28 km drive from Lachung (requires special permits)"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Cho Lhamu Lake",
+                "slug": "cho-lhamu-lake",
+                "tagline": "Highest Lake in India & Source of Teesta",
+                "altitude": "5,330 m (17,490 ft)",
+                "bestTime": "March–May & October–November",
+                "famousFor": "India's Highest Glacial Lake, Origin of Teesta River, Tibetan Border Wilderness",
+                "location": "Plateau of North Sikkim",
+                "description": "<p>Cho Lhamu Lake (Tso Lhamo) is the highest lake in India, situated at an extraordinary altitude of 5,330 metres (17,490 ft) in the high plateau of North Sikkim, just 4 kilometres from the border with Tibet.</p><p>Fed by the waters of the Zemu Glacier and Kangchenjunga massif, this shimmering emerald-turquoise glacial lake is the sacred mythological source of the mighty Teesta River.</p>",
+                "attractions": [
+                    "Highest Lake in India",
+                    "Birthplace of Teesta River",
+                    "Tibetan Plateau Mountain Vistas"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Highest lake in India (5,330 m)",
+                    "Sacred origin point of the Teesta River",
+                    "Extreme high-altitude trans-Himalayan wilderness"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Trans-Himalayan Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "High Plateau Photography"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "River Source Homage"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (300 km)",
+                    "byTrain": "New Jalpaiguri (295 km)",
+                    "byRoad": "Drive via Lachen and Thangu (requires army clearance)"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Muguthang",
+                "slug": "muguthang",
+                "tagline": "The Extreme High-Altitude Trans-Himalayan Basin",
+                "altitude": "4,500 m (14,763 ft)",
+                "bestTime": "June to October",
+                "famousFor": "Yak Herders, High Mountain Passes, Untouched Tibetan Border Wilderness",
+                "location": "North-West Sikkim Frontier",
+                "description": "<p>Muguthang is a remote, windswept high-altitude trans-Himalayan valley located in the far northwestern reaches of North Sikkim near the Nepal and Tibet borders. It is accessible only via strenuous high-mountain passes from Chopta Valley.</p><p>Home to nomadic Dokpa yak-herders and wild blue sheep, Muguthang offers an untouched glimpse into high-altitude nomadic life.</p>",
+                "attractions": [
+                    "Muguthang River Basin",
+                    "Dokpa Yak Camps",
+                    "High Mountain Passes"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Extreme wilderness trek destination",
+                    "Ancient Dokpa nomadic yak culture",
+                    "Raw trans-Himalayan landscapes and blue sheep"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "High Pass Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Wildlife Spotting"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Expedition Photos"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (290 km)",
+                    "byTrain": "New Jalpaiguri (285 km)",
+                    "byRoad": "Trek route from Chopta Valley / Thangu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Ringhim",
+                "slug": "ringhim",
+                "tagline": "Monastery Ridge Above Mangan",
+                "altitude": "1,400 m (4,593 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Ringhim Monastery, Annual Namsoong Festival, Kanchenjunga Vistas",
+                "location": "Above Mangan, North Sikkim",
+                "description": "<p>Ringhim is a peaceful hilltop settlement perched directly above Mangan town in North Sikkim. It is famous for the historic Ringhim Monastery, which serves as a major spiritual center for the local Buddhist and Lepcha communities.</p><p>Surrounded by citrus orchards and prayer flags, the ridge commands stunning views of Mount Kanchenjunga and hosts the annual vibrant Namsoong festival.</p>",
+                "attractions": [
+                    "Ringhim Monastery",
+                    "Namsoong Festival Grounds",
+                    "Mangan Overlook Pavilions"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Historic mountain gompa with prayer wheels",
+                    "Unobstructed vistas of Mount Kanchenjunga",
+                    "Peaceful monastery ridge above Mangan"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visit"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Valley Vistas"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Sunrise Shots"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (182 km)",
+                    "byTrain": "New Jalpaiguri (177 km)",
+                    "byRoad": "4 km uphill drive from Mangan bazaar"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Hee Gyathang",
+                "slug": "hee-gyathang",
+                "tagline": "Sacred Lake & Lepcha Heart of Dzongu",
+                "altitude": "1,520 m (4,986 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Sacred Carp Fish Lake, Ancient Monastic Relics, Untouched Forest Groves",
+                "location": "Lower Dzongu, North Sikkim",
+                "description": "<p>Hee Gyathang is a sacred Lepcha village in Lower Dzongu centered around a mystical, holy lake revered by the indigenous inhabitants. Legend holds that golden carp fish residing in the lake are spiritual ancestors of the local clans.</p><p>Surrounded by dense oak and chestnut groves, Hee Gyathang features historic shrines, sacred rocks, and deep animist forest traditions.</p>",
+                "attractions": [
+                    "Sacred Hee Gyathang Lake",
+                    "Indigenous Lepcha Shrine",
+                    "Ancient Forest Groves"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Sacred indigenous lake with holy carp fish",
+                    "Deeply rooted Lepcha spiritual mythology",
+                    "Untouched forest tranquility in Dzongu"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Sacred Lake Homage"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Cultural Homestay"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (192 km)",
+                    "byTrain": "New Jalpaiguri (187 km)",
+                    "byRoad": "16 km from Sankalang Bridge in Dzongu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Pentong",
+                "slug": "pentong",
+                "tagline": "The Final Frontier Village of Dzongu",
+                "altitude": "1,680 m (5,511 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Most Remote Settlement in Upper Dzongu, Siniolchu View, Pure Wilderness",
+                "location": "Upper Dzongu, North Sikkim",
+                "description": "<p>Pentong is the most remote village in Upper Dzongu, nestled near the buffer boundary of Kanchenjunga National Park. Accessible by adventurous foot trails through cardamom forests and crossing cascading mountain streams, Pentong feels entirely removed from modern time.</p><p>It provides an astonishing, direct closeup of the spire of Mount Siniolchu and Mount Simvo towering overhead.</p>",
+                "attractions": [
+                    "Mount Siniolchu Closeup View",
+                    "Kanchenjunga National Park Border",
+                    "Traditional Timber Huts"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Most remote village in Upper Dzongu",
+                    "Unmatched close view of Mount Siniolchu",
+                    "Total peaceful isolation in nature"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Wilderness Trek"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Remote Village Stay"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Peak Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (200 km)",
+                    "byTrain": "New Jalpaiguri (195 km)",
+                    "byRoad": "Trail connection from Tingvong in Upper Dzongu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Toong",
+                "slug": "toong",
+                "tagline": "River Checkpoint on the Way to High North",
+                "altitude": "1,420 m (4,658 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Teesta River Gorge, Forested Valley Slopes, Permit Checkpoint",
+                "location": "North Sikkim Highway",
+                "description": "<p>Toong is an important transit and permit verification post along the North Sikkim Highway, perched above the gorge where the river surges between Mangan and Chungthang.</p><p>Surrounded by sheer forested cliffs, suspension footbridges, and roaring waterfalls, Toong is a scenic milestone on the overland route towards Lachen and Lachung.</p>",
+                "attractions": [
+                    "Toong River Gorge",
+                    "High Forest Suspension Bridges",
+                    "North Sikkim Permit Post"
+                ],
+                "image": "images/gallery (10).jpg",
+                "highlights": [
+                    "Dramatic Teesta River canyon gorge",
+                    "Key gateway checkpoint for North Sikkim travel",
+                    "Lush subtropical to temperate forest transition"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Gorge Viewing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "River Photos"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Transit Rest"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (195 km)",
+                    "byTrain": "New Jalpaiguri (190 km)",
+                    "byRoad": "16 km north of Mangan towards Chungthang"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Sipgyer",
+                "slug": "sipgyer",
+                "tagline": "Secluded Mountain Village of Dzongu",
+                "altitude": "1,500 m (4,921 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Medicinal Plants, Traditional Cane Bridges, Pristine Solitude",
+                "location": "Upper Dzongu, North Sikkim",
+                "description": "<p>Sipgyer is a peaceful, secluded Lepcha hamlet tucked into the forested ridges of Upper Dzongu. Known for wild medicinal herb gardens, crystal streams, and traditional bamboo cane craft, Sipgyer preserves centuries-old Himalayan knowledge.</p><p>It is an ideal sanctuary for artists, nature lovers, and travelers seeking pure silence.</p>",
+                "attractions": [
+                    "Sipgyer Forest Slopes",
+                    "Medicinal Herb Trails",
+                    "Cane Bridge Crossings"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Hidden jewel of Upper Dzongu",
+                    "Centuries-old Lepcha herbal lore",
+                    "Complete silence and pristine forest nature"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Herbal Nature Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Homestay"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Valley Photos"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (198 km)",
+                    "byTrain": "New Jalpaiguri (193 km)",
+                    "byRoad": "Trek/jeep trail from Passingdang / Tingvong"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Rakdong",
+                "slug": "rakdong",
+                "tagline": "Verdant Hillside of North-East Slopes",
+                "altitude": "1,250 m (4,100 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Terraced Rice Fields, Mountain Streams, Cultural Village Walks",
+                "location": "North Sikkim Border Belt",
+                "description": "<p>Rakdong is a picturesque hillside village situated on the fertile slopes connecting North Sikkim with East Sikkim along the Dikchu valley. Celebrated for vibrant green stepped rice terraces, fruit orchards, and mountain streams, Rakdong reflects the pastoral beauty of rural Sikkim.</p><p>Visitors enjoy village trails, organic orchard dining, and scenic views of mountain ridges.</p>",
+                "attractions": [
+                    "Rakdong Stepped Rice Terraces",
+                    "Dikchu River Tributaries",
+                    "Traditional Farm Homesteads"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Postcard terraced rice fields and orchards",
+                    "Pleasant mid-altitude mountain climate",
+                    "Authentic rural Sikkimese village culture"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Terrace Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Agri-Tourism Photos"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Farm Dining"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (160 km)",
+                    "byTrain": "New Jalpaiguri (155 km)",
+                    "byRoad": "28 km from Gangtok via Dikchu"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Lingdem",
+                "slug": "lingdem",
+                "tagline": "Sulfur Hot Springs of Dzongu",
+                "altitude": "1,100 m (3,608 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Natural Therapeutic Hot Springs, Forest Wooden Footbridge, Healing Waters",
+                "location": "Dzongu, North Sikkim",
+                "description": "<p>Lingdem is famous throughout Sikkim for its natural therapeutic sulfur hot springs (Tatopani), nestled inside lush riverside forests across an iconic wooden footbridge in Upper Dzongu.</p><p>Local and travelers visit the serene open-air baths to soak in the warm, mineral-rich healing waters believed to cure joint aches and skin ailments while listening to the rushing mountain river.</p>",
+                "attractions": [
+                    "Lingdem Hot Springs (Tatopani)",
+                    "Forest Wooden Suspension Footbridge",
+                    "Rongyung River Bank"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Natural therapeutic mineral hot springs",
+                    "Picturesque forest wooden footbridge crossing",
+                    "Relaxing natural spa in the heart of nature"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Hot Spring Bath"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Riverside Forest Walk"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Homestay Rest"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (192 km)",
+                    "byTrain": "New Jalpaiguri (187 km)",
+                    "byRoad": "Drive to Lingdem village from Sankalang, then 15-min walk across the bridge"
+                },
+                "subRegion": "north"
+            },
+            {
+                "name": "Ravangla",
+                "slug": "ravangla",
+                "tagline": "Tranquil Buddhist Haven & Buddha Park",
+                "altitude": "2,000 m (6,561 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Buddha Park, Ralang Monastery, Himalayan Panorama",
+                "location": "South Sikkim",
+                "description": "<p>Ravangla is a serene town situated in South Sikkim at an elevation of 2,000 metres. Nestled between Maenam and Tendong hills, it is globally renowned for the magnificent 130-foot high statue of Lord Buddha in Buddha Park (Tathagata Tsal).</p><p>Surrounded by dense oak and rhododendron forests, Ravangla offers unobstructed views of Mount Kanchenjunga, Mount Pandim, and Mount Siniolchu.</p>",
+                "attractions": [
+                    "Buddha Park (Tathagata Tsal)",
+                    "Ralang Monastery",
+                    "Rayong Sunrise Viewpoint"
+                ],
+                "image": "images/gallery (14).jpg",
+                "highlights": [
+                    "130-ft consecrated Buddha statue",
+                    "Spectacular Kanchenjunga panoramas",
+                    "Historic Kagyu and Nyingma monasteries"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Buddha Park Visit"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Peak Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (125 km)",
+                    "byTrain": "New Jalpaiguri (120 km)",
+                    "byRoad": "68 km from Gangtok, 28 km from Namchi"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Namchi",
+                "slug": "namchi",
+                "tagline": "Cultural & Spiritual Capital of South Sikkim",
+                "altitude": "1,675 m (5,500 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Samdruptse Statue, Char Dham, Rose Garden",
+                "location": "South Sikkim",
+                "description": "<p>Namchi, meaning 'Sky High' in the Bhutia language, is the administrative headquarters and cultural heart of South Sikkim. Overlooked by the imposing 135-foot gilded statue of Guru Padmasambhava atop Samdruptse Hill, Namchi is a premier spiritual center.</p><p>It also hosts the renowned Siddhesvara Dham (Char Dham) and beautifully manicured rose gardens with sweeping valley vistas.</p>",
+                "attractions": [
+                    "Samdruptse Hill & Colossal Statue",
+                    "Siddhesvara Dham (Char Dham)",
+                    "Namchi Rock Garden"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "135-ft Guru Padmasambhava statue",
+                    "Sprawling Char Dham pilgrimage center",
+                    "Pleasant climate and panoramic hill views"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Pilgrimage"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Statue Views"
+                    },
+                    {
+                        "icon": "shopping",
+                        "label": "Bazaar Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (100 km)",
+                    "byTrain": "New Jalpaiguri (95 km)",
+                    "byRoad": "78 km from Gangtok via Singtam"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Temi Tea Garden",
+                "slug": "temi-tea-garden",
+                "tagline": "The Only Organic Tea Estate in Sikkim",
+                "altitude": "1,448 m (4,750 ft)",
+                "bestTime": "March–May (Spring) & November (Cherry Blossoms)",
+                "famousFor": "Organic Tea Gardens, Cherry Blossoms, Kanchenjunga Backdrop",
+                "location": "South Sikkim",
+                "description": "<p>Temi Tea Garden is the only tea estate in the state of Sikkim, established in 1969 by the Chogyal. Spanning 440 acres of rolling slopes beneath Tendong Hill, Temi is world-renowned for its 100% organic, award-winning aromatic orthodox tea.</p><p>During November, cherry blossom trees lining the tea trails burst into vibrant pink blooms against the snowy backdrop of Mount Kanchenjunga.</p>",
+                "attractions": [
+                    "Temi Tea Processing Factory",
+                    "Cherry Blossom Road",
+                    "Tea Tasting Pavilions"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "World-famous 100% certified organic tea",
+                    "Stunning autumn cherry blossom bloom",
+                    "Breathtaking views of Kanchenjunga across tea slopes"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "tea",
+                        "label": "Tea Garden Walks"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Tea Tasting"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Cherry Blossom Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (115 km)",
+                    "byTrain": "New Jalpaiguri (110 km)",
+                    "byRoad": "18 km from Namchi, 52 km from Gangtok"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Borong",
+                "slug": "borong",
+                "tagline": "Enchanting Birdwatching & Hot Springs Village",
+                "altitude": "1,770 m (5,800 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Borong Hot Springs (Tatopani), Bird Watching, Wildflower Valleys",
+                "location": "South Sikkim",
+                "description": "<p>Borong is a peaceful, picturesque village in South Sikkim situated near Ravangla. Famous for the therapeutic Borong Hot Springs (Tatopani) on the bank of the Rangit river, it offers breathtaking views of Mount Narsing and Mount Kanchenjunga.</p><p>Surrounded by thick pine forests, Borong is a renowned haven for birdwatchers, where Himalayan species like scarlet minivets and black magpies flit through the trees.</p>",
+                "attractions": [
+                    "Borong Hot Springs (Tatopani)",
+                    "Mount Narsing Viewpoint",
+                    "Pine Canopy Bird Trails"
+                ],
+                "image": "images/gallery (16).jpg",
+                "highlights": [
+                    "Natural sulfur hot springs",
+                    "Spectacular view of Mount Narsing",
+                    "Serene birdwatching paradise"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Hot Springs Hike"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Homestay"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (130 km)",
+                    "byTrain": "New Jalpaiguri (125 km)",
+                    "byRoad": "17 km from Ravangla"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Ralang",
+                "slug": "ralang",
+                "tagline": "Sacred Heart of Kagyu Monasticism",
+                "altitude": "1,800 m (5,905 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Palchen Choeling Monastic Institute, Old Ralang Gompa, Pang Lhabsol Festival",
+                "location": "South Sikkim",
+                "description": "<p>Ralang is one of the most sacred pilgrimage centers in South Sikkim, home to the magnificent Palchen Choeling Monastic Institute (New Ralang Monastery) and the historic Old Ralang Monastery built in 1768.</p><p>The monastery is celebrated for hosting the grand Pang Lhabsol festival, where sacred masked cham dances are performed by lamas amidst grand monastic trumpets.</p>",
+                "attractions": [
+                    "Palchen Choeling Monastery",
+                    "Old Ralang Gompa",
+                    "Sacred Chaam Dance Courtyard"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "One of Sikkim's largest monastic centers",
+                    "Spectacular Buddhist art and architecture",
+                    "Annual sacred masked Cham dances"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visit"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Architecture Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Ridge Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (135 km)",
+                    "byTrain": "New Jalpaiguri (130 km)",
+                    "byRoad": "13 km from Ravangla"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Kewzing",
+                "slug": "kewzing",
+                "tagline": "The Village of Sprouting Wheat & Homestays",
+                "altitude": "1,400 m (4,600 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Bhutia Community Homestays, Cardamom Forests, Monastery Circuit",
+                "location": "South Sikkim",
+                "description": "<p>Kewzing is a charming Bhutia village perched high above the Rangit river valley, known as 'Sosing' (land of chestnut trees) in ancient texts. It is renowned for pioneer community-based rural tourism.</p><p>Surrounded by lush cardamom hills and forested ridges, Kewzing is a central hub for visiting nearby monasteries like Mangbrue Gompa and Bon Monastery.</p>",
+                "attractions": [
+                    "Kewzing Village Community",
+                    "Bon Monastery (Yung Drung)",
+                    "Mangbrue Gompa"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Authentic Bhutia cultural homestays",
+                    "Rare Bon religion monastery",
+                    "Expansive Kanchenjunga sunrise views"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Cultural Homestay"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Bon Monastery Walk"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Village Trails"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (128 km)",
+                    "byTrain": "New Jalpaiguri (124 km)",
+                    "byRoad": "8 km from Ravangla"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Chalamthang",
+                "slug": "chalamthang",
+                "tagline": "Heritage Eco-Village with Sweeping Valley Views",
+                "altitude": "1,250 m (4,100 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Traditional Lepcha & Nepali Architecture, Organic Farms, Teesta Valley Views",
+                "location": "South Sikkim",
+                "description": "<p>Chalamthang is an award-winning eco-tourism heritage village nestled on gentle mountain slopes in South Sikkim. It showcases preserved wooden architectural homes dating back over a century.</p><p>Visitors experience organic farming, taste authentic Himalayan cuisines, and enjoy sweeping views across the green Teesta canyon and surrounding hillsides.</p>",
+                "attractions": [
+                    "Heritage Wooden Homestays",
+                    "Organic Farm Terraces",
+                    "Teesta Valley Viewpoint"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Century-old heritage architecture",
+                    "100% organic local farm dining",
+                    "Award-winning rural eco-tourism"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Heritage Farm Stay"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Organic Dining"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Valley Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (105 km)",
+                    "byTrain": "New Jalpaiguri (100 km)",
+                    "byRoad": "18 km from Singtam, 42 km from Gangtok"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Maenam Hill",
+                "slug": "maenam-hill",
+                "tagline": "High Sanctuary of the Sky & Wildlife",
+                "altitude": "3,140 m (10,300 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Maenam Wildlife Sanctuary, Bhaleydhunga Cliff, High Ridge Trek",
+                "location": "South Sikkim",
+                "description": "<p>Maenam Hill towers above Ravangla at 3,140 metres, meaning 'Treasure-trove of the Sky'. It is the crowning summit of the Maenam Wildlife Sanctuary, covered in thick moss-laden rhododendron, oak, and fir trees.</p><p>A legendary 4-hour uphill trek brings you to Bhaleydhunga, a sheer rocky precipice with vertigo-inducing views straight down to the Rangit river far below.</p>",
+                "attractions": [
+                    "Bhaleydhunga Cliff Precipice",
+                    "Maenam Wildlife Sanctuary",
+                    "Maenam Hermitage Shrine"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Dramatic high-altitude ridge trek",
+                    "Breathtaking Bhaleydhunga cliff view",
+                    "Pristine habitat for Red Pandas and barking deer"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Maenam Peak Trek"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cliff Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Alpine Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (135 km)",
+                    "byTrain": "New Jalpaiguri (130 km)",
+                    "byRoad": "Trek starts from Ravangla town"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Chardham (Siddhesvara Dham)",
+                "slug": "chardham-siddhesvara-dham",
+                "tagline": "Majestic Pilgrimage Complex of Solophok",
+                "altitude": "1,675 m (5,500 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "87-ft Lord Shiva Statue, Replicas of 4 Sacred Dhams, 12 Jyotirlingas",
+                "location": "Solophok Hill, Namchi, South Sikkim",
+                "description": "<p>Siddhesvara Dham, famously known as Namchi Char Dham, is a sprawling cultural and spiritual mega-complex perched atop Solophok Hill in South Sikkim. It features a colossal 87-foot statue of Lord Shiva seated in meditation.</p><p>Surrounding the main statue are authentic replicas of the four most sacred Hindu Dhams — Badrinath, Jagannath, Dwarka, and Rameshwaram — along with replicas of all twelve Jyotirlingas.</p>",
+                "attractions": [
+                    "Colossal 87-ft Shiva Statue",
+                    "Replicas of 4 Sacred Dhams",
+                    "12 Jyotirlinga Shrines"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Major pilgrimage site of Northeast India",
+                    "Panoramic views of Kanchenjunga",
+                    "Intricate temple architectural artistry"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Temple Pilgrimage"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Statue Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Solophok Hill Vistas"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (100 km)",
+                    "byTrain": "New Jalpaiguri (95 km)",
+                    "byRoad": "5 km from Namchi town center"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Yangang",
+                "slug": "yangang",
+                "tagline": "Lush Foothill Valley & Skywalk Hub",
+                "altitude": "1,350 m (4,429 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Tig-Jong Cultural Village, Scenic Hill Slopes, Bhaleydhunga Ropeway Base",
+                "location": "South Sikkim",
+                "description": "<p>Yangang is a serene mountain township situated in the picturesque valley between Tendong Hill and Maenam Ridge in South Sikkim. It is known for its pleasant weather, rich ginger and cardamom farming, and warm Lepcha community culture.</p><p>It is also the base for the state-of-the-art Bhaleydhunga passenger ropeway ascending directly to the high mountain cliffs.</p>",
+                "attractions": [
+                    "Yangang Valley Terraces",
+                    "Bhaleydhunga Ropeway Base",
+                    "Lepcha Cultural Heritage"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Pleasant mid-altitude mountain climate",
+                    "Lush ginger and cardamom plantations",
+                    "Peaceful rural Sikkimese valley"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Valley Exploration"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Trails"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Landscape Snaps"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (120 km)",
+                    "byTrain": "New Jalpaiguri (115 km)",
+                    "byRoad": "25 km from Singtam, 28 km from Ravangla"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Tendong Hill",
+                "slug": "tendong-hill",
+                "tagline": "The Sacred Uplifted Horn of Lepcha Lore",
+                "altitude": "2,600 m (8,530 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Sacred Tendong Peak, Lepcha Indigenous Mythology, 360° Watchtower Panorama",
+                "location": "Damthang, South Sikkim",
+                "description": "<p>Tendong Hill, meaning 'the Uplifted Horn' in the Lepcha language, is a revered sacred peak rising above Damthang. According to ancient Lepcha mythology, Tendong Hill rose out of floodwaters to save humanity from a catastrophic deluge.</p><p>A scenic 6-km forest trek through oak and chestnut woods leads to a three-story watchtower offering an extraordinary 360-degree vista of the plains of Bengal and the snows of Sikkim.</p>",
+                "attractions": [
+                    "Tendong Summit Watchtower",
+                    "Sacred Lepcha Shrine",
+                    "Ancient Oak & Chestnut Forest"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Sacred peak steeped in indigenous mythology",
+                    "Panoramic 360° view of Bengal plains and snow peaks",
+                    "Refreshing dense forest trek from Damthang"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Summit Trek"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Watchtower View"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Sacred Shrine Visit"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (110 km)",
+                    "byTrain": "New Jalpaiguri (105 km)",
+                    "byRoad": "Trek starts at Damthang (13 km from Namchi)"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Jorethang",
+                "slug": "jorethang",
+                "tagline": "Bustling River Hub of South & West Sikkim",
+                "altitude": "305 m (1,000 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Rangeet River Valley, Maghe Sankranti Mela, Commercial Confluence",
+                "location": "South Sikkim",
+                "description": "<p>Jorethang is a vibrant riverside city set along the roaring banks of the Rangeet River at the junction connecting South and West Sikkim with Darjeeling district. Because of its low altitude, it enjoys warm, pleasant subtropical weather.</p><p>Every January, Jorethang hosts the famous Maghe Sankranti Mela, a massive festival drawing artisans, traditional food stalls, and music from across the Himalayas.</p>",
+                "attractions": [
+                    "Rangeet Riverfront",
+                    "Maghe Sankranti Festival Grounds",
+                    "Jorethang Suspension Bridge"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Major transit and cultural hub",
+                    "Famous annual Maghe Sankranti Himalayan festival",
+                    "Scenic river confluence setting"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "shopping",
+                        "label": "Market Shopping"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Local Delicacies"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Riverside Walk"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (85 km)",
+                    "byTrain": "New Jalpaiguri (90 km)",
+                    "byRoad": "30 km from Namchi, 20 km from Darjeeling border"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Kitab Bird Sanctuary",
+                "slug": "kitab-bird-sanctuary",
+                "tagline": "Sal Forest Haven of Rare Himalayan Birds",
+                "altitude": "320 – 875 m",
+                "bestTime": "October–May",
+                "famousFor": "Only Protected Bird Sanctuary in Sikkim, Wild Peafowl, River Rafting",
+                "location": "South Sikkim",
+                "description": "<p>Kitam (Kitab) Bird Sanctuary is a lush, protected nature reserve situated along the Rangit river in South Sikkim. It is the only bird sanctuary in Sikkim dedicated to low-altitude subtropical birdlife, nestled inside thick sal and pine forests.</p><p>The sanctuary is home to over 200 species of resident and migratory birds, including the Indian Peafowl, emerald doves, and colorful hornbills.</p>",
+                "attractions": [
+                    "Kitam Forest Canopy Trails",
+                    "Rangit Riverbank Bird Hideouts",
+                    "Peafowl Observation Grounds"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Only dedicated bird sanctuary in Sikkim",
+                    "Over 200 species of exotic birds",
+                    "Dense subtropical Sal and pine woods"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching Walks"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Canopy Treks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Wildlife Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (95 km)",
+                    "byTrain": "New Jalpaiguri (90 km)",
+                    "byRoad": "12 km from Namchi, near Melli"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Sikip",
+                "slug": "sikip",
+                "tagline": "Angling & Camping Paradise on the Rangeet",
+                "altitude": "500 m (1,640 ft)",
+                "bestTime": "October–May",
+                "famousFor": "River Angling (Golden Mahseer), Riverside Camping, Untouched Nature",
+                "location": "South Sikkim",
+                "description": "<p>Sikip is an idyllic, undiscovered riverside retreat situated right on the banks of the mighty Rangeet river in South Sikkim. The crystal waters here are renowned among outdoor enthusiasts for sport angling and fishing, especially for the prized Golden Mahseer.</p><p>With scenic river beaches and surrounding lush green cliffs, Sikip is an exceptional destination for tranquil riverside camping under the stars.</p>",
+                "attractions": [
+                    "Rangeet River Angling Zones",
+                    "River Beach Campgrounds",
+                    "Green Canyon Cliffs"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Top destination for river angling and fishing",
+                    "Untouched riverside camping beaches",
+                    "Pristine natural environment away from tourist crowds"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "River Camping"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Angling & Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (100 km)",
+                    "byTrain": "New Jalpaiguri (95 km)",
+                    "byRoad": "15 km from Jorethang, 45 km from Namchi"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Tarku",
+                "slug": "tarku",
+                "tagline": "Scenic Gateway Crossroads to Temi",
+                "altitude": "1,200 m (3,937 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Cardamom & Ginger Terraces, Roadside Scenic Lookouts, Village Culture",
+                "location": "South Sikkim",
+                "description": "<p>Tarku is a charming roadside mountain settlement located along the highway between Singtam and Ravangla, serving as the northern crossroads for visitors heading towards the Temi Tea Estate.</p><p>Surrounded by picturesque cardamom valleys and lush hills, Tarku offers a relaxed breather where travelers enjoy hot cups of fresh Sikkim tea and panoramic mountain air.</p>",
+                "attractions": [
+                    "Tarku Scenic Crossroads",
+                    "Cardamom & Ginger Terraces",
+                    "Hillside Tea Stalls"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Gateway junction to Temi Tea Estate",
+                    "Gentle hillside farming panoramas",
+                    "Refreshing mountain highway stop"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "tea",
+                        "label": "Fresh Tea Tasting"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Terraced Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Scenic Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (110 km)",
+                    "byTrain": "New Jalpaiguri (105 km)",
+                    "byRoad": "12 km from Temi Tea Garden, 20 km from Singtam"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Barfung",
+                "slug": "barfung",
+                "tagline": "The Valley of Warm Mountain Homestays",
+                "altitude": "1,600 m (5,250 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Traditional Lepcha & Bhutia Culture, Mountain Homestays, Pristine Orchards",
+                "location": "Near Ravangla, South Sikkim",
+                "description": "<p>Barfung is an offbeat hillside hamlet located near Ravangla in South Sikkim, surrounded by undulating pine hills, bamboo thickets, and fruit orchards. It is known for its warm, authentic community homestays.</p><p>Travelers in Barfung experience traditional mountain life, participate in organic kitchen gardening, and enjoy calm walks leading toward hidden monastery paths.</p>",
+                "attractions": [
+                    "Barfung Village Orchard",
+                    "Forest Meditation Trails",
+                    "Mountain View Homestays"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "Authentic rural Sikkimese mountain culture",
+                    "Peaceful orchard and pine hill surroundings",
+                    "Close proximity to Ravangla and Buddha Park"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Homestay Living"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Orchard Trails"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Local Farm Cooking"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (125 km)",
+                    "byTrain": "New Jalpaiguri (120 km)",
+                    "byRoad": "6 km from Ravangla"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Zoom",
+                "slug": "zoom",
+                "tagline": "Sun-Drenched Ridge of Historic Legends",
+                "altitude": "1,300 m (4,265 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Panoramic Valley Vistas, Historic Lepcha Heritage, Terraced Agriculture",
+                "location": "Near Jorethang, South Sikkim",
+                "description": "<p>Zoom is a scenic hilltop village perched on the southern mountain ridge near Jorethang and Soreng. Bathed in mountain sunshine, it commands sweeping views across the Rangeet and Rammam river valleys.</p><p>With rolling fields of maize and vegetables, Zoom represents traditional agrarian Sikkim at its most peaceful and timeless.</p>",
+                "attractions": [
+                    "Zoom Ridge Viewpoint",
+                    "Hillside Farmland Slopes",
+                    "Rangeet Valley Overlook"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Sun-drenched ridge with expansive valley views",
+                    "Quiet, unhurried mountain farming lifestyle",
+                    "Historic southern transit trails"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Ridge Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Valley Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Landscape Snaps"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (95 km)",
+                    "byTrain": "New Jalpaiguri (100 km)",
+                    "byRoad": "14 km from Jorethang"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Poklok",
+                "slug": "poklok",
+                "tagline": "Serene Hill Hamlet Overlooking the Rangeet",
+                "altitude": "1,500 m (4,921 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Rural Mountain Tourism, Organic Farms, Peaceful Woodland Paths",
+                "location": "South Sikkim",
+                "description": "<p>Poklok is an idyllic hillside settlement located near Denchung in South Sikkim. Known for peaceful forested surroundings and organic village agriculture, it is ideal for travelers looking to disconnect from city bustle.</p><p>The village is famed for friendly local hospitality, mountain breezes, and easy walking paths through oak and rhododendron woods.</p>",
+                "attractions": [
+                    "Poklok Village Slopes",
+                    "Oak and Rhododendron Woods",
+                    "Denchung Ridge Trail"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Peaceful offbeat hill hamlet",
+                    "Organic village agriculture and friendly locals",
+                    "Crisp mountain breezes and forest walks"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Homestay"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Woodland Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Rural Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (105 km)",
+                    "byTrain": "New Jalpaiguri (100 km)",
+                    "byRoad": "16 km from Namchi"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Mamley",
+                "slug": "mamley",
+                "tagline": "Geological Wonder & Rock Garden Ridge",
+                "altitude": "1,400 m (4,593 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Stromatolite Rock Formations (National Geological Monument), Green Hills",
+                "location": "Near Namchi, South Sikkim",
+                "description": "<p>Mamley is a fascinating mountain locality situated just below Namchi in South Sikkim. It is scientifically famous as home to the rare Buxa Formation stromatolite fossils, declared a National Geological Monument of India.</p><p>Beyond its ancient billion-year-old rock formations, Mamley features gentle terrace gardens, scenic forest pockets, and sweeping vistas across the southern hills.</p>",
+                "attractions": [
+                    "Stromatolite Geological Monument",
+                    "Mamley Ridge View",
+                    "Terrace Rock Gardens"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Billion-year-old stromatolite fossil rock formations",
+                    "National Geological Monument of India",
+                    "Scenic terrace farming and valley vistas"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Geological Heritage Walk"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Rock Formation Photos"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Valley Views"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (98 km)",
+                    "byTrain": "New Jalpaiguri (94 km)",
+                    "byRoad": "6 km from Namchi town"
+                },
+                "subRegion": "south"
+            },
+            {
+                "name": "Payong",
+                "slug": "payong",
+                "tagline": "Hidden Mountain Haven of South Hills",
+                "altitude": "1,450 m (4,757 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Pristine Cardamom Groves, Quiet Streams, Himalayan Birdlife",
+                "location": "Near Yangang, South Sikkim",
+                "description": "<p>Payong is a peaceful, secluded village tucked into the southern ridges of Sikkim near Yangang. Blessed with natural mountain streams and thick cardamom groves, Payong is virtually untouched by commercial tourism.</p><p>Visitors are treated to tranquil birdsong, fresh mountain springs, and heartfelt local homestays serving farm-fresh Himalayan meals.</p>",
+                "attractions": [
+                    "Payong Forest Streams",
+                    "Cardamom Groves",
+                    "Village Overlook Meadow"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Completely uncommercialized mountain village",
+                    "Pure mountain streams and lush cardamom plants",
+                    "Tranquil birdsong and rural hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Stream Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Stay"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (118 km)",
+                    "byTrain": "New Jalpaiguri (114 km)",
+                    "byRoad": "14 km from Yangang, 35 km from Namchi"
+                },
+                "subRegion": "south"
             },
             {
                 "name": "Gangtok",
@@ -2188,137 +3980,6 @@ window.destinationsData = {
                 }
             },
             {
-                "name": "Namchi",
-                "slug": "namchi",
-                "subRegion": "south",
-                "tagline": "Cultural and Religious Hub",
-                "altitude": "1,675 m (5,500 ft)",
-                "bestTime": "March–May & September–November",
-                "famousFor": "Char Dham, Samdruptse, Temples",
-                "location": "South Sikkim",
-                "description": "<p>Namchi, meaning 'Sky High' in the Sikkimese language, is the vibrant capital of the South Sikkim district. Situated at an altitude of 1,675 metres (5,500 ft), Namchi is celebrated as a major cultural and religious hub, offering sweeping views of the Darjeeling hills and the Kanchenjunga range.</p><h3>Religious Tourism & Heritage</h3><p>Namchi has developed into a significant center for religious tourism. The town's skyline is dominated by the colossal 118-foot statue of Guru Padmasambhava (Guru Rinpoche) at Samdruptse Hill. Additionally, the Siddhesvara Dhaam at Solophok features a massive 87-foot statue of Lord Shiva and replicas of the four most sacred Hindu pilgrimage sites (Char Dham), drawing devotees and tourists alike.</p><h3>Lifestyle & Surroundings</h3><p>The town boasts a pleasant climate, clean streets, and a well-developed central plaza. The surrounding hills are dotted with tea gardens, including the famous Temi Tea Garden, and quiet monasteries, making Namchi a perfect blend of spirituality and natural beauty.</p><h3>Detailed Insights</h3><p>Combining magnificent Himalayan views, world -famous Buddha Park, ancient monasteries, rich</p><p>biodiversity, tea gardens, wildlife sanctuary, authentic village culture, and peaceful mountain</p><p>landscapes, Ravangla offers one of the most complete and rewarding tr avel experiences in South</p><p>Sikkim. Whether you seek spirituality, nature, adventure, photography, or a relaxing Himalayan</p><p>escape, Ravangla stands among the finest destinations in the Eastern Himalayas.</p>",
-                "attractions": [
-                    "Siddhesvara Dham (Char Dham)",
-                    "Samdruptse Statue",
-                    "Namchi Rock Garden"
-                ],
-                "image": "images/gallery (9).jpg",
-                "highlights": [
-                    "Colossal Samdruptse Statue",
-                    "Char Dham complex",
-                    "Vibrant cultural hub"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "temple",
-                        "label": "Char Dham Visit"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "binoculars",
-                        "label": "View Points"
-                    },
-                    {
-                        "icon": "food",
-                        "label": "Local Cuisine"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Pakyong Airport (92 km)",
-                    "byTrain": "New Jalpaiguri (95 km)",
-                    "byRoad": "Via Jorethang from Siliguri (78 km)"
-                }
-            },
-            {
-                "name": "Ravangla",
-                "slug": "ravangla",
-                "subRegion": "south",
-                "tagline": "Peaceful Hill Station",
-                "altitude": "2,438 m (8,000 ft)",
-                "bestTime": "September–May",
-                "famousFor": "Buddha Park, Mountain Views, Monasteries",
-                "location": "South Sikkim",
-                "description": "<p>Ravangla (or Rawangla) is a tranquil tourist town situated at an elevation of 2,438 metres (8,000 ft) in South Sikkim. Nestled between Maenam Hill and Tendong Hill, Ravangla offers breathtaking, unobstructed views of Mt. Kanchenjunga, Mt. Pandim, Mt. Sinialchu, and Mt. Kabru.</p><h3>Buddha Park & Spirituality</h3><p>The most iconic attraction in Ravangla is the Tathagata Tsal, or Buddha Park, which features a magnificent 130-foot tall statue of Lord Buddha. Set amidst beautifully landscaped gardens with the snow-capped peaks in the background, the park is a place of profound peace and spiritual reflection.</p><h3>Nature & Trekking</h3><p>Ravangla serves as the starting point for the trek to Maenam Wildlife Sanctuary, which is rich in Himalayan flora and fauna, including the red panda and Himalayan black bear. The region's dense forests of oak, pine, and rhododendron make it a paradise for birdwatchers and nature enthusiasts.</p><h3>Detailed Insights</h3><p>Ravangla (also spelled Rabangla ) is a picturesque Himalayan town located in the Namchi district of</p><p>South Sikkim  at an altitude of approximately 2,135 metres (7,005 ft) . Nestled between the</p><p>magnificent Maenam  and Tendong Hills , Ravangla is one of the most popular tourist destinations in</p><p>Sikkim, renowned for its breathtaking views of the Kanchenjunga Range , peaceful Buddhist</p><p>monasteries, lush tea gardens, rich biodiversity, and spiritual ambience. The town serves as the</p><p>gateway to several important attractions, including Buddha Park (Tathagata Tsal) , Maenam Wildlife</p><p>Sanctuary , Ralang Monasteries , Borong , and Temi Tea Garden .</p><p>Situated in the heart of South Sikkim, Ravangla  beautifully blends spirituality, nature, adventure, and</p><p>traditional Himalayan culture. Unlike bustling hill stations, the town offers a peaceful atmosphere</p><p>forests,  village tourism, birdwatching, trekking, and authentic Sikkimese hospitality. Whether visiting</p><p>for pilgrimage, photography, honeymoon, wildlife exploration, or leisure, Ravangla remains one of</p>",
-                "attractions": [
-                    "Buddha Park (Tathagata Tsal)",
-                    "Ralong Monastery",
-                    "Rayong Sunrise Viewpoint"
-                ],
-                "image": "images/gallery (10).jpg",
-                "highlights": [
-                    "Magnificent Buddha Park",
-                    "Breathtaking mountain views",
-                    "Peaceful monasteries"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "temple",
-                        "label": "Buddha Park"
-                    },
-                    {
-                        "icon": "binoculars",
-                        "label": "View Points"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "hiking",
-                        "label": "Nature Walks"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Pakyong Airport (75 km)",
-                    "byTrain": "New Jalpaiguri (110 km)",
-                    "byRoad": "Via Temi from Siliguri (95 km)"
-                }
-            },
-            {
-                "name": "Temi Tea Garden",
-                "slug": "temi-tea-garden",
-                "subRegion": "south",
-                "tagline": "Sikkim's Only Tea Estate",
-                "altitude": "1,200–2,000 m (3,900–6,500 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Organic Tea, Scenic Slopes, Cherry Blossoms",
-                "location": "South Sikkim",
-                "description": "<p>The Temi Tea Garden is the only tea estate in the state of Sikkim, widely considered one of the most picturesque tea gardens in the world. Established in 1969 by the Government of Sikkim, it spreads across a gentle hill slope originating from the Tendong Hill, offering spectacular views of the surrounding mountains and valleys.</p><h3>Tea Cultivation & Quality</h3><p>Temi Tea Garden is renowned for producing top-quality organic tea that commands a premium in international markets. The estate employs sustainable and organic farming practices, ensuring harmony with the pristine Himalayan environment.</p><h3>Tourism & Experience</h3><p>Visitors can take guided tours of the tea processing factory to learn about orthodox tea production, walk through the impeccably manicured tea bushes, and enjoy fresh tea tasting sessions. During the winter, the cherry blossom trees planted along the estate's winding roads burst into full bloom, creating a breathtaking landscape of pink and green.</p><h3>Detailed Insights</h3><p>Temi Tea Garden is the only tea estate in the state of Sikkim  and one of the most picturesque tea</p><p>plantations in the Eastern Himalayas. Located in the Namchi district of South Sikkim  at an altitude</p><p>ranging from approximately 1,200 to 1,800 metres (3,937 –5,906 ft) , the estate is spread across lush</p><p>mountain slopes overlooking the magnificent Kanchenjunga Range . Renowned worldwide for</p><p>producing premium 100% organic Temi Tea , the estate combines breathtaking natural beauty,</p><p>sustainable agriculture, colonial charm, and authentic Himalayan hospitality, making it one of</p><p>Established by the Government of Sikkim in 1969 , Temi Tea Garden has earned an international</p><p>reputation for its high -quality orthodox tea exported to countries across Europe, Japan, Germany,</p><p>the United Kingdom, and the Middle East. Beyond tea production, Temi has become one of South</p><p>Sikkim's most popul ar eco -tourism destinations, attracting visitors with its endless emerald -green</p><p>tea gardens, flowering cherry blossoms, panoramic mountain views, peaceful walking trails, luxury</p>",
-                "attractions": [
-                    "Tea Factory Tours",
-                    "Cherry Blossom Viewing",
-                    "Tea Garden Walks"
-                ],
-                "image": "images/gallery (1).jpg",
-                "highlights": [
-                    "Only tea estate in Sikkim",
-                    "Premium organic tea",
-                    "Cherry blossoms in winter"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "tea",
-                        "label": "Tea Tasting"
-                    },
-                    {
-                        "icon": "hiking",
-                        "label": "Garden Walk"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Pakyong Airport (68 km)",
-                    "byTrain": "New Jalpaiguri (100 km)",
-                    "byRoad": "Via Ravangla from Siliguri (88 km)"
-                }
-            },
-            {
                 "name": "Rinchenpong",
                 "slug": "rinchenpong",
                 "subRegion": "west",
@@ -2373,1208 +4034,1208 @@ window.destinationsData = {
         "heroImage": "images/sandakphu.jpg",
         "location": "Singalila National Park, Darjeeling",
         "places": [
-                {
-                        "name": "Sandakphu",
-                        "slug": "sandakphu",
-                        "tagline": "Highest Peak in West Bengal",
-                        "altitude": "3,636 m (11,930 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Everest View, Sleeping Buddha Panorama, Alpine Sunrises",
-                        "location": "Singalila Ridge, Darjeeling",
-                        "description": "<p>Sandakphu is the highest mountain peak in the state of West Bengal, towering at an altitude of 3,636 metres (11,930 ft). Located on the crest of the Singalila Ridge along the India-Nepal border, it is the crown jewel of Himalayan trekking in Eastern India.</p><h3>The Panorama of Giants</h3><p>Its greatest claim to fame is the unparalleled 180-degree panoramic view it offers. From the summit, visitors can witness four of the five highest peaks in the world in a single view: Mount Everest, Kangchenjunga, Lhotse, and Makalu, creating a truly awe-inspiring spectacle.</p><h3>Trekking & Environment</h3><p>Reaching Sandakphu requires navigating a challenging, rugged trail either on foot or via vintage Land Rovers. The environment is harsh and alpine, characterized by strong, freezing winds and frequent snow in winter. The slopes are covered with over 600 varieties of orchids and a vast array of rhododendrons that bloom spectacularly in spring.</p>",
-                        "attractions": [
-                                "Sandakphu Summit",
-                                "Sleeping Buddha View",
-                                "Everest Viewpoint"
-                        ],
-                        "image": "images/sandakphu.jpg",
-                        "highlights": [
-                                "Highest peak in West Bengal (3,636 m)",
-                                "View of 4 of 5 tallest peaks on Earth",
-                                "Famous Sleeping Buddha sunrise vista",
-                                "Legendary vintage Land Rover safari trail"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Summit Trek"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Peak Views"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Photography"
-                                },
-                                {
-                                        "icon": "safari",
-                                        "label": "Land Rover Safari"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (110 km)",
-                                "byTrain": "New Jalpaiguri (115 km)",
-                                "byRoad": "Trek from Manebhanjan (31 km) or Land Rover"
-                        },
-                        "packages": [
-                                {
-                                        "title": "4N/5D Sandakphu Trek",
-                                        "includes": "Guide + Meals + Stay + Permits",
-                                        "price": 8999,
-                                        "image": "images/gallery (23).jpg"
-                                },
-                                {
-                                        "title": "Sandakphu Land Rover Safari",
-                                        "includes": "Land Rover + Guide + Meals + Stay",
-                                        "price": 12999,
-                                        "image": "images/gallery (24).jpg"
-                                }
-                        ],
-                        "stays": [
-                                {
-                                        "name": "Sandakphu Trek Lodge",
-                                        "rating": 4.2,
-                                        "reviews": 65,
-                                        "type": "Trek Lodge",
-                                        "price": 1200,
-                                        "image": "images/gallery (23).jpg"
-                                },
-                                {
-                                        "name": "Singalila Camp",
-                                        "rating": 4.0,
-                                        "reviews": 38,
-                                        "type": "Mountain Camp",
-                                        "price": 800,
-                                        "image": "images/gallery (24).jpg"
-                                }
-                        ]
+            {
+                "name": "Sandakphu",
+                "slug": "sandakphu",
+                "tagline": "Highest Peak in West Bengal",
+                "altitude": "3,636 m (11,930 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Everest View, Sleeping Buddha Panorama, Alpine Sunrises",
+                "location": "Singalila Ridge, Darjeeling",
+                "description": "<p>Sandakphu is the highest mountain peak in the state of West Bengal, towering at an altitude of 3,636 metres (11,930 ft). Located on the crest of the Singalila Ridge along the India-Nepal border, it is the crown jewel of Himalayan trekking in Eastern India.</p><h3>The Panorama of Giants</h3><p>Its greatest claim to fame is the unparalleled 180-degree panoramic view it offers. From the summit, visitors can witness four of the five highest peaks in the world in a single view: Mount Everest, Kangchenjunga, Lhotse, and Makalu, creating a truly awe-inspiring spectacle.</p><h3>Trekking & Environment</h3><p>Reaching Sandakphu requires navigating a challenging, rugged trail either on foot or via vintage Land Rovers. The environment is harsh and alpine, characterized by strong, freezing winds and frequent snow in winter. The slopes are covered with over 600 varieties of orchids and a vast array of rhododendrons that bloom spectacularly in spring.</p>",
+                "attractions": [
+                    "Sandakphu Summit",
+                    "Sleeping Buddha View",
+                    "Everest Viewpoint"
+                ],
+                "image": "images/sandakphu.jpg",
+                "highlights": [
+                    "Highest peak in West Bengal (3,636 m)",
+                    "View of 4 of 5 tallest peaks on Earth",
+                    "Famous Sleeping Buddha sunrise vista",
+                    "Legendary vintage Land Rover safari trail"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Summit Trek"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Peak Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "safari",
+                        "label": "Land Rover Safari"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (110 km)",
+                    "byTrain": "New Jalpaiguri (115 km)",
+                    "byRoad": "Trek from Manebhanjan (31 km) or Land Rover"
                 },
-                {
-                        "name": "Phalut",
-                        "slug": "phalut",
-                        "tagline": "The Solitary Tri-Junction Summit",
-                        "altitude": "3,600 m (11,811 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Close-up Kangchenjunga, Tri-Junction of Bengal, Sikkim & Nepal, Ridge Walk",
-                        "location": "Singalila Ridge, Tri-Junction",
-                        "description": "<p>Phalut is the second highest peak in West Bengal, located at an altitude of 3,600 metres (11,811 ft), further along the Singalila Ridge from Sandakphu. It sits at the tri-junction of Sikkim, West Bengal, and Nepal, offering an even more raw and isolated Himalayan experience.</p><h3>The Close-up View</h3><p>While Sandakphu offers a wider panorama, Phalut is physically much closer to the Kanchenjunga range, providing a seemingly touchable, overwhelmingly massive view of the Sleeping Buddha. The terrain here is barren, wind-swept, and undulating, devoid of the dense tree cover found at lower altitudes.</p><h3>The Ultimate Trekking Challenge</h3><p>The trek from Sandakphu to Phalut is considered one of the most scenic and challenging ridge walks in the Indian Himalayas. Due to its remoteness, Phalut receives fewer visitors than Sandakphu, preserving its pristine and deeply tranquil atmosphere.</p>",
-                        "attractions": [
-                                "Phalut Summit Point",
-                                "Tri-Junction Pillar",
-                                "Sleeping Buddha Close-Up"
-                        ],
-                        "image": "images/gallery (5).jpg",
-                        "highlights": [
-                                "Second highest peak in West Bengal (3,600 m)",
-                                "Closest panoramic viewpoint to Kanchenjunga",
-                                "Tri-border junction of Bengal, Sikkim and Nepal",
-                                "Unspoiled high-altitude ridge wilderness"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Summit Trek"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Close Mountain Views"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Landscape Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (125 km)",
-                                "byTrain": "New Jalpaiguri (130 km)",
-                                "byRoad": "21 km ridge trek from Sandakphu or via Gorkhey"
-                        }
-                },
-                {
-                        "name": "Manebhanjan",
-                        "slug": "manebhanjan",
-                        "tagline": "Gateway to Singalila & Land Rovers",
-                        "altitude": "1,928 m (6,325 ft)",
-                        "bestTime": "Round the Year (Best Oct–May)",
-                        "famousFor": "Sandakphu Trek Gateway, Vintage 1950s Land Rovers, Border Market",
-                        "location": "Darjeeling District, Indo-Nepal Border",
-                        "description": "<p>Manebhanjan is a small, bustling transit town situated at an altitude of 1,928 metres (6,325 ft) on the India-Nepal border. It serves as the primary gateway and starting point for the famous Sandakphu-Phalut trek and Singalila National Park.</p><h3>Gateway to Singalila</h3><p>The name Manebhanjan translates to 'where stupas and roads meet'. The town is internationally renowned for its fleet of vintage series Land Rovers dating from the 1950s, which navigate the steep, rugged, and boulder-strewn road up to Sandakphu.</p><h3>Culture & Transit</h3><p>The town has a frontier-like atmosphere, with a lively blend of Indian and Nepali cultures. It offers essential supplies, trekking gear rentals, and accommodations for trekkers preparing for their journey.</p>",
-                        "attractions": [
-                                "Singalila National Park Entry Gate",
-                                "Historic Land Rover Stand",
-                                "Buddhist Prayer Wheels"
-                        ],
-                        "image": "images/gallery (2).jpg",
-                        "highlights": [
-                                "Starting point of the Sandakphu trek",
-                                "Vintage Land Rover rides and safari",
-                                "Singalila National Park entry permit office"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Trekking Base"
-                                },
-                                {
-                                        "icon": "safari",
-                                        "label": "Land Rover Safari"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (80 km)",
-                                "byTrain": "New Jalpaiguri (85 km)",
-                                "byRoad": "28 km from Darjeeling town via Sukhiapokhri"
-                        }
-                },
-                {
-                        "name": "Tonglu",
-                        "slug": "tonglu",
-                        "tagline": "Panoramic Himalayan Viewpoint",
-                        "altitude": "3,070 m (10,072 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Sunrise, Himalayan Views, Rhododendrons",
-                        "location": "Singalila National Park, Darjeeling",
-                        "description": "<p>Tonglu is one of the higher peaks of the Singalila Ridge and a popular first-night halt on the Sandakphu trek, situated at an altitude of 3,070 metres (10,072 ft). It is located within the pristine environment of Singalila National Park.</p><h3>Scenic Views & Environment</h3><p>Tonglu offers stunning panoramic views of the Darjeeling hills and the Teesta Valley, along with a majestic view of the Kanchenjunga range. The area is characterized by alpine meadows and dense forests of rhododendron, which paint the hillsides in vibrant reds and pinks during spring.</p><h3>The Trekkers' Halt</h3><p>The settlement is minimal, consisting primarily of a Trekkers' Hut and a few basic homestays. The peaceful environment and dramatic altitude shift make Tonglu a memorable stop for trekkers acclimatizing to higher elevations.</p>",
-                        "attractions": [
-                                "Tonglu Summit Viewpoint",
-                                "Kangchenjunga Sunrise View",
-                                "Rhododendron Forests"
-                        ],
-                        "image": "images/gallery (3).jpg",
-                        "highlights": [
-                                "Stunning Singalila Ridge views",
-                                "Rhododendron forests blooming in spring",
-                                "Spectacular sunrises over Kanchenjunga"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Trekking"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Sunrise View"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (95 km)",
-                                "byTrain": "New Jalpaiguri (100 km)",
-                                "byRoad": "11 km trek from Manebhanjan or 5 km from Dhotrey"
-                        }
-                },
-                {
-                        "name": "Tumling",
-                        "slug": "tumling",
-                        "tagline": "Border Village of the Himalayas",
-                        "altitude": "2,970 m (9,744 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Homestays, Sunrise Views, Mountain Landscapes",
-                        "location": "India-Nepal Border, Singalila Ridge",
-                        "description": "<p>Tumling is a tiny, picturesque hamlet located at an altitude of 2,970 metres (9,600 ft) along the Singalila Ridge. Tumling is technically located within Nepal, though there are no border restrictions for trekkers on the Sandakphu route.</p><h3>Nature & Hospitality</h3><p>The village is known for its exceptionally warm hospitality, with a handful of well-maintained homestays catering to trekkers. It marks the entry point into the core area of the Singalila National Park, surrounded by rolling hills and offering clear, spectacular views of the Sleeping Buddha (the Kanchenjunga massif).</p><h3>Flora & Fauna</h3><p>The region around Tumling is rich in biodiversity. It is one of the best areas along the trek to spot rare Himalayan bird species and the elusive Red Panda. The transition from temperate forests to sub-alpine vegetation becomes highly pronounced around this altitude.</p>",
-                        "attractions": [
-                                "Tumling Viewpoint",
-                                "India-Nepal Border Landscape",
-                                "Traditional Homestays"
-                        ],
-                        "image": "images/gallery (4).jpg",
-                        "highlights": [
-                                "India-Nepal border village experience",
-                                "Panoramic mountain and sunrise views",
-                                "Warm Sherpa homestay hospitality"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Trekking"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "View Points"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Photography"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Village Stay"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (90 km)",
-                                "byTrain": "New Jalpaiguri (95 km)",
-                                "byRoad": "13 km trek from Manebhanjan or via Land Rover"
-                        }
-                },
-                {
-                        "name": "Kalipokhri",
-                        "slug": "kalipokhri",
-                        "tagline": "Sacred Black Water Lake",
-                        "altitude": "3,186 m (10,453 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Holy Dark Water Lake, Tibetan Prayer Flags, Trekker Stopover",
-                        "location": "Singalila Ridge, Indo-Nepal Border",
-                        "description": "<p>Kalipokhri is named after a sacred, dark-water high-altitude pond surrounded by fluttering Buddhist prayer flags and carved mani stones. According to local beliefs, the sacred water in the lake never freezes completely even during freezing sub-zero winters.</p><h3>Acclimatization Halt</h3><p>Surrounded by clusters of wooden tea houses and stone lodges, Kalipokhri is a crucial acclimatization halt for trekkers preparing for the final ascent up to Sandakphu summit.</p><p>Trekkers can enjoy warm mountain meals, relax by Tibetan wood stoves, and take in serene mountain stillness under starry Himalayan skies.</p>",
-                        "attractions": [
-                                "Sacred Kalipokhri Lake",
-                                "Buddhist Prayer Flag Shrines",
-                                "Borderline Ridge Viewpoint"
-                        ],
-                        "image": "images/gallery (6).jpg",
-                        "highlights": [
-                                "Sacred alpine dark lake that never freezes",
-                                "Rich Tibetan Buddhist spirituality and prayer flags",
-                                "Essential acclimatization halt before Sandakphu"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Trek Acclimatization"
-                                },
-                                {
-                                        "icon": "temple",
-                                        "label": "Lake Visit"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Prayer Flag Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (105 km)",
-                                "byTrain": "New Jalpaiguri (110 km)",
-                                "byRoad": "25 km trek from Manebhanjan via Gairibas"
-                        }
-                },
-                {
-                        "name": "Dhotrey",
-                        "slug": "dhotrey",
-                        "tagline": "Scenic Forest Village Gateway",
-                        "altitude": "2,590 m (8,500 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Pine Forests, Shortcut Trail to Tonglu, Serene Village Life",
-                        "location": "Darjeeling District, West Bengal",
-                        "description": "<p>Dhotrey is a serene, tranquil village nestled amid thick pine and rhododendron woods on the fringes of Singalila National Park. It has become famous as the favorite scenic alternative trailhead for reaching Tonglu, saving distance while offering a lush forest hike.</p><p>With quiet homestays, rolling terraced fields, and fresh mountain air, Dhotrey is an eco-tourism gem in its own right for travelers seeking peaceful Himalayan seclusion.</p>",
-                        "attractions": [
-                                "Dhotrey Pine Woods Trail",
-                                "Village Valley Viewpoint",
-                                "Forest Orchid Walks"
-                        ],
-                        "image": "images/gallery (7).jpg",
-                        "highlights": [
-                                "Scenic alternative starting point for Tonglu trek",
-                                "Dense pine and rhododendron woods",
-                                "Peaceful offbeat village atmosphere"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Forest Trekking"
-                                },
-                                {
-                                        "icon": "forest",
-                                        "label": "Nature Walks"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Village Homestay"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (88 km)",
-                                "byTrain": "New Jalpaiguri (92 km)",
-                                "byRoad": "17 km from Sukhiapokhri, 11 km from Manebhanjan"
-                        }
-                },
-                {
-                        "name": "Chitrey",
-                        "slug": "chitrey",
-                        "tagline": "Peaceful Monastery Hillside",
-                        "altitude": "2,540 m (8,340 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Old Buddhist Monastery, Scenic Meadows, First Steep Ascent",
-                        "location": "Above Manebhanjan, Darjeeling District",
-                        "description": "<p>Chitrey is the first major milestone perched 3 kilometers above Manebhanjan on the initial climb towards Sandakphu. Surrounded by pine hills and green slopes, it is known for its peaceful Buddhist monastery.</p><p>Trekkers often pause in Chitrey to catch their breath, sip steaming ginger tea, and spin the prayer wheels while enjoying sweeping views of Manebhanjan and the valleys below.</p>",
-                        "attractions": [
-                                "Chitrey Buddhist Monastery",
-                                "Panoramic Ridge Meadow",
-                                "Pine Forest Trails"
-                        ],
-                        "image": "images/gallery (8).jpg",
-                        "highlights": [
-                                "Ancient mountain gompa with prayer wheels",
-                                "First resting point on the Sandakphu trail",
-                                "Spectacular view of valleys below"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "temple",
-                                        "label": "Monastery Visit"
-                                },
-                                {
-                                        "icon": "hiking",
-                                        "label": "Trail Rest Stop"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Meadow Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (83 km)",
-                                "byTrain": "New Jalpaiguri (88 km)",
-                                "byRoad": "3 km uphill trek or Land Rover drive from Manebhanjan"
-                        }
-                },
-                {
-                        "name": "Meghma",
-                        "slug": "meghma",
-                        "tagline": "Village in the Clouds",
-                        "altitude": "2,900 m (9,514 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Mist & Cloudscapes, Border Monastery, Trail Junction",
-                        "location": "Indo-Nepal Border, Singalila Ridge",
-                        "description": "<p>Meghma translates poetically to 'Mother of Clouds', an apt description for this misty mountain settlement frequently shrouded in ethereal swirling fog. Situated right on the border, Meghma is where the trail forks toward Tonglu in India or Tumling via Nepal.</p><p>A historic Buddhist monastery with a gilded spire stands as the centerpiece of this mystical outpost surrounded by prayer flags.</p>",
-                        "attractions": [
-                                "Meghma Gompa & Chorten",
-                                "Trail Junction Point",
-                                "Rolling Cloud Formations"
-                        ],
-                        "image": "images/gallery (9).jpg",
-                        "highlights": [
-                                "Magical swirling cloudscapes and misty ridges",
-                                "Historic Buddhist gompa and prayer wheels",
-                                "Crucial border trail junction point"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Ridge Trekking"
-                                },
-                                {
-                                        "icon": "temple",
-                                        "label": "Gompa Visit"
-                                },
-                                {
-                                        "icon": "tea",
-                                        "label": "Hot Butter Tea Stop"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (90 km)",
-                                "byTrain": "New Jalpaiguri (95 km)",
-                                "byRoad": "9 km trek from Manebhanjan, just before Tonglu"
-                        }
-                },
-                {
-                        "name": "Gairibas",
-                        "slug": "gairibas",
-                        "tagline": "Valley of Bamboo & Red Pandas",
-                        "altitude": "2,621 m (8,600 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Singalila Forest Checkpost, Red Panda Habitat, Dense Bamboo Groves",
-                        "location": "Singalila National Park, Darjeeling",
-                        "description": "<p>Gairibas is a sheltered mountain hollow located between Tumling and Kalipokhri, surrounded by dense forests of dwarf bamboo, magnolias, and rhododendrons. It hosts a key Singalila National Park forest checkpost.</p><p>Because of the dense bamboo cover, the valley around Gairibas is recognized as a prime habitat for the elusive and endangered Red Panda and rare Himalayan avifauna.</p>",
-                        "attractions": [
-                                "Singalila Forest Guard Post",
-                                "Bamboo Forest Habitat",
-                                "Mountain Brook Crossing"
-                        ],
-                        "image": "images/gallery (10).jpg",
-                        "highlights": [
-                                "Core Red Panda observation zone",
-                                "Lush bamboo and rhododendron canopy",
-                                "Welcome resting stop after steep descent"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Wildlife Spotting"
-                                },
-                                {
-                                        "icon": "hiking",
-                                        "label": "Forest Hike"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Nature Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (100 km)",
-                                "byTrain": "New Jalpaiguri (105 km)",
-                                "byRoad": "19 km trek from Manebhanjan via Tumling and Jaubari"
-                        }
-                },
-                {
-                        "name": "Kaiyakatta",
-                        "slug": "kaiyakatta",
-                        "tagline": "Mountain Pass Resting Stop",
-                        "altitude": "2,800 m (9,186 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Trekking Tea Stalls, Pine Forests, Nepal Border Trail",
-                        "location": "Singalila Ridge, Indo-Nepal Frontier",
-                        "description": "<p>Kaiyakatta is a friendly mountain pass resting settlement situated between Gairibas and Kalipokhri along the Singalila trekking highway. It marks a gradual climbing traverse along the slopes.</p><p>Trekkers stop here at cozy timber shacks for hot noodle soup, tea, and to chat with local Sherpa families while soaking in crisp Himalayan breezes.</p>",
-                        "attractions": [
-                                "Kaiyakatta Ridge Trail",
-                                "Borderline Pine Stands",
-                                "Himalayan Tea Lodges"
-                        ],
-                        "image": "images/gallery (11).jpg",
-                        "highlights": [
-                                "Welcoming wayside tea huts and mountain lodges",
-                                "Scenic trail curves along Nepal frontier",
-                                "Crisp high-altitude air and forest sounds"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Ridge Trekking"
-                                },
-                                {
-                                        "icon": "tea",
-                                        "label": "Tea Break"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Landscape Snaps"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (102 km)",
-                                "byTrain": "New Jalpaiguri (107 km)",
-                                "byRoad": "22 km trek from Manebhanjan, 3 km past Gairibas"
-                        }
-                },
-                {
-                        "name": "Bikhebhanjang",
-                        "slug": "bikhebhanjang",
-                        "tagline": "Valley of Aconite Wildflowers",
-                        "altitude": "3,200 m (10,498 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Final Ascent to Sandakphu, Dramatic Ridge Views, Alpine Aconite",
-                        "location": "Base of Sandakphu Summit, Darjeeling",
-                        "description": "<p>Bikhebhanjang literally translates to 'Valley of Poison', named after the yellow flowering aconite plants that grow abundantly across these high slopes. It lies at the foot of the grueling final 4-kilometer zigzag ascent to Sandakphu summit.</p><p>It features a small cluster of rustic stone lodges where trekkers gather strength before tackling the steepest gradient of the entire trail.</p>",
-                        "attractions": [
-                                "Bikhebhanjang Pass",
-                                "Aconite Wildflower Meadows",
-                                "Zigzag Ascent to Summit"
-                        ],
-                        "image": "images/gallery (12).jpg",
-                        "highlights": [
-                                "Base camp for the final summit push",
-                                "Dramatic steep mountain gradients",
-                                "Unique alpine flora and aconite meadows"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Summit Ascent"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Valley Views"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Flora Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (108 km)",
-                                "byTrain": "New Jalpaiguri (112 km)",
-                                "byRoad": "27 km trek from Manebhanjan, 2 km from Kalipokhri"
-                        }
-                },
-                {
-                        "name": "Sabarkum",
-                        "slug": "sabarkum",
-                        "tagline": "The Solitary High Ridge Point",
-                        "altitude": "3,530 m (11,581 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Ridge Walk Between Sandakphu & Phalut, Sweeping Views, Pristine Isolation",
-                        "location": "Singalila Ridge, West Bengal",
-                        "description": "<p>Sabarkum is a windswept, dramatic high point located along the 21-kilometer wilderness ridge connecting Sandakphu to Phalut. Untouched by roads or commercial lodges, it is one of the rawest natural viewpoints on the entire trail.</p><p>Trekkers traversing the ridge walk through carpets of wildflowers and dwarf juniper, with panoramic glimpses of Everest on one side and Kanchenjunga towering on the other.</p>",
-                        "attractions": [
-                                "Sabarkum Ridge Crest",
-                                "Uninterrupted 360° Panorama",
-                                "Trail to Srikhola Descent"
-                        ],
-                        "image": "images/gallery (13).jpg",
-                        "highlights": [
-                                "Wilderness trail connecting Sandakphu & Phalut",
-                                "Complete silence and pristine nature",
-                                "Jaw-dropping views of Himalayan giants"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "High-Altitude Trek"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Panoramic Sightseeing"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Wilderness Shots"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (120 km)",
-                                "byTrain": "New Jalpaiguri (125 km)",
-                                "byRoad": "14 km trek along the ridge from Sandakphu towards Phalut"
-                        }
-                },
-                {
-                        "name": "Gurdum",
-                        "slug": "gurdum",
-                        "tagline": "Hidden Valley Sanctuary",
-                        "altitude": "2,300 m (7,545 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Peaceful Valley Village, Forest Descent Route, Timber Cottages",
-                        "location": "Singalila Valley, Darjeeling District",
-                        "description": "<p>Gurdum is a picture-postcard hamlet nestled deep in a secluded, emerald valley on the descent route from Sandakphu towards Srikhola. Sheltered by towering pines and flowering magnolias, Gurdum feels like a paradise after the freezing ridge winds.</p><p>The village is known for neat wooden cottages, organic vegetable patches, and warm family homestays serving authentic mountain meals.</p>",
-                        "attractions": [
-                                "Gurdum Village Valley",
-                                "Pine Forest Descent Trail",
-                                "Organic Farm Orchards"
-                        ],
-                        "image": "images/gallery (14).jpg",
-                        "highlights": [
-                                "Fairytale mountain village sheltered from winds",
-                                "Charming timber homestays and organic food",
-                                "Lush green contrasts after high alpine peaks"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Valley Hiking"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Organic Village Stay"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Landscape Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (100 km)",
-                                "byTrain": "New Jalpaiguri (105 km)",
-                                "byRoad": "10 km downhill trek from Sandakphu summit"
-                        }
-                },
-                {
-                        "name": "Srikhola",
-                        "slug": "srikhola",
-                        "tagline": "Riverside Haven of Singalila",
-                        "altitude": "1,900 m (6,233 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Iconic Suspension Bridge, Gushing Mountain River, Trek Completion Halt",
-                        "location": "Darjeeling District, West Bengal",
-                        "description": "<p>Srikhola is named after the tumbling, crystal-clear Sri Khola river that flows energetically through the valley. It is one of the most beloved and celebrated resting spots for trekkers completing their Singalila circuit.</p><p>Cross the iconic wooden suspension bridge, relax by the boulder-strewn riverbank listening to roaring cascades, and enjoy comfortable riverside lodges nestled amid dense oak forests.</p>",
-                        "attractions": [
-                                "Srikhola Suspension Bridge",
-                                "River Boulder Cascades",
-                                "Riverside Trekkers Lodge"
-                        ],
-                        "image": "images/gallery (15).jpg",
-                        "highlights": [
-                                "Scenic wooden suspension footbridge",
-                                "Melodic rushing mountain stream",
-                                "Prime celebratory halt at end of trek"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "forest",
-                                        "label": "Riverside Walks"
-                                },
-                                {
-                                        "icon": "hiking",
-                                        "label": "Forest Hiking"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "River Bridge Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (105 km)",
-                                "byTrain": "New Jalpaiguri (110 km)",
-                                "byRoad": "Trek 6 km from Gurdum or 7 km from Rimbik by jeep track"
-                        }
-                },
-                {
-                        "name": "Ramam",
-                        "slug": "ramam",
-                        "tagline": "Forest Hamlet of the Eastern Ridge",
-                        "altitude": "2,560 m (8,400 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Deep Forest Treks, Village Homestays, Birdwatching",
-                        "location": "Singalila National Park Belt, Darjeeling",
-                        "description": "<p>Ramam is a peaceful mountain settlement nestled within the pristine forests of the Singalila belt. It lies on the classic descent trail winding down from Phalut and Gorkhey on the return circuit towards Rimbik.</p><p>Enveloped by moss-draped oak trees and bird song, Ramam offers a wonderful blend of traditional agrarian lifestyle and wilderness serenity.</p>",
-                        "attractions": [
-                                "Ramam Forest Trail",
-                                "Village Valley Overlook",
-                                "Himalayan Birding Corridors"
-                        ],
-                        "image": "images/gallery (16).jpg",
-                        "highlights": [
-                                "Pristine temperate oak forest",
-                                "Rich variety of Himalayan birds",
-                                "Quiet agrarian mountain charm"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Forest Treks"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Birdwatching"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Homestay Rest"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (115 km)",
-                                "byTrain": "New Jalpaiguri (120 km)",
-                                "byRoad": "15 km trek from Phalut via Gorkhey or 12 km from Rimbik"
-                        }
-                },
-                {
-                        "name": "Rimbik",
-                        "slug": "rimbik",
-                        "tagline": "Charming Hillside Trek Hub",
-                        "altitude": "2,280 m (7,480 ft)",
-                        "bestTime": "Round the Year",
-                        "famousFor": "Roadhead for Treks, Bustling Bazaar, Forest Trails to Darjeeling",
-                        "location": "Darjeeling District, West Bengal",
-                        "description": "<p>Rimbik is a vibrant mountain town perched on a high hill slope overlooking the Rammam river valley. It is the primary roadhead where trekkers concluding the Singalila Ridge trek catch jeeps back to Darjeeling, Siliguri, or NJP.</p><p>With a bustling market, local bakeries, historic homestays, and stunning valley views, Rimbik provides a delightful transition back to civilization.</p>",
-                        "attractions": [
-                                "Rimbik Bazaar",
-                                "Rammam River Valley Overlook",
-                                "Old Forest Rest House"
-                        ],
-                        "image": "images/gallery (17).jpg",
-                        "highlights": [
-                                "Main transit roadhead for Singalila circuit",
-                                "Lively local Himalayan market",
-                                "Picturesque mountain ridge setting"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "shopping",
-                                        "label": "Local Bazaar Shopping"
-                                },
-                                {
-                                        "icon": "hiking",
-                                        "label": "Nature Walks"
-                                },
-                                {
-                                        "icon": "car",
-                                        "label": "Jeep Transit Base"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (115 km)",
-                                "byTrain": "New Jalpaiguri (120 km)",
-                                "byRoad": "54 km from Darjeeling town via Maneybhanjan & Sukhiapokhri"
-                        }
-                },
-                {
-                        "name": "Gorkhey",
-                        "slug": "gorkhey",
-                        "tagline": "Fairytale Valley Village",
-                        "altitude": "2,350 m (7,710 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Confluence of Rivers, Pine Forest Enclosure, Fairytale Scenery",
-                        "location": "West Bengal & West Sikkim Border",
-                        "description": "<p>Gorkhey is widely considered one of the most picturesque, fairytale villages in the entire Eastern Himalayas. Tucked snugly in an amphitheater of pine-covered slopes, it sits at the confluence of the Gorkhey Khola river right on the Bengal-Sikkim border.</p><p>Cottages with bright tin roofs, stone bridges, and crystal streams create a serene world untouched by modern noise.</p>",
-                        "attractions": [
-                                "Gorkhey Khola River Confluence",
-                                "Pine Forest Amphitheatre",
-                                "Border Footbridge to Sikkim"
-                        ],
-                        "image": "images/gallery (18).jpg",
-                        "highlights": [
-                                "Fairytale valley encircled by dense pines",
-                                "Charming mountain stream confluence",
-                                "Border crossing point between Bengal and Sikkim"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Valley Treks"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Fairytale Photography"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Traditional Homestay"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (125 km)",
-                                "byTrain": "New Jalpaiguri (130 km)",
-                                "byRoad": "15 km trek downhill from Phalut, or 3 km walk from Samanden"
-                        }
-                },
-                {
-                        "name": "Samanden",
-                        "slug": "samanden",
-                        "tagline": "The Lost Valley of Bengal",
-                        "altitude": "2,480 m (8,136 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Flat Plateau in High Hills, Organic Terraced Farming, Peaceful Solitude",
-                        "location": "Singalila Forest Fringe, Darjeeling District",
-                        "description": "<p>Known affectionately as 'The Lost Valley', Samanden is a remarkable flat plateau carved into the high mountain wilderness near Gorkhey. Surrounded entirely by towering pine forests, the plateau features neat organic farms that look straight out of rural Switzerland.</p><p>Its astonishing tranquility and idyllic farmhouses make it an unforgettable hidden sanctuary for nature lovers.</p>",
-                        "attractions": [
-                                "The Lost Valley Plateau",
-                                "Organic Terraced Farms",
-                                "Forest Border Walks"
-                        ],
-                        "image": "images/gallery (19).jpg",
-                        "highlights": [
-                                "Unique flat plateau high in the mountains",
-                                "Resembles a classic Swiss alpine village",
-                                "Complete peace and organic farming culture"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Plateau Walk"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Farm Experience"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Landscape Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (127 km)",
-                                "byTrain": "New Jalpaiguri (132 km)",
-                                "byRoad": "3 km trail from Gorkhey or 9 km trek from Rimbik"
-                        }
-                },
-                {
-                        "name": "Singalila National Park",
-                        "slug": "singalila-national-park",
-                        "tagline": "Wild Realm of the Red Panda",
-                        "altitude": "2,200 – 3,636 m",
-                        "bestTime": "October–May",
-                        "famousFor": "Red Panda Wildlife, 600+ Orchid Species, Rhododendron Blooms",
-                        "location": "Singalila Ridge, Darjeeling District",
-                        "description": "<p>Singalila National Park is a high-altitude sanctuary spanning the Singalila Ridge. It is celebrated internationally for its extraordinary biodiversity, virgin alpine forests, and as one of the last secure refuges on Earth for the elusive endangered Red Panda.</p><p>In spring, the park bursts into a riot of colors with over 20 species of blooming rhododendrons and 600 species of orchids, framing unmatched views of the Himalayan crown.</p>",
-                        "attractions": [
-                                "Red Panda Wildlife Trails",
-                                "Rhododendron & Magnolia Corridors",
-                                "High Alpine Ridge Vistas"
-                        ],
-                        "image": "images/gallery (20).jpg",
-                        "highlights": [
-                                "Protected sanctuary for the endangered Red Panda",
-                                "Springtime rhododendron bloom spectacle",
-                                "Continuous view of Everest & Kanchenjunga"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "safari",
-                                        "label": "Wildlife Safari"
-                                },
-                                {
-                                        "icon": "hiking",
-                                        "label": "Trekking"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Birding & Flora Spotting"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (80 km)",
-                                "byTrain": "New Jalpaiguri (85 km)",
-                                "byRoad": "Entry gate at Manebhanjan (26 km from Darjeeling)"
-                        }
-                },
-                {
-                        "name": "Rangeet Majuwa",
-                        "slug": "rangeet-majuwa",
-                        "tagline": "Serene Riverbank Retreat",
-                        "altitude": "1,400 m (4,593 ft)",
-                        "bestTime": "Round the Year",
-                        "famousFor": "Rangeet River Views, Angling & Camping, Untouched Village Life",
-                        "location": "Bijanbari Valley, Darjeeling District",
-                        "description": "<p>Rangeet Majuwa is an offbeat riverside hamlet tucked in the pristine valley where the roaring Rangeet river cascades over polished granite boulders. Situated near Bijanbari, it is far away from commercial tourist circuits.</p><p>Surrounded by citrus orchards, tea bushes, and bamboo groves, it is an idyllic escape for travelers looking to camp, fish, and experience authentic village warmth.</p>",
-                        "attractions": [
-                                "Rangeet River Boulder Banks",
-                                "Orange & Cardamom Groves",
-                                "Village Suspension Bridge"
-                        ],
-                        "image": "images/gallery (21).jpg",
-                        "highlights": [
-                                "Gushing mountain river location",
-                                "Authentic rural Himalayan homestays",
-                                "Ideal for riverside camping and relaxation"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "forest",
-                                        "label": "River Walks"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Homestay Life"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Nature Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (90 km)",
-                                "byTrain": "New Jalpaiguri (95 km)",
-                                "byRoad": "35 km from Darjeeling via Bijanbari"
-                        }
-                },
-                {
-                        "name": "Palmajua",
-                        "slug": "palmajua",
-                        "tagline": "Gateway to Singalila's Forest Buffer",
-                        "altitude": "2,200 m (7,218 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Birding Paradise, Oak and Chestnut Forests, Offbeat Tranquility",
-                        "location": "Singalila Buffer Belt, Darjeeling District",
-                        "description": "<p>Palmajua is a tiny, peaceful mountain village located along the forested buffer boundary of Singalila National Park near Dhotrey. Blanketed by dense stands of oak, chestnut, and bamboo, it is renowned as a premier paradise for birdwatchers.</p><p>Rare Himalayan birds such as the Fire-tailed Myzornis, Satyr Tragopan, and diverse flycatchers thrive in these untouched canopy corridors.</p>",
-                        "attractions": [
-                                "Palmajua Birding Corridors",
-                                "Virgin Oak Forests",
-                                "Tea Garden Panoramas"
-                        ],
-                        "image": "images/gallery (22).jpg",
-                        "highlights": [
-                                "Top-tier Himalayan birdwatching hotspot",
-                                "Dense virgin temperate forests",
-                                "Completely uncommercialized tranquility"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Birdwatching"
-                                },
-                                {
-                                        "icon": "forest",
-                                        "label": "Canopy Walks"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Bird Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (95 km)",
-                                "byTrain": "New Jalpaiguri (100 km)",
-                                "byRoad": "12 km from Dhotrey, 45 km from Darjeeling"
-                        }
-                },
-                {
-                        "name": "Lodhoma",
-                        "slug": "lodhoma",
-                        "tagline": "Picturesque River Junction",
-                        "altitude": "1,200 m (3,937 ft)",
-                        "bestTime": "Round the Year",
-                        "famousFor": "Mountain Hydro Streams, Riverside Scenery, Rural Terraces",
-                        "location": "Darjeeling District, West Bengal",
-                        "description": "<p>Lodhoma is a scenic valley settlement established along the gushing waters of the Lodhoma river. Known for its gentle sub-tropical mountain climate, clear sparkling river pools, and scenic footbridges, it offers a peaceful rural retreat.</p><p>The surrounding slopes are dotted with cardamom fields and lush terraced farms overlooking mountain ridges.</p>",
-                        "attractions": [
-                                "Lodhoma River Rapids",
-                                "Hanging Footbridge",
-                                "Green Terraced Valleys"
-                        ],
-                        "image": "images/gallery (23).jpg",
-                        "highlights": [
-                                "Sparkling mountain river pools",
-                                "Subtropical valley flora and cardamom fields",
-                                "Peaceful transit halt between Bijanbari and Rimbik"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "forest",
-                                        "label": "Riverside Rest"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Village Walks"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "River Scenery"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (92 km)",
-                                "byTrain": "New Jalpaiguri (97 km)",
-                                "byRoad": "42 km from Darjeeling town via Bijanbari"
-                        }
-                },
-                {
-                        "name": "Chewabhanjang",
-                        "slug": "chewabhanjang",
-                        "tagline": "Historic Indo-Nepal High Pass",
-                        "altitude": "3,140 m (10,301 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Historic Trade Pass, Nepal Border Ridge, Trek to Uttarey",
-                        "location": "Singalila Ridge, West Sikkim & Nepal Border",
-                        "description": "<p>Chewabhanjang is a historic high-altitude mountain pass located on the Singalila Ridge right along the border between West Sikkim and Nepal. For centuries it served as an important trade and yak-grazing passage between Tibet, Nepal, and Sikkim.</p><p>From Chewabhanjang, trekkers enjoy sweeping views across the ridges of eastern Nepal and northern Sikkim, surrounded by sub-alpine vegetation and old border outposts.</p>",
-                        "attractions": [
-                                "Chewabhanjang Pass & Marker",
-                                "Historic Border Trail",
-                                "Alpine Lakes on the Ridge"
-                        ],
-                        "image": "images/gallery (24).jpg",
-                        "highlights": [
-                                "Historic Indo-Nepal mountain trade pass",
-                                "Gateway connecting Uttarey and Singalila",
-                                "Panoramic views of Sikkim and Nepal peaks"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Pass Trekking"
-                                },
-                                {
-                                        "icon": "binoculars",
-                                        "label": "Cross-Border Views"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "High Ridge Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (145 km)",
-                                "byTrain": "New Jalpaiguri (150 km)",
-                                "byRoad": "10 km trek from Uttarey in West Sikkim"
-                        }
-                },
-                {
-                        "name": "Timburey",
-                        "slug": "timburey",
-                        "tagline": "Whispering Waters of Srikhola",
-                        "altitude": "1,850 m (6,070 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Riverside Homestays, Hanging Bridges, Forest Walks",
-                        "location": "Singalila Valley, Darjeeling District",
-                        "description": "<p>Timburey is a charming riverside hamlet located just upstream from Srikhola. Framed by thick emerald forests and mountain brooks, Timburey is celebrated for quiet, heartfelt homestays where guests fall asleep to the music of flowing water.</p><p>Hanging bridges, lush cardamom orchards, and butterfly-rich forest paths make it a paradise for eco-conscious travelers.</p>",
-                        "attractions": [
-                                "Timburey River Bridge",
-                                "Cardamom Forest Trails",
-                                "Mountain Stream Cascades"
-                        ],
-                        "image": "images/gallery (1).jpg",
-                        "highlights": [
-                                "Idyllic riverside location upstream of Srikhola",
-                                "Authentic homestay hospitality",
-                                "Surrounded by cardamom plantations and waterfalls"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "forest",
-                                        "label": "Nature Walks"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Homestay Relaxation"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Brook Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (106 km)",
-                                "byTrain": "New Jalpaiguri (111 km)",
-                                "byRoad": "2.5 km trek from Srikhola along the river trail"
-                        }
-                },
-                {
-                        "name": "Bhareng",
-                        "slug": "bhareng",
-                        "tagline": "Quiet Frontier Mountain Hamlet",
-                        "altitude": "1,800 m (5,905 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Organic Farms, Singalila Trails, Himalayan Hospitality",
-                        "location": "West Bengal & West Sikkim Border Fringe",
-                        "description": "<p>Bhareng is a secluded mountain hamlet situated near the border boundary of West Bengal and Sikkim in the foothills of the Singalila range. Known for organic hillside farming, warm community life, and lush vistas of terraced valleys, Bhareng offers complete serenity.</p><p>Hikers enjoy visiting local farms, tasting fresh organic crops, and exploring quiet trails leading toward Srikhola and Rimbik.</p>",
-                        "attractions": [
-                                "Bhareng Valley Farmland",
-                                "Border Ridge Trails",
-                                "Traditional Hilltop Dwellings"
-                        ],
-                        "image": "images/gallery (2).jpg",
-                        "highlights": [
-                                "Peaceful agricultural mountain setting",
-                                "Warm local community and organic produce",
-                                "Lush views of Singalila valley slopes"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "village",
-                                        "label": "Farm Walks"
-                                },
-                                {
-                                        "icon": "hiking",
-                                        "label": "Country Hikes"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Valley Views"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (110 km)",
-                                "byTrain": "New Jalpaiguri (115 km)",
-                                "byRoad": "Short road and trail connection from Rimbik and Sepi"
-                        }
-                },
-                {
-                        "name": "Sepi",
-                        "slug": "sepi",
-                        "tagline": "The Suspension Bridge Village",
-                        "altitude": "1,950 m (6,398 ft)",
-                        "bestTime": "October–May",
-                        "famousFor": "Srikhola River Crossing, Shared Jeep Point, Riverside Walks",
-                        "location": "Near Srikhola, Darjeeling District",
-                        "description": "<p>Sepi is a welcoming riverside settlement located near Srikhola. It serves as an important transit junction where the motorable road meets the Singalila trekking trail, with shared jeeps connecting toward Rimbik and Darjeeling.</p><p>Surrounded by crystal rivers and tea plantations, Sepi is a favorite stopping spot for trekkers to relax, refresh, and toast to the successful completion of the mountain loop.</p>",
-                        "attractions": [
-                                "Sepi River Crossing",
-                                "Srikhola Confluence Trail",
-                                "Riverside Tea Stalls"
-                        ],
-                        "image": "images/gallery (3).jpg",
-                        "highlights": [
-                                "Key trailhead and jeep departure point",
-                                "Pretty mountain river crossing",
-                                "Relaxed atmosphere after mountain treks"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "River Trail Walk"
-                                },
-                                {
-                                        "icon": "tea",
-                                        "label": "Trekker Tea Break"
-                                },
-                                {
-                                        "icon": "car",
-                                        "label": "Jeep Departure"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (107 km)",
-                                "byTrain": "New Jalpaiguri (112 km)",
-                                "byRoad": "3 km from Srikhola, 8 km from Rimbik"
-                        }
-                },
-                {
-                        "name": "Uttarey",
-                        "slug": "uttarey",
-                        "tagline": "Southwest Gateway to Singalila",
-                        "altitude": "2,020 m (6,627 ft)",
-                        "bestTime": "Round the Year",
-                        "famousFor": "Titanic Park, Kagyu Monastery, Chewabhanjang Base",
-                        "location": "West Sikkim",
-                        "description": "<p>Uttarey is a picturesque valley town nestled in West Sikkim, near the Nepal border. It serves as the primary northern starting point for expeditions heading onto the Singalila Ridge toward Chewabhanjang and Phalut.</p><p>Known for its tranquil beauty, Kagyu Monastery, trout breeding farms, and Titanic Park, Uttarey is one of the most peaceful mountain destinations in the Himalayas.</p>",
-                        "attractions": [
-                                "Titanic Park & Valley Viewpoint",
-                                "Historic Kagyu Monastery",
-                                "Chewabhanjang Trailhead"
-                        ],
-                        "image": "images/gallery (4).jpg",
-                        "highlights": [
-                                "West Sikkim gateway to Singalila Ridge",
-                                "Peaceful monastery and alpine valley setting",
-                                "Trout breeding center and pine forests"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Singalila Trek Base"
-                                },
-                                {
-                                        "icon": "temple",
-                                        "label": "Monastery Visit"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Village Walks"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (140 km)",
-                                "byTrain": "New Jalpaiguri (145 km)",
-                                "byRoad": "30 km from Pelling, 140 km from Siliguri"
-                        }
-                },
-                {
-                        "name": "Jawbari",
-                        "slug": "jawbari",
-                        "tagline": "Peaceful Indo-Nepal Border Hamlet",
-                        "altitude": "2,850 m (9,350 ft)",
-                        "bestTime": "March–May & October–December",
-                        "famousFor": "Border Trail Rest Stop, Mountain Tea Stalls, High-Altitude Farmland",
-                        "location": "Indo-Nepal Border, Singalila Ridge",
-                        "description": "<p>Jawbari (also spelled Jaubari) is a charming ridge hamlet perched on the international boundary between Tumling and Gairibas. The boundary line runs straight through the village, with homes and gardens resting on both Indian and Nepalese soil.</p><p>Known for its peaceful atmosphere, wooden lodges, and grazing yaks, Jawbari is a cherished resting spot for trekkers traversing the Singalila ridge.</p>",
-                        "attractions": [
-                                "Indo-Nepal Frontier Markers",
-                                "Jawbari Ridge Viewpoint",
-                                "High Altitude Potato Fields"
-                        ],
-                        "image": "images/gallery (5).jpg",
-                        "highlights": [
-                                "Unique open border village life",
-                                "Friendly mountain tea houses",
-                                "Panoramic views across the rolling border ridges"
-                        ],
-                        "thingsToDo": [
-                                {
-                                        "icon": "hiking",
-                                        "label": "Ridge Trekking"
-                                },
-                                {
-                                        "icon": "village",
-                                        "label": "Border Village Experience"
-                                },
-                                {
-                                        "icon": "camera",
-                                        "label": "Ridge Photography"
-                                }
-                        ],
-                        "howToReach": {
-                                "byAir": "Bagdogra Airport (96 km)",
-                                "byTrain": "New Jalpaiguri (101 km)",
-                                "byRoad": "17 km trek from Manebhanjan, between Tumling and Gairibas"
-                        }
+                "packages": [
+                    {
+                        "title": "4N/5D Sandakphu Trek",
+                        "includes": "Guide + Meals + Stay + Permits",
+                        "price": 8999,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "title": "Sandakphu Land Rover Safari",
+                        "includes": "Land Rover + Guide + Meals + Stay",
+                        "price": 12999,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sandakphu Trek Lodge",
+                        "rating": 4.2,
+                        "reviews": 65,
+                        "type": "Trek Lodge",
+                        "price": 1200,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "name": "Singalila Camp",
+                        "rating": 4.0,
+                        "reviews": 38,
+                        "type": "Mountain Camp",
+                        "price": 800,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Phalut",
+                "slug": "phalut",
+                "tagline": "The Solitary Tri-Junction Summit",
+                "altitude": "3,600 m (11,811 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Close-up Kangchenjunga, Tri-Junction of Bengal, Sikkim & Nepal, Ridge Walk",
+                "location": "Singalila Ridge, Tri-Junction",
+                "description": "<p>Phalut is the second highest peak in West Bengal, located at an altitude of 3,600 metres (11,811 ft), further along the Singalila Ridge from Sandakphu. It sits at the tri-junction of Sikkim, West Bengal, and Nepal, offering an even more raw and isolated Himalayan experience.</p><h3>The Close-up View</h3><p>While Sandakphu offers a wider panorama, Phalut is physically much closer to the Kanchenjunga range, providing a seemingly touchable, overwhelmingly massive view of the Sleeping Buddha. The terrain here is barren, wind-swept, and undulating, devoid of the dense tree cover found at lower altitudes.</p><h3>The Ultimate Trekking Challenge</h3><p>The trek from Sandakphu to Phalut is considered one of the most scenic and challenging ridge walks in the Indian Himalayas. Due to its remoteness, Phalut receives fewer visitors than Sandakphu, preserving its pristine and deeply tranquil atmosphere.</p>",
+                "attractions": [
+                    "Phalut Summit Point",
+                    "Tri-Junction Pillar",
+                    "Sleeping Buddha Close-Up"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Second highest peak in West Bengal (3,600 m)",
+                    "Closest panoramic viewpoint to Kanchenjunga",
+                    "Tri-border junction of Bengal, Sikkim and Nepal",
+                    "Unspoiled high-altitude ridge wilderness"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Summit Trek"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Close Mountain Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Landscape Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (125 km)",
+                    "byTrain": "New Jalpaiguri (130 km)",
+                    "byRoad": "21 km ridge trek from Sandakphu or via Gorkhey"
                 }
+            },
+            {
+                "name": "Manebhanjan",
+                "slug": "manebhanjan",
+                "tagline": "Gateway to Singalila & Land Rovers",
+                "altitude": "1,928 m (6,325 ft)",
+                "bestTime": "Round the Year (Best Oct–May)",
+                "famousFor": "Sandakphu Trek Gateway, Vintage 1950s Land Rovers, Border Market",
+                "location": "Darjeeling District, Indo-Nepal Border",
+                "description": "<p>Manebhanjan is a small, bustling transit town situated at an altitude of 1,928 metres (6,325 ft) on the India-Nepal border. It serves as the primary gateway and starting point for the famous Sandakphu-Phalut trek and Singalila National Park.</p><h3>Gateway to Singalila</h3><p>The name Manebhanjan translates to 'where stupas and roads meet'. The town is internationally renowned for its fleet of vintage series Land Rovers dating from the 1950s, which navigate the steep, rugged, and boulder-strewn road up to Sandakphu.</p><h3>Culture & Transit</h3><p>The town has a frontier-like atmosphere, with a lively blend of Indian and Nepali cultures. It offers essential supplies, trekking gear rentals, and accommodations for trekkers preparing for their journey.</p>",
+                "attractions": [
+                    "Singalila National Park Entry Gate",
+                    "Historic Land Rover Stand",
+                    "Buddhist Prayer Wheels"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Starting point of the Sandakphu trek",
+                    "Vintage Land Rover rides and safari",
+                    "Singalila National Park entry permit office"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking Base"
+                    },
+                    {
+                        "icon": "safari",
+                        "label": "Land Rover Safari"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (80 km)",
+                    "byTrain": "New Jalpaiguri (85 km)",
+                    "byRoad": "28 km from Darjeeling town via Sukhiapokhri"
+                }
+            },
+            {
+                "name": "Tonglu",
+                "slug": "tonglu",
+                "tagline": "Panoramic Himalayan Viewpoint",
+                "altitude": "3,070 m (10,072 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Sunrise, Himalayan Views, Rhododendrons",
+                "location": "Singalila National Park, Darjeeling",
+                "description": "<p>Tonglu is one of the higher peaks of the Singalila Ridge and a popular first-night halt on the Sandakphu trek, situated at an altitude of 3,070 metres (10,072 ft). It is located within the pristine environment of Singalila National Park.</p><h3>Scenic Views & Environment</h3><p>Tonglu offers stunning panoramic views of the Darjeeling hills and the Teesta Valley, along with a majestic view of the Kanchenjunga range. The area is characterized by alpine meadows and dense forests of rhododendron, which paint the hillsides in vibrant reds and pinks during spring.</p><h3>The Trekkers' Halt</h3><p>The settlement is minimal, consisting primarily of a Trekkers' Hut and a few basic homestays. The peaceful environment and dramatic altitude shift make Tonglu a memorable stop for trekkers acclimatizing to higher elevations.</p>",
+                "attractions": [
+                    "Tonglu Summit Viewpoint",
+                    "Kangchenjunga Sunrise View",
+                    "Rhododendron Forests"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Stunning Singalila Ridge views",
+                    "Rhododendron forests blooming in spring",
+                    "Spectacular sunrises over Kanchenjunga"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Sunrise View"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (95 km)",
+                    "byTrain": "New Jalpaiguri (100 km)",
+                    "byRoad": "11 km trek from Manebhanjan or 5 km from Dhotrey"
+                }
+            },
+            {
+                "name": "Tumling",
+                "slug": "tumling",
+                "tagline": "Border Village of the Himalayas",
+                "altitude": "2,970 m (9,744 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Homestays, Sunrise Views, Mountain Landscapes",
+                "location": "India-Nepal Border, Singalila Ridge",
+                "description": "<p>Tumling is a tiny, picturesque hamlet located at an altitude of 2,970 metres (9,600 ft) along the Singalila Ridge. Tumling is technically located within Nepal, though there are no border restrictions for trekkers on the Sandakphu route.</p><h3>Nature & Hospitality</h3><p>The village is known for its exceptionally warm hospitality, with a handful of well-maintained homestays catering to trekkers. It marks the entry point into the core area of the Singalila National Park, surrounded by rolling hills and offering clear, spectacular views of the Sleeping Buddha (the Kanchenjunga massif).</p><h3>Flora & Fauna</h3><p>The region around Tumling is rich in biodiversity. It is one of the best areas along the trek to spot rare Himalayan bird species and the elusive Red Panda. The transition from temperate forests to sub-alpine vegetation becomes highly pronounced around this altitude.</p>",
+                "attractions": [
+                    "Tumling Viewpoint",
+                    "India-Nepal Border Landscape",
+                    "Traditional Homestays"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "India-Nepal border village experience",
+                    "Panoramic mountain and sunrise views",
+                    "Warm Sherpa homestay hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "View Points"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Stay"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (90 km)",
+                    "byTrain": "New Jalpaiguri (95 km)",
+                    "byRoad": "13 km trek from Manebhanjan or via Land Rover"
+                }
+            },
+            {
+                "name": "Kalipokhri",
+                "slug": "kalipokhri",
+                "tagline": "Sacred Black Water Lake",
+                "altitude": "3,186 m (10,453 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Holy Dark Water Lake, Tibetan Prayer Flags, Trekker Stopover",
+                "location": "Singalila Ridge, Indo-Nepal Border",
+                "description": "<p>Kalipokhri is named after a sacred, dark-water high-altitude pond surrounded by fluttering Buddhist prayer flags and carved mani stones. According to local beliefs, the sacred water in the lake never freezes completely even during freezing sub-zero winters.</p><h3>Acclimatization Halt</h3><p>Surrounded by clusters of wooden tea houses and stone lodges, Kalipokhri is a crucial acclimatization halt for trekkers preparing for the final ascent up to Sandakphu summit.</p><p>Trekkers can enjoy warm mountain meals, relax by Tibetan wood stoves, and take in serene mountain stillness under starry Himalayan skies.</p>",
+                "attractions": [
+                    "Sacred Kalipokhri Lake",
+                    "Buddhist Prayer Flag Shrines",
+                    "Borderline Ridge Viewpoint"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Sacred alpine dark lake that never freezes",
+                    "Rich Tibetan Buddhist spirituality and prayer flags",
+                    "Essential acclimatization halt before Sandakphu"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Trek Acclimatization"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Lake Visit"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Prayer Flag Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (105 km)",
+                    "byTrain": "New Jalpaiguri (110 km)",
+                    "byRoad": "25 km trek from Manebhanjan via Gairibas"
+                }
+            },
+            {
+                "name": "Dhotrey",
+                "slug": "dhotrey",
+                "tagline": "Scenic Forest Village Gateway",
+                "altitude": "2,590 m (8,500 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Pine Forests, Shortcut Trail to Tonglu, Serene Village Life",
+                "location": "Darjeeling District, West Bengal",
+                "description": "<p>Dhotrey is a serene, tranquil village nestled amid thick pine and rhododendron woods on the fringes of Singalila National Park. It has become famous as the favorite scenic alternative trailhead for reaching Tonglu, saving distance while offering a lush forest hike.</p><p>With quiet homestays, rolling terraced fields, and fresh mountain air, Dhotrey is an eco-tourism gem in its own right for travelers seeking peaceful Himalayan seclusion.</p>",
+                "attractions": [
+                    "Dhotrey Pine Woods Trail",
+                    "Village Valley Viewpoint",
+                    "Forest Orchid Walks"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Scenic alternative starting point for Tonglu trek",
+                    "Dense pine and rhododendron woods",
+                    "Peaceful offbeat village atmosphere"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Trekking"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Homestay"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (88 km)",
+                    "byTrain": "New Jalpaiguri (92 km)",
+                    "byRoad": "17 km from Sukhiapokhri, 11 km from Manebhanjan"
+                }
+            },
+            {
+                "name": "Chitrey",
+                "slug": "chitrey",
+                "tagline": "Peaceful Monastery Hillside",
+                "altitude": "2,540 m (8,340 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Old Buddhist Monastery, Scenic Meadows, First Steep Ascent",
+                "location": "Above Manebhanjan, Darjeeling District",
+                "description": "<p>Chitrey is the first major milestone perched 3 kilometers above Manebhanjan on the initial climb towards Sandakphu. Surrounded by pine hills and green slopes, it is known for its peaceful Buddhist monastery.</p><p>Trekkers often pause in Chitrey to catch their breath, sip steaming ginger tea, and spin the prayer wheels while enjoying sweeping views of Manebhanjan and the valleys below.</p>",
+                "attractions": [
+                    "Chitrey Buddhist Monastery",
+                    "Panoramic Ridge Meadow",
+                    "Pine Forest Trails"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Ancient mountain gompa with prayer wheels",
+                    "First resting point on the Sandakphu trail",
+                    "Spectacular view of valleys below"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visit"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Trail Rest Stop"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Meadow Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (83 km)",
+                    "byTrain": "New Jalpaiguri (88 km)",
+                    "byRoad": "3 km uphill trek or Land Rover drive from Manebhanjan"
+                }
+            },
+            {
+                "name": "Meghma",
+                "slug": "meghma",
+                "tagline": "Village in the Clouds",
+                "altitude": "2,900 m (9,514 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Mist & Cloudscapes, Border Monastery, Trail Junction",
+                "location": "Indo-Nepal Border, Singalila Ridge",
+                "description": "<p>Meghma translates poetically to 'Mother of Clouds', an apt description for this misty mountain settlement frequently shrouded in ethereal swirling fog. Situated right on the border, Meghma is where the trail forks toward Tonglu in India or Tumling via Nepal.</p><p>A historic Buddhist monastery with a gilded spire stands as the centerpiece of this mystical outpost surrounded by prayer flags.</p>",
+                "attractions": [
+                    "Meghma Gompa & Chorten",
+                    "Trail Junction Point",
+                    "Rolling Cloud Formations"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Magical swirling cloudscapes and misty ridges",
+                    "Historic Buddhist gompa and prayer wheels",
+                    "Crucial border trail junction point"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Ridge Trekking"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Gompa Visit"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Hot Butter Tea Stop"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (90 km)",
+                    "byTrain": "New Jalpaiguri (95 km)",
+                    "byRoad": "9 km trek from Manebhanjan, just before Tonglu"
+                }
+            },
+            {
+                "name": "Gairibas",
+                "slug": "gairibas",
+                "tagline": "Valley of Bamboo & Red Pandas",
+                "altitude": "2,621 m (8,600 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Singalila Forest Checkpost, Red Panda Habitat, Dense Bamboo Groves",
+                "location": "Singalila National Park, Darjeeling",
+                "description": "<p>Gairibas is a sheltered mountain hollow located between Tumling and Kalipokhri, surrounded by dense forests of dwarf bamboo, magnolias, and rhododendrons. It hosts a key Singalila National Park forest checkpost.</p><p>Because of the dense bamboo cover, the valley around Gairibas is recognized as a prime habitat for the elusive and endangered Red Panda and rare Himalayan avifauna.</p>",
+                "attractions": [
+                    "Singalila Forest Guard Post",
+                    "Bamboo Forest Habitat",
+                    "Mountain Brook Crossing"
+                ],
+                "image": "images/gallery (10).jpg",
+                "highlights": [
+                    "Core Red Panda observation zone",
+                    "Lush bamboo and rhododendron canopy",
+                    "Welcome resting stop after steep descent"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Wildlife Spotting"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Hike"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (100 km)",
+                    "byTrain": "New Jalpaiguri (105 km)",
+                    "byRoad": "19 km trek from Manebhanjan via Tumling and Jaubari"
+                }
+            },
+            {
+                "name": "Kaiyakatta",
+                "slug": "kaiyakatta",
+                "tagline": "Mountain Pass Resting Stop",
+                "altitude": "2,800 m (9,186 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Trekking Tea Stalls, Pine Forests, Nepal Border Trail",
+                "location": "Singalila Ridge, Indo-Nepal Frontier",
+                "description": "<p>Kaiyakatta is a friendly mountain pass resting settlement situated between Gairibas and Kalipokhri along the Singalila trekking highway. It marks a gradual climbing traverse along the slopes.</p><p>Trekkers stop here at cozy timber shacks for hot noodle soup, tea, and to chat with local Sherpa families while soaking in crisp Himalayan breezes.</p>",
+                "attractions": [
+                    "Kaiyakatta Ridge Trail",
+                    "Borderline Pine Stands",
+                    "Himalayan Tea Lodges"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Welcoming wayside tea huts and mountain lodges",
+                    "Scenic trail curves along Nepal frontier",
+                    "Crisp high-altitude air and forest sounds"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Ridge Trekking"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Break"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Landscape Snaps"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (102 km)",
+                    "byTrain": "New Jalpaiguri (107 km)",
+                    "byRoad": "22 km trek from Manebhanjan, 3 km past Gairibas"
+                }
+            },
+            {
+                "name": "Bikhebhanjang",
+                "slug": "bikhebhanjang",
+                "tagline": "Valley of Aconite Wildflowers",
+                "altitude": "3,200 m (10,498 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Final Ascent to Sandakphu, Dramatic Ridge Views, Alpine Aconite",
+                "location": "Base of Sandakphu Summit, Darjeeling",
+                "description": "<p>Bikhebhanjang literally translates to 'Valley of Poison', named after the yellow flowering aconite plants that grow abundantly across these high slopes. It lies at the foot of the grueling final 4-kilometer zigzag ascent to Sandakphu summit.</p><p>It features a small cluster of rustic stone lodges where trekkers gather strength before tackling the steepest gradient of the entire trail.</p>",
+                "attractions": [
+                    "Bikhebhanjang Pass",
+                    "Aconite Wildflower Meadows",
+                    "Zigzag Ascent to Summit"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Base camp for the final summit push",
+                    "Dramatic steep mountain gradients",
+                    "Unique alpine flora and aconite meadows"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Summit Ascent"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Valley Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Flora Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (108 km)",
+                    "byTrain": "New Jalpaiguri (112 km)",
+                    "byRoad": "27 km trek from Manebhanjan, 2 km from Kalipokhri"
+                }
+            },
+            {
+                "name": "Sabarkum",
+                "slug": "sabarkum",
+                "tagline": "The Solitary High Ridge Point",
+                "altitude": "3,530 m (11,581 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Ridge Walk Between Sandakphu & Phalut, Sweeping Views, Pristine Isolation",
+                "location": "Singalila Ridge, West Bengal",
+                "description": "<p>Sabarkum is a windswept, dramatic high point located along the 21-kilometer wilderness ridge connecting Sandakphu to Phalut. Untouched by roads or commercial lodges, it is one of the rawest natural viewpoints on the entire trail.</p><p>Trekkers traversing the ridge walk through carpets of wildflowers and dwarf juniper, with panoramic glimpses of Everest on one side and Kanchenjunga towering on the other.</p>",
+                "attractions": [
+                    "Sabarkum Ridge Crest",
+                    "Uninterrupted 360° Panorama",
+                    "Trail to Srikhola Descent"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Wilderness trail connecting Sandakphu & Phalut",
+                    "Complete silence and pristine nature",
+                    "Jaw-dropping views of Himalayan giants"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "High-Altitude Trek"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Panoramic Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Wilderness Shots"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (120 km)",
+                    "byTrain": "New Jalpaiguri (125 km)",
+                    "byRoad": "14 km trek along the ridge from Sandakphu towards Phalut"
+                }
+            },
+            {
+                "name": "Gurdum",
+                "slug": "gurdum",
+                "tagline": "Hidden Valley Sanctuary",
+                "altitude": "2,300 m (7,545 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Peaceful Valley Village, Forest Descent Route, Timber Cottages",
+                "location": "Singalila Valley, Darjeeling District",
+                "description": "<p>Gurdum is a picture-postcard hamlet nestled deep in a secluded, emerald valley on the descent route from Sandakphu towards Srikhola. Sheltered by towering pines and flowering magnolias, Gurdum feels like a paradise after the freezing ridge winds.</p><p>The village is known for neat wooden cottages, organic vegetable patches, and warm family homestays serving authentic mountain meals.</p>",
+                "attractions": [
+                    "Gurdum Village Valley",
+                    "Pine Forest Descent Trail",
+                    "Organic Farm Orchards"
+                ],
+                "image": "images/gallery (14).jpg",
+                "highlights": [
+                    "Fairytale mountain village sheltered from winds",
+                    "Charming timber homestays and organic food",
+                    "Lush green contrasts after high alpine peaks"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Valley Hiking"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Village Stay"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Landscape Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (100 km)",
+                    "byTrain": "New Jalpaiguri (105 km)",
+                    "byRoad": "10 km downhill trek from Sandakphu summit"
+                }
+            },
+            {
+                "name": "Srikhola",
+                "slug": "srikhola",
+                "tagline": "Riverside Haven of Singalila",
+                "altitude": "1,900 m (6,233 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Iconic Suspension Bridge, Gushing Mountain River, Trek Completion Halt",
+                "location": "Darjeeling District, West Bengal",
+                "description": "<p>Srikhola is named after the tumbling, crystal-clear Sri Khola river that flows energetically through the valley. It is one of the most beloved and celebrated resting spots for trekkers completing their Singalila circuit.</p><p>Cross the iconic wooden suspension bridge, relax by the boulder-strewn riverbank listening to roaring cascades, and enjoy comfortable riverside lodges nestled amid dense oak forests.</p>",
+                "attractions": [
+                    "Srikhola Suspension Bridge",
+                    "River Boulder Cascades",
+                    "Riverside Trekkers Lodge"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Scenic wooden suspension footbridge",
+                    "Melodic rushing mountain stream",
+                    "Prime celebratory halt at end of trek"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Riverside Walks"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Hiking"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "River Bridge Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (105 km)",
+                    "byTrain": "New Jalpaiguri (110 km)",
+                    "byRoad": "Trek 6 km from Gurdum or 7 km from Rimbik by jeep track"
+                }
+            },
+            {
+                "name": "Ramam",
+                "slug": "ramam",
+                "tagline": "Forest Hamlet of the Eastern Ridge",
+                "altitude": "2,560 m (8,400 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Deep Forest Treks, Village Homestays, Birdwatching",
+                "location": "Singalila National Park Belt, Darjeeling",
+                "description": "<p>Ramam is a peaceful mountain settlement nestled within the pristine forests of the Singalila belt. It lies on the classic descent trail winding down from Phalut and Gorkhey on the return circuit towards Rimbik.</p><p>Enveloped by moss-draped oak trees and bird song, Ramam offers a wonderful blend of traditional agrarian lifestyle and wilderness serenity.</p>",
+                "attractions": [
+                    "Ramam Forest Trail",
+                    "Village Valley Overlook",
+                    "Himalayan Birding Corridors"
+                ],
+                "image": "images/gallery (16).jpg",
+                "highlights": [
+                    "Pristine temperate oak forest",
+                    "Rich variety of Himalayan birds",
+                    "Quiet agrarian mountain charm"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Treks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Homestay Rest"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (115 km)",
+                    "byTrain": "New Jalpaiguri (120 km)",
+                    "byRoad": "15 km trek from Phalut via Gorkhey or 12 km from Rimbik"
+                }
+            },
+            {
+                "name": "Rimbik",
+                "slug": "rimbik",
+                "tagline": "Charming Hillside Trek Hub",
+                "altitude": "2,280 m (7,480 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Roadhead for Treks, Bustling Bazaar, Forest Trails to Darjeeling",
+                "location": "Darjeeling District, West Bengal",
+                "description": "<p>Rimbik is a vibrant mountain town perched on a high hill slope overlooking the Rammam river valley. It is the primary roadhead where trekkers concluding the Singalila Ridge trek catch jeeps back to Darjeeling, Siliguri, or NJP.</p><p>With a bustling market, local bakeries, historic homestays, and stunning valley views, Rimbik provides a delightful transition back to civilization.</p>",
+                "attractions": [
+                    "Rimbik Bazaar",
+                    "Rammam River Valley Overlook",
+                    "Old Forest Rest House"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Main transit roadhead for Singalila circuit",
+                    "Lively local Himalayan market",
+                    "Picturesque mountain ridge setting"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "shopping",
+                        "label": "Local Bazaar Shopping"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "car",
+                        "label": "Jeep Transit Base"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (115 km)",
+                    "byTrain": "New Jalpaiguri (120 km)",
+                    "byRoad": "54 km from Darjeeling town via Maneybhanjan & Sukhiapokhri"
+                }
+            },
+            {
+                "name": "Gorkhey",
+                "slug": "gorkhey",
+                "tagline": "Fairytale Valley Village",
+                "altitude": "2,350 m (7,710 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Confluence of Rivers, Pine Forest Enclosure, Fairytale Scenery",
+                "location": "West Bengal & West Sikkim Border",
+                "description": "<p>Gorkhey is widely considered one of the most picturesque, fairytale villages in the entire Eastern Himalayas. Tucked snugly in an amphitheater of pine-covered slopes, it sits at the confluence of the Gorkhey Khola river right on the Bengal-Sikkim border.</p><p>Cottages with bright tin roofs, stone bridges, and crystal streams create a serene world untouched by modern noise.</p>",
+                "attractions": [
+                    "Gorkhey Khola River Confluence",
+                    "Pine Forest Amphitheatre",
+                    "Border Footbridge to Sikkim"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Fairytale valley encircled by dense pines",
+                    "Charming mountain stream confluence",
+                    "Border crossing point between Bengal and Sikkim"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Valley Treks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Fairytale Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Traditional Homestay"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (125 km)",
+                    "byTrain": "New Jalpaiguri (130 km)",
+                    "byRoad": "15 km trek downhill from Phalut, or 3 km walk from Samanden"
+                }
+            },
+            {
+                "name": "Samanden",
+                "slug": "samanden",
+                "tagline": "The Lost Valley of Bengal",
+                "altitude": "2,480 m (8,136 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Flat Plateau in High Hills, Organic Terraced Farming, Peaceful Solitude",
+                "location": "Singalila Forest Fringe, Darjeeling District",
+                "description": "<p>Known affectionately as 'The Lost Valley', Samanden is a remarkable flat plateau carved into the high mountain wilderness near Gorkhey. Surrounded entirely by towering pine forests, the plateau features neat organic farms that look straight out of rural Switzerland.</p><p>Its astonishing tranquility and idyllic farmhouses make it an unforgettable hidden sanctuary for nature lovers.</p>",
+                "attractions": [
+                    "The Lost Valley Plateau",
+                    "Organic Terraced Farms",
+                    "Forest Border Walks"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Unique flat plateau high in the mountains",
+                    "Resembles a classic Swiss alpine village",
+                    "Complete peace and organic farming culture"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Plateau Walk"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Farm Experience"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Landscape Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (127 km)",
+                    "byTrain": "New Jalpaiguri (132 km)",
+                    "byRoad": "3 km trail from Gorkhey or 9 km trek from Rimbik"
+                }
+            },
+            {
+                "name": "Singalila National Park",
+                "slug": "singalila-national-park",
+                "tagline": "Wild Realm of the Red Panda",
+                "altitude": "2,200 – 3,636 m",
+                "bestTime": "October–May",
+                "famousFor": "Red Panda Wildlife, 600+ Orchid Species, Rhododendron Blooms",
+                "location": "Singalila Ridge, Darjeeling District",
+                "description": "<p>Singalila National Park is a high-altitude sanctuary spanning the Singalila Ridge. It is celebrated internationally for its extraordinary biodiversity, virgin alpine forests, and as one of the last secure refuges on Earth for the elusive endangered Red Panda.</p><p>In spring, the park bursts into a riot of colors with over 20 species of blooming rhododendrons and 600 species of orchids, framing unmatched views of the Himalayan crown.</p>",
+                "attractions": [
+                    "Red Panda Wildlife Trails",
+                    "Rhododendron & Magnolia Corridors",
+                    "High Alpine Ridge Vistas"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Protected sanctuary for the endangered Red Panda",
+                    "Springtime rhododendron bloom spectacle",
+                    "Continuous view of Everest & Kanchenjunga"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "safari",
+                        "label": "Wildlife Safari"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birding & Flora Spotting"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (80 km)",
+                    "byTrain": "New Jalpaiguri (85 km)",
+                    "byRoad": "Entry gate at Manebhanjan (26 km from Darjeeling)"
+                }
+            },
+            {
+                "name": "Rangeet Majuwa",
+                "slug": "rangeet-majuwa",
+                "tagline": "Serene Riverbank Retreat",
+                "altitude": "1,400 m (4,593 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Rangeet River Views, Angling & Camping, Untouched Village Life",
+                "location": "Bijanbari Valley, Darjeeling District",
+                "description": "<p>Rangeet Majuwa is an offbeat riverside hamlet tucked in the pristine valley where the roaring Rangeet river cascades over polished granite boulders. Situated near Bijanbari, it is far away from commercial tourist circuits.</p><p>Surrounded by citrus orchards, tea bushes, and bamboo groves, it is an idyllic escape for travelers looking to camp, fish, and experience authentic village warmth.</p>",
+                "attractions": [
+                    "Rangeet River Boulder Banks",
+                    "Orange & Cardamom Groves",
+                    "Village Suspension Bridge"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Gushing mountain river location",
+                    "Authentic rural Himalayan homestays",
+                    "Ideal for riverside camping and relaxation"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "River Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Homestay Life"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (90 km)",
+                    "byTrain": "New Jalpaiguri (95 km)",
+                    "byRoad": "35 km from Darjeeling via Bijanbari"
+                }
+            },
+            {
+                "name": "Palmajua",
+                "slug": "palmajua",
+                "tagline": "Gateway to Singalila's Forest Buffer",
+                "altitude": "2,200 m (7,218 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Birding Paradise, Oak and Chestnut Forests, Offbeat Tranquility",
+                "location": "Singalila Buffer Belt, Darjeeling District",
+                "description": "<p>Palmajua is a tiny, peaceful mountain village located along the forested buffer boundary of Singalila National Park near Dhotrey. Blanketed by dense stands of oak, chestnut, and bamboo, it is renowned as a premier paradise for birdwatchers.</p><p>Rare Himalayan birds such as the Fire-tailed Myzornis, Satyr Tragopan, and diverse flycatchers thrive in these untouched canopy corridors.</p>",
+                "attractions": [
+                    "Palmajua Birding Corridors",
+                    "Virgin Oak Forests",
+                    "Tea Garden Panoramas"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Top-tier Himalayan birdwatching hotspot",
+                    "Dense virgin temperate forests",
+                    "Completely uncommercialized tranquility"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "forest",
+                        "label": "Canopy Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Bird Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (95 km)",
+                    "byTrain": "New Jalpaiguri (100 km)",
+                    "byRoad": "12 km from Dhotrey, 45 km from Darjeeling"
+                }
+            },
+            {
+                "name": "Lodhoma",
+                "slug": "lodhoma",
+                "tagline": "Picturesque River Junction",
+                "altitude": "1,200 m (3,937 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Mountain Hydro Streams, Riverside Scenery, Rural Terraces",
+                "location": "Darjeeling District, West Bengal",
+                "description": "<p>Lodhoma is a scenic valley settlement established along the gushing waters of the Lodhoma river. Known for its gentle sub-tropical mountain climate, clear sparkling river pools, and scenic footbridges, it offers a peaceful rural retreat.</p><p>The surrounding slopes are dotted with cardamom fields and lush terraced farms overlooking mountain ridges.</p>",
+                "attractions": [
+                    "Lodhoma River Rapids",
+                    "Hanging Footbridge",
+                    "Green Terraced Valleys"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Sparkling mountain river pools",
+                    "Subtropical valley flora and cardamom fields",
+                    "Peaceful transit halt between Bijanbari and Rimbik"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Riverside Rest"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "River Scenery"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (92 km)",
+                    "byTrain": "New Jalpaiguri (97 km)",
+                    "byRoad": "42 km from Darjeeling town via Bijanbari"
+                }
+            },
+            {
+                "name": "Chewabhanjang",
+                "slug": "chewabhanjang",
+                "tagline": "Historic Indo-Nepal High Pass",
+                "altitude": "3,140 m (10,301 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Historic Trade Pass, Nepal Border Ridge, Trek to Uttarey",
+                "location": "Singalila Ridge, West Sikkim & Nepal Border",
+                "description": "<p>Chewabhanjang is a historic high-altitude mountain pass located on the Singalila Ridge right along the border between West Sikkim and Nepal. For centuries it served as an important trade and yak-grazing passage between Tibet, Nepal, and Sikkim.</p><p>From Chewabhanjang, trekkers enjoy sweeping views across the ridges of eastern Nepal and northern Sikkim, surrounded by sub-alpine vegetation and old border outposts.</p>",
+                "attractions": [
+                    "Chewabhanjang Pass & Marker",
+                    "Historic Border Trail",
+                    "Alpine Lakes on the Ridge"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Historic Indo-Nepal mountain trade pass",
+                    "Gateway connecting Uttarey and Singalila",
+                    "Panoramic views of Sikkim and Nepal peaks"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Pass Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cross-Border Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "High Ridge Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (145 km)",
+                    "byTrain": "New Jalpaiguri (150 km)",
+                    "byRoad": "10 km trek from Uttarey in West Sikkim"
+                }
+            },
+            {
+                "name": "Timburey",
+                "slug": "timburey",
+                "tagline": "Whispering Waters of Srikhola",
+                "altitude": "1,850 m (6,070 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Riverside Homestays, Hanging Bridges, Forest Walks",
+                "location": "Singalila Valley, Darjeeling District",
+                "description": "<p>Timburey is a charming riverside hamlet located just upstream from Srikhola. Framed by thick emerald forests and mountain brooks, Timburey is celebrated for quiet, heartfelt homestays where guests fall asleep to the music of flowing water.</p><p>Hanging bridges, lush cardamom orchards, and butterfly-rich forest paths make it a paradise for eco-conscious travelers.</p>",
+                "attractions": [
+                    "Timburey River Bridge",
+                    "Cardamom Forest Trails",
+                    "Mountain Stream Cascades"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Idyllic riverside location upstream of Srikhola",
+                    "Authentic homestay hospitality",
+                    "Surrounded by cardamom plantations and waterfalls"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "forest",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Homestay Relaxation"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Brook Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (106 km)",
+                    "byTrain": "New Jalpaiguri (111 km)",
+                    "byRoad": "2.5 km trek from Srikhola along the river trail"
+                }
+            },
+            {
+                "name": "Bhareng",
+                "slug": "bhareng",
+                "tagline": "Quiet Frontier Mountain Hamlet",
+                "altitude": "1,800 m (5,905 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Organic Farms, Singalila Trails, Himalayan Hospitality",
+                "location": "West Bengal & West Sikkim Border Fringe",
+                "description": "<p>Bhareng is a secluded mountain hamlet situated near the border boundary of West Bengal and Sikkim in the foothills of the Singalila range. Known for organic hillside farming, warm community life, and lush vistas of terraced valleys, Bhareng offers complete serenity.</p><p>Hikers enjoy visiting local farms, tasting fresh organic crops, and exploring quiet trails leading toward Srikhola and Rimbik.</p>",
+                "attractions": [
+                    "Bhareng Valley Farmland",
+                    "Border Ridge Trails",
+                    "Traditional Hilltop Dwellings"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Peaceful agricultural mountain setting",
+                    "Warm local community and organic produce",
+                    "Lush views of Singalila valley slopes"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Farm Walks"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Country Hikes"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Valley Views"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (110 km)",
+                    "byTrain": "New Jalpaiguri (115 km)",
+                    "byRoad": "Short road and trail connection from Rimbik and Sepi"
+                }
+            },
+            {
+                "name": "Sepi",
+                "slug": "sepi",
+                "tagline": "The Suspension Bridge Village",
+                "altitude": "1,950 m (6,398 ft)",
+                "bestTime": "October–May",
+                "famousFor": "Srikhola River Crossing, Shared Jeep Point, Riverside Walks",
+                "location": "Near Srikhola, Darjeeling District",
+                "description": "<p>Sepi is a welcoming riverside settlement located near Srikhola. It serves as an important transit junction where the motorable road meets the Singalila trekking trail, with shared jeeps connecting toward Rimbik and Darjeeling.</p><p>Surrounded by crystal rivers and tea plantations, Sepi is a favorite stopping spot for trekkers to relax, refresh, and toast to the successful completion of the mountain loop.</p>",
+                "attractions": [
+                    "Sepi River Crossing",
+                    "Srikhola Confluence Trail",
+                    "Riverside Tea Stalls"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Key trailhead and jeep departure point",
+                    "Pretty mountain river crossing",
+                    "Relaxed atmosphere after mountain treks"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "River Trail Walk"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Trekker Tea Break"
+                    },
+                    {
+                        "icon": "car",
+                        "label": "Jeep Departure"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (107 km)",
+                    "byTrain": "New Jalpaiguri (112 km)",
+                    "byRoad": "3 km from Srikhola, 8 km from Rimbik"
+                }
+            },
+            {
+                "name": "Uttarey",
+                "slug": "uttarey",
+                "tagline": "Southwest Gateway to Singalila",
+                "altitude": "2,020 m (6,627 ft)",
+                "bestTime": "Round the Year",
+                "famousFor": "Titanic Park, Kagyu Monastery, Chewabhanjang Base",
+                "location": "West Sikkim",
+                "description": "<p>Uttarey is a picturesque valley town nestled in West Sikkim, near the Nepal border. It serves as the primary northern starting point for expeditions heading onto the Singalila Ridge toward Chewabhanjang and Phalut.</p><p>Known for its tranquil beauty, Kagyu Monastery, trout breeding farms, and Titanic Park, Uttarey is one of the most peaceful mountain destinations in the Himalayas.</p>",
+                "attractions": [
+                    "Titanic Park & Valley Viewpoint",
+                    "Historic Kagyu Monastery",
+                    "Chewabhanjang Trailhead"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "West Sikkim gateway to Singalila Ridge",
+                    "Peaceful monastery and alpine valley setting",
+                    "Trout breeding center and pine forests"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Singalila Trek Base"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visit"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (140 km)",
+                    "byTrain": "New Jalpaiguri (145 km)",
+                    "byRoad": "30 km from Pelling, 140 km from Siliguri"
+                }
+            },
+            {
+                "name": "Jawbari",
+                "slug": "jawbari",
+                "tagline": "Peaceful Indo-Nepal Border Hamlet",
+                "altitude": "2,850 m (9,350 ft)",
+                "bestTime": "March–May & October–December",
+                "famousFor": "Border Trail Rest Stop, Mountain Tea Stalls, High-Altitude Farmland",
+                "location": "Indo-Nepal Border, Singalila Ridge",
+                "description": "<p>Jawbari (also spelled Jaubari) is a charming ridge hamlet perched on the international boundary between Tumling and Gairibas. The boundary line runs straight through the village, with homes and gardens resting on both Indian and Nepalese soil.</p><p>Known for its peaceful atmosphere, wooden lodges, and grazing yaks, Jawbari is a cherished resting spot for trekkers traversing the Singalila ridge.</p>",
+                "attractions": [
+                    "Indo-Nepal Frontier Markers",
+                    "Jawbari Ridge Viewpoint",
+                    "High Altitude Potato Fields"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Unique open border village life",
+                    "Friendly mountain tea houses",
+                    "Panoramic views across the rolling border ridges"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Ridge Trekking"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Border Village Experience"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Ridge Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (96 km)",
+                    "byTrain": "New Jalpaiguri (101 km)",
+                    "byRoad": "17 km trek from Manebhanjan, between Tumling and Gairibas"
+                }
+            }
         ]
-}
+    }
 };
