@@ -1,34 +1,44 @@
 // THREE.js loaded via CDN (window.THREE)
 // GSAP loaded via CDN (window.gsap)
 // ScrollTrigger loaded via CDN (window.ScrollTrigger)
-gsap.registerPlugin(ScrollTrigger);
+if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+    gsap.registerPlugin(ScrollTrigger);
+}
 
+/* ═══════════════════════════════════════════
+   LOADER
+═══════════════════════════════════════════ */
+(function() {
+    const loaderBar = document.getElementById('loader-bar');
+    const loader = document.getElementById('loader');
+    if (!loader) return;
 
-    /* ═══════════════════════════════════════════
-       LOADER
-    ═══════════════════════════════════════════ */
-    (function() {
-        const loaderBar = document.getElementById('loader-bar');
-        const loader = document.getElementById('loader');
-        if (!loaderBar || !loader) return;
+    function dismiss() {
+        if (loader && !loader.classList.contains('hidden')) {
+            loader.classList.add('hidden');
+            if (typeof initHeroAnimations === 'function') {
+                initHeroAnimations();
+            }
+        }
+    }
+
+    if (loaderBar) {
         let progress = 0;
-
         const interval = setInterval(() => {
-            progress += Math.random() * 50 + 20; // Much faster progress
-            if (progress > 100) progress = 100;
-            loaderBar.style.width = progress + '%';
-
+            progress += 35;
+            loaderBar.style.width = Math.min(progress, 100) + '%';
             if (progress >= 100) {
                 clearInterval(interval);
-                setTimeout(() => {
-                    loader.classList.add('hidden');
-                    if (typeof initHeroAnimations === 'function') {
-                        initHeroAnimations();
-                    }
-                }, 100); // Shorter fade delay
+                setTimeout(dismiss, 80);
             }
-        }, 30); // Run every 30ms instead of 200ms
-    })();
+        }, 20);
+    }
+
+    // Bulletproof fallbacks
+    setTimeout(dismiss, 500);
+    window.addEventListener('DOMContentLoaded', dismiss);
+    window.addEventListener('load', dismiss);
+})();
 
     /* ═══════════════════════════════════════════
        THREE.JS PARTICLE FIELD
