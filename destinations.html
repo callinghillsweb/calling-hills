@@ -88,11 +88,6 @@
                 <p class="dh-hero-desc">
                     Offbeat destinations, authentic experiences, memories for a lifetime. Discover the hidden soul of the Eastern Himalayas with CallingHills.
                 </p>
-                <!-- Search Bar -->
-                <div class="dh-search">
-                    <input type="text" id="dest-search-input" placeholder="Search destinations, places, experiences..." autocomplete="off">
-                    <button onclick="performSearch()">Search</button>
-                </div>
             </div>
         </section>
 
@@ -107,7 +102,7 @@
                     <div class="dh-region-card-content">
                         <div>
                             <h3>Darjeeling</h3>
-                            <div class="card-subtitle">The Queen of Hills</div>
+                            <div class="card-subtitle">Queen of Hills · 38 Locations & Sightseeing</div>
                         </div>
                         <div class="card-arrow">
                             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -121,7 +116,7 @@
                     <div class="dh-region-card-content">
                         <div>
                             <h3>Kalimpong</h3>
-                            <div class="card-subtitle">A Land of Serenity</div>
+                            <div class="card-subtitle">Land of Serenity · 40 Locations & Sightseeing</div>
                         </div>
                         <div class="card-arrow">
                             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -135,7 +130,7 @@
                     <div class="dh-region-card-content">
                         <div>
                             <h3>Dooars</h3>
-                            <div class="card-subtitle">The Doorway to the Himalayas</div>
+                            <div class="card-subtitle">Doorway to Himalayas · 30 Wildlife & Nature Destinations</div>
                         </div>
                         <div class="card-arrow">
                             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -149,7 +144,7 @@
                     <div class="dh-region-card-content">
                         <div>
                             <h3>Sikkim</h3>
-                            <div class="card-subtitle">The Himalayan Paradise</div>
+                            <div class="card-subtitle">Himalayan Paradise · 105 Alpine Lakes & Sightseeing</div>
                         </div>
                         <div class="card-arrow">
                             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -163,7 +158,7 @@
                     <div class="dh-region-card-content">
                         <div>
                             <h3>Sandakphu Region</h3>
-                            <div class="card-subtitle">Roof of Bengal & Singalila</div>
+                            <div class="card-subtitle">Roof of Bengal & Singalila · 29 Ridge Points</div>
                         </div>
                         <div class="card-arrow">
                             <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -171,6 +166,38 @@
                     </div>
                 </a>
             </div>
+        </section>
+
+        <!-- ALL DESTINATIONS & SIGHTSEEING EXPLORER -->
+        <section class="dh-all-places" id="dh-all-places">
+            <div class="dh-all-places-header">
+                <div>
+                    <h2 class="dh-regions-title" style="margin-bottom: 6px;">All Locations & Sightseeing</h2>
+                    <p class="dh-regions-sub" style="margin-bottom: 0;">Explore every destination, hill hamlet, wildlife sanctuary & sightseeing tour</p>
+                </div>
+                <div class="dh-places-search-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" id="places-filter-input" placeholder="Search places, safaris, sightseeing..." oninput="filterPlacesGrid()">
+                </div>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="dh-filter-tabs" id="dh-filter-tabs">
+                <button class="dh-filter-btn active" data-filter="all" onclick="setPlaceFilter('all', this)">All Places</button>
+                <button class="dh-filter-btn" data-filter="darjeeling" onclick="setPlaceFilter('darjeeling', this)">Darjeeling (38)</button>
+                <button class="dh-filter-btn" data-filter="kalimpong" onclick="setPlaceFilter('kalimpong', this)">Kalimpong (40)</button>
+                <button class="dh-filter-btn" data-filter="dooars" onclick="setPlaceFilter('dooars', this)">Dooars (30)</button>
+                <button class="dh-filter-btn" data-filter="west-sikkim" onclick="setPlaceFilter('west-sikkim', this)">West Sikkim</button>
+                <button class="dh-filter-btn" data-filter="east-sikkim" onclick="setPlaceFilter('east-sikkim', this)">East Sikkim</button>
+                <button class="dh-filter-btn" data-filter="north-sikkim" onclick="setPlaceFilter('north-sikkim', this)">North Sikkim</button>
+                <button class="dh-filter-btn" data-filter="south-sikkim" onclick="setPlaceFilter('south-sikkim', this)">South Sikkim</button>
+                <button class="dh-filter-btn" data-filter="sightseeing" onclick="setPlaceFilter('sightseeing', this)">Sightseeing & Safaris</button>
+            </div>
+
+            <div class="dh-all-places-count" id="dh-all-places-count">Showing destinations...</div>
+
+            <!-- Places Grid -->
+            <div class="dr-places-grid" id="dh-all-places-grid"></div>
         </section>
 
         <!-- WHY CHOOSE CALLINGHILLS -->
@@ -220,14 +247,6 @@
             </div>
         </section>
 
-    </div>
-
-    <!-- ═══════════ SEARCH RESULTS OVERLAY ═══════════ -->
-    <div id="search-overlay" style="display:none; position:fixed; inset:0; z-index:200; background:rgba(13,31,23,0.6); backdrop-filter:blur(6px);" onclick="closeSearch()">
-        <div id="search-results" style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); background:#fff; border-radius:20px; padding:32px; max-width:600px; width:90%; max-height:70vh; overflow-y:auto; box-shadow:0 20px 60px rgba(0,0,0,0.3);" onclick="event.stopPropagation()">
-            <h3 style="font-family:var(--font-heading); font-size:20px; color:var(--ch-text-dark); margin-bottom:16px;">Search Results</h3>
-            <div id="search-results-list"></div>
-        </div>
     </div>
 
     <!-- Back to top -->
@@ -399,75 +418,107 @@
             });
         });
 
-        // ─── Search Functionality ───
-        function performSearch() {
-            const query = document.getElementById('dest-search-input').value.trim().toLowerCase();
-            if (!query) return;
+        // Initialize All Places Grid
+        document.addEventListener('DOMContentLoaded', () => {
+            renderAllPlaces();
+        });
+
+        // ─── All Places Explorer Logic ───
+        let currentPlaceFilter = 'all';
+
+        function renderAllPlaces() {
+            const grid = document.getElementById('dh-all-places-grid');
+            const countEl = document.getElementById('dh-all-places-count');
+            if (!grid) return;
 
             const data = window.destinationsData;
-            const results = [];
+            if (!data) return;
 
-            Object.entries(data).forEach(([regionKey, region]) => {
-                // Match region
-                if (region.title.toLowerCase().includes(query)) {
-                    results.push({
-                        type: 'region',
-                        name: region.title,
-                        subtitle: region.subtitle,
-                        url: `destination-region.html?region=${regionKey}`
-                    });
-                }
-                // Match places
-                region.places.forEach(place => {
-                    const searchText = `${place.name} ${place.tagline} ${place.famousFor} ${place.description}`.toLowerCase();
-                    if (searchText.includes(query)) {
-                        results.push({
-                            type: 'place',
-                            name: place.name,
-                            subtitle: place.tagline,
-                            region: region.title,
-                            url: `destination-region.html?region=${regionKey}${place.subRegion ? '&sub=' + place.subRegion : ''}&place=${place.slug}`
-                        });
+            const filterText = (document.getElementById('places-filter-input')?.value || '').trim().toLowerCase();
+            const allItems = [];
+
+            // Gather all items with region info
+            Object.entries(data).forEach(([rKey, reg]) => {
+                if (!reg.places) return;
+                reg.places.forEach((p, idx) => {
+                    let sub = p.subRegion || '';
+                    let regLabel = reg.title;
+                    if (sub) {
+                        regLabel = `${sub.charAt(0).toUpperCase() + sub.slice(1)} Sikkim`;
                     }
+                    allItems.push({
+                        ...p,
+                        regionKey: rKey,
+                        regionLabel: regLabel,
+                        isSightseeing: p.slug.includes('sightseeing') || p.slug.includes('safari')
+                    });
                 });
             });
 
-            // Show results
-            const overlay = document.getElementById('search-overlay');
-            const list = document.getElementById('search-results-list');
+            // Filter
+            const filtered = allItems.filter(item => {
+                let catMatch = true;
+                if (currentPlaceFilter === 'darjeeling') catMatch = item.regionKey === 'darjeeling';
+                else if (currentPlaceFilter === 'kalimpong') catMatch = item.regionKey === 'kalimpong';
+                else if (currentPlaceFilter === 'dooars') catMatch = item.regionKey === 'dooars';
+                else if (currentPlaceFilter === 'west-sikkim') catMatch = item.subRegion === 'west';
+                else if (currentPlaceFilter === 'east-sikkim') catMatch = item.subRegion === 'east';
+                else if (currentPlaceFilter === 'north-sikkim') catMatch = item.subRegion === 'north';
+                else if (currentPlaceFilter === 'south-sikkim') catMatch = item.subRegion === 'south';
+                else if (currentPlaceFilter === 'sightseeing') catMatch = item.isSightseeing;
 
-            if (results.length === 0) {
-                list.innerHTML = `<p style="text-align:center;color:#6b7c69;padding:20px;">No destinations found for "${query}". Try a different search.</p>`;
-            } else {
-                list.innerHTML = results.slice(0, 15).map(r => `
-                    <a href="${r.url}" style="display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:12px;text-decoration:none;transition:background 0.2s;border-bottom:1px solid #f0ebe3;">
-                        <div style="width:40px;height:40px;border-radius:10px;background:rgba(13,83,14,0.08);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0D530E" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                if (!catMatch) return false;
+
+                if (filterText) {
+                    const haystack = `${item.name} ${item.tagline || ''} ${item.famousFor || ''} ${item.regionLabel}`.toLowerCase();
+                    return haystack.includes(filterText);
+                }
+                return true;
+            });
+
+            if (countEl) {
+                countEl.textContent = `Showing ${filtered.length} destination${filtered.length === 1 ? '' : 's'}`;
+            }
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `<div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: #6b7c69; font-size: 15px;">No destinations found matching your criteria. Try another filter or search keyword.</div>`;
+                return;
+            }
+
+            grid.innerHTML = filtered.map((place, i) => {
+                const url = `destination-region.html?region=${place.regionKey}${place.subRegion ? '&sub=' + place.subRegion : ''}&place=${place.slug}`;
+                const imgSrc = place.image || `images/gallery (${(i % 24) + 1}).jpg`;
+                const subtitle = place.famousFor ? place.famousFor.split(',')[0].trim() : (place.tagline || '');
+                return `
+                    <a class="dr-place-card" href="${url}">
+                        <div class="dr-place-card-img-wrapper">
+                            <span class="dh-place-region-badge">${place.regionLabel}</span>
+                            <img class="dr-place-card-img" src="${imgSrc}" alt="${place.name}" loading="lazy" onerror="this.parentElement.classList.add('img-placeholder'); this.style.display='none';">
                         </div>
-                        <div>
-                            <div style="font-family:var(--font-heading);font-size:15px;font-weight:600;color:var(--ch-text-dark);">${r.name}</div>
-                            <div style="font-family:var(--font-body);font-size:12px;color:#6b7c69;">${r.subtitle}${r.region ? ' · ' + r.region : ''}</div>
+                        <div class="dr-place-card-body">
+                            <div style="flex: 1; min-width: 0;">
+                                <h4 style="margin: 0; line-height: 1.25; font-size: 15px; color: var(--ch-text-dark);">${place.name}</h4>
+                                <div style="font-size: 11px; color: #6b7c69; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${subtitle}</div>
+                            </div>
+                            <div class="place-arrow" style="margin-left: 8px;">
+                                <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </div>
                         </div>
                     </a>
-                `).join('');
-            }
-
-            overlay.style.display = 'block';
+                `;
+            }).join('');
         }
 
-        function closeSearch() {
-            document.getElementById('search-overlay').style.display = 'none';
+        function setPlaceFilter(filter, btn) {
+            currentPlaceFilter = filter;
+            document.querySelectorAll('.dh-filter-btn').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+            renderAllPlaces();
         }
 
-        // Search on Enter key
-        document.addEventListener('DOMContentLoaded', () => {
-            const input = document.getElementById('dest-search-input');
-            if (input) {
-                input.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter') performSearch();
-                });
-            }
-        });
+        function filterPlacesGrid() {
+            renderAllPlaces();
+        }
     </script>
 </body>
 </html>

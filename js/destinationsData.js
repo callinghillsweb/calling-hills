@@ -8,7 +8,7 @@ window.destinationsData = {
         "title": "Darjeeling",
         "subtitle": "Queen of the Hills",
         "description": "From colonial charm to breathtaking views, Darjeeling is a perfect blend of nature, culture and adventure.",
-        "regionDescription": "Darjeeling is globally renowned for its world-famous tea, breathtaking views of Mount Kanchenjunga, and the UNESCO World Heritage Darjeeling Himalayan Railway. Beyond the well-known sights, the real magic lives in its hidden corners — Dawaipani's pine-clad slopes, Rishihat's tea garden homestays, the suspension bridges of Jogighat, the misty trails of Lepchajagat.",
+        "regionDescription": "Darjeeling is globally renowned for its world-famous tea, breathtaking views of Mount Kanchenjunga, and the UNESCO World Heritage Darjeeling Himalayan Railway. Beyond the well-known sights, the real magic lives in its hidden corners \u2014 Dawaipani's pine-clad slopes, Rishihat's tea garden homestays, the suspension bridges of Jogighat, the misty trails of Lepchajagat.",
         "heroImage": "dest-darjeeling.png",
         "location": "Darjeeling District, West Bengal",
         "places": [
@@ -17,7 +17,7 @@ window.destinationsData = {
                 "slug": "darjeeling-town",
                 "tagline": "Queen of the Hills | Tea Capital of India",
                 "altitude": "2,042 m (6,700 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Darjeeling Tea, Toy Train, Kanchenjunga Views, Colonial Heritage",
                 "location": "Darjeeling, West Bengal",
                 "description": "<p>Darjeeling, popularly known as the Queen of the Hills, is the most iconic hill station in the Eastern Himalayas. Nestled at an altitude of 2,042 metres (6,700 ft) in West Bengal, Darjeeling is globally renowned for its world-famous Darjeeling Tea, breathtaking views of Mount Kanchenjunga, UNESCO World Heritage Darjeeling Himalayan Railway (Toy Train), colonial architecture, tea gardens, monasteries, rich biodiversity, and vibrant Himalayan culture.</p><h3>History & Heritage</h3><p>Darjeeling was originally inhabited by the indigenous Lepcha people and later formed part of the Kingdom of Sikkim. During the early nineteenth century, the region witnessed influence from Nepal before being transferred to the British East India Company in 1835. Recognizing its cool climate and strategic location, the British developed Darjeeling into a major hill station, educational centre, and tea-producing region. The introduction of tea cultivation transformed Darjeeling into a globally recognized tea destination, while the construction of the Darjeeling Himalayan Railway in 1881 further strengthened its historical significance.</p><h3>Geography, Climate & Natural Landscape</h3><p>Situated along the Senchal Range of the Lesser Himalayas, Darjeeling overlooks the Teesta and Rangeet river valleys and offers spectacular views of Mount Kanchenjunga. The landscape consists of mountain ridges, dense forests, tea gardens, waterfalls, and scenic viewpoints. The region experiences a cool mountain climate throughout the year. Spring brings blooming rhododendrons and orchids, summer remains pleasant, monsoon transforms the hills into lush green landscapes, while autumn and winter provide clear skies and stunning panoramas.</p><h3>Culture, Communities & Festivals</h3><p>Darjeeling is home to diverse communities including Lepcha, Nepali, Bhutia, Sherpa, Rai, Limbu, Tamang, Gurung, Tibetan, and Bengali populations. The town reflects a vibrant blend of Himalayan traditions, languages, music, dance, handicrafts, and local customs. Major festivals include Dashain, Tihar, Losar, Buddha Purnima, and Durga Puja.</p>",
@@ -113,10 +113,10 @@ window.destinationsData = {
                 "slug": "kurseong",
                 "tagline": "The Land of White Orchids",
                 "altitude": "1,458 m (4,783 ft)",
-                "bestTime": "March–May & September–December",
+                "bestTime": "March\u2013May & September\u2013December",
                 "famousFor": "Tea Gardens, Toy Train, Colonial Heritage, Orchids",
                 "location": "Darjeeling, West Bengal",
-                "description": "<p>Kurseong, famously known as the “Land of White Orchids”, is a serene hill town in the Darjeeling Himalayas of West Bengal. Located at an altitude of around 1,458 metres (4,783 ft), Kurseong is known for its pleasant climate, rolling tea gardens, mist-covered valleys, colonial heritage, pine forests, waterfalls, and peaceful mountain lifestyle. Positioned between Siliguri and Darjeeling, it is an important stop on the historic Darjeeling Himalayan Railway (Toy Train) route and a key destination in North Bengal tourism.</p><p>Kurseong offers a calm alternative to crowded hill stations, making it ideal for travellers seeking nature, heritage, tea experiences, and slow mountain travel within the Eastern Himalayas.</p><h3>History & Heritage</h3><p>Kurseong has a rich colonial history linked to British India, when it developed as a hill retreat due to its cool climate and strategic location on the trade route between Siliguri and Darjeeling. During the British period, Kurseong became an important educational and administrative centre, with several prestigious boarding schools and colonial institutions established in the region. The town also played a key role in the development of the Darjeeling Himalayan Railway, which connected the plains to the higher hills and remains a UNESCO World Heritage attraction today.</p><h3>Geography, Climate & Landscape</h3><p>Situated on a ridge of the lower Himalayas, Kurseong is surrounded by tea estates, forested hills, valleys, and small rivers. The landscape is less steep than Darjeeling, offering gentler slopes and wide panoramic views. The climate remains pleasant throughout the year. Summers are mild, monsoons bring heavy mist and greenery, while winters are cool and refreshing. The town is often covered in clouds, giving it a dreamy “mist hill” atmosphere.</p><h3>Biodiversity & Nature</h3><p>Kurseong lies within the Eastern Himalayan ecological zone, rich in evergreen forests, orchids, ferns, pine, oak, and medicinal plants. The region is known for its orchid diversity and natural greenery. Wildlife in surrounding forest areas includes Himalayan bird species, butterflies, small mammals, and forest fauna typical of the lower Himalayan belt. Nearby forest pockets like Dow Hill area add to its natural charm and biodiversity value.</p><h3>Detailed Insights</h3><p>Kurseong, famously known as the “Land of White Orchids” , is a serene hill town in the Darjeeling</p><p>Himalayas of West Bengal. Located at an altitude of around 1,458 metres (4,783 ft) , Kurseong is</p><p>known for its pleasant climate, rolling tea gardens, mist -covered valleys, colonial heritage, pine</p><p>forests, waterfalls, and peaceful mountain lifestyle. Positioned between Siliguri and Darjeeling, it is</p><p>an important stop on the historic Darjeeling Himalayan Railway (Toy Train)  route and a key</p><p>Kurseong offers a calm alternative to crowded hill stations, making it ideal for travellers seeking</p><p>nature, heritage, tea experiences, and slow mountain travel within the Eastern Himalayas.</p>",
+                "description": "<p>Kurseong, famously known as the \u201cLand of White Orchids\u201d, is a serene hill town in the Darjeeling Himalayas of West Bengal. Located at an altitude of around 1,458 metres (4,783 ft), Kurseong is known for its pleasant climate, rolling tea gardens, mist-covered valleys, colonial heritage, pine forests, waterfalls, and peaceful mountain lifestyle. Positioned between Siliguri and Darjeeling, it is an important stop on the historic Darjeeling Himalayan Railway (Toy Train) route and a key destination in North Bengal tourism.</p><p>Kurseong offers a calm alternative to crowded hill stations, making it ideal for travellers seeking nature, heritage, tea experiences, and slow mountain travel within the Eastern Himalayas.</p><h3>History & Heritage</h3><p>Kurseong has a rich colonial history linked to British India, when it developed as a hill retreat due to its cool climate and strategic location on the trade route between Siliguri and Darjeeling. During the British period, Kurseong became an important educational and administrative centre, with several prestigious boarding schools and colonial institutions established in the region. The town also played a key role in the development of the Darjeeling Himalayan Railway, which connected the plains to the higher hills and remains a UNESCO World Heritage attraction today.</p><h3>Geography, Climate & Landscape</h3><p>Situated on a ridge of the lower Himalayas, Kurseong is surrounded by tea estates, forested hills, valleys, and small rivers. The landscape is less steep than Darjeeling, offering gentler slopes and wide panoramic views. The climate remains pleasant throughout the year. Summers are mild, monsoons bring heavy mist and greenery, while winters are cool and refreshing. The town is often covered in clouds, giving it a dreamy \u201cmist hill\u201d atmosphere.</p><h3>Biodiversity & Nature</h3><p>Kurseong lies within the Eastern Himalayan ecological zone, rich in evergreen forests, orchids, ferns, pine, oak, and medicinal plants. The region is known for its orchid diversity and natural greenery. Wildlife in surrounding forest areas includes Himalayan bird species, butterflies, small mammals, and forest fauna typical of the lower Himalayan belt. Nearby forest pockets like Dow Hill area add to its natural charm and biodiversity value.</p><h3>Detailed Insights</h3><p>Kurseong, famously known as the \u201cLand of White Orchids\u201d , is a serene hill town in the Darjeeling</p><p>Himalayas of West Bengal. Located at an altitude of around 1,458 metres (4,783 ft) , Kurseong is</p><p>known for its pleasant climate, rolling tea gardens, mist -covered valleys, colonial heritage, pine</p><p>forests, waterfalls, and peaceful mountain lifestyle. Positioned between Siliguri and Darjeeling, it is</p><p>an important stop on the historic Darjeeling Himalayan Railway (Toy Train)  route and a key</p><p>Kurseong offers a calm alternative to crowded hill stations, making it ideal for travellers seeking</p><p>nature, heritage, tea experiences, and slow mountain travel within the Eastern Himalayas.</p>",
                 "attractions": [
                     "Eagle's Crag Viewpoint",
                     "Dow Hill & Forest Area",
@@ -155,14 +155,194 @@ window.destinationsData = {
                 }
             },
             {
+                "name": "Mirik",
+                "slug": "mirik",
+                "tagline": "The Valley of Orange Orchards",
+                "altitude": "1,768 m (5,773 ft)",
+                "bestTime": "March\u2013May & September\u2013December",
+                "famousFor": "Mirik Lake, Tea Gardens, Orange Orchards",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Mirik is a scenic hill town in the Darjeeling Himalayas of West Bengal, beautifully known as the 'Valley of Orange Orchards'. Located at an altitude of around 1,768 metres (5,773 ft), Mirik is famous for its peaceful Sumendu Lake (Mirik Lake), tea gardens, pine forests, orange orchards, cool climate, and Himalayan mountain views. It is one of the most relaxing and family-friendly destinations in North Bengal tourism.</p><h3>History & Heritage</h3><p>Mirik developed as a planned hill settlement during the post-colonial period and gradually became a popular tourism destination due to its natural lake, tea gardens, and peaceful environment. Unlike older colonial towns like Darjeeling and Kurseong, Mirik\u2019s identity is more nature-driven, shaped by tourism, agriculture, and tea cultivation. The region is culturally influenced by Nepali, Lepcha, and Bengali communities.</p><h3>Geography, Climate & Landscape</h3><p>Mirik is located in a valley surrounded by tea estates, pine forests, cardamom plantations, and rolling hills. The highlight of the town is Sumendu Lake, beautifully connected by the iconic Indreni Bridge, reflecting Himalayan peaks and forested slopes. The climate remains pleasant throughout the year, with cool summers, misty monsoons, and refreshing winters.</p><h3>Tea Gardens & Local Economy</h3><p>Tea estates surrounding Mirik contribute significantly to the Darjeeling tea belt. Tea tourism, plantation walks, and small-scale agriculture are key parts of the local economy. Orange orchards are another important highlight, giving Mirik its seasonal identity as the 'Orange Valley'.</p><h3>Detailed Insights</h3><p>Mirik is a scenic hill town in the Darjeeling Himalayas of West Bengal, beautifully known as the</p><p>\u201cValley of Orange Orchards\u201d . Located at an altitude of around 1,768 metres (5,773 ft) , Mirik is</p><p>famous for its peaceful Sumendu Lake (Mirik Lake) , tea gardens, pine forests, orange orchards, cool</p><p>climate, and Himalayan mountain views. It is one of the most relaxing and family -friendly</p><p>destinations in North Bengal tourism, offering a perfect blend of nature, leisure, and Himalayan</p><p>Mirik lie 3s strategically between Darjeeling and Siliguri and serves as a calm stopover for travellers</p>",
+                "attractions": [
+                    "Sumendu Lake",
+                    "Bokar Monastery",
+                    "Tingling Viewpoint",
+                    "Orange Orchards"
+                ],
+                "image": "images/mirik.jpg",
+                "highlights": [
+                    "Beautiful Sumendu Lake",
+                    "Pristine tea gardens",
+                    "Orange orchards",
+                    "Serene monastery"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Lake Walk"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Gardens"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Local Food"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (52 km)",
+                    "byTrain": "New Jalpaiguri (58 km)",
+                    "byRoad": "49 km from Darjeeling town"
+                }
+            },
+            {
+                "name": "Lamahatta",
+                "slug": "lamahatta",
+                "tagline": "Sacred Forest Eco Village",
+                "altitude": "1,700 m (5,577 ft)",
+                "bestTime": "March\u2013May & October\u2013December",
+                "famousFor": "Eco Park, Sacred Forest, Kanchenjunga Views",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Lamahatta is a picturesque eco-tourism village in the Darjeeling Himalayas, situated at an altitude of approximately 1,700 metres (5,577 ft). Surrounded by pine forests, prayer flags, tea gardens, mountain ridges, and panoramic views of Mount Kanchenjunga, Lamahatta is one of the most popular offbeat destinations near Darjeeling. The name 'Lamahatta' is believed to originate from the words Lama (Buddhist monk) and Hatta (market or settlement), reflecting the region's spiritual and cultural roots.</p><h3>History, Geography & Climate</h3><p>Originally a small Lepcha and Nepali settlement, Lamahatta remained largely untouched until eco-tourism development brought it into the tourism spotlight. Located along the Darjeeling\u2013Kalimpong route, the village enjoys cool weather throughout the year. Summers remain pleasant, monsoon brings mist and lush greenery, while autumn and winter offer spectacular Himalayan views.</p><h3>Biodiversity & Wildlife</h3><p>Lamahatta lies within the Eastern Himalayan ecological zone and is rich in pine, oak, rhododendron, bamboo, ferns, orchids, and seasonal wildflowers. The surrounding forests support Himalayan birds, butterflies, barking deer, wild boars, and occasional leopard movement within larger forest corridors.</p><h3>Detailed Insights</h3><p>Tonglu, Tumling, Meghma, Gairibas, Kalipokhri, Sandakphu, Phalut , Ramam, Srikhola, Gurdum, and</p>",
+                "attractions": [
+                    "Lamahatta Eco Park",
+                    "Sacred Grove Forest",
+                    "Pine Forest Trails"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Beautiful eco park",
+                    "Sacred grove forests",
+                    "Panoramic Kanchenjunga views"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Trails"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "View Points"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tour"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (60 km)",
+                    "byTrain": "New Jalpaiguri (67 km)",
+                    "byRoad": "23 km from Darjeeling town"
+                }
+            },
+            {
+                "name": "Takdah",
+                "slug": "takdah",
+                "tagline": "Colonial Cantonment & Tea Valley",
+                "altitude": "1,500 m (4,921 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "British Cantonment, Tea Gardens, Orchid Centre",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Takdah is one of the most historically significant and naturally beautiful destinations in the Darjeeling Hills, located at an altitude of approximately 1,500 metres (4,921 ft) in the Eastern Himalayas of West Bengal. The name Takdah is derived from the Lepcha word \"Tukdah\", meaning \"Mist\" or \"Fog\", perfectly reflecting the village's mist-covered forests, cloud-kissed hills, and tranquil mountain atmosphere.</p><p>Unlike many destinations in the Darjeeling Hills, Takdah developed around two distinct identities\u2014the historic British Cantonment Area and the scenic Takdah Tea Garden Region. Together, they create a unique destination where colonial history, tea heritage, pine forests, orchid cultivation, and Himalayan village life coexist in harmony.</p><h3>Two Faces of Takdah</h3><h4>Takdah Cantonment Area</h4><p>The Cantonment Area represents the historical heart of Takdah. Established by the British as a military settlement, this section is characterized by heritage bungalows, colonial architecture, pine-lined roads, old military quarters, and misty forest landscapes. The area remains one of the finest examples of colonial heritage in the Darjeeling Hills.</p><h4>Takdah Tea Garden Area</h4><p>The Tea Garden Region forms the economic and cultural backbone of Takdah. Rolling tea plantations spread across the hillsides, creating some of the most picturesque landscapes in the Darjeeling district.</p><h3>History, Geography & Climate</h3><p>Takdah's strategic location and pleasant climate made it an ideal British military station during the colonial era. Over time, tea cultivation expanded across the surrounding hills, transforming the region into an important centre of Darjeeling's tea industry. The climate remains pleasant throughout the year, with cool summers, misty monsoons, and clear winters offering spectacular views of the Kangchenjunga range.</p><h3>Detailed Insights</h3><p>With its sacred forests, peaceful atmosphere, Himalayan landscapes, biodiversity, and stunning</p><p>views of Kanchenjunga, Lamahatta offers one of the finest eco -tourism experiences in the Darjeeling</p>",
+                "attractions": [
+                    "Takdah Orchid Centre",
+                    "Heritage British Bungalows",
+                    "Takdah Tea Garden"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Historic orchid centre",
+                    "Colonial British bungalows",
+                    "Pristine tea gardens"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Heritage Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Tasting"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "View Points"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (72 km)",
+                    "byTrain": "New Jalpaiguri (78 km)",
+                    "byRoad": "Via NH 55 and Teesta Bazaar"
+                }
+            },
+            {
+                "name": "Tinchuley",
+                "slug": "tinchuley",
+                "tagline": "Eco Village of Three Hilltops",
+                "altitude": "1,700 m (5,577 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Kanchenjunga Sunrise, Orange Orchards, Organic Farming",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Tinchuley is one of the most beautiful eco-tourism villages in the Darjeeling Hills, located at an altitude of approximately 1,700 metres (5,577 ft). The name Tinchuley originates from the Nepali words meaning 'Three Ovens' or 'Three Hilltops', referring to the distinctive trio of hill formations that dominate the surrounding landscape. Nestled amidst tea gardens, orange orchards, dense forests, and mountain valleys, Tinchuley has become one of the most sought-after offbeat destinations near Darjeeling.</p><h3>History, Geography & Climate</h3><p>Traditionally a farming village, Tinchuley gained prominence through sustainable tourism and eco-friendly development initiatives introduced by local communities. The village is situated on a scenic ridge overlooking valleys, forests, tea gardens, and distant Himalayan peaks. The climate remains pleasant throughout the year. Spring brings blooming flowers and fresh greenery, while autumn and winter offer crystal-clear mountain views.</p><h3>Biodiversity & Wildlife</h3><p>The surrounding forests support a rich variety of Himalayan flora and fauna. Common vegetation includes pine, bamboo, oak, orchids, ferns, wildflowers, and seasonal flowering plants. Wildlife in the wider ecosystem includes Barking Deer, Wild Boar, Himalayan Civet, butterflies, and numerous Himalayan bird species.</p><h3>Detailed Insights</h3><p>Tinchuley is one of the most beautiful eco -tourism villages in the Darjeeling Hills, located at an</p><p>altitude of approximately 1,700 metres (5,577 ft)  in the Eastern Himalayas of West Bengal. The</p><p>name Tinchuley  originates from the Nepali words meaning \"Three Ovens\"  or \"Three Hilltops\" ,</p><p>referring to the distinctive trio of hill formations that dominate the surrounding landscape. Nestled</p><p>amidst tea gardens, orange orchards, dense forests, and mountain valleys, Tinchuley has become</p><p>one of the most sought -after offbeat destinations near Da rjeeling.</p><p>Renowned for its spectacular sunrise views over the snow -clad Kangchenjunga range, peaceful</p><p>atmosphere, organic farming culture, and community -based eco -tourism, Tinchuley offers travellers</p>",
+                "attractions": [
+                    "Tinchuley Viewpoint",
+                    "Orange Orchards",
+                    "Tea Gardens",
+                    "Organic Farms"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "Spectacular Kanchenjunga sunrise",
+                    "Organic farming community",
+                    "Lush orange orchards",
+                    "Community eco-tourism"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Organic Food"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "View Points"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (75 km)",
+                    "byTrain": "New Jalpaiguri (80 km)",
+                    "byRoad": "Via Teesta Bazaar and Takdah"
+                }
+            },
+            {
                 "name": "Sittong",
                 "slug": "sittong",
                 "tagline": "The Orange Village of Darjeeling",
-                "altitude": "1,200–1,500 m (3,937–4,921 ft)",
-                "bestTime": "October–February & March–May",
+                "altitude": "1,200\u20131,500 m (3,937\u20134,921 ft)",
+                "bestTime": "October\u2013February & March\u2013May",
                 "famousFor": "Orange Orchards, Waterfalls, Birdwatching, Eco Tourism",
                 "location": "Darjeeling, West Bengal",
-                "description": "<p>The name Sittong is believed to have originated from local Lepcha influences and today refers to a cluster of mountain settlements commonly known as Sittong I, Sittong II, and Sittong III. Blessed with fertile slopes, natural springs, forested hills, and a favourable climate, Sittong has emerged as one of the most sought-after eco-tourism destinations in North Bengal, attracting nature lovers, photographers, birdwatchers, and travellers seeking an authentic Himalayan village experience.</p><h3>History, Geography & Climate</h3><p>Historically, Sittong developed as a rural agricultural settlement inhabited primarily by Lepcha and Nepali communities. Over the decades, orange cultivation became the backbone of the local economy, earning the region its popular identity as the Orange Village of Darjeeling. Nestled between the Riyang and Teesta valley systems, Sittong features terraced farms, orange orchards, mountain streams, dense forests, and panoramic Himalayan ridges. The climate remains pleasant throughout the year, with cool summers, lush monsoons, and crisp winters offering clear mountain views.</p><p>The most popular period is the Orange Season (November–January) when thousands of orange trees across the region are laden with ripe fruits, transforming the hills into a vibrant orange landscape.</p><h3>Biodiversity & Wildlife</h3><p>Sittong falls within the rich Eastern Himalayan biodiversity zone and supports forests of pine, bamboo, alder, oak, orchids, ferns, and seasonal wildflowers. The surrounding forests provide habitat for a variety of wildlife including Barking Deer, Wild Boar, Himalayan Civet, Leopard movement within forest corridors, Butterflies and insects, and Himalayan birds and migratory species. The region is particularly popular among birdwatchers and nature enthusiasts due to its rich avian diversity and peaceful forest environment.</p><h3>Detailed Insights</h3><p>Sittong is one of the most beautiful offbeat destinations in the Darjeeling Himalayas, renowned as</p><p>the \"Orange Village of Darjeeling\"  for its vast orange orchards, scenic mountain landscapes,</p><p>waterfalls, forests, and peaceful village atmosphere. Located at an altitude ranging between 1,200 –</p><p>1,500 metres (3,937 –4,921 ft) , Sittong lies in the lower hills of Darjeeling district and forms an</p><p>The name Sittong  is believed to have originated from local Lepcha influences and today refers to a</p><p>cluster of mountain settlements commonly known as Sittong I, Sittong II, and Sittong III . Blessed</p><p>with fertile slopes, natural springs, forested hills, and a favourable climate, Sittong has emerged as</p><p>one of the most sought -after eco -tourism destinations in North Bengal, attracting nature lovers,</p><p>photographers, birdwatchers, and travellers se eking an authentic Himalayan village experience.</p>",
+                "description": "<p>The name Sittong is believed to have originated from local Lepcha influences and today refers to a cluster of mountain settlements commonly known as Sittong I, Sittong II, and Sittong III. Blessed with fertile slopes, natural springs, forested hills, and a favourable climate, Sittong has emerged as one of the most sought-after eco-tourism destinations in North Bengal, attracting nature lovers, photographers, birdwatchers, and travellers seeking an authentic Himalayan village experience.</p><h3>History, Geography & Climate</h3><p>Historically, Sittong developed as a rural agricultural settlement inhabited primarily by Lepcha and Nepali communities. Over the decades, orange cultivation became the backbone of the local economy, earning the region its popular identity as the Orange Village of Darjeeling. Nestled between the Riyang and Teesta valley systems, Sittong features terraced farms, orange orchards, mountain streams, dense forests, and panoramic Himalayan ridges. The climate remains pleasant throughout the year, with cool summers, lush monsoons, and crisp winters offering clear mountain views.</p><p>The most popular period is the Orange Season (November\u2013January) when thousands of orange trees across the region are laden with ripe fruits, transforming the hills into a vibrant orange landscape.</p><h3>Biodiversity & Wildlife</h3><p>Sittong falls within the rich Eastern Himalayan biodiversity zone and supports forests of pine, bamboo, alder, oak, orchids, ferns, and seasonal wildflowers. The surrounding forests provide habitat for a variety of wildlife including Barking Deer, Wild Boar, Himalayan Civet, Leopard movement within forest corridors, Butterflies and insects, and Himalayan birds and migratory species. The region is particularly popular among birdwatchers and nature enthusiasts due to its rich avian diversity and peaceful forest environment.</p><h3>Detailed Insights</h3><p>Sittong is one of the most beautiful offbeat destinations in the Darjeeling Himalayas, renowned as</p><p>the \"Orange Village of Darjeeling\"  for its vast orange orchards, scenic mountain landscapes,</p><p>waterfalls, forests, and peaceful village atmosphere. Located at an altitude ranging between 1,200 \u2013</p><p>1,500 metres (3,937 \u20134,921 ft) , Sittong lies in the lower hills of Darjeeling district and forms an</p><p>The name Sittong  is believed to have originated from local Lepcha influences and today refers to a</p><p>cluster of mountain settlements commonly known as Sittong I, Sittong II, and Sittong III . Blessed</p><p>with fertile slopes, natural springs, forested hills, and a favourable climate, Sittong has emerged as</p><p>one of the most sought -after eco -tourism destinations in North Bengal, attracting nature lovers,</p><p>photographers, birdwatchers, and travellers se eking an authentic Himalayan village experience.</p>",
                 "attractions": [
                     "Sittong Orange Orchards",
                     "Ahaldara Viewpoint",
@@ -205,7 +385,7 @@ window.destinationsData = {
                 "slug": "dawaipani",
                 "tagline": "Village of Medicinal Springs",
                 "altitude": "2,000 m (6,562 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Kanchenjunga Views, Sunrise, Forest Trails",
                 "location": "Darjeeling, West Bengal",
                 "description": "<p>Dawaipani is a scenic Himalayan village located in the Darjeeling district of West Bengal at an altitude of approximately 2,000 metres (6,562 ft). Nestled amidst pine forests, mountain ridges, and panoramic Himalayan landscapes, Dawaipani is one of the nearest offbeat destinations to Darjeeling. The name \"Dawaipani\" originates from Nepali words meaning \"Medicinal Water\", referring to natural spring water historically believed by local communities to possess healing properties.</p><p>Situated along the forested eastern ridge of Darjeeling, Dawaipani offers breathtaking views of Mount Kanchenjunga, peaceful village surroundings, rich biodiversity, and authentic Himalayan hospitality. Unlike many popular hill destinations, Dawaipani remains relatively untouched by commercial tourism, making it ideal for travellers seeking nature, photography, birdwatching, and a genuine mountain village experience.</p><h3>History, Geography & Climate</h3><p>Traditionally inhabited by Nepali Himalayan communities, Dawaipani developed as a small forest settlement connected to agriculture, livestock farming, and forest resources. Over time, its spectacular Himalayan views and peaceful environment attracted travellers looking for alternatives to crowded tourist hubs. The village experiences cool summers, misty monsoons, and crisp winters. Autumn and winter offer the clearest mountain views, while spring brings blooming rhododendrons, orchids, and vibrant Himalayan vegetation.</p><h3>Dawaipani's Three Tourism Zones</h3><h4>Upper Dawaipani</h4><p>The upper ridge section offers some of the finest panoramic views of Mount Kanchenjunga and surrounding Himalayan ranges. This area is known for sunrise viewpoints, pine forests, photography locations, and peaceful village walks.</p><h4>Middle Dawaipani (Bhutia Busti)</h4><p>Bhutia Busti represents the cultural heart of the region. Traditional Himalayan homes, local communities, village life, agriculture, and homestay experiences provide visitors with an authentic glimpse into mountain culture and hospitality.</p><h4>Lower Dawaipani & Mineral Spring Belt</h4><p>The lower section gradually descends into forested valleys leading towards the Mineral Spring region. This area is characterized by dense vegetation, mountain streams, natural springs, forest trails, and rich biodiversity, making it particularly attractive for nature lovers and hikers.</p><h3>Detailed Insights</h3><p>Dawaipani is a scenic Himalayan village located in the Darjeeling district of West Bengal at an</p><p>altitude of approximately 2,000 metres (6,562 ft). Nestled amidst pine forests, mountain ridges,</p><p>and panoramic Himalayan landscapes, Dawaipani is one of the nea rest offbeat destinations to</p><p>Darjeeling. The name \"Dawaipani\" originates from Nepali words meaning \"Medicinal Water\",</p><p>referring to natural spring water historically believed by local communities to possess healing</p><p>Situated along the forested eastern ridge of Darjeeling, Dawaipani offers breathtaking views of</p><p>hospitality. Unlike many popular hill destinations, Dawaipani rema ins relatively untouched by</p><p>commercial tourism, making it ideal for travellers seeking nature, photography, birdwatching, and</p>",
@@ -324,26 +504,26 @@ window.destinationsData = {
                 ]
             },
             {
-                "name": "Tinchuley",
-                "slug": "tinchuley",
-                "tagline": "Eco Village of Three Hilltops",
-                "altitude": "1,700 m (5,577 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Kanchenjunga Sunrise, Orange Orchards, Organic Farming",
-                "location": "Darjeeling, West Bengal",
-                "description": "<p>Tinchuley is one of the most beautiful eco-tourism villages in the Darjeeling Hills, located at an altitude of approximately 1,700 metres (5,577 ft). The name Tinchuley originates from the Nepali words meaning 'Three Ovens' or 'Three Hilltops', referring to the distinctive trio of hill formations that dominate the surrounding landscape. Nestled amidst tea gardens, orange orchards, dense forests, and mountain valleys, Tinchuley has become one of the most sought-after offbeat destinations near Darjeeling.</p><h3>History, Geography & Climate</h3><p>Traditionally a farming village, Tinchuley gained prominence through sustainable tourism and eco-friendly development initiatives introduced by local communities. The village is situated on a scenic ridge overlooking valleys, forests, tea gardens, and distant Himalayan peaks. The climate remains pleasant throughout the year. Spring brings blooming flowers and fresh greenery, while autumn and winter offer crystal-clear mountain views.</p><h3>Biodiversity & Wildlife</h3><p>The surrounding forests support a rich variety of Himalayan flora and fauna. Common vegetation includes pine, bamboo, oak, orchids, ferns, wildflowers, and seasonal flowering plants. Wildlife in the wider ecosystem includes Barking Deer, Wild Boar, Himalayan Civet, butterflies, and numerous Himalayan bird species.</p><h3>Detailed Insights</h3><p>Tinchuley is one of the most beautiful eco -tourism villages in the Darjeeling Hills, located at an</p><p>altitude of approximately 1,700 metres (5,577 ft)  in the Eastern Himalayas of West Bengal. The</p><p>name Tinchuley  originates from the Nepali words meaning \"Three Ovens\"  or \"Three Hilltops\" ,</p><p>referring to the distinctive trio of hill formations that dominate the surrounding landscape. Nestled</p><p>amidst tea gardens, orange orchards, dense forests, and mountain valleys, Tinchuley has become</p><p>one of the most sought -after offbeat destinations near Da rjeeling.</p><p>Renowned for its spectacular sunrise views over the snow -clad Kangchenjunga range, peaceful</p><p>atmosphere, organic farming culture, and community -based eco -tourism, Tinchuley offers travellers</p>",
+                "name": "Mineral Spring",
+                "slug": "mineral-spring",
+                "tagline": "Hidden Forest Retreat of",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Darjeeling | Natural Springs, Forest Trails & Himalayan Wellness Mineral Spring is a peaceful nature destination located in the lower Dawaipani forest belt of the Darjeeling Himalayas at an altitude of approximately 1,400 metres (4,593 ft). Surrounded by dense forests, mountain streams, natural springs, and scenic valleys, Mineral Spring remains one of the least explored eco-tourism destinations in the Darjeeling Hills. The area derives its name from naturally occurring mineral-rich spring water that has long been valued by local communities for its refreshing and therapeutic qualities.</p><p>Situated below the Dawaipani ridge and connected through forest trails and village routes, Mineral Spring offers a unique combination of nature, wellness, biodiversity, and offbeat Himalayan experiences. Far away from commercial tourism, the destination attracts travellers seeking tranquility, forest walks, birdwatching, and authentic countryside hospitality.</p><p>Altitude: 1,400 m (4,593 ft) District: Darjeeling Subdivision: Darjeeling Sadar Block: Darjeeling Pulbazar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: ~20 km Distance from NJP: ~80 km Distance from Bagdogra Airport: ~77 km Best Time to Visit: October-May Famous For: Natural Mineral Spring, Forest Trails, Nature Retreats, Eco Tourism</p><h3>History, Geography & Climate</h3><p>For generations, local villagers have used the mineral-rich spring water for drinking and daily use.</p><p>The area remained largely unknown to mainstream tourism due to its remote location within forested valleys. Today, it is gradually emerging as a destination for travellers interested in nature- based tourism and peaceful mountain escapes.</p>",
                 "attractions": [
-                    "Tinchuley Viewpoint",
-                    "Orange Orchards",
-                    "Tea Gardens",
-                    "Organic Farms"
+                    "Can Kanchenjunga be seen from Lebong?",
+                    "What activities can tourists enjoy in Lebong?",
+                    "How many days are required to explore Lebong?",
+                    "Why should I visit Lebong?"
                 ],
-                "image": "images/gallery (4).jpg",
+                "image": "images/gallery (9).jpg",
                 "highlights": [
-                    "Spectacular Kanchenjunga sunrise",
-                    "Organic farming community",
-                    "Lush orange orchards",
-                    "Community eco-tourism"
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
                 ],
                 "thingsToDo": [
                     {
@@ -355,136 +535,78 @@ window.destinationsData = {
                         "label": "Photography"
                     },
                     {
-                        "icon": "food",
-                        "label": "Organic Food"
-                    },
-                    {
                         "icon": "binoculars",
-                        "label": "View Points"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (75 km)",
-                    "byTrain": "New Jalpaiguri (80 km)",
-                    "byRoad": "Via Teesta Bazaar and Takdah"
-                }
-            },
-            {
-                "name": "Takdah",
-                "slug": "takdah",
-                "tagline": "Colonial Cantonment & Tea Valley",
-                "altitude": "1,500 m (4,921 ft)",
-                "bestTime": "October–May",
-                "famousFor": "British Cantonment, Tea Gardens, Orchid Centre",
-                "location": "Darjeeling, West Bengal",
-                "description": "<p>Takdah is one of the most historically significant and naturally beautiful destinations in the Darjeeling Hills, located at an altitude of approximately 1,500 metres (4,921 ft) in the Eastern Himalayas of West Bengal. The name Takdah is derived from the Lepcha word \"Tukdah\", meaning \"Mist\" or \"Fog\", perfectly reflecting the village's mist-covered forests, cloud-kissed hills, and tranquil mountain atmosphere.</p><p>Unlike many destinations in the Darjeeling Hills, Takdah developed around two distinct identities—the historic British Cantonment Area and the scenic Takdah Tea Garden Region. Together, they create a unique destination where colonial history, tea heritage, pine forests, orchid cultivation, and Himalayan village life coexist in harmony.</p><h3>Two Faces of Takdah</h3><h4>Takdah Cantonment Area</h4><p>The Cantonment Area represents the historical heart of Takdah. Established by the British as a military settlement, this section is characterized by heritage bungalows, colonial architecture, pine-lined roads, old military quarters, and misty forest landscapes. The area remains one of the finest examples of colonial heritage in the Darjeeling Hills.</p><h4>Takdah Tea Garden Area</h4><p>The Tea Garden Region forms the economic and cultural backbone of Takdah. Rolling tea plantations spread across the hillsides, creating some of the most picturesque landscapes in the Darjeeling district.</p><h3>History, Geography & Climate</h3><p>Takdah's strategic location and pleasant climate made it an ideal British military station during the colonial era. Over time, tea cultivation expanded across the surrounding hills, transforming the region into an important centre of Darjeeling's tea industry. The climate remains pleasant throughout the year, with cool summers, misty monsoons, and clear winters offering spectacular views of the Kangchenjunga range.</p><h3>Detailed Insights</h3><p>With its sacred forests, peaceful atmosphere, Himalayan landscapes, biodiversity, and stunning</p><p>views of Kanchenjunga, Lamahatta offers one of the finest eco -tourism experiences in the Darjeeling</p>",
-                "attractions": [
-                    "Takdah Orchid Centre",
-                    "Heritage British Bungalows",
-                    "Takdah Tea Garden"
-                ],
-                "image": "images/gallery (5).jpg",
-                "highlights": [
-                    "Historic orchid centre",
-                    "Colonial British bungalows",
-                    "Pristine tea gardens"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "hiking",
-                        "label": "Heritage Walks"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "tea",
-                        "label": "Tea Tasting"
-                    },
-                    {
-                        "icon": "binoculars",
-                        "label": "View Points"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (72 km)",
-                    "byTrain": "New Jalpaiguri (78 km)",
-                    "byRoad": "Via NH 55 and Teesta Bazaar"
-                }
-            },
-            {
-                "name": "Lamahatta",
-                "slug": "lamahatta",
-                "tagline": "Sacred Forest Eco Village",
-                "altitude": "1,700 m (5,577 ft)",
-                "bestTime": "March–May & October–December",
-                "famousFor": "Eco Park, Sacred Forest, Kanchenjunga Views",
-                "location": "Darjeeling, West Bengal",
-                "description": "<p>Lamahatta is a picturesque eco-tourism village in the Darjeeling Himalayas, situated at an altitude of approximately 1,700 metres (5,577 ft). Surrounded by pine forests, prayer flags, tea gardens, mountain ridges, and panoramic views of Mount Kanchenjunga, Lamahatta is one of the most popular offbeat destinations near Darjeeling. The name 'Lamahatta' is believed to originate from the words Lama (Buddhist monk) and Hatta (market or settlement), reflecting the region's spiritual and cultural roots.</p><h3>History, Geography & Climate</h3><p>Originally a small Lepcha and Nepali settlement, Lamahatta remained largely untouched until eco-tourism development brought it into the tourism spotlight. Located along the Darjeeling–Kalimpong route, the village enjoys cool weather throughout the year. Summers remain pleasant, monsoon brings mist and lush greenery, while autumn and winter offer spectacular Himalayan views.</p><h3>Biodiversity & Wildlife</h3><p>Lamahatta lies within the Eastern Himalayan ecological zone and is rich in pine, oak, rhododendron, bamboo, ferns, orchids, and seasonal wildflowers. The surrounding forests support Himalayan birds, butterflies, barking deer, wild boars, and occasional leopard movement within larger forest corridors.</p><h3>Detailed Insights</h3><p>Tonglu, Tumling, Meghma, Gairibas, Kalipokhri, Sandakphu, Phalut , Ramam, Srikhola, Gurdum, and</p>",
-                "attractions": [
-                    "Lamahatta Eco Park",
-                    "Sacred Grove Forest",
-                    "Pine Forest Trails"
-                ],
-                "image": "images/gallery (6).jpg",
-                "highlights": [
-                    "Beautiful eco park",
-                    "Sacred grove forests",
-                    "Panoramic Kanchenjunga views"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "hiking",
-                        "label": "Forest Trails"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "binoculars",
-                        "label": "View Points"
+                        "label": "Viewpoints"
                     },
                     {
                         "icon": "village",
-                        "label": "Village Tour"
+                        "label": "Local Culture"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Bagdogra Airport (60 km)",
-                    "byTrain": "New Jalpaiguri (67 km)",
-                    "byRoad": "23 km from Darjeeling town"
-                }
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Mineral Spring Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Mineral Spring Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "name": "Mineral Spring Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ]
             },
             {
-                "name": "Lepchajagat",
-                "slug": "lepchajagat",
-                "tagline": "World of the Lepchas",
-                "altitude": "2,134 m (7,001 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Kanchenjunga Views, Forest Tourism, Birdwatching",
-                "location": "Darjeeling, West Bengal",
-                "description": "<p>Lepchajagat is a peaceful forest village located within the famous Senchal Forest region of the Darjeeling Himalayas at an altitude of 2,134 metres (7,001 ft). The name 'Lepchajagat' literally means 'World of the Lepchas', reflecting the area's historical association with the indigenous Lepcha community. Surrounded by dense forests of oak, pine, rhododendron, magnolia, bamboo, and cypress, Lepchajagat is one of the most scenic offbeat destinations near Darjeeling.</p><h3>History, Geography & Climate</h3><p>Historically part of the Lepcha-inhabited forest belt of the Darjeeling Hills, Lepchajagat later became associated with British-era forest management and conservation activities. The surrounding forests remain among the oldest protected woodland zones near Darjeeling. The area enjoys cool weather throughout the year. Spring brings blooming rhododendrons and orchids, monsoon covers the forests in mist, while autumn and winter provide crystal-clear Himalayan views.</p><h3>Biodiversity & Wildlife</h3><p>Lepchajagat lies within the Eastern Himalayan Biodiversity Hotspot and supports Oak Forests, Pine Forests, Rhododendron Forests, Magnolia Trees, and Orchids. Wildlife found in surrounding forest corridors includes Barking Deer, Himalayan Black Bear (rare), Leopard Movement, Himalayan Civet, Wild Boar, Butterflies, and Himalayan Birds.</p><h3>Detailed Insights</h3><p>Lepchajagat is a peaceful forest village located within the famous Senchal Forest region of the</p><p>Darjeeling Himalayas at an altitude of 2,134 metres (7,001 ft) . The name \"Lepchajagat\"  literally</p><p>means \"World of the Lepchas\" , reflecting the area's historical association with the indigenous</p><p>Lepcha community, the original inhabitants of the Eastern Himalayas. Surrounded by dense forests</p><p>of oak, pine, rhododendron, magnolia, bamboo, and cypress, Lepchajagat is one of the most sc enic</p><p>Known for spectacular views of Mount Kanchenjunga , rich biodiversity, birdwatching opportunities,</p><p>peaceful forest stays, and breathtaking sunrises, Lepchajagat offers a refreshing alternative to</p><p>crowded hill stations. The village forms part of the larger Senchal ecosystem and remains one of the</p>",
+                "name": "Lebong",
+                "slug": "lebong",
+                "tagline": "Historic Valley of Darjeeling | Tea",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Lebong - Historic Valley of Darjeeling | Tea Gardens, Race Course, Military Heritage & Himalayan Views Lebong is a historic valley settlement located below Darjeeling town at an altitude of approximately 1,800 metres (5,906 ft). Surrounded by tea gardens, forested hillsides, and scenic mountain ridges, Lebong is one of the oldest developed areas in the Darjeeling Hills. The destination is internationally known for the Lebong Race Course, regarded as one of the highest racecourses in the world, as well as its colonial heritage, tea culture, military significance, and breathtaking Himalayan landscapes.</p><p>During British rule, Lebong served as an important centre for horse racing, military activity, administration, and tea plantation development. Even today, the area retains much of its historical charm while offering visitors a unique blend of heritage, nature, and local culture.</p><p>Altitude: 1,800 m (5,906 ft) District: Darjeeling Subdivision: Darjeeling Sadar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: ~8 km Distance from NJP: ~70 km Distance from Bagdogra Airport: ~68 km Best Time to Visit: October-May Famous For: Lebong Race Course, Tea Gardens, Colonial Heritage, Military History</p><h3>History, Geography & Climate</h3><p>Lebong played a significant role in the growth of colonial Darjeeling during the nineteenth century.</p><p>The valley became an important centre for tea cultivation, horse racing, military establishments, and British administrative activities. Several historic structures and landscapes still reflect this colonial legacy.</p>",
                 "attractions": [
-                    "Kanchenjunga Viewpoints",
-                    "Lepchajagat Forest",
-                    "Jorepokhri Lake"
+                    "Can Kanchenjunga be seen from Lebong?",
+                    "What activities can tourists enjoy in Lebong?",
+                    "How many days are required to explore Lebong?",
+                    "Why should I visit Lebong?"
                 ],
-                "image": "images/gallery (7).jpg",
+                "image": "images/gallery (10).jpg",
                 "highlights": [
-                    "Dense Senchal Forest",
-                    "Spectacular mountain views",
-                    "Rich biodiversity"
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "binoculars",
-                        "label": "Bird Watching"
-                    },
-                    {
                         "icon": "hiking",
-                        "label": "Forest Trails"
+                        "label": "Nature Walks"
                     },
                     {
                         "icon": "camera",
@@ -492,67 +614,57 @@ window.destinationsData = {
                     },
                     {
                         "icon": "binoculars",
-                        "label": "View Points"
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Bagdogra Airport (74 km)",
-                    "byTrain": "New Jalpaiguri (80 km)",
-                    "byRoad": "19 km from Darjeeling town via Ghoom"
-                }
-            },
-            {
-                "name": "Mirik",
-                "slug": "mirik",
-                "tagline": "The Valley of Orange Orchards",
-                "altitude": "1,768 m (5,773 ft)",
-                "bestTime": "March–May & September–December",
-                "famousFor": "Mirik Lake, Tea Gardens, Orange Orchards",
-                "location": "Darjeeling, West Bengal",
-                "description": "<p>Mirik is a scenic hill town in the Darjeeling Himalayas of West Bengal, beautifully known as the 'Valley of Orange Orchards'. Located at an altitude of around 1,768 metres (5,773 ft), Mirik is famous for its peaceful Sumendu Lake (Mirik Lake), tea gardens, pine forests, orange orchards, cool climate, and Himalayan mountain views. It is one of the most relaxing and family-friendly destinations in North Bengal tourism.</p><h3>History & Heritage</h3><p>Mirik developed as a planned hill settlement during the post-colonial period and gradually became a popular tourism destination due to its natural lake, tea gardens, and peaceful environment. Unlike older colonial towns like Darjeeling and Kurseong, Mirik’s identity is more nature-driven, shaped by tourism, agriculture, and tea cultivation. The region is culturally influenced by Nepali, Lepcha, and Bengali communities.</p><h3>Geography, Climate & Landscape</h3><p>Mirik is located in a valley surrounded by tea estates, pine forests, cardamom plantations, and rolling hills. The highlight of the town is Sumendu Lake, beautifully connected by the iconic Indreni Bridge, reflecting Himalayan peaks and forested slopes. The climate remains pleasant throughout the year, with cool summers, misty monsoons, and refreshing winters.</p><h3>Tea Gardens & Local Economy</h3><p>Tea estates surrounding Mirik contribute significantly to the Darjeeling tea belt. Tea tourism, plantation walks, and small-scale agriculture are key parts of the local economy. Orange orchards are another important highlight, giving Mirik its seasonal identity as the 'Orange Valley'.</p><h3>Detailed Insights</h3><p>Mirik is a scenic hill town in the Darjeeling Himalayas of West Bengal, beautifully known as the</p><p>“Valley of Orange Orchards” . Located at an altitude of around 1,768 metres (5,773 ft) , Mirik is</p><p>famous for its peaceful Sumendu Lake (Mirik Lake) , tea gardens, pine forests, orange orchards, cool</p><p>climate, and Himalayan mountain views. It is one of the most relaxing and family -friendly</p><p>destinations in North Bengal tourism, offering a perfect blend of nature, leisure, and Himalayan</p><p>Mirik lie 3s strategically between Darjeeling and Siliguri and serves as a calm stopover for travellers</p>",
-                "attractions": [
-                    "Sumendu Lake",
-                    "Bokar Monastery",
-                    "Tingling Viewpoint",
-                    "Orange Orchards"
-                ],
-                "image": "images/mirik.jpg",
-                "highlights": [
-                    "Beautiful Sumendu Lake",
-                    "Pristine tea gardens",
-                    "Orange orchards",
-                    "Serene monastery"
-                ],
-                "thingsToDo": [
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
                     {
-                        "icon": "hiking",
-                        "label": "Lake Walk"
+                        "title": "2N/3D Lebong Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (10).jpg"
                     },
                     {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "tea",
-                        "label": "Tea Gardens"
-                    },
-                    {
-                        "icon": "food",
-                        "label": "Local Food"
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (11).jpg"
                     }
                 ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (52 km)",
-                    "byTrain": "New Jalpaiguri (58 km)",
-                    "byRoad": "49 km from Darjeeling town"
-                }
+                "stays": [
+                    {
+                        "name": "Lebong Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "name": "Lebong Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ]
             },
             {
                 "name": "Rangaroon",
                 "slug": "rangaroon",
                 "tagline": "Hidden Tea Garden Valley",
                 "altitude": "1,500 m (4,921 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Tea Gardens, Forests, Waterfalls, Village Tourism",
                 "location": "Darjeeling, West Bengal",
                 "description": "<p>Rangaroon is a scenic offbeat destination located in the eastern hills of Darjeeling at an altitude of approximately 1,500 metres (4,921 ft). Surrounded by lush tea gardens, dense forests, mountain streams, waterfalls, and traditional Himalayan villages, Rangaroon remains one of the most peaceful and unexplored destinations in the Darjeeling Hills. The area is best known for its historic tea estates, rich biodiversity, picturesque valley landscapes, and authentic mountain culture.</p><h3>History, Geography & Climate</h3><p>Rangaroon developed around the tea plantation economy of colonial Darjeeling and continues to maintain strong links with the region's tea heritage. Historically, tea cultivation, agriculture, and forest-based livelihoods supported local communities and shaped the landscape visible today. The area enjoys a cool and pleasant climate throughout the year. Spring brings blooming flowers, monsoon transforms the valleys into lush landscapes, while autumn and winter offer clear Himalayan views.</p><h3>Biodiversity & Wildlife</h3><p>Rangaroon lies within the rich Eastern Himalayan biodiversity hotspot and supports forests of pine, oak, bamboo, rhododendron, orchids, ferns, and medicinal plants. Wildlife found in nearby forest corridors includes Barking Deer, Wild Boar, Himalayan Civet, Himalayan Birds, Butterflies, and occasional Leopard movement. The destination is particularly popular among birdwatchers and nature photographers.</p><h3>Detailed Insights</h3><p>Rangaroon is a scenic offbeat destination located in the eastern hills of Darjeeling at an altitude of</p><p>approximately 1,500 metres (4,921 ft) . Surrounded by lush tea gardens, dense forests, mountain</p><p>streams, waterfalls, and traditional Himalayan villages, Rangaroon remains one of the most peaceful</p><p>and unexplored destinations in the Darjeeling Hills. The area is best known for its historic tea</p><p>Situated between Darjeeling, Dawaipani, Takdah, and Tinchuley, Rangaroon serves as an important</p><p>link between the tea -growing valleys and forested ridges of the Eastern Himalayas. Its untouched</p><p>environment, fresh mountain air, and spectacular natural scener y make it a perfect destination for</p>",
@@ -592,11 +704,133 @@ window.destinationsData = {
                 }
             },
             {
+                "name": "Rampuria",
+                "slug": "rampuria",
+                "tagline": "Hidden Orange Belt Village |",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Rampuria - Hidden Orange Belt Village | Forest Landscapes, Agriculture & Rural Himalayan Life Rampuria is a peaceful Himalayan village located within the famous Orange Belt region of the Darjeeling Hills. Nestled amidst forests, agricultural terraces, orange orchards, and mountain ridges at an altitude of approximately 1,400 metres (4,593 ft), Rampuria offers a unique combination of rural Himalayan culture, scenic landscapes, and eco-tourism experiences.</p><p>seeking authentic village life, organic farming experiences, biodiversity, and peaceful mountain surroundings. The village forms part of the broader agricultural and horticultural landscape that connects Sittong, Mungpoo, Ahaldara, and Latpanchar.</p><p>Altitude: 1,400 m (4,593 ft) District: Darjeeling Subdivision: Kurseong Block: Kurseong State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: ~40 km Distance from NJP: ~50 km Distance from Bagdogra Airport: ~52 km Best Time to Visit: October-May Famous For: Orange Orchards, Agriculture, Forests, Rural Tourism, Himalayan Views</p><h3>History, Geography & Climate</h3><p>Rampuria developed as an agricultural settlement supporting local farming, horticulture, and livestock activities. Over time, orange cultivation, cardamom farming, and eco-tourism have become important contributors to the local economy.</p><p>Located amidst rolling hills and fertile valleys, the village enjoys a pleasant climate throughout the year. Winters provide clear mountain views, spring brings blooming flowers, while the monsoon season creates lush green landscapes across the surrounding hills.</p>",
+                "attractions": [
+                    "How many days are required to explore Lepchajagat?",
+                    "Is Lepchajagat an offbeat destination?",
+                    "Why should I visit Lepchajagat?",
+                    "How many days are required to explore Lepchajagat?"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rampuria Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rampuria Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "name": "Rampuria Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Lepchajagat",
+                "slug": "lepchajagat",
+                "tagline": "World of the Lepchas",
+                "altitude": "2,134 m (7,001 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Kanchenjunga Views, Forest Tourism, Birdwatching",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Lepchajagat is a peaceful forest village located within the famous Senchal Forest region of the Darjeeling Himalayas at an altitude of 2,134 metres (7,001 ft). The name 'Lepchajagat' literally means 'World of the Lepchas', reflecting the area's historical association with the indigenous Lepcha community. Surrounded by dense forests of oak, pine, rhododendron, magnolia, bamboo, and cypress, Lepchajagat is one of the most scenic offbeat destinations near Darjeeling.</p><h3>History, Geography & Climate</h3><p>Historically part of the Lepcha-inhabited forest belt of the Darjeeling Hills, Lepchajagat later became associated with British-era forest management and conservation activities. The surrounding forests remain among the oldest protected woodland zones near Darjeeling. The area enjoys cool weather throughout the year. Spring brings blooming rhododendrons and orchids, monsoon covers the forests in mist, while autumn and winter provide crystal-clear Himalayan views.</p><h3>Biodiversity & Wildlife</h3><p>Lepchajagat lies within the Eastern Himalayan Biodiversity Hotspot and supports Oak Forests, Pine Forests, Rhododendron Forests, Magnolia Trees, and Orchids. Wildlife found in surrounding forest corridors includes Barking Deer, Himalayan Black Bear (rare), Leopard Movement, Himalayan Civet, Wild Boar, Butterflies, and Himalayan Birds.</p><h3>Detailed Insights</h3><p>Lepchajagat is a peaceful forest village located within the famous Senchal Forest region of the</p><p>Darjeeling Himalayas at an altitude of 2,134 metres (7,001 ft) . The name \"Lepchajagat\"  literally</p><p>means \"World of the Lepchas\" , reflecting the area's historical association with the indigenous</p><p>Lepcha community, the original inhabitants of the Eastern Himalayas. Surrounded by dense forests</p><p>of oak, pine, rhododendron, magnolia, bamboo, and cypress, Lepchajagat is one of the most sc enic</p><p>Known for spectacular views of Mount Kanchenjunga , rich biodiversity, birdwatching opportunities,</p><p>peaceful forest stays, and breathtaking sunrises, Lepchajagat offers a refreshing alternative to</p><p>crowded hill stations. The village forms part of the larger Senchal ecosystem and remains one of the</p>",
+                "attractions": [
+                    "Kanchenjunga Viewpoints",
+                    "Lepchajagat Forest",
+                    "Jorepokhri Lake"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Dense Senchal Forest",
+                    "Spectacular mountain views",
+                    "Rich biodiversity"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Bird Watching"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Trails"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "View Points"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (74 km)",
+                    "byTrain": "New Jalpaiguri (80 km)",
+                    "byRoad": "19 km from Darjeeling town via Ghoom"
+                }
+            },
+            {
                 "name": "Chatakpur",
                 "slug": "chatakpur",
                 "tagline": "Cloud Forest Village",
                 "altitude": "2,200 m (7,218 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Eco Tourism, Cloud Forest, Kanchenjunga Views",
                 "location": "Darjeeling, West Bengal",
                 "description": "<p>Chatakpur is a beautiful eco-village located inside the renowned Senchal Wildlife Sanctuary at an altitude of approximately 2,390 metres (7,841 ft). Surrounded by protected forests, Himalayan ridges, and panoramic mountain views, Chatakpur is widely regarded as one of the finest eco-tourism destinations in North Bengal. The village is famous for its breathtaking views of Mount Kanchenjunga, community-based tourism model, rich wildlife, forest conservation efforts, and peaceful mountain environment.</p><h3>History, Geography & Climate</h3><p>Chatakpur was originally a small forest settlement located within the protected Senchal Forest ecosystem. Over time, local residents developed a successful community-based tourism model that transformed the village into a leading eco-tourism destination while maintaining environmental sustainability. The climate remains cool and pleasant throughout the year. Winter and autumn provide exceptional mountain visibility, while spring brings colourful rhododendrons.</p><h3>Biodiversity & Wildlife</h3><p>Chatakpur lies within the Senchal Wildlife Sanctuary and supports Oak Forests, Pine Forests, Rhododendron Forests, Bamboo Groves, and Orchids. Wildlife includes Barking Deer, Himalayan Black Bear, Leopard Corridor, Wild Boar, Himalayan Civet, and Numerous Himalayan Birds. The destination is considered one of the best birdwatching locations near Darjeeling.</p><h3>Detailed Insights</h3><p>Chatakpur is a beautiful eco -village located inside the renowned Senchal Wildlife Sanctuary at an</p><p>altitude of approximately 2,390 metres (7,841 ft) . Surrounded by protected forests, Himalayan</p><p>ridges, and panoramic mountain views, Chatakpur is widely regarded as one of the finest eco -</p><p>tourism destinations in North Bengal. The village is famous for its breathtaking views of Mount</p><p>Kanchenjunga , community -based tourism model, rich wildlife, forest conservation efforts, and</p><p>Unlike commercial hill stations, Chatakpur offers a sustainable tourism experience where visitors can</p><p>enjoy nature, wildlife, local culture, and Himalayan landscapes while supporting local communities.</p>",
@@ -636,11 +870,757 @@ window.destinationsData = {
                 }
             },
             {
+                "name": "Rangli Rangliot",
+                "slug": "rangli-rangliot",
+                "tagline": "Historic Tea & Orange Belt",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Rangli Rangliot - Historic Tea & Orange Belt of Darjeeling | Tea Heritage, Agriculture & Himalayan Countryside Rangli Rangliot is one of the oldest and most historically significant tea-growing regions in the Darjeeling Hills. Located amidst rolling tea gardens, orange orchards, forested ridges, river valleys, and agricultural landscapes, the region represents the rich tea, horticultural, and cultural heritage of Eastern Darjeeling. The area is widely known for the famous Rangli Rangliot Tea Estate, one of the oldest tea estates in Darjeeling, established during the British colonial era.</p><p>The name Rongli Rongliot is believed to have roots in the Lepcha language and culture. Historically, the region was associated with Lepcha settlements before becoming one of Darjeeling's important tea-growing areas.</p><p>Today, Rangli Rangliot serves as a gateway to many popular destinations including Sittong, Mungpoo, Ahaldara, Jogighat, Latpanchar, and the famous Darjeeling Orange Belt.</p><p>Altitude: 900-1,500 m (2,953-4,921 ft) District: Darjeeling Subdivision: Darjeeling Sadar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: ~25 km Distance from NJP: ~55 km Distance from Bagdogra Airport: ~58 km Best Time to Visit: October-May Famous For: Tea Gardens, Orange Belt, Agriculture, Eco Tourism</p><h3>History, Geography & Climate</h3><p>The region developed around tea plantation activities during British rule and remains an important contributor to Darjeeling's globally renowned tea industry. Alongside tea cultivation, orange farming, cardamom cultivation, floriculture, and agriculture have shaped the local economy for generations.</p>",
+                "attractions": [
+                    "How many days are required to explore Peshok?",
+                    "Is Peshok an offbeat destination?",
+                    "Why should I visit Peshok?",
+                    "How many days are required to explore Tabakoshi?"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rangli Rangliot Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rangli Rangliot Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "name": "Rangli Rangliot Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Peshok",
+                "slug": "peshok",
+                "tagline": "Hidden Tea Valley Hamlet",
+                "altitude": "1,200 m (3,937 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Tea Gardens, Valley Views, Village Life",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Peshok is one of the most iconic scenic regions of the Darjeeling Hills, located along the historic Darjeeling\u2013Teesta route at elevations ranging between 900 and 1,500 metres (2,953\u20134,921 ft). Famous for the historic Peshok Tea Estate, panoramic Teesta River views, winding mountain roads, and lush Himalayan landscapes, Peshok serves as a gateway connecting Darjeeling, Kalimpong, Takdah, Tinchuley, and the Teesta Valley.</p><h3>History & Geography</h3><p>Peshok developed around tea plantation activities established during the British colonial era. The Peshok Tea Estate remains one of the most recognized tea-producing areas in Darjeeling. Located above the Teesta River basin, the region offers dramatic views of valleys, ridges, forests, and river landscapes.</p><h3>Climate, Biodiversity & Wildlife</h3><p>The climate remains pleasant throughout the year. Forest ecosystems surrounding tea gardens support pine, bamboo, orchids, ferns, butterflies, Himalayan birds, barking deer, civets, and small forest mammals. Tea plantation communities and Nepali Himalayan culture define the character of the region. Agriculture, tea cultivation, tourism, and local trade support the economy.</p><h3>Detailed Insights</h3><p>Peshok is one of the most iconic scenic regions of the Darjeeling Hills, located along the historic</p><p>Darjeeling \u2013Teesta route at elevations ranging between 900 and 1,500 metres (2,953 \u20134,921 ft).</p><p>Famous for the historic Peshok Tea Estate, panoramic Teesta Riv er views, winding mountain roads,</p><p>and lush Himalayan landscapes, Peshok serves as a gateway connecting Darjeeling, Kalimpong,</p>",
+                "attractions": [
+                    "Peshok Tea Garden",
+                    "Valley Viewpoints",
+                    "Village Walks"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Sprawling tea gardens",
+                    "Untouched valley views",
+                    "Authentic rural life"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Tea Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tour"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Local Food"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (60 km)",
+                    "byTrain": "New Jalpaiguri (65 km)",
+                    "byRoad": "Via Teesta Bazaar road"
+                }
+            },
+            {
+                "name": "Tabakoshi",
+                "slug": "tabakoshi",
+                "tagline": "Riverside Gem of the Darjeeling",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Tabakoshi - Riverside Gem of the Darjeeling Hills | Rangbhang River, Tea Gardens & Nature Escapes Tabakoshi is one of the most scenic riverside destinations in the Darjeeling Hills, located along the crystal-clear Rangbhang River near Mirik at an altitude of approximately 900 metres (2,953 ft).</p><p>Surrounded by tea gardens, orange orchards, cardamom plantations, forests, waterfalls, and traditional Himalayan villages, Tabakoshi has emerged as one of the most popular offbeat destinations in North Bengal.</p><p>The name Tabakoshi is believed to be associated with the river valley and settlement landscape of the region. Although the precise origin is uncertain, the destination is now widely known for the Rangbhang River and riverside tourism.</p><p>Unlike crowded hill stations, Tabakoshi offers peace, nature, and authentic village experiences. The soothing sound of the river, lush green surroundings, fresh mountain air, and warm hospitality make it an ideal destination for couples, families, photographers, birdwatchers, and nature lovers. Its strategic location near Mirik also makes it a perfect addition to any Darjeeling Hills itinerary.</p><p>Altitude: 900 m (2,953 ft) District: Darjeeling Subdivision: Mirik State: West Bengal Region: Eastern Himalayas Distance from Mirik: ~8 km Distance from Darjeeling: ~35 km Distance from NJP: ~55 km Distance from Bagdogra Airport: ~58 km Best Time to Visit: October-May Famous For: Rangbhang River, Riverside Stays, Tea Gardens, Waterfalls, Eco Tourism</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "How many days are required to explore Tabakoshi?",
+                    "Is Tabakoshi an offbeat destination?",
+                    "What food is available in Tabakoshi?",
+                    "Why should I visit Tabakoshi?"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Tabakoshi Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Tabakoshi Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "name": "Tabakoshi Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Jogighat",
+                "slug": "jogighat",
+                "tagline": "Gateway to Darjeeling's Orange",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Jogighat - Gateway to Darjeeling's Orange Belt | Teesta Valley Views, Orchards & Rural Himalayan Beauty Jogighat is a picturesque destination located in the lower Darjeeling Hills near Sittong and Mungpoo at an altitude of approximately 900 metres (2,953 ft). Surrounded by orange orchards, cardamom plantations, forests, agricultural terraces, and the beautiful Teesta Valley, Jogighat serves as one of the most important gateways to the famous Orange Belt of Darjeeling.</p><p>Jogighat is commonly interpreted as \"the riverbank or passage of a sage (Jogi).\" The name combines Jogi (sage or ascetic) and Ghat (riverbank, crossing point, or landing place), reflecting the traditional Himalayan naming style of the region.</p><p>Known for its scenic landscapes, peaceful atmosphere, fertile farmlands, and authentic village</p><h3>culture, Jogighat attracts travellers seeking nature, photography, birdwatching, and eco-tourism. The</h3><p>destination offers breathtaking views of surrounding hills, river valleys, and agricultural landscapes while providing easy access to Sittong, Mungpoo, Ahaldara, and Latpanchar.</p><p>Altitude: 900 m (2,953 ft) District: Darjeeling Subdivision: Kurseong State: West Bengal Region: Eastern Himalayas Distance from NJP: ~45 km Distance from Bagdogra Airport: ~48 km Distance from Darjeeling: ~45 km Best Time to Visit: October-May Famous For: Orange Orchards, Teesta Valley Views, Agriculture, Eco Tourism</p>",
+                "attractions": [
+                    "How many days are required to explore Bijanbari?",
+                    "Is Bijanbari an offbeat destination?",
+                    "What food is available in Bijanbari?",
+                    "Why should I visit Bijanbari?"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Jogighat Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Jogighat Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "name": "Jogighat Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Bijanbari",
+                "slug": "bijanbari",
+                "tagline": "Heart of the Little Rangeet Valley",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Bijanbari - Heart of the Little Rangeet Valley | Gateway to Sandakphu, Singalila & Rural Darjeeling Bijanbari is one of the most important valleys and market towns in the Darjeeling Hills, located at an altitude of approximately 760 metres (2,493 ft) along the fertile basin of the Little Rangeet River.</p><p>Surrounded by forested hills, agricultural terraces, tea gardens, rivers, and traditional Himalayan villages, Bijanbari serves as the commercial and cultural hub of western Darjeeling.</p><p>Widely known as the gateway to Sandakphu, Rimbik, Srikhola, Ramam, Gurdum, and Singalila National Park, Bijanbari offers visitors a unique combination of natural beauty, agriculture, local</p><h3>culture, and authentic mountain life. Unlike crowded tourist destinations, the valley provides a</h3><p>deeper understanding of the people, landscapes, and traditions that define the Darjeeling Himalayas.</p><p>Altitude: 760 m (2,493 ft) District: Darjeeling Subdivision: Darjeeling Sadar Block: Darjeeling Pulbazar State: West Bengal Region: Eastern Himalayas River System: Little Rangeet River Distance from Darjeeling: ~30 km Distance from NJP: ~75 km Distance from Bagdogra Airport: ~78 km Best Time to Visit: October-May Famous For: Little Rangeet Valley, Agriculture, Village Tourism, Gateway to Sandakphu</p>",
+                "attractions": [
+                    "How many days are required to explore Bijanbari?",
+                    "Is Bijanbari an offbeat destination?",
+                    "What food is available in Bijanbari?",
+                    "Why should I visit Bijanbari?"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Bijanbari Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Bijanbari Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "name": "Bijanbari Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Chota Mangwa",
+                "slug": "chota-mangwa",
+                "tagline": "Small Mangwa of the",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Chota Mangwa - Small Mangwa of the Teesta Valley | Orange Orchards, Himalayan Views & Peaceful Village Life Chota Mangwa is a scenic Himalayan village located in the eastern Darjeeling Hills at an altitude of approximately 1,200 metres (3,937 ft). Perched on a ridge overlooking the Teesta Valley, the village is surrounded by orange orchards, terraced farms, forests, and mountain landscapes. Known for its breathtaking sunrise views, peaceful atmosphere, rich biodiversity, and authentic village culture, Chota Mangwa has emerged as one of the most sought-after offbeat destinations in North Bengal.</p><p>The name Chota Mangwa literally means \"Small Mangwa\", distinguishing it from neighbouring Bara Mangwa. The word Chota means \"small,\" while Mangwa refers to the traditional settlement region overlooking the Teesta Valley. Historically, the village developed around agriculture, horticulture, and orange cultivation and remains deeply connected to the rural traditions of the Darjeeling Himalayas.</p><p>Altitude: 1,200 m (3,937 ft) District: Darjeeling Subdivision: Darjeeling Sadar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: ~35 km Distance from NJP: ~50 km Distance from Bagdogra Airport: ~52 km Best Time to Visit: October-May Famous For: Teesta Valley Views, Orange Orchards, Sunrise, Village Tourism, Eco Tourism</p><h3>Geography, Climate & Landscape</h3><p>Situated above the Teesta River basin, Chota Mangwa enjoys panoramic views of the Teesta Valley, Kalimpong Hills, surrounding forests, and Himalayan ridges. The village experiences a pleasant mountain climate throughout the year.</p><p>Spring (March-May): Blooming flowers and comfortable weather Monsoon (June-September): Lush greenery and mist-covered hills Autumn (October-November): Clear skies and valley views Winter (December-February): Crisp weather and orange harvesting season The combination of forests, orchards, and mountain landscapes makes the village visually spectacular throughout the year.</p>",
+                "attractions": [
+                    "How many days are required to explore Chota Mangwa?",
+                    "Is Chota Mangwa an offbeat destination?",
+                    "Why should I visit Chota Mangwa?",
+                    "How many days are required to explore Chota Mangwa?"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Chota Mangwa Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Chota Mangwa Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "name": "Chota Mangwa Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Bara Mangwa",
+                "slug": "bara-mangwa",
+                "tagline": "Greater Mangwa of the",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Bara Mangwa - Greater Mangwa of the Teesta Valley | Orange Orchards, Himalayan Landscapes & Eco Tourism Bara Mangwa is a beautiful Himalayan village situated above the Teesta Valley at an altitude of approximately 1,300 metres (4,265 ft). Surrounded by extensive orange orchards, forests, agricultural terraces, and mountain ridges, Bara Mangwa is one of the most popular eco-tourism destinations in the eastern Darjeeling Hills.</p><p>The name Bara Mangwa means \"Greater Mangwa\" or \"Large Mangwa.\" The word Bara means \"large\" or \"greater,\" indicating the larger settlement of the Mangwa region overlooking the Teesta Valley. For generations, the village has been known for orange cultivation, agriculture, and traditional Himalayan village life.</p><p>Today, Bara Mangwa is celebrated for its spectacular valley views, orange orchards, biodiversity, birdlife, and tranquil countryside atmosphere.</p><p>Altitude: 1,300 m (4,265 ft) District: Darjeeling Subdivision: Darjeeling Sadar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: ~38 km Distance from NJP: ~48 km Distance from Bagdogra Airport: ~50 km Best Time to Visit: October-May Famous For: Orange Orchards, Teesta Valley Views, Eco Tourism, Village Life</p><h3>Geography, Climate & Landscape</h3><p>Located on fertile Himalayan slopes above the Teesta Valley, Bara Mangwa offers breathtaking views of rivers, forests, valleys, and surrounding mountain ranges.</p>",
+                "attractions": [
+                    "How many days are required to explore Chota Mangwa?",
+                    "Is Chota Mangwa an offbeat destination?",
+                    "Why should I visit Chota Mangwa?",
+                    "How many days are required to explore Bara Mangwa?"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Bara Mangwa Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Bara Mangwa Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "name": "Bara Mangwa Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Rishihat",
+                "slug": "rishihat",
+                "tagline": "The Sage's Ridge of Darjeeling |",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Rishihaat - The Sage's Ridge of Darjeeling | Tea Gardens, Kanchenjunga Views & Himalayan Village Life Rishihaat is a peaceful Himalayan village located in the eastern outskirts of Darjeeling at an altitude of approximately 1,500 metres (4,921 ft). Surrounded by tea gardens, forests, mountain ridges, and traditional settlements, Rishihaat is known for its spectacular views of Mount Kanchenjunga, rich birdlife, scenic village trails, and tranquil atmosphere. The destination offers a perfect blend of nature, culture, tea heritage, and authentic Himalayan hospitality.</p><p>The name Rishihaat is commonly interpreted as \"Market or Settlement of the Sages.\" The word Rishi means sage or spiritual person, while Haat traditionally refers to a marketplace or gathering place. Though the exact historical origin remains uncertain, the name reflects the region's peaceful and secluded mountain character.</p><p>Altitude: 1,500 m (4,921 ft) District: Darjeeling Subdivision: Darjeeling Sadar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: ~14 km Distance from NJP: ~75 km Best Time to Visit: October-May Famous For: Kanchenjunga Views, Tea Gardens, Birdwatching, Village Tourism</p><h3>History, Geography & Climate</h3><p>Historically, Rishihaat developed as a rural settlement surrounded by tea-growing regions and forested landscapes. The village occupies a scenic ridge overlooking valleys, tea estates, and Himalayan mountain ranges.</p><p>The climate remains pleasant throughout the year: Spring: Rhododendrons, orchids, and wildflowers bloom.</p>",
+                "attractions": [
+                    "How many days are required to explore Chimney?",
+                    "Is Chimney an offbeat destination?",
+                    "Why should I visit Chimney?",
+                    "Can Kanchenjunga be seen from Ghoom?"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rishihat Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rishihat Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "name": "Rishihat Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Chimney Village",
+                "slug": "chimney",
+                "tagline": "Colonial Heritage Village of",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Chimney Village - Colonial Heritage Village of Kurseong | Historic Chimney, Tea Gardens & Himalayan Countryside Chimney Village is a scenic offbeat destination located near Kurseong at an altitude of approximately 1,700 metres (5,577 ft). Surrounded by tea gardens, forests, orange orchards, and rolling Himalayan hills, the village is famous for its historic British-era chimney, peaceful environment, mountain landscapes, and traditional village life.</p><p>The name Chimney Village originates from the iconic colonial-era brick chimney that still stands in the area. This historic structure is believed to be associated with a British bungalow or estate complex and remains the village's most recognizable landmark.</p><p>Altitude: 1,700 m (5,577 ft) District: Darjeeling Subdivision: Kurseong State: West Bengal Region: Eastern Himalayas Distance from Kurseong: ~12 km Distance from Darjeeling: ~42 km Best Time to Visit: October-May Famous For: Historic Chimney, Tea Gardens, Village Tourism, Mountain Views</p><h3>History, Geography & Climate</h3><p>The village gained prominence during the British colonial period when tea cultivation expanded across the Darjeeling Hills. The historic chimney remains one of the few visible reminders of that era.</p><p>Located among forested hills and tea-growing landscapes, Chimney enjoys: Pleasant Summers Green Monsoons Clear Autumn Views Cool Winters</p>",
+                "attractions": [
+                    "How many days are required to explore Chimney?",
+                    "Is Chimney an offbeat destination?",
+                    "Why should I visit Chimney?",
+                    "Can Kanchenjunga be seen from Ghoom?"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Chimney Village Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Chimney Village Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "name": "Chimney Village Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Mim Tea Garden",
+                "slug": "mim-tea-garden",
+                "tagline": "Heritage Tea Estate of",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Mim Tea Garden - Heritage Tea Estate of Darjeeling | Premium Darjeeling Tea, Plantation Landscapes & Kanchenjunga Views Mim Tea Garden is one of the historic tea estates of the Darjeeling Hills, located at elevations ranging from 1,200 to 1,800 metres (3,937-5,906 ft). Situated near Darjeeling town, the estate is renowned for its premium tea production, scenic plantation landscapes, colonial tea heritage, and panoramic Himalayan views.</p><p>The name Mim is believed to originate from local Lepcha and Himalayan geographical terminology historically associated with the area, though the exact meaning is not conclusively documented.</p><p>Today, Mim Tea Garden remains an important part of Darjeeling's globally recognized tea industry.</p><p>Altitude: 1,200-1,800 m (3,937-5,906 ft) District: Darjeeling Subdivision: Darjeeling Sadar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling Town: ~8 km Best Time to Visit: March-May & October-December Famous For: Darjeeling Tea, Tea Heritage, Plantation Tourism, Kanchenjunga Views</p><h3>History, Geography & Climate</h3><p>Established during the British tea expansion period of the nineteenth century, Mim Tea Garden became part of the internationally famous Darjeeling Tea industry. The estate spreads across steep Himalayan slopes overlooking valleys, forests, and mountain ridges.</p>",
+                "attractions": [
+                    "Can Kanchenjunga be seen from Ghoom?",
+                    "Is mobile network available?",
+                    "Does Ghoom receive snowfall?",
+                    "What activities are popular?"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Garden Tour"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Mim Tea Garden Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Mim Tea Garden Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "name": "Mim Tea Garden Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ]
+            },
+            {
                 "name": "Ghoom",
                 "slug": "ghoom",
                 "tagline": "Highest Railway Station of Eastern India",
                 "altitude": "2,257 m (7,407 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Toy Train, Monastery, Himalayan Views",
                 "location": "Darjeeling, West Bengal",
                 "description": "<p>Ghoom is one of the most historic and culturally significant destinations in the Darjeeling Himalayas. Located at an altitude of approximately 2,258 metres (7,408 ft), it is famous for the UNESCO-listed Darjeeling Himalayan Railway, ancient Buddhist monasteries, panoramic mountain views, and rich Tibetan-Himalayan heritage. Situated just 8 km from Darjeeling town, Ghoom serves as an important gateway to Tiger Hill and the Singalila region.</p><h3>History, Geography & Climate</h3><p>Ghoom emerged as an important Buddhist settlement long before British rule. During the nineteenth century, it became strategically important with the construction of the Darjeeling Himalayan Railway. The famous Ghoom Railway Station remains the highest railway station in India and one of the highest narrow-gauge stations in the world. The climate remains cool throughout the year, with misty summers, heavy monsoon rainfall, colourful autumns, and chilly winters that occasionally witness frost.</p><h3>Culture, Festivals & Food</h3><p>Ghoom reflects a unique blend of Tibetan, Nepali, Bhutia, Sherpa, Lepcha, Rai, and Tamang cultures. Major Festivals include Losar, Buddha Purnima, Dashain, Tihar, and Maghe Sankranti. Popular Foods include Momos, Thukpa, Gyathuk, Tingmo, Chhurpi, and Sel Roti.</p><h3>Detailed Insights</h3><p>Ghoom is one of the most historic and culturally significant destinations in the Darjeeling Himalayas.</p><p>Located at an altitude of approximately 2,258 metres (7,408 ft) , it is famous for the UNESCO -listed</p><p>Darjeeling Himalayan Railway, ancient Buddhist monasteries, panoramic mountain views, and rich</p><p>Tibetan -Himalayan heritage. Situated just 8 km from Darjeeling town, Ghoom serves as an important</p><p>gateway to Tiger Hill, Son ada, Sukhiapokhri, Manebhanjan, Sandakphu, and the Singalila region.</p><p>The name Ghoom  is believed to have evolved from the Tibetan word \"Ghum Monastery\" and local</p><p>Himalayan usage over centuries. The settlement grew around monasteries, trade routes, and later</p>",
@@ -680,95 +1660,401 @@ window.destinationsData = {
                 }
             },
             {
-                "name": "Peshok",
-                "slug": "peshok",
-                "tagline": "Hidden Tea Valley Hamlet",
-                "altitude": "1,200 m (3,937 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Tea Gardens, Valley Views, Village Life",
-                "location": "Darjeeling, West Bengal",
-                "description": "<p>Peshok is one of the most iconic scenic regions of the Darjeeling Hills, located along the historic Darjeeling–Teesta route at elevations ranging between 900 and 1,500 metres (2,953–4,921 ft). Famous for the historic Peshok Tea Estate, panoramic Teesta River views, winding mountain roads, and lush Himalayan landscapes, Peshok serves as a gateway connecting Darjeeling, Kalimpong, Takdah, Tinchuley, and the Teesta Valley.</p><h3>History & Geography</h3><p>Peshok developed around tea plantation activities established during the British colonial era. The Peshok Tea Estate remains one of the most recognized tea-producing areas in Darjeeling. Located above the Teesta River basin, the region offers dramatic views of valleys, ridges, forests, and river landscapes.</p><h3>Climate, Biodiversity & Wildlife</h3><p>The climate remains pleasant throughout the year. Forest ecosystems surrounding tea gardens support pine, bamboo, orchids, ferns, butterflies, Himalayan birds, barking deer, civets, and small forest mammals. Tea plantation communities and Nepali Himalayan culture define the character of the region. Agriculture, tea cultivation, tourism, and local trade support the economy.</p><h3>Detailed Insights</h3><p>Peshok is one of the most iconic scenic regions of the Darjeeling Hills, located along the historic</p><p>Darjeeling –Teesta route at elevations ranging between 900 and 1,500 metres (2,953 –4,921 ft).</p><p>Famous for the historic Peshok Tea Estate, panoramic Teesta Riv er views, winding mountain roads,</p><p>and lush Himalayan landscapes, Peshok serves as a gateway connecting Darjeeling, Kalimpong,</p>",
+                "name": "Sonada",
+                "slug": "sonada",
+                "tagline": "Monastery Town of the Darjeeling",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Sonada - Monastery Town of the Darjeeling Himalayas | Tea Gardens, Forests & Himalayan</p><h3>Culture</h3><p>Sonada is a charming hill town situated between Darjeeling and Kurseong at an altitude of approximately 1,980 metres (6,496 ft). Known for its monasteries, tea gardens, educational institutions, forests, and traditional Himalayan culture, Sonada offers a quieter alternative to Darjeeling while maintaining excellent connectivity across the hills.</p><p>The name Sonada is believed to originate from the Tibetan word \"Sona,\" meaning bear, though local interpretations vary. Historically, the settlement developed along the historic Hill Cart Road and later became an important educational, religious, and commercial centre.</p><p>Altitude: 1,980 m (6,496 ft) District: Darjeeling Subdivision: Kurseong State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: 17 km Distance from Kurseong: 15 km Best Time to Visit: Throughout the Year Famous For: Monasteries, Tea Gardens, Forests, Himalayan Culture</p><h3>History, Geography & Climate</h3>",
                 "attractions": [
-                    "Peshok Tea Garden",
-                    "Valley Viewpoints",
-                    "Village Walks"
-                ],
-                "image": "images/gallery (1).jpg",
-                "highlights": [
-                    "Sprawling tea gardens",
-                    "Untouched valley views",
-                    "Authentic rural life"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "hiking",
-                        "label": "Tea Walks"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "village",
-                        "label": "Village Tour"
-                    },
-                    {
-                        "icon": "food",
-                        "label": "Local Food"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (60 km)",
-                    "byTrain": "New Jalpaiguri (65 km)",
-                    "byRoad": "Via Teesta Bazaar road"
-                }
-            },
-            {
-                "name": "Tiger Hill",
-                "slug": "tiger-hill",
-                "tagline": "The Sunrise Throne of Darjeeling",
-                "altitude": "2,590 m (8,482 ft)",
-                "bestTime": "October–March",
-                "famousFor": "Sunrise, Kanchenjunga & Everest Views",
-                "location": "Darjeeling, West Bengal",
-                "description": "<p>Tiger Hill is the most famous attraction within the Senchal Wildlife Sanctuary region, renowned worldwide for its majestic sunrise views over the Kangchenjunga and Mount Everest peaks. Located at an altitude of approximately 2,590 metres (8,482 ft), it is the highest point in the Darjeeling area and a must-visit for anyone traveling to the region.</p><h3>History, Geography & Climate</h3><p>Established as a premier viewpoint during the British colonial era, Tiger Hill has drawn visitors for over a century to witness the breathtaking phenomenon of the first rays of the sun illuminating the twin peaks of Kangchenjunga in a spectacular display of colors. The climate at the summit is significantly cooler than Darjeeling town, with biting cold winds during winter mornings. Visitors usually arrive before dawn to catch the sunrise.</p><h3>Biodiversity & Nature</h3><p>As part of the Senchal Wildlife Sanctuary, the slopes leading up to Tiger Hill are covered in dense forests of oak, pine, and rhododendrons. During the spring, the entire hillside bursts into color with blooming rhododendrons and magnolias. The surrounding forests are home to Himalayan birds, barking deer, and other high-altitude wildlife.</p>",
-                "attractions": [
-                    "Sunrise Point",
-                    "Kanchenjunga Panorama",
-                    "Everest View"
+                    "Can Kanchenjunga be seen from Ghoom?",
+                    "Is mobile network available?",
+                    "Does Ghoom receive snowfall?",
+                    "What activities are popular?"
                 ],
                 "image": "images/gallery (2).jpg",
                 "highlights": [
-                    "World-famous sunrise point",
-                    "Views of 5 tallest peaks",
-                    "Mount Everest visible on clear days"
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "binoculars",
-                        "label": "Sunrise Viewing"
+                        "icon": "hiking",
+                        "label": "Nature Walks"
                     },
                     {
                         "icon": "camera",
                         "label": "Photography"
                     },
                     {
-                        "icon": "hiking",
-                        "label": "Morning Walk"
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Bagdogra Airport (76 km)",
-                    "byTrain": "New Jalpaiguri (82 km)",
-                    "byRoad": "11 km from Darjeeling town"
-                }
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Sonada Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sonada Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "name": "Sonada Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Sukhiapokhri",
+                "slug": "sukhiapokhri",
+                "tagline": "Gateway to Sandakphu &",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Sukhiapokhri - Gateway to Sandakphu & Singalila | Forests, Monasteries & Himalayan Adventure Sukhiapokhri is a picturesque Himalayan town located at an altitude of approximately 2,194 metres (7,198 ft) near the Indo-Nepal border. Surrounded by forests, tea gardens, mountain ridges, monasteries, and trekking routes, Sukhiapokhri serves as one of the primary gateways to Manebhanjan, Sandakphu, Phalut, and Singalila National Park.</p><p>The name Sukhiapokhri comes from Nepali words meaning \"Dry Pond\" (Sukhia = dry, Pokhri = pond), referring to an old water body that once existed in the area.</p><p>Altitude: 2,194 m (7,198 ft) District: Darjeeling Subdivision: Darjeeling Sadar State: West Bengal Region: Eastern Himalayas Distance from Darjeeling: 19 km Distance from Manebhanjan: 9 km Best Time to Visit: Throughout the Year Famous For: Sandakphu Gateway, Singalila Region, Forests, Himalayan Views</p><h3>History, Geography & Climate</h3><p>Historically, Sukhiapokhri developed as a trading and transit settlement connecting Darjeeling with border villages and mountain routes. Today it remains an important centre for tourism, trekking, and local commerce.</p><p>The region enjoys cool weather throughout the year with snowy conditions occasionally occurring during severe winter spells.</p>",
+                "attractions": [
+                    "Can Kanchenjunga be seen from Sukhiapokhri?",
+                    "Is mobile network available in Sukhiapokhri?",
+                    "Does Sukhiapokhri receive snowfall?",
+                    "What activities are popular in Sukhiapokhri?"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Sukhiapokhri Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sukhiapokhri Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "name": "Sukhiapokhri Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Shivakhola",
+                "slug": "shivakhola",
+                "tagline": "Riverside Eco Tourism",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Shivakhola - Riverside Eco Tourism Destination of Darjeeling | Forests, Hanging Bridge & Himalayan Nature Shivakhola is a beautiful riverside destination located in the lower Darjeeling Hills near the Mahananda Wildlife Sanctuary at an altitude of approximately 300 metres (984 ft). Surrounded by dense forests, mountain streams, wildlife habitats, and the clear waters of the Shivakhola River, the area is one of the most popular eco-tourism and nature camping destinations in North Bengal.</p><p>The name Shivakhola is derived from two words: \"Shiva\", referring to Lord Shiva, and \"Khola\", a Himalayan term meaning a mountain stream or small river. The village and river are believed to have been named after a local stream flowing through the forested valley.</p><p>Altitude: 300 m (984 ft) District: Darjeeling Subdivision: Kurseong State: West Bengal Region: Eastern Himalayan Foothills Distance from Siliguri: ~30 km Distance from NJP: ~35 km Distance from Bagdogra Airport: ~32 km Best Time to Visit: October-May Famous For: Riverside Camping, Hanging Bridge, Forests, Eco Tourism</p><h3>History, Geography & Climate</h3><p>Shivakhola developed as a forest settlement along the lower Himalayan foothills bordering the Mahananda Wildlife Sanctuary. The area gained popularity through eco-tourism, camping activities, and nature-based travel experiences.</p><p>The region enjoys a subtropical climate with warm summers, heavy monsoon rainfall, and pleasant winters. Dense forests, river valleys, and surrounding hills create a rich natural environment throughout the year.</p>",
+                "attractions": [
+                    "Can Kanchenjunga be seen from Sukhiapokhri?",
+                    "Is mobile network available in Sukhiapokhri?",
+                    "Does Sukhiapokhri receive snowfall?",
+                    "What activities are popular in Sukhiapokhri?"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Shivakhola Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Shivakhola Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "name": "Shivakhola Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Dudhia",
+                "slug": "dudhia",
+                "tagline": "Scenic Riverside Escape Near",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Dudhia - Scenic Riverside Escape Near Darjeeling | Balason River, Forests & Countryside Tourism Dudhia is a picturesque riverside destination situated along the banks of the Balason River in the lower Darjeeling Hills at an altitude of approximately 500 metres (1,640 ft). Surrounded by forested hills, river valleys, tea gardens, and countryside landscapes, Dudhia has become one of the most popular weekend destinations near Siliguri and Darjeeling.</p><p>The name Dudhia is believed to originate from the Nepali word \"Dudh\" (milk), referring to the white, foamy appearance of the Balason River during the monsoon season.</p><p>Altitude: 500 m (1,640 ft) District: Darjeeling Subdivision: Kurseong State: West Bengal Region: Eastern Himalayan Foothills Distance from Siliguri: ~25 km Distance from NJP: ~28 km Distance from Bagdogra Airport: ~30 km Best Time to Visit: October-May Famous For: Balason River, Riverside Tourism, Camping, Nature</p><h3>History, Geography & Climate</h3><p>Historically, Dudhia served as a small rural settlement along the Balason Valley. Improved road connectivity and growing interest in nature tourism transformed it into a popular eco-tourism destination.</p><p>The region experiences a warm subtropical climate with lush monsoons and pleasant winters. The Balason River remains the defining geographical feature of the area.</p>",
+                "attractions": [
+                    "Can tourists enjoy camping in Dudhia?",
+                    "How many days are required to explore Dudhia?",
+                    "Is Dudhia an offbeat destination?",
+                    "Why should I visit Dudhia?"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Dudhia Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Dudhia Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "name": "Dudhia Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Triveni",
+                "slug": "triveni",
+                "tagline": "Sacred Confluence of the Teesta &",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Triveni - Sacred Confluence of the Teesta & Rangeet Rivers | Adventure, Nature & Himalayan River Landscapes Triveni is one of the most famous river confluence destinations in North Bengal, located at an altitude of approximately 250 metres (820 ft) where the mighty Teesta and Rangeet Rivers meet.</p><p>Surrounded by steep Himalayan valleys, forests, river beaches, and dramatic landscapes, Triveni serves as an important gateway between Darjeeling, Kalimpong, Sikkim, and the Teesta Valley region.</p><p>The name Triveni comes from Sanskrit and means \"Meeting of Three Sacred Streams.\" In Indian tradition, river confluences are considered spiritually significant, and the Teesta-Rangeet confluence has long been regarded as an important natural landmark.</p><p>Altitude: 250 m (820 ft) District: Darjeeling State: West Bengal Region: Teesta Valley Distance from Kalimpong: ~20 km Distance from Darjeeling: ~45 km Distance from NJP: ~55 km Best Time to Visit: October-May Famous For: Teesta-Rangeet Confluence, River Rafting, Adventure Tourism</p><h3>History, Geography & Climate</h3><p>Triveni has historically served as a natural crossing point and meeting area for communities travelling through the Teesta and Rangeet valleys. Today it is a popular stop for travellers exploring Darjeeling, Kalimpong, and Sikkim.</p>",
+                "attractions": [
+                    "Can tourists enjoy camping in Dudhia?",
+                    "How many days are required to explore Dudhia?",
+                    "Is Dudhia an offbeat destination?",
+                    "Why should I visit Dudhia?"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Triveni Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Triveni Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "name": "Triveni Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ]
             },
             {
                 "name": "Latpanchar",
                 "slug": "latpanchar",
                 "tagline": "Birdwatching Paradise of the Eastern Himalayas",
                 "altitude": "1,280 m (4,200 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Birdwatching, Rufous-necked Hornbill, Orchids, Forest Tourism",
                 "location": "Darjeeling, West Bengal",
                 "description": "Latpanchar is one of the most celebrated eco-tourism destinations in the Darjeeling Hills. Surrounded by dense forests, mountain ridges, orchids, waterfalls, and rich biodiversity, the village is internationally recognized among birdwatchers as one of the best places to observe Himalayan birdlife, including the rare Rufous-necked Hornbill.<h3>Detailed Insights</h3><p>Mirik is a perfect blend of lake beauty, tea gardens, orange orchards, pine forests, and Himalayan</p><p>views. Its calm atmosphere, scenic landscapes, and easy accessibility make it one of the most</p><p>relaxing destinations in North Bengal. Ideal for families, coup les, nature lovers, photographers, and</p><p>weekend travellers, Mirik offers a peaceful escape into the heart of the Eastern Himalayas.</p>",
@@ -814,7 +2100,7 @@ window.destinationsData = {
                 "slug": "mungpoo",
                 "tagline": "Rabindranath Tagore's Himalayan Retreat",
                 "altitude": "1,130 m (3,707 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Rabindranath Tagore, Cinchona Plantation, Orchid Centre",
                 "location": "Darjeeling, West Bengal",
                 "description": "Mungpoo is a historic Himalayan settlement famous for its association with Rabindranath Tagore, British-era cinchona plantations, orchid diversity, and scenic landscapes. The British established extensive cinchona plantations in the nineteenth century, making Mungpoo one of Asia's most important quinine-producing centres.<h3>Detailed Insights</h3><p>Tonglu, Tumling, Meghma, Gairibas, Kalipokhri, Sandakphu, Phalut , Ramam, Srikhola, Gurdum, and</p><p>From world -famous tea gardens and colonial heritage to Himalayan biodiversity, vibrant culture,</p><p>unforgettable views of Mount Kanchenjunga, Darjeeling offers  one of the most complete mountain</p><p>experiences in India. Combining history, nature, culture, adventure, and hospitality, the Queen of</p><p>the Hills continues to captivate travellers from around the world and remains the crown jewel of the</p>",
@@ -850,6 +2136,436 @@ window.destinationsData = {
                     "byTrain": "New Jalpaiguri (~75 km)",
                     "byRoad": "Well connected from Siliguri, Darjeeling and Kalimpong"
                 }
+            },
+            {
+                "name": "Rohini",
+                "slug": "rohini",
+                "tagline": "Gateway to the Darjeeling Hills |",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Rohini - Gateway to the Darjeeling Hills | Forests, Tea Gardens & Mountain Landscapes Rohini is a scenic mountain region located along the historic Rohini Road connecting the plains of North Bengal with the Darjeeling Hills. Situated at elevations ranging from 500-1,500 metres (1,640-4,921 ft), Rohini is known for its forests, waterfalls, tea gardens, mountain viewpoints, and rich biodiversity.</p><p>The name Rohini is derived from Sanskrit and is traditionally associated with growth, fertility, and greenery, reflecting the lush landscape of the region.</p><p>Altitude: 500-1,500 m District: Darjeeling Subdivision: Kurseong State: West Bengal Famous For: Rohini Road, Forests, Waterfalls, Tea Gardens</p><h3>Geography & Biodiversity</h3><p>The region forms part of the Himalayan foothill ecosystem and supports: Sal Forests Pine Forests Bamboo Ferns Orchids Wildflowers</p><h3>Wildlife includes:</h3>",
+                "attractions": [
+                    "Rohini Viewpoint",
+                    "Rohini Nature Trail",
+                    "Wildlife",
+                    "Tiger Hill"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rohini Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rohini Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "name": "Rohini Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Siksin",
+                "slug": "siksin",
+                "tagline": "Hidden Himalayan Village of",
+                "altitude": "1,100-1,400 m",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<p>Siksin - Hidden Himalayan Village of Darjeeling | Cinchona Landscapes, Forests & Rural Eco Tourism Siksin is one of the least explored villages in the eastern Darjeeling Hills, located within the Rongli Rongliot Development Block near Mungpoo and Latpanchar. Situated between 1,100-1,400 metres (3,609-4,593 ft), the village is surrounded by forests, cinchona plantations, cardamom farms, orange orchards, and mountain ridges.</p><p>The name Siksin is believed to originate from local Lepcha and Himalayan linguistic traditions, though its exact meaning is not officially documented.</p><p>Altitude: 1,100-1,400 m District: Darjeeling Subdivision: Darjeeling Sadar Development Block: Rongli Rongliot State: West Bengal Famous For: Offbeat Tourism, Forests, Cinchona Heritage, Village Life</p><h3>History, Geography & Culture</h3><p>Historically linked to nearby cinchona plantations and agricultural settlements, Siksin remains largely untouched by mass tourism. The village preserves traditional Himalayan lifestyles based on farming, horticulture, livestock rearing, and eco-tourism.</p><h3>Biodiversity & Wildlife</h3>",
+                "attractions": [
+                    "Siksin Viewpoint",
+                    "Siksin Nature Trail",
+                    "Wildlife",
+                    "Tiger Hill"
+                ],
+                "image": "images/gallery (10).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Siksin Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Siksin Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "name": "Siksin Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Senchal Wildlife Sanctuary",
+                "slug": "senchal-wildlife-sanctuary",
+                "tagline": "The Oldest",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails",
+                "location": "Darjeeling, Darjeeling",
+                "description": "<h3>Wildlife Sanctuary of Darjeeling | Tiger Hill</h3><p>Forests, Himalayan Biodiversity & Nature Tourism Senchal Wildlife Sanctuary is one of the oldest protected forest areas in the Eastern Himalayas and among the most important biodiversity reserves in the Darjeeling Hills. Spread across approximately 38.6 square kilometres, the sanctuary surrounds the famous Tiger Hill region and encompasses vast stretches of Himalayan forests, mountain ridges, grasslands, lakes, and watersheds that supply drinking water to Darjeeling town.</p><p>Established in 1915, Senchal Wildlife Sanctuary is the oldest wildlife sanctuary in West Bengal and remains a vital ecological corridor connecting the forests of the Darjeeling Himalayas. The sanctuary derives its name from Senchal Peak, one of the highest points in the region, and is renowned for its rich biodiversity, panoramic Himalayan views, birdwatching opportunities, forest trails, and proximity to iconic destinations such as Tiger Hill, Jorebungalow, Ghoom, Sonada, and Darjeeling.</p><p>Home to numerous species of mammals, birds, reptiles, butterflies, orchids, and Himalayan flora, Senchal Wildlife Sanctuary offers visitors a perfect combination of nature tourism, wildlife observation, eco-tourism, trekking, and photography. The sanctuary is also famous for housing the historic Senchal Lakes, which play a crucial role in supplying water to Darjeeling and surrounding areas.</p><p>Established: 1915 Area: Approximately 38.6 sq km District: Darjeeling State: West Bengal Region: Eastern Himalayas Altitude Range: 1,500 m - 2,615 m Highest Point: Senchal Peak (2,615 m / 8,579 ft) Famous For: Wildlife, Tiger Hill, Senchal Lake, Birdwatching, Forest Trails Best Time to Visit: October-May Nearest Town: Darjeeling Nearest Railway Station: New Jalpaiguri (NJP) Nearest Airport: Bagdogra Airport Meaning of Senchal The name Senchal is believed to have originated from local Himalayan linguistic roots associated with the high ridges and forest-covered mountain landscapes of the region. Over the years, Senchal has become synonymous with Darjeeling's natural heritage, forest conservation, and Himalayan</p><h3>biodiversity.</h3>",
+                "attractions": [
+                    "Senchal Wildlife Sanctuary Viewpoint",
+                    "Senchal Wildlife Sanctuary Nature Trail",
+                    "Wildlife",
+                    "Tiger Hill"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Wildlife",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "safari",
+                        "label": "Jungle Safari"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Senchal Wildlife Sanctuary Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Senchal Wildlife Sanctuary Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "name": "Senchal Wildlife Sanctuary Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Tukvar",
+                "slug": "tukvar",
+                "tagline": "Discover the Soul of Darjeeling",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Tukvar is one of the most serene and captivating destinations in Darjeeling. Nestled in picturesque Himalayan surroundings, it invites travellers seeking authentic nature and soulful journeys.</p><h3>Nature, Landscape & Highlights</h3><p>Celebrated for scenic landscapes, nature trails & mountain culture, visitors enjoy tranquil hill and forest walks, pristine vistas, rich flora, and peaceful local hamlets.</p><h3>Why Visit Tukvar</h3><p>An idyllic escape away from crowded tourist routes, Tukvar is ideal for peaceful vacations, bird watching, photography, and experiencing genuine Himalayan warmth.</p>",
+                "attractions": [
+                    "Tukvar Viewpoint",
+                    "Tukvar Nature Trail",
+                    "Scenic Landscapes",
+                    "Nature Trails & Mountain Culture"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Darjeeling",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Darjeeling"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Tukvar Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Tukvar Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "name": "Tukvar Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Tiger Hill",
+                "slug": "tiger-hill",
+                "tagline": "The Sunrise Throne of Darjeeling",
+                "altitude": "2,590 m (8,482 ft)",
+                "bestTime": "October\u2013March",
+                "famousFor": "Sunrise, Kanchenjunga & Everest Views",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Tiger Hill is the most famous attraction within the Senchal Wildlife Sanctuary region, renowned worldwide for its majestic sunrise views over the Kangchenjunga and Mount Everest peaks. Located at an altitude of approximately 2,590 metres (8,482 ft), it is the highest point in the Darjeeling area and a must-visit for anyone traveling to the region.</p><h3>History, Geography & Climate</h3><p>Established as a premier viewpoint during the British colonial era, Tiger Hill has drawn visitors for over a century to witness the breathtaking phenomenon of the first rays of the sun illuminating the twin peaks of Kangchenjunga in a spectacular display of colors. The climate at the summit is significantly cooler than Darjeeling town, with biting cold winds during winter mornings. Visitors usually arrive before dawn to catch the sunrise.</p><h3>Biodiversity & Nature</h3><p>As part of the Senchal Wildlife Sanctuary, the slopes leading up to Tiger Hill are covered in dense forests of oak, pine, and rhododendrons. During the spring, the entire hillside bursts into color with blooming rhododendrons and magnolias. The surrounding forests are home to Himalayan birds, barking deer, and other high-altitude wildlife.</p>",
+                "attractions": [
+                    "Sunrise Point",
+                    "Kanchenjunga Panorama",
+                    "Everest View"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "World-famous sunrise point",
+                    "Views of 5 tallest peaks",
+                    "Mount Everest visible on clear days"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Sunrise Viewing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Morning Walk"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (76 km)",
+                    "byTrain": "New Jalpaiguri (82 km)",
+                    "byRoad": "11 km from Darjeeling town"
+                }
+            },
+            {
+                "name": "Darjeeling Sightseeing",
+                "slug": "darjeeling-sightseeing",
+                "tagline": "Classic Himalayan Sightseeing | Tiger Hill, Toy Train & 7-Point Tour",
+                "altitude": "2,042 m (6,700 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Tiger Hill Sunrise, Batasia Loop, Ghoom Monastery, HMI & Zoo, Tea Gardens, Peace Pagoda",
+                "location": "Darjeeling, West Bengal",
+                "description": "<p>Darjeeling Sightseeing is the iconic Himalayan experience that has captivated worldwide travellers for over a century. From dawn over Tiger Hill to vintage steam engine joyrides and tranquil Buddhist monasteries, Darjeeling is packed with historic landmarks and panoramic viewpoints.</p><h3>The Classic Sightseeing Itinerary</h3><p>The standard tour is divided into two iconic segments: The Early Morning 3-Point Sunrise Tour (Tiger Hill for Kanchenjunga sunrise, Batasia Loop memorial, and Ghoom Monastery) followed by the Darjeeling 7-Point Local Tour covering Himalayan Mountaineering Institute (HMI), Padmaja Naidu Himalayan Zoological Park, Tibetan Refugee Self-Help Centre, Happy Valley Tea Garden, Tenzing Rock, and Japanese Peace Pagoda.</p><h3>Toy Train & Mall Road Leisure</h3><p>In addition, travelers can experience the UNESCO World Heritage Toy Train Joy Ride between Darjeeling and Ghoom, and unwind with evening strolls along Chowrasta (Mall Road) with a cup of authentic Darjeeling first flush tea.</p>",
+                "attractions": [
+                    "Tiger Hill Sunrise Point",
+                    "Batasia Loop & War Memorial",
+                    "Himalayan Mountaineering Institute & Zoo",
+                    "Japanese Peace Pagoda"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Breathtaking Kanchenjunga sunrise from Tiger Hill",
+                    "UNESCO World Heritage Toy Train experience",
+                    "Historic colonial landmarks & tea estates",
+                    "Complete customized vehicle arrangements"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Tiger Hill Sunrise"
+                    },
+                    {
+                        "icon": "train",
+                        "label": "Toy Train Joy Ride"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Scenic Photography"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Tasting"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (67 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (70 km)",
+                    "byRoad": "Connected via Rohini / Hill Cart Road"
+                },
+                "packages": [
+                    {
+                        "title": "Tiger Hill 3-Point Sunrise Tour",
+                        "includes": "Early Morning Cab + Pickup",
+                        "price": 1800,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "title": "Darjeeling Full Day Mixed Tour",
+                        "includes": "3-Point + 7-Point Sightseeing Cab",
+                        "price": 3200,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Windamere Heritage Hotel",
+                        "rating": 4.8,
+                        "reviews": 110,
+                        "type": "Heritage Hotel",
+                        "price": 4500,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "name": "Chowrasta View Retreat",
+                        "rating": 4.6,
+                        "reviews": 58,
+                        "type": "Boutique Hotel",
+                        "price": 2800,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ]
             }
         ]
     },
@@ -857,7 +2573,7 @@ window.destinationsData = {
         "title": "Kalimpong",
         "subtitle": "A Land of Serenity",
         "description": "A vibrant cultural crossroads where Himalayan, Tibetan, Lepcha, Nepali, and Bhutanese influences meet.",
-        "regionDescription": "Kalimpong is the quieter cousin of Darjeeling — and all the better for it. Its hillsides bloom with orchids, its lanes hum with a quieter kind of life. From the bird-watching forests of Kolakham and Rishop to the fog-draped meadows of Loleygaon and Sillery Gaon, Kalimpong rewards the traveller who slows down and looks closely.",
+        "regionDescription": "Kalimpong is the quieter cousin of Darjeeling \u2014 and all the better for it. Its hillsides bloom with orchids, its lanes hum with a quieter kind of life. From the bird-watching forests of Kolakham and Rishop to the fog-draped meadows of Loleygaon and Sillery Gaon, Kalimpong rewards the traveller who slows down and looks closely.",
         "heroImage": "dest-kalimpong.png",
         "location": "Kalimpong District, West Bengal",
         "places": [
@@ -948,7 +2664,7 @@ window.destinationsData = {
                 "slug": "lava",
                 "tagline": "Gateway to Neora Valley National Park",
                 "altitude": "2,350 m (7,710 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Neora Valley National Park, Birdwatching, Forests",
                 "location": "Kalimpong, West Bengal",
                 "description": "<p>Lava is a serene and picturesque hamlet nestled in the Kalimpong district at an altitude of approximately 2,138 metres (7,014 ft). Surrounded by dense pine and pristine Neora Valley National Park forests, Lava serves as one of the few places in West Bengal to receive regular snowfall during winter. It is an ideal retreat for nature lovers, birdwatchers, and peace seekers.</p><h3>Nature & Biodiversity</h3><p>Acting as the primary gateway to the untouched Neora Valley National Park, Lava boasts incredible biodiversity. The surrounding forests are characterized by wet alpine trees, orchids, and a variety of rhododendrons. It is a haven for birdwatchers, offering sightings of rare Himalayan species, and the forests are known to harbor the elusive Red Panda and Himalayan Black Bear.</p><h3>Culture & Attractions</h3><p>Lava retains a peaceful, slow-paced mountain lifestyle strongly influenced by Tibetan Buddhism. The Jamgon Kongtrul Monastery, an impressive Tibetan Buddhist monastery, stands as the cultural centerpiece of the village, offering spiritual solace and panoramic views of the surrounding valleys.</p><h3>Detailed Insights</h3><p>For its Himalayan views, monasteries, flower nurseries, cultural heritage, pleasant climate,</p><p>adventure activities, and easy access to the best destinations in North Bengal.</p>",
@@ -988,11 +2704,89 @@ window.destinationsData = {
                 }
             },
             {
+                "name": "Loleygaon",
+                "slug": "loleygaon",
+                "tagline": "Canopy Walk Village of the Eastern",
+                "altitude": "1,675 m (5,495 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Canopy Walk, Pine Forests, Sunrise & Sunset Views, Eco-Tourism",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Himalayas | Pine Forests, Hanging Bridge, Himalayan Views & Eco-Tourism Paradise Loleygaon is one of the most peaceful and picturesque offbeat destinations in the Kalimpong district of West Bengal, located at an altitude of approximately 1,675 metres (5,495 ft) above sea level.</p><p>Surrounded by dense pine forests, cypress groves, oak woodlands, mist-covered hills, and panoramic Himalayan landscapes, Loleygaon has emerged as one of the most sought-after eco-tourism destinations in North Bengal.</p><p>Famous for its iconic Canopy Walk, breathtaking sunrise and sunset viewpoints, rich biodiversity, and tranquil Himalayan village atmosphere, Loleygaon offers a perfect escape from the crowds of traditional hill stations. Unlike commercial tourist destinations, the village retains its natural charm and peaceful environment, allowing visitors to experience the beauty of the Eastern Himalayas in its most authentic form.</p><p>The region is deeply connected to Lepcha and Nepali Himalayan culture, and the surrounding forests create a unique combination of nature, heritage, and sustainable tourism. Whether visitors seek mountain views, forest trails, birdwatching opportunities, or simply a relaxing stay amidst nature, Loleygaon delivers one of the most rewarding travel experiences in the Kalimpong hills.</p><p>Altitude: 1,675 m (5,495 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 55 km Distance from NJP: Approx. 110 km Distance from Bagdogra Airport: Approx. 115 km Best Time to Visit: October-May Famous For: Canopy Walk, Pine Forests, Sunrise & Sunset Views, Eco-Tourism Tourism Type: Nature, Photography, Family Vacation, Honeymoon, Eco-Tourism</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Loleygaon Viewpoint",
+                    "Loleygaon Nature Trail",
+                    "Canopy Walk",
+                    "Pine Forests"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Canopy Walk",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Loleygaon Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Loleygaon Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "name": "Loleygaon Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ]
+            },
+            {
                 "name": "Rishop",
                 "slug": "rishop",
                 "tagline": "Himalayan Viewpoint of Kalimpong",
                 "altitude": "2,590 m (8,497 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Kangchenjunga Views, Sunrise, Forests",
                 "location": "Kalimpong, West Bengal",
                 "description": "<p>Rishop (or Rishyap) is a tranquil Lepcha village situated at an altitude of 2,591 metres (8,500 ft) in the Kalimpong Hills. Accessible via a scenic forest trail from Lava or a rugged mountain road, Rishop is celebrated for offering one of the most magnificent, uninterrupted 360-degree views of the Mt. Kanchenjunga range and other snow-capped Himalayan peaks.</p><h3>History & Lifestyle</h3><p>Developed relatively recently as an eco-tourism destination, Rishop remains deeply connected to its roots as a traditional Lepcha farming community. The village has avoided large-scale commercialization, maintaining its rustic charm with simple wooden homestays, organic farming, and a community-driven approach to tourism.</p><h3>Geography & Climate</h3><p>Rishop's high altitude guarantees a cool climate year-round, with biting cold winters that often bring frost and occasional snowfall. The landscape is dominated by towering pine, birch, and rhododendron forests that open up to spectacular clearings offering sweeping views of the majestic Himalayan ranges.</p><h3>Detailed Insights</h3><p>Rishop is one of the most spectacular offbeat destinations in the Kalimpong district of West Bengal,</p><p>situated at an altitude of approximately 2,590 metres (8,497 ft)  above sea level. Perched on a</p><p>forested Himalayan ridge above Lava and overlooking the vast valleys of the Eastern Himalayas,</p><p>Rishop is renowned for its breathtaking panoramic views of Mount Kangchenjunga, spectacular</p><p>Often regarded as one of the finest Himalayan viewpoints in North Bengal, Rishop offers a unique</p><p>combination of mountain scenery and forest wilderness. Unlike crowded hill stations, the village</p><p>remains quiet and relatively untouched, allowing visitors to e xperience the natural beauty of the</p><p>Himalayas in its purest form. On clear mornings, the snow -clad peaks of Kangchenjunga glow golden</p><p>with the first rays of sunlight, creating one of the most memorable landscapes in the entire</p><p>The name \"Rishop\" is believed to have originated from the Lepcha language and is often interpreted</p><p>as a place associated with mountain forests and elevated ridges. Today, Rishop has become a</p><p>favorite destination for photographers, honeymoon couples, trekke rs, birdwatchers, nature lovers,</p><p>and travelers seeking an authentic Himalayan experience away from commercial tourism.</p>",
@@ -1003,7 +2797,7 @@ window.destinationsData = {
                 ],
                 "image": "images/gallery (7).jpg",
                 "highlights": [
-                    "360° Kangchenjunga panorama",
+                    "360\u00b0 Kangchenjunga panorama",
                     "Spectacular sunrises",
                     "Pristine mountain air"
                 ],
@@ -1036,7 +2830,7 @@ window.destinationsData = {
                 "slug": "kolakham",
                 "tagline": "Hidden Village Above Neora Valley",
                 "altitude": "1,980 m (6,496 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Changey Falls, Kangchenjunga Views, Red Panda Habitat",
                 "location": "Kalimpong, West Bengal",
                 "description": "<p>Kolakham is an idyllic eco-village situated at an altitude of 1,860 metres (6,100 ft) on the fringes of the Neora Valley National Park. Overlooking the majestic Kanchenjunga range, this small settlement of around 60 Nepali families has become a prime destination for offbeat tourism, offering an immersive experience in nature and rural Himalayan life.</p><h3>Biodiversity & Nature Walks</h3><p>As a buffer zone for the Neora Valley National Park, Kolakham is a paradise for birdwatchers and wildlife enthusiasts. The pristine forests of oak, rhododendron, and bamboo are teeming with Himalayan birdlife, butterflies, and diverse flora. Nature walks from the village often lead to hidden waterfalls like the Changey Falls and deep forest trails.</p><h3>Eco-Tourism & Community</h3><p>The village is a shining example of sustainable eco-tourism. Visitors stay in charming homestays managed by the local community, enjoying organic, locally grown food and experiencing the warm hospitality of the Nepali families. Activities revolve around forest exploration, birding, and enjoying the serene mountain environment.</p><h3>Detailed Insights</h3><p>Kolakham is one of the most pristine and breathtaking offbeat destinations in the Kalimpong district</p><p>of West Bengal, located at an altitude of approximately 1,980 metres (6,496 ft)  above sea level.</p><p>Nestled on the edge of the world -famous Neora Valley National Park and surrounded by dense</p><p>Himalayan forests, deep valleys, waterfalls, and snow -capped mountain views, Kolakham is widely</p><p>regarded as one of the finest eco -tourism destinati ons in North Bengal.</p><p>Unlike commercial hill stations, Kolakham remains peaceful, uncrowded, and deeply connected to</p><p>nature. The village offers magnificent views of Mount Kangchenjunga, untouched forest landscapes,</p><p>rich biodiversity, and a tranquil Himalayan atmosphere. It is o ne of the few destinations where</p><p>travelers can experience mountain village life while staying close to one of the most important</p><p>The name Kolakham is believed to have originated from the Lepcha language, reflecting the region's</p><p>indigenous cultural heritage. Today, the village is popular among nature lovers, birdwatchers,</p><p>wildlife enthusiasts, photographers, trekkers, and travelers s eeking a genuine Himalayan wilderness</p>",
@@ -1073,138 +2867,6 @@ window.destinationsData = {
                     "byAir": "Bagdogra Airport (125 km)",
                     "byTrain": "New Jalpaiguri (122 km)",
                     "byRoad": "Via Lava, 40 km from Kalimpong"
-                }
-            },
-            {
-                "name": "Ramdhura",
-                "slug": "ramdhura",
-                "tagline": "Hidden Himalayan Village",
-                "altitude": "1,650 m (5,413 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Kangchenjunga Views, Orange Orchards, Sunrise",
-                "location": "Kalimpong, West Bengal",
-                "description": "<p>Ramdhura is a quiet and incredibly scenic village located just 15 km from Kalimpong town at an altitude of approximately 1,500 metres (4,900 ft). Perched on a ridge, Ramdhura offers sweeping, unobstructed views of the Teesta River meandering through the deep valley below, set against the breathtaking backdrop of the Kanchenjunga range.</p><h3>Geography & Surroundings</h3><p>The name Ramdhura translates to 'Village of Lord Ram'. The village is surrounded by dense pine forests and cinchona plantations, offering a peaceful environment free from the hustle and bustle of city life. Its strategic location makes it an excellent base camp for exploring nearby attractions like Delo Hill, Icche Gaon, and Sillery Gaon.</p><h3>Tourism & Lifestyle</h3><p>Tourism in Ramdhura is centered around homestays that provide an authentic local experience. Visitors can engage in short treks through the pine forests, village walks to observe local farming techniques, and enjoy traditional Nepali cuisine while taking in the stunning panoramic views from their balconies.</p><h3>Detailed Insights</h3><p>Yes, it is one of the best photography destinations in the Kalimpong hills.</p>",
-                "attractions": [
-                    "Ramdhura Viewpoint",
-                    "Orange Orchards",
-                    "Pine Forest Trails"
-                ],
-                "image": "images/gallery (9).jpg",
-                "highlights": [
-                    "Breathtaking mountain views",
-                    "Orange orchards",
-                    "Pine forest trails"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "hiking",
-                        "label": "Nature Walks"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "binoculars",
-                        "label": "View Points"
-                    },
-                    {
-                        "icon": "food",
-                        "label": "Local Food"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (95 km)",
-                    "byTrain": "New Jalpaiguri (92 km)",
-                    "byRoad": "20 km from Kalimpong town"
-                }
-            },
-            {
-                "name": "Sillery Gaon",
-                "slug": "sillery-gaon",
-                "tagline": "New Darjeeling of the Eastern Himalayas",
-                "altitude": "1,800 m (5,905 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Ramitey View Point, Damsang Fort, Kangchenjunga Views",
-                "location": "Kalimpong, West Bengal",
-                "description": "<p>Sillery Gaon is a pristine Himalayan hamlet affectionately known as the 'New Darjeeling'. Situated at an altitude of 1,828 metres (6,000 ft) in the Kalimpong district, it offers a peaceful retreat amidst dense pine forests and offers breathtaking, close-range views of the Mount Kanchenjunga range. The village derives its name from the abundance of a local plant called 'Sillery' that grows in the region.</p><h3>History & Culture</h3><p>Originally a cinchona plantation village during the British era, Sillery Gaon is now inhabited primarily by the indigenous Tamang and Bhutia communities. The village maintains a rustic and deeply traditional lifestyle, with locals relying on agriculture and eco-tourism. The warm hospitality of the villagers is a highlight of any visit.</p><h3>Nature & Exploration</h3><p>The village is an excellent base for short treks and nature trails. Popular hikes lead to Ramitey Viewpoint, offering the longest view of the Teesta River with 14 bends, and the historic Damsang Fort ruins. The surrounding forests are rich in birdlife, making it a favorite spot for nature photographers and birdwatchers.</p><h3>Detailed Insights</h3><p>Himalayas. Its strategic location, pleasant climate, and rich hist ory make it one of the most</p>",
-                "attractions": [
-                    "Ramitey View Point",
-                    "Damsang Fort",
-                    "Tinchuley View Point"
-                ],
-                "image": "images/gallery (10).jpg",
-                "highlights": [
-                    "Known as 'New Darjeeling'",
-                    "Rich Lepcha heritage",
-                    "Stunning Kangchenjunga views"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "binoculars",
-                        "label": "View Points"
-                    },
-                    {
-                        "icon": "hiking",
-                        "label": "Fort Trek"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "village",
-                        "label": "Village Tour"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (105 km)",
-                    "byTrain": "New Jalpaiguri (100 km)",
-                    "byRoad": "Via Pedong, 30 km from Kalimpong"
-                }
-            },
-            {
-                "name": "Icche Gaon",
-                "slug": "icche-gaon",
-                "tagline": "Wish Village of the Himalayas",
-                "altitude": "1,800 m (5,905 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Kangchenjunga Views, Orange Orchards, Sunrise",
-                "location": "Kalimpong, West Bengal",
-                "description": "<p>Icche Gaon (or Echey Gaon) is a beautiful eco-tourism village located at an altitude of 1,767 metres (5,800 ft) near Kalimpong. The name translates to 'Wishing Village'. Hidden within pristine forests of pine, birch, and rhododendron, Icche Gaon offers a serene escape with magnificent night views of the glittering lights of Darjeeling, Ravangla, and Sikkim, along with majestic daytime views of Kanchenjunga.</p><h3>Eco-Tourism & Community</h3><p>Icche Gaon is completely maintained by the local village community, focusing on sustainable and eco-friendly tourism. The village has no large hotels, relying entirely on cozy homestays that offer a genuine taste of Himalayan rural life, complete with organic farm-to-table meals and traditional cultural interactions.</p><h3>Flora, Fauna & Trails</h3><p>The village is surrounded by dense forests that are home to rare orchids, diverse bird species, and colorful butterflies. Visitors can embark on scenic nature walks to nearby viewpoints like Tinchuley (not to be confused with the Darjeeling Tinchuley) and the historic Damsang Fort, immersing themselves in the tranquil mountain environment.</p>",
-                "attractions": [
-                    "Kangchenjunga Viewpoint",
-                    "Sunrise Point",
-                    "Forest Trails"
-                ],
-                "image": "images/gallery (1).jpg",
-                "highlights": [
-                    "Peaceful Himalayan experience",
-                    "Traditional village life",
-                    "Harmonious nature and culture"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "hiking",
-                        "label": "Nature Walks"
-                    },
-                    {
-                        "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "binoculars",
-                        "label": "View Points"
-                    },
-                    {
-                        "icon": "village",
-                        "label": "Village Tour"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Bagdogra Airport (102 km)",
-                    "byTrain": "New Jalpaiguri (98 km)",
-                    "byRoad": "Via Pedong, 28 km from Kalimpong"
                 }
             },
             {
@@ -1250,26 +2912,2610 @@ window.destinationsData = {
                     "byTrain": "New Jalpaiguri (90 km)",
                     "byRoad": "24 km from Kalimpong town"
                 }
+            },
+            {
+                "name": "Algarah",
+                "slug": "algarah",
+                "tagline": "Historic Himalayan Trading Settlement",
+                "altitude": "1,780 m (5,840 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Colonial Heritage, Trading History, Pine Forests, Mountain Views, Countryside",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>| Colonial Heritage, Pine Forests, Kangchenjunga Views & Gateway to Upper Kalimpong Algarah is one of the oldest and most historically significant hill settlements in the Kalimpong district of West Bengal, located at an altitude of approximately 1,780 metres (5,840 ft) above sea level.</p><p>Surrounded by pine forests, rolling Himalayan ridges, traditional mountain villages, and panoramic valley landscapes, Algarah occupies a unique place in the history of the Eastern Himalayas.</p><p>Unlike many modern tourist destinations, Algarah developed as an important trading centre during the British colonial period. Situated along historic mountain routes connecting Kalimpong with Pedong, Lava, Munsong, and the higher Himalayan regions, the settlement played a significant role in regional commerce and administration. Even today, visitors can experience a fascinating blend of colonial heritage, traditional Himalayan culture, peaceful countryside landscapes, and offbeat mountain tourism.</p><p>Algarah serves as a gateway to some of Kalimpong's most beautiful destinations including Pedong, Sillery Gaon, Rikisum, Munsong, Lava, Loleygaon, and the upper forest regions of the Eastern Himalayas. Its strategic location, pleasant climate, and rich history make it one of the most underrated destinations in North Bengal.</p><p>Altitude: 1,780 m (5,840 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 15 km Distance from Pedong: Approx. 7 km Distance from Lava: Approx. 30 km Distance from NJP: Approx. 80 km Best Time to Visit: October-May Famous For: Colonial Heritage, Trading History, Pine Forests, Mountain Views, Countryside Tourism Tourism Type: Heritage, Nature, Culture, Photography, Village Tourism</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Is Algarah good for birdwatching and nature tourism?",
+                    "What wildlife can be found near Algarah?",
+                    "Are homestays available in Algarah?",
+                    "Which nearby destinations can be visited from Algarah?"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Colonial Heritage",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Algarah Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Algarah Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "name": "Algarah Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Icchegaon",
+                "slug": "icchegaon",
+                "tagline": "Hidden Himalayan Village of",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Kalimpong | Kangchenjunga Views, Orange Orchards, Forest Trails & Authentic Village Tourism Icchegaon, also known as Ecchey Gaon, is one of the most beautiful offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,800 metres (5,905 ft) above sea level. Surrounded by dense Himalayan forests, orange orchards, flowering gardens, mountain ridges, and panoramic views of Mount Kangchenjunga, Icchegaon has emerged as one of the most sought-after village tourism destinations in North Bengal.</p><p>Unlike crowded hill stations, Icchegaon offers visitors a peaceful and authentic Himalayan experience where nature, culture, and traditional village life coexist harmoniously. The village is renowned for its spectacular sunrise views, rich biodiversity, colourful seasonal landscapes, birdwatching opportunities, and warm local hospitality. Located within the greater Kalimpong- Pedong tourism belt, Icchegaon provides easy access to several popular offbeat destinations while maintaining its own unique charm and tranquility.</p><p>The name Icchegaon is believed to derive from local Himalayan traditions and today represents one of the finest examples of community-based tourism in the Eastern Himalayas. Visitors are welcomed into a world of mist-covered hills, pine forests, traditional wooden houses, terraced farms, and breathtaking mountain vistas. Whether seeking photography, relaxation, nature walks, or cultural experiences, Icchegaon offers an unforgettable Himalayan escape.</p><p>Altitude: 1,800 m (5,905 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 17 km Distance from Pedong: Approx. 8 km Distance from NJP: Approx. 85 km Distance from Bagdogra Airport: Approx. 90 km Best Time to Visit: October-May Famous For: Kangchenjunga Views, Orange Orchards, Village Tourism, Sunrise, Forest Trails Tourism Type: Nature, Photography, Family Holidays, Honeymoon, Eco-Tourism</p><h3>History, Geography & Climate</h3><p>Icchegaon developed as a traditional Himalayan settlement inhabited primarily by Nepali and Lepcha communities. For decades, the village remained relatively unknown to mainstream tourism, helping preserve its natural beauty and cultural authenticity. With the growth of eco-tourism in Kalimpong district, Icchegaon gradually gained recognition as one of the region's most scenic village destinations.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Icchegaon Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Icchegaon Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "name": "Icchegaon Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Sillery Gaon",
+                "slug": "sillery-gaon",
+                "tagline": "New Darjeeling of the Eastern Himalayas",
+                "altitude": "1,800 m (5,905 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Ramitey View Point, Damsang Fort, Kangchenjunga Views",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Sillery Gaon is a pristine Himalayan hamlet affectionately known as the 'New Darjeeling'. Situated at an altitude of 1,828 metres (6,000 ft) in the Kalimpong district, it offers a peaceful retreat amidst dense pine forests and offers breathtaking, close-range views of the Mount Kanchenjunga range. The village derives its name from the abundance of a local plant called 'Sillery' that grows in the region.</p><h3>History & Culture</h3><p>Originally a cinchona plantation village during the British era, Sillery Gaon is now inhabited primarily by the indigenous Tamang and Bhutia communities. The village maintains a rustic and deeply traditional lifestyle, with locals relying on agriculture and eco-tourism. The warm hospitality of the villagers is a highlight of any visit.</p><h3>Nature & Exploration</h3><p>The village is an excellent base for short treks and nature trails. Popular hikes lead to Ramitey Viewpoint, offering the longest view of the Teesta River with 14 bends, and the historic Damsang Fort ruins. The surrounding forests are rich in birdlife, making it a favorite spot for nature photographers and birdwatchers.</p><h3>Detailed Insights</h3><p>Himalayas. Its strategic location, pleasant climate, and rich hist ory make it one of the most</p>",
+                "attractions": [
+                    "Ramitey View Point",
+                    "Damsang Fort",
+                    "Tinchuley View Point"
+                ],
+                "image": "images/gallery (10).jpg",
+                "highlights": [
+                    "Known as 'New Darjeeling'",
+                    "Rich Lepcha heritage",
+                    "Stunning Kangchenjunga views"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "View Points"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Fort Trek"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tour"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (105 km)",
+                    "byTrain": "New Jalpaiguri (100 km)",
+                    "byRoad": "Via Pedong, 30 km from Kalimpong"
+                }
+            },
+            {
+                "name": "Ramdhura",
+                "slug": "ramdhura",
+                "tagline": "Hidden Himalayan Village",
+                "altitude": "1,650 m (5,413 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Kangchenjunga Views, Orange Orchards, Sunrise",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Ramdhura is a quiet and incredibly scenic village located just 15 km from Kalimpong town at an altitude of approximately 1,500 metres (4,900 ft). Perched on a ridge, Ramdhura offers sweeping, unobstructed views of the Teesta River meandering through the deep valley below, set against the breathtaking backdrop of the Kanchenjunga range.</p><h3>Geography & Surroundings</h3><p>The name Ramdhura translates to 'Village of Lord Ram'. The village is surrounded by dense pine forests and cinchona plantations, offering a peaceful environment free from the hustle and bustle of city life. Its strategic location makes it an excellent base camp for exploring nearby attractions like Delo Hill, Icche Gaon, and Sillery Gaon.</p><h3>Tourism & Lifestyle</h3><p>Tourism in Ramdhura is centered around homestays that provide an authentic local experience. Visitors can engage in short treks through the pine forests, village walks to observe local farming techniques, and enjoy traditional Nepali cuisine while taking in the stunning panoramic views from their balconies.</p><h3>Detailed Insights</h3><p>Yes, it is one of the best photography destinations in the Kalimpong hills.</p>",
+                "attractions": [
+                    "Ramdhura Viewpoint",
+                    "Orange Orchards",
+                    "Pine Forest Trails"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Breathtaking mountain views",
+                    "Orange orchards",
+                    "Pine forest trails"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "View Points"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Local Food"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (95 km)",
+                    "byTrain": "New Jalpaiguri (92 km)",
+                    "byRoad": "20 km from Kalimpong town"
+                }
+            },
+            {
+                "name": "Kaffergaon",
+                "slug": "kaffergaon",
+                "tagline": "Hidden Himalayan Hamlet of",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Kaffergaon - Hidden Himalayan Hamlet of Kalimpong | Kangchenjunga Views, Orange Orchards, Pine Forests & Offbeat Village Tourism Kaffergaon is one of the most scenic and lesser-explored offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,850 metres (6,070 ft) above sea level. Nestled amidst dense pine forests, rolling Himalayan ridges, orange orchards, and traditional mountain villages, Kaffergaon offers breathtaking panoramic views of Mount Kangchenjunga and the surrounding Eastern Himalayan landscape.</p><p>Far removed from the crowds of Darjeeling, Gangtok, and Kalimpong town, Kaffergaon represents the true essence of Himalayan village tourism. The destination is increasingly gaining popularity among nature lovers, photographers, birdwatchers, trekkers, honeymoon couples, and travelers seeking peaceful mountain experiences. The village combines spectacular mountain scenery, rich</p><h3>biodiversity, authentic local culture, and warm Himalayan hospitality, making it one of the hidden</h3><p>Located within the greater Pedong-Ramdhura-Icchegaon tourism belt, Kaffergaon serves as an excellent base for exploring some of the most beautiful offbeat destinations in the Kalimpong hills.</p><p>Its untouched natural beauty, peaceful environment, and panoramic views make it an ideal destination for eco-tourism and slow travel.</p><p>Altitude: Approx. 1,850 m (6,070 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 30 km Distance from Pedong: Approx. 12 km Distance from NJP: Approx. 95 km Distance from Bagdogra Airport: Approx. 100 km Best Time to Visit: October-May Famous For: Kangchenjunga Views, Orange Orchards, Village Tourism, Sunrise, Birdwatching Tourism Type: Nature, Photography, Eco-Tourism, Family Holidays, Honeymoon</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Kaffergaon Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kaffergaon Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "name": "Kaffergaon Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Santook",
+                "slug": "santook",
+                "tagline": "Orange Village of Kalimpong |",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Santook - Orange Village of Kalimpong | Himalayan Countryside, Cinchona Heritage, Forest Trails & Offbeat Village Tourism Santook is one of the most beautiful countryside destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,400 metres (4,593 ft) above sea level. Surrounded by rolling Himalayan hills, orange orchards, cinchona plantations, dense forests, and traditional mountain villages, Santook offers a peaceful retreat into the heart of the Eastern Himalayas.</p><p>Located in the historic Cinchona Plantation Belt of Kalimpong, Santook is known for its agricultural heritage, scenic landscapes, village tourism, biodiversity, and authentic Himalayan culture. Unlike crowded tourist destinations, Santook remains largely untouched by mass tourism, allowing visitors to experience the natural beauty and traditional lifestyle of the Kalimpong hills.</p><p>The village is particularly famous for its orange orchards, mist-covered valleys, forest trails, birdwatching opportunities, and proximity to destinations such as Munsong, Lava, Loleygaon, and Kolakham. Its combination of countryside charm, Himalayan scenery, and cultural authenticity makes Santook one of the hidden gems of North Bengal tourism.</p><p>Altitude: Approx. 1,400 m (4,593 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 22 km Distance from Lava: Approx. 18 km Distance from NJP: Approx. 95 km Distance from Bagdogra Airport: Approx. 100 km Best Time to Visit: October-May Famous For: Orange Orchards, Cinchona Plantations, Village Tourism, Nature Walks Tourism Type: Eco-Tourism, Nature, Photography, Family Holidays</p><h3>History, Geography & Climate</h3><p>Santook forms part of the historic Cinchona Plantation region established during the British colonial period. The cinchona plantations were developed for the production of quinine, an important medicine used to combat malaria. The plantation system played a significant role in the development of Kalimpong's economy and settlement patterns.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Santook Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Santook Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "name": "Santook Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Mairung Gaon",
+                "slug": "mairung-gaon",
+                "tagline": "Hidden Forest Village Near",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Mairung Gaon - Hidden Forest Village Near Neora Valley | Pine Forests, Birdwatching, Himalayan Views & Offbeat Kalimpong Tourism Mairung Gaon (also written as Mayrong Gaon) is one of the newest and most promising offbeat destinations in the Kalimpong district of West Bengal. Situated at an altitude of approximately 1,500-1,600 metres (around 5,000-5,250 ft) above sea level, this peaceful Himalayan village lies amidst the dense Tendrabong forests near the buffer zone of the famous Neora Valley landscape.</p><p>Surrounded by pristine forests, rolling green hills, hidden valleys, mountain streams, and rich</p><h3>biodiversity, Mairung Gaon offers travelers a rare opportunity to experience untouched Himalayan</h3><p>Unlike the crowded destinations of Darjeeling, Gangtok, or even Lava, Mairung remains largely unexplored. The village stayed isolated for decades until the development of the Lava-Algarah bypass road improved accessibility. In recent years, local homestays have begun welcoming travelers seeking solitude, forest experiences, birdwatching opportunities, and authentic mountain hospitality.</p><p>Today, Mairung Gaon is gradually emerging as a favorite destination among nature photographers, birdwatchers, eco-tourists, trekkers, and travelers searching for hidden corners of the Eastern Himalayas. The destination offers breathtaking views of the Sikkim Himalayas, Nathula region, Dzuluk hills, and even distant snow peaks on exceptionally clear days.</p><p>Altitude: Approx. 1,500-1,600 m (5,000-5,250 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 20 km Distance from Lava: Approx. 15 km Distance from Algarah: Approx. 8 km Nearest Railway Station: NJP Nearest Airport: Bagdogra Best Time to Visit: October-May Famous For: Forest Tourism, Birdwatching, Village Life, Nature Photography Tourism Type: Eco-Tourism, Offbeat Travel, Nature Holidays, Village Tourism</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Mairung Gaon Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Mairung Gaon Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "name": "Mairung Gaon Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Fikkalay Gaon",
+                "slug": "fikkalay-gaon",
+                "tagline": "North Bengal's Apple Village",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Fikkalay Gaon - North Bengal's Apple Village | Kangchenjunga Views, Organic Farms, Forest Trails & Offbeat Kalimpong Tourism Fikkalay Gaon (also known as Fikalegaon or Fikkaley Gaon) is one of the newest and fastest-emerging offbeat destinations in the Kalimpong district of West Bengal. Situated at an altitude of approximately 1,370 metres (4,500 ft) above sea level and located around 9-15 km from Kalimpong town, this peaceful Himalayan village is gaining popularity for its stunning views of Mount Kangchenjunga, organic farms, forest landscapes, village tourism, and the distinction of hosting one of North Bengal's rare apple-growing belts.</p><p>Hidden amidst rolling Himalayan hills, mist-covered valleys, pine forests, cardamom plantations, and traditional mountain settlements, Fikkalay Gaon offers a refreshing alternative to crowded tourist destinations. Unlike Darjeeling, Gangtok, or even Lava, the village remains largely untouched by mass tourism, preserving its authentic rural charm and natural beauty.</p><p>Over the last few years, Fikkalay Gaon has quietly emerged as one of Kalimpong's most promising eco-tourism destinations. Travelers are increasingly visiting the village for its peaceful atmosphere, panoramic Himalayan scenery, birdwatching opportunities, organic farming experiences, and homestay tourism. The destination is particularly attractive for photographers, couples, families, nature lovers, and anyone seeking an authentic Himalayan village experience.</p><p>Altitude: Approx. 1,370 m (4,500 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 9-15 km Distance from NJP: Approx. 75 km Distance from Bagdogra Airport: Approx. 80 km Best Time to Visit: October-May Famous For: Apple Orchards, Kangchenjunga Views, Village Tourism, Organic Farming Tourism Type: Eco-Tourism, Nature Tourism, Photography, Village Tourism Ideal Stay: 2-3 Nights</p><h3>History, Geography & Location</h3><p>Fikkalay Gaon is situated within the scenic hills surrounding Kalimpong town. For generations, the village remained primarily dependent on agriculture, horticulture, and traditional farming practices.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (14).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Fikkalay Gaon Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Fikkalay Gaon Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "name": "Fikkalay Gaon Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Mulkharka",
+                "slug": "mulkharka",
+                "tagline": "Sacred Himalayan Lake Village",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Mulkharka - Sacred Himalayan Lake Village of Kalimpong | Mulkharka Lake, Kanchenjunga Views, Forest Trails & Old Silk Route Tourism Mulkharka is one of the most beautiful high-altitude offbeat destinations in the Kalimpong district of West Bengal, situated at an elevation of approximately 2,050-2,100 metres (6,725-6,890 ft) above sea level. Hidden amidst dense Himalayan forests near Lingsey and the Bengal-Sikkim border, this remote mountain village is renowned for its sacred Mulkharka Lake (Manokamana Lake), panoramic views of Mount Kangchenjunga, rich biodiversity, traditional Himalayan culture, and pristine natural surroundings.</p><p>Far away from the commercial tourism circuits of Darjeeling and Gangtok, Mulkharka offers travelers a rare opportunity to experience untouched Himalayan wilderness. Surrounded by pine forests, rhododendron-covered slopes, cardamom plantations, mountain streams, and traditional Lepcha, Bhutia, Sherpa, and Nepali settlements, the village represents one of the most authentic eco-tourism destinations in Eastern India.</p><p>The village is particularly famous for the enchanting Mulkharka Lake, a sacred alpine waterbody believed by local communities to possess spiritual significance. During clear weather, the lake beautifully reflects the snow-covered peaks of Kangchenjunga, creating one of the most spectacular natural scenes in the Kalimpong Himalayas.</p><p>Today, Mulkharka attracts trekkers, birdwatchers, photographers, nature lovers, spiritual travelers, and explorers seeking a truly offbeat Himalayan experience. Its combination of mountain scenery, cultural heritage, biodiversity, and tranquility makes it one of the hidden gems of North Bengal tourism.</p><p>Altitude: 2,050-2,100 m (6,725-6,890 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Near: Lingsey & Pedong Distance from Kalimpong: Approx. 50 km Distance from Pedong: Approx. 22 km Distance from NJP: Approx. 110 km Distance from Bagdogra Airport: Approx. 115 km Best Time to Visit: October-May Famous For: Mulkharka Lake, Kanchenjunga Views, Eco-Trekking, Birdwatching Tourism Type: Nature, Adventure, Spiritual Tourism, Village Tourism</p><h3>History, Geography & Location</h3>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Mulkharka Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Mulkharka Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "name": "Mulkharka Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Sangsey",
+                "slug": "sangsey",
+                "tagline": "Hidden Himalayan Hamlet of",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Sangsey - Hidden Himalayan Hamlet of Kalimpong | Kanchenjunga Views, Teesta Valley, Forest Trails & Offbeat Village Tourism Sangsey (also known as Sangser or Sangsey Khasmahal) is one of the most scenic offbeat villages in the Kalimpong district of West Bengal. Located at an altitude of approximately 1,220-1,370 metres (4,000-4,500 ft) above sea level and just 10-15 km from Kalimpong town, Sangsey offers breathtaking views of Mount Kangchenjunga, the Teesta Valley, dense Himalayan forests, and rolling mountain landscapes. Despite its close proximity to Kalimpong, the village remains largely untouched by mass tourism and retains its peaceful rural charm.</p><p>Nestled amidst lush greenery and forest-covered hills, Sangsey is a destination where nature, tranquility, and authentic Himalayan culture come together. The village consists of only a handful of households surrounded by forests, farms, and mountain slopes. Visitors are welcomed by warm local hospitality, spectacular Himalayan panoramas, and an atmosphere far removed from the bustle of commercial hill stations.</p><p>The village is particularly famous for its uninterrupted views of Kangchenjunga, birdwatching opportunities, eco-tourism experiences, village walks, and stunning sunrise vistas. Over the past few years, Sangsey has gradually emerged as one of Kalimpong's most promising offbeat destinations for nature lovers, photographers, couples, families, and travelers seeking peace in the Himalayas.</p><p>Altitude: Approx. 1,220-1,370 m (4,000-4,500 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: 10-15 km Distance from Siliguri: Approx. 80 km Nearest Railway Station: NJP Nearest Airport: Bagdogra Best Time to Visit: October-May Famous For: Kangchenjunga Views, Teesta Valley, Forest Tourism, Village Stays Tourism Type: Eco-Tourism, Photography, Village Tourism, Nature Holidays</p><h3>History, Geography & Location</h3><p>Sangsey is situated on the outskirts of Kalimpong amidst forested hills overlooking the Teesta Valley.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (16).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Sangsey Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sangsey Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "name": "Sangsey Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Charkhole",
+                "slug": "charkhole",
+                "tagline": "Balcony of the Eastern",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Charkhole - Balcony of the Eastern Himalayas | Kangchenjunga Views, Pine Forests, Sunrise Point & Offbeat Kalimpong Tourism Charkhole is one of the most popular offbeat destinations in the Kalimpong district of West Bengal, located at an altitude of approximately 1,700 metres (5,577 ft) above sea level. Nestled amidst dense pine forests, cypress groves, Himalayan ridges, and traditional mountain villages, Charkhole is renowned for its breathtaking panoramic views of Mount Kangchenjunga, spectacular sunrises, peaceful environment, and authentic Himalayan village tourism.</p><p>Situated around 15 km from Loleygaon and approximately 35 km from Kalimpong town, Charkhole has emerged as one of the most sought-after eco-tourism destinations in North Bengal. The village offers travelers a perfect blend of Himalayan scenery, biodiversity, forest landscapes, village culture, and tranquility. Unlike crowded hill stations, Charkhole remains peaceful and uncrowded, making it ideal for nature lovers, honeymoon couples, photographers, birdwatchers, and families seeking a refreshing mountain escape.</p><p>The name \"Charkhole\" is derived from local Nepali words meaning \"Four Streams,\" referring to the four natural streams that flow through the surrounding landscape. The village is blessed with pristine forests, fertile agricultural land, and magnificent mountain views that make it one of the hidden treasures of the Eastern Himalayas.</p><p>Altitude: Approx. 1,700 m (5,577 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 35 km Distance from Loleygaon: Approx. 15 km Distance from Lava: Approx. 28 km Distance from NJP: Approx. 95 km Distance from Bagdogra Airport: Approx. 100 km Best Time to Visit: October-May Famous For: Kangchenjunga Views, Sunrise, Pine Forests, Village Tourism Tourism Type: Eco-Tourism, Photography, Nature Holidays, Honeymoon</p><h3>History, Geography & Location</h3><p>Charkhole remained a relatively unknown Himalayan village until the rise of community-based tourism in the Kalimpong hills. Traditionally inhabited by Nepali Himalayan communities, the village depended on agriculture, livestock rearing, horticulture, and forestry for its livelihood.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Charkhole Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Charkhole Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "name": "Charkhole Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Lingsey",
+                "slug": "lingsey",
+                "tagline": "Hidden Himalayan Paradise of",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Lingsey - Hidden Himalayan Paradise of Kalimpong | Kanchenjunga Views, Mulkharka Lake, Forest Trails & Offbeat Village Tourism Lingsey (also known as Lingzey or Lingseykha) is one of the most beautiful offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,500 metres (4,921 ft) above sea level. Located near the West Bengal-Sikkim border amidst dense Himalayan forests, rolling mountain ridges, cardamom plantations, and traditional villages, Lingsey is renowned for its breathtaking views of Mount Kangchenjunga, pristine natural beauty, rich biodiversity, and authentic Himalayan culture.</p><p>Far away from the crowded tourist circuits of Darjeeling and Gangtok, Lingsey offers travelers an opportunity to experience the untouched charm of the Eastern Himalayas. The village is surrounded by pine forests, bamboo groves, mountain streams, agricultural terraces, and hidden valleys that create a peaceful environment ideal for nature lovers, birdwatchers, photographers, trekkers, and families.</p><p>Over the years, Lingsey has emerged as one of the most sought-after offbeat destinations in Kalimpong due to its scenic landscapes, eco-tourism initiatives, village homestays, and proximity to attractions such as Mulkharka Lake, Reshikhola, Pedong, Sillery Gaon, and Aritar. The destination perfectly combines natural beauty, cultural heritage, and sustainable tourism.</p><p>Altitude: Approx. 1,500 m (4,921 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Kalimpong: Approx. 50 km Distance from Pedong: Approx. 18 km Distance from NJP: Approx. 105 km Distance from Bagdogra Airport: Approx. 110 km Best Time to Visit: October-May Famous For: Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays Tourism Type: Eco-Tourism, Nature Tourism, Photography, Village Tourism</p><h3>History, Geography & Location</h3><p>Lingsey is located in the eastern part of Kalimpong district close to the Sikkim border. Historically, the region formed part of ancient trade and travel routes connecting Kalimpong with neighboring Himalayan settlements. The area remained relatively isolated for decades, helping preserve its forests, biodiversity, and traditional way of life.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Lingsey Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Lingsey Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "name": "Lingsey Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Sherpa Gaon",
+                "slug": "sherpa-gaon",
+                "tagline": "Hidden Himalayan Village of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Sherpa Gaon - Hidden Himalayan Village of Kalimpong | Kangchenjunga Views, Orange Orchards, Forest Trails & Authentic Mountain Life Sherpa Gaon is a peaceful offbeat Himalayan village located in the Kalimpong district of West Bengal, nestled amidst the scenic hills of the Eastern Himalayas. Situated at an altitude of approximately 1,650 metres (5,413 ft) above sea level, the village is known for its breathtaking views of Mount Kangchenjunga, traditional Sherpa culture, lush forests, orange orchards, tranquil surroundings, and authentic Himalayan village life.</p><p>Far from the crowds of commercial hill stations, Sherpa Gaon offers visitors an opportunity to experience the untouched beauty of the Eastern Himalayas while enjoying panoramic mountain vistas, fresh mountain air, rich biodiversity, and warm local hospitality. The village remains one of Kalimpong district's lesser-known gems, making it ideal for travelers seeking peace, nature, photography, birdwatching, and cultural experiences.</p><p>Surrounded by forested ridges, terraced farmlands, and traditional mountain settlements, Sherpa Gaon serves as an excellent destination for eco-tourism, village tourism, and slow travel experiences.</p><p>Gaon, Ramdhura, Icchegaon, Reshikhola, and other attractions of East Kalimpong.</p><p>Today, Sherpa Gaon attracts nature lovers, photographers, families, honeymoon couples, birdwatchers, and travelers looking for a genuine Himalayan escape.</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Sherpa Gaon Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sherpa Gaon Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "name": "Sherpa Gaon Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Pabong",
+                "slug": "pabong",
+                "tagline": "Hidden Himalayan Village of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Pabong - Hidden Himalayan Village of Kalimpong | Pine Forests, Kangchenjunga Views, Peaceful Nature Retreat & Offbeat Tourism Pabong is a serene offbeat mountain village located in the Kalimpong district of West Bengal, nestled amidst the forested hills of the Eastern Himalayas. Situated at an altitude of approximately 1,520 metres (4,987 ft) above sea level, this peaceful Himalayan destination is known for its panoramic views of Mount Kangchenjunga, dense pine forests, traditional village life, rich biodiversity, and tranquil natural surroundings.</p><p>Far away from the crowds of popular hill stations, Pabong offers travelers an authentic Himalayan experience surrounded by pristine forests, rolling hills, colourful mountain landscapes, and traditional rural culture. The village is gradually emerging as one of Kalimpong district's most attractive offbeat tourism destinations for nature lovers, photographers, birdwatchers, trekkers, families, and couples seeking peace and solitude.</p><p>Located close to Pedong, Sillery Gaon, Ramdhura, Icchegaon, and other scenic villages of East Kalimpong, Pabong serves as an excellent base for exploring the hidden gems of the Eastern Himalayas while enjoying breathtaking mountain views and genuine local hospitality.</p><p>Today, Pabong attracts visitors looking for slow travel experiences, village tourism, nature walks, birdwatching, photography, and peaceful Himalayan getaways.</p><h3>History, Geography & Climate</h3><p>Pabong is located within the scenic hills of East Kalimpong, a region historically influenced by Lepcha, Bhutia, and Nepali communities. The village reflects the traditional Himalayan way of life that has been preserved for generations.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Pabong Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Pabong Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "name": "Pabong Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Kagey",
+                "slug": "kagey",
+                "tagline": "Hidden Himalayan Village of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Kagey - Hidden Himalayan Village of Kalimpong | Kangchenjunga Views, Pine Forests, Orange Orchards & Authentic Village Tourism Kagey is one of the most beautiful offbeat villages in the Kalimpong district of West Bengal, situated amidst the serene hills of the Eastern Himalayas. Located at an altitude of approximately 1,700 metres (5,577 ft) above sea level, Kagey is known for its breathtaking views of Mount Kangchenjunga, peaceful forest landscapes, traditional Himalayan village life, orange orchards, rich</p><h3>biodiversity, and untouched natural beauty.</h3><p>Nestled between Pedong, Sillery Gaon, and Ramdhura, Kagey offers visitors a perfect escape from crowded tourist destinations. Surrounded by pine forests, terraced farmlands, mountain ridges, and lush valleys, the village provides an authentic Himalayan experience where nature, culture, and tranquility blend harmoniously.</p><p>Over the years, Kagey has emerged as one of East Kalimpong's most sought-after offbeat destinations for nature lovers, photographers, birdwatchers, families, honeymoon couples, and travelers seeking peace and solitude amidst the mountains.</p><p>The village remains relatively unexplored, preserving its traditional charm, pristine environment, and warm local hospitality. Visitors can enjoy panoramic views of snow-capped peaks, spectacular sunrises, forest walks, village trails, and a genuine connection with Himalayan culture.</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Kagey Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kagey Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "name": "Kagey Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Rikisum",
+                "slug": "rikisum",
+                "tagline": "Sunrise Paradise of Kalimpong |",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Rikisum - Sunrise Paradise of Kalimpong | Tiffin Dara View Point, Kangchenjunga Views, Pine Forests & Himalayan Village Tourism Rikisum is one of the most scenic offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,950 metres (6,398 ft) above sea level. Nestled amidst the forested hills of the Eastern Himalayas, Rikisum is renowned for its spectacular sunrise views, panoramic vistas of Mount Kangchenjunga, dense pine forests, rich biodiversity, peaceful village atmosphere, and the famous Tiffin Dara View Point.</p><p>Surrounded by pristine forests, rolling mountain ridges, and traditional Himalayan villages, Rikisum offers visitors a perfect blend of natural beauty, adventure, photography, birdwatching, and eco- tourism. Unlike crowded hill stations, the destination provides a tranquil environment where travelers can experience the untouched charm of the Eastern Himalayas.</p><p>Located near Pedong, Lava, Lolegaon, Kolakham, and Kalimpong, Rikisum serves as an ideal destination for nature lovers, photographers, honeymoon couples, families, birdwatchers, and travelers seeking peace and solitude amidst the mountains.</p><p>Today, Rikisum is regarded as one of North Bengal's finest sunrise destinations and continues to attract visitors looking for breathtaking Himalayan scenery and authentic mountain experiences.</p><h3>History, Geography & Climate</h3><p>Rikisum lies within the forest-rich Himalayan belt of Kalimpong district and has historically been influenced by Lepcha and Nepali communities. The village remains largely untouched by large-scale tourism, helping preserve its natural beauty and traditional culture.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rikisum Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rikisum Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "name": "Rikisum Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Samthar",
+                "slug": "samthar",
+                "tagline": "Hidden Valley of Kalimpong |",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Samthar - Hidden Valley of Kalimpong | Terraced Hills, Riverside Landscapes, Himalayan</p><h3>Culture & Offbeat Eco-Tourism</h3><p>Samthar is one of the most unique and unexplored destinations in the Kalimpong district of West Bengal, situated at an altitude ranging between approximately 1,400-1,800 metres (4,593-5,905 ft) above sea level. Unlike most Himalayan villages located on mountain ridges, Samthar is a vast valley region known for its terraced hills, fertile farmlands, rivers, forests, rich cultural heritage, and breathtaking Himalayan landscapes.</p><p>Nestled deep within the Eastern Himalayas, Samthar offers visitors a rare opportunity to experience authentic rural Himalayan life away from commercial tourism. The region is characterized by rolling green hills, agricultural terraces, orange orchards, cardamom plantations, forested slopes, and traditional villages inhabited by Lepcha and Nepali communities.</p><p>Because of its remoteness and natural beauty, Samthar has emerged as one of Kalimpong district's most promising eco-tourism and village tourism destinations. Travelers seeking peace, culture, photography, nature, and genuine Himalayan experiences find Samthar exceptionally rewarding.</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Samthar Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Samthar Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "name": "Samthar Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Yangmakum",
+                "slug": "yangmakum",
+                "tagline": "Hidden Himalayan Hamlet of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Yangmakum - Hidden Himalayan Hamlet of Kalimpong | Kangchenjunga Views, Forest Trails, Orange Orchards & Peaceful Village Tourism Yangmakum is one of the lesser-known yet incredibly scenic offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,650 metres (5,413 ft) above sea level. Nestled amidst the lush hills of the Eastern Himalayas, Yangmakum is renowned for its panoramic views of Mount Kangchenjunga, dense forests, orange orchards, rich biodiversity, peaceful surroundings, and authentic Himalayan village life.</p><p>Surrounded by rolling mountain ridges, terraced farmlands, pine forests, and traditional settlements, Yangmakum offers visitors a perfect escape from crowded tourist destinations. The village remains largely untouched by commercial tourism, allowing travelers to experience the true essence of rural Himalayan culture while enjoying breathtaking natural beauty.</p><p>Located near Pedong, Munsong, Algarah, Lava, and Kalimpong, Yangmakum serves as an excellent destination for nature lovers, photographers, birdwatchers, families, honeymoon couples, and travelers seeking tranquility amidst the mountains.</p><p>Today, Yangmakum is emerging as one of Kalimpong district's hidden gems, offering a harmonious blend of nature, culture, biodiversity, and sustainable village tourism.</p><h3>History, Geography & Climate</h3><p>Yangmakum lies within the culturally diverse Himalayan region of Kalimpong district. Influenced by Lepcha and Nepali traditions, the village has preserved its agricultural heritage and traditional way of life for generations.</p>",
+                "attractions": [
+                    "Lava",
+                    "Kolakham",
+                    "Rishop",
+                    "Gorubathan"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Yangmakum Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Yangmakum Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "name": "Yangmakum Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Munsong",
+                "slug": "munsong",
+                "tagline": "Gateway to Cinchona Heritage of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Munsong - Gateway to Cinchona Heritage of Kalimpong | Kangchenjunga Views, Cinchona Plantations, Colonial Legacy & Himalayan Nature Munsong is one of the most historically significant and naturally beautiful destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,550 metres (5,085 ft) above sea level. Nestled amidst the scenic hills of the Eastern Himalayas, Munsong is renowned for its sprawling Cinchona plantations, colonial heritage, panoramic views of Mount Kangchenjunga, rich</p><h3>biodiversity, and peaceful mountain atmosphere.</h3><p>Established during the British era as an important Cinchona cultivation region, Munsong played a significant role in the production of quinine, a medicine used for treating malaria. Today, the area combines historical importance with natural beauty, attracting travelers interested in heritage tourism, photography, nature, and offbeat Himalayan experiences.</p><p>Surrounded by forests, valleys, tea gardens, and mountain ridges, Munsong offers visitors a unique opportunity to explore Kalimpong's colonial history while enjoying breathtaking Himalayan scenery and authentic village life.</p><h3>History, Geography & Climate</h3><p>Munsong gained prominence during British rule when extensive Cinchona plantations were established to produce quinine. The region became one of the most important Cinchona-growing centres in India and continues to retain much of its colonial-era character.</p>",
+                "attractions": [
+                    "Lava",
+                    "Kolakham",
+                    "Rishop",
+                    "Gorubathan"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Munsong Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Munsong Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "name": "Munsong Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Chibo",
+                "slug": "chibo",
+                "tagline": "Scenic Tea Garden Village of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Chibo - Scenic Tea Garden Village of Kalimpong | Chibo Tea Estate, Kangchenjunga Views, Colonial Heritage & Himalayan Village Tourism Chibo is one of the most picturesque offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,250 metres (4,101 ft) above sea level. Nestled amidst the lush hills of the Eastern Himalayas, Chibo is renowned for its historic tea gardens, breathtaking views of Mount Kangchenjunga, colonial-era charm, rich biodiversity, and peaceful mountain atmosphere.</p><p>Located near Kalimpong town, Chibo is home to the famous Chibo Tea Estate, one of the oldest tea- growing regions in the area. The village offers a perfect blend of tea tourism, nature, culture, photography, and authentic Himalayan hospitality. Surrounded by emerald-green tea gardens, pine- covered hills, orange orchards, and scenic valleys, Chibo provides visitors with a unique opportunity to experience both the natural and cultural heritage of the Eastern Himalayas.</p><p>Unlike crowded tourist destinations, Chibo retains its tranquil village character, making it an ideal destination for nature lovers, photographers, birdwatchers, families, honeymoon couples, and travelers seeking a peaceful Himalayan retreat.</p><p>Today, Chibo is increasingly gaining popularity as one of Kalimpong district's finest tea tourism and village tourism destinations.</p><h3>History, Geography & Climate</h3><p>Chibo's history is closely associated with tea cultivation introduced during the British colonial period.</p>",
+                "attractions": [
+                    "Lava",
+                    "Kolakham",
+                    "Rishop",
+                    "Gorubathan"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Chibo Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Chibo Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "name": "Chibo Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Relli",
+                "slug": "relli",
+                "tagline": "Riverside Paradise of Kalimpong | Relli",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Relli - Riverside Paradise of Kalimpong | Relli River, Forest Landscapes, Adventure Tourism & Himalayan Nature Retreat Relli is one of the most beautiful riverside destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 900 metres (2,953 ft) above sea level. Located along the banks of the pristine Relli River, this peaceful Himalayan destination is renowned for its crystal-clear river waters, lush forests, scenic mountain landscapes, biodiversity, and tranquil atmosphere.</p><p>Unlike many mountain villages situated on ridges, Relli offers a unique blend of river tourism and Himalayan scenery. Surrounded by dense forests, rolling hills, orange orchards, and traditional villages, the destination provides visitors with an opportunity to enjoy nature, relaxation, adventure, photography, birdwatching, and eco-tourism.</p><p>The soothing sound of the river, combined with the surrounding greenery and mountain views, makes Relli an ideal retreat for travelers seeking peace and rejuvenation. The destination is increasingly attracting photographers, families, honeymoon couples, birdwatchers, anglers, and nature lovers.</p><p>Today, Relli remains one of Kalimpong district's most charming riverside tourism destinations.</p><h3>History, Geography & Climate</h3><p>Relli derives its identity from the beautiful Relli River that flows through the region before joining larger river systems of the Eastern Himalayas. The area has long supported local communities through agriculture, horticulture, and forest-based livelihoods.</p>",
+                "attractions": [
+                    "Lava",
+                    "Kolakham",
+                    "Rishop",
+                    "Gorubathan"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Relli Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Relli Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "name": "Relli Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Sakiyong",
+                "slug": "sakiyong",
+                "tagline": "Hidden Himalayan Village of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Sakiyong - Hidden Himalayan Village of Kalimpong | Lepcha Heritage, Kangchenjunga Views, Forest Trails & Offbeat Village Tourism Sakiyong is one of the most serene and culturally rich offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,650 metres (5,413 ft) above sea level.</p><p>Nestled amidst the pristine hills of the Eastern Himalayas, Sakiyong is renowned for its breathtaking views of Mount Kangchenjunga, rich Lepcha heritage, dense forests, traditional Himalayan village life, and peaceful natural surroundings.</p><p>Far from the crowds of commercial hill stations, Sakiyong offers visitors an authentic mountain experience where nature, culture, and history coexist harmoniously. Surrounded by rolling hills, pine forests, bamboo groves, orange orchards, and terraced farmlands, the village provides an ideal retreat for nature lovers, photographers, birdwatchers, families, and travelers seeking tranquility.</p><p>The region remains deeply connected to its Lepcha roots and continues to preserve traditional customs, folklore, and sustainable lifestyles. Its scenic beauty, biodiversity, and cultural significance make Sakiyong one of Kalimpong district's most rewarding offbeat tourism destinations.</p><p>Today, Sakiyong attracts travelers looking for authentic Himalayan experiences, village tourism, photography, birdwatching, and peaceful mountain retreats.</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Lava",
+                    "Kolakham",
+                    "Rishop",
+                    "Gorubathan"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Sakiyong Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sakiyong Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "name": "Sakiyong Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Kashyong",
+                "slug": "kashyong",
+                "tagline": "Scenic Mountain Village of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Kashyong - Scenic Mountain Village of Kalimpong | Kangchenjunga Views, Forest Landscapes, Orange Orchards & Authentic Himalayan Life Kashyong is one of the most picturesque offbeat villages in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,750 metres (5,741 ft) above sea level. Surrounded by lush forests, rolling hills, orange orchards, and panoramic Himalayan landscapes, Kashyong is renowned for its breathtaking views of Mount Kangchenjunga, rich biodiversity, peaceful environment, and traditional village culture.</p><p>Nestled amidst the scenic hills of the Eastern Himalayas, Kashyong offers travelers a unique opportunity to experience authentic mountain life away from commercial tourism. The village combines natural beauty, cultural heritage, agriculture, and eco-tourism to create one of the most rewarding offbeat experiences in North Bengal.</p><p>Its tranquil atmosphere, forested surroundings, and spectacular mountain views attract nature lovers, photographers, birdwatchers, honeymoon couples, families, and travelers seeking a peaceful Himalayan escape.</p><p>Today, Kashyong is gradually gaining recognition as one of Kalimpong district's hidden gems while retaining its traditional charm and natural beauty.</p><h3>History, Geography & Climate</h3><p>Kashyong lies within the culturally diverse Himalayan region of Kalimpong district and has long been associated with traditional agriculture and village life. The area reflects the cultural influences of Lepcha and Nepali communities who have inhabited the region for generations.</p>",
+                "attractions": [
+                    "Lava",
+                    "Kolakham",
+                    "Rishop",
+                    "Gorubathan"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Kashyong Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kashyong Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "name": "Kashyong Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Jhandi",
+                "slug": "jhandi",
+                "tagline": "Misty Himalayan Ridge of Kalimpong",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Jhandi - Misty Himalayan Ridge of Kalimpong | Jhandi Dara View Point, Kangchenjunga Views, Forest Landscapes & Offbeat Eco-Tourism Jhandi is one of the most scenic offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,900 metres (6,234 ft) above sea level. Nestled amidst the dense forests of the Eastern Himalayas, Jhandi is renowned for its breathtaking views of Mount Kangchenjunga, spectacular sunrise panoramas, rolling sea of clouds, rich biodiversity, and peaceful mountain atmosphere.</p><p>Surrounded by pine forests, Himalayan oak woodlands, rhododendron-covered slopes, and scenic mountain ridges, Jhandi offers visitors an unforgettable nature experience away from crowded tourist destinations. The region is particularly famous for the iconic Jhandi Dara View Point, which offers panoramic views of snow-capped Himalayan peaks, forested valleys, and the majestic Kangchenjunga range.</p><p>Located near Lava, Gorumara, Gorubathan, Chapramari, and Neora Valley National Park, Jhandi serves as an ideal destination for nature lovers, photographers, birdwatchers, trekkers, families, honeymoon couples, and travelers seeking tranquility amidst the Himalayas.</p><p>Today, Jhandi is considered one of North Bengal's finest sunrise and cloud-viewing destinations, attracting visitors throughout the year for its natural beauty, biodiversity, and eco-tourism opportunities.</p><h3>History, Geography & Climate</h3><p>Jhandi lies within the ecologically rich Himalayan forests of Kalimpong district and forms part of the broader Neora Valley ecosystem. Historically, the region has remained sparsely populated, allowing much of its natural environment to remain intact.</p>",
+                "attractions": [
+                    "Lava",
+                    "Kolakham",
+                    "Rishop",
+                    "Gorubathan"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Jhandi Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Jhandi Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "name": "Jhandi Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Bidyang",
+                "slug": "bidyang",
+                "tagline": "Hidden Riverside Hamlet of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Bidyang - Hidden Riverside Hamlet of Kalimpong | Teesta Valley Views, Forest Landscapes, Village Tourism & Himalayan Serenity Bidyang is one of the most peaceful and lesser-explored offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,350 metres (4,429 ft) above sea level. Nestled amidst the scenic hills of the Eastern Himalayas, Bidyang is renowned for its panoramic views of the Teesta Valley, lush forests, rich biodiversity, traditional Himalayan village life, and tranquil natural surroundings.</p><p>Surrounded by pine forests, agricultural terraces, orange orchards, bamboo groves, and rolling mountain ridges, Bidyang offers visitors an authentic Himalayan experience far away from commercial tourism. The destination provides a perfect blend of nature, culture, photography, birdwatching, eco-tourism, and rural mountain hospitality.</p><p>Its strategic location near Pedong, Reshikhola, Sillery Gaon, Ramdhura, and Aritar makes Bidyang an excellent destination for travelers seeking peaceful village tourism and scenic Himalayan landscapes.</p><p>Today, Bidyang remains one of Kalimpong district's hidden gems, attracting nature lovers, photographers, birdwatchers, families, and travelers looking for a quiet mountain retreat.</p><h3>History, Geography & Climate</h3><p>Bidyang is located within the historic Himalayan region of eastern Kalimpong district and has traditionally been dependent on agriculture, horticulture, and forest resources. The village continues to preserve its traditional character and close relationship with nature.</p>",
+                "attractions": [
+                    "Gorubathan",
+                    "Jhandi",
+                    "Lava",
+                    "Neora Valley National Park"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Bidyang Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Bidyang Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "name": "Bidyang Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Yelbong",
+                "slug": "yelbong",
+                "tagline": "Cave Village of Kalimpong |",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Yelbong - Cave Village of Kalimpong | Yelbong Caves, Forest Trails, Adventure Tourism & Hidden Himalayan Landscapes Yelbong is one of the most unique and adventurous offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,400 metres (4,593 ft) above sea level.</p><p>Nestled amidst the dense forests of the Eastern Himalayas, Yelbong is renowned for its fascinating cave systems, pristine natural surroundings, rich biodiversity, scenic mountain landscapes, and authentic Himalayan village life.</p><p>Surrounded by lush forests, mountain streams, bamboo groves, and rolling hills, Yelbong offers visitors a rare combination of adventure tourism, nature exploration, photography, birdwatching, and eco-tourism. The destination is particularly famous for the Yelbong Cave Trek, which takes travelers through forests, suspension bridges, rocky pathways, and hidden caves deep within the Himalayan wilderness.</p><p>Unlike crowded tourist destinations, Yelbong remains largely untouched by mass tourism, allowing visitors to experience the raw beauty of the Eastern Himalayas while enjoying the hospitality of local mountain communities.</p><p>Today, Yelbong attracts trekkers, adventure enthusiasts, photographers, nature lovers, families, and travelers seeking a unique Himalayan experience away from conventional hill stations.</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Gorubathan",
+                    "Jhandi",
+                    "Lava",
+                    "Neora Valley National Park"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Yelbong Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Yelbong Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "name": "Yelbong Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Kharka Gaon",
+                "slug": "kharka-gaon",
+                "tagline": "Sacred Himalayan Lake Village",
+                "altitude": "Approx. 1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Kanchenjunga Views, Mulkharka Lake, Forest Tourism, Village Stays",
+                "location": "Kalimpong, Kalimpong",
+                "description": "<p>Mulkharka - Sacred Himalayan Lake Village of Kalimpong | Mulkharka Lake, Kanchenjunga Views, Forest Trails & Old Silk Route Tourism Mulkharka is one of the most beautiful high-altitude offbeat destinations in the Kalimpong district of West Bengal, situated at an elevation of approximately 2,050-2,100 metres (6,725-6,890 ft) above sea level. Hidden amidst dense Himalayan forests near Lingsey and the Bengal-Sikkim border, this remote mountain village is renowned for its sacred Mulkharka Lake (Manokamana Lake), panoramic views of Mount Kangchenjunga, rich biodiversity, traditional Himalayan culture, and pristine natural surroundings.</p><p>Far away from the commercial tourism circuits of Darjeeling and Gangtok, Mulkharka offers travelers a rare opportunity to experience untouched Himalayan wilderness. Surrounded by pine forests, rhododendron-covered slopes, cardamom plantations, mountain streams, and traditional Lepcha, Bhutia, Sherpa, and Nepali settlements, the village represents one of the most authentic eco-tourism destinations in Eastern India.</p><p>The village is particularly famous for the enchanting Mulkharka Lake, a sacred alpine waterbody believed by local communities to possess spiritual significance. During clear weather, the lake beautifully reflects the snow-covered peaks of Kangchenjunga, creating one of the most spectacular natural scenes in the Kalimpong Himalayas.</p><p>Today, Mulkharka attracts trekkers, birdwatchers, photographers, nature lovers, spiritual travelers, and explorers seeking a truly offbeat Himalayan experience. Its combination of mountain scenery, cultural heritage, biodiversity, and tranquility makes it one of the hidden gems of North Bengal tourism.</p><p>Altitude: 2,050-2,100 m (6,725-6,890 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Near: Lingsey & Pedong Distance from Kalimpong: Approx. 50 km Distance from Pedong: Approx. 22 km Distance from NJP: Approx. 110 km Distance from Bagdogra Airport: Approx. 115 km Best Time to Visit: October-May Famous For: Mulkharka Lake, Kanchenjunga Views, Eco-Trekking, Birdwatching Tourism Type: Nature, Adventure, Spiritual Tourism, Village Tourism</p><h3>History, Geography & Location</h3>",
+                "attractions": [
+                    "Kalimpong",
+                    "Pedong",
+                    "Rikisum",
+                    "Lava"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Kanchenjunga Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Kharka Gaon Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kharka Gaon Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "name": "Kharka Gaon Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Rongo Valley",
+                "slug": "rongo-valley",
+                "tagline": "Gateway to the Eastern",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Rongo Valley - Gateway to the Eastern Himalayas | Cinchona Plantations, Rongo River, Forest Landscapes & Offbeat Nature Tourism Rongo Valley is one of the most picturesque and ecologically rich destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,500 metres (4,921 ft) above sea level. Nestled amidst the lush forests of the Eastern Himalayas, Rongo Valley is renowned for its sprawling Cinchona plantations, pristine rivers, rich biodiversity, scenic mountain landscapes, and peaceful natural surroundings.</p><p>Surrounded by dense forests, rolling hills, mountain streams, orange orchards, and traditional Himalayan villages, Rongo Valley offers visitors a perfect blend of nature, history, photography, birdwatching, eco-tourism, and authentic mountain hospitality. The region is historically significant for its British-era Cinchona plantations, which played an important role in the production of quinine for malaria treatment.</p><p>Located near Neora Valley National Park, Jhandi, Lava, Gorubathan, and Samsing, Rongo Valley serves as an ideal destination for nature lovers, photographers, birdwatchers, families, honeymoon couples, and travelers seeking tranquility amidst the Himalayan wilderness.</p><p>Today, Rongo Valley is considered one of North Bengal's finest offbeat destinations, attracting visitors with its biodiversity, plantation heritage, scenic beauty, and peaceful atmosphere.</p><h3>History, Geography & Climate</h3><p>Rongo Valley gained prominence during the British colonial era through the establishment of extensive Cinchona plantations. The region became an important center for quinine production and continues to preserve much of its historical plantation heritage.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Durpin Dara",
+                    "Pine View Nursery",
+                    "Pedong"
+                ],
+                "image": "images/gallery (10).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rongo Valley Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rongo Valley Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "name": "Rongo Valley Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Duka Valley",
+                "slug": "duka-valley",
+                "tagline": "Hidden Green Valley of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Duka Valley - Hidden Green Valley of Kalimpong | Forest Landscapes, Mountain Streams, Biodiversity & Offbeat Himalayan Escapes Duka Valley is one of the most untouched and naturally beautiful destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,350 metres (4,429 ft) above sea level. Surrounded by dense forests, rolling hills, mountain streams, and pristine Himalayan landscapes, Duka Valley is renowned for its rich biodiversity, peaceful environment, scenic beauty, and authentic village tourism experiences.</p><p>Nestled deep within the Eastern Himalayan ecosystem, Duka Valley offers visitors an opportunity to experience nature in its purest form. The region remains largely unexplored by mainstream tourism and continues to preserve its ecological richness and rural charm. Dense forests, bamboo groves, orange orchards, agricultural terraces, and crystal-clear streams create an ideal setting for eco- tourism, photography, birdwatching, and relaxation.</p><p>Located near Gorubathan, Rongo Valley, Jhandi, Lava, and Neora Valley National Park, Duka Valley attracts nature lovers, photographers, birdwatchers, trekkers, families, and travelers looking for peaceful offbeat destinations in North Bengal.</p><p>Today, Duka Valley remains one of Kalimpong district's hidden gems, offering a rare combination of</p><h3>biodiversity, forest landscapes, mountain tranquility, and authentic Himalayan hospitality.</h3><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Kalimpong",
+                    "Durpin Dara",
+                    "Pine View Nursery",
+                    "Pedong"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Duka Valley Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Duka Valley Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "name": "Duka Valley Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Chuikhim",
+                "slug": "chuikhim",
+                "tagline": "Hidden Himalayan Hamlet of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Chuikhim - Hidden Himalayan Hamlet of Kalimpong | Kangchenjunga Views, Forest Trails, Village Tourism & Offbeat Mountain Retreat Chuikhim is one of the most peaceful and scenic offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,650 metres (5,413 ft) above sea level.</p><p>Nestled amidst the pristine hills of the Eastern Himalayas, Chuikhim is renowned for its breathtaking views of Mount Kangchenjunga, dense forests, rich biodiversity, traditional village life, and tranquil mountain atmosphere.</p><p>Surrounded by pine forests, bamboo groves, orange orchards, cardamom plantations, and rolling Himalayan ridges, Chuikhim offers visitors an authentic mountain experience away from commercial tourism. The village is an ideal destination for nature lovers, photographers, birdwatchers, families, honeymoon couples, and travelers seeking peace amidst the Himalayan wilderness.</p><p>Unlike crowded hill stations, Chuikhim retains its traditional charm and natural beauty, allowing visitors to experience genuine Himalayan hospitality and rural mountain culture. The village serves and serene surroundings.</p><p>Today, Chuikhim is gradually emerging as one of Kalimpong district's most attractive offbeat tourism destinations while preserving its ecological and cultural heritage.</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Kalimpong",
+                    "Durpin Dara",
+                    "Pine View Nursery",
+                    "Pedong"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Chuikhim Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Chuikhim Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "name": "Chuikhim Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Nimbong",
+                "slug": "nimbong",
+                "tagline": "Scenic Mountain Village of",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Nimbong - Scenic Mountain Village of Kalimpong | Kangchenjunga Views, Orange Orchards, Forest Landscapes & Authentic Himalayan Life Nimbong is one of the most charming offbeat destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,700 metres (5,577 ft) above sea level. Surrounded by rolling hills, dense forests, orange orchards, and panoramic Himalayan landscapes, Nimbong is renowned for its breathtaking views of Mount Kangchenjunga, rich biodiversity, peaceful environment, and authentic village tourism experiences.</p><p>Nestled amidst the pristine hills of the Eastern Himalayas, Nimbong offers travelers a unique opportunity to experience traditional Himalayan culture while enjoying spectacular mountain scenery. The village remains largely untouched by commercial tourism, preserving its natural beauty, cultural heritage, and rural charm.</p><p>The destination is particularly popular among nature lovers, photographers, birdwatchers, families, honeymoon couples, and travelers seeking tranquility away from crowded hill stations. Its scenic landscapes, forest trails, and magnificent Himalayan views make Nimbong one of Kalimpong district's hidden gems.</p><p>Today, Nimbong continues to attract visitors looking for authentic mountain experiences, eco- tourism, photography, and peaceful village life in the Eastern Himalayas.</p><h3>History, Geography & Climate</h3><p>Nimbong lies within the culturally diverse Himalayan region of Kalimpong district and has long been associated with traditional agriculture and horticulture. The village continues to preserve its rural identity and close relationship with nature.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Durpin Dara",
+                    "Pine View Nursery",
+                    "Pedong"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Nimbong Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Nimbong Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "name": "Nimbong Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Reshikhola",
+                "slug": "reshikhola",
+                "tagline": "Riverside Paradise of Kalimpong",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Reshikhola - Riverside Paradise of Kalimpong | Reshi River, Riverside Camping, Angling & Himalayan Nature Tourism Reshikhola is one of the most picturesque riverside destinations in the Kalimpong district of West Bengal, situated at an altitude of approximately 610 metres (2,001 ft) above sea level. Nestled along the banks of the pristine Reshi River near the West Bengal-Sikkim border, Reshikhola is renowned for its crystal-clear river waters, lush forests, rich biodiversity, scenic mountain landscapes, and peaceful natural surroundings.</p><p>Surrounded by forested hills, river valleys, bamboo groves, and traditional Himalayan villages, Reshikhola offers visitors a perfect blend of nature tourism, eco-tourism, photography, birdwatching, riverside relaxation, and authentic mountain hospitality. The destination is particularly famous for its tranquil riverside setting where visitors can enjoy the soothing sounds of flowing water amidst unspoiled Himalayan landscapes.</p><p>Unlike crowded hill stations, Reshikhola provides an opportunity to experience nature in its purest form while enjoying peaceful riverside stays, village tourism, and outdoor activities. The region attracts nature lovers, photographers, birdwatchers, families, honeymoon couples, anglers, and travelers seeking a relaxing Himalayan escape.</p><p>Today, Reshikhola remains one of North Bengal's most popular offbeat riverside destinations while preserving its ecological beauty and rural charm.</p><h3>History, Geography & Climate</h3><p>Reshikhola is located along the historic river corridor that forms part of the natural boundary between West Bengal and Sikkim. The village has traditionally supported local communities through agriculture, fishing, tourism, and forest-based livelihoods.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Durpin Dara",
+                    "Pine View Nursery",
+                    "Pedong"
+                ],
+                "image": "images/gallery (14).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Reshikhola Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Reshikhola Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "name": "Reshikhola Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Deolo Hill",
+                "slug": "deolo-hill",
+                "tagline": "Crown of Kalimpong | Deolo",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Deolo Hill - Crown of Kalimpong | Deolo Park, Kangchenjunga Views, Paragliding & Himalayan Panorama Deolo Hill is one of the most iconic tourist attractions in the Kalimpong district of West Bengal, situated at an altitude of approximately 1,704 metres (5,591 ft) above sea level. Recognized as the highest point in Kalimpong, Deolo Hill is renowned for its breathtaking panoramic views of Mount Kangchenjunga, the Teesta Valley, surrounding Himalayan ranges, beautifully landscaped gardens, and adventure tourism activities.</p><p>Perched atop a scenic ridge overlooking Kalimpong town, Deolo Hill offers visitors an extraordinary combination of natural beauty, photography opportunities, recreation, sightseeing, and outdoor adventure. The destination is particularly famous for Deolo Park, which attracts visitors with its manicured gardens, viewpoints, family-friendly atmosphere, and spectacular mountain vistas.</p><p>The hill also serves as one of the most popular paragliding destinations in North Bengal, drawing adventure enthusiasts from across India. Its strategic location and unobstructed views make it one of the finest viewpoints in the Eastern Himalayas.</p><p>Today, Deolo Hill remains one of Kalimpong's most visited attractions, attracting nature lovers, photographers, families, honeymoon couples, and adventure seekers throughout the year.</p><h3>History, Geography & Climate</h3><p>Deolo Hill has long been one of Kalimpong's most important landmarks due to its strategic location and commanding views of the surrounding region. Over the years, the hill developed into a major tourism center while retaining its natural beauty and ecological significance.</p>",
+                "attractions": [
+                    "Kalimpong",
+                    "Durpin Dara",
+                    "Pine View Nursery",
+                    "Pedong"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Kalimpong",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Kalimpong"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Deolo Hill Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "title": "Kalimpong Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Deolo Hill Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "name": "Deolo Hill Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Kalimpong Sightseeing",
+                "slug": "kalimpong-sightseeing",
+                "tagline": "Panoramic Hill Station Tour | Viewpoints, Monasteries & Colonial Heritage",
+                "altitude": "1,250\u20131,704 m (4,100\u20135,590 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Deolo Hill, Durpin Monastery, Pine View Nursery, Morgan House, Graham's Homes",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Kalimpong Sightseeing unveils the colonial elegance, Buddhist heritage, and spectacular Himalayan vistas of the Kalimpong hills. Far more relaxed than neighbouring hill stations, Kalimpong boasts vibrant flower nurseries, ancient monasteries, and sweeping 360-degree views of Kanchenjunga and the Teesta Valley.</p><h3>Signature Sightseeing Highlights</h3><p>A full-day Kalimpong tour covers Deolo Hill (the highest point in Kalimpong), Dr. Graham's Homes, Pine View Cactus Nursery (home to exotic alpine and desert cactus collections), Mangal Dham, Durpin Dara Hill, Zang Dhok Palri Phodang Monastery, and the heritage Morgan House.</p><h3>Experiences & Local Markets</h3><p>Visitors can also stroll through the bustling Kalimpong Haat Bazaar, savor authentic Darjeeling-Kalimpong momos and Tibetan delicacies, and sample local Kalimpong cheese, lollipops, and homemade chili pickle.</p>",
+                "attractions": [
+                    "Deolo Hill Park & Viewpoint",
+                    "Durpin Monastery",
+                    "Pine View Cactus Nursery",
+                    "Heritage Morgan House"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "360-degree Kanchenjunga panoramas from Deolo Hill",
+                    "Historic British architecture & Morgan House",
+                    "World-renowned orchid & cactus nurseries",
+                    "Authentic Tibetan monastery peace"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Deolo Viewpoint"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Monasteries"
+                    },
+                    {
+                        "icon": "shopping",
+                        "label": "Local Markets"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (75 km)",
+                    "byTrain": "New Jalpaiguri (70 km)",
+                    "byRoad": "Well connected via NH 10 from Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "Full Day Kalimpong Local Sightseeing",
+                        "includes": "Dedicated Cab + All Points",
+                        "price": 2800,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "title": "2N/3D Kalimpong Heritage Tour",
+                        "includes": "Stay + Sightseeing + Transfers",
+                        "price": 8999,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "The Elgin Silver Oaks",
+                        "rating": 4.8,
+                        "reviews": 92,
+                        "type": "Heritage Hotel",
+                        "price": 4200,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "name": "Deolo Cliff View Homestay",
+                        "rating": 4.6,
+                        "reviews": 44,
+                        "type": "Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ]
             }
         ]
     },
     "dooars": {
         "title": "Dooars",
         "subtitle": "The Doorway to the Eastern Himalayas",
-        "description": "Rich wildlife, dense forests, pristine rivers — where the plains meet the mountains.",
-        "regionDescription": "Dooars — literally 'the doors' — is where the plains meet the mountains in a rush of green. Riverbed campsites, jungle jeep safaris, birdwatcher's paradises, and elephant corridors make this one of India's most underrated wilderness zones. CallingHills takes you to Jhalong's riverside camps and Rocky Island's wildness.",
+        "description": "Rich wildlife, dense forests, pristine rivers \u2014 where the plains meet the mountains.",
+        "regionDescription": "Dooars \u2014 literally 'the doors' \u2014 is where the plains meet the mountains in a rush of green. Riverbed campsites, jungle jeep safaris, birdwatcher's paradises, and elephant corridors make this one of India's most underrated wilderness zones. CallingHills takes you to Jhalong's riverside camps and Rocky Island's wildness.",
         "heroImage": "dest-dooars.png",
         "location": "Jalpaiguri & Alipurduar Districts, West Bengal",
         "places": [
             {
-                "name": "Jaldapara",
-                "slug": "jaldapara",
+                "name": "Jaldapara National Park",
+                "slug": "jaldapara-national-park",
                 "tagline": "Wildlife Paradise of Dooars",
-                "altitude": "61–175 m (200–574 ft)",
-                "bestTime": "October–May",
+                "altitude": "61\u2013175 m (200\u2013574 ft)",
+                "bestTime": "October\u2013May",
                 "famousFor": "One-Horned Rhinoceros, Elephant Safari, Biodiversity",
                 "location": "Alipurduar, West Bengal",
-                "description": "<p>Jaldapara National Park is a prominent wildlife destination located in the Alipurduar district at the foothills of the Eastern Himalayas. Spanning over 216 square kilometres, the park is celebrated for its vast savannah grasslands, riverine forests, and the highest population of the endangered Indian One-Horned Rhinoceros in the state of West Bengal.</p><h3>History & Geography</h3><p>Established as a wildlife sanctuary in 1941 to protect the Indian one-horned rhinoceros, Jaldapara was elevated to the status of a National Park in 2012. The Torsa River flows through the sanctuary, creating a diverse ecosystem of riverine forests, tall elephant grass, and swamps that sustain its rich wildlife.</p><h3>Flora & Fauna</h3><p>Besides the rhinos, the park is home to a robust population of Indian elephants, leopards, sambar deer, barking deer, wild boars, and the rare Bengal florican. The varied terrain and river networks make it an excellent spot for wildlife safaris, particularly on elephant back or by jeep.</p><h3>Detailed Insights</h3><p>Jaldapara National Park is one of the most celebrated wildlife destinations in West Bengal , located in</p><p>the Alipurduar district  of the Dooars region. Spread across approximately 216 square kilometres</p><p>along the banks of the Torsa River , the park lies at an altitude ranging from 61 to 175 metres (200 –</p><p>574 ft) . Declared a Wildlife Sanctuary in 1941  and upgraded to a National Park in 2012 , Jaldapara is</p><p>internationally renowned for its population of the Indian One -Horned Rhinoceros , making it the</p><p>second -largest habitat for this endangered species in India after Kaziranga National Park.</p><p>Known for its vast grasslands, dense riverine forests, wetlands, and rich biodiversity, Jaldapara is a</p><p>paradise for wildlife enthusiasts, birdwatchers, photographers, and nature lovers. Visitors can</p><p>experience thrilling jeep safaris  and the iconic elephant safari , offering exceptional opportunities to</p><p>observe rhinos, elephants, bison, deer, and numerous bird species in their natural habitat. The park</p><p>is one of the finest examples of the Eastern Himalayan foothill ecosystem and forms an integral part</p>",
+                "description": "<p>Jaldapara National Park is a prominent wildlife destination located in the Alipurduar district at the foothills of the Eastern Himalayas. Spanning over 216 square kilometres, the park is celebrated for its vast savannah grasslands, riverine forests, and the highest population of the endangered Indian One-Horned Rhinoceros in the state of West Bengal.</p><h3>History & Geography</h3><p>Established as a wildlife sanctuary in 1941 to protect the Indian one-horned rhinoceros, Jaldapara was elevated to the status of a National Park in 2012. The Torsa River flows through the sanctuary, creating a diverse ecosystem of riverine forests, tall elephant grass, and swamps that sustain its rich wildlife.</p><h3>Flora & Fauna</h3><p>Besides the rhinos, the park is home to a robust population of Indian elephants, leopards, sambar deer, barking deer, wild boars, and the rare Bengal florican. The varied terrain and river networks make it an excellent spot for wildlife safaris, particularly on elephant back or by jeep.</p><h3>Detailed Insights</h3><p>Jaldapara National Park is one of the most celebrated wildlife destinations in West Bengal , located in</p><p>the Alipurduar district  of the Dooars region. Spread across approximately 216 square kilometres</p><p>along the banks of the Torsa River , the park lies at an altitude ranging from 61 to 175 metres (200 \u2013</p><p>574 ft) . Declared a Wildlife Sanctuary in 1941  and upgraded to a National Park in 2012 , Jaldapara is</p><p>internationally renowned for its population of the Indian One -Horned Rhinoceros , making it the</p><p>second -largest habitat for this endangered species in India after Kaziranga National Park.</p><p>Known for its vast grasslands, dense riverine forests, wetlands, and rich biodiversity, Jaldapara is a</p><p>paradise for wildlife enthusiasts, birdwatchers, photographers, and nature lovers. Visitors can</p><p>experience thrilling jeep safaris  and the iconic elephant safari , offering exceptional opportunities to</p><p>observe rhinos, elephants, bison, deer, and numerous bird species in their natural habitat. The park</p><p>is one of the finest examples of the Eastern Himalayan foothill ecosystem and forms an integral part</p>",
                 "attractions": [
                     "Elephant Safari",
                     "Jeep Safari",
@@ -1340,14 +5586,14 @@ window.destinationsData = {
                 ]
             },
             {
-                "name": "Gorumara",
-                "slug": "gorumara",
+                "name": "Gorumara National Park",
+                "slug": "gorumara-national-park",
                 "tagline": "Wildlife Jewel of Dooars",
-                "altitude": "80–200 m (262–656 ft)",
-                "bestTime": "October–May",
+                "altitude": "80\u2013200 m (262\u2013656 ft)",
+                "bestTime": "October\u2013May",
                 "famousFor": "Indian Bison (Gaur), Elephant Safari, Forest Adventure",
                 "location": "Jalpaiguri, West Bengal",
-                "description": "<p>Gorumara National Park is a relatively small but highly significant wildlife sanctuary located in the Jalpaiguri district of the Dooars region. Primarily known for its population of the Indian rhinoceros, Gorumara features mixed deciduous forests, sprawling grasslands, and the meandering Murti and Jaldhaka rivers.</p><h3>Biodiversity & Attractions</h3><p>The park is a crucial habitat for Indian rhinoceros, Asian elephants, gaurs (Indian bison), leopards, and various deer species. It is famous for its well-maintained watchtowers like Jatraprasad, Rhino Observation Point, and Chandrachur, which offer safe and spectacular wildlife viewing opportunities. The dense canopy is also a paradise for birdwatchers, home to peacocks, woodpeckers, and pheasans.</p><h3>Culture & Eco-Tourism</h3><p>Fringe villages inhabited by indigenous tribes offer authentic cultural experiences, including traditional tribal dances and homestay accommodations. The integration of local communities into forest conservation has made Gorumara a successful eco-tourism model.</p><h3>Detailed Insights</h3><p>Gorumara National Park is one of the premier wildlife destinations in West Bengal , located in the</p><p>Jalpaiguri district  of the Dooars region. Spread across approximately 80 square kilometres  along the</p><p>floodplains of the Murti and Jaldhaka Rivers , the park lies at an altitude ranging from 80 to 200</p><p>metres (262 –656 ft) . Declared a Wildlife Sanctuary in 1949  and upgraded to a National Park in</p><p>1994 , Gorumara is internationally renowned for its thriving population of Indian Gaur (Indian Bison) ,</p><p>Known for its lush Sal forests, riverine grasslands, dense woodlands, wetlands, and scenic</p><p>landscapes, Gorumara is a paradise for wildlife enthusiasts, birdwatchers, photographers, and</p><p>nature lovers. Visitors can experience exciting jeep safaris  through designated tourism zones,</p><p>explore famous watchtowers, and witness magnificent wildlife in their natural habitat. The park</p><p>forms an important part of the Terai -Dooars ecosystem  and is one of the most visited national parks</p>",
+                "description": "<p>Gorumara National Park is a relatively small but highly significant wildlife sanctuary located in the Jalpaiguri district of the Dooars region. Primarily known for its population of the Indian rhinoceros, Gorumara features mixed deciduous forests, sprawling grasslands, and the meandering Murti and Jaldhaka rivers.</p><h3>Biodiversity & Attractions</h3><p>The park is a crucial habitat for Indian rhinoceros, Asian elephants, gaurs (Indian bison), leopards, and various deer species. It is famous for its well-maintained watchtowers like Jatraprasad, Rhino Observation Point, and Chandrachur, which offer safe and spectacular wildlife viewing opportunities. The dense canopy is also a paradise for birdwatchers, home to peacocks, woodpeckers, and pheasans.</p><h3>Culture & Eco-Tourism</h3><p>Fringe villages inhabited by indigenous tribes offer authentic cultural experiences, including traditional tribal dances and homestay accommodations. The integration of local communities into forest conservation has made Gorumara a successful eco-tourism model.</p><h3>Detailed Insights</h3><p>Gorumara National Park is one of the premier wildlife destinations in West Bengal , located in the</p><p>Jalpaiguri district  of the Dooars region. Spread across approximately 80 square kilometres  along the</p><p>floodplains of the Murti and Jaldhaka Rivers , the park lies at an altitude ranging from 80 to 200</p><p>metres (262 \u2013656 ft) . Declared a Wildlife Sanctuary in 1949  and upgraded to a National Park in</p><p>1994 , Gorumara is internationally renowned for its thriving population of Indian Gaur (Indian Bison) ,</p><p>Known for its lush Sal forests, riverine grasslands, dense woodlands, wetlands, and scenic</p><p>landscapes, Gorumara is a paradise for wildlife enthusiasts, birdwatchers, photographers, and</p><p>nature lovers. Visitors can experience exciting jeep safaris  through designated tourism zones,</p><p>explore famous watchtowers, and witness magnificent wildlife in their natural habitat. The park</p><p>forms an important part of the Terai -Dooars ecosystem  and is one of the most visited national parks</p>",
                 "attractions": [
                     "Jatraprasad Watchtower",
                     "Medla Watchtower",
@@ -1385,14 +5631,14 @@ window.destinationsData = {
                 }
             },
             {
-                "name": "Buxa",
-                "slug": "buxa",
+                "name": "Buxa Tiger Reserve",
+                "slug": "buxa-tiger-reserve",
                 "tagline": "Wilderness of Dooars",
-                "altitude": "60–1,750 m (197–5,741 ft)",
-                "bestTime": "October–April",
+                "altitude": "60\u20131,750 m (197\u20135,741 ft)",
+                "bestTime": "October\u2013April",
                 "famousFor": "Tiger Reserve, Forests, Fort, Trekking",
                 "location": "Alipurduar, West Bengal",
-                "description": "<p>Buxa Tiger Reserve lies in the Alipurduar district, bordering Bhutan, and encompasses the scenic Buxa hills. Spanning over 760 square kilometres, it is the largest forest reserve in North Bengal, characterized by dense tropical evergreen and moist deciduous forests, deep valleys, and historically significant ruins.</p><h3>History & the Buxa Fort</h3><p>At the heart of the reserve lies the historic Buxa Fort, situated at an altitude of 867 metres (2,844 ft). Originally a Bhutanese stronghold protecting the Silk Route, it was later captured by the British and used as a high-security detention camp for Indian freedom fighters during the independence movement.</p><h3>Wildlife & Trekking</h3><p>The reserve serves as an international corridor for elephant migration between India and Bhutan. While tigers are elusive, the forest is home to leopards, clouded leopards, elephants, gaurs, and over 284 bird species. Buxa is also renowned for its trekking routes, including trails to Jayanti, Mahakal Cave, and Rover's Point.</p><h3>Detailed Insights</h3><p>district  of the Dooars region along the foothills of the Eastern Himalayas. Spread across</p><p>approximately 760 square kilometres , the reserve lies at an altitude ranging from 60 to 1,750</p><p>metres (197 –5,741 ft) , making it one of the most ecologically diverse landscapes in Eastern India.</p><p>Declared a Tiger Reserve in 1983  under India's Project Tiger, Buxa is internationally recognised for its</p><p>rich biodiversity, dense tropical forests, Himalayan foothill ecosystems, historic Buxa Fort, scenic</p><p>Bordering Bhutan's Phibsoo Wildlife Sanctuary  to the north and Assam's Manas National Park  to</p><p>the east, Buxa forms an important wildlife corridor connecting the Eastern Himalayas with the Indo -</p><p>Bhutan biodiversity landscape. The reserve is home to Royal Bengal Tigers, Asian Elephants,</p><p>Leopards, Gaur, Himalayan wildlife, more than 450 species of birds , and countless species of</p><p>butterflies, reptiles, orchids, and medicinal plants. It is one of the finest destinations in the Dooars</p>",
+                "description": "<p>Buxa Tiger Reserve lies in the Alipurduar district, bordering Bhutan, and encompasses the scenic Buxa hills. Spanning over 760 square kilometres, it is the largest forest reserve in North Bengal, characterized by dense tropical evergreen and moist deciduous forests, deep valleys, and historically significant ruins.</p><h3>History & the Buxa Fort</h3><p>At the heart of the reserve lies the historic Buxa Fort, situated at an altitude of 867 metres (2,844 ft). Originally a Bhutanese stronghold protecting the Silk Route, it was later captured by the British and used as a high-security detention camp for Indian freedom fighters during the independence movement.</p><h3>Wildlife & Trekking</h3><p>The reserve serves as an international corridor for elephant migration between India and Bhutan. While tigers are elusive, the forest is home to leopards, clouded leopards, elephants, gaurs, and over 284 bird species. Buxa is also renowned for its trekking routes, including trails to Jayanti, Mahakal Cave, and Rover's Point.</p><h3>Detailed Insights</h3><p>district  of the Dooars region along the foothills of the Eastern Himalayas. Spread across</p><p>approximately 760 square kilometres , the reserve lies at an altitude ranging from 60 to 1,750</p><p>metres (197 \u20135,741 ft) , making it one of the most ecologically diverse landscapes in Eastern India.</p><p>Declared a Tiger Reserve in 1983  under India's Project Tiger, Buxa is internationally recognised for its</p><p>rich biodiversity, dense tropical forests, Himalayan foothill ecosystems, historic Buxa Fort, scenic</p><p>Bordering Bhutan's Phibsoo Wildlife Sanctuary  to the north and Assam's Manas National Park  to</p><p>the east, Buxa forms an important wildlife corridor connecting the Eastern Himalayas with the Indo -</p><p>Bhutan biodiversity landscape. The reserve is home to Royal Bengal Tigers, Asian Elephants,</p><p>Leopards, Gaur, Himalayan wildlife, more than 450 species of birds , and countless species of</p><p>butterflies, reptiles, orchids, and medicinal plants. It is one of the finest destinations in the Dooars</p>",
                 "attractions": [
                     "Buxa Fort",
                     "Jayanti River",
@@ -1431,29 +5677,31 @@ window.destinationsData = {
                 }
             },
             {
-                "name": "Jhalong",
-                "slug": "jhalong",
-                "tagline": "Riverside Gem of Dooars",
-                "altitude": "650 m (2,133 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Jaldhaka River, Hydel Project, Birdwatching",
-                "location": "Kalimpong, West Bengal",
-                "description": "<p>Jhalong is a serene, offbeat destination located along the banks of the Jaldhaka River, near the Indo-Bhutan border in the Kalimpong district. It is highly regarded for its natural beauty, peaceful environment, and the Jaldhaka Hydroelectric Project.</p><h3>Attractions & Nature</h3><p>The Jaldhaka Hydroelectric Project forms a large reservoir that attracts numerous migratory waterfowls during the winter months, making it a popular spot for birdwatching. The surrounding forests and river banks offer excellent opportunities for nature walks, camping, and picnics.</p><h3>Culture & Lifestyle</h3><p>The local population is a mix of Nepali, Lepcha, and Bhutanese communities. The vibrant Jhalong market is a bustling hub where villagers from surrounding areas, including Bhutanese nationals, gather to trade local produce, traditional garments, and handicrafts.</p><h3>Detailed Insights</h3><p>With its beautiful Bindu Barrage , crystal -clear Jaldhaka River, breathtaking India –Bhutan border</p><p>views, lush forests, cardamom plantations, rich birdlife, and peaceful Himalayan atmosphere, Bindu</p><p>offers one of the most scenic and tranquil eco -tourism experiences in the Dooars.</p>",
+                "name": "Jayanti",
+                "slug": "jayanti",
+                "tagline": "Queen of Dooars | Riverside Village, Buxa Tiger Reserve & Himalayan Wilderness",
+                "altitude": "180 m (591 ft)",
+                "bestTime": "October-April",
+                "famousFor": "Jayanti River, Buxa Tiger Reserve, Buxa Fort Trek, Mahakal Cave, Birdwatching",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Jayanti is a picturesque riverside village located in the Alipurduar district of West Bengal, nestled on the edge of the Buxa Tiger Reserve in the heart of the Dooars. Situated at an altitude of approximately 180 metres (591 ft), Jayanti is one of the most beautiful offbeat destinations in North Bengal, renowned for its crystal-clear riverbed, dense forests, spectacular Himalayan foothills, rich</p><h3>wildlife, and peaceful natural surroundings. The village lies beside the seasonal Jayanti River, with</h3><p>the forested hills of Bhutan forming a breathtaking backdrop.</p><p>Often referred to as the \"Queen of Dooars,\" Jayanti is a paradise for nature lovers, wildlife enthusiasts, photographers, trekkers, birdwatchers, and travellers seeking a peaceful escape into the wilderness. Its untouched beauty, eco-tourism opportunities, and close proximity to Buxa Tiger Reserve make it one of the finest destinations in the Eastern Himalayas.</p><p>Altitude: 180 m (591 ft) District: Alipurduar State: West Bengal Region: Dooars Distance from Alipurduar: ~30 km Distance from Rajabhatkhawa: ~15 km Distance from Hasimara: ~35 km Distance from Siliguri: ~180 km Distance from NJP Railway Station: ~185 km Distance from Bagdogra Airport: ~195 km Best Time to Visit: October-April Permit Required: Entry permit required for Buxa Tiger Reserve and certain trekking routes Famous For: Jayanti River, Buxa Tiger Reserve, Buxa Fort Trek, Mahakal Cave, Birdwatching & Eco Tourism</p><h3>History, Geography & Climate</h3>",
                 "attractions": [
-                    "Jaldhaka River",
-                    "Jhalong Hydroelectric Project",
-                    "Riverside Viewpoints"
+                    "Does Jayanti receive snowfall?",
+                    "Is mobile network available in Jayanti?",
+                    "What food is available in Jayanti?",
+                    "How many days are needed to explore Jayanti?"
                 ],
-                "image": "images/gallery (6).jpg",
+                "image": "images/gallery (4).jpg",
                 "highlights": [
-                    "Emerald Jaldhaka River",
-                    "Historic hydel project",
-                    "Peaceful riverside setting"
+                    "Picturesque landscapes in Dooars",
+                    "Jayanti River",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
                 ],
                 "thingsToDo": [
                     {
                         "icon": "hiking",
-                        "label": "River Walk"
+                        "label": "Nature Walks"
                     },
                     {
                         "icon": "camera",
@@ -1461,25 +5709,413 @@ window.destinationsData = {
                     },
                     {
                         "icon": "binoculars",
-                        "label": "Bird Watching"
+                        "label": "Viewpoints"
                     },
                     {
-                        "icon": "food",
-                        "label": "Local Food"
+                        "icon": "village",
+                        "label": "Local Culture"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Bagdogra Airport (90 km)",
-                    "byTrain": "New Jalpaiguri (85 km)",
-                    "byRoad": "Via Gorubathan from Siliguri"
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Jayanti Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Jayanti Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "name": "Jayanti Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Chilapata Forest",
+                "slug": "chilapata-forest",
+                "tagline": "Ancient Wilderness of Dooars",
+                "altitude": "120 m (394 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Wildlife Safari, Nalraja Fort, Elephant Corridor",
+                "location": "Alipurduar, West Bengal",
+                "description": "<p>The Chilapata Forest is a dense, wild, and mystical forest corridor located between Jaldapara National Park and Buxa Tiger Reserve. It serves as a crucial migration route for large herbivores, particularly elephants and rhinos, and offers one of the most authentic jungle experiences in the Dooars.</p><h3>History & the Nalraja Garh</h3><p>Hidden deep within the forest are the ruins of the Nalraja Garh, an ancient fort dating back to the Gupta period (5th century AD). The crumbling brick structures, overgrown with vegetation, add an air of mystery and historical intrigue to the wilderness.</p><h3>Wildlife & Eco-Tourism</h3><p>Chilapata is less commercialized than its neighboring parks, allowing for a more immersive and thrilling wildlife experience. The forest is home to elephants, leopards, rhinos, wild boars, and a rich diversity of birdlife. Jeep safaris through the dense canopy often result in exciting encounters with the resident fauna.</p><h3>Detailed Insights</h3><p>Chilapata Forest is a pristine tropical forest located in the Alipurduar district of West Bengal , nestled</p><p>between Jaldapara National Park  and Buxa Tiger Reserve  in the heart of the Dooars. Situated at an</p><p>altitude of approximately 120 metres (394 ft) , Chilapata  is one of North Bengal's finest wildlife</p><p>destinations, renowned for its dense Sal forests, rich biodiversity, elephant corridors, jeep safaris,</p><p>and the historic Nalraja Fort . The forest serves as a vital wildlife corridor connecting two of Eastern</p><p>Known for its peaceful wilderness, abundant wildlife, scenic forest roads, and eco -tourism</p><p>experiences, Chilapata  is a paradise for wildlife enthusiasts, birdwatchers, photographers, and</p><p>nature lovers. Its untouched forests, tribal culture, and remarkable biodiversity make it one of the</p>",
+                "attractions": [
+                    "Nalraja Fort",
+                    "Elephant Corridor",
+                    "Dense Sal Forests"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Ancient Nalraja Fort ruins",
+                    "Active elephant corridor",
+                    "Dense Sal forests"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "safari",
+                        "label": "Jungle Safari"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Fort Trek"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Wildlife Spotting"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (155 km)",
+                    "byTrain": "Hasimara (20 km)",
+                    "byRoad": "Via Jaldapara from Siliguri"
                 }
+            },
+            {
+                "name": "Murti",
+                "slug": "murti",
+                "tagline": "Riverside Paradise of Dooars | Scenic Forests, Nature Retreat & Eco Tourism",
+                "altitude": "140 m (459 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Murti River, Riverside Stay, Nature Tourism, Birdwatching & Forest Landscape",
+                "location": "Jalpaiguri, Dooars",
+                "description": "<p>Murti is a serene riverside destination located in the Jalpaiguri district of West Bengal, on the banks of the beautiful Murti River at the edge of Gorumara National Park and Chapramari Wildlife Sanctuary in the heart of the Dooars. Situated at an altitude of approximately 140 metres (459 ft), Murti is one of the most scenic nature retreats in North Bengal, renowned for its crystal-clear river, lush Sal forests, rich biodiversity, peaceful surroundings, and breathtaking sunrise and sunset views.</p><p>Surrounded by dense forests, rolling foothills, tea gardens, and wildlife habitats, Murti is a favourite destination for families, honeymoon couples, photographers, birdwatchers, and travellers looking to relax amidst nature. Its calm atmosphere and strategic location make it an excellent base for exploring the wildlife and eco-tourism attractions of the Dooars.</p><p>Altitude: 140 m (459 ft) District: Jalpaiguri State: West Bengal Region: Dooars Distance from Lataguri: ~8 km Distance from Chalsa: ~10 km Distance from Siliguri: ~75 km Distance from NJP Railway Station: ~80 km Distance from Bagdogra Airport: ~85 km Best Time to Visit: October-May Permit Required: No (permits required for nearby wildlife safaris) Famous For: Murti River, Riverside Stay, Nature Tourism, Birdwatching & Forest Landscape</p><h3>History, Geography & Climate</h3><p>Murti developed as a peaceful forest-side tourism destination due to its location beside the Murti River and its proximity to Gorumara National Park. Today, it is one of the most visited eco-tourism destinations in the Dooars.</p><p>The landscape consists of wide riverbeds, dense Sal forests, grasslands, tea gardens, and Himalayan foothills. Winters are cool and pleasant, spring brings vibrant greenery, autumn offers excellent weather, while the monsoon transforms the river and forests into a spectacular green landscape.</p>",
+                "attractions": [
+                    "Does Murti receive snowfall?",
+                    "Is mobile network available in Murti?",
+                    "What food is available in Murti?",
+                    "How many days are needed to explore Murti?"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Murti River",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Murti Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Murti Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "name": "Murti Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Lataguri",
+                "slug": "lataguri",
+                "tagline": "Gateway to Gorumara National Park | Wildlife, Forest Stay & Nature Tourism",
+                "altitude": "130 m (427 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Gorumara National Park, Wildlife Safari, Forest Resorts & Eco Tourism",
+                "location": "Jalpaiguri, Dooars",
+                "description": "<p>Lataguri is a charming forest town located in the Jalpaiguri district of West Bengal, at the entrance of Gorumara National Park in the Dooars region. Situated at an altitude of approximately 130 metres (427 ft), Lataguri is one of the most popular eco-tourism destinations in North Bengal, serving as the primary base for exploring Gorumara National Park, Chapramari Wildlife Sanctuary, Murti River, and the surrounding forests.</p><p>Surrounded by lush Sal forests, tea gardens, rivers, and rich wildlife habitats, Lataguri is an ideal destination for wildlife enthusiasts, photographers, birdwatchers, families, and nature lovers.</p><p>Comfortable forest resorts, exciting jeep safaris, peaceful natural surroundings, and easy accessibility make Lataguri one of the best destinations for exploring the wilderness of the Dooars.</p><p>Altitude: 130 m (427 ft) District: Jalpaiguri State: West Bengal Region: Dooars Distance from Gorumara National Park: ~2 km Distance from Chalsa: ~10 km Distance from Siliguri: ~75 km Distance from NJP Railway Station: ~80 km Distance from Bagdogra Airport: ~85 km Best Time to Visit: October-May Permit Required: Yes, for Gorumara safari Famous For: Gorumara National Park, Wildlife Safari, Forest Resorts & Eco Tourism</p><h3>History, Geography & Climate</h3><p>Lataguri developed as a forest settlement and gradually became the tourism hub of Gorumara National Park. Today, it is one of the busiest wildlife tourism centres in North Bengal, offering excellent accommodation and safari facilities.</p>",
+                "attractions": [
+                    "Does Chilapata Forest receive snowfall?",
+                    "Is mobile network available in Chilapata Forest?",
+                    "What food is available near Chilapata Forest?",
+                    "How many days are needed to explore Chilapata Forest?"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Gorumara National Park",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Lataguri Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Lataguri Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "name": "Lataguri Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Samsing",
+                "slug": "samsing",
+                "tagline": "Green Valley of Dooars | Tea Gardens, Hills, Forests & Nature Escape",
+                "altitude": "900 m (2,953 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Tea Gardens, Neora Valley, Orange Orchards, Birdwatching & Nature Tourism",
+                "location": "Kalimpong, Dooars",
+                "description": "<p>Samsing is a picturesque hill village located in the Kalimpong district of West Bengal, on the eastern edge of the Dooars near Neora Valley National Park. Situated at an altitude of approximately 900 metres (2,953 ft), Samsing is renowned for its lush tea gardens, rolling green hills, orange orchards, dense forests, scenic viewpoints, and tranquil Himalayan landscapes. It serves as one of the most beautiful gateways to the forests and rivers of the eastern Dooars.</p><p>Surrounded by tea estates, tropical forests, mountain streams, and abundant birdlife, Samsing is a paradise for nature lovers, photographers, birdwatchers, families, and honeymoon couples. Its refreshing climate, peaceful atmosphere, and breathtaking scenery make it one of the finest offbeat destinations in North Bengal.</p><p>Altitude: 900 m (2,953 ft) District: Kalimpong State: West Bengal Region: Dooars Distance from Chalsa: ~18 km Distance from Lataguri: ~30 km Distance from Siliguri: ~82 km Distance from NJP Railway Station: ~88 km Distance from Bagdogra Airport: ~92 km Best Time to Visit: October-May Permit Required: No (permit required for certain protected forest areas) Famous For: Tea Gardens, Neora Valley, Orange Orchards, Birdwatching & Nature Tourism</p><h3>History, Geography & Climate</h3><p>Samsing developed around its historic tea estates and has gradually become one of the most popular eco-tourism destinations near Neora Valley National Park. Its unique combination of tea gardens, forests, hills, and rivers creates spectacular natural beauty throughout the year.</p><p>The climate remains pleasant and refreshing. Winters are cool, spring fills the hills with blooming flowers and fresh greenery, autumn offers clear Himalayan views, while the monsoon transforms the region into a lush green paradise.</p>",
+                "attractions": [
+                    "Does Samsing receive snowfall?",
+                    "Is mobile network available in Samsing?",
+                    "What food is available in Samsing?",
+                    "How many days are needed to explore Samsing?"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Tea Gardens",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Garden Tour"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Samsing Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Samsing Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "name": "Samsing Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Suntali Khola",
+                "slug": "suntalekhola",
+                "tagline": "Hidden Forest Retreat of Dooars | Hanging Bridge, River & Nature Escape",
+                "altitude": "650 m (2,133 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Hanging Bridge, Mountain Stream, Forest Stay, Birdwatching & Eco Tourism",
+                "location": "Kalimpong, Dooars",
+                "description": "<p>Suntalekhola is a peaceful forest village located in the Kalimpong district of West Bengal, on the edge of the Neora Valley National Park in the eastern Dooars. Situated at an altitude of approximately 650 metres (2,133 ft), Suntalekhola is one of North Bengal's most beautiful offbeat destinations, renowned for its crystal-clear mountain stream, iconic hanging bridge, dense forests, rich biodiversity, and tranquil natural surroundings.</p><p>The name \"Suntalekhola\" means \"Orange Stream\", referring to the orange orchards and the stream flowing through the valley. Surrounded by evergreen forests, hills, waterfalls, and abundant birdlife, Suntalekhola is a paradise for nature lovers, photographers, birdwatchers, families, honeymoon couples, and travellers seeking complete peace away from crowded tourist destinations.</p><p>Altitude: 650 m (2,133 ft) District: Kalimpong State: West Bengal Region: Dooars Distance from Samsing: ~5 km Distance from Chalsa: ~22 km Distance from Siliguri: ~85 km Distance from NJP Railway Station: ~90 km Distance from Bagdogra Airport: ~95 km Best Time to Visit: October-May Permit Required: No Famous For: Hanging Bridge, Mountain Stream, Forest Stay, Birdwatching & Eco Tourism</p><h3>History, Geography & Climate</h3><p>Originally a quiet forest settlement surrounded by orange orchards, Suntalekhola gradually developed into an eco-tourism destination due to its untouched natural beauty and proximity to Neora Valley National Park.</p><p>The landscape features evergreen forests, mountain streams, bamboo groves, rocky riverbeds, and lush valleys. Winters are cool and refreshing, spring brings blooming flowers and vibrant greenery, autumn offers clear skies and pleasant weather, while the monsoon transforms the forests into a spectacular green paradise.</p>",
+                "attractions": [
+                    "Does Suntalekhola receive snowfall?",
+                    "Is mobile network available in Suntalekhola?",
+                    "What food is available in Suntalekhola?",
+                    "How many days are needed to explore Suntalekhola?"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Hanging Bridge",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Suntali Khola Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Suntali Khola Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "name": "Suntali Khola Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ]
             },
             {
                 "name": "Bindu",
                 "slug": "bindu",
-                "tagline": "Gateway to India–Bhutan Border",
+                "tagline": "Gateway to India\u2013Bhutan Border",
                 "altitude": "600 m (1,969 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Bindu Barrage, Jaldhaka River, Border Views",
                 "location": "Kalimpong, West Bengal",
                 "description": "<p>Bindu is a picturesque border village situated at the confluence of the Bindu Khola and Jaldhaka rivers, marking the boundary between India and Bhutan. It is the last village on the Indian side in this region, known for its tranquil landscape and cardamom plantations.</p><h3>Geography & Attractions</h3><p>Surrounded by the hills of Bhutan and India, Bindu offers spectacular views of the Jaldhaka dam and the lush green mountains. The area is renowned for cardamom and orange cultivation. The quiet environment makes it an ideal retreat for those seeking peace and a deep connection with nature.</p><h3>Activities</h3><p>Visitors can enjoy leisurely walks along the riverbank, explore the cardamom plantations, or take short treks into the surrounding forests. The local culture is closely tied to agriculture and cross-border interactions, offering a unique glimpse into rural border life.</p><h3>Detailed Insights</h3><p>Home to the majestic Indian Gaur (Bison) , Indian Rhinoceros, Asian Elephants, rich birdlife, dense</p><p>Sal forests, scenic rivers, and thrilling jeep safaris, Gorumara  National Park  offers one of the finest</p><p>wildlife experiences in the Dooars. Whether you are a wildlife enthusiast, photographer, family</p><p>traveller, birder, or nature lover, Gorumara promises an unforgettable journey into the vibrant</p><p>Here are the Gorumara National Park FAQ  in the same format and style  as your previous</p>",
@@ -1519,33 +6155,29 @@ window.destinationsData = {
                 }
             },
             {
-                "name": "Chilapata",
-                "slug": "chilapata",
-                "tagline": "Ancient Wilderness of Dooars",
-                "altitude": "120 m (394 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Wildlife Safari, Nalraja Fort, Elephant Corridor",
-                "location": "Alipurduar, West Bengal",
-                "description": "<p>The Chilapata Forest is a dense, wild, and mystical forest corridor located between Jaldapara National Park and Buxa Tiger Reserve. It serves as a crucial migration route for large herbivores, particularly elephants and rhinos, and offers one of the most authentic jungle experiences in the Dooars.</p><h3>History & the Nalraja Garh</h3><p>Hidden deep within the forest are the ruins of the Nalraja Garh, an ancient fort dating back to the Gupta period (5th century AD). The crumbling brick structures, overgrown with vegetation, add an air of mystery and historical intrigue to the wilderness.</p><h3>Wildlife & Eco-Tourism</h3><p>Chilapata is less commercialized than its neighboring parks, allowing for a more immersive and thrilling wildlife experience. The forest is home to elephants, leopards, rhinos, wild boars, and a rich diversity of birdlife. Jeep safaris through the dense canopy often result in exciting encounters with the resident fauna.</p><h3>Detailed Insights</h3><p>Chilapata Forest is a pristine tropical forest located in the Alipurduar district of West Bengal , nestled</p><p>between Jaldapara National Park  and Buxa Tiger Reserve  in the heart of the Dooars. Situated at an</p><p>altitude of approximately 120 metres (394 ft) , Chilapata  is one of North Bengal's finest wildlife</p><p>destinations, renowned for its dense Sal forests, rich biodiversity, elephant corridors, jeep safaris,</p><p>and the historic Nalraja Fort . The forest serves as a vital wildlife corridor connecting two of Eastern</p><p>Known for its peaceful wilderness, abundant wildlife, scenic forest roads, and eco -tourism</p><p>experiences, Chilapata  is a paradise for wildlife enthusiasts, birdwatchers, photographers, and</p><p>nature lovers. Its untouched forests, tribal culture, and remarkable biodiversity make it one of the</p>",
+                "name": "Jhalong",
+                "slug": "jhalong",
+                "tagline": "Riverside Gem of Dooars",
+                "altitude": "650 m (2,133 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Jaldhaka River, Hydel Project, Birdwatching",
+                "location": "Kalimpong, West Bengal",
+                "description": "<p>Jhalong is a serene, offbeat destination located along the banks of the Jaldhaka River, near the Indo-Bhutan border in the Kalimpong district. It is highly regarded for its natural beauty, peaceful environment, and the Jaldhaka Hydroelectric Project.</p><h3>Attractions & Nature</h3><p>The Jaldhaka Hydroelectric Project forms a large reservoir that attracts numerous migratory waterfowls during the winter months, making it a popular spot for birdwatching. The surrounding forests and river banks offer excellent opportunities for nature walks, camping, and picnics.</p><h3>Culture & Lifestyle</h3><p>The local population is a mix of Nepali, Lepcha, and Bhutanese communities. The vibrant Jhalong market is a bustling hub where villagers from surrounding areas, including Bhutanese nationals, gather to trade local produce, traditional garments, and handicrafts.</p><h3>Detailed Insights</h3><p>With its beautiful Bindu Barrage , crystal -clear Jaldhaka River, breathtaking India \u2013Bhutan border</p><p>views, lush forests, cardamom plantations, rich birdlife, and peaceful Himalayan atmosphere, Bindu</p><p>offers one of the most scenic and tranquil eco -tourism experiences in the Dooars.</p>",
                 "attractions": [
-                    "Nalraja Fort",
-                    "Elephant Corridor",
-                    "Dense Sal Forests"
+                    "Jaldhaka River",
+                    "Jhalong Hydroelectric Project",
+                    "Riverside Viewpoints"
                 ],
-                "image": "images/gallery (8).jpg",
+                "image": "images/gallery (6).jpg",
                 "highlights": [
-                    "Ancient Nalraja Fort ruins",
-                    "Active elephant corridor",
-                    "Dense Sal forests"
+                    "Emerald Jaldhaka River",
+                    "Historic hydel project",
+                    "Peaceful riverside setting"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "safari",
-                        "label": "Jungle Safari"
-                    },
-                    {
                         "icon": "hiking",
-                        "label": "Fort Trek"
+                        "label": "River Walk"
                     },
                     {
                         "icon": "camera",
@@ -1553,14 +6185,1467 @@ window.destinationsData = {
                     },
                     {
                         "icon": "binoculars",
-                        "label": "Wildlife Spotting"
+                        "label": "Bird Watching"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Local Food"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Bagdogra Airport (155 km)",
-                    "byTrain": "Hasimara (20 km)",
-                    "byRoad": "Via Jaldapara from Siliguri"
+                    "byAir": "Bagdogra Airport (90 km)",
+                    "byTrain": "New Jalpaiguri (85 km)",
+                    "byRoad": "Via Gorubathan from Siliguri"
                 }
+            },
+            {
+                "name": "Chapramari Wildlife Sanctuary",
+                "slug": "chapramari-wildlife-sanctuary",
+                "tagline": "Wildlife Haven of Dooars | Forest Safari, Birds & Nature",
+                "altitude": "120 m (394 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Wildlife Safari, Asian Elephants, Indian Gaur, Birdwatching & Sal Forests",
+                "location": "Jalpaiguri, Dooars",
+                "description": "<p>Tourism Chapramari Wildlife Sanctuary is a beautiful protected forest located in the Jalpaiguri district of West Bengal, in the heart of the Dooars. Situated at an altitude of approximately 120 metres (394 ft), the sanctuary lies along the banks of the Murti River, adjoining Gorumara National Park, and forms an important wildlife corridor in the Eastern Himalayan foothills. Covering an area of approximately 9.6 square kilometres, Chapramari is renowned for its Asian Elephants, Indian Gaur (Bison), rich birdlife, dense Sal forests, jeep safaris, and peaceful natural landscapes.</p><p>Named after the locally abundant Chapra (Indian Red Silk Cotton) trees, Chapramari is one of North Bengal's finest eco-tourism destinations for wildlife enthusiasts, birdwatchers, photographers, families, and nature lovers. The sanctuary offers an unforgettable experience of tropical forests, grasslands, riverine ecosystems, and abundant biodiversity.</p><p>Altitude: 120 m (394 ft) District: Jalpaiguri State: West Bengal Region: Dooars Area: Approximately 9.6 sq. km Distance from Lataguri: ~20 km Distance from Chalsa: ~7 km Distance from Siliguri: ~70 km Distance from NJP Railway Station: ~75 km Distance from Bagdogra Airport: ~80 km Best Time to Visit: October-May Permit Required: Yes Famous For: Wildlife Safari, Asian Elephants, Indian Gaur, Birdwatching & Sal Forests</p><h3>History, Geography & Climate</h3><p>Chapramari was declared a Wildlife Sanctuary in 1998 to protect its rich biodiversity and important elephant corridor. It shares its ecosystem with Gorumara National Park, creating one of the richest</p><h3>wildlife habitats in North Bengal.</h3>",
+                "attractions": [
+                    "Does Chapramari Wildlife Sanctuary receive snowfall?",
+                    "What food is available near Chapramari Wildlife Sanctuary?",
+                    "Is Chapramari Wildlife Sanctuary crowded?"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Wildlife Safari",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "safari",
+                        "label": "Jungle Safari"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Chapramari Wildlife Sanctuary Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Chapramari Wildlife Sanctuary Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "name": "Chapramari Wildlife Sanctuary Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Rajabhatkhawa",
+                "slug": "rajabhatkhawa",
+                "tagline": "Gateway to Buxa Tiger Reserve | Forest Village, Nature & Wildlife",
+                "altitude": "175 m (574 ft)",
+                "bestTime": "October-April",
+                "famousFor": "Buxa Tiger Reserve Gateway, Nature Interpretation Centre, Wildlife,",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Rajabhatkhawa is a peaceful forest town located in the Alipurduar district of West Bengal, at the entrance of the Buxa Tiger Reserve in the Dooars. Situated at an altitude of approximately 175 metres (574 ft), Rajabhatkhawa serves as the principal gateway to one of the largest protected forests in Eastern India. Surrounded by dense tropical forests, rolling hills, rivers, and rich</p><h3>biodiversity, the town is renowned for its Nature Interpretation Centre, wildlife tourism,</h3><p>birdwatching, trekking routes, and serene forest atmosphere.</p><p>The name Rajabhatkhawa literally means \"the place where the king had his meal\", reflecting a fascinating local legend connected with the Koch Kingdom and Bhutan. Today, Rajabhatkhawa is one of the most important eco-tourism destinations in the Dooars and the starting point for exploring Buxa Tiger Reserve, Jayanti, Buxa Fort, and the surrounding Himalayan forests.</p><p>Altitude: 175 m (574 ft) District: Alipurduar State: West Bengal Region: Dooars Distance from Alipurduar: ~15 km Distance from Jayanti: ~15 km Distance from Hasimara: ~25 km Distance from Siliguri: ~170 km Distance from NJP Railway Station: ~175 km Distance from Bagdogra Airport: ~180 km Best Time to Visit: October-April Permit Required: Yes (for Buxa Tiger Reserve entry) Famous For: Buxa Tiger Reserve Gateway, Nature Interpretation Centre, Wildlife, Birdwatching & Forest Tourism</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Does Chapramari Wildlife Sanctuary receive snowfall?",
+                    "What food is available near Chapramari Wildlife Sanctuary?",
+                    "Is Chapramari Wildlife Sanctuary crowded?",
+                    "Does Rajabhatkhawa receive snowfall?"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Buxa Tiger Reserve Gateway",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rajabhatkhawa Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rajabhatkhawa Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "name": "Rajabhatkhawa Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Buxa Fort",
+                "slug": "buxa-fort",
+                "tagline": "Wilderness of Dooars",
+                "altitude": "60\u20131,750 m (197\u20135,741 ft)",
+                "bestTime": "October\u2013April",
+                "famousFor": "Tiger Reserve, Forests, Fort, Trekking",
+                "location": "Alipurduar, West Bengal",
+                "description": "<p>Buxa Tiger Reserve lies in the Alipurduar district, bordering Bhutan, and encompasses the scenic Buxa hills. Spanning over 760 square kilometres, it is the largest forest reserve in North Bengal, characterized by dense tropical evergreen and moist deciduous forests, deep valleys, and historically significant ruins.</p><h3>History & the Buxa Fort</h3><p>At the heart of the reserve lies the historic Buxa Fort, situated at an altitude of 867 metres (2,844 ft). Originally a Bhutanese stronghold protecting the Silk Route, it was later captured by the British and used as a high-security detention camp for Indian freedom fighters during the independence movement.</p><h3>Wildlife & Trekking</h3><p>The reserve serves as an international corridor for elephant migration between India and Bhutan. While tigers are elusive, the forest is home to leopards, clouded leopards, elephants, gaurs, and over 284 bird species. Buxa is also renowned for its trekking routes, including trails to Jayanti, Mahakal Cave, and Rover's Point.</p><h3>Detailed Insights</h3><p>district  of the Dooars region along the foothills of the Eastern Himalayas. Spread across</p><p>approximately 760 square kilometres , the reserve lies at an altitude ranging from 60 to 1,750</p><p>metres (197 \u20135,741 ft) , making it one of the most ecologically diverse landscapes in Eastern India.</p><p>Declared a Tiger Reserve in 1983  under India's Project Tiger, Buxa is internationally recognised for its</p><p>rich biodiversity, dense tropical forests, Himalayan foothill ecosystems, historic Buxa Fort, scenic</p><p>Bordering Bhutan's Phibsoo Wildlife Sanctuary  to the north and Assam's Manas National Park  to</p><p>the east, Buxa forms an important wildlife corridor connecting the Eastern Himalayas with the Indo -</p><p>Bhutan biodiversity landscape. The reserve is home to Royal Bengal Tigers, Asian Elephants,</p><p>Leopards, Gaur, Himalayan wildlife, more than 450 species of birds , and countless species of</p><p>butterflies, reptiles, orchids, and medicinal plants. It is one of the finest destinations in the Dooars</p>",
+                "attractions": [
+                    "Buxa Fort",
+                    "Jayanti River",
+                    "Mahakal Cave",
+                    "Lepchakha Viewpoint"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Historic Buxa Fort",
+                    "Tiger Reserve",
+                    "Dense tropical forests",
+                    "Mahakal Cave exploration"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Fort Trekking"
+                    },
+                    {
+                        "icon": "safari",
+                        "label": "Jungle Safari"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Bird Watching"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (180 km)",
+                    "byTrain": "Rajabhatkhawa (15 km)",
+                    "byRoad": "Via NH 31 from Siliguri"
+                }
+            },
+            {
+                "name": "Mahakal Cave",
+                "slug": "mahakal-cave",
+                "tagline": "Sacred Cave Shrine of Dooars | Trekking, Spirituality & Himalayan",
+                "altitude": "1,200 m (3,937 ft)",
+                "bestTime": "October-April",
+                "famousFor": "Sacred Cave, Lord Shiva Temple, Trekking, Limestone Formations & Nature",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Wilderness Mahakal Cave is a sacred cave complex located near Jayanti inside the Buxa Tiger Reserve in the Alipurduar district of West Bengal. Situated at an altitude of approximately 1,200 metres (3,937 ft), Mahakal Cave is one of the most revered pilgrimage and trekking destinations in the Dooars.</p><p>Surrounded by dense forests, limestone cliffs, waterfalls, and breathtaking Himalayan foothills, the cave is renowned for its natural rock formations, religious significance, scenic trekking route, and panoramic views.</p><p>Dedicated to Lord Shiva, Mahakal Cave is revered by both Hindu and Buddhist devotees. The journey to the cave passes through the scenic Jayanti River valley and dense forests, offering visitors a unique combination of spirituality, adventure, wildlife, and natural beauty.</p><p>Altitude: 1,200 m (3,937 ft) District: Alipurduar State: West Bengal Region: Dooars Distance from Jayanti: ~5 km (trek) Distance from Rajabhatkhawa: ~20 km Distance from Alipurduar: ~35 km Distance from Siliguri: ~185 km Distance from NJP Railway Station: ~190 km Distance from Bagdogra Airport: ~195 km Best Time to Visit: October-April Permit Required: Yes Famous For: Sacred Cave, Lord Shiva Temple, Trekking, Limestone Formations & Nature</p><h3>History, Geography & Climate</h3><p>Mahakal Cave has been a revered pilgrimage site for generations and is associated with local Hindu and Buddhist beliefs. The naturally formed limestone caves contain rock formations worshipped as manifestations of Lord Shiva and other deities.</p>",
+                "attractions": [
+                    "Does Buxa Fort receive snowfall?",
+                    "Is mobile network available at Buxa Fort?",
+                    "What food is available near Buxa Fort?",
+                    "How many days are needed to explore Buxa Fort?"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Sacred Cave",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Mahakal Cave Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Mahakal Cave Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "name": "Mahakal Cave Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Lepchakha",
+                "slug": "lepchakha",
+                "tagline": "Hidden Himalayan Hamlet of Dooars | Panoramic Views, Trekking & Tribal Culture",
+                "altitude": "1,100 m (3,609 ft)",
+                "bestTime": "October-April",
+                "famousFor": "Panoramic Views, Trekking, Tribal Village, Birdwatching & Eco Tourism",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Lepchakha is a picturesque mountain village located inside the Buxa Tiger Reserve in the Alipurduar district of West Bengal, in the northern part of the Dooars. Situated at an altitude of approximately 1,100 metres (3,609 ft), Lepchakha is one of North Bengal's most scenic offbeat destinations, renowned for its breathtaking panoramic views of the Dooars plains, dense forests, peaceful trekking trails, and traditional tribal culture.</p><p>Perched on a ridge overlooking the vast green plains of North Bengal, Lepchakha offers spectacular sunrise and sunset views, pristine Himalayan landscapes, and an authentic village experience away from commercial tourism. Accessible via a scenic trek from Buxa Fort, the village is a paradise for trekkers, photographers, birdwatchers, nature lovers, and travellers seeking tranquillity.</p><p>Altitude: 1,100 m (3,609 ft) District: Alipurduar State: West Bengal Region: Dooars Distance from Buxa Fort: ~3 km (trek) Distance from Rajabhatkhawa: ~18 km Distance from Alipurduar: ~35 km Distance from Siliguri: ~185 km Distance from NJP Railway Station: ~190 km Distance from Bagdogra Airport: ~195 km Best Time to Visit: October-April Permit Required: Yes Famous For: Panoramic Views, Trekking, Tribal Village, Birdwatching & Eco Tourism</p><h3>History, Geography & Climate</h3><p>Lepchakha is a small tribal settlement situated on the hills of the Buxa Tiger Reserve. The village has preserved its traditional lifestyle while gradually emerging as one of the finest eco-tourism destinations in the Dooars.</p><p>The landscape consists of dense evergreen forests, mountain ridges, valleys, rivers, and expansive viewpoints overlooking the Dooars plains. Winters are cool and pleasant, spring fills the hills with greenery and wildflowers, autumn provides crystal-clear Himalayan views, while the monsoon transforms the forests into lush wilderness.</p>",
+                "attractions": [
+                    "Does Lepchakha receive snowfall?",
+                    "Is mobile network available in Lepchakha?",
+                    "What food is available in Lepchakha?",
+                    "How many days are needed to explore Lepchakha?"
+                ],
+                "image": "images/gallery (16).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Panoramic Views",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Lepchakha Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Lepchakha Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "name": "Lepchakha Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "South Khayerbari Leopard Rescue Centre",
+                "slug": "south-khayerbari-leopard-rescue-centre",
+                "tagline": "Wildlife Conservation Centre of Dooars | Leopards,",
+                "altitude": "110 m (361 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Leopard Rescue, Wildlife Conservation, Nature Education & Eco Tourism",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Nature Education & Eco Tourism South Khayerbari Leopard Rescue Centre is a renowned wildlife conservation facility located in the Alipurduar district of West Bengal, near Jaldapara National Park in the Dooars. Situated at an altitude of approximately 110 metres (361 ft), the rescue centre is dedicated to the rehabilitation and care of rescued leopards and other wild animals. It is one of the few specialised wildlife rescue centres in Eastern India and serves as an important destination for wildlife education, conservation awareness, and responsible eco-tourism.</p><p>Surrounded by lush forests and natural landscapes, the centre provides visitors with an opportunity to learn about wildlife conservation while observing rescued leopards in spacious natural enclosures.</p><p>It is an ideal destination for families, students, photographers, wildlife enthusiasts, and conservation-minded travellers.</p><p>Altitude: 110 m (361 ft) District: Alipurduar State: West Bengal Region: Dooars Distance from Madarihat: ~8 km Distance from Jaldapara National Park: ~10 km Distance from Hasimara: ~12 km Distance from Siliguri: ~140 km Distance from NJP Railway Station: ~145 km Distance from Bagdogra Airport: ~150 km Best Time to Visit: October-May Permit Required: Entry Ticket Required Famous For: Leopard Rescue, Wildlife Conservation, Nature Education & Eco Tourism</p><h3>History, Geography & Climate</h3><p>The rescue centre was established by the West Bengal Forest Department to rehabilitate injured, orphaned, and rescued leopards while promoting wildlife conservation and public awareness. Over time, it has become one of the most visited conservation centres in the Dooars.</p>",
+                "attractions": [
+                    "Does Lepchakha receive snowfall?",
+                    "Is mobile network available in Lepchakha?",
+                    "What food is available in Lepchakha?",
+                    "How many days are needed to explore Lepchakha?"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Leopard Rescue",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D South Khayerbari Leopard Rescue Centre Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "South Khayerbari Leopard Rescue Centre Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "name": "South Khayerbari Leopard Rescue Centre Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Totopara",
+                "slug": "totopara",
+                "tagline": "Home of the Toto Tribe | Indigenous Culture, Himalayan Foothills & Eco Tourism",
+                "altitude": "175 m (574 ft)",
+                "bestTime": "October-April",
+                "famousFor": "Toto Tribe, Tribal Culture, Village Tourism, Birdwatching & Nature",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Totopara is a unique border village located in the Alipurduar district of West Bengal, in the north- eastern part of the Dooars, near the India-Bhutan border. Situated at an altitude of approximately 175 metres (574 ft), Totopara is the ancestral homeland of the Toto Tribe, one of India's smallest and most distinctive Indigenous communities. Surrounded by rivers, forests, hills, and orange orchards, the village is renowned for its rich tribal heritage, traditional lifestyle, scenic landscapes, and peaceful natural surroundings.</p><p>Nestled along the foothills of the Eastern Himalayas beside the Torsa River, Totopara offers visitors an opportunity to experience authentic tribal culture while enjoying the beauty of forests, grasslands, and Himalayan valleys. It is an ideal destination for cultural tourism, photography, birdwatching, village walks, and eco-tourism.</p><p>Altitude: 175 m (574 ft) District: Alipurduar State: West Bengal Region: Dooars Distance from Madarihat: ~23 km Distance from Jaldapara National Park: ~25 km Distance from Hasimara: ~35 km Distance from Siliguri: ~145 km Distance from NJP Railway Station: ~150 km Distance from Bagdogra Airport: ~155 km Best Time to Visit: October-April Permit Required: No Famous For: Toto Tribe, Tribal Culture, Village Tourism, Birdwatching & Nature</p><h3>History, Geography & Climate</h3><p>Totopara has been home to the Toto Tribe for centuries. The community has preserved its unique language, customs, architecture, festivals, and traditions, making the village one of India's most culturally significant tribal settlements.</p><p>The surrounding landscape features Himalayan foothills, river valleys, forests, grasslands, and agricultural fields. Winters are cool and pleasant, spring brings lush greenery, autumn offers clear weather and excellent visibility, while the monsoon transforms the region into a vibrant green landscape.</p>",
+                "attractions": [
+                    "Totopara Viewpoint",
+                    "Totopara Nature Trail",
+                    "Toto Tribe",
+                    "Tribal Culture"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Toto Tribe",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Totopara Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Totopara Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "name": "Totopara Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Cooch Behar Palace",
+                "slug": "cooch-behar-palace",
+                "tagline": "Royal Heritage Landmark | Architecture, History & Cultural Tourism",
+                "altitude": "43 m (141 ft)",
+                "bestTime": "October-March",
+                "famousFor": "Royal Palace, Italian Renaissance Architecture, Museum & Heritage Tourism",
+                "location": "Cooch Behar, Dooars",
+                "description": "<p>Cooch Behar Palace is a magnificent royal palace located in Cooch Behar district of West Bengal, on the south-western edge of the greater Dooars tourism circuit. Situated at an altitude of approximately 43 metres (141 ft), the palace is one of Eastern India's finest examples of Italian Renaissance architecture. Built during the reign of Maharaja Nripendra Narayan in 1887, the palace is renowned for its grand domes, elegant corridors, classical columns, royal museum, landscaped gardens, and rich historical significance.</p><p>Inspired by Buckingham Palace in London, Cooch Behar Palace stands as a symbol of the glorious heritage of the former Kingdom of Cooch Behar. Today, it is one of North Bengal's most important historical attractions, drawing history enthusiasts, architecture lovers, photographers, families, and cultural travellers.</p><p>Altitude: 43 m (141 ft) District: Cooch Behar State: West Bengal Region: North Bengal (Greater Dooars Circuit) Distance from Alipurduar: ~75 km Distance from Hasimara: ~65 km Distance from Siliguri: ~150 km Distance from NJP Railway Station: ~145 km Distance from Bagdogra Airport: ~155 km Best Time to Visit: October-March Permit Required: No (entry ticket applicable) Famous For: Royal Palace, Italian Renaissance Architecture, Museum & Heritage Tourism</p><h3>History, Geography & Climate</h3><p>Constructed in 1887, Cooch Behar Palace served as the royal residence of the Koch dynasty under Maharaja Nripendra Narayan. The palace reflects European architectural influences while preserving the royal legacy of North Bengal.</p><p>The surrounding area consists of landscaped gardens, lakes, heritage buildings, and urban greenery.</p>",
+                "attractions": [
+                    "Cooch Behar Palace Viewpoint",
+                    "Cooch Behar Palace Nature Trail",
+                    "Royal Palace",
+                    "Italian Renaissance Architecture"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Royal Palace",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Cooch Behar Palace Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Cooch Behar Palace Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "name": "Cooch Behar Palace Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Raimatang",
+                "slug": "raimatang",
+                "tagline": "Hidden Forest Village of Dooars | Riverside, Tribal Culture & Eco Tourism",
+                "altitude": "220 m (722 ft)",
+                "bestTime": "October-April",
+                "famousFor": "Riverside Village, Forests, Birdwatching, Tribal Culture & Eco Tourism",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Raimatang is a peaceful forest village located in the Alipurduar district of West Bengal, on the eastern edge of the Buxa Tiger Reserve in the Dooars. Situated at an altitude of approximately 220 metres (722 ft), Raimatang is one of North Bengal's most beautiful offbeat destinations, renowned for its pristine rivers, lush forests, scenic tea gardens, tribal villages, and breathtaking Himalayan foothill landscapes.</p><p>Nestled beside the Raimatang River, the village offers a perfect escape into nature with its tranquil atmosphere, rich biodiversity, and authentic rural lifestyle. Surrounded by dense forests and wildlife corridors, Raimatang is an ideal destination for nature lovers, photographers, birdwatchers, families, couples, and travellers seeking a peaceful eco-tourism experience.</p><p>Altitude: 220 m (722 ft) District: Alipurduar State: West Bengal Region: Dooars Distance from Alipurduar: ~40 km Distance from Rajabhatkhawa: ~30 km Distance from Hasimara: ~35 km Distance from Siliguri: ~175 km Distance from NJP Railway Station: ~180 km Distance from Bagdogra Airport: ~185 km Best Time to Visit: October-April Permit Required: No Famous For: Riverside Village, Forests, Birdwatching, Tribal Culture & Eco Tourism</p><h3>History, Geography & Climate</h3><p>Raimatang has traditionally been a forest and agricultural settlement where local tribal communities have lived in harmony with nature for generations. Today, it has developed into a popular eco- tourism destination while preserving its natural environment.</p><p>The landscape consists of rivers, tropical forests, tea gardens, bamboo groves, and Himalayan foothills. Winters are cool and pleasant, spring brings fresh greenery, autumn offers clear skies and scenic mountain views, while the monsoon transforms the village into a lush green paradise.</p>",
+                "attractions": [
+                    "Does Raimatang receive snowfall?",
+                    "Is mobile network available in Raimatang?",
+                    "What food is available in Raimatang?",
+                    "How many days are needed to explore Raimatang?"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Riverside Village",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Raimatang Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Raimatang Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "name": "Raimatang Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Rasikbil",
+                "slug": "rasikbil",
+                "tagline": "Birdwatcher's Paradise of North Bengal | Wetlands, Nature & Eco Tourism",
+                "altitude": "35 m (115 ft)",
+                "bestTime": "November-February",
+                "famousFor": "Birdwatching, Wetlands, Boating, Migratory Birds & Eco Tourism",
+                "location": "Cooch Behar, Dooars",
+                "description": "<p>Rasikbil is a beautiful freshwater wetland and eco-tourism destination located in the Cooch Behar district of West Bengal, forming an important part of the greater Dooars tourism circuit. Situated at an altitude of approximately 35 metres (115 ft), Rasikbil is one of North Bengal's finest birdwatching destinations, renowned for its vast lake, migratory birds, rich biodiversity, boating facilities, nature park, and peaceful natural surroundings.</p><p>Spread across a large freshwater ecosystem surrounded by forests and grasslands, Rasikbil attracts thousands of resident and migratory birds every year. It is an ideal destination for birdwatchers, photographers, families, wildlife enthusiasts, and eco-tourists seeking a tranquil escape into nature.</p><p>Altitude: 35 m (115 ft) District: Cooch Behar State: West Bengal Region: North Bengal (Greater Dooars Circuit) Distance from Cooch Behar: ~42 km Distance from Alipurduar: ~45 km Distance from Hasimara: ~50 km Distance from Siliguri: ~170 km Distance from NJP Railway Station: ~165 km Distance from Bagdogra Airport: ~175 km Best Time to Visit: November-February Permit Required: No Famous For: Birdwatching, Wetlands, Boating, Migratory Birds & Eco Tourism</p><h3>History, Geography & Climate</h3><p>Rasikbil has long been recognised as one of North Bengal's most important freshwater wetlands and bird habitats. The area has been developed for eco-tourism while maintaining its ecological significance and supporting wildlife conservation.</p><p>The landscape features a large freshwater lake, marshlands, grasslands, woodland patches, and walking trails. Winters provide the best birdwatching opportunities with the arrival of migratory birds, while spring and autumn remain pleasant for sightseeing.</p>",
+                "attractions": [
+                    "Does Rasikbil receive snowfall?",
+                    "Is mobile network available in Rasikbil?",
+                    "What food is available in Rasikbil?",
+                    "How many days are needed to explore Rasikbil?"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Birdwatching",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Rasikbil Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rasikbil Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "name": "Rasikbil Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Phuentsholing Bhutan Border",
+                "slug": "phuentsholing-bhutan-border",
+                "tagline": "Gateway to Bhutan | International Border, Monasteries &",
+                "altitude": "300 m (984 ft)",
+                "bestTime": "October-April",
+                "famousFor": "Bhutan Border, Monasteries, Shopping, Bhutanese Culture & Architecture",
+                "location": "Dooars, West Bengal",
+                "description": "<p>Cultural Tourism Phuentsholing is a vibrant border town located in southwestern Bhutan, directly adjoining Jaigaon in the Alipurduar district of West Bengal. Serving as the principal gateway between India and Bhutan, Phuentsholing lies at an altitude of approximately 300 metres (984 ft). The town is renowned for its clean surroundings, peaceful atmosphere, beautiful monasteries, Bhutanese architecture, colourful markets, and unique blend of modern urban life and traditional Himalayan</p><h3>culture.</h3><p>As the most accessible Bhutanese town from the Dooars, Phuentsholing attracts travellers looking to experience Bhutanese culture, cuisine, shopping, and spirituality without venturing deep into the Himalayan kingdom. It is an ideal destination for families, couples, photographers, shoppers, and cultural explorers.</p><p>Famous For: Bhutan Border, Monasteries, Shopping, Bhutanese Culture & Architecture</p><h3>History, Geography & Climate</h3><p>Phuentsholing developed as Bhutan's principal commercial gateway with India and today serves as an important centre for trade, tourism, and administration. The town beautifully reflects Bhutan's cultural identity through its architecture, cleanliness, and peaceful lifestyle.</p>",
+                "attractions": [
+                    "Does Phuentsholing receive snowfall?",
+                    "Is mobile network available in Phuentsholing?",
+                    "What food is available in Phuentsholing?",
+                    "How many days are needed to explore Phuentsholing?"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Bhutan Border",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Phuentsholing Bhutan Border Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Phuentsholing Bhutan Border Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "name": "Phuentsholing Bhutan Border Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Paren",
+                "slug": "paren",
+                "tagline": "Scenic Hill Village of Kalimpong | Forests, Riverside & Offbeat Eco Tourism",
+                "altitude": "1,500 m (4,921 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Offbeat Village, Forests, Birdwatching, Mountain Views & Eco Tourism",
+                "location": "Kalimpong, Dooars",
+                "description": "<p>Paren is a tranquil hill village located in the Kalimpong district of West Bengal, on the eastern edge of the Himalayan foothills, and is often included in extended Dooars and Kalimpong tourism circuits.</p><p>Situated at an altitude of approximately 1,500 metres (4,921 ft), Paren is an emerging offbeat destination renowned for its peaceful forests, panoramic mountain views, rivers, orange orchards, and rich biodiversity.</p><p>Surrounded by pine forests, cardamom plantations, and the scenic valleys of the Eastern Himalayas, Paren offers a perfect retreat for travellers seeking serenity away from crowded tourist destinations.</p><p>The village is ideal for nature lovers, birdwatchers, photographers, trekkers, and families looking for a relaxing mountain holiday.</p><p>Altitude: 1,500 m (4,921 ft) District: Kalimpong State: West Bengal Region: Eastern Himalayas Distance from Gorubathan: ~18 km Distance from Lava: ~32 km Distance from Kalimpong: ~50 km Distance from Siliguri: ~95 km Distance from NJP Railway Station: ~90 km Distance from Bagdogra Airport: ~95 km Best Time to Visit: October-May Permit Required: No Famous For: Offbeat Village, Forests, Birdwatching, Mountain Views & Eco Tourism</p><h3>History, Geography & Climate</h3>",
+                "attractions": [
+                    "Does Phuentsholing receive snowfall?",
+                    "Is mobile network available in Phuentsholing?",
+                    "What food is available in Phuentsholing?",
+                    "How many days are needed to explore Phuentsholing?"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Offbeat Village",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Paren Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Paren Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "name": "Paren Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Gajoldoba",
+                "slug": "gajoldoba",
+                "tagline": "Gateway to Teesta Barrage & Wetland Tourism | Birdwatching, Boating & Nature",
+                "altitude": "85 m (279 ft)",
+                "bestTime": "October-February",
+                "famousFor": "Teesta Barrage, Birdwatching, Wetlands, Boating & Eco Tourism",
+                "location": "Jalpaiguri, Dooars",
+                "description": "<p>Escape Gajoldoba is a scenic riverside destination located in the Jalpaiguri district of West Bengal, on the banks of the Teesta River. Situated at an altitude of approximately 85 metres (279 ft), Gajoldoba has emerged as one of North Bengal's most popular eco-tourism destinations, renowned for the Teesta Barrage, vast wetlands, migratory birds, boating, beautiful sunrise views, and peaceful natural surroundings.</p><p>Surrounded by wetlands, grasslands, forests, and the majestic Teesta River, Gajoldoba offers an ideal getaway for birdwatchers, photographers, families, couples, and nature enthusiasts. The destination is also an important stopover for migratory birds during winter, making it one of the finest birdwatching locations in North Bengal.</p><p>Altitude: 85 m (279 ft) District: Jalpaiguri State: West Bengal Region: Dooars Distance from Siliguri: ~25 km Distance from Jalpaiguri: ~20 km Distance from Lataguri: ~45 km Distance from NJP Railway Station: ~22 km Distance from Bagdogra Airport: ~30 km Best Time to Visit: October-February Permit Required: No Famous For: Teesta Barrage, Birdwatching, Wetlands, Boating & Eco Tourism</p><h3>History, Geography & Climate</h3><p>Gajoldoba developed around the Teesta Barrage Project, which created an extensive wetland ecosystem supporting rich biodiversity and attracting numerous migratory bird species. Today, it is an important eco-tourism destination in North Bengal.</p><p>The landscape consists of riverbanks, wetlands, grasslands, forests, and scenic viewpoints overlooking the Teesta River. Winters are cool and ideal for birdwatching, spring remains pleasant, autumn offers clear skies, while the monsoon fills the river and transforms the landscape into lush greenery.</p>",
+                "attractions": [
+                    "Does Dhupjhora receive snowfall?",
+                    "Is mobile network available in Dhupjhora?",
+                    "What food is available in Dhupjhora?",
+                    "How many days are needed to explore Dhupjhora?"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Teesta Barrage",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Gajoldoba Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Gajoldoba Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "name": "Gajoldoba Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Dhupjhora",
+                "slug": "dhupjhora",
+                "tagline": "Discover the Soul of Dooars",
+                "altitude": "Varies (Himalayan Belt)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Scenic Landscapes, Nature Trails & Mountain Culture",
+                "location": "Dooars, West Bengal",
+                "description": "<p>Dhupjhora is located in the Jalpaiguri district of West Bengal, adjacent to Gorumara National Park, in the Dooars region.</p><p>2. What is Dhupjhora famous for? Dhupjhora is famous for its community-based eco-tourism, forest village, wildlife experiences, birdwatching, and proximity to Gorumara National Park.</p><p>3. What is the best time to visit Dhupjhora? The best time to visit is October to April, when the weather is pleasant and wildlife sightings are more frequent.</p><p>4. What is the altitude of Dhupjhora? Dhupjhora is situated at an altitude of approximately 95 metres (312 feet).</p><p>5. How can I reach Dhupjhora? Dhupjhora is well connected by road from Lataguri, Siliguri, Jalpaiguri, NJP Railway Station, and Bagdogra Airport. Private taxis are readily available.</p><p>6. Is a permit required to visit Dhupjhora? No permit is required to enter the village. However, permits are required for safaris and entry into Gorumara National Park.</p>",
+                "attractions": [
+                    "Does Dhupjhora receive snowfall?",
+                    "Is mobile network available in Dhupjhora?",
+                    "What food is available in Dhupjhora?",
+                    "How many days are needed to explore Dhupjhora?"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Scenic Landscapes",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Dhupjhora Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Dhupjhora Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "name": "Dhupjhora Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Hollong Tourist Lodge",
+                "slug": "hollong-tourist-lodge",
+                "tagline": "Iconic Forest Stay of Jaldapara | Wildlife, Safari & Luxury Eco Tourism",
+                "altitude": "90 m (295 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Forest Lodge, Rhino Sightings, Wildlife Safaris & Luxury Eco Tourism",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Hollong Tourist Lodge is the most iconic forest lodge located inside Jaldapara National Park in the Alipurduar district of West Bengal, in the heart of the Dooars. Situated at an altitude of approximately 90 metres (295 ft), the lodge is renowned for its unique location amidst dense forests, its famous salt pit that attracts wildlife, luxury forest accommodation, jeep safaris, elephant sightings, and unforgettable wilderness experiences.</p><p>Managed by the West Bengal Forest Department, Hollong Tourist Lodge offers visitors the rare opportunity to stay deep inside one of India's most celebrated wildlife reserves. The lodge overlooks a natural grassland and salt lick, where guests can often observe Indian One-horned Rhinoceros, Asian Elephants, Indian Gaur (Bison), deer, and numerous bird species directly from the viewing lounge.</p><p>Altitude: 90 m (295 ft) District: Alipurduar State: West Bengal Region: Dooars Located Inside: Jaldapara National Park Distance from Madarihat: ~12 km Distance from Hasimara: ~18 km Distance from Siliguri: ~145 km Distance from NJP Railway Station: ~150 km Distance from Bagdogra Airport: ~155 km Best Time to Visit: October-May Permit Required: Yes Famous For: Forest Lodge, Rhino Sightings, Wildlife Safaris & Luxury Eco Tourism</p><h3>History, Geography & Climate</h3><p>Hollong Tourist Lodge has long been considered the flagship forest accommodation of Jaldapara National Park. Built to promote responsible wildlife tourism, it offers visitors a unique opportunity to experience the forests while supporting conservation.</p><p>The surrounding landscape features riverine forests, tall grasslands, wetlands, and wildlife habitats.</p>",
+                "attractions": [
+                    "Does Hollong Tourist Lodge receive snowfall?",
+                    "Is mobile network available at Hollong Tourist Lodge?",
+                    "What food is available at Hollong Tourist Lodge?",
+                    "How many days are needed to explore Hollong Tourist Lodge?"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Forest Lodge",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Hollong Tourist Lodge Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Hollong Tourist Lodge Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "name": "Hollong Tourist Lodge Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Khunia Watch Tower",
+                "slug": "khunia-watch-tower",
+                "tagline": "Wildlife Viewing Point of Gorumara | Rhino Sightings, Safari & Forest",
+                "altitude": "95 m (312 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Rhino Sightings, Watch Tower, Jeep Safari, Birdwatching & Wildlife",
+                "location": "Jalpaiguri, Dooars",
+                "description": "<p>Experience Khunia Watch Tower is one of the most popular wildlife observation towers located inside Gorumara National Park in the Jalpaiguri district of West Bengal, in the Dooars. Situated at an altitude of approximately 95 metres (312 ft), the watchtower is renowned for its excellent wildlife sightings, scenic forest surroundings, jeep safaris, birdwatching opportunities, and panoramic views of the park's grasslands.</p><p>Positioned near a natural salt lick and water source, Khunia Watch Tower provides visitors with excellent opportunities to observe Indian One-horned Rhinoceroses, Indian Gaur (Bison), Asian Elephants, deer, and numerous bird species in their natural habitat. It is one of the highlights of every Gorumara safari.</p><p>Altitude: 95 m (312 ft) District: Jalpaiguri State: West Bengal Region: Dooars Located Inside: Gorumara National Park Distance from Lataguri: ~10 km Distance from Chalsa: ~12 km Distance from Siliguri: ~75 km Distance from NJP Railway Station: ~70 km Distance from Bagdogra Airport: ~75 km Best Time to Visit: October-May Permit Required: Yes Famous For: Rhino Sightings, Watch Tower, Jeep Safari, Birdwatching & Wildlife Photography</p><h3>History, Geography & Climate</h3><p>Khunia Watch Tower was established by the West Bengal Forest Department to promote responsible wildlife tourism while providing visitors with safe wildlife viewing opportunities inside Gorumara National Park.</p><p>The surrounding landscape features dense sal forests, riverine grasslands, wetlands, and wildlife habitats. Winters offer the best safari conditions, spring is lush and pleasant, autumn provides clear visibility, while the monsoon enhances the greenery of the forest.</p>",
+                "attractions": [
+                    "Does Hollong Tourist Lodge receive snowfall?",
+                    "Is mobile network available at Hollong Tourist Lodge?",
+                    "What food is available at Hollong Tourist Lodge?",
+                    "How many days are needed to explore Hollong Tourist Lodge?"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Rhino Sightings",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Khunia Watch Tower Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Khunia Watch Tower Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "name": "Khunia Watch Tower Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Medla Watch Tower",
+                "slug": "medla-watch-tower",
+                "tagline": "Wildlife Observation Point of Jaldapara | Safari, Rhino Sightings &",
+                "altitude": "90 m (295 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Rhino Sightings, Wildlife Safari, Birdwatching & Forest Views",
+                "location": "Alipurduar, Dooars",
+                "description": "<p>Forest Experience Medla Watch Tower is one of the prominent wildlife observation towers located inside Jaldapara National Park in the Alipurduar district of West Bengal, in the heart of the Dooars. Situated at an altitude of approximately 90 metres (295 ft), the watch tower is renowned for its excellent wildlife sightings, scenic grasslands, jeep safari routes, birdwatching opportunities, and panoramic views of Jaldapara's rich wilderness.</p><p>Strategically located near natural grasslands and water sources, Medla Watch Tower offers visitors an opportunity to observe Indian One-horned Rhinoceroses, Asian Elephants, Indian Gaur (Bison), deer, wild boars, and numerous bird species in their natural habitat. It is one of the most rewarding safari destinations inside Jaldapara National Park.</p><p>Altitude: 90 m (295 ft) District: Alipurduar State: West Bengal Region: Dooars Located Inside: Jaldapara National Park Distance from Madarihat: ~8 km Distance from Hasimara: ~15 km Distance from Alipurduar: ~40 km Distance from Siliguri: ~140 km Distance from NJP Railway Station: ~145 km Distance from Bagdogra Airport: ~150 km Best Time to Visit: October-May Permit Required: Yes Famous For: Rhino Sightings, Wildlife Safari, Birdwatching & Forest Views</p><h3>History, Geography & Climate</h3><p>Developed by the West Bengal Forest Department, Medla Watch Tower supports wildlife conservation and regulated tourism by providing a safe platform for observing animals in their natural habitat.</p><p>The surrounding landscape consists of riverine forests, tall grasslands, wetlands, and wildlife corridors. Winters are cool and ideal for safaris, spring remains pleasant, autumn offers clear visibility, while the monsoon rejuvenates the forests with lush greenery.</p>",
+                "attractions": [
+                    "Does Medla Watch Tower receive snowfall?",
+                    "Is mobile network available at Medla Watch Tower?",
+                    "What food is available near Medla Watch Tower?",
+                    "How many days are needed to explore Medla Watch Tower?"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "Picturesque landscapes in Dooars",
+                    "Rhino Sightings",
+                    "Authentic local stays and homestay comfort",
+                    "Ideal for photography, peace and nature lovers"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Viewpoints"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Local Culture"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP)",
+                    "byRoad": "Well-connected road access across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "2N/3D Medla Watch Tower Himalayan Journey",
+                        "includes": "Private Cab + Stay + Sightseeing",
+                        "price": 6999,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "title": "Dooars Special Tour",
+                        "includes": "Stay + All Meals + Guided Sightseeing",
+                        "price": 11999,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Medla Watch Tower Mountain Homestay",
+                        "rating": 4.6,
+                        "reviews": 42,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "name": "Medla Watch Tower Forest Retreat",
+                        "rating": 4.8,
+                        "reviews": 68,
+                        "type": "Resort / Lodge",
+                        "price": 2600,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Dooars Sightseeing",
+                "slug": "dooars-sightseeing",
+                "tagline": "Curated Scenic Day Tours | Rivers, Tea Gardens & Himalayan Foothills",
+                "altitude": "100\u2013300 m (328\u2013984 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Murti Riverbed, Jhalong, Bindu Dam, Samsing, Suntalekhola, Rocky Island, Gajoldoba Barrage",
+                "location": "Dooars, West Bengal",
+                "description": "<p>Dooars Sightseeing offers one of the most picturesque travel experiences across the lush Himalayan foothills of North Bengal. Spanning across rolling tea estates, crystalline mountain rivers, dense sal forests, and tranquil hamlets, these curated sightseeing circuits connect you with the soul of Dooars.</p><h3>Key Sightseeing Circuits</h3><p>Popular day circuits include the Samsing\u2013Suntalekhola\u2013Rocky Island loop, the Jhalong\u2013Bindu border trail along the Jaldhaka River, and the Gajoldoba Teesta Barrage wetland circuit. Each route showcases untamed riverbanks, rolling tea gardens, and panoramic Himalayan vistas.</p><h3>Travel Tips & Vehicle Information</h3><p>Sightseeing trips can easily be arranged from Lataguri, Murti, Madarihat, or Malbazar with private local cabs. Winter and spring offer clear skies and refreshing mountain breezes perfect for day picnics and bird photography.</p>",
+                "attractions": [
+                    "Samsing & Rocky Island",
+                    "Jhalong & Bindu Dam",
+                    "Murti Riverside",
+                    "Gajoldoba Teesta Barrage"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Curated day circuits across rivers & tea estates",
+                    "Scenic border drives to Bindu & Jhalong",
+                    "Gajoldoba birdwatching & Teesta boat rides",
+                    "Convenient pickup from any Dooars resort"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Riverside Walks"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Tea Garden Tours"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Bird Watching"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (75\u2013120 km depending on circuit)",
+                    "byTrain": "New Mal Junction (NMZ) or New Jalpaiguri (NJP)",
+                    "byRoad": "Well-connected state highways across Dooars"
+                },
+                "packages": [
+                    {
+                        "title": "Full Day Dooars River & Hill Tour",
+                        "includes": "Cab + Fuel + Sightseeing Points",
+                        "price": 3800,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "title": "3N/4D Complete Dooars Circuit",
+                        "includes": "Stay + Transfers + All Sightseeing",
+                        "price": 11500,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Murti Riverside Resort",
+                        "rating": 4.7,
+                        "reviews": 64,
+                        "type": "Riverside Resort",
+                        "price": 2800,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "name": "Samsing Eco Cottages",
+                        "rating": 4.5,
+                        "reviews": 32,
+                        "type": "Eco Resort",
+                        "price": 1800,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Dooars Safari",
+                "slug": "dooars-safari",
+                "tagline": "Wilderness Safaris | Rhinos, Elephants & Jungle Watchtowers",
+                "altitude": "60\u2013200 m (196\u2013656 ft)",
+                "bestTime": "October\u2013May (Park closures June 15 \u2013 September 15)",
+                "famousFor": "Jeep Safaris, Elephant Safaris, One-Horned Rhinos, Asian Elephants, Watchtower Safaris",
+                "location": "Dooars, West Bengal",
+                "description": "<p>Dooars Safari is the premier wildlife attraction of North Bengal, offering unforgettable jungle jeep safaris and traditional elephant rides through dense grasslands and subtropical rainforests. Home to the Indian One-Horned Rhinoceros, leopards, Royal Bengal tigers, bison, and herds of wild elephants, Dooars provides authentic jungle encounters.</p><h3>Safari Zones & Timings</h3><p>Major safari hubs include Gorumara National Park (Jatraprasad, Medla, Chukchuki, Chandrachur watchtowers), Jaldapara National Park (Hollong & Madarihat zones), Chilapata Forest, and Buxa Tiger Reserve. Safaris operate in morning and afternoon shifts with licensed forest guides and mandatory entry permits.</p><h3>Booking & Permit Assistance</h3><p>CallingHills coordinates seamless permit booking, forest department vehicle arrangements, and verified jungle lodge accommodations for families, photographers, and wildlife enthusiasts.</p>",
+                "attractions": [
+                    "Gorumara Jeep Safari",
+                    "Jaldapara Elephant Safari",
+                    "Chilapata Forest Trail",
+                    "Medla & Jatraprasad Watchtowers"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Thrilling jeep safaris in Gorumara & Chilapata",
+                    "Iconic Jaldapara Elephant Safari for rhino tracking",
+                    "Exclusive watchtowers deep inside national parks",
+                    "Full permit & gypsy coordination by CallingHills"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "safari",
+                        "label": "Jeep Safari"
+                    },
+                    {
+                        "icon": "safari",
+                        "label": "Elephant Safari"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Watchtower Spotting"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Wildlife Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (IXB)",
+                    "byTrain": "Madarihat (for Jaldapara), New Mal Junc (for Gorumara), Alipurduar (for Buxa)",
+                    "byRoad": "Direct highway access from Siliguri / NJP"
+                },
+                "packages": [
+                    {
+                        "title": "Gorumara Morning Safari Special",
+                        "includes": "Permit + Guide + Gypsy",
+                        "price": 2800,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "title": "2N/3D Jungle Safari Package",
+                        "includes": "Resort Stay + 2 Safaris + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Gorumara Safari Lodge",
+                        "rating": 4.8,
+                        "reviews": 89,
+                        "type": "Jungle Lodge",
+                        "price": 3200,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "name": "Hollong Wilderness Camp",
+                        "rating": 4.6,
+                        "reviews": 47,
+                        "type": "Forest Camp",
+                        "price": 2400,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ]
             }
         ]
     },
@@ -1604,11 +7689,327 @@ window.destinationsData = {
         ],
         "places": [
             {
+                "name": "West Sikkim & Activities Sightseeing",
+                "slug": "west-sikkim-sightseeing-activities",
+                "tagline": "Skywalk, Ancient Ruins & Alpine Waterfalls | Cultural & Adventure Circuit",
+                "altitude": "1,800\u20132,150 m (5,900\u20137,050 ft)",
+                "bestTime": "March\u2013May & October\u2013December",
+                "famousFor": "Pelling Skywalk & Chenrezig Statue, Pemayangtse Monastery, Rabdentse Ruins, Khecheopalri Sacred Lake, Kanchenjunga Falls",
+                "location": "West Sikkim, Sikkim",
+                "description": "<p>West Sikkim Sightseeing & Activities showcases the cultural heart and historical birthplace of Sikkim. Dominated by jaw-dropping close-up views of Mount Kanchenjunga, West Sikkim combines ancient monasteries, holy wishing lakes, high-altitude suspension bridges, and modern skywalk marvels.</p><h3>Key Sightseeing Spots & Activities</h3><p>Major attractions include the Pelling Glass Skywalk with the towering 137ft Chenrezig Statue, Pemayangtse Monastery (premier Nyingma monastery founded in 1705), the evocative palace ruins of Rabdentse, sacred Khecheopalri Lake (the wish-fulfilling lake), Kanchenjunga Waterfalls, Rimbi Orange Garden, and the engineering marvel Singshore Suspension Bridge (Asia's second highest gorge bridge).</p><h3>Adventure & Cultural Walks</h3><p>Activities include monastery heritage trails, village homestay interactions in Darap and Yuksom, birdwatching in Barsey Rhododendron Sanctuary, and nature hikes along the Rangit and Rimbi river valleys.</p>",
+                "attractions": [
+                    "Pelling Glass Skywalk & Chenrezig Statue",
+                    "Rabdentse Ruins & Pemayangtse Monastery",
+                    "Khecheopalri Sacred Wishing Lake",
+                    "Singshore Suspension Bridge"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Dramatic Kanchenjunga panoramas from Pelling",
+                    "Thrilling Glass Skywalk over mountain ridges",
+                    "Holy wishing lake & ancient coronation throne",
+                    "Lush cardamom forests & suspension bridges"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Monasteries & Ruins"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Skywalk Views"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Waterfall Treks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Yuksom Heritage"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (125 km) or Bagdogra (140 km)",
+                    "byTrain": "New Jalpaiguri (135 km)",
+                    "byRoad": "Well connected via Jorethang and Geyzing"
+                },
+                "subRegion": "west",
+                "packages": [
+                    {
+                        "title": "Pelling Full Day Sightseeing Circuit",
+                        "includes": "Cab + Driver + Parking",
+                        "price": 3500,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "title": "3N/4D West Sikkim Discovery Tour",
+                        "includes": "Stay + All Meals + Sightseeing",
+                        "price": 12500,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "The Elgin Mount Pandim Pelling",
+                        "rating": 4.8,
+                        "reviews": 84,
+                        "type": "Luxury Heritage Resort",
+                        "price": 5500,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "name": "Darap Eco Village Homestay",
+                        "rating": 4.7,
+                        "reviews": 36,
+                        "type": "Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "East Sikkim Sightseeing & activities",
+                "slug": "east-sikkim-sightseeing-activities",
+                "tagline": "Gangtok Capital Highlights & Historic Old Silk Route Adventure",
+                "altitude": "1,650\u20134,310 m (5,410\u201314,140 ft)",
+                "bestTime": "March\u2013May & October\u2013December",
+                "famousFor": "Tsomgo (Changu) Lake, Nathula Pass, Gangtok Ropeway, Rumtek Monastery, Zuluk 32 Hairpin Loops, Baba Mandir",
+                "location": "East Sikkim, Sikkim",
+                "description": "<p>East Sikkim Sightseeing & Activities presents a dynamic blend of cosmopolitan mountain living in Gangtok with wild high-altitude frontier passes and the legendary Old Silk Route. It is one of the most varied tourism circuits in the entire Eastern Himalayas.</p><h3>Gangtok Local & High Altitude Excursions</h3><p>Highlights include Gangtok local sightseeing (Rumtek Monastery, Enchey Monastery, Do Drul Chorten, Ban Jhakri Waterfalls, Tashi View Point, and MG Marg), along with high-altitude excursions to sacred Tsomgo Lake (Changu Lake at 12,310 ft), Baba Harbhajan Singh Temple, and the international Indo-China border at Nathula Pass (14,140 ft).</p><h3>Old Silk Route Circuit Activities</h3><p>For adventure enthusiasts, the Old Silk Route offers driving across Zuluk's famous 32 hairpin turns, sunrise from Thambi Viewpoint, boating on Lampokhari (Aritar Lake), and crossing the surreal high-altitude plains of Nathang Valley and Kupup Lake.</p>",
+                "attractions": [
+                    "Tsomgo (Changu) Lake & Nathula Pass",
+                    "Gangtok Ropeway & MG Marg",
+                    "Rumtek & Enchey Monasteries",
+                    "Old Silk Route Zuluk Hairpins & Thambi Viewpoint"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Sacred alpine lake at Tsomgo & Nathula Pass",
+                    "Scenic cable car rides over Gangtok valley",
+                    "Spiritual grandeur of Rumtek Monastery",
+                    "Epic switchback road trips on Old Silk Route"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Changu Lake Yak Ride"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Rumtek Monastery"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Drive"
+                    },
+                    {
+                        "icon": "shopping",
+                        "label": "MG Marg Strolls"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (32 km) or Bagdogra (125 km)",
+                    "byTrain": "New Jalpaiguri (120 km)",
+                    "byRoad": "National Highway 10 direct to Gangtok"
+                },
+                "subRegion": "east",
+                "packages": [
+                    {
+                        "title": "Tsomgo Lake & Baba Mandir Excursion",
+                        "includes": "Permits + Cab + Guide",
+                        "price": 4500,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "title": "3N/4D Old Silk Route Zuluk Expedition",
+                        "includes": "Homestay + Meals + Permits",
+                        "price": 10500,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Mayfair Spa Resort Gangtok",
+                        "rating": 4.9,
+                        "reviews": 128,
+                        "type": "Luxury Resort",
+                        "price": 6500,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "name": "Zuluk Cloud Village Homestay",
+                        "rating": 4.6,
+                        "reviews": 40,
+                        "type": "Homestay",
+                        "price": 1600,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "South Sikkim Sightseeing & Activities",
+                "slug": "south-sikkim-sightseeing-activities",
+                "tagline": "Sacred Pilgrimages, Organic Tea Gardens & Cliff-Edge Ridges",
+                "altitude": "1,310\u20132,100 m (4,300\u20136,890 ft)",
+                "bestTime": "October\u2013May",
+                "famousFor": "Char Dham (Siddhesvara Dham), Buddha Park Ravangla, Temi Tea Garden, Samdruptse Hill, Tarey Bhir",
+                "location": "South Sikkim, Sikkim",
+                "description": "<p>South Sikkim Sightseeing & Activities offers an idyllic blend of spiritual grandeur, rolling emerald tea hills, and panoramic ridge walks. Blessed with a milder climate and scenic valleys, South Sikkim is famous for colossal sacred monuments and Sikkim's only organic tea estate.</p><h3>Key Sightseeing Spots & Monuments</h3><p>Top sights include Siddhesvara Dham (Char Dham) at Namchi featuring replicas of the four revered Hindu dhams and a 108ft statue of Lord Shiva, the 135ft statue of Guru Padmasambhava at Samdruptse Hill, the serene 130ft Buddha statue at Buddha Park of Ravangla, and the sprawling slopes of Temi Tea Garden producing world-class organic Orthodox tea.</p><h3>Activities & Nature Walks</h3><p>Experience the thrilling walk along Tarey Bhir (a 10,000-foot-long cliff edge overlooking deep river valleys), birdwatching in Kitam Bird Sanctuary, exploring Ralang and Kewzing monasteries, and gentle village walks in Chalamthang and Borong.</p>",
+                "attractions": [
+                    "Char Dham (Siddhesvara Dham Namchi)",
+                    "Buddha Park of Ravangla",
+                    "Temi Organic Tea Garden",
+                    "Tarey Bhir Ridge Walk & Samdruptse"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Majestic 130ft statue at Buddha Park Ravangla",
+                    "Sikkim's sole organic tea plantation at Temi",
+                    "Revered Char Dham pilgrimage complex in Namchi",
+                    "Thrilling Tarey Bhir cliff-walk with gorge views"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Char Dham & Buddha Park"
+                    },
+                    {
+                        "icon": "tea",
+                        "label": "Temi Tea Tasting"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Tarey Bhir Ridge"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Panoramic Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (100 km) or Pakyong (70 km)",
+                    "byTrain": "New Jalpaiguri (95 km)",
+                    "byRoad": "Well-paved highways via Melli and Jorethang"
+                },
+                "subRegion": "south",
+                "packages": [
+                    {
+                        "title": "Full Day Namchi & Ravangla Circuit",
+                        "includes": "Private Cab + Parking + Tour",
+                        "price": 3200,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "title": "2N/3D South Sikkim Tea & Temple Tour",
+                        "includes": "Tea Estate Stay + Sightseeing",
+                        "price": 9500,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Cherry Resort Temi Tea Garden",
+                        "rating": 4.8,
+                        "reviews": 88,
+                        "type": "Tea Estate Resort",
+                        "price": 3800,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "name": "Ravangla Mountain View Lodge",
+                        "rating": 4.5,
+                        "reviews": 52,
+                        "type": "Boutique Hotel",
+                        "price": 2200,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ]
+            },
+            {
+                "name": "North Sikkim Sightseeing Activities",
+                "slug": "north-sikkim-sightseeing-activities",
+                "tagline": "High-Altitude Valleys, Glacial Lakes & Himalayan Frontiers",
+                "altitude": "2,600\u20135,430 m (8,500\u201317,800 ft)",
+                "bestTime": "March\u2013June (Rhododendron blooms) & October\u2013December (Crisp snow views)",
+                "famousFor": "Yumthang Valley of Flowers, Zero Point (Yumesamdong), Gurudongmar Lake, Kala Patthar, Lachung & Lachen Hamlets",
+                "location": "North Sikkim, Sikkim",
+                "description": "<p>North Sikkim Sightseeing Activities represents the ultimate Himalayan expedition in Sikkim. Featuring jagged snow peaks, emerald alpine valleys, gushing river gorges, and sacred glacial lakes at over 17,000 feet, North Sikkim offers raw, untamed mountain grandeur.</p><h3>Yumthang Valley & Zero Point Circuit</h3><p>From the picturesque base village of Lachung, travelers ascend into Yumthang Valley (the Valley of Flowers, ablaze with dozens of rhododendron species in spring), continue to the natural hot springs, and reach Zero Point (Yumesamdong at 15,300 ft) where perpetual snowfields meet azure Himalayan skies.</p><h3>Gurudongmar Lake & Lachen Circuit</h3><p>From Lachen, an early morning drive through Thangu and Chopta Valley leads to Gurudongmar Lake (17,800 ft) \u2014 one of the highest and most sacred lakes on Earth, sacred to Buddhists, Sikhs, and Hindus alike. Other key spots include Kala Patthar, Seven Sisters Waterfall, and Chungthang confluence.</p>",
+                "attractions": [
+                    "Yumthang Valley of Flowers",
+                    "Sacred Gurudongmar Lake (17,800 ft)",
+                    "Zero Point (Yumesamdong)",
+                    "Lachung & Lachen Mountain Villages"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Sacred emerald waters of Gurudongmar Lake",
+                    "Endless rhododendron blossoms in Yumthang Valley",
+                    "Snow adventures at Zero Point (15,300 ft)",
+                    "Authentic Bhutia hospitality in high mountain villages"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Gurudongmar Lake"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Yumthang Valley"
+                    },
+                    {
+                        "icon": "mountain",
+                        "label": "Zero Point Snow"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Lachung Monastery"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Bagdogra Airport (230 km via Gangtok)",
+                    "byTrain": "New Jalpaiguri (225 km via Gangtok)",
+                    "byRoad": "Special tourist cabs from Gangtok (Protected Area Permit mandatory)"
+                },
+                "subRegion": "north",
+                "packages": [
+                    {
+                        "title": "2N/3D Lachung & Yumthang Valley Tour",
+                        "includes": "Stay + All Meals + Cab + Permits",
+                        "price": 11500,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "title": "3N/4D Complete Lachen + Lachung Special",
+                        "includes": "Gurudongmar + Yumthang + Zero Point",
+                        "price": 17500,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Yarlam Resort Lachung",
+                        "rating": 4.6,
+                        "reviews": 75,
+                        "type": "Mountain Resort",
+                        "price": 3800,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "name": "Apple Valley Cottages Lachen",
+                        "rating": 4.4,
+                        "reviews": 42,
+                        "type": "Eco Lodge",
+                        "price": 2200,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ]
+            },
+            {
                 "name": "Lachung",
                 "slug": "lachung",
                 "tagline": "The Flower Valley Village",
                 "altitude": "2,600 m (8,600 ft)",
-                "bestTime": "March–May & October–November",
+                "bestTime": "March\u2013May & October\u2013November",
                 "famousFor": "Yumthang Valley Base, Snowfalls, Waterfalls",
                 "location": "North Sikkim",
                 "description": "<p>Lachung is a picturesque mountain village in North Sikkim, located at an elevation of about 2,900 metres (9,600 ft). Surrounded by snow-capped peaks, spectacular waterfalls, and fruit orchards, Lachung is one of the most stunning destinations in Sikkim and serves as the gateway to the Yumthang Valley.</p><h3>Culture & Lifestyle</h3><p>The village is primarily inhabited by the Bhutia community, known as Lachungpas, who have retained their unique culture and traditional self-governance system called the 'Dzumsa'. The Lachung Monastery, an ancient Buddhist institution, overlooks the village and adds to its spiritual ambiance.</p>",
@@ -1682,7 +8083,7 @@ window.destinationsData = {
                 "slug": "lachen",
                 "tagline": "Gateway to Gurudongmar Lake",
                 "altitude": "2,750 m (9,000 ft)",
-                "bestTime": "March–May & October–November",
+                "bestTime": "March\u2013May & October\u2013November",
                 "famousFor": "Gurudongmar Base, High Altitude Valleys, Lachen Monastery",
                 "location": "North Sikkim",
                 "description": "<p>Lachen is a tranquil mountain village in North Sikkim situated at an elevation of 2,750 metres (9,000 ft). Serving as the base for journeys to the sacred Gurudongmar Lake and Chopta Valley, Lachen is nestled in an amphitheatre of pine-clad mountains and rushing streams.</p><h3>Heritage & Traditions</h3><p>The Lachenpa people maintain a rich social heritage governed by their traditional council, the Dzumsa. The historic Lachen Monastery, founded in 1858, commands peaceful views over the village.</p>",
@@ -1762,9 +8163,9 @@ window.destinationsData = {
             {
                 "name": "Zero Point",
                 "slug": "zero-point",
-                "tagline": "Yumesamdong — Where the Road Ends",
+                "tagline": "Yumesamdong \u2014 Where the Road Ends",
                 "altitude": "4,663 m (15,300 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Year-round Snow, Extreme Altitude, Himalayan Border Panoramas",
                 "location": "North Sikkim",
                 "description": "<p>Zero Point, officially known as Yumesamdong, is the northernmost motorable outpost in Sikkim where civilian roads come to an end near the international border. Perched at an astonishing 4,663 metres (over 15,300 ft), it remains blanketed in crisp white snow for the majority of the year.</p><p>Surrounded by barren, soaring glaciated peaks, Zero Point offers an electrifying sensation of standing on top of the world.</p>",
@@ -1805,7 +8206,7 @@ window.destinationsData = {
                 "slug": "gurudongmar-lake",
                 "tagline": "Sacred Holy Lake at 17,800 Feet",
                 "altitude": "5,430 m (17,800 ft)",
-                "bestTime": "March–June & October–November",
+                "bestTime": "March\u2013June & October\u2013November",
                 "famousFor": "One of the World's Highest Lakes, Sacred Never-Freezing Spot, Glacial Peaks",
                 "location": "North Sikkim Plateau",
                 "description": "<p>Gurudongmar Lake is one of the highest and most sacred alpine lakes in the world, positioned at an altitude of 5,430 metres (17,800 ft) on the high plateau of North Sikkim, just 5 kilometres from the Tibetan border.</p><p>Revered by both Buddhists and Sikhs, legend holds that Guru Padmasambhava blessed a section of the lake so it never freezes completely even during brutal winters, providing drinking water to locals.</p>",
@@ -1846,7 +8247,7 @@ window.destinationsData = {
                 "slug": "thangu-valley",
                 "tagline": "High Alpine Acclimatization Valley",
                 "altitude": "3,962 m (13,000 ft)",
-                "bestTime": "March–June & October–November",
+                "bestTime": "March\u2013June & October\u2013November",
                 "famousFor": "Wooden Alpine Lodges, Snow Clad Plains, Base for Gurudongmar & Chopta",
                 "location": "North Sikkim",
                 "description": "<p>Thangu Valley is a dramatic high-altitude settlement nestled at 3,962 metres along the roaring Teesta river. It is surrounded by alpine meadows, wooden Tibetan-style houses, and towering barren peaks.</p><p>It serves as the crucial acclimatization breakpoint for travellers journeying onward to Gurudongmar Lake and Chopta Valley.</p>",
@@ -1887,7 +8288,7 @@ window.destinationsData = {
                 "slug": "chopta-valley",
                 "tagline": "Valley of Frozen Rivers & Alpine Wildflowers",
                 "altitude": "4,023 m (13,200 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Frozen River Beds, Rare Alpine Primulas, Meandering Streams",
                 "location": "North Sikkim",
                 "description": "<p>Chopta Valley is an ethereal, untouched high-altitude valley situated just above Thangu in North Sikkim. In winter, its meandering streams freeze into glistening glass ribbons under bright blue skies.</p><p>In spring and summer, the barren valley transforms into a vibrant carpet of rare alpine rhododendrons, primulas, and wildflowers.</p>",
@@ -1969,7 +8370,7 @@ window.destinationsData = {
                 "slug": "chungthang",
                 "tagline": "Sacred Confluence of Lachen & Lachung Rivers",
                 "altitude": "1,790 m (5,870 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Guru Nanak Sacred Rock & Gurudwara, River Confluence, Gateway to High North",
                 "location": "North Sikkim",
                 "description": "<p>Chungthang is a historic mountain town nestled at the sacred confluence of the Lachen Chu and Lachung Chu rivers, which unite here to form the mighty Teesta River. It is the crucial junction where the highway splits into the Lachen and Lachung valleys.</p><p>Revered in Sikh and Buddhist traditions, Chungthang is home to the historic Gurudwara Nanak Lama and the sacred rock bearing the footprints of Guru Nanak and Guru Padmasambhava.</p>",
@@ -2009,11 +8410,11 @@ window.destinationsData = {
                 "name": "Dzongu",
                 "slug": "dzongu",
                 "tagline": "Sacred Ancestral Realm of the Lepchas",
-                "altitude": "1,000 – 3,000 m",
-                "bestTime": "October–May",
+                "altitude": "1,000 \u2013 3,000 m",
+                "bestTime": "October\u2013May",
                 "famousFor": "Exclusive Lepcha Reserve, Pristine Waterfalls, Ancient Forest Spirit Traditions",
                 "location": "North Sikkim",
-                "description": "<p>Dzongu is an exclusive, officially protected reserve in North Sikkim set aside exclusively for the indigenous Lepcha community — the original inhabitants of Sikkim. Bordered by the Teesta river and Kanchenjunga National Park, it is a realm of untamed wilderness.</p><p>Roaring waterfalls, swinging bamboo cane bridges, cardamom groves, and ancient animist folklore make Dzongu one of the most culturally profound eco-tourism destinations on Earth.</p>",
+                "description": "<p>Dzongu is an exclusive, officially protected reserve in North Sikkim set aside exclusively for the indigenous Lepcha community \u2014 the original inhabitants of Sikkim. Bordered by the Teesta river and Kanchenjunga National Park, it is a realm of untamed wilderness.</p><p>Roaring waterfalls, swinging bamboo cane bridges, cardamom groves, and ancient animist folklore make Dzongu one of the most culturally profound eco-tourism destinations on Earth.</p>",
                 "attractions": [
                     "Lingthem & Tingvong Villages",
                     "Rongyung Chu River",
@@ -2092,7 +8493,7 @@ window.destinationsData = {
                 "slug": "singhik",
                 "tagline": "The Ultimate Kanchenjunga Balcony Viewpoint",
                 "altitude": "1,560 m (5,118 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Closest Frontal View of Mount Kanchenjunga & Mount Siniolchu, River Valley",
                 "location": "North Sikkim",
                 "description": "<p>Singhik is a tiny, quiet mountain settlement perched 4 kilometers north of Mangan, celebrated far and wide as one of the finest natural balconies in the Himalayas.</p><p>On clear mornings, visitors are treated to an astonishingly close, awe-inspiring frontal vista of Mount Kanchenjunga and Mount Siniolchu (hailed as one of the most beautiful mountain peaks on the planet), rising straight above the green river gorge.</p>",
@@ -2133,7 +8534,7 @@ window.destinationsData = {
                 "slug": "seven-sister-waterfalls",
                 "tagline": "Seven-Tiered Cascading Wonder",
                 "altitude": "1,100 m (3,608 ft)",
-                "bestTime": "Round the Year (Best May–October)",
+                "bestTime": "Round the Year (Best May\u2013October)",
                 "famousFor": "Spectacular Seven-Stage Waterfall, National Highway Photo Stop, Lush Cliffs",
                 "location": "North Sikkim Highway",
                 "description": "<p>The Seven Sister Waterfalls is a magnificent natural cascade located along the Gangtok-Chungthang highway in North Sikkim. Plunging in seven distinct steps over emerald cliff faces and moss-covered boulders, it is a mesmerizing spectacle.</p><p>A well-maintained footbridge and viewing pavilion allow travelers to admire the roaring mist and spray rainbows created by the tumbling waters.</p>",
@@ -2159,7 +8560,7 @@ window.destinationsData = {
                     },
                     {
                         "icon": "tea",
-                        "label": "Café Refreshment"
+                        "label": "Caf\u00e9 Refreshment"
                     }
                 ],
                 "howToReach": {
@@ -2173,7 +8574,7 @@ window.destinationsData = {
                 "name": "Shingba Rhododendron Sanctuary",
                 "slug": "shingba-rhododendron-sanctuary",
                 "tagline": "Valley of 40 Rare Rhododendron Species",
-                "altitude": "3,048 – 4,500 m",
+                "altitude": "3,048 \u2013 4,500 m",
                 "bestTime": "April to July",
                 "famousFor": "Vibrant Spring Floral Blooms, State Flower Dendrobium, Yumthang Buffer",
                 "location": "Yumthang Valley Belt, North Sikkim",
@@ -2215,7 +8616,7 @@ window.destinationsData = {
                 "slug": "phensang",
                 "tagline": "Historic Nyingmapa Monastic Crest",
                 "altitude": "1,650 m (5,413 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Phensang Monastery (built 1721), Sacred Mask Dances, Valley Vistas",
                 "location": "Near Mangan, North Sikkim",
                 "description": "<p>Phensang is a culturally revered village and monastic ridge located in North Sikkim, celebrated for the historic Phensang Monastery established in 1721 by the 3rd Lhatsun Chempo.</p><p>Perched on a gentle mountain spur, the monastery houses over 300 resident lamas and hosts vibrant annual masked Chaam dances during the Sikkimese New Year (Lossoong).</p>",
@@ -2256,7 +8657,7 @@ window.destinationsData = {
                 "slug": "tingvong",
                 "tagline": "Fairytale Hamlet of Upper Dzongu",
                 "altitude": "1,450 m (4,757 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Panoramic Kanchenjunga Views, Traditional Lepcha Homestays, Pristine Valleys",
                 "location": "Upper Dzongu, North Sikkim",
                 "description": "<p>Tingvong is one of the most picturesque traditional villages in Upper Dzongu, perched high on the sunny mountain slopes overlooking the confluence of the Rongyung and Kanaka rivers.</p><p>With sweeping views of the sacred snow-capped Kanchenjunga range, Tingvong offers warm Lepcha homestays, local organic food, and forest trails leading into virgin woodlands.</p>",
@@ -2297,7 +8698,7 @@ window.destinationsData = {
                 "slug": "passingdang",
                 "tagline": "Heart of Lower Dzongu Community Tourism",
                 "altitude": "1,300 m (4,265 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Lepcha Cultural Immersion, Cane Bridges, Organic Bamboo Architecture",
                 "location": "Lower Dzongu, North Sikkim",
                 "description": "<p>Passingdang is the welcoming cultural heart of Lower Dzongu, nestled in an amphitheatre of green cardamom hills and sparkling streams. It was the pioneer village for authentic community-based eco-tourism in Dzongu.</p><p>Visitors can sleep in traditional bamboo cottages, taste bamboo shoot delicacies, and learn about the sacred indigenous folklore of Mt. Kanchenjunga.</p>",
@@ -2420,7 +8821,7 @@ window.destinationsData = {
                 "slug": "mt-katao",
                 "tagline": "Snow Paradise of the Forbidden Heights",
                 "altitude": "4,572 m (15,000 ft)",
-                "bestTime": "December–May",
+                "bestTime": "December\u2013May",
                 "famousFor": "Snow Adventure, Skiing & Snowboarding, Dramatic Glaciated Mountain Wall",
                 "location": "Near Lachung, North Sikkim",
                 "description": "<p>Mount Katao is an awe-inspiring, glaciated peak located 28 kilometers from Lachung near the international frontier. Reaching an altitude of nearly 15,000 feet, Katao is celebrated for its surreal winter snowscapes.</p><p>Trekkers and adventure lovers flock to Katao for skiing, snowboarding, and walking along sparkling snowy ridges flanked by dramatic mountain walls.</p>",
@@ -2461,7 +8862,7 @@ window.destinationsData = {
                 "slug": "cho-lhamu-lake",
                 "tagline": "Highest Lake in India & Source of Teesta",
                 "altitude": "5,330 m (17,490 ft)",
-                "bestTime": "March–May & October–November",
+                "bestTime": "March\u2013May & October\u2013November",
                 "famousFor": "India's Highest Glacial Lake, Origin of Teesta River, Tibetan Border Wilderness",
                 "location": "Plateau of North Sikkim",
                 "description": "<p>Cho Lhamu Lake (Tso Lhamo) is the highest lake in India, situated at an extraordinary altitude of 5,330 metres (17,490 ft) in the high plateau of North Sikkim, just 4 kilometres from the border with Tibet.</p><p>Fed by the waters of the Zemu Glacier and Kangchenjunga massif, this shimmering emerald-turquoise glacial lake is the sacred mythological source of the mighty Teesta River.</p>",
@@ -2543,7 +8944,7 @@ window.destinationsData = {
                 "slug": "ringhim",
                 "tagline": "Monastery Ridge Above Mangan",
                 "altitude": "1,400 m (4,593 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Ringhim Monastery, Annual Namsoong Festival, Kanchenjunga Vistas",
                 "location": "Above Mangan, North Sikkim",
                 "description": "<p>Ringhim is a peaceful hilltop settlement perched directly above Mangan town in North Sikkim. It is famous for the historic Ringhim Monastery, which serves as a major spiritual center for the local Buddhist and Lepcha communities.</p><p>Surrounded by citrus orchards and prayer flags, the ridge commands stunning views of Mount Kanchenjunga and hosts the annual vibrant Namsoong festival.</p>",
@@ -2584,7 +8985,7 @@ window.destinationsData = {
                 "slug": "hee-gyathang",
                 "tagline": "Sacred Lake & Lepcha Heart of Dzongu",
                 "altitude": "1,520 m (4,986 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Sacred Carp Fish Lake, Ancient Monastic Relics, Untouched Forest Groves",
                 "location": "Lower Dzongu, North Sikkim",
                 "description": "<p>Hee Gyathang is a sacred Lepcha village in Lower Dzongu centered around a mystical, holy lake revered by the indigenous inhabitants. Legend holds that golden carp fish residing in the lake are spiritual ancestors of the local clans.</p><p>Surrounded by dense oak and chestnut groves, Hee Gyathang features historic shrines, sacred rocks, and deep animist forest traditions.</p>",
@@ -2625,7 +9026,7 @@ window.destinationsData = {
                 "slug": "pentong",
                 "tagline": "The Final Frontier Village of Dzongu",
                 "altitude": "1,680 m (5,511 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Most Remote Settlement in Upper Dzongu, Siniolchu View, Pure Wilderness",
                 "location": "Upper Dzongu, North Sikkim",
                 "description": "<p>Pentong is the most remote village in Upper Dzongu, nestled near the buffer boundary of Kanchenjunga National Park. Accessible by adventurous foot trails through cardamom forests and crossing cascading mountain streams, Pentong feels entirely removed from modern time.</p><p>It provides an astonishing, direct closeup of the spire of Mount Siniolchu and Mount Simvo towering overhead.</p>",
@@ -2666,7 +9067,7 @@ window.destinationsData = {
                 "slug": "toong",
                 "tagline": "River Checkpoint on the Way to High North",
                 "altitude": "1,420 m (4,658 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Teesta River Gorge, Forested Valley Slopes, Permit Checkpoint",
                 "location": "North Sikkim Highway",
                 "description": "<p>Toong is an important transit and permit verification post along the North Sikkim Highway, perched above the gorge where the river surges between Mangan and Chungthang.</p><p>Surrounded by sheer forested cliffs, suspension footbridges, and roaring waterfalls, Toong is a scenic milestone on the overland route towards Lachen and Lachung.</p>",
@@ -2707,7 +9108,7 @@ window.destinationsData = {
                 "slug": "sipgyer",
                 "tagline": "Secluded Mountain Village of Dzongu",
                 "altitude": "1,500 m (4,921 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Medicinal Plants, Traditional Cane Bridges, Pristine Solitude",
                 "location": "Upper Dzongu, North Sikkim",
                 "description": "<p>Sipgyer is a peaceful, secluded Lepcha hamlet tucked into the forested ridges of Upper Dzongu. Known for wild medicinal herb gardens, crystal streams, and traditional bamboo cane craft, Sipgyer preserves centuries-old Himalayan knowledge.</p><p>It is an ideal sanctuary for artists, nature lovers, and travelers seeking pure silence.</p>",
@@ -2789,7 +9190,7 @@ window.destinationsData = {
                 "slug": "lingdem",
                 "tagline": "Sulfur Hot Springs of Dzongu",
                 "altitude": "1,100 m (3,608 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Natural Therapeutic Hot Springs, Forest Wooden Footbridge, Healing Waters",
                 "location": "Dzongu, North Sikkim",
                 "description": "<p>Lingdem is famous throughout Sikkim for its natural therapeutic sulfur hot springs (Tatopani), nestled inside lush riverside forests across an iconic wooden footbridge in Upper Dzongu.</p><p>Local and travelers visit the serene open-air baths to soak in the warm, mineral-rich healing waters believed to cure joint aches and skin ailments while listening to the rushing mountain river.</p>",
@@ -2830,7 +9231,7 @@ window.destinationsData = {
                 "slug": "ravangla",
                 "tagline": "Tranquil Buddhist Haven & Buddha Park",
                 "altitude": "2,000 m (6,561 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Buddha Park, Ralang Monastery, Himalayan Panorama",
                 "location": "South Sikkim",
                 "description": "<p>Ravangla is a serene town situated in South Sikkim at an elevation of 2,000 metres. Nestled between Maenam and Tendong hills, it is globally renowned for the magnificent 130-foot high statue of Lord Buddha in Buddha Park (Tathagata Tsal).</p><p>Surrounded by dense oak and rhododendron forests, Ravangla offers unobstructed views of Mount Kanchenjunga, Mount Pandim, and Mount Siniolchu.</p>",
@@ -2871,7 +9272,7 @@ window.destinationsData = {
                 "slug": "namchi",
                 "tagline": "Cultural & Spiritual Capital of South Sikkim",
                 "altitude": "1,675 m (5,500 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Samdruptse Statue, Char Dham, Rose Garden",
                 "location": "South Sikkim",
                 "description": "<p>Namchi, meaning 'Sky High' in the Bhutia language, is the administrative headquarters and cultural heart of South Sikkim. Overlooked by the imposing 135-foot gilded statue of Guru Padmasambhava atop Samdruptse Hill, Namchi is a premier spiritual center.</p><p>It also hosts the renowned Siddhesvara Dham (Char Dham) and beautifully manicured rose gardens with sweeping valley vistas.</p>",
@@ -2912,7 +9313,7 @@ window.destinationsData = {
                 "slug": "temi-tea-garden",
                 "tagline": "The Only Organic Tea Estate in Sikkim",
                 "altitude": "1,448 m (4,750 ft)",
-                "bestTime": "March–May (Spring) & November (Cherry Blossoms)",
+                "bestTime": "March\u2013May (Spring) & November (Cherry Blossoms)",
                 "famousFor": "Organic Tea Gardens, Cherry Blossoms, Kanchenjunga Backdrop",
                 "location": "South Sikkim",
                 "description": "<p>Temi Tea Garden is the only tea estate in the state of Sikkim, established in 1969 by the Chogyal. Spanning 440 acres of rolling slopes beneath Tendong Hill, Temi is world-renowned for its 100% organic, award-winning aromatic orthodox tea.</p><p>During November, cherry blossom trees lining the tea trails burst into vibrant pink blooms against the snowy backdrop of Mount Kanchenjunga.</p>",
@@ -2953,7 +9354,7 @@ window.destinationsData = {
                 "slug": "borong",
                 "tagline": "Enchanting Birdwatching & Hot Springs Village",
                 "altitude": "1,770 m (5,800 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Borong Hot Springs (Tatopani), Bird Watching, Wildflower Valleys",
                 "location": "South Sikkim",
                 "description": "<p>Borong is a peaceful, picturesque village in South Sikkim situated near Ravangla. Famous for the therapeutic Borong Hot Springs (Tatopani) on the bank of the Rangit river, it offers breathtaking views of Mount Narsing and Mount Kanchenjunga.</p><p>Surrounded by thick pine forests, Borong is a renowned haven for birdwatchers, where Himalayan species like scarlet minivets and black magpies flit through the trees.</p>",
@@ -2994,7 +9395,7 @@ window.destinationsData = {
                 "slug": "ralang",
                 "tagline": "Sacred Heart of Kagyu Monasticism",
                 "altitude": "1,800 m (5,905 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Palchen Choeling Monastic Institute, Old Ralang Gompa, Pang Lhabsol Festival",
                 "location": "South Sikkim",
                 "description": "<p>Ralang is one of the most sacred pilgrimage centers in South Sikkim, home to the magnificent Palchen Choeling Monastic Institute (New Ralang Monastery) and the historic Old Ralang Monastery built in 1768.</p><p>The monastery is celebrated for hosting the grand Pang Lhabsol festival, where sacred masked cham dances are performed by lamas amidst grand monastic trumpets.</p>",
@@ -3035,7 +9436,7 @@ window.destinationsData = {
                 "slug": "kewzing",
                 "tagline": "The Village of Sprouting Wheat & Homestays",
                 "altitude": "1,400 m (4,600 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Bhutia Community Homestays, Cardamom Forests, Monastery Circuit",
                 "location": "South Sikkim",
                 "description": "<p>Kewzing is a charming Bhutia village perched high above the Rangit river valley, known as 'Sosing' (land of chestnut trees) in ancient texts. It is renowned for pioneer community-based rural tourism.</p><p>Surrounded by lush cardamom hills and forested ridges, Kewzing is a central hub for visiting nearby monasteries like Mangbrue Gompa and Bon Monastery.</p>",
@@ -3117,7 +9518,7 @@ window.destinationsData = {
                 "slug": "maenam-hill",
                 "tagline": "High Sanctuary of the Sky & Wildlife",
                 "altitude": "3,140 m (10,300 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Maenam Wildlife Sanctuary, Bhaleydhunga Cliff, High Ridge Trek",
                 "location": "South Sikkim",
                 "description": "<p>Maenam Hill towers above Ravangla at 3,140 metres, meaning 'Treasure-trove of the Sky'. It is the crowning summit of the Maenam Wildlife Sanctuary, covered in thick moss-laden rhododendron, oak, and fir trees.</p><p>A legendary 4-hour uphill trek brings you to Bhaleydhunga, a sheer rocky precipice with vertigo-inducing views straight down to the Rangit river far below.</p>",
@@ -3161,7 +9562,7 @@ window.destinationsData = {
                 "bestTime": "Round the Year",
                 "famousFor": "87-ft Lord Shiva Statue, Replicas of 4 Sacred Dhams, 12 Jyotirlingas",
                 "location": "Solophok Hill, Namchi, South Sikkim",
-                "description": "<p>Siddhesvara Dham, famously known as Namchi Char Dham, is a sprawling cultural and spiritual mega-complex perched atop Solophok Hill in South Sikkim. It features a colossal 87-foot statue of Lord Shiva seated in meditation.</p><p>Surrounding the main statue are authentic replicas of the four most sacred Hindu Dhams — Badrinath, Jagannath, Dwarka, and Rameshwaram — along with replicas of all twelve Jyotirlingas.</p>",
+                "description": "<p>Siddhesvara Dham, famously known as Namchi Char Dham, is a sprawling cultural and spiritual mega-complex perched atop Solophok Hill in South Sikkim. It features a colossal 87-foot statue of Lord Shiva seated in meditation.</p><p>Surrounding the main statue are authentic replicas of the four most sacred Hindu Dhams \u2014 Badrinath, Jagannath, Dwarka, and Rameshwaram \u2014 along with replicas of all twelve Jyotirlingas.</p>",
                 "attractions": [
                     "Colossal 87-ft Shiva Statue",
                     "Replicas of 4 Sacred Dhams",
@@ -3199,7 +9600,7 @@ window.destinationsData = {
                 "slug": "yangang",
                 "tagline": "Lush Foothill Valley & Skywalk Hub",
                 "altitude": "1,350 m (4,429 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Tig-Jong Cultural Village, Scenic Hill Slopes, Bhaleydhunga Ropeway Base",
                 "location": "South Sikkim",
                 "description": "<p>Yangang is a serene mountain township situated in the picturesque valley between Tendong Hill and Maenam Ridge in South Sikkim. It is known for its pleasant weather, rich ginger and cardamom farming, and warm Lepcha community culture.</p><p>It is also the base for the state-of-the-art Bhaleydhunga passenger ropeway ascending directly to the high mountain cliffs.</p>",
@@ -3240,8 +9641,8 @@ window.destinationsData = {
                 "slug": "tendong-hill",
                 "tagline": "The Sacred Uplifted Horn of Lepcha Lore",
                 "altitude": "2,600 m (8,530 ft)",
-                "bestTime": "October–May",
-                "famousFor": "Sacred Tendong Peak, Lepcha Indigenous Mythology, 360° Watchtower Panorama",
+                "bestTime": "October\u2013May",
+                "famousFor": "Sacred Tendong Peak, Lepcha Indigenous Mythology, 360\u00b0 Watchtower Panorama",
                 "location": "Damthang, South Sikkim",
                 "description": "<p>Tendong Hill, meaning 'the Uplifted Horn' in the Lepcha language, is a revered sacred peak rising above Damthang. According to ancient Lepcha mythology, Tendong Hill rose out of floodwaters to save humanity from a catastrophic deluge.</p><p>A scenic 6-km forest trek through oak and chestnut woods leads to a three-story watchtower offering an extraordinary 360-degree vista of the plains of Bengal and the snows of Sikkim.</p>",
                 "attractions": [
@@ -3252,7 +9653,7 @@ window.destinationsData = {
                 "image": "images/gallery (23).jpg",
                 "highlights": [
                     "Sacred peak steeped in indigenous mythology",
-                    "Panoramic 360° view of Bengal plains and snow peaks",
+                    "Panoramic 360\u00b0 view of Bengal plains and snow peaks",
                     "Refreshing dense forest trek from Damthang"
                 ],
                 "thingsToDo": [
@@ -3281,7 +9682,7 @@ window.destinationsData = {
                 "slug": "jorethang",
                 "tagline": "Bustling River Hub of South & West Sikkim",
                 "altitude": "305 m (1,000 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Rangeet River Valley, Maghe Sankranti Mela, Commercial Confluence",
                 "location": "South Sikkim",
                 "description": "<p>Jorethang is a vibrant riverside city set along the roaring banks of the Rangeet River at the junction connecting South and West Sikkim with Darjeeling district. Because of its low altitude, it enjoys warm, pleasant subtropical weather.</p><p>Every January, Jorethang hosts the famous Maghe Sankranti Mela, a massive festival drawing artisans, traditional food stalls, and music from across the Himalayas.</p>",
@@ -3321,8 +9722,8 @@ window.destinationsData = {
                 "name": "Kitab Bird Sanctuary",
                 "slug": "kitab-bird-sanctuary",
                 "tagline": "Sal Forest Haven of Rare Himalayan Birds",
-                "altitude": "320 – 875 m",
-                "bestTime": "October–May",
+                "altitude": "320 \u2013 875 m",
+                "bestTime": "October\u2013May",
                 "famousFor": "Only Protected Bird Sanctuary in Sikkim, Wild Peafowl, River Rafting",
                 "location": "South Sikkim",
                 "description": "<p>Kitam (Kitab) Bird Sanctuary is a lush, protected nature reserve situated along the Rangit river in South Sikkim. It is the only bird sanctuary in Sikkim dedicated to low-altitude subtropical birdlife, nestled inside thick sal and pine forests.</p><p>The sanctuary is home to over 200 species of resident and migratory birds, including the Indian Peafowl, emerald doves, and colorful hornbills.</p>",
@@ -3363,7 +9764,7 @@ window.destinationsData = {
                 "slug": "sikip",
                 "tagline": "Angling & Camping Paradise on the Rangeet",
                 "altitude": "500 m (1,640 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "River Angling (Golden Mahseer), Riverside Camping, Untouched Nature",
                 "location": "South Sikkim",
                 "description": "<p>Sikip is an idyllic, undiscovered riverside retreat situated right on the banks of the mighty Rangeet river in South Sikkim. The crystal waters here are renowned among outdoor enthusiasts for sport angling and fishing, especially for the prized Golden Mahseer.</p><p>With scenic river beaches and surrounding lush green cliffs, Sikip is an exceptional destination for tranquil riverside camping under the stars.</p>",
@@ -3445,7 +9846,7 @@ window.destinationsData = {
                 "slug": "barfung",
                 "tagline": "The Valley of Warm Mountain Homestays",
                 "altitude": "1,600 m (5,250 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Traditional Lepcha & Bhutia Culture, Mountain Homestays, Pristine Orchards",
                 "location": "Near Ravangla, South Sikkim",
                 "description": "<p>Barfung is an offbeat hillside hamlet located near Ravangla in South Sikkim, surrounded by undulating pine hills, bamboo thickets, and fruit orchards. It is known for its warm, authentic community homestays.</p><p>Travelers in Barfung experience traditional mountain life, participate in organic kitchen gardening, and enjoy calm walks leading toward hidden monastery paths.</p>",
@@ -3486,7 +9887,7 @@ window.destinationsData = {
                 "slug": "zoom",
                 "tagline": "Sun-Drenched Ridge of Historic Legends",
                 "altitude": "1,300 m (4,265 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Panoramic Valley Vistas, Historic Lepcha Heritage, Terraced Agriculture",
                 "location": "Near Jorethang, South Sikkim",
                 "description": "<p>Zoom is a scenic hilltop village perched on the southern mountain ridge near Jorethang and Soreng. Bathed in mountain sunshine, it commands sweeping views across the Rangeet and Rammam river valleys.</p><p>With rolling fields of maize and vegetables, Zoom represents traditional agrarian Sikkim at its most peaceful and timeless.</p>",
@@ -3527,7 +9928,7 @@ window.destinationsData = {
                 "slug": "poklok",
                 "tagline": "Serene Hill Hamlet Overlooking the Rangeet",
                 "altitude": "1,500 m (4,921 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Rural Mountain Tourism, Organic Farms, Peaceful Woodland Paths",
                 "location": "South Sikkim",
                 "description": "<p>Poklok is an idyllic hillside settlement located near Denchung in South Sikkim. Known for peaceful forested surroundings and organic village agriculture, it is ideal for travelers looking to disconnect from city bustle.</p><p>The village is famed for friendly local hospitality, mountain breezes, and easy walking paths through oak and rhododendron woods.</p>",
@@ -3609,7 +10010,7 @@ window.destinationsData = {
                 "slug": "payong",
                 "tagline": "Hidden Mountain Haven of South Hills",
                 "altitude": "1,450 m (4,757 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Pristine Cardamom Groves, Quiet Streams, Himalayan Birdlife",
                 "location": "Near Yangang, South Sikkim",
                 "description": "<p>Payong is a peaceful, secluded village tucked into the southern ridges of Sikkim near Yangang. Blessed with natural mountain streams and thick cardamom groves, Payong is virtually untouched by commercial tourism.</p><p>Visitors are treated to tranquil birdsong, fresh mountain springs, and heartfelt local homestays serving farm-fresh Himalayan meals.</p>",
@@ -3649,243 +10050,2085 @@ window.destinationsData = {
                 "name": "Gangtok",
                 "slug": "gangtok",
                 "subRegion": "east",
-                "tagline": "The Capital City",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
                 "altitude": "1,650 m (5,410 ft)",
-                "bestTime": "September–May",
-                "famousFor": "Monasteries, Cable Car, Urban Hub",
-                "location": "East Sikkim",
-                "description": "<p>Gangtok, the capital of Sikkim, is a vibrant and bustling hill city perched along a steep mountain ridge at an altitude of 1,650 metres (5,410 ft). Known for its cleanliness, stunning views of Mount Kanchenjunga, and a seamless blend of modern amenities with deeply rooted Tibetan Buddhist culture, Gangtok serves as the perfect base for exploring Sikkim.</p><h3>History & Culture</h3><p>Established as a Buddhist pilgrimage site in the 1840s, Gangtok grew in prominence and became the capital of the Kingdom of Sikkim in the late 19th century. Today, it reflects a cosmopolitan vibe while honoring its heritage. The city is dotted with monasteries, stupas, and centers of traditional arts, such as the Namgyal Institute of Tibetology and the Directorate of Handicrafts and Handlooms.</p><h3>Attractions & Lifestyle</h3><p>The bustling MG Marg (Mahatma Gandhi Road) is the heart of the city—a pedestrian-only, litter-free zone lined with cafes, restaurants, and shops. Key attractions include the Enchey Monastery, Rumtek Monastery (a short drive away), Ganesh Tok, and the Do Drul Chorten. The local cuisine is a delight, heavily influenced by Tibetan, Nepali, and Sikkimese traditions.</p><h3>Detailed Insights</h3><p>Gangtok, the vibrant capital of Sikkim, is the political, cultural, economic, and tourism lifeline of the</p><p>Himalayan state and one of the most celebrated hill destinations in Northeast India. Nestled at an</p><p>altitude of approximately 1,650 metres (5,410 ft)  in the Eastern Himalayas, Gangtok is globally</p><p>renowned for its spectacular views of Mount Kanchenjunga , ancient Buddhist monasteries,</p><p>colourful Himalayan culture, lively MG Marg, clean and well -planned streets, rich biodiversity,</p><p>adventure tourism, and warm Sikkimese hospitality. Surrounded by lush forests, deep valleys,</p><p>cascading waterfalls, alpine landsc apes, pristine rivers, and picturesque mountain villages, Gangtok</p><p>serves as the administrative capital and the primary gateway to East, North, South, and West Sikkim,</p><p>connecting travellers to world -famous destinations such as Tsomgo Lake, Nathula Pass, Yumthang</p><p>Valley, Gurudongmar Lake, the Silk Route, Pelling, Namchi,  and Ravangla . Combining centuries -old</p><p>Buddhist heritage with modern urban development, sustainable tourism, vibrant local traditions,</p><p>and breathtaking Himalayan scenery, Gangtok offers one of the most complete mountain travel</p><p>experiences in India and remains the heart  and lifeline of Sikkim.</p>",
+                "bestTime": "March-May & October-December",
+                "famousFor": "MG Marg, Buddhist Monasteries, Mount Kanchenjunga Views, Tsomgo Lake,",
+                "location": "Gangtok, Sikkim",
+                "description": "<p>Himalayan state and one of the most celebrated hill destinations in Northeast India. Nestled at an altitude of approximately 1,650 metres (5,410 ft) in the Eastern Himalayas, Gangtok is globally renowned for its spectacular views of Mount Kanchenjunga, ancient Buddhist monasteries,</p><h3>History, Geography & Climate</h3><p>Gangtok was originally inhabited by the indigenous Lepcha people before becoming an important settlement under the Namgyal dynasty of the Kingdom of Sikkim during the seventeenth century. Owing to its strategic location along the ancient trade route connecting India and Tibet, Gangtok</p><h3>Why Visit Gangtok</h3><p>From ancient Buddhist monasteries and vibrant Himalayan culture to breathtaking views of Mount Kanchenjunga, pristine lakes, waterfalls, colourful festivals, delicious local cuisine, adventure</p>",
                 "attractions": [
                     "MG Marg",
                     "Rumtek Monastery",
-                    "Tsomgo Lake",
-                    "Gangtok Ropeway"
+                    "Enchey Monastery",
+                    "Do Drul Chorten",
+                    "Namgyal Institute of Tibetology",
+                    "Ganesh Tok"
                 ],
                 "image": "images/gangtok.jpg",
                 "highlights": [
-                    "Vibrant capital city",
-                    "Blend of modern & traditional",
-                    "Famous MG Marg",
-                    "Multiple monasteries"
+                    "Nestled at an elevation of 1,650 m (5,410 ft)",
+                    "Key attraction: MG Marg",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "temple",
-                        "label": "Monastery Visit"
+                        "icon": "binoculars",
+                        "label": "Panoramic Viewpoints"
                     },
                     {
-                        "icon": "shopping",
-                        "label": "MG Marg Shopping"
+                        "icon": "hiking",
+                        "label": "Himalayan Nature Walks"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
+                        "label": "Scenic Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Culture & Stays"
                     },
                     {
                         "icon": "food",
-                        "label": "Local Cuisine"
-                    },
-                    {
-                        "icon": "binoculars",
-                        "label": "Ropeway Ride"
+                        "label": "Traditional Sikkimese Food"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Pakyong Airport (35 km)",
-                    "byTrain": "New Jalpaiguri (125 km)",
-                    "byRoad": "Well connected via NH 10 from Siliguri"
+                    "byAir": "Pakyong Airport (~45-90 km) or Bagdogra Airport (~130-160 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~120-150 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
                 },
                 "packages": [
                     {
-                        "title": "3N/4D Gangtok Explorer",
-                        "includes": "Stay + Sightseeing + Meals",
+                        "title": "3N/4D Gangtok & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
                         "price": 9999,
-                        "image": "images/gallery (10).jpg"
+                        "image": "images/gallery (1).jpg"
                     },
                     {
-                        "title": "Gangtok + Darjeeling Combo",
-                        "includes": "Stay + All Transfers + Meals",
-                        "price": 14999,
-                        "image": "images/gallery (11).jpg"
+                        "title": "Signature Gangtok Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (2).jpg"
                     }
                 ],
                 "stays": [
                     {
-                        "name": "Elgin Nor-Khill",
-                        "rating": 4.7,
-                        "reviews": 134,
-                        "type": "Heritage Hotel",
-                        "price": 5500,
-                        "image": "images/gallery (10).jpg"
+                        "name": "Gangtok Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (1).jpg"
                     },
                     {
-                        "name": "Hidden Forest Retreat",
+                        "name": "Gangtok Eco Village Resort",
                         "rating": 4.5,
-                        "reviews": 78,
-                        "type": "Boutique Resort",
-                        "price": 4000,
-                        "image": "images/gallery (11).jpg"
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Gangtok located?",
+                        "answer": "Gangtok is the capital city of Sikkim, located in the Eastern Himalayas of Northeast India."
+                    },
+                    {
+                        "question": "What is Gangtok famous for?",
+                        "answer": "Gangtok is renowned for its Buddhist monasteries, MG Marg, breathtaking views of Mount Kanchenjunga, Tsomgo Lake, Nathula Pass, Himalayan culture, and adventure tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Gangtok?",
+                        "answer": "The best time to visit Gangtok is from March to May and October to December, when the weather is pleasant and mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Gangtok?",
+                        "answer": "Gangtok is situated at an altitude of approximately 1,650 metres (5,410 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Gangtok?",
+                        "answer": "Gangtok can be reached via New Jalpaiguri (NJP) Railway Station, Pakyong Airport, or Bagdogra Airport, followed by a scenic road journey."
+                    },
+                    {
+                        "question": "Is Gangtok suitable for families?",
+                        "answer": "Yes. Gangtok is a family-friendly destination offering sightseeing, nature, cultural experiences, monasteries, gardens, and activities suitable for visitors of all ages."
+                    },
+                    {
+                        "question": "Are hotels available in Gangtok?",
+                        "answer": "Yes. Gangtok offers a wide range of accommodation, including budget hotels, homestays, boutique stays, luxury hotels, and premium resorts."
+                    },
+                    {
+                        "question": "What are the top attractions in Gangtok?",
+                        "answer": "The major attractions include MG Marg, Rumtek Monastery, Tsomgo Lake, Nathula Pass, Ganesh Tok, Hanuman Tok, Tashi View Point, Banjhakri Waterfalls, Namgyal Institute of Tibetology, and the Gangtok Ropeway."
                     }
                 ]
             },
             {
-                "name": "Tsomgo Lake",
+                "name": "Tsomgo (Changu) Lake",
                 "slug": "tsomgo-lake",
                 "subRegion": "east",
-                "tagline": "The Sacred Glacial Lake",
+                "tagline": "Sikkim's Sacred Glacial",
                 "altitude": "3,753 m (12,313 ft)",
-                "bestTime": "May–October",
-                "famousFor": "Glacial Lake, Yak Rides, Snow Views",
-                "location": "East Sikkim",
-                "description": "<p>Tsomgo Lake, also known as Changu Lake, is a mesmerizing glacial lake located at an altitude of 3,753 metres (12,313 ft), about 40 km from Gangtok. The lake remains frozen during the winter months and reflects different colors with the changing seasons, holding deep spiritual significance for the local Sikkimese people.</p><h3>Geography & Significance</h3><p>Surrounded by steep, rugged mountains, the lake is fed by the melting snows of the surrounding peaks. According to local myths, the spiritual leaders (Lamas) could divine the future by studying the changing colors of the lake's waters. It is considered a sacred site, and a small temple dedicated to Lord Shiva is located on its banks.</p><h3>Tourism & Experience</h3><p>The journey to Tsomgo Lake involves a scenic drive through steep, winding mountain roads. Visitors can enjoy rides on colorfully decorated yaks and mules around the lake. The alpine vegetation, including primulas, poppies, and rhododendrons, bursts into bloom during spring, adding to the surreal beauty of the landscape.</p><h3>Detailed Insights</h3><p>Route, Aritar, Pakyong, Rumtek, Ravangla, Namchi, Temi Tea Garden, Singtam, Rangpo, Mangan,</p><p>Lachung, Lachen, Yumthang Valley, Gurudongmar Lake, Pelling, Yuksom , Dzongu, Kalimpong,</p>",
+                "bestTime": "April-June & October-December",
+                "famousFor": "Sacred Glacial Lake, Snowfall, Yak Rides, Nathula Route, Alpine Scenery &",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Tsomgo Lake, popularly known as Changu Lake, is one of the most spectacular high-altitude glacial lakes in the Eastern Himalayas and among the most visited tourist attractions in Sikkim. Located at an altitude of approximately 3,753 metres (12,313 ft) in East Sikkim, the lake is surrounded by snow-</p><h3>History, Geography & Climate</h3><p>Tsomgo Lake has been regarded as a sacred lake by the Bhutia and Lepcha communities for centuries. According to local Buddhist beliefs, monks once interpreted the changing colours of the lake's waters to predict future events, giving the lake immense religious and cultural importance.</p><h3>Culture & Local Life</h3><p>The region surrounding Tsomgo Lake is closely associated with the traditions of the Bhutia and Lepcha communities and holds deep spiritual significance in Tibetan Buddhism. Colourful prayer flags, Buddhist rituals, and local beliefs continue to shape the cultural identity of the area. The lake</p><h3>Why Visit Tsomgo (Changu) Lake</h3><p>Combining breathtaking Himalayan scenery, crystal-clear glacial waters, snow-covered mountains, rich alpine biodiversity, sacred cultural heritage, colourful prayer flags, traditional yak rides, and easy</p>",
                 "attractions": [
+                    "Tsomgo (Changu) Lake",
+                    "Yak Riding",
                     "Lake Viewpoints",
-                    "Yak Rides",
-                    "Snow Activities"
+                    "Colourful Prayer Flags",
+                    "Kyongnosla Alpine Sanctuary",
+                    "Snowfall (Seasonal)"
                 ],
                 "image": "images/gallery (4).jpg",
                 "highlights": [
-                    "Color-changing glacial lake",
-                    "Yak rides available",
-                    "Stunning snow scenery"
+                    "Nestled at an elevation of 3,753 m (12,313 ft)",
+                    "Key attraction: Tsomgo (Changu) Lake",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
                 ],
                 "thingsToDo": [
                     {
+                        "icon": "camera",
+                        "label": "Snow Photography"
+                    },
+                    {
                         "icon": "binoculars",
-                        "label": "Lake Views"
+                        "label": "Yak Rides"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Himalayan Sightseeing"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
+                        "label": "Alpine Landscape Photography"
                     },
                     {
-                        "icon": "hiking",
-                        "label": "Yak Ride"
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Nature Appreciation"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Pakyong Airport (72 km)",
-                    "byTrain": "New Jalpaiguri (162 km)",
-                    "byRoad": "40 km from Gangtok (permit required)"
-                }
+                    "byAir": "Pakyong Airport (~38 km) or Bagdogra Airport (~160 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~155 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Tsomgo (Changu) Lake & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "title": "Signature Tsomgo (Changu) Lake Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Tsomgo (Changu) Lake Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "name": "Tsomgo (Changu) Lake Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Tsomgo (Changu) Lake located?",
+                        "answer": "Tsomgo (Changu) Lake is located in East Sikkim, approximately 38 km from Gangtok, on the road to Nathula Pass."
+                    },
+                    {
+                        "question": "What is Tsomgo (Changu) Lake famous for?",
+                        "answer": "Tsomgo Lake is renowned for its sacred glacial waters, snow-covered landscapes, yak rides, alpine scenery, seasonal snowfall, and breathtaking Himalayan views."
+                    },
+                    {
+                        "question": "What is the best time to visit Tsomgo Lake?",
+                        "answer": "The best time to visit is April to June and October to December. Winter (December-February) is ideal for experiencing snowfall, subject to weather and road conditions."
+                    },
+                    {
+                        "question": "What is the altitude of Tsomgo (Changu) Lake?",
+                        "answer": "The lake is situated at an altitude of approximately 3,753 metres (12,313 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Tsomgo Lake?",
+                        "answer": "Tsomgo Lake is accessible by road from Gangtok. Visitors usually hire a shared or private vehicle, and a valid permit is required before visiting."
+                    },
+                    {
+                        "question": "Is a permit required to visit Tsomgo Lake?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel agency or local tour operator. Foreign nationals are subject to additional regulations and should check the latest permit requirements before planning their visit."
+                    },
+                    {
+                        "question": "Is Tsomgo Lake suitable for families?",
+                        "answer": "Yes. Tsomgo Lake is suitable for families, couples, solo travellers, and senior citizens, although visitors should take precautions due to the high altitude."
+                    },
+                    {
+                        "question": "What are the top attractions near Tsomgo Lake?",
+                        "answer": "Major attractions include Nathula Pass, Baba Harbhajan Singh Mandir, Kyongnosla Alpine Sanctuary, Kupup Lake, Menmecho Lake, and the scenic Himalayan viewpoints along the route."
+                    }
+                ]
             },
             {
                 "name": "Nathula Pass",
                 "slug": "nathula-pass",
                 "subRegion": "east",
-                "tagline": "Historic Silk Route Border",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
                 "altitude": "4,310 m (14,140 ft)",
-                "bestTime": "May–October",
-                "famousFor": "Indo-China Border, Snow, Historic Trade Route",
-                "location": "East Sikkim",
-                "description": "<p>Nathula Pass is a high-altitude mountain pass located on the Indo-China border at an elevation of 4,310 metres (14,140 ft). Once a crucial artery of the ancient Silk Route connecting India and Tibet, it remains one of the highest motorable roads in the world and a site of immense historical and strategic importance.</p><h3>History & Geography</h3><p>The pass was sealed after the 1962 Sino-Indian War but reopened in 2006 for bilateral trade. It offers breathtaking views of the Chumbi Valley in Tibet and the surrounding snow-capped peaks. The harsh, alpine environment supports sparse vegetation, but the stark beauty of the landscape is awe-inspiring.</p><h3>Visiting Nathula</h3><p>Due to its sensitive location, access to Nathula Pass is restricted to Indian nationals only, and a special permit is required. The journey is challenging due to the high altitude and unpredictable weather, but the experience of standing at the international border and viewing the majestic Himalayan ranges is unparalleled.</p><h3>Detailed Insights</h3><p>Gangtok is one of Northeast India's most popular tourist destinations and can be crowded during</p><p>Yes. Gangtok is one of India's most popular honeymoon destinations, offering romantic mountain</p><p>views, peaceful monasteries, scenic cafés, luxury stays, and memorable Himalayan experiences.</p>",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Indo-China Border, Ancient Silk Route, Snowfall, Himalayan Views & High-",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>among the most visited tourist attractions in Sikkim. Located at an altitude of approximately 4,310 metres (14,140 ft) in East Sikkim, the pass forms part of the international border between India and China's Tibet Autonomous Region. Renowned for its spectacular Himalayan landscapes, historical</p><h3>History, Geography & Climate</h3><p>Nathula Pass has served as one of the most important Himalayan mountain passes for centuries. It formed a vital section of the historic Silk Route connecting India with Tibet, where traders transported wool, silk, horses, salt, and other goods across the Himalayas using yak caravans.</p><h3>Culture & Local Life</h3><p>The region surrounding Nathula Pass reflects the traditions of the Bhutia and Lepcha communities and holds historical importance in Himalayan trade and Tibetan Buddhism. Colourful prayer flags, Buddhist beliefs, and centuries-old cultural traditions continue to define the character of this high-</p><h3>Why Visit Nathula Pass</h3><p>Combining breathtaking Himalayan landscapes, the historic Ancient Silk Route, the iconic Indo-China border, spectacular seasonal snowfall, rich alpine biodiversity, patriotic significance, and one of the</p>",
                 "attractions": [
-                    "Indo-China Border Gates",
-                    "Exhibition Centre",
-                    "Tsomgo Lake en route"
+                    "Nathula Pass",
+                    "Indo-China Border Gate",
+                    "Indian Army Memorial",
+                    "Snowfall (Seasonal)",
+                    "Himalayan Viewpoints",
+                    "Ancient Silk Route"
                 ],
                 "image": "images/gallery (5).jpg",
                 "highlights": [
-                    "Historic Silk Route",
-                    "India-China border",
-                    "Snow-covered pass"
+                    "Nestled at an elevation of 4,310 m (14,140 ft)",
+                    "Key attraction: Nathula Pass",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
                 ],
                 "thingsToDo": [
                     {
                         "icon": "binoculars",
-                        "label": "Border Visit"
+                        "label": "Border Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Himalayan Sightseeing"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
+                        "label": "Snow Photography"
                     },
                     {
-                        "icon": "hiking",
-                        "label": "Snow Walk"
+                        "icon": "road",
+                        "label": "High-Altitude Mountain Drives"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Himalayan Landscape Photography"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Pakyong Airport (85 km)",
-                    "byTrain": "New Jalpaiguri (175 km)",
-                    "byRoad": "54 km from Gangtok (permit required, Wed/Thu/Sat/Sun only)"
-                }
+                    "byAir": "Pakyong Airport (~54 km) or Bagdogra Airport (~165 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~170 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Nathula Pass & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "title": "Signature Nathula Pass Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Nathula Pass Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "name": "Nathula Pass Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Nathula Pass located?",
+                        "answer": "Nathula Pass is located in East Sikkim, approximately 54 km from Gangtok, on the international border between India and China's Tibet Autonomous Region."
+                    },
+                    {
+                        "question": "What is Nathula Pass famous for?",
+                        "answer": "Nathula Pass is renowned for the Indo-China border, the historic Ancient Silk Route, spectacular Himalayan landscapes, seasonal snowfall, and one of the world's highest motorable mountain passes."
+                    },
+                    {
+                        "question": "What is the best time to visit Nathula Pass?",
+                        "answer": "The best time to visit is April to June and October to November, when weather conditions are generally favourable and mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Nathula Pass?",
+                        "answer": "Nathula Pass is situated at an altitude of approximately 4,310 metres (14,140 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Nathula Pass?",
+                        "answer": "Nathula Pass can be reached by road from Gangtok via Tsomgo (Changu) Lake. Visitors must travel in a registered vehicle with a valid permit."
+                    },
+                    {
+                        "question": "Is a permit required to visit Nathula Pass?",
+                        "answer": "Yes. Indian nationals require a Restricted Area Permit (RAP) arranged through a registered travel agency or local tour operator. Foreign nationals are not permitted to visit Nathula Pass."
+                    },
+                    {
+                        "question": "Is Nathula Pass suitable for families?",
+                        "answer": "Yes. Nathula Pass is suitable for families, couples, and senior citizens, provided they are medically fit to travel to a high-altitude destination."
+                    },
+                    {
+                        "question": "What are the top attractions near Nathula Pass?",
+                        "answer": "Major nearby attractions include Tsomgo (Changu) Lake, Baba Harbhajan Singh Mandir, Kyongnosla Alpine Sanctuary, Kupup Lake, Menmecho Lake, and the scenic Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "New Baba Harbajan Singh Mandir",
+                "slug": "new-baba-mandir",
+                "subRegion": "east",
+                "tagline": "Shrine of the Heroic Soldier",
+                "altitude": "4,000 m (13,123 ft)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Baba Harbhajan Singh Shrine, Indian Army Heritage, Himalayan Views,",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Baba Harbhajan Singh Mandir, popularly known as the New Baba Mandir, is one of the most revered spiritual and patriotic destinations in the Eastern Himalayas and among the most visited attractions in Sikkim. Situated at an altitude of approximately 4,000 metres (13,123 ft) in East Sikkim, the shrine</p><h3>History, Geography & Climate</h3><p>Baba Harbhajan Singh served in the 23rd Punjab Regiment of the Indian Army and lost his life in 1968 while on duty in the Eastern Himalayas. According to local belief and military folklore, Baba Harbhajan Singh continues to protect soldiers stationed along the Indo-China border. Over the years,</p><h3>Culture & Local Life</h3><p>The shrine represents a unique blend of military tradition, local Himalayan beliefs, and spiritual devotion. Visitors from across India come to pay their respects to Baba Harbhajan Singh, whose story has become deeply rooted in the culture of the region. Colourful prayer flags, Buddhist</p><h3>Why Visit New Baba Harbajan Singh Mandir</h3><p>Combining profound spiritual significance, inspiring military history, breathtaking Himalayan landscapes, spectacular seasonal snowfall, rich alpine biodiversity, patriotic heritage, and peaceful</p>",
+                "attractions": [
+                    "Baba Harbhajan Singh Mandir",
+                    "Main Shrine Complex",
+                    "Army Memorial Area",
+                    "Himalayan Viewpoints",
+                    "Colourful Prayer Flags",
+                    "Snowfall (Seasonal)"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 4,000 m (13,123 ft)",
+                    "Key attraction: Baba Harbhajan Singh Mandir",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Spiritual Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Patriotic Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Himalayan Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Snow Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Mountain Photography"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~52 km) or Bagdogra Airport (~163 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~168 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D New Baba Harbajan Singh Mandir & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "title": "Signature New Baba Harbajan Singh Mandir Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "New Baba Harbajan Singh Mandir Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "name": "New Baba Harbajan Singh Mandir Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Baba Harbhajan Singh Mandir located?",
+                        "answer": "Baba Harbhajan Singh Mandir (New Baba Mandir) is located in East Sikkim, approximately 52 km from Gangtok, on the route to Nathula Pass."
+                    },
+                    {
+                        "question": "What is Baba Harbhajan Singh Mandir famous for?",
+                        "answer": "The shrine is renowned for its unique military history, spiritual significance, the legend of Baba Harbhajan Singh, breathtaking Himalayan landscapes, and its close association with the Indian Army."
+                    },
+                    {
+                        "question": "What is the best time to visit Baba Harbhajan Singh Mandir?",
+                        "answer": "The best time to visit is April to June and October to November, when the weather is pleasant and the Himalayan views are at their clearest."
+                    },
+                    {
+                        "question": "What is the altitude of Baba Harbhajan Singh Mandir?",
+                        "answer": "The temple is situated at an altitude of approximately 4,000 metres (13,123 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Baba Harbhajan Singh Mandir?",
+                        "answer": "The shrine can be reached by road from Gangtok via Tsomgo (Changu) Lake. Visitors usually travel in a registered shared or private vehicle with a valid permit."
+                    },
+                    {
+                        "question": "Is a permit required to visit Baba Harbhajan Singh Mandir?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel agency or local tour operator. The same permit used for the Tsomgo Lake-Nathula route generally covers the visit. Foreign nationals are subject to route restrictions and should check the latest regulations before planning their trip."
+                    },
+                    {
+                        "question": "Is Baba Harbhajan Singh Mandir suitable for families?",
+                        "answer": "Yes. The shrine is suitable for families, couples, solo travellers, and senior citizens. Visitors should take precautions due to the high altitude and cold weather."
+                    },
+                    {
+                        "question": "What are the top attractions near Baba Harbhajan Singh Mandir?",
+                        "answer": "Major nearby attractions include Nathula Pass, Tsomgo (Changu) Lake, Kyongnosla Alpine Sanctuary, Kupup Lake, Menmecho Lake, and the scenic Himalayan viewpoints along the route."
+                    }
+                ]
+            },
+            {
+                "name": "Old Baba Harbajan Singh Mandir",
+                "slug": "old-baba-mandir",
+                "subRegion": "east",
+                "tagline": "Original Bunker & Sacred Shrine of the Heroic Soldier | Tukla Valley & Jelep La Route",
+                "altitude": "4,000 m (13,123 ft)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Original Baba Bunker, Historical Memorial, High-Altitude Silk Route, Mountain Patriotism",
+                "location": "Near Kupup & Tukla Valley, East Sikkim",
+                "description": "<p>Old Baba Harbhajan Singh Mandir, situated at an altitude of approximately 4,000 metres (13,123 ft) near Tukla Valley and the historic Jelep La pass, is the original bunker and shrine dedicated to Sepoy (Captain) Harbhajan Singh of the 23rd Punjab Regiment. While the New Baba Mandir was built lower down for tourist convenience, the Old Baba Mandir stands at the very site where the brave soldier was stationed and where his personal quarters, uniform, bed, and memories are preserved with reverent devotion by the Indian Army.</p><h3>The Legend & Sacred Shrine</h3><p>Captain Harbhajan Singh lost his life in 1968 while leading a pack of mules across high-altitude snowfields during treacherous weather. Military tradition and local belief hold that Baba continues his vigil along the international border, forewarning soldiers of incoming dangers. Inside the original bunker, visitors can witness his preserved room, official desk, military uniform, and awards, creating a profoundly moving experience of sacrifice and patriotism.</p><h3>Geography, Climate & Pristine Mountain Landscapes</h3><p>Surrounded by windswept alpine ridges, snowfields, and the stark beauty of the Tibetan plateau borderlands, Old Baba Mandir offers spectacular high-altitude Himalayan vistas. The climate is sub-zero alpine during winters with heavy snow cover, while summer and autumn provide crisp mountain air and sweeping views of nearby peaks and winding border roads.</p><h3>Why Visit Old Baba Harbhajan Singh Mandir</h3><p>A pilgrimage to Old Baba Mandir provides travellers with an authentic encounter with the raw border frontiers of the Old Silk Route, allowing visitors to pay tribute at the legendary soldier's original post while soaking in the spiritual tranquility and breathtaking high-altitude Himalayan vistas.</p>",
+                "attractions": [
+                    "Original Baba's Bunker",
+                    "Uniform & Memorial Room",
+                    "Tukla Valley Panoramas",
+                    "Kupup Elephant Lake En Route",
+                    "Jelep La Viewpoints"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Original historic bunker of Baba Harbhajan Singh",
+                    "Located at 4,000 m on the high-altitude Silk Route",
+                    "Preserved room and personal belongings maintained by Indian Army",
+                    "Dramatic high-altitude Tibetan border vistas"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Bunker & Shrine Visit"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Border Panoramas"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Snow Photography"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Drive"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~65 km) or Bagdogra Airport (~165 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~155 km)",
+                    "byRoad": "Accessible via Gangtok, Kupup, and Tukla Valley (permit required)"
+                },
+                "packages": [
+                    {
+                        "title": "Old Silk Route & Baba Mandir Trail (3N/4D)",
+                        "includes": "Stay + Transfers + Permits + Meals",
+                        "price": 10499,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Silk Route Cloud Retreat",
+                        "rating": 4.6,
+                        "reviews": 28,
+                        "type": "Alpine Homestay",
+                        "price": 1900,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Old Baba Mandir located?",
+                        "answer": "Old Baba Mandir is situated near Tukla Valley and Kupup Lake along the Old Silk Route in East Sikkim, approximately 60 km from Gangtok."
+                    },
+                    {
+                        "question": "How is Old Baba Mandir different from New Baba Mandir?",
+                        "answer": "New Baba Mandir was constructed along the Gangtok-Nathula route for easier tourist access. Old Baba Mandir is the actual original bunker where Captain Harbhajan Singh was posted and where his room and belongings remain preserved."
+                    },
+                    {
+                        "question": "Is a permit required to visit Old Baba Mandir?",
+                        "answer": "Yes. Since it is located in a protected border area along the Silk Route, an Inner Line Permit (ILP) is required for Indian tourists."
+                    },
+                    {
+                        "question": "What is the best time to visit?",
+                        "answer": "The best time to visit is from April to June and October to November when the roads are clear of heavy snow."
+                    }
+                ]
             },
             {
                 "name": "Zuluk",
                 "slug": "zuluk",
                 "subRegion": "east",
-                "tagline": "Zig-Zag Road Paradise",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
                 "altitude": "2,865 m (9,400 ft)",
-                "bestTime": "March–May & October–November",
-                "famousFor": "Silk Route, Zig-Zag Roads, Sunrise Views",
-                "location": "East Sikkim",
-                "description": "<p>Zuluk, or Dzuluk, is a small, remote village perched at a dizzying altitude of 3,048 metres (10,000 ft) in East Sikkim. Historically a transit point on the historic Silk Route from Tibet to India, Zuluk is now famous for the spectacular 'Thambi View Point' and its incredible zigzag roads.</p><h3>The Zigzag Road</h3><p>The primary attraction of Zuluk is the astonishing 32-hairpin bend road that snakes its way up the steep mountainside. This engineering marvel offers panoramic views of the entire Kanchenjunga range and the surrounding valleys, making it a favorite among adventure drivers and photographers.</p><h3>Culture & Environment</h3><p>Zuluk is a highly restricted area due to its proximity to the border, requiring special permits for entry. The village has a very small population and offers basic homestay accommodations, providing an authentic, raw Himalayan experience. The region is covered in snow during the winter and bursts with rhododendron blooms in the spring.</p><h3>Detailed Insights</h3><p>Zuluk, also known as Dzuluk , is one of the most spectacular offbeat mountain destinations in the</p><p>Eastern Himalayas and among the most scenic villages in Sikkim. Situated at an altitude of</p><p>approximately 2,865 metres (9,400 ft)  in East Sikkim, Zuluk is renowned for its breathtaking</p><p>Himalayan landscapes, the legendary Zig Zag Road with its 32 hairpin  bends, historic Silk Route</p><p>heritage, spectacular sunrise views, rich biodiversity, and authentic Himalayan village life. Once an</p><p>important transit point on the ancient Silk Route connecting India with Tibet, Zuluk has evolved into</p><p>one of Sikkim's premier eco-tourism destinations while preserving its natural beauty and cultural</p><p>Located approximately 92 kilometres from Gangtok , Zuluk  is surrounded by alpine forests, rolling</p><p>mountains, colourful rhododendrons, pristine valleys, and snow -covered Himalayan peaks. The</p><p>village serves as the gateway to the historic Silk Route circuit, offering visitors unforgettable</p><p>mountain drives, panoram ic views of Mount Kanchenjunga, peaceful village surroundings,</p><p>birdwatching opportunities, and one of the most rewarding offbeat travel experiences in Northeast</p>",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Historic Silk Route, Zig Zag Road, Thambi View Point, Sunrise, Kanchenjunga",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Yes. The shrine is suitable for families, couples, solo travellers, and senior citizens. Visitors should take precautions due to the high altitude and cold weather. 8. What are the top attractions near Baba Harbhajan Singh Mandir?</p><h3>History, Geography & Climate</h3><p>Zuluk was historically an important transit settlement along the legendary Ancient Silk Route connecting India with Tibet. Traders travelling with caravans of yaks and mules regularly passed through the village while transporting wool, salt, silk, and other valuable goods across the Eastern</p><h3>Culture & Local Life</h3><p>The village is predominantly inhabited by Bhutia, Lepcha, and Nepali communities whose traditions reflect the rich cultural heritage of the Eastern Himalayas. Agriculture, tourism, livestock farming, and small-scale trade continue to shape the local economy. Colourful prayer flags, Buddhist</p><h3>Why Visit Zuluk</h3><p>Visit Baba Harbhajan Singh Mandir to experience a unique blend of spirituality, military heritage, breathtaking Himalayan landscapes, seasonal snowfall, patriotic history, and the inspiring legacy of</p>",
                 "attractions": [
-                    "Zig-Zag Road",
+                    "Zig Zag Road",
                     "Thambi View Point",
-                    "Lungthung"
+                    "Zuluk Village",
+                    "Historic Silk Route",
+                    "Lungthung View Point",
+                    "Gnathang Valley"
                 ],
                 "image": "images/gallery (6).jpg",
                 "highlights": [
-                    "Famous 32 hairpin bends",
-                    "Historic Silk Route village",
-                    "Spectacular sunrise views"
+                    "Nestled at an elevation of 2,865 m (9,400 ft)",
+                    "Key attraction: Zig Zag Road",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
                 ],
                 "thingsToDo": [
                     {
+                        "icon": "camera",
+                        "label": "Sunrise Photography"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Exploration"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
                         "icon": "binoculars",
-                        "label": "Sunrise Viewing"
+                        "label": "Birdwatching"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "hiking",
-                        "label": "Silk Route Walk"
+                        "label": "Nature Photography"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Pakyong Airport (60 km)",
-                    "byTrain": "New Jalpaiguri (155 km)",
-                    "byRoad": "Via Rongli from Gangtok (90 km)"
-                }
+                    "byAir": "Pakyong Airport (~92 km) or Bagdogra Airport (~150 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~145 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Zuluk & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "title": "Signature Zuluk Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Zuluk Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "name": "Zuluk Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Zuluk located?",
+                        "answer": "Zuluk, also known as Dzuluk, is a scenic Himalayan village in East Sikkim, located along the historic Silk Route."
+                    },
+                    {
+                        "question": "What is Zuluk famous for?",
+                        "answer": "Zuluk is renowned for the historic Silk Route, the iconic Zig Zag Road with its 32 hairpin bends, Thambi View Point, breathtaking sunrise views, Himalayan landscapes, and peaceful village tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Zuluk?",
+                        "answer": "The best time to visit is March to June and October to December. Winter (December-February) is ideal for experiencing snowfall, subject to weather and road conditions."
+                    },
+                    {
+                        "question": "What is the altitude of Zuluk?",
+                        "answer": "Zuluk is situated at an altitude of approximately 2,865 metres (9,400 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Zuluk?",
+                        "answer": "Zuluk can be reached by road from Gangtok or Rongli via the historic Silk Route. Visitors usually hire a shared or private vehicle, and a valid permit is required."
+                    },
+                    {
+                        "question": "Is a permit required to visit Zuluk?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel agency or local tour operator. Foreign nationals are subject to additional regulations and should check the latest permit requirements before planning their visit."
+                    },
+                    {
+                        "question": "Is Zuluk suitable for families?",
+                        "answer": "Yes. Zuluk is suitable for families, couples, solo travellers, and nature lovers. Visitors should take precautions due to the high altitude and winding mountain roads."
+                    },
+                    {
+                        "question": "What are the top attractions near Zuluk?",
+                        "answer": "Major nearby attractions include Thambi View Point, Lungthung View Point, Gnathang Valley, Kupup Lake, Tukla Valley, Nathula Pass, and the Silk Route."
+                    }
+                ]
             },
             {
-                "name": "Pelling",
-                "slug": "pelling",
-                "subRegion": "west",
-                "tagline": "Gateway to Kanchenjunga",
-                "altitude": "2,150 m (7,200 ft)",
-                "bestTime": "September–May",
-                "famousFor": "Kanchenjunga Views, Monasteries, Waterfalls",
-                "location": "West Sikkim",
-                "description": "<p>Pelling is a charming town located in the West Sikkim district at an altitude of 2,150 metres (7,200 ft). It is renowned for offering what is arguably the closest and most spectacular view of the Mount Kanchenjunga range without leaving the comfort of a hotel room. Pelling seamlessly blends natural beauty with deep historical and religious significance.</p><h3>History & Heritage</h3><p>Pelling's significance is tied closely to the history of Sikkim. It is home to the Pemayangtse Monastery, one of the oldest and most important premier monasteries of the state, built in 1705. Nearby lie the ruins of Rabdentse, the second capital of the former Kingdom of Sikkim, which was destroyed by the invading Gurkha army in the early 19th century.</p><h3>Attractions & Nature</h3><p>Aside from its religious and historical sites, Pelling boasts stunning natural attractions, including the majestic Kanchenjunga Falls, the sacred Khecheopalri Lake (the 'wish-fulfilling lake'), and the Singshore Bridge, one of the highest suspension bridges in Asia.</p><h3>Detailed Insights</h3><p>Combining magnificent Himalayan views, world -famous Buddha Park, ancient monasteries, rich</p><p>biodiversity, tea gardens, wildlife sanctuary, authentic village culture, and peaceful mountain</p><p>landscapes, Ravangla offers one of the most complete and rewarding tr avel experiences in South</p><p>Sikkim. Whether you seek spirituality, nature, adventure, photography, or a relaxing Himalayan</p><p>escape, Ravangla stands among the finest destinations in the Eastern Himalayas.</p>",
+                "name": "Aritar",
+                "slug": "aritar",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,498 m (4,915 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Lampokhari Lake, Monasteries, Nature Tourism, Birdwatching, Village Tourism",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Gnathang Valley can be reached by road from Gangtok via Zuluk or from Rongli along the historic Silk Route. Visitors usually hire a shared or private vehicle, and a valid permit is required. Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel</p><h3>History, Geography & Climate</h3><p>Aritar has long been inhabited by Lepcha, Bhutia, and Nepali communities and has developed as an important cultural and agricultural settlement in East Sikkim. The region is home to several historic monasteries and traditional villages that reflect the rich heritage of the Eastern Himalayas. Over the</p><h3>Culture & Local Life</h3><p>Aritar is predominantly inhabited by Lepcha, Bhutia, and Nepali communities whose traditions reflect the rich cultural heritage of Sikkim. Agriculture, tourism, horticulture, and cardamom cultivation continue to support the local economy. Colourful festivals, Buddhist traditions, warm</p><h3>Why Visit Aritar</h3><p>Visit Gnathang Valley to experience the legendary Silk Route, breathtaking high-altitude landscapes, spectacular seasonal snowfall, panoramic Himalayan views, rich alpine biodiversity, peaceful</p>",
                 "attractions": [
-                    "Pemayangtse Monastery",
-                    "Khecheopalri Lake",
-                    "Pelling Skywalk",
-                    "Kanchenjunga Falls"
+                    "Lampokhari (Aritar) Lake",
+                    "Boating at Lampokhari Lake",
+                    "Aritar Monastery",
+                    "Mankhim View Point",
+                    "Parbateyswar Shivalaya Mandir",
+                    "Dak Bungalow"
                 ],
-                "image": "images/gallery (7).jpg",
+                "image": "images/gallery (8).jpg",
                 "highlights": [
-                    "Up-close Kanchenjunga views",
-                    "Ancient Pemayangtse Monastery",
-                    "Glass Skywalk",
-                    "Multiple waterfalls"
+                    "Nestled at an elevation of 1,498 m (4,915 ft)",
+                    "Key attraction: Lampokhari (Aritar) Lake",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
                 ],
                 "thingsToDo": [
                     {
-                        "icon": "temple",
-                        "label": "Monastery Visit"
+                        "icon": "binoculars",
+                        "label": "Boating"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
                     },
                     {
                         "icon": "binoculars",
-                        "label": "Skywalk"
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visits"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Exploration"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~63 km) or Bagdogra Airport (~115 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~110 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Aritar & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "title": "Signature Aritar Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Aritar Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "name": "Aritar Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Aritar located?",
+                        "answer": "Aritar is a scenic Himalayan village in East Sikkim, located approximately 63 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Aritar famous for?",
+                        "answer": "Aritar is renowned for Lampokhari (Aritar) Lake, boating, historic monasteries, Mankhim View Point, rich biodiversity, and peaceful Himalayan village tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Aritar?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Aritar?",
+                        "answer": "Aritar is situated at an altitude of approximately 1,498 metres (4,915 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Aritar?",
+                        "answer": "Aritar can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport. Visitors can hire a private or shared vehicle."
+                    },
+                    {
+                        "question": "Is a permit required to visit Aritar?",
+                        "answer": "No. Indian nationals do not require a permit to visit Aritar. Foreign nationals should carry valid travel documents and follow the latest travel regulations."
+                    },
+                    {
+                        "question": "Is Aritar suitable for families?",
+                        "answer": "Yes. Aritar is suitable for families, couples, solo travellers, senior citizens, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Aritar?",
+                        "answer": "Major nearby attractions include Lampokhari Lake, Mankhim View Point, Aritar Monastery, Parbateyswar Shivalaya Mandir, Zuluk, Padamchen, Rongli, Reshikhola, and the Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "Rolep",
+                "slug": "rolep",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,524 m (5,000 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Waterfalls, Riverside Tourism, Nature Walks, Village Tourism & Himalayan",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Aritar is a scenic Himalayan village in East Sikkim, located approximately 63 km from Gangtok. Aritar is renowned for Lampokhari (Aritar) Lake, boating, historic monasteries, Mankhim View Point, rich biodiversity, and peaceful Himalayan village tourism.</p><h3>History, Geography & Climate</h3><p>Rolep has traditionally been inhabited by Lepcha, Bhutia, and Nepali communities, whose livelihoods</p><h3>Culture & Local Life</h3><p>Rolep is predominantly inhabited by Lepcha, Bhutia, and Nepali communities whose traditions reflect the rich cultural heritage of East Sikkim. Agriculture, tourism, horticulture, and livestock farming continue to support the local economy. Warm hospitality, traditional village life, colourful</p><h3>Why Visit Rolep</h3><p>Visit Aritar to experience the tranquil beauty of Lampokhari Lake, historic monasteries, breathtaking Himalayan landscapes, rich biodiversity, authentic village culture, and one of the most peaceful</p>",
+                "attractions": [
+                    "Rolep Village",
+                    "Rolep Waterfalls",
+                    "Mountain Streams",
+                    "Riverside Viewpoints",
+                    "Forest Nature Trails",
+                    "Scenic Village Landscapes"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,524 m (5,000 ft)",
+                    "Key attraction: Rolep Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Waterfall Exploration"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Riverside Relaxation"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
                     },
                     {
                         "icon": "hiking",
-                        "label": "Waterfall Trek"
+                        "label": "Forest Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~78 km) or Bagdogra Airport (~130 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~125 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Rolep & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "title": "Signature Rolep Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rolep Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "name": "Rolep Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Aritar located?",
+                        "answer": "Aritar is a scenic Himalayan village in East Sikkim, located approximately 63 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Aritar famous for?",
+                        "answer": "Aritar is renowned for Lampokhari (Aritar) Lake, boating, historic monasteries, Mankhim View Point, rich biodiversity, and peaceful Himalayan village tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Aritar?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Aritar?",
+                        "answer": "Aritar is situated at an altitude of approximately 1,498 metres (4,915 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Aritar?",
+                        "answer": "Aritar can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport. Visitors can hire a private or shared vehicle."
+                    },
+                    {
+                        "question": "Is a permit required to visit Aritar?",
+                        "answer": "No. Indian nationals do not require a permit to visit Aritar. Foreign nationals should carry valid travel documents and follow the latest travel regulations."
+                    },
+                    {
+                        "question": "Is Aritar suitable for families?",
+                        "answer": "Yes. Aritar is suitable for families, couples, solo travellers, senior citizens, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Aritar?",
+                        "answer": "Major nearby attractions include Lampokhari Lake, Mankhim View Point, Aritar Monastery, Parbateyswar Shivalaya Mandir, Zuluk, Padamchen, Rongli, Reshikhola, and the Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "Rongli",
+                "slug": "rongli",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,560 m (5,118 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Gateway to the Silk Route, Riverside Beauty, Nature Tourism, Local Markets &",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>offers one of the most refreshing offbeat destinations in Northeast India. Whether visiting for its tranquil landscapes, riverside beauty, birdwatching opportunities, or authentic Himalayan village life, Rolep promises an unforgettable journey into the serene heart of the Eastern Himalayas.</p><h3>History, Geography & Climate</h3><p>Rongli has historically served as an important settlement and transit point connecting the lower Himalayan regions with the historic Silk Route leading towards Tibet. The town gradually developed</p><h3>Culture & Local Life</h3><p>Rongli is predominantly inhabited by Lepcha, Bhutia, and Nepali communities whose traditions reflect the rich cultural heritage of East Sikkim. Agriculture, tourism, trade, horticulture, and cardamom cultivation continue to support the local economy. Warm hospitality, colourful festivals,</p><h3>Why Visit Rongli</h3><p>Visit Rolep to experience beautiful waterfalls, crystal-clear mountain streams, breathtaking Himalayan landscapes, rich biodiversity, authentic village culture, and one of the most peaceful</p>",
+                "attractions": [
+                    "Rongli Town",
+                    "Rongli River",
+                    "Local Market",
+                    "Silk Route Gateway",
+                    "Scenic Valley Viewpoints",
+                    "Forest Nature Trails"
+                ],
+                "image": "images/gallery (10).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,560 m (5,118 ft)",
+                    "Key attraction: Rongli Town",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Riverside Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Exploration"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~58 km) or Bagdogra Airport (~110 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~105 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Rongli & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "title": "Signature Rongli Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rongli Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "name": "Rongli Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Rolep located?",
+                        "answer": "Rolep is a scenic Himalayan village in East Sikkim, located approximately 78 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Rolep famous for?",
+                        "answer": "Rolep is renowned for its beautiful waterfalls, crystal-clear mountain streams, peaceful riverside landscapes, nature trails, and authentic Himalayan village tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Rolep?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the natural beauty is at its best."
+                    },
+                    {
+                        "question": "What is the altitude of Rolep?",
+                        "answer": "Rolep is situated at an altitude of approximately 1,524 metres (5,000 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Rolep?",
+                        "answer": "Rolep can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport. Visitors can hire a private or shared vehicle."
+                    },
+                    {
+                        "question": "Is a permit required to visit Rolep?",
+                        "answer": "No. Indian nationals do not require a permit to visit Rolep. Foreign nationals should carry valid travel documents and follow the latest travel regulations."
+                    },
+                    {
+                        "question": "Is Rolep suitable for families?",
+                        "answer": "Yes. Rolep is suitable for families, couples, solo travellers, senior citizens, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Rolep?",
+                        "answer": "Major nearby attractions include Aritar, Lampokhari Lake, Mankhim View Point, Rongli, Reshikhola, Padamchen, Zuluk, and the Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "Kupup",
+                "slug": "kupup",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "3,970 m (13,025 ft)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Elephant Lake (Bitan Cho), Silk Route, Snowfall, High-Altitude Landscapes &",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Combining its strategic location as the gateway to the historic Silk Route, scenic river valleys, rich Himalayan biodiversity, peaceful mountain surroundings, authentic local culture, vibrant markets, and convenient access to East Sikkim's most beautiful destinations, Rongli offers one of the most</p><h3>History, Geography & Climate</h3><p>Kupup has historically been an important settlement along the Ancient Silk Route connecting India with Tibet. Traders travelling through the Eastern Himalayas crossed this region while transporting wool, salt, silk, and other valuable goods. Today, Kupup remains strategically significant because of</p><h3>Culture & Local Life</h3><p>The region surrounding Kupup reflects the traditions of the Bhutia and Lepcha communities and the historical importance of the Silk Route. Colourful prayer flags, Buddhist influences, and the presence of the Indian Army contribute to the unique cultural identity of this remote Himalayan region.</p><h3>Why Visit Kupup</h3><p>Combining its strategic location as the gateway to the historic Silk Route, scenic river valleys, rich Himalayan biodiversity, peaceful mountain surroundings, authentic local culture, vibrant markets,</p>",
+                "attractions": [
+                    "Elephant Lake (Bitan Cho)",
+                    "Kupup Village",
+                    "Historic Silk Route",
+                    "Himalayan Viewpoints",
+                    "Snowfall (Seasonal)",
+                    "Kyongnosla Alpine Sanctuary"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 3,970 m (13,025 ft)",
+                    "Key attraction: Elephant Lake (Bitan Cho)",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "High-Altitude Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Himalayan Photography"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Snow Photography"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Exploration"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~60 km) or Bagdogra Airport (~170 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~175 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Kupup & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "title": "Signature Kupup Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kupup Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "name": "Kupup Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Rongli located?",
+                        "answer": "Rongli is a scenic Himalayan town in East Sikkim, located approximately 58 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Rongli famous for?",
+                        "answer": "Rongli is renowned as the Gateway to the Historic Silk Route, offering beautiful river valleys, scenic mountain landscapes, local markets, and easy access to East Sikkim's offbeat destinations."
+                    },
+                    {
+                        "question": "What is the best time to visit Rongli?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Rongli?",
+                        "answer": "Rongli is situated at an altitude of approximately 1,560 metres (5,118 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Rongli?",
+                        "answer": "Rongli can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport. Visitors can hire a private or shared vehicle."
+                    },
+                    {
+                        "question": "Is a permit required to visit Rongli?",
+                        "answer": "No. Indian nationals do not require a permit to visit Rongli. However, travellers continuing towards Zuluk, Gnathang Valley, Nathula Pass, or other protected areas of the Silk Route require the necessary permits."
+                    },
+                    {
+                        "question": "Is Rongli suitable for families?",
+                        "answer": "Yes. Rongli is suitable for families, couples, solo travellers, senior citizens, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Rongli?",
+                        "answer": "Major nearby attractions include Aritar, Lampokhari Lake, Rolep, Reshikhola, Padamchen, Zuluk, Gnathang Valley, and the Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "Padamchen",
+                "slug": "padamchen",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "2,045 m (6,709 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Silk Route, Forests, Nature Tourism, Birdwatching, Homestays & Himalayan",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Combining the spectacular Elephant Lake, breathtaking Himalayan landscapes, the historic Ancient Silk Route, rich alpine biodiversity, seasonal snowfall, peaceful mountain surroundings, and one of the highest scenic valleys in Sikkim, Kupup offers one of the most extraordinary high-altitude travel</p><h3>History, Geography & Climate</h3><p>Padamchen has traditionally been inhabited by Lepcha, Bhutia, and Nepali communities whose</p><h3>Culture & Local Life</h3><p>Located approximately 78 kilometres from Gangtok, Padamchen attracts visitors with its peaceful surroundings, breathtaking Himalayan scenery, colourful forests, pleasant climate, and convenient access to destinations such as Zuluk, Gnathang Valley, and Kupup. Serving as one of the most</p><h3>Why Visit Padamchen</h3><p>Combining the spectacular Elephant Lake, breathtaking Himalayan landscapes, the historic Ancient Silk Route, rich alpine biodiversity, seasonal snowfall, peaceful mountain surroundings, and one of</p>",
+                "attractions": [
+                    "Padamchen Village",
+                    "Forest Nature Trails",
+                    "Silk Route Viewpoints",
+                    "Rhododendron Forests",
+                    "Mountain Photography Points",
+                    "Birdwatching Areas"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 2,045 m (6,709 ft)",
+                    "Key attraction: Padamchen Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~78 km) or Bagdogra Airport (~130 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~125 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Padamchen & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "title": "Signature Padamchen Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Padamchen Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "name": "Padamchen Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Kupup located?",
+                        "answer": "Kupup is a high-altitude Himalayan village in East Sikkim, located approximately 60 km from Gangtok along the historic Silk Route near Nathula Pass."
+                    },
+                    {
+                        "question": "What is Kupup famous for?",
+                        "answer": "Kupup is renowned for Elephant Lake (Bitan Cho), breathtaking Himalayan landscapes, the historic Silk Route, seasonal snowfall, and high-altitude alpine scenery."
+                    },
+                    {
+                        "question": "What is the best time to visit Kupup?",
+                        "answer": "The best time to visit is April to June and October to November. Winter (December to February) is ideal for experiencing snowfall, subject to weather and road conditions."
+                    },
+                    {
+                        "question": "What is the altitude of Kupup?",
+                        "answer": "Kupup is situated at an altitude of approximately 3,970 metres (13,025 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Kupup?",
+                        "answer": "Kupup can be reached by road from Gangtok via Tsomgo (Changu) Lake and Nathula Pass. Visitors usually hire a registered shared or private vehicle, and a valid permit is required."
+                    },
+                    {
+                        "question": "Is a permit required to visit Kupup?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel agency or local tour operator. Foreign nationals are subject to additional regulations and should check the latest permit requirements before planning their visit."
+                    },
+                    {
+                        "question": "Is Kupup suitable for families?",
+                        "answer": "Yes. Kupup is suitable for families, couples, solo travellers, and nature lovers. Visitors should take precautions due to the high altitude and cold weather."
+                    },
+                    {
+                        "question": "What are the top attractions near Kupup?",
+                        "answer": "Major nearby attractions include Elephant Lake (Bitan Cho), Nathula Pass, Baba Harbhajan Singh Mandir, Tsomgo (Changu) Lake, Gnathang Valley, Zuluk, Tukla Valley, and Kyongnosla Alpine Sanctuary."
+                    }
+                ]
+            },
+            {
+                "name": "Lungthung",
+                "slug": "lungthung",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "3,963 m (13,000 ft)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Kanchenjunga Views, Silk Route, Alpine Landscapes, Snowfall & Himalayan",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>landscape photography make Padamchen one of East Sikkim's finest offbeat destinations. Zuluk, Gnathang Valley, Kupup, Nathula Pass, Aritar, Rolep, Rongli, Reshikhola, Gangtok, and the Silk Combining lush Himalayan forests, rich biodiversity, peaceful mountain surroundings, scenic Silk</p><h3>History, Geography & Climate</h3><p>Lungthung has historically formed part of the Ancient Silk Route connecting India with Tibet. For centuries, traders travelling across the Eastern Himalayas passed through this region while transporting wool, silk, salt, and other valuable goods. Today, Lungthung is celebrated for its</p><h3>Culture & Local Life</h3><p>The region surrounding Lungthung reflects the traditions of the Bhutia and Lepcha communities and the historical legacy of the Ancient Silk Route. Colourful prayer flags, Buddhist influences, and the presence of nearby mountain settlements contribute to the unique cultural identity of this high-</p><h3>Why Visit Lungthung</h3><p>Combining lush Himalayan forests, rich biodiversity, peaceful mountain surroundings, scenic Silk Route landscapes, authentic local culture, traditional homestays, and relaxing nature experiences,</p>",
+                "attractions": [
+                    "Lungthung View Point",
+                    "Mount Kanchenjunga View",
+                    "Historic Silk Route",
+                    "Alpine Landscapes",
+                    "Seasonal Snowfall",
+                    "Mountain Photography Points"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 3,963 m (13,000 ft)",
+                    "Key attraction: Lungthung View Point",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "High-Altitude Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Himalayan Photography"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Snow Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~70 km) or Bagdogra Airport (~175 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~180 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Lungthung & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "title": "Signature Lungthung Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Lungthung Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "name": "Lungthung Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Padamchen located?",
+                        "answer": "Padamchen is a scenic Himalayan village in East Sikkim, located approximately 78 km from Gangtok along the historic Silk Route."
+                    },
+                    {
+                        "question": "What is Padamchen famous for?",
+                        "answer": "Padamchen is renowned for its lush forests, peaceful Himalayan landscapes, rich biodiversity, traditional homestays, birdwatching, and as a popular stopover on the historic Silk Route."
+                    },
+                    {
+                        "question": "What is the best time to visit Padamchen?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the mountain scenery is at its best."
+                    },
+                    {
+                        "question": "What is the altitude of Padamchen?",
+                        "answer": "Padamchen is situated at an altitude of approximately 2,045 metres (6,709 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Padamchen?",
+                        "answer": "Padamchen can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport. Visitors usually hire a private or shared vehicle."
+                    },
+                    {
+                        "question": "Is a permit required to visit Padamchen?",
+                        "answer": "No. Indian nationals do not require a permit to visit Padamchen. However, travellers continuing towards Zuluk, Gnathang Valley, Kupup, or other protected areas along the Silk Route require the necessary permits."
+                    },
+                    {
+                        "question": "Is Padamchen suitable for families?",
+                        "answer": "Yes. Padamchen is suitable for families, couples, solo travellers, senior citizens, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Padamchen?",
+                        "answer": "Major nearby attractions include Zuluk, Gnathang Valley, Kupup, Nathula Pass, Aritar, Rolep, Rongli, Reshikhola, and the Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "Thambi View Point",
+                "slug": "thambi-view-point",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "3,415 m (11,204 ft)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Sunrise, Mount Kanchenjunga Views, Zig Zag Road, Silk Route & Himalayan",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>High-altitude sightseeing, Himalayan photography, scenic mountain drives, Silk Route exploration, snow photography, birdwatching, nature appreciation, panoramic mountain viewing, and peaceful alpine landscapes make Lungthung one of the most spectacular destinations in East Sikkim.</p><h3>History, Geography & Climate</h3><p>Thambi View Point forms part of the historic Ancient Silk Route that once connected India with Tibet. Traders travelling through the Eastern Himalayas crossed this route while transporting silk, wool, salt, and other valuable goods. Today, the viewpoint is one of the most celebrated attractions</p><h3>Culture & Local Life</h3><p>The region surrounding Thambi View Point reflects the traditions of the Bhutia and Lepcha communities and the historical legacy of the Ancient Silk Route. Colourful prayer flags, Buddhist influences, and nearby Himalayan villages contribute to the unique cultural identity of this high-</p><h3>Why Visit Thambi View Point</h3><p>Combining breathtaking views of Mount Kanchenjunga, dramatic alpine landscapes, the legendary Ancient Silk Route, rich Himalayan biodiversity, seasonal snowfall, peaceful mountain surroundings,</p>",
+                "attractions": [
+                    "Thambi View Point",
+                    "Mount Kanchenjunga View",
+                    "Sunrise Point",
+                    "Zig Zag Road",
+                    "Historic Silk Route",
+                    "Himalayan Viewpoints"
+                ],
+                "image": "images/gallery (14).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 3,415 m (11,204 ft)",
+                    "Key attraction: Thambi View Point",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "High-Altitude Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Himalayan Photography"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Snow Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~68 km) or Bagdogra Airport (~173 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~178 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Thambi View Point & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "title": "Signature Thambi View Point Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Thambi View Point Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "name": "Thambi View Point Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Lungthung located?",
+                        "answer": "Lungthung is a high-altitude Himalayan viewpoint in East Sikkim, located approximately 70 km from Gangtok along the historic Silk Route."
+                    },
+                    {
+                        "question": "What is Lungthung famous for?",
+                        "answer": "Lungthung is renowned for its spectacular Mount Kanchenjunga views, alpine landscapes, the historic Silk Route, seasonal snowfall, and panoramic Himalayan photography."
+                    },
+                    {
+                        "question": "What is the best time to visit Lungthung?",
+                        "answer": "The best time to visit is April to June and October to November. Winter (December to February) is ideal for experiencing snowfall, subject to weather and road conditions."
+                    },
+                    {
+                        "question": "What is the altitude of Lungthung?",
+                        "answer": "Lungthung is situated at an altitude of approximately 3,963 metres (13,000 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Lungthung?",
+                        "answer": "Lungthung can be reached by road from Gangtok via Zuluk along the historic Silk Route. Visitors usually hire a registered shared or private vehicle, and a valid permit is required."
+                    },
+                    {
+                        "question": "Is a permit required to visit Lungthung?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel agency or local tour operator. Foreign nationals are subject to additional regulations and should check the latest permit requirements before planning their visit."
+                    },
+                    {
+                        "question": "Is Lungthung suitable for families?",
+                        "answer": "Yes. Lungthung is suitable for families, couples, solo travellers, and nature lovers. Visitors should take precautions due to the high altitude and cold weather."
+                    },
+                    {
+                        "question": "What are the top attractions near Lungthung?",
+                        "answer": "Major nearby attractions include Gnathang Valley, Zuluk, Kupup, Tukla Valley, Nathula Pass, Baba Harbhajan Singh Mandir, Tsomgo (Changu) Lake, and Kyongnosla Alpine Sanctuary."
+                    }
+                ]
+            },
+            {
+                "name": "Old Silk Route",
+                "slug": "old-silk-route",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "~4,310 m (14,140 ft) (near Nathula region)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Historic Trade Route, Zig Zag Roads, Mountain Villages, Kanchenjunga Views,",
+                "location": "East Sikkim, Sikkim",
+                "description": "<p>Sunrise photography, Himalayan photography, scenic mountain drives, Silk Route exploration, snow photography, birdwatching, nature appreciation, panoramic mountain viewing, and peaceful alpine landscapes make Thambi View Point one of the most spectacular destinations in East Sikkim.</p><h3>History, Geography & Climate</h3><p>The Old Silk Route served for centuries as an important trade corridor between India and Tibet. Merchants travelling with caravans of yaks and mules transported silk, wool, salt, horses, spices, and other valuable goods through the rugged Himalayan terrain. Although international trade along the</p><h3>Culture & Local Life</h3><p>The villages along the Old Silk Route are predominantly inhabited by Lepcha, Bhutia, and Nepali communities whose traditions reflect the rich cultural heritage of the Eastern Himalayas. Agriculture, tourism, livestock farming, and horticulture continue to support the local economy. Colourful prayer</p><h3>Why Visit Old Silk Route</h3><p>Combining spectacular sunrise views over Mount Kanchenjunga, the iconic Zig Zag Road, breathtaking Himalayan landscapes, the legendary Ancient Silk Route, rich alpine biodiversity,</p>",
+                "attractions": [
+                    "Rongli",
+                    "Padamchen",
+                    "Zuluk",
+                    "Zig Zag Road",
+                    "Thambi View Point",
+                    "Lungthung"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Nestled at an elevation of ~4,310 m (14,140 ft) (near Nathula region)",
+                    "Key attraction: Rongli",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Sunrise Photography"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Himalayan Photography"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Snow Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~45-90 km) or Bagdogra Airport (~130-160 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~120-150 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Old Silk Route & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "title": "Signature Old Silk Route Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Old Silk Route Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "name": "Old Silk Route Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Thambi View Point located?",
+                        "answer": "Thambi View Point is a high-altitude Himalayan viewpoint in East Sikkim, located approximately 68 km from Gangtok along the historic Silk Route near Zuluk."
+                    },
+                    {
+                        "question": "What is Thambi View Point famous for?",
+                        "answer": "Thambi View Point is renowned for its spectacular sunrise over Mount Kanchenjunga, the famous Zig Zag Road with its 32 hairpin bends, panoramic Himalayan landscapes, and Silk Route views."
+                    },
+                    {
+                        "question": "What is the best time to visit Thambi View Point?",
+                        "answer": "The best time to visit is April to June and October to November. Winter (December to February) is ideal for experiencing snowfall, subject to weather and road conditions."
+                    },
+                    {
+                        "question": "What is the altitude of Thambi View Point?",
+                        "answer": "Thambi View Point is situated at an altitude of approximately 3,415 metres (11,204 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Thambi View Point?",
+                        "answer": "Thambi View Point can be reached by road from Gangtok via Zuluk along the historic Silk Route. Visitors usually hire a registered shared or private vehicle, and a valid permit is required."
+                    },
+                    {
+                        "question": "Is a permit required to visit Thambi View Point?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel agency or local tour operator. Foreign nationals are subject to additional regulations and should check the latest permit requirements before planning their visit."
+                    },
+                    {
+                        "question": "Is Thambi View Point suitable for families?",
+                        "answer": "Yes. Thambi View Point is suitable for families, couples, solo travellers, and nature lovers. Visitors should take precautions due to the high altitude and cold weather."
+                    },
+                    {
+                        "question": "What are the top attractions near Thambi View Point?",
+                        "answer": "Major nearby attractions include Zuluk, Lungthung, Gnathang Valley, Kupup, Tukla Valley, Nathula Pass, Baba Harbhajan Singh Mandir, Tsomgo (Changu) Lake, and the Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "Lamapokhri Lake",
+                "slug": "lampokhari-lake",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,498 m (4,915 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Natural Freshwater Lake, Boating, Nature Tourism, Birdwatching & Himalayan",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Silk Route exploration, scenic mountain drives, sunrise photography, birdwatching, nature photography, village tourism, cultural interaction, homestay experiences, high-altitude sightseeing, and peaceful Himalayan retreats make the Old Silk Route one of the most extraordinary travel</p><h3>History, Geography & Climate</h3><p>Lampokhari Lake has long been an important natural and cultural landmark in East Sikkim. The lake has been associated with local Himalayan communities for generations and is believed to be one of the oldest natural lakes in the state. Over the years, it has developed into one of Sikkim's most</p><h3>Culture & Local Life</h3><p>The area surrounding Lampokhari Lake is predominantly inhabited by Lepcha, Bhutia, and Nepali communities whose traditions reflect the rich cultural heritage of East Sikkim. Agriculture, tourism, horticulture, and cardamom cultivation continue to support the local economy. Warm hospitality,</p><h3>Why Visit Lamapokhri Lake</h3><p>Combining centuries of Himalayan trading history, breathtaking mountain landscapes, picturesque villages, the iconic Zig Zag Road, spectacular views of Mount Kanchenjunga, rich biodiversity,</p>",
+                "attractions": [
+                    "Lampokhari Lake",
+                    "Boating",
+                    "Lakefront Promenade",
+                    "Scenic Gardens",
+                    "Birdwatching Areas",
+                    "Mountain Photography Points"
+                ],
+                "image": "images/gallery (16).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,498 m (4,915 ft)",
+                    "Key attraction: Lampokhari Lake",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Exploration"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Mountain Drives"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Sunrise Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~63 km) or Bagdogra Airport (~115 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~110 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Lamapokhri Lake & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "title": "Signature Lamapokhri Lake Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Lamapokhri Lake Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "name": "Lamapokhri Lake Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is the Old Silk Route located?",
+                        "answer": "The Old Silk Route is a historic Himalayan trade route in East Sikkim, beginning from Rongli and passing through destinations such as Padamchen, Zuluk, Thambi View Point, Lungthung, Gnathang Valley, and Kupup."
+                    },
+                    {
+                        "question": "What is the Old Silk Route famous for?",
+                        "answer": "The Old Silk Route is renowned for its historic trade heritage, spectacular Himalayan landscapes, the iconic Zig Zag Road, mountain villages, Mount Kanchenjunga views, and high-altitude road journeys."
+                    },
+                    {
+                        "question": "What is the best time to visit the Old Silk Route?",
+                        "answer": "The best time to visit is April to June and October to November. Winter (December to February) is ideal for experiencing snowfall, subject to weather and road conditions."
+                    },
+                    {
+                        "question": "What is the highest altitude on the Old Silk Route?",
+                        "answer": "The route reaches an elevation of approximately 4,310 metres (14,140 feet) near the Nathula region."
+                    },
+                    {
+                        "question": "How can I reach the Old Silk Route?",
+                        "answer": "The Old Silk Route can be accessed by road from Gangtok or Rongli. Visitors usually hire a registered private or shared vehicle, and permits are required for protected areas."
+                    },
+                    {
+                        "question": "Is a permit required to visit the Old Silk Route?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) for the protected sections of the route, arranged through a registered travel agency or local tour operator. Foreign nationals are subject to additional regulations and should check the latest permit requirements before planning their visit."
+                    },
+                    {
+                        "question": "Is the Old Silk Route suitable for families?",
+                        "answer": "Yes. The Old Silk Route is suitable for families, couples, solo travellers, and nature lovers. Visitors should take precautions due to the high altitude and winding mountain roads."
+                    },
+                    {
+                        "question": "What are the top attractions along the Old Silk Route?",
+                        "answer": "Major attractions include Rongli, Padamchen, Zuluk, Zig Zag Road, Thambi View Point, Lungthung, Gnathang Valley, Kupup, Nathula Pass, and Tsomgo (Changu) Lake."
+                    }
+                ]
+            },
+            {
+                "name": "Mankhim View Point",
+                "slug": "mankhim",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "2,000 m (6,562 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Sunrise Views, Lampokhari Lake View, Kanchenjunga Panorama, Rai Cultural",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Boating, nature photography, birdwatching, lakeside walks, family recreation, village tourism, cultural interaction, scenic mountain drives, and peaceful Himalayan retreats make Lampokhari Lake Aritar, Mankhim View Point, Rongli, Rolep, Reshikhola, Padamchen, Zuluk, Gangtok, and the Silk</p><h3>History, Geography & Climate</h3><p>Mankhim holds deep cultural importance for the Rai community, who worship Mangkhim Devi at the hilltop temple. The site has been a traditional place of worship and gathering for generations,</p><h3>Culture & Local Life</h3><p>Mankhim is deeply rooted in Rai tribal culture, with strong spiritual traditions centered around Mangkhim Devi. Agriculture, horticulture, and tourism are the main sources of livelihood in the region. The community is known for its hospitality, cultural festivals, and preservation of traditional</p><h3>Why Visit Mankhim View Point</h3><p>Combining the serene beauty of one of Sikkim's oldest natural lakes, emerald-green waters, rich Himalayan biodiversity, peaceful mountain surroundings, authentic local culture, boating</p>",
+                "attractions": [
+                    "Mankhim View Point",
+                    "Sunrise over Kanchenjunga",
+                    "Lampokhari Lake View",
+                    "Mangkhim Temple",
+                    "Aritar Valley Views"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 2,000 m (6,562 ft)",
+                    "Key attraction: Mankhim View Point",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Boating"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Lakeside Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Family Recreation"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~65 km) or Bagdogra Airport (~110 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~105 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Mankhim View Point & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "title": "Signature Mankhim View Point Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Mankhim View Point Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "name": "Mankhim View Point Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Lampokhari Lake located?",
+                        "answer": "Lampokhari Lake is a scenic natural freshwater lake in Aritar, East Sikkim, located approximately 63 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Lampokhari Lake famous for?",
+                        "answer": "Lampokhari Lake is renowned for its emerald-green waters, boating, peaceful Himalayan surroundings, birdwatching, and scenic natural beauty."
+                    },
+                    {
+                        "question": "What is the best time to visit Lampokhari Lake?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the surrounding landscapes are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Lampokhari Lake?",
+                        "answer": "Lampokhari Lake is situated at an altitude of approximately 1,498 metres (4,915 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Lampokhari Lake?",
+                        "answer": "Lampokhari Lake can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport. Visitors usually hire a private or shared vehicle."
+                    },
+                    {
+                        "question": "Is a permit required to visit Lampokhari Lake?",
+                        "answer": "No. Indian nationals do not require a permit to visit Lampokhari Lake."
+                    },
+                    {
+                        "question": "Is Lampokhari Lake suitable for families?",
+                        "answer": "Yes. Lampokhari Lake is suitable for families, couples, solo travellers, senior citizens, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Lampokhari Lake?",
+                        "answer": "Major nearby attractions include Aritar, Mankhim View Point, Rongli, Rolep, Reshikhola, Padamchen, Zuluk, and the Silk Route."
+                    }
+                ]
+            },
+            {
+                "name": "Lingtham",
+                "slug": "lingtham",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,800 m (5,905 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Forest Stay, Silk Route Stopover, Nature Tourism, Birdwatching & Peaceful",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Sunrise photography, cultural tourism, temple visits, Himalayan viewing, lake photography, village exploration, nature walks, peaceful retreats, and birdwatching make Mankhim one of East Sikkim's Lampokhari Lake, Aritar, Rongli, Rolep, Reshikhola, Padamchen, Zuluk, Gangtok, and the Silk Route</p><h3>History, Geography & Climate</h3><p>Lingtham has traditionally been inhabited by Lepcha, Bhutia, and Nepali communities who depend</p><h3>Culture & Local Life</h3><p>Lingtham is home to a blend of Lepcha, Bhutia, and Nepali communities. Agriculture and cardamom cultivation remain the backbone of local life. The village is known for its warm hospitality, simple Traditional festivals, Buddhist influences, and rural Himalayan culture shape the identity of the</p><h3>Why Visit Lingtham</h3><p>Mankhim offers a rare combination of spiritual heritage, breathtaking sunrise views, panoramic Himalayan landscapes, and serene natural beauty. Overlooking Lampokhari Lake and the Aritar</p>",
+                "attractions": [
+                    "Mankhim View Point",
+                    "Sunrise over Kanchenjunga",
+                    "Lampokhari Lake View",
+                    "Mangkhim Temple",
+                    "Aritar Valley Views",
+                    "Forest Trails"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,800 m (5,905 ft)",
+                    "Key attraction: Mankhim View Point",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "camera",
+                        "label": "Sunrise Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Tourism"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Temple Visits"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Himalayan Viewing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Lake Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Exploration"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~70 km) or Bagdogra Airport (~120 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~115 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Lingtham & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "title": "Signature Lingtham Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Lingtham Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "name": "Lingtham Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Mankhim located?",
+                        "answer": "Mankhim is a hilltop viewpoint in Aritar, East Sikkim, located approximately 65 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Mankhim famous for?",
+                        "answer": "Mankhim is famous for its sunrise views of Mount Kanchenjunga, panoramic views of Lampokhari Lake, and its cultural significance for the Rai community."
+                    },
+                    {
+                        "question": "What is the best time to visit Mankhim?",
+                        "answer": "The best time is March to June and October to December for clear skies and beautiful sunrise views."
+                    },
+                    {
+                        "question": "What is the altitude of Mankhim?",
+                        "answer": "Mankhim is situated at an altitude of approximately 2,000 metres (6,562 feet)."
+                    },
+                    {
+                        "question": "How can I reach Mankhim?",
+                        "answer": "Mankhim can be reached by road from Gangtok, NJP, or Bagdogra Airport via Aritar."
+                    },
+                    {
+                        "question": "Is a permit required to visit Mankhim?",
+                        "answer": "No. Indian nationals do not require a permit."
+                    },
+                    {
+                        "question": "Is Mankhim suitable for families?",
+                        "answer": "Yes. It is suitable for families, couples, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Mankhim?",
+                        "answer": "Lampokhari Lake, Aritar, Rongli, Rolep, Reshikhola, and Silk Route destinations."
+                    }
+                ]
+            },
+            {
+                "name": "Reshikhola",
+                "slug": "reshikhola",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,500 m (4,921 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Riverside Camping, Reshi River, Forest Valley, Orange Orchards, Birdwatching &",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Village tourism, forest walks, birdwatching, photography, homestay living, cultural interaction, peaceful relaxation, and Silk Route stopover experiences make Lingtham a hidden gem of East Rongli, Aritar, Rolep, Reshikhola, Padamchen, Zuluk, Mankhim, Lampokhari Lake, and the Silk Route</p><h3>History, Geography & Climate</h3><p>Reshikhola has long been an important settlement in the border region of East Sikkim. The name \"Reshikhola\" comes from the combination of \"Reshi\" (river name) and \"Khola\" (river in local</p><h3>Culture & Local Life</h3><p>Reshikhola is home to Lepcha, Bhutia, and Nepali communities who live in harmony with nature. Agriculture, orange farming, cardamom cultivation, and tourism are the main livelihoods in the region. The culture reflects simplicity, warm hospitality, and strong traditional values.</p><h3>Why Visit Reshikhola</h3><p>Lingtham offers a peaceful Himalayan escape with untouched forests, traditional village life, misty landscapes, and authentic homestay experiences. It is ideal for travellers seeking silence, nature, and</p>",
+                "attractions": [
+                    "Lingtham Village",
+                    "Forest Walking Trails",
+                    "Cardamom Plantations",
+                    "Misty Mountain Views",
+                    "Birdwatching Spots"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,500 m (4,921 ft)",
+                    "Key attraction: Lingtham Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
                     },
                     {
                         "icon": "camera",
@@ -3893,44 +12136,1267 @@ window.destinationsData = {
                     },
                     {
                         "icon": "village",
-                        "label": "Village Tour"
+                        "label": "Homestay Living"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Pakyong Airport (120 km)",
-                    "byTrain": "New Jalpaiguri (148 km)",
-                    "byRoad": "Via Jorethang from Siliguri (131 km)"
+                    "byAir": "Pakyong Airport (~55 km) or Bagdogra Airport (~105 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~100 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
                 },
                 "packages": [
                     {
-                        "title": "3N/4D Pelling Heritage Tour",
-                        "includes": "Stay + Sightseeing + Meals",
-                        "price": 10999,
-                        "image": "images/gallery (14).jpg"
+                        "title": "3N/4D Reshikhola & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (18).jpg"
                     },
                     {
-                        "title": "Pelling + Yuksom Trek",
-                        "includes": "Stay + Guide + Meals + Permits",
-                        "price": 14999,
-                        "image": "images/gallery (15).jpg"
+                        "title": "Signature Reshikhola Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (19).jpg"
                     }
                 ],
                 "stays": [
                     {
-                        "name": "Elgin Mount Pandim",
-                        "rating": 4.8,
-                        "reviews": 112,
-                        "type": "Heritage Hotel",
-                        "price": 5000,
-                        "image": "images/gallery (14).jpg"
+                        "name": "Reshikhola Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (18).jpg"
                     },
                     {
-                        "name": "Mountain View Homestay",
-                        "rating": 4.4,
-                        "reviews": 56,
-                        "type": "Homestay",
+                        "name": "Reshikhola Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Lingtham located?",
+                        "answer": "Lingtham is a small village in East Sikkim, located approximately 70 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Lingtham famous for?",
+                        "answer": "Lingtham is famous for its peaceful village life, forest surroundings, homestays, and Silk Route connectivity."
+                    },
+                    {
+                        "question": "What is the best time to visit Lingtham?",
+                        "answer": "The best time is March to June and October to December."
+                    },
+                    {
+                        "question": "What is the altitude of Lingtham?",
+                        "answer": "Lingtham is situated at an altitude of approximately 1,800 metres (5,905 feet)."
+                    },
+                    {
+                        "question": "How can I reach Lingtham?",
+                        "answer": "Lingtham can be reached by road from Gangtok, NJP, or Bagdogra Airport via Rongli."
+                    },
+                    {
+                        "question": "Is a permit required to visit Lingtham?",
+                        "answer": "No. Indian nationals do not require a permit."
+                    },
+                    {
+                        "question": "Is Lingtham suitable for families?",
+                        "answer": "Yes, it is suitable for families, couples, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Lingtham?",
+                        "answer": "Rongli, Aritar, Rolep, Padamchen, Zuluk, and Silk Route destinations."
+                    }
+                ]
+            },
+            {
+                "name": "Pakyong",
+                "slug": "pakyong",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,400 m (4,593 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Pakyong Airport, Green Valleys, Himalayan Views, Village Tourism & Transit",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Riverside camping, nature walks, birdwatching, photography, forest exploration, orange orchard visits, village tourism, homestay experiences, and peaceful relaxation make Reshikhola one of the most refreshing offbeat destinations in East Sikkim.</p><h3>History, Geography & Climate</h3><p>Pakyong was historically a quiet agricultural region inhabited by Lepcha, Bhutia, and Nepali communities. The area primarily depended on farming, cardamom cultivation, and forest-based livelihoods. In recent years, Pakyong gained prominence after the construction of the Pakyong</p><h3>Culture & Local Life</h3><p>Pakyong reflects the cultural harmony of Lepcha, Bhutia, and Nepali communities. Agriculture remains the primary livelihood, especially cardamom cultivation and terrace farming. The town is gradually developing, but still retains strong traditional values, community life, and Himalayan</p><h3>Why Visit Pakyong</h3><p>Reshikhola offers a perfect combination of crystal-clear rivers, dense forests, peaceful valley landscapes, orange orchards, and authentic Himalayan village life. It is an ideal destination for</p>",
+                "attractions": [
+                    "Reshi River",
+                    "Riverside Camping Sites",
+                    "Forest Walking Trails",
+                    "Orange Orchards",
+                    "Bamboo Groves",
+                    "Birdwatching Spots"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,400 m (4,593 ft)",
+                    "Key attraction: Reshi River",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Riverside Camping"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Forest Exploration"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Orange Orchard Visits"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~35 km) or Bagdogra Airport (~125 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~120 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Pakyong & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "title": "Signature Pakyong Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Pakyong Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "name": "Pakyong Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Reshikhola located?",
+                        "answer": "Reshikhola is a riverside valley destination in the Sikkim-West Bengal border region, located approximately 55 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Reshikhola famous for?",
+                        "answer": "Reshikhola is famous for its crystal-clear river (Reshi River), riverside camping, forest landscapes, orange orchards, and peaceful nature retreat."
+                    },
+                    {
+                        "question": "What is the best time to visit Reshikhola?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the river valley is at its most beautiful."
+                    },
+                    {
+                        "question": "What is the altitude of Reshikhola?",
+                        "answer": "Reshikhola is situated at an altitude of approximately 1,500 metres (4,921 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Reshikhola?",
+                        "answer": "Reshikhola can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport via Rongli or Kalimpong route."
+                    },
+                    {
+                        "question": "Is a permit required to visit Reshikhola?",
+                        "answer": "No. Indian nationals do not require a permit to visit Reshikhola."
+                    },
+                    {
+                        "question": "Is Reshikhola suitable for families?",
+                        "answer": "Yes. Reshikhola is suitable for families, couples, solo travellers, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Reshikhola?",
+                        "answer": "Nearby attractions include Rongli, Aritar, Rolep, Lingtham, Padamchen, Zuluk, Mankhim, Lampokhari Lake, and the Silk Route region."
+                    }
+                ]
+            },
+            {
+                "name": "Rorathang",
+                "slug": "rorathang",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "300 m (984 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Valley Town, River Basin Region, Agriculture, Connectivity Hub & Industrial Area",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Local festivals, Buddhist influences, and rural customs continue to shape the identity of the region. Airport viewing, valley sightseeing, village tourism, photography, nature walks, peaceful homestay stays, cultural interaction, and short stopover relaxation make Pakyong a calm and emerging travel</p><h3>History, Geography & Climate</h3><p>Rorathang has traditionally been a small settlement along the trade and transit routes connecting Sikkim with the plains of North Bengal. Over time, it developed into a semi-urban town due to its strategic location near the Teesta River basin and its connectivity with East Sikkim's interior regions.</p><h3>Culture & Local Life</h3><p>Surrounding areas include cardamom plantations, tea-growing regions, and rural farming Rorathang lies in a lower Himalayan ecological zone with a mix of forest and valley ecosystems. The region supports vegetation such as sal, bamboo, cardamom, banana plantations, and seasonal</p><h3>Why Visit Rorathang</h3><p>Pakyong offers a peaceful Himalayan experience with green valley landscapes, rural village life, terraced farming, and the unique attraction of Sikkim's first airport. It is ideal for transit stays, short</p>",
+                "attractions": [
+                    "Pakyong Airport Viewpoints",
+                    "Green Himalayan Valleys",
+                    "Village Landscapes",
+                    "Cardamom Plantations",
+                    "Scenic Hill Roads",
+                    "Sunrise & Sunset Points"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 300 m (984 ft)",
+                    "Key attraction: Pakyong Airport Viewpoints",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Airport Viewing"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Valley Sightseeing"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Peaceful Homestay Stays"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~45 km) or Bagdogra Airport (~95 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~90 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Rorathang & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "title": "Signature Rorathang Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rorathang Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "name": "Rorathang Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Pakyong located?",
+                        "answer": "Pakyong is a town in East Sikkim, located approximately 35 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Pakyong famous for?",
+                        "answer": "Pakyong is famous for Sikkim's first airport (Pakyong Airport), green Himalayan valleys, terraced fields, and peaceful village landscapes."
+                    },
+                    {
+                        "question": "What is the best time to visit Pakyong?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the views are clear."
+                    },
+                    {
+                        "question": "What is the altitude of Pakyong?",
+                        "answer": "Pakyong is situated at an altitude of approximately 1,400 metres (4,593 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Pakyong?",
+                        "answer": "Pakyong can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport. It is also accessible via Pakyong Airport (weather dependent operations)."
+                    },
+                    {
+                        "question": "Is a permit required to visit Pakyong?",
+                        "answer": "No. Indian nationals do not require a permit to visit Pakyong."
+                    },
+                    {
+                        "question": "Is Pakyong suitable for families?",
+                        "answer": "Yes. Pakyong is suitable for families, couples, solo travellers, and transit visitors."
+                    },
+                    {
+                        "question": "What are the top attractions near Pakyong?",
+                        "answer": "Nearby attractions include Gangtok, Rumtek Monastery, Rorathang, Rhenock, Aritar, Rolep, Reshikhola, and Silk Route regions."
+                    }
+                ]
+            },
+            {
+                "name": "Assam Lingzey",
+                "slug": "assam-lingzey",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,200 m (3,937 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Village Tourism, Tea Garden Views, Rural Life, Agriculture & Peaceful",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Rorathang reflects a diverse cultural mix of Nepali, Bhutia, Lepcha, and Bengali communities due to its proximity to the Sikkim-West Bengal border. The town has a semi-urban lifestyle with strong Trade, transport, agriculture, and small-scale industries are the primary occupations. The cultural</p><h3>History, Geography & Climate</h3><p>Assam Lingzey developed as a small agricultural settlement inhabited by Lepcha, Bhutia, and Nepali communities. The region has traditionally relied on farming, cardamom cultivation, and small-scale rural livelihoods. Over time, it has become a quiet residential and transit village near key East Sikkim</p><h3>Culture & Local Life</h3><p>Rorathang reflects a diverse cultural mix of Nepali, Bhutia, Lepcha, and Bengali communities due to its proximity to the Sikkim-West Bengal border. The town has a semi-urban lifestyle with strong Trade, transport, agriculture, and small-scale industries are the primary occupations. The cultural</p><h3>Why Visit Assam Lingzey</h3><p>Rorathang offers a unique experience of Sikkim's lower valley life with river basin landscapes, agricultural fields, cultural diversity, and strong connectivity. It is not a typical tourist destination but</p>",
+                "attractions": [
+                    "Teesta River Basin Views",
+                    "Valley Landscapes",
+                    "Agricultural Fields",
+                    "Local Markets",
+                    "Nearby Hill Routes",
+                    "Gateway to East Sikkim"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,200 m (3,937 ft)",
+                    "Key attraction: Teesta River Basin Views",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Transit Travel"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Valley Sightseeing"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Local Market Visits"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Agricultural Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Nearby Destinations Pakyong"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~30 km) or Bagdogra Airport (~100 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~95 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Assam Lingzey & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "title": "Signature Assam Lingzey Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Assam Lingzey Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "name": "Assam Lingzey Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Rorathang located?",
+                        "answer": "Rorathang is a town in East Sikkim, located approximately 45 km from Gangtok, near the Sikkim- West Bengal border region."
+                    },
+                    {
+                        "question": "What is Rorathang famous for?",
+                        "answer": "Rorathang is known for its valley landscapes, Teesta river basin region, agriculture, small industries, and connectivity between East Sikkim and North Bengal."
+                    },
+                    {
+                        "question": "What is the best time to visit Rorathang?",
+                        "answer": "The best time to visit is October to May, when the weather is pleasant and suitable for travel."
+                    },
+                    {
+                        "question": "What is the altitude of Rorathang?",
+                        "answer": "Rorathang is situated at an altitude of approximately 300 metres (984 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Rorathang?",
+                        "answer": "Rorathang can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport via Rangpo or Rhenock routes."
+                    },
+                    {
+                        "question": "Is a permit required to visit Rorathang?",
+                        "answer": "No. Indian nationals do not require a permit to visit Rorathang."
+                    },
+                    {
+                        "question": "Is Rorathang suitable for families?",
+                        "answer": "Yes. It is suitable for families, transit travellers, and those exploring East Sikkim."
+                    },
+                    {
+                        "question": "What are the top attractions near Rorathang?",
+                        "answer": "Nearby destinations include Pakyong, Rhenock, Rangpo, Gangtok, Aritar, Rolep, Reshikhola, and Silk Route regions."
+                    }
+                ]
+            },
+            {
+                "name": "Kabi Lungchok",
+                "slug": "kabi-lungchok",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,600 m (5,249 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Historic Treaty Site, Lepcha-Bhutia Brotherhood, Sacred Forest, Cultural",
+                "location": "Gangtok District (North-East Sikkim region access), Sikkim",
+                "description": "<p>Assam Lingzey reflects a blend of Nepali, Lepcha, and Bhutia cultures with strong rural traditions. Agriculture is the main occupation, especially cardamom farming and terrace cultivation. The lifestyle is simple, community-based, and closely connected to nature.</p><h3>History, Geography & Climate</h3><p>Kabi Lungchok holds immense historical importance as the site where a treaty of brotherhood was signed between the Lepcha chief Thekong Tek and the Bhutia chief Khye Bumsa. This agreement laid the foundation of peace and unity between the two major indigenous communities of Sikkim.</p><h3>Culture & Local Life</h3><p>Assam Lingzey reflects a blend of Nepali, Lepcha, and Bhutia cultures with strong rural traditions. Agriculture is the main occupation, especially cardamom farming and terrace cultivation. The lifestyle is simple, community-based, and closely connected to nature.</p><h3>Why Visit Kabi Lungchok</h3><p>Assam Lingzey offers a peaceful glimpse into rural Sikkim with its green hills, agricultural landscapes, tea garden surroundings, and traditional village lifestyle. It is ideal for travellers seeking quiet stays,</p>",
+                "attractions": [
+                    "Village Landscapes",
+                    "Terraced Farming Fields",
+                    "Cardamom Plantations",
+                    "Green Hills & Valley Views",
+                    "Tea Garden Surroundings",
+                    "Rural Homestays"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,600 m (5,249 ft)",
+                    "Key attraction: Village Landscapes",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Rural Homestays"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Agricultural Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~17 km) or Bagdogra Airport (~120 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~115 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Kabi Lungchok & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "title": "Signature Kabi Lungchok Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kabi Lungchok Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "name": "Kabi Lungchok Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Assam Lingzey located?",
+                        "answer": "Assam Lingzey is a village in East Sikkim, located approximately 30 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Assam Lingzey famous for?",
+                        "answer": "It is famous for its peaceful village life, green valley views, terraced farming, cardamom plantations, and rural Himalayan scenery."
+                    },
+                    {
+                        "question": "What is the best time to visit Assam Lingzey?",
+                        "answer": "The best time to visit is October to May, when the weather is pleasant and the surroundings are green and clear."
+                    },
+                    {
+                        "question": "What is the altitude of Assam Lingzey?",
+                        "answer": "Assam Lingzey is situated at an altitude of approximately 1,200 metres (3,937 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Assam Lingzey?",
+                        "answer": "It can be reached by road from Gangtok, Pakyong, Rorathang, NJP Railway Station, or Bagdogra Airport."
+                    },
+                    {
+                        "question": "Is a permit required to visit Assam Lingzey?",
+                        "answer": "No. Indian nationals do not require a permit to visit Assam Lingzey."
+                    },
+                    {
+                        "question": "Is Assam Lingzey suitable for families?",
+                        "answer": "Yes. It is suitable for families, couples, and travellers seeking peaceful village stays."
+                    },
+                    {
+                        "question": "What are the top attractions near Assam Lingzey?",
+                        "answer": "Nearby places include Gangtok, Pakyong, Rorathang, Rhenock, Aritar, Rolep, Reshikhola, and Silk Route regions."
+                    }
+                ]
+            },
+            {
+                "name": "Yakten",
+                "slug": "yakten",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,800 m (5,905 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Forest Stay, Himalayan Views, Birdwatching, Offbeat Tourism & Peaceful Village",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Kabi Lungchok is a powerful symbol of Lepcha-Bhutia unity, representing the cultural foundation of Sikkim. The site is deeply respected by local communities and often visited for prayers, cultural Nearby villages reflect traditional Sikkimese life based on agriculture, cardamom farming, and forest-</p><h3>History, Geography & Climate</h3><p>Yakten has traditionally been inhabited by Lepcha, Bhutia, and Nepali communities who depend on</p><h3>Culture & Local Life</h3><p>Kabi Lungchok is a powerful symbol of Lepcha-Bhutia unity, representing the cultural foundation of Sikkim. The site is deeply respected by local communities and often visited for prayers, cultural Nearby villages reflect traditional Sikkimese life based on agriculture, cardamom farming, and forest-</p><h3>Why Visit Yakten</h3><p>Kabi Lungchok offers a rare combination of historical significance, cultural unity, sacred forest environment, and peaceful Himalayan scenery. It is one of Sikkim's most important heritage sites,</p>",
+                "attractions": [
+                    "Historic Treaty Stone Memorial",
+                    "Sacred Forest Area",
+                    "Prayer Flags & Heritage Symbols",
+                    "Scenic Hills & Valleys",
+                    "Bamboo Forest Trails",
+                    "Cultural Heritage Site"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,800 m (5,905 ft)",
+                    "Key attraction: Historic Treaty Stone Memorial",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Heritage Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Exploration"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Historical Learning"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Spiritual Reflection"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~60 km) or Bagdogra Airport (~115 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~110 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Yakten & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "title": "Signature Yakten Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Yakten Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "name": "Yakten Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Kabi Lungchok located?",
+                        "answer": "Kabi Lungchok is located about 17 km from Gangtok, in the Sikkim Himalayan region."
+                    },
+                    {
+                        "question": "What is Kabi Lungchok famous for?",
+                        "answer": "It is famous for the historic treaty of brotherhood between the Lepcha and Bhutia communities, symbolizing peace and unity in Sikkim."
+                    },
+                    {
+                        "question": "What is the best time to visit Kabi Lungchok?",
+                        "answer": "The best time is March to June and October to December, when the weather is pleasant and views are clear."
+                    },
+                    {
+                        "question": "What is the altitude of Kabi Lungchok?",
+                        "answer": "Kabi Lungchok is situated at an altitude of approximately 1,600 metres (5,249 feet)."
+                    },
+                    {
+                        "question": "How can I reach Kabi Lungchok?",
+                        "answer": "It can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport via local transport or private vehicle."
+                    },
+                    {
+                        "question": "Is a permit required to visit Kabi Lungchok?",
+                        "answer": "No. Indian nationals do not require a permit to visit Kabi Lungchok."
+                    },
+                    {
+                        "question": "Is Kabi Lungchok suitable for families?",
+                        "answer": "Yes. It is suitable for families, students, and cultural travellers."
+                    },
+                    {
+                        "question": "What are the top attractions near Kabi Lungchok?",
+                        "answer": "Nearby attractions include Gangtok, Tashi View Point, Phodong Monastery, Rumtek Monastery, Pakyong, and Assam Lingzey."
+                    }
+                ]
+            },
+            {
+                "name": "Silkroute Zero Point",
+                "slug": "silkroute-zero-point",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "4,700 m (15,420 ft)",
+                "bestTime": "March-June & October-December (weather dependent access)",
+                "famousFor": "Snow Landscapes, Zero Vegetation Zone, Indo-China Border Views, Extreme",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Flora includes pine, oak, bamboo, rhododendrons, orchids, ferns, and medicinal plants. Yakten reflects the traditional lifestyle of Lepcha, Bhutia, and Nepali communities. Agriculture, cardamom cultivation, and eco-tourism are the primary livelihoods. Life in Yakten is slow, peaceful,</p><h3>History, Geography & Climate</h3><p>Zeropoint lies at the final stretch of the historic Old Silk Route trade corridor, which once connected Tibet with Sikkim through high mountain passes. Due to its strategic location near the Indo-China border, the area is now under restricted access and monitored by the Indian Army.</p><h3>Culture & Local Life</h3><p>Yakten reflects the traditional lifestyle of Lepcha, Bhutia, and Nepali communities. Agriculture, cardamom cultivation, and eco-tourism are the primary livelihoods. Life in Yakten is slow, peaceful, Local festivals, traditional rituals, and village hospitality create a strong cultural identity. Visitors</p><h3>Why Visit Silkroute Zero Point</h3><p>Yakten offers a pure Himalayan escape with dense forests, peaceful village life, panoramic ridge views, and untouched natural surroundings. It is ideal for travellers seeking silence, eco-tourism, and</p>",
+                "attractions": [
+                    "Forest Ridge Walks",
+                    "Kanchenjunga View Points (weather dependent)",
+                    "Dense Pine & Bamboo Forests",
+                    "Birdwatching Zones",
+                    "Traditional Homestays",
+                    "Village Trails"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 4,700 m (15,420 ft)",
+                    "Key attraction: Forest Ridge Walks",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Homestay Stays"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~140 km) or Bagdogra Airport (~195 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~190 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Silkroute Zero Point & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "title": "Signature Silkroute Zero Point Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Silkroute Zero Point Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "name": "Silkroute Zero Point Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Yakten located?",
+                        "answer": "Yakten is an offbeat village in East Sikkim, located around 60 km from Gangtok in the Silk Route region."
+                    },
+                    {
+                        "question": "What is Yakten famous for?",
+                        "answer": "Yakten is famous for its forest stays, Himalayan ridge views, birdwatching, and peaceful offbeat village experience."
+                    },
+                    {
+                        "question": "What is the best time to visit Yakten?",
+                        "answer": "The best time is March to June and October to December, when weather is pleasant and visibility is good."
+                    },
+                    {
+                        "question": "What is the altitude of Yakten?",
+                        "answer": "Yakten is situated at an altitude of approximately 1,800 metres (5,905 feet)."
+                    },
+                    {
+                        "question": "How can I reach Yakten?",
+                        "answer": "Yakten can be reached by road from Gangtok, NJP Railway Station, or Bagdogra Airport via Rongli and Silk Route routes."
+                    },
+                    {
+                        "question": "Is a permit required to visit Yakten?",
+                        "answer": "No. Indian nationals do not require a permit."
+                    },
+                    {
+                        "question": "Is Yakten suitable for families?",
+                        "answer": "Yes, it is suitable for families, couples, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions in Yakten?",
+                        "answer": "Forest trails, ridge walks, village homestays, and Kanchenjunga viewpoints (weather dependent)."
+                    }
+                ]
+            },
+            {
+                "name": "Sumin",
+                "slug": "sumin",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "1,600 m (5,249 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Silence Zone, Forest Stay, Offbeat Tourism, Nature Retreat & Himalayan Village",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Zeropoint itself is not inhabited due to extreme conditions, but nearby villages such as Kupup, Gnathang, and Lungthung reflect traditional Tibetan-Bhutia culture. Prayer flags, stupas, and Buddhist cultural symbols are common in surrounding regions.</p><h3>History, Geography & Climate</h3><p>Sumin has traditionally been a small forest village inhabited by Lepcha, Bhutia, and Nepali communities. The region has remained largely untouched by urban development, preserving its Geographically, Sumin is surrounded by dense forests, steep hills, and narrow valleys. The climate is</p><h3>Culture & Local Life</h3><p>Zeropoint itself is not inhabited due to extreme conditions, but nearby villages such as Kupup, Gnathang, and Lungthung reflect traditional Tibetan-Bhutia culture. Prayer flags, stupas, and Buddhist cultural symbols are common in surrounding regions.</p><h3>Why Visit Sumin</h3><p>Zeropoint offers one of the most extreme and unforgettable Himalayan experiences in East Sikkim. With its snow-covered landscapes, high-altitude desert terrain, and proximity to the Indo-China</p>",
+                "attractions": [
+                    "Vast Snow Plains",
+                    "Indo-China Border Proximity Views",
+                    "High-Altitude Desert Landscape",
+                    "Frozen Streams & Ice Fields",
+                    "Yak Grazing Zones (seasonal nearby)",
+                    "Old Silk Route Extension Road"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,600 m (5,249 ft)",
+                    "Key attraction: Vast Snow Plains",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Extreme Altitude Travel"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Snow Experience"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Border Region Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "High Mountain Photography"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Expedition Tours"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Road Journey Adventure"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~55 km) or Bagdogra Airport (~110 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~105 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Sumin & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "title": "Signature Sumin Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sumin Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "name": "Sumin Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Zeropoint located?",
+                        "answer": "Zeropoint is located in East Sikkim, beyond Kupup and Gnathang Valley, near the Indo-China border region on the Old Silk Route."
+                    },
+                    {
+                        "question": "What is Zeropoint famous for?",
+                        "answer": "It is famous for its snow-covered landscapes, high-altitude desert terrain, extreme altitude experience, and border-region Himalayan views."
+                    },
+                    {
+                        "question": "What is the best time to visit Zeropoint?",
+                        "answer": "The best time is March to June and October to December, but access depends heavily on weather and road conditions."
+                    },
+                    {
+                        "question": "What is the altitude of Zeropoint?",
+                        "answer": "Zeropoint is situated at an altitude of approximately 4,700 metres (15,420 feet)."
+                    },
+                    {
+                        "question": "How can I reach Zeropoint?",
+                        "answer": "It can be reached by road from Gangtok via Zuluk-Gnathang-Kupup route with a registered vehicle and permitted tour arrangement."
+                    },
+                    {
+                        "question": "Is a permit required to visit Zeropoint?",
+                        "answer": "Yes. A Restricted Area Permit (RAP) is required for both Indian and foreign tourists as it lies near a sensitive border zone."
+                    },
+                    {
+                        "question": "Is Zeropoint suitable for families?",
+                        "answer": "It is suitable only for physically fit travellers due to extreme altitude and harsh weather conditions."
+                    },
+                    {
+                        "question": "What are the top attractions near Zeropoint?",
+                        "answer": "Nearby attractions include Kupup Lake, Gnathang Valley, Lungthung, Thambi View Point, Zuluk, and Old Silk Route routes."
+                    }
+                ]
+            },
+            {
+                "name": "Nathang Valley",
+                "slug": "nathang-valley",
+                "subRegion": "east",
+                "tagline": "Picturesque Mountain Destination in East Sikkim",
+                "altitude": "4,100 m (13,450 ft)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "Silk Route, High-Altitude Valley, Snowfall, Sunrise, Alpine Landscapes &",
+                "location": "Gangtok District, Sikkim",
+                "description": "<p>Zuluk is situated at an altitude of approximately 2,865 metres (9,400 feet) above sea level. Zuluk can be reached by road from Gangtok or Rongli via the historic Silk Route. Visitors usually hire a shared or private vehicle, and a valid permit is required.</p><h3>History, Geography & Climate</h3><p>Gnathang Valley historically served as an important resting point along the legendary Ancient Silk Route connecting India with Tibet. Merchants travelling with caravans of yaks and mules passed through the valley while transporting wool, silk, salt, and other valuable goods across the Eastern</p><h3>Why Visit Nathang Valley</h3><p>Visit Zuluk to experience the legendary Silk Route, the iconic Zig Zag Road, spectacular Himalayan sunrises, breathtaking mountain scenery, rich biodiversity, traditional village culture, and one of the</p>",
+                "attractions": [
+                    "Nathang Valley Viewpoint",
+                    "Nature Trails",
+                    "Local Village",
+                    "Surrounding Valleys"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 4,100 m (13,450 ft)",
+                    "Key attraction: Nathang Valley Viewpoint",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Panoramic Viewpoints"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Himalayan Nature Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Scenic Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Culture & Stays"
+                    },
+                    {
+                        "icon": "food",
+                        "label": "Traditional Sikkimese Food"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~65 km (via Zuluk/Silk Route)) or Bagdogra Airport (~170 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~165 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Nathang Valley & East Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 9999,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "title": "Signature Nathang Valley Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Nathang Valley Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "name": "Nathang Valley Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Gnathang Valley (Nathang) located?",
+                        "answer": "Gnathang Valley, popularly known as Nathang Valley, is located in East Sikkim along the historic Silk Route, approximately 65 km from Gangtok via Zuluk."
+                    },
+                    {
+                        "question": "What is Gnathang Valley famous for?",
+                        "answer": "Gnathang Valley is renowned for its high-altitude alpine landscapes, historic Silk Route, seasonal snowfall, spectacular sunrise and sunset views, Himalayan photography, and peaceful mountain village."
+                    },
+                    {
+                        "question": "What is the best time to visit Gnathang Valley?",
+                        "answer": "The best time to visit is April to June and October to November. Winter (December-February) is ideal for experiencing snowfall, subject to weather and road conditions."
+                    },
+                    {
+                        "question": "What is the altitude of Gnathang Valley?",
+                        "answer": "Gnathang Valley is situated at an altitude of approximately 4,100 metres (13,450 feet) above sea level."
+                    },
+                    {
+                        "question": "How can I reach Gnathang Valley?",
+                        "answer": "Gnathang Valley can be reached by road from Gangtok via Zuluk or from Rongli along the historic Silk Route. Visitors usually hire a shared or private vehicle, and a valid permit is required."
+                    },
+                    {
+                        "question": "Is a permit required to visit Gnathang Valley?",
+                        "answer": "Yes. Indian nationals require a Protected Area Permit (PAP) arranged through a registered travel agency or local tour operator. Foreign nationals are subject to additional regulations and should check the latest permit requirements before planning their visit."
+                    },
+                    {
+                        "question": "Is Gnathang Valley suitable for families?",
+                        "answer": "Yes. Gnathang Valley is suitable for families, couples, solo travellers, and nature lovers. Due to its high altitude, visitors should allow time to acclimatize and follow local travel advice."
+                    },
+                    {
+                        "question": "What are the top attractions near Gnathang Valley?",
+                        "answer": "Major nearby attractions include Zuluk, Thambi View Point, Lungthung View Point, Kupup Lake, Tukla Valley, Nathula Pass, Baba Harbhajan Singh Mandir, and Tsomgo (Changu) Lake."
+                    }
+                ]
+            },
+            {
+                "name": "Tukla Valley",
+                "slug": "tukla-valley",
+                "subRegion": "east",
+                "tagline": "Historic Battleground & High-Altitude Valley of the Silk Route | Kanchenjunga Vistas",
+                "altitude": "3,800 m (12,500 ft)",
+                "bestTime": "April-June & October-November",
+                "famousFor": "1904 Battle of Tukla War Memorial, Kanchenjunga Views, Alpine Meadows, Silk Route Trail",
+                "location": "East Sikkim",
+                "description": "<p>Tukla Valley is a magnificent high-altitude valley nestled in East Sikkim along the historic Old Silk Route at an elevation of approximately 3,800 metres (12,500 ft). Surrounded by towering snow-clad peaks, undulating alpine plateaus, and raw mountain wilderness, Tukla Valley is famous for its panoramic views of Mount Kanchenjunga and its deep historical resonance.</p><h3>History & The Tukla War Memorial</h3><p>Tukla Valley holds great historical significance as the site of the 1904 Battle of Tukla during the British Younghusband Expedition to Tibet. A stone war memorial stands in the valley commemorating the brave Tibetan soldiers who fought valiantly against the British artillery. Today, the memorial and the windswept valley stand as a testament to Himalayan frontier history.</p><h3>Geography, Climate & Snowscapes</h3><p>Situated between Zuluk, Gnathang Valley, and Kupup, Tukla experiences an alpine climate with extensive snow cover from December through April. In late spring and summer, the melting snow gives way to vibrant alpine blooms, primulas, and rhododendron shrubs, while autumn provides breathtaking crystal-clear skies overlooking the Kanchenjunga range.</p><h3>Why Visit Tukla Valley</h3><p>Tukla Valley offers visitors an awe-inspiring combination of untouched Himalayan natural grandeur, panoramic snow-peak photography, and compelling historical heritage along the legendary Silk Route circuit.</p>",
+                "attractions": [
+                    "Tukla War Memorial",
+                    "Kanchenjunga Panorama Point",
+                    "Alpine Snowfields",
+                    "Old Baba Mandir Nearby",
+                    "Kupup Lake Route"
+                ],
+                "image": "images/gallery (8).jpg",
+                "highlights": [
+                    "Historic 1904 Tukla War Memorial",
+                    "Elevated panoramic views of Mount Kanchenjunga",
+                    "Spectacular windswept alpine valley at 12,500 ft",
+                    "Key highlight on the historic Old Silk Route drive"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Kanchenjunga Panoramic Views"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Alpine Landscape Photography"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Tukla War Memorial Visit"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Silk Route Mountain Drive"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~65 km) or Bagdogra Airport (~165 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~155 km)",
+                    "byRoad": "Connected via Zuluk and Gnathang Valley along the Silk Route (permit required)"
+                },
+                "packages": [
+                    {
+                        "title": "High Altitude Silk Route Circuit (4N/5D)",
+                        "includes": "Stay + Transport + Permits + Meals",
+                        "price": 12999,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Tukla Valley Eco Lodge",
+                        "rating": 4.5,
+                        "reviews": 22,
+                        "type": "Alpine Homestay",
                         "price": 2000,
-                        "image": "images/gallery (15).jpg"
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Tukla Valley located?",
+                        "answer": "Tukla Valley is located in East Sikkim on the Old Silk Route between Gnathang Valley and Kupup Lake."
+                    },
+                    {
+                        "question": "What is the altitude of Tukla Valley?",
+                        "answer": "Tukla Valley sits at an altitude of approximately 3,800 metres (12,500 feet)."
+                    },
+                    {
+                        "question": "What is Tukla Valley famous for?",
+                        "answer": "It is famous for the 1904 British-Tibetan War Memorial, panoramic Kanchenjunga views, and vast alpine landscapes."
+                    },
+                    {
+                        "question": "Is a permit required?",
+                        "answer": "Yes, an Inner Line Permit (ILP) is required as Tukla Valley is located in a restricted border circuit."
+                    }
+                ]
+            },
+            {
+                "name": "Pelling",
+                "slug": "pelling",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "2,150 m (7,054 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Kanchenjunga Views, Pemayangtse Monastery, Skywalk, Rabdentse Ruins,",
+                "location": "Gyalshing (West Sikkim), Sikkim",
+                "description": "<p>approximately 2,150 metres (7,054 ft). Perched on a scenic ridge overlooking the majestic Mount Khangchendzonga (Kanchenjunga), Pelling is renowned for its breathtaking Himalayan panoramas, ancient Buddhist monasteries, historic ruins, sacred lakes, cascading waterfalls, adventure activities,</p><h3>History, Geography & Climate</h3><p>Historically, Pelling formed part of the ancient Kingdom of Sikkim and lies close to Rabdentse, the second capital of the former Namgyal Kingdom. The region has long been an important centre of Tibetan Buddhism, preserving centuries-old monasteries, sacred sites, and Himalayan traditions.</p><h3>Culture & Local Life</h3><p>Pelling is home to Bhutia, Lepcha, Nepali, Limboo, and Sherpa communities, whose traditions contribute to the region's rich cultural diversity. Buddhism plays a significant role in everyday life, reflected in colourful monasteries, prayer flags, chortens, and annual religious festivals.</p><h3>Why Visit Pelling</h3><p>Combining spectacular views of Mount Khangchendzonga, centuries-old Buddhist monasteries, royal heritage, sacred lakes, dramatic waterfalls, modern attractions like the Chenrezig Skywalk, rich</p>",
+                "attractions": [
+                    "Pemayangtse Monastery",
+                    "Rabdentse Ruins",
+                    "Chenrezig Statue & Glass Skywalk",
+                    "Sangachoeling Monastery",
+                    "Khecheopalri Lake",
+                    "Kanchenjunga Falls"
+                ],
+                "image": "images/gallery (7).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 2,150 m (7,054 ft)",
+                    "Key attraction: Pemayangtse Monastery",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Kanchenjunga Sunrise Viewing"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Tours"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Heritage Exploration"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Skywalk Experience"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Waterfall Visits"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~115 km) or Bagdogra Airport (~140 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~135 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Pelling & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "title": "Signature Pelling Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Pelling Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "name": "Pelling Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Pelling located?",
+                        "answer": "Pelling is located in the Gyalshing district (West Sikkim), about 115 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Pelling famous for?",
+                        "answer": "Pelling is famous for its magnificent Mount Khangchendzonga views, Pemayangtse Monastery, Rabdentse Ruins, Chenrezig Skywalk, waterfalls, and Buddhist heritage."
+                    },
+                    {
+                        "question": "What is the best time to visit Pelling?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the Himalayan views are at their clearest."
+                    },
+                    {
+                        "question": "What is the altitude of Pelling?",
+                        "answer": "Pelling is situated at an altitude of approximately 2,150 metres (7,054 feet)."
+                    },
+                    {
+                        "question": "How can I reach Pelling?",
+                        "answer": "Pelling can be reached by road from Gangtok, NJP, Siliguri, and Bagdogra. The nearest railway station is New Jalpaiguri (NJP), while the nearest airports are Pakyong Airport and Bagdogra Airport."
+                    },
+                    {
+                        "question": "Is a permit required to visit Pelling?",
+                        "answer": "No. Indian tourists do not require a permit to visit Pelling. Foreign nationals may require permits for certain nearby protected areas."
+                    },
+                    {
+                        "question": "Is Pelling suitable for families?",
+                        "answer": "Yes. Pelling is an excellent destination for families, couples, senior citizens, photographers, pilgrims, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions in Pelling?",
+                        "answer": "Major attractions include Pemayangtse Monastery, Rabdentse Ruins, Chenrezig Statue & Skywalk, Khecheopalri Lake, Kanchenjunga Falls, Rimbi Waterfalls, Singshore Bridge, Sangachoeling Monastery, Darap Village, and Sewaro Rock Garden."
                     }
                 ]
             },
@@ -3938,22 +13404,1371 @@ window.destinationsData = {
                 "name": "Yuksom",
                 "slug": "yuksom",
                 "subRegion": "west",
-                "tagline": "The First Capital of Sikkim",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
                 "altitude": "1,780 m (5,840 ft)",
-                "bestTime": "March–May & September–November",
-                "famousFor": "Historical Significance, Trekking Base, Monasteries",
-                "location": "West Sikkim",
-                "description": "<p>Yuksom is a historic and culturally rich village located in West Sikkim, often referred to as the 'Gateway to Kanchenjunga'. Situated at an altitude of 1,780 metres (5,840 ft), it was the first capital of the Kingdom of Sikkim and holds immense historical and spiritual significance for the Sikkimese people.</p><h3>Historical Significance</h3><p>Yuksom is where the first Chogyal (religious king) of Sikkim, Phuntsog Namgyal, was consecrated in 1642 by three revered lamas. The coronation site, known as the 'Throne of Norbugang', is preserved as a historical monument. The village is also home to the Dubdi Monastery, the oldest monastery in Sikkim, established in 1701.</p><h3>Trekking & Nature</h3><p>Beyond its history, Yuksom is famous as the primary base camp for some of the most challenging and spectacular treks in the Himalayas, including the Goechala Trek and the Dzongri Trek, which lead into the heart of the Kanchenjunga National Park.</p><h3>Detailed Insights</h3><p>Combining spectacular views of Mount Khangchendzonga, centuries -old Buddhist monasteries, royal</p><p>heritage, sacred lakes, dramatic waterfalls, modern attractions like the Chenrezig Skywalk, rich</p><p>biodiversity, and authentic Himalayan hospitality, Pelling stan ds as one of the finest destinations in</p><p>the Eastern Himalayas. Whether you are looking for family vacations, honeymoon escapes, cultural</p><p>exploration, adventure, photography, or spiritual experiences, Pelling offers a complete Himalayan</p><p>journey that beautif ully showcases the natural and cultural treasures of West Sikkim.</p>",
+                "bestTime": "March-June & October-December",
+                "famousFor": "First Capital of Sikkim, Coronation Throne, Dubdi Monastery, Khangchendzonga",
+                "location": "Gyalshing (West Sikkim), Sikkim",
+                "description": "<p>Himalayas. Surrounded by dense temperate forests, pristine rivers, sacred lakes, ancient monasteries, and breathtaking mountain landscapes, Yuksom serves as the principal gateway to Khangchendzonga National Park and the world-famous Goechala Trek.</p><h3>History, Geography & Climate</h3><p>Yuksom occupies a unique place in Sikkim's history as the birthplace of the former kingdom. In 1642, three revered Buddhist monks selected and crowned Phuntsog Namgyal as the first Chogyal of Sikkim at the sacred Norbugang Coronation Throne, which remains one of the state's most</p><h3>Culture & Local Life</h3><p>Yuksom is inhabited by Bhutia, Lepcha, Nepali, Limboo, and Sherpa communities, whose traditions have shaped the cultural identity of the region for centuries. Buddhism remains deeply rooted in daily life through monasteries, prayer flags, sacred festivals, and traditional ceremonies.</p><h3>Why Visit Yuksom</h3><p>Combining royal history, sacred Buddhist heritage, ancient monasteries, UNESCO-listed wilderness, world-class trekking routes, rich biodiversity, and breathtaking Himalayan landscapes, Yuksom</p>",
                 "attractions": [
+                    "Norbugang Coronation Throne",
                     "Dubdi Monastery",
-                    "Coronation Throne of Norbugang",
-                    "Khangchendzonga National Park"
+                    "Kathok Lake",
+                    "Coronation Pine Tree",
+                    "Khangchendzonga National Park",
+                    "Goechala Trek Base"
                 ],
                 "image": "images/gallery (8).jpg",
                 "highlights": [
-                    "First capital of Sikkim",
-                    "Trek base for Goecha La",
-                    "Historic coronation site"
+                    "Nestled at an elevation of 1,780 m (5,840 ft)",
+                    "Key attraction: Norbugang Coronation Throne",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Heritage Walks"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visits"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Wildlife Exploration"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~125 km) or Bagdogra Airport (~155 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~150 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Yuksom & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "title": "Signature Yuksom Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Yuksom Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (2).jpg"
+                    },
+                    {
+                        "name": "Yuksom Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (3).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Yuksom located?",
+                        "answer": "Yuksom is located in the Gyalshing district (West Sikkim), about 125 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Yuksom famous for?",
+                        "answer": "Yuksom is famous for being the First Capital of Sikkim, the Norbugang Coronation Throne, Dubdi Monastery, Khangchendzonga National Park, and the Goechala Trek."
+                    },
+                    {
+                        "question": "What is the best time to visit Yuksom?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and ideal for sightseeing and trekking."
+                    },
+                    {
+                        "question": "What is the altitude of Yuksom?",
+                        "answer": "Yuksom is situated at an altitude of approximately 1,780 metres (5,840 feet)."
+                    },
+                    {
+                        "question": "How can I reach Yuksom?",
+                        "answer": "Yuksom can be reached by road from Gangtok, Pelling, NJP, Siliguri, and Bagdogra. The nearest railway station is New Jalpaiguri (NJP), while the nearest airports are Pakyong Airport and Bagdogra Airport."
+                    },
+                    {
+                        "question": "Is a permit required to visit Yuksom?",
+                        "answer": "No. Indian tourists do not require a permit to visit Yuksom. However, permits are mandatory for trekking into Khangchendzonga National Park and other protected trekking routes."
+                    },
+                    {
+                        "question": "Is Yuksom suitable for families?",
+                        "answer": "Yes. Yuksom is an excellent destination for families, couples, trekkers, photographers, pilgrims, wildlife enthusiasts, and history lovers."
+                    },
+                    {
+                        "question": "What are the top attractions in Yuksom?",
+                        "answer": "Major attractions include Norbugang Coronation Throne, Dubdi Monastery, Kathok Lake, Khangchendzonga National Park, Goechala Trek, Kartok Monastery, and nearby Tashiding Monastery."
+                    }
+                ]
+            },
+            {
+                "name": "Geyzing (Gyalshing)",
+                "slug": "geyzing",
+                "subRegion": "west",
+                "tagline": "Cultural Heart of West Sikkim",
+                "altitude": "1,850 m (6,070 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "District Headquarters, Kanchenjunga Views, Monasteries, Heritage, Local",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Geyzing, officially known as Gyalshing, is the district headquarters of Gyalshing District (West Sikkim), situated at an altitude of approximately 1,850 metres (6,070 ft) in the Eastern Himalayas. Surrounded by lush forests, rolling hills, cardamom plantations, Buddhist monasteries, and</p><h3>History, Geography & Climate</h3><p>Geyzing has long served as one of the most important settlements in western Sikkim. After the formation of Gyalshing District, it became the district headquarters and administrative centre. The town developed around traditional trade routes connecting various Himalayan villages and</p><h3>Culture & Local Life</h3><p>The town is inhabited by Bhutia, Lepcha, Nepali, Limboo, and Sherpa communities, whose traditions shape its unique cultural identity. Buddhism plays an important role in daily life alongside Hindu traditions. Tourism, agriculture, horticulture, government services, and handicrafts form the</p><h3>Why Visit Geyzing (Gyalshing)</h3><p>Combining modern town facilities, Buddhist heritage, spectacular Kanchenjunga views, rich biodiversity, traditional Himalayan culture, and excellent connectivity to West Sikkim's major</p>",
+                "attractions": [
+                    "Geyzing Town",
+                    "Kanchenjunga Viewpoints",
+                    "Local Markets",
+                    "Nearby Pemayangtse Monastery",
+                    "Rabdentse Ruins",
+                    "Pelling"
+                ],
+                "image": "images/gallery (9).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,850 m (6,070 ft)",
+                    "Key attraction: Geyzing Town",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Local Market Exploration"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visits"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Drives"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~118 km) or Bagdogra Airport (~140 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~135 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Geyzing (Gyalshing) & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "title": "Signature Geyzing (Gyalshing) Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Geyzing (Gyalshing) Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (3).jpg"
+                    },
+                    {
+                        "name": "Geyzing (Gyalshing) Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (4).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Geyzing (Gyalshing) located?",
+                        "answer": "Geyzing (officially Gyalshing) is located in the Gyalshing district of West Sikkim, about 118 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Geyzing famous for?",
+                        "answer": "Geyzing is famous for being the district headquarters of West Sikkim, its Kanchenjunga views, Buddhist monasteries, local markets, and as the gateway to Pelling and Yuksom."
+                    },
+                    {
+                        "question": "What is the best time to visit Geyzing?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Geyzing?",
+                        "answer": "Geyzing is situated at an altitude of approximately 1,850 metres (6,070 feet)."
+                    },
+                    {
+                        "question": "How can I reach Geyzing?",
+                        "answer": "Geyzing can be reached by road from Gangtok, Pelling, NJP, Siliguri, and Bagdogra. The nearest railway station is New Jalpaiguri (NJP), while the nearest airports are Pakyong Airport and Bagdogra Airport."
+                    },
+                    {
+                        "question": "Is a permit required to visit Geyzing?",
+                        "answer": "No. Indian tourists do not require a permit to visit Geyzing."
+                    },
+                    {
+                        "question": "Is Geyzing suitable for families?",
+                        "answer": "Yes. Geyzing is an excellent destination for families, couples, photographers, pilgrims, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Geyzing?",
+                        "answer": "Major nearby attractions include Pelling, Pemayangtse Monastery, Rabdentse Ruins, Khecheopalri Lake, Yuksom, Singshore Bridge, Darap Village, and Kanchenjunga Falls."
+                    }
+                ]
+            },
+            {
+                "name": "Khecheopalri Lake",
+                "slug": "khecheopalri-lake",
+                "subRegion": "west",
+                "tagline": "The Wishing Lake of Sikkim",
+                "altitude": "1,700 m (5,577 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Sacred Lake, Buddhist Pilgrimage, Wish-Fulfilling Lake, Birdwatching, Nature &",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Khecheopalri Lake is one of the most sacred and picturesque lakes in West Sikkim, located in the Gyalshing district at an altitude of approximately 1,700 metres (5,577 ft). Surrounded by dense temperate forests, prayer flags, sacred monasteries, and tranquil Himalayan landscapes, the lake is</p><h3>History, Geography & Climate</h3><p>According to Buddhist and local folklore, Khecheopalri Lake is one of the holiest lakes in Sikkim and has long been associated with Guru Padmasambhava and Goddess Tara. Pilgrims from across the Himalayas visit the lake throughout the year to offer prayers and seek blessings.</p><h3>Culture & Local Life</h3><p>The surrounding villages are inhabited by Bhutia, Lepcha, and Nepali communities. Buddhism strongly influences local traditions, while annual religious festivals attract pilgrims from across Sikkim and neighbouring Himalayan regions. Community-based tourism, agriculture, and handicrafts</p><h3>Why Visit Khecheopalri Lake</h3><p>Combining sacred Buddhist heritage, crystal-clear waters, tranquil forests, rich biodiversity, peaceful mountain surroundings, and centuries-old spiritual traditions, Khecheopalri Lake remains one of the</p>",
+                "attractions": [
+                    "Khecheopalri Sacred Lake",
+                    "Prayer Jetty",
+                    "Prayer Flags",
+                    "Khecheopalri Monastery",
+                    "Forest Nature Trails",
+                    "Birdwatching Areas"
+                ],
+                "image": "images/gallery (10).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,700 m (5,577 ft)",
+                    "Key attraction: Khecheopalri Sacred Lake",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Pilgrimage"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Meditation"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Tourism"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~147 km) or Bagdogra Airport (~160 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~155 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Khecheopalri Lake & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "title": "Signature Khecheopalri Lake Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Khecheopalri Lake Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (4).jpg"
+                    },
+                    {
+                        "name": "Khecheopalri Lake Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (5).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Khecheopalri Lake located?",
+                        "answer": "Khecheopalri Lake is located in the Gyalshing district of West Sikkim, about 34 km from Pelling and 147 km from Gangtok."
+                    },
+                    {
+                        "question": "What is Khecheopalri Lake famous for?",
+                        "answer": "Khecheopalri Lake is famous for being Sikkim's sacred wish-fulfilling lake, its spiritual significance, crystal-clear waters, peaceful surroundings, and rich biodiversity."
+                    },
+                    {
+                        "question": "What is the best time to visit Khecheopalri Lake?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and ideal for sightseeing."
+                    },
+                    {
+                        "question": "What is the altitude of Khecheopalri Lake?",
+                        "answer": "The lake is situated at an altitude of approximately 1,700 metres (5,577 feet)."
+                    },
+                    {
+                        "question": "How can I reach Khecheopalri Lake?",
+                        "answer": "The lake can be reached by road from Pelling, Yuksom, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Khecheopalri Lake?",
+                        "answer": "No. Indian tourists do not require a permit to visit Khecheopalri Lake."
+                    },
+                    {
+                        "question": "Is Khecheopalri Lake suitable for families?",
+                        "answer": "Yes. It is an excellent destination for families, couples, pilgrims, photographers, birdwatchers, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions near Khecheopalri Lake?",
+                        "answer": "Nearby attractions include Pelling, Yuksom, Kanchenjunga Falls, Rimbi Waterfalls, Darap Village, Singshore Bridge, Dentam, and Khangchendzonga National Park."
+                    }
+                ]
+            },
+            {
+                "name": "Pemayangtse Monastery",
+                "slug": "pemayangtse-monastery",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "2,085 m (6,841 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Ancient Buddhist Monastery, Nyingma Tradition, Zangdok Palri, Buddhist Art &",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Yes. It is an excellent destination for families, couples, pilgrims, photographers, birdwatchers, and 8. What are the top attractions near Khecheopalri Lake? Nearby attractions include Pelling, Yuksom, Kanchenjunga Falls, Rimbi Waterfalls, Darap Village,</p><h3>History, Geography & Climate</h3><p>Established in the early eighteenth century, Pemayangtse Monastery became the spiritual centre of the Namgyal Kingdom and remains one of Sikkim's most sacred Buddhist institutions. It has played a vital role in preserving Buddhist philosophy, rituals, art, and monastic education for generations.</p><h3>Culture & Local Life</h3><p>Pemayangtse Monastery remains an active centre of Buddhist learning and spiritual practice. Monks perform daily prayers, meditation, and religious ceremonies throughout the year. Major Buddhist festivals such as Losar and Cham Mask Dance Festival attract pilgrims and visitors from across the</p><h3>Why Visit Pemayangtse Monastery</h3><p>Visit Khecheopalri Lake to experience one of Sikkim's holiest lakes, tranquil Himalayan landscapes, Buddhist spirituality, rich biodiversity, and one of the most serene destinations in the Eastern</p>",
+                "attractions": [
+                    "Pemayangtse Monastery",
+                    "Zangdok Palri Wooden Sculpture",
+                    "Prayer Hall",
+                    "Ancient Buddhist Murals",
+                    "Sacred Statues",
+                    "Kanchenjunga Viewpoints"
+                ],
+                "image": "images/gallery (11).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 2,085 m (6,841 ft)",
+                    "Key attraction: Pemayangtse Monastery",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visits"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Meditation"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Spiritual Tourism"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Buddhist Heritage Exploration"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~120 km) or Bagdogra Airport (~142 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~137 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Pemayangtse Monastery & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "title": "Signature Pemayangtse Monastery Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Pemayangtse Monastery Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (5).jpg"
+                    },
+                    {
+                        "name": "Pemayangtse Monastery Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (6).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Pemayangtse Monastery located?",
+                        "answer": "Pemayangtse Monastery is located near Pelling in the Gyalshing district of West Sikkim, about 2 km from Pelling."
+                    },
+                    {
+                        "question": "What is Pemayangtse Monastery famous for?",
+                        "answer": "Pemayangtse Monastery is famous for being one of Sikkim's oldest and most important Nyingma Buddhist monasteries, its magnificent Zangdok Palri wooden sculpture, ancient murals, and panoramic views of Mount Khangchendzonga."
+                    },
+                    {
+                        "question": "What is the best time to visit Pemayangtse Monastery?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the Himalayan views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Pemayangtse Monastery?",
+                        "answer": "The monastery is situated at an altitude of approximately 2,085 metres (6,841 feet)."
+                    },
+                    {
+                        "question": "How can I reach Pemayangtse Monastery?",
+                        "answer": "The monastery is easily accessible by road from Pelling, Gangtok, NJP, Siliguri, and Bagdogra. It is only a short drive or walk from Pelling town."
+                    },
+                    {
+                        "question": "Is a permit required to visit Pemayangtse Monastery?",
+                        "answer": "No. Indian tourists do not require a permit to visit the monastery."
+                    },
+                    {
+                        "question": "Is Pemayangtse Monastery suitable for families?",
+                        "answer": "Yes. The monastery is suitable for families, couples, pilgrims, photographers, history enthusiasts, and spiritual travellers."
+                    },
+                    {
+                        "question": "What are the top attractions near Pemayangtse Monastery?",
+                        "answer": "Nearby attractions include Rabdentse Ruins, Pelling, Khecheopalri Lake, Kanchenjunga Falls, Rimbi Waterfalls, Darap Village, Singshore Bridge, and Yuksom."
+                    }
+                ]
+            },
+            {
+                "name": "Rabdentse Ruins",
+                "slug": "rabdentse-ruins",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "2,100 m (6,890 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Ancient Capital of Sikkim, Royal Heritage, Archaeological Ruins, Kanchenjunga",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Monastery visits, meditation, spiritual tourism, photography, Buddhist heritage exploration, cultural interaction, peaceful nature walks, and Himalayan sightseeing. Pelling, Rabdentse Ruins, Khecheopalri Lake, Kanchenjunga Falls, Rimbi Waterfalls, Yuksom, Darap</p><h3>History, Geography & Climate</h3><p>Rabdentse became the capital of the Kingdom of Sikkim in the seventeenth century and remained the royal seat until repeated invasions by the Gurkhas led to its abandonment in the early nineteenth century. Today, the preserved palace foundations, stone walls, ceremonial platforms,</p><h3>Culture & Local Life</h3><p>Rabdentse represents the royal heritage of the Namgyal Dynasty and remains closely connected with the Buddhist traditions of nearby monasteries. Local communities continue to preserve the cultural legacy through festivals, handicrafts, folklore, and traditional Himalayan hospitality.</p><h3>Why Visit Rabdentse Ruins</h3><p>Combining centuries-old Buddhist heritage, magnificent Himalayan architecture, breathtaking Kanchenjunga views, priceless religious treasures, spiritual tranquillity, and rich cultural history,</p>",
+                "attractions": [
+                    "Pemayangtse Monastery",
+                    "Zangdok Palri Wooden Sculpture",
+                    "Prayer Hall",
+                    "Ancient Buddhist Murals",
+                    "Sacred Statues",
+                    "Kanchenjunga Viewpoints"
+                ],
+                "image": "images/gallery (12).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 2,100 m (6,890 ft)",
+                    "Key attraction: Pemayangtse Monastery",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "temple",
+                        "label": "Monastery Visits"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Meditation"
+                    },
+                    {
+                        "icon": "temple",
+                        "label": "Spiritual Tourism"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Buddhist Heritage Exploration"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~120 km) or Bagdogra Airport (~142 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~137 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Rabdentse Ruins & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "title": "Signature Rabdentse Ruins Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rabdentse Ruins Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (6).jpg"
+                    },
+                    {
+                        "name": "Rabdentse Ruins Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (7).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Pemayangtse Monastery located?",
+                        "answer": "Pemayangtse Monastery is located near Pelling in the Gyalshing district of West Sikkim, about 2 km from Pelling."
+                    },
+                    {
+                        "question": "What is Pemayangtse Monastery famous for?",
+                        "answer": "Pemayangtse Monastery is famous for being one of Sikkim's oldest and most important Nyingma Buddhist monasteries, its magnificent Zangdok Palri wooden sculpture, ancient murals, and panoramic views of Mount Khangchendzonga."
+                    },
+                    {
+                        "question": "What is the best time to visit Pemayangtse Monastery?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and the Himalayan views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Pemayangtse Monastery?",
+                        "answer": "The monastery is situated at an altitude of approximately 2,085 metres (6,841 feet)."
+                    },
+                    {
+                        "question": "How can I reach Pemayangtse Monastery?",
+                        "answer": "The monastery is easily accessible by road from Pelling, Gangtok, NJP, Siliguri, and Bagdogra. It is only a short drive or walk from Pelling town."
+                    },
+                    {
+                        "question": "Is a permit required to visit Pemayangtse Monastery?",
+                        "answer": "No. Indian tourists do not require a permit to visit the monastery."
+                    },
+                    {
+                        "question": "Is Pemayangtse Monastery suitable for families?",
+                        "answer": "Yes. The monastery is suitable for families, couples, pilgrims, photographers, history enthusiasts, and spiritual travellers."
+                    },
+                    {
+                        "question": "What are the top attractions near Pemayangtse Monastery?",
+                        "answer": "Nearby attractions include Rabdentse Ruins, Pelling, Khecheopalri Lake, Kanchenjunga Falls, Rimbi Waterfalls, Darap Village, Singshore Bridge, and Yuksom."
+                    }
+                ]
+            },
+            {
+                "name": "Kanchenjunga Falls",
+                "slug": "kanchenjunga-falls",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,800 m (5,905 ft)",
+                "bestTime": "October-May",
+                "famousFor": "High Waterfall, Himalayan Scenery, Photography, Nature & Adventure",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>The best time to visit is March to June and October to December, when the weather is pleasant and Rabdentse Ruins are situated at an altitude of approximately 2,100 metres (6,890 feet). Rabdentse Ruins can be reached by road from Pelling, Gangtok, NJP, Siliguri, and Bagdogra,</p><h3>History, Geography & Climate</h3><p>Kanchenjunga Falls is formed by glacier-fed streams descending from the upper Himalayan ranges surrounding Mount Khangchendzonga. Although known locally for generations, it gained popularity as a tourist destination after road access improved. Today, it remains one of the finest examples of</p><h3>Culture & Local Life</h3><p>Nearby villages are inhabited by Bhutia, Lepcha, and Nepali communities, who maintain traditional Himalayan lifestyles based on agriculture, tourism, and horticulture. Visitors often experience genuine mountain hospitality while exploring the surrounding region.</p><h3>Why Visit Kanchenjunga Falls</h3><p>Visit Rabdentse Ruins to discover the royal history of Sikkim, explore fascinating archaeological remains, walk through beautiful Himalayan forests, and enjoy panoramic views of Mount</p>",
+                "attractions": [
+                    "Kanchenjunga Falls",
+                    "Viewing Platforms",
+                    "Scenic Forest Roads",
+                    "Nature Photography Spots",
+                    "Adventure Activities",
+                    "Birdwatching Areas"
+                ],
+                "image": "images/gallery (13).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,800 m (5,905 ft)",
+                    "Key attraction: Kanchenjunga Falls",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Waterfall Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Short Nature Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Drives"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Adventure Activities"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~130 km) or Bagdogra Airport (~160 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~155 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Kanchenjunga Falls & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "title": "Signature Kanchenjunga Falls Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kanchenjunga Falls Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (7).jpg"
+                    },
+                    {
+                        "name": "Kanchenjunga Falls Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (8).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Kanchenjunga Falls located?",
+                        "answer": "Kanchenjunga Falls is located in the Gyalshing district of West Sikkim, about 28 km from Pelling."
+                    },
+                    {
+                        "question": "What is Kanchenjunga Falls famous for?",
+                        "answer": "Kanchenjunga Falls is famous for being one of the tallest and most spectacular waterfalls in Sikkim, fed by glacier streams from the Khangchendzonga range."
+                    },
+                    {
+                        "question": "What is the best time to visit Kanchenjunga Falls?",
+                        "answer": "The best time to visit is October to May, when the weather is pleasant and the waterfall is easily accessible."
+                    },
+                    {
+                        "question": "What is the altitude of Kanchenjunga Falls?",
+                        "answer": "The waterfall is situated at an altitude of approximately 1,800 metres (5,905 feet)."
+                    },
+                    {
+                        "question": "How can I reach Kanchenjunga Falls?",
+                        "answer": "Kanchenjunga Falls can be reached by road from Pelling, Yuksom, Geyzing, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Kanchenjunga Falls?",
+                        "answer": "No. Indian tourists do not require a permit to visit Kanchenjunga Falls."
+                    },
+                    {
+                        "question": "Is Kanchenjunga Falls suitable for families?",
+                        "answer": "Yes. It is an excellent destination for families, couples, photographers, nature lovers, and adventure enthusiasts."
+                    },
+                    {
+                        "question": "What are the top attractions near Kanchenjunga Falls?",
+                        "answer": "Nearby attractions include Rimbi Waterfalls, Pelling, Pemayangtse Monastery, Rabdentse Ruins, Khecheopalri Lake, Yuksom, and Darap Village."
+                    }
+                ]
+            },
+            {
+                "name": "Rinchenpong",
+                "slug": "rinchenpong",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,730 m (5,676 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Kanchenjunga Views, Monasteries, Heritage, Birdwatching & Village Tourism",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Waterfall sightseeing, photography, short nature walks, birdwatching, scenic drives, adventure activities, family outings, and peaceful relaxation amidst Himalayan forests. Pelling, Rimbi Waterfalls, Khecheopalri Lake, Yuksom, Darap Village, Pemayangtse Monastery,</p><h3>History, Geography & Climate</h3><p>Rinchenpong has long been an important cultural settlement in West Sikkim. The region is home to historic monasteries and heritage sites connected with Sikkim's Buddhist traditions and royal history. Its peaceful environment and scenic landscapes have made it a favourite destination for eco-tourism</p><h3>Culture & Local Life</h3><p>The town is inhabited by Bhutia, Lepcha, and Nepali communities, who preserve traditional customs, Buddhist festivals, handicrafts, and Himalayan hospitality. Agriculture, cardamom cultivation, horticulture, and tourism remain the primary livelihoods.</p><h3>Why Visit Rinchenpong</h3><p>Combining glacier-fed waters, dramatic Himalayan scenery, lush forests, rich biodiversity, peaceful surroundings, and easy accessibility, Kanchenjunga Falls offers one of the most refreshing and</p>",
+                "attractions": [
+                    "Kanchenjunga Falls",
+                    "Viewing Platforms",
+                    "Scenic Forest Roads",
+                    "Nature Photography Spots",
+                    "Adventure Activities",
+                    "Birdwatching Areas"
+                ],
+                "image": "images/rinchenpong.jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,730 m (5,676 ft)",
+                    "Key attraction: Kanchenjunga Falls",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Waterfall Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Short Nature Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Drives"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Adventure Activities"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~125 km) or Bagdogra Airport (~130 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~125 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Rinchenpong & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "title": "Signature Rinchenpong Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rinchenpong Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (8).jpg"
+                    },
+                    {
+                        "name": "Rinchenpong Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (9).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Rinchenpong located?",
+                        "answer": "Rinchenpong is located in the Gyalshing district of West Sikkim, about 40 km from Pelling."
+                    },
+                    {
+                        "question": "What is Rinchenpong famous for?",
+                        "answer": "Rinchenpong is famous for its panoramic views of Mount Khangchendzonga, historic monasteries, Poison Lake (Bikh Pokhri), birdwatching, and peaceful Himalayan village atmosphere."
+                    },
+                    {
+                        "question": "What is the best time to visit Rinchenpong?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Rinchenpong?",
+                        "answer": "Rinchenpong is situated at an altitude of approximately 1,730 metres (5,676 feet)."
+                    },
+                    {
+                        "question": "How can I reach Rinchenpong?",
+                        "answer": "Rinchenpong can be reached by road from Pelling, Gangtok, Geyzing, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Rinchenpong?",
+                        "answer": "No. Indian tourists do not require a permit to visit Rinchenpong."
+                    }
+                ]
+            },
+            {
+                "name": "Uttarey",
+                "slug": "uttarey",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "2,000 m (6,562 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Trekking, Singalila Ridge, Kangchenjunga National Park, Village Tourism,",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Kaluk, Hee Bermiok, Pelling, Dentam, Uttarey, Singshore Bridge, Khecheopalri Lake, Yuksom, and Combining magnificent Kanchenjunga views, peaceful Himalayan villages, historic monasteries, rich biodiversity, traditional Sikkimese culture, and serene natural beauty, Rinchenpong offers one of the</p><h3>History, Geography & Climate</h3><p>Historically, Uttarey served as an important mountain settlement connecting remote Himalayan villages with traditional trade and trekking routes. Over the years, it has become a preferred destination for eco-tourism and adventure travel while preserving its peaceful rural character.</p><h3>Culture & Local Life</h3><p>The village is inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve their traditional customs, festivals, handicrafts, and warm Himalayan hospitality. Agriculture, cardamom cultivation, livestock farming, tourism, and horticulture remain the primary occupations.</p><h3>Why Visit Uttarey</h3><p>Combining magnificent Kanchenjunga views, peaceful Himalayan villages, historic monasteries, rich biodiversity, traditional Sikkimese culture, and serene natural beauty, Rinchenpong offers one of the</p>",
+                "attractions": [
+                    "Uttarey Village",
+                    "Singalila Ridge Trek",
+                    "Kangchenjunga National Park",
+                    "Forest Nature Trails",
+                    "Himalayan Viewpoints",
+                    "Cardamom Plantations"
+                ],
+                "image": "images/gallery (14).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 2,000 m (6,562 ft)",
+                    "Key attraction: Uttarey Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Wildlife Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Camping"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~155 km) or Bagdogra Airport (~170 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~165 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Uttarey & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "title": "Signature Uttarey Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Uttarey Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (9).jpg"
+                    },
+                    {
+                        "name": "Uttarey Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (10).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Rinchenpong located?",
+                        "answer": "Rinchenpong is located in the Gyalshing district of West Sikkim, about 40 km from Pelling."
+                    },
+                    {
+                        "question": "What is Rinchenpong famous for?",
+                        "answer": "Rinchenpong is famous for its panoramic views of Mount Khangchendzonga, historic monasteries, Poison Lake (Bikh Pokhri), birdwatching, and peaceful Himalayan village atmosphere."
+                    },
+                    {
+                        "question": "What is the best time to visit Rinchenpong?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and mountain views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Rinchenpong?",
+                        "answer": "Rinchenpong is situated at an altitude of approximately 1,730 metres (5,676 feet)."
+                    },
+                    {
+                        "question": "How can I reach Rinchenpong?",
+                        "answer": "Rinchenpong can be reached by road from Pelling, Gangtok, Geyzing, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Rinchenpong?",
+                        "answer": "No. Indian tourists do not require a permit to visit Rinchenpong."
+                    },
+                    {
+                        "question": "Is Rinchenpong suitable for families?",
+                        "answer": "Yes. Rinchenpong is ideal for families, couples, photographers, birdwatchers, and travellers looking for a peaceful offbeat destination."
+                    },
+                    {
+                        "question": "What are the top attractions in Rinchenpong?",
+                        "answer": "Major attractions include Rinchenpong Monastery, Poison Lake (Bikh Pokhri), Kanchenjunga viewpoints, heritage sites, forest trails, and nearby Kaluk and Hee Bermiok."
+                    }
+                ]
+            },
+            {
+                "name": "Kuluk",
+                "slug": "kaluk",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,700 m (5,577 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Kangchenjunga Views, Sunrise, Monasteries, Birdwatching, Village Tourism &",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>The village is inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve their traditional customs, festivals, handicrafts, and warm Himalayan hospitality. Agriculture, cardamom cultivation, livestock farming, tourism, and horticulture remain the primary occupations.</p><h3>History, Geography & Climate</h3><p>Kaluk has traditionally been an agricultural settlement where cardamom cultivation and farming formed the backbone of the local economy. Over time, its extraordinary mountain views and tranquil environment transformed it into a popular eco-tourism destination while preserving its rural</p><h3>Culture & Local Life</h3><p>The village is inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve their traditional customs, festivals, handicrafts, and warm Himalayan hospitality. Agriculture, cardamom cultivation, livestock farming, tourism, and horticulture remain the primary occupations.</p><h3>Why Visit Kuluk</h3><p>Combining untouched Himalayan wilderness, spectacular Kangchenjunga views, rich biodiversity, peaceful mountain villages, adventurous trekking routes, and authentic Sikkimese culture, Uttarey</p>",
+                "attractions": [
+                    "Uttarey Village",
+                    "Singalila Ridge Trek",
+                    "Kangchenjunga National Park",
+                    "Forest Nature Trails",
+                    "Himalayan Viewpoints",
+                    "Cardamom Plantations"
+                ],
+                "image": "images/gallery (15).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,700 m (5,577 ft)",
+                    "Key attraction: Uttarey Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Wildlife Exploration"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Camping"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~120 km) or Bagdogra Airport (~130 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~125 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Kuluk & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "title": "Signature Kuluk Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kuluk Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (10).jpg"
+                    },
+                    {
+                        "name": "Kuluk Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (11).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Uttarey located?",
+                        "answer": "Uttarey is located in the Gyalshing district of West Sikkim, about 65 km from Pelling."
+                    },
+                    {
+                        "question": "What is Uttarey famous for?",
+                        "answer": "Uttarey is famous for being the gateway to Singalila Ridge and Kangchenjunga National Park, offering trekking, birdwatching, pristine forests, and authentic Himalayan village experiences."
+                    },
+                    {
+                        "question": "What is the best time to visit Uttarey?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and mountain views are clear."
+                    },
+                    {
+                        "question": "What is the altitude of Uttarey?",
+                        "answer": "Uttarey is situated at an altitude of approximately 2,000 metres (6,562 feet)."
+                    },
+                    {
+                        "question": "How can I reach Uttarey?",
+                        "answer": "Uttarey can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Uttarey?",
+                        "answer": "No permit is required to visit Uttarey village, but special permits are required for trekking routes inside Kangchenjunga National Park and protected areas."
+                    },
+                    {
+                        "question": "Is Uttarey suitable for families?",
+                        "answer": "Yes. Uttarey is suitable for families, couples, trekkers, photographers, birdwatchers, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions in Uttarey?",
+                        "answer": "Major attractions include Singalila Ridge, Kangchenjunga National Park, Chewabhanjyang, forest trails, Himalayan viewpoints, cardamom plantations, and traditional villages."
+                    }
+                ]
+            },
+            {
+                "name": "Hee Bermiok",
+                "slug": "hee-bermiok",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,600 m (5,249 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Organic Tourism, Kanchenjunga Views, Birdwatching, Village Life, Nature Trails",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>trails, Himalayan viewpoints, cardamom plantations, and traditional villages. Snowfall is rare in Uttarey village, but nearby higher-altitude trekking routes receive snowfall during Yes. Mobile connectivity is available, though signals may be limited in remote trekking areas. BSNL</p><h3>History, Geography & Climate</h3><p>Traditionally inhabited by Bhutia, Lepcha, and Nepali communities, Hee Bermiok has developed into one of Sikkim's leading organic tourism villages while preserving its cultural traditions and natural</p><h3>Culture & Local Life</h3><p>The village is home to Bhutia, Lepcha, Nepali, and Limboo communities, who continue to preserve traditional festivals, folk music, handicrafts, Buddhist customs, and warm Himalayan hospitality. Organic farming, tourism, horticulture, and livestock rearing remain important occupations.</p><h3>Why Visit Hee Bermiok</h3><p>Visit Uttarey to experience untouched Himalayan wilderness, spectacular Kangchenjunga views, rich biodiversity, world-class trekking routes, and peaceful village life.</p>",
+                "attractions": [
+                    "Hee Village",
+                    "Bermiok Village",
+                    "Hee Suspension Bridge",
+                    "Organic Farms",
+                    "Cardamom Plantations",
+                    "Kanchenjunga Viewpoints"
+                ],
+                "image": "images/gallery (16).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,600 m (5,249 ft)",
+                    "Key attraction: Hee Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Visits"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~125 km) or Bagdogra Airport (~140 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~135 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Hee Bermiok & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "title": "Signature Hee Bermiok Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Hee Bermiok Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (11).jpg"
+                    },
+                    {
+                        "name": "Hee Bermiok Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (12).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Kaluk located?",
+                        "answer": "Kaluk is located in the Gyalshing district of West Sikkim, about 35 km from Pelling."
+                    },
+                    {
+                        "question": "What is Kaluk famous for?",
+                        "answer": "Kaluk is famous for its panoramic Kangchenjunga views, peaceful village atmosphere, sunrise viewpoints, monasteries, birdwatching, and eco-tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Kaluk?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and mountain views are spectacular."
+                    },
+                    {
+                        "question": "What is the altitude of Kaluk?",
+                        "answer": "Kaluk is situated at an altitude of approximately 1,700 metres (5,577 feet)."
+                    },
+                    {
+                        "question": "How can I reach Kaluk?",
+                        "answer": "Kaluk can be reached by road from Pelling, Rinchenpong, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Kaluk?",
+                        "answer": "No. Indian tourists do not require a permit to visit Kaluk."
+                    },
+                    {
+                        "question": "Is Kaluk suitable for families?",
+                        "answer": "Yes. Kaluk is ideal for families, honeymoon couples, photographers, birdwatchers, and travellers seeking a peaceful Himalayan retreat."
+                    },
+                    {
+                        "question": "What are the top attractions in Kaluk?",
+                        "answer": "Major attractions include Kangchenjunga viewpoints, Rinchenpong Monastery, forest trails, cardamom plantations, traditional villages, and nearby Hee Bermiok and Pelling."
+                    }
+                ]
+            },
+            {
+                "name": "Dentam",
+                "slug": "dentam",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,550 m (5,085 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Cardamom Plantations, Village Tourism, Kanchenjunga Views, Organic Farming",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>The village is home to Bhutia, Lepcha, Nepali, and Limboo communities, who continue to preserve traditional festivals, folk music, handicrafts, Buddhist customs, and warm Himalayan hospitality. Organic farming, tourism, horticulture, and livestock rearing remain important occupations.</p><h3>History, Geography & Climate</h3><p>Dentam has traditionally been an agricultural settlement where cardamom cultivation, farming, and</p><h3>Culture & Local Life</h3><p>The village is home to Bhutia, Lepcha, Nepali, and Limboo communities, who continue to preserve traditional festivals, folk music, handicrafts, Buddhist customs, and warm Himalayan hospitality. Organic farming, tourism, horticulture, and livestock rearing remain important occupations.</p><h3>Why Visit Dentam</h3><p>Combining organic village tourism, magnificent Kangchenjunga views, rich biodiversity, traditional Himalayan culture, peaceful rural landscapes, and sustainable eco-tourism, Hee Bermiok offers one</p>",
+                "attractions": [
+                    "Hee Village",
+                    "Bermiok Village",
+                    "Hee Suspension Bridge",
+                    "Organic Farms",
+                    "Cardamom Plantations",
+                    "Kanchenjunga Viewpoints"
+                ],
+                "image": "images/gallery (17).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,550 m (5,085 ft)",
+                    "Key attraction: Hee Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Visits"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~135 km) or Bagdogra Airport (~150 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~145 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Dentam & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "title": "Signature Dentam Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Dentam Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (12).jpg"
+                    },
+                    {
+                        "name": "Dentam Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (13).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Hee Bermiok located?",
+                        "answer": "Hee Bermiok is located in the Gyalshing district of West Sikkim, about 20 km from Pelling."
+                    },
+                    {
+                        "question": "What is Hee Bermiok famous for?",
+                        "answer": "Hee Bermiok is famous for its organic farming, Hee Suspension Bridge, Kanchenjunga views, birdwatching, nature trails, and peaceful Himalayan village life."
+                    },
+                    {
+                        "question": "What is the best time to visit Hee Bermiok?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and mountain views are clear."
+                    },
+                    {
+                        "question": "What is the altitude of Hee Bermiok?",
+                        "answer": "Hee Bermiok is situated at an altitude of approximately 1,600 metres (5,249 feet)."
+                    },
+                    {
+                        "question": "How can I reach Hee Bermiok?",
+                        "answer": "Hee Bermiok can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Hee Bermiok?",
+                        "answer": "No. Indian tourists do not require a permit to visit Hee Bermiok."
+                    },
+                    {
+                        "question": "Is Hee Bermiok suitable for families?",
+                        "answer": "Yes. It is an excellent destination for families, couples, photographers, birdwatchers, and eco- tourism enthusiasts."
+                    },
+                    {
+                        "question": "What are the top attractions in Hee Bermiok?",
+                        "answer": "Major attractions include Hee Suspension Bridge, organic farms, cardamom plantations, Kanchenjunga viewpoints, nature trails, and nearby Kaluk and Dentam."
+                    }
+                ]
+            },
+            {
+                "name": "Okhrey",
+                "slug": "okhrey",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "2,100 m (6,890 ft)",
+                "bestTime": "March-May & October-December",
+                "famousFor": "Varsey Rhododendron Sanctuary, Trekking, Birdwatching, Kanchenjunga Views",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Hee Bermiok is situated at an altitude of approximately 1,600 metres (5,249 feet). Hee Bermiok can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra. No. Indian tourists do not require a permit to visit Hee Bermiok.</p><h3>History, Geography & Climate</h3><p>Traditionally inhabited by Bhutia, Lepcha, and Nepali communities, Okhrey developed as a quiet</p><h3>Culture & Local Life</h3><p>The village is inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve traditional customs, Buddhist culture, folk festivals, handicrafts, and warm Himalayan hospitality. Agriculture, tourism, cardamom cultivation, and livestock farming remain the primary occupations.</p><h3>Why Visit Okhrey</h3><p>Visit Hee Bermiok to experience organic village tourism, spectacular Kanchenjunga views, rich biodiversity, scenic suspension bridges, and authentic Himalayan hospitality.</p>",
+                "attractions": [
+                    "Okhrey Village",
+                    "Varsey Rhododendron Sanctuary",
+                    "Rhododendron Forest Trails",
+                    "Kanchenjunga Viewpoints",
+                    "Birdwatching Areas",
+                    "Alpine Meadows"
+                ],
+                "image": "images/gallery (18).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 2,100 m (6,890 ft)",
+                    "Key attraction: Okhrey Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
                 ],
                 "thingsToDo": [
                     {
@@ -3961,75 +14776,1461 @@ window.destinationsData = {
                         "label": "Trekking"
                     },
                     {
-                        "icon": "temple",
-                        "label": "Monastery Visit"
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
                     },
                     {
                         "icon": "camera",
-                        "label": "Photography"
-                    },
-                    {
-                        "icon": "village",
-                        "label": "Heritage Walk"
-                    }
-                ],
-                "howToReach": {
-                    "byAir": "Pakyong Airport (148 km)",
-                    "byTrain": "New Jalpaiguri (165 km)",
-                    "byRoad": "Via Pelling, 34 km from Pelling"
-                }
-            },
-            {
-                "name": "Rinchenpong",
-                "slug": "rinchenpong",
-                "subRegion": "west",
-                "tagline": "Serene Mountain Village",
-                "altitude": "1,700 m (5,576 ft)",
-                "bestTime": "September–May",
-                "famousFor": "Kanchenjunga Views, Heritage, Tranquility",
-                "location": "West Sikkim",
-                "description": "<p>Rinchenpong is a serene, offbeat village in West Sikkim, situated at an altitude of 1,700 metres (5,576 ft). Known for its unhurried pace, stunning views of the Kanchenjunga range, and historical significance, Rinchenpong offers a perfect retreat for those seeking solitude and a deep connection with nature.</p><h3>History & Heritage</h3><p>Rinchenpong holds historical importance as the site of a battle between the British and local Sikkimese forces in 1860. The village is home to the Rinchenpong Monastery, established in 1730, which houses a rare 'Ati Buddha' statue. Nearby lies the Poison Lake (Bikh-Pokhri), where locals famously poisoned the water supply to halt the advancing British troops.</p><h3>Nature & Lifestyle</h3><p>The village is surrounded by dense forests, making it an excellent spot for leisurely nature walks and birdwatching. Traditional wooden houses, organic farming, and the warm hospitality of the local communities define the authentic rural Sikkimese lifestyle experienced here.</p><h3>Detailed Insights</h3><p>Rinchenpong is a charming Himalayan town located in the Gyalshing district of West Sikkim  at an</p><p>altitude of approximately 1,730 metres (5,676 ft) . Surrounded by dense forests, cardamom</p><p>Khangchendzonga (Kanchenjunga) , Rinchenpong is one of West Sikkim's finest offbeat destinations.</p><p>Known for its rich cultural heritage, tranquil atmosphere, and breathtaking landscapes, the town</p><p>Historically associated with the former Kingdom of Sikkim, Rinchenpong preserves centuries -old</p><p>Buddhist traditions, sacred monasteries, and important heritage sites. Today, it attracts travellers</p><p>seeking peace, photography, birdwatching, village tourism, a nd nature -based experiences. The town</p><p>also serves as an excellent base for exploring nearby destinations including Kaluk, Hee Bermiok,</p>",
-                "attractions": [
-                    "Rinchenpong Monastery",
-                    "Poison Lake (Bikh Pokhri)",
-                    "Heritage Houses"
-                ],
-                "image": "images/rinchenpong.jpg",
-                "highlights": [
-                    "Spectacular Kanchenjunga views",
-                    "Historic monastery",
-                    "Peaceful village atmosphere"
-                ],
-                "thingsToDo": [
-                    {
-                        "icon": "temple",
-                        "label": "Monastery Visit"
+                        "label": "Nature Photography"
                     },
                     {
                         "icon": "binoculars",
-                        "label": "View Points"
+                        "label": "Rhododendron Viewing"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Camping"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~145 km) or Bagdogra Airport (~160 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~155 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Okhrey & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "title": "Signature Okhrey Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Okhrey Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (13).jpg"
+                    },
+                    {
+                        "name": "Okhrey Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (14).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Dentam located?",
+                        "answer": "Dentam is located in the Gyalshing district of West Sikkim, about 28 km from Pelling."
+                    },
+                    {
+                        "question": "What is Dentam famous for?",
+                        "answer": "Dentam is famous for its cardamom plantations, organic farming, scenic valleys, Kanchenjunga views, and peaceful Himalayan village atmosphere."
+                    },
+                    {
+                        "question": "What is the best time to visit Dentam?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and mountain views are spectacular."
+                    },
+                    {
+                        "question": "What is the altitude of Dentam?",
+                        "answer": "Dentam is situated at an altitude of approximately 1,550 metres (5,085 feet)."
+                    },
+                    {
+                        "question": "How can I reach Dentam?",
+                        "answer": "Dentam can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Dentam?",
+                        "answer": "No. Indian tourists do not require a permit to visit Dentam."
+                    },
+                    {
+                        "question": "Is Dentam suitable for families?",
+                        "answer": "Yes. Dentam is suitable for families, couples, photographers, birdwatchers, and travellers seeking a peaceful offbeat destination."
+                    },
+                    {
+                        "question": "What are the top attractions in Dentam?",
+                        "answer": "Major attractions include cardamom plantations, scenic valleys, Kanchenjunga viewpoints, forest trails, nearby Singshore Bridge, Hee Bermiok, and Uttarey."
+                    }
+                ]
+            },
+            {
+                "name": "Darap",
+                "slug": "darap",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,600 m (5,249 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Limboo Heritage, Village Tourism, Organic Farming, Homestays, Kanchenjunga",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>The village is inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve traditional customs, Buddhist culture, folk festivals, handicrafts, and warm Himalayan hospitality. Agriculture, tourism, cardamom cultivation, and livestock farming remain the primary occupations.</p><h3>History, Geography & Climate</h3><p>Darap has long been home to the indigenous Limboo community, who have preserved their traditions, language, customs, and agricultural practices for generations. The village has become one of Sikkim's leading examples of community-based rural tourism while maintaining its cultural</p><h3>Culture & Local Life</h3><p>The village is inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve traditional customs, Buddhist culture, folk festivals, handicrafts, and warm Himalayan hospitality. Agriculture, tourism, cardamom cultivation, and livestock farming remain the primary occupations.</p><h3>Why Visit Darap</h3><p>Combining colourful rhododendron forests, spectacular Kangchenjunga views, rich Himalayan biodiversity, peaceful mountain villages, scenic trekking trails, and authentic eco-tourism</p>",
+                "attractions": [
+                    "Okhrey Village",
+                    "Varsey Rhododendron Sanctuary",
+                    "Rhododendron Forest Trails",
+                    "Kanchenjunga Viewpoints",
+                    "Birdwatching Areas",
+                    "Alpine Meadows"
+                ],
+                "image": "images/gallery (19).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,600 m (5,249 ft)",
+                    "Key attraction: Okhrey Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Trekking"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Nature Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Rhododendron Viewing"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Camping"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~125 km) or Bagdogra Airport (~140 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~135 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Darap & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "title": "Signature Darap Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Darap Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (14).jpg"
+                    },
+                    {
+                        "name": "Darap Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (15).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Okhrey located?",
+                        "answer": "Okhrey is located in the Gyalshing district of West Sikkim, about 65 km from Pelling."
+                    },
+                    {
+                        "question": "What is Okhrey famous for?",
+                        "answer": "Okhrey is famous for being the gateway to Varsey Rhododendron Sanctuary, offering rhododendron forests, trekking trails, birdwatching, and spectacular Kangchenjunga views."
+                    },
+                    {
+                        "question": "What is the best time to visit Okhrey?",
+                        "answer": "The best time to visit is March to May for blooming rhododendrons and October to December for clear Himalayan views."
+                    },
+                    {
+                        "question": "What is the altitude of Okhrey?",
+                        "answer": "Okhrey is situated at an altitude of approximately 2,100 metres (6,890 feet)."
+                    },
+                    {
+                        "question": "How can I reach Okhrey?",
+                        "answer": "Okhrey can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Okhrey?",
+                        "answer": "No. Indian tourists do not require a permit to visit Okhrey, though certain trekking routes inside protected areas may require permission."
+                    },
+                    {
+                        "question": "Is Okhrey suitable for families?",
+                        "answer": "Yes. Okhrey is suitable for families, couples, trekkers, photographers, birdwatchers, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions in Okhrey?",
+                        "answer": "Major attractions include Varsey Rhododendron Sanctuary, Hilley, Kanchenjunga viewpoints, alpine forest trails, birdwatching areas, and traditional Himalayan villages."
+                    }
+                ]
+            },
+            {
+                "name": "Singshore Bridge",
+                "slug": "singshore-bridge",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,800 m (5,905 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "India's Highest Suspension Bridge, Deep Gorge, Scenic Landscapes,",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Okhrey is located in the Gyalshing district of West Sikkim, about 65 km from Pelling. Okhrey is famous for being the gateway to Varsey Rhododendron Sanctuary, offering rhododendron forests, trekking trails, birdwatching, and spectacular Kangchenjunga views.</p><h3>History, Geography & Climate</h3><p>Constructed to improve connectivity between remote villages of West Sikkim, Singshore Bridge has become both an important transportation route and one of the state's most photographed attractions. Built across a deep Himalayan gorge, the bridge showcases modern engineering while</p><h3>Culture & Local Life</h3><p>The surrounding villages are inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve traditional Himalayan customs, agriculture, handicrafts, and warm local hospitality. Tourism, farming, and cardamom cultivation remain important sources of livelihood.</p><h3>Why Visit Singshore Bridge</h3><p>Visit Okhrey to experience colourful rhododendron forests, breathtaking Himalayan scenery, rich biodiversity, peaceful trekking trails, and authentic village life.</p>",
+                "attractions": [
+                    "Singshore Suspension Bridge",
+                    "Singshore Gorge",
+                    "Himalayan Viewpoints",
+                    "Forest Nature Trails",
+                    "Waterfalls",
+                    "Scenic Mountain Roads"
+                ],
+                "image": "images/gallery (20).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,800 m (5,905 ft)",
+                    "Key attraction: Singshore Suspension Bridge",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Bridge Walking"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Drives"
                     },
                     {
                         "icon": "camera",
                         "label": "Photography"
                     },
                     {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Nature Exploration"
+                    },
+                    {
                         "icon": "village",
-                        "label": "Village Tour"
+                        "label": "Village Tourism"
                     }
                 ],
                 "howToReach": {
-                    "byAir": "Pakyong Airport (115 km)",
-                    "byTrain": "New Jalpaiguri (140 km)",
-                    "byRoad": "Via Jorethang, 25 km from Pelling"
-                }
+                    "byAir": "Pakyong Airport (~140 km) or Bagdogra Airport (~155 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~150 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Singshore Bridge & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "title": "Signature Singshore Bridge Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Singshore Bridge Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (15).jpg"
+                    },
+                    {
+                        "name": "Singshore Bridge Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (16).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Okhrey located?",
+                        "answer": "Okhrey is located in the Gyalshing district of West Sikkim, about 65 km from Pelling."
+                    },
+                    {
+                        "question": "What is Okhrey famous for?",
+                        "answer": "Okhrey is famous for being the gateway to Varsey Rhododendron Sanctuary, offering rhododendron forests, trekking trails, birdwatching, and spectacular Kangchenjunga views."
+                    },
+                    {
+                        "question": "What is the best time to visit Okhrey?",
+                        "answer": "The best time to visit is March to May for blooming rhododendrons and October to December for clear Himalayan views."
+                    },
+                    {
+                        "question": "What is the altitude of Okhrey?",
+                        "answer": "Okhrey is situated at an altitude of approximately 2,100 metres (6,890 feet)."
+                    },
+                    {
+                        "question": "How can I reach Okhrey?",
+                        "answer": "Okhrey can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Okhrey?",
+                        "answer": "No. Indian tourists do not require a permit to visit Okhrey, though certain trekking routes inside protected areas may require permission."
+                    },
+                    {
+                        "question": "Is Okhrey suitable for families?",
+                        "answer": "Yes. Okhrey is suitable for families, couples, trekkers, photographers, birdwatchers, and nature lovers."
+                    },
+                    {
+                        "question": "What are the top attractions in Okhrey?",
+                        "answer": "Major attractions include Varsey Rhododendron Sanctuary, Hilley, Kanchenjunga viewpoints, alpine forest trails, birdwatching areas, and traditional Himalayan villages."
+                    }
+                ]
+            },
+            {
+                "name": "Rimbi",
+                "slug": "rimbi",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,350 m (4,429 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Rimbi Waterfalls, Riverside Beauty, Nature Photography, Village Tourism &",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>The suspension bridge itself provides spectacular panoramic views of the deep gorge, surrounding forests, waterfalls, and distant Himalayan mountain ranges. The valley below the bridge is covered with dense temperate forests, mountain streams, and rich</p><h3>History, Geography & Climate</h3><p>The Rimbi Valley has long served as an agricultural settlement where farming, fishing, and</p><h3>Culture & Local Life</h3><p>The surrounding villages are inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who preserve traditional Himalayan customs, agriculture, handicrafts, and warm local hospitality. Tourism, farming, and cardamom cultivation remain important sources of livelihood.</p><h3>Why Visit Rimbi</h3><p>Combining remarkable Himalayan engineering, breathtaking gorge views, rich biodiversity, peaceful mountain landscapes, and easy accessibility, Singshore Bridge offers one of the most unforgettable</p>",
+                "attractions": [
+                    "Singshore Suspension Bridge",
+                    "Singshore Gorge",
+                    "Himalayan Viewpoints",
+                    "Forest Nature Trails",
+                    "Waterfalls",
+                    "Scenic Mountain Roads"
+                ],
+                "image": "images/gallery (21).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,350 m (4,429 ft)",
+                    "Key attraction: Singshore Suspension Bridge",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Bridge Walking"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Drives"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Nature Exploration"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~125 km) or Bagdogra Airport (~150 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~145 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Rimbi & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "title": "Signature Rimbi Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Rimbi Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (16).jpg"
+                    },
+                    {
+                        "name": "Rimbi Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (17).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Singshore Bridge located?",
+                        "answer": "Singshore Bridge is located in the Gyalshing district of West Sikkim, between Dentam and Uttarey, about 32 km from Pelling."
+                    },
+                    {
+                        "question": "What is Singshore Bridge famous for?",
+                        "answer": "Singshore Bridge is famous for being one of the highest suspension bridges in India, offering breathtaking views of deep Himalayan gorges, forests, waterfalls, and surrounding mountains."
+                    },
+                    {
+                        "question": "What is the best time to visit Singshore Bridge?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and visibility is excellent."
+                    }
+                ]
+            },
+            {
+                "name": "Sewaro Rock Garden",
+                "slug": "sewaro-rock-garden",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,450 m (4,757 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Landscaped Rock Garden, Waterfalls, Riverside Beauty, Picnic Spot & Nature",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Waterfall sightseeing, riverside relaxation, photography, birdwatching, village tourism, forest walks, scenic drives, picnics, and peaceful nature experiences. Pelling, Kanchenjunga Falls, Darap, Yuksom, Khecheopalri Lake, Pemayangtse Monastery, Rabdentse</p><h3>History, Geography & Climate</h3><p>Developed as an eco-tourism and recreational destination, Sewaro Rock Garden showcases the natural beauty of the Himalayan foothills while protecting the surrounding ecosystem. The landscaped gardens, stone structures, and flowing streams blend harmoniously with the region's</p><h3>Culture & Local Life</h3><p>The surrounding villages are inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who continue to preserve their traditional customs, agriculture, handicrafts, and warm Himalayan hospitality. Tourism, farming, and horticulture contribute significantly to the local economy.</p><h3>Why Visit Sewaro Rock Garden</h3><p>Combining crystal-clear rivers, beautiful waterfalls, peaceful Himalayan landscapes, rich biodiversity, authentic village life, and easy accessibility, Rimbi offers one of the most refreshing and scenic</p>",
+                "attractions": [
+                    "Sewaro Rock Garden",
+                    "Natural Waterfalls",
+                    "Riverside Picnic Areas",
+                    "Landscaped Flower Gardens",
+                    "Stone Pathways",
+                    "Wooden Bridges"
+                ],
+                "image": "images/gallery (22).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,450 m (4,757 ft)",
+                    "Key attraction: Sewaro Rock Garden",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "binoculars",
+                        "label": "Waterfall Sightseeing"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Riverside Relaxation"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~125 km) or Bagdogra Airport (~150 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~145 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Sewaro Rock Garden & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "title": "Signature Sewaro Rock Garden Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sewaro Rock Garden Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (17).jpg"
+                    },
+                    {
+                        "name": "Sewaro Rock Garden Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (18).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Singshore Bridge located?",
+                        "answer": "Singshore Bridge is located in the Gyalshing district of West Sikkim, between Dentam and Uttarey, about 32 km from Pelling."
+                    },
+                    {
+                        "question": "What is Singshore Bridge famous for?",
+                        "answer": "Singshore Bridge is famous for being one of the highest suspension bridges in India, offering breathtaking views of deep Himalayan gorges, forests, waterfalls, and surrounding mountains."
+                    },
+                    {
+                        "question": "What is the best time to visit Singshore Bridge?",
+                        "answer": "The best time to visit is March to June and October to December, when the weather is pleasant and visibility is excellent."
+                    },
+                    {
+                        "question": "What is the altitude of Singshore Bridge?",
+                        "answer": "Singshore Bridge is situated at an altitude of approximately 1,800 metres (5,905 feet)."
+                    },
+                    {
+                        "question": "How can I reach Singshore Bridge?",
+                        "answer": "Singshore Bridge can be reached by road from Pelling, Dentam, Uttarey, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Singshore Bridge?",
+                        "answer": "No. Indian tourists do not require a permit to visit Singshore Bridge."
+                    },
+                    {
+                        "question": "Is Singshore Bridge suitable for families?",
+                        "answer": "Yes. It is suitable for families, couples, photographers, nature lovers, and road-trip enthusiasts."
+                    },
+                    {
+                        "question": "What are the top attractions near Singshore Bridge?",
+                        "answer": "Nearby attractions include Dentam, Uttarey, Hee Bermiok, Kaluk, Rinchenpong, Pelling, and Khecheopalri Lake."
+                    }
+                ]
+            },
+            {
+                "name": "Sombaria",
+                "slug": "sombaria",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,300 m (4,265 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Scenic Valleys, Village Tourism, Cardamom Plantations, River Landscapes &",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Developed as an eco-tourism and recreational destination, Sewaro Rock Garden showcases the natural beauty of the Himalayan foothills while protecting the surrounding ecosystem. The landscaped gardens, stone structures, and flowing streams blend harmoniously with the region's</p><h3>History, Geography & Climate</h3><p>Developed as an eco-tourism and recreational destination, Sewaro Rock Garden showcases the natural beauty of the Himalayan foothills while protecting the surrounding ecosystem. The landscaped gardens, stone structures, and flowing streams blend harmoniously with the region's</p><h3>Culture & Local Life</h3><p>The surrounding villages are inhabited by Bhutia, Lepcha, Nepali, and Limboo communities, who continue to preserve their traditional customs, agriculture, handicrafts, and warm Himalayan hospitality. Tourism, farming, and horticulture contribute significantly to the local economy.</p><h3>Why Visit Sombaria</h3><p>Combining beautifully landscaped gardens, natural waterfalls, peaceful riverside scenery, rich Himalayan biodiversity, and relaxing picnic spaces, Sewaro Rock Garden offers one of the most</p>",
+                "attractions": [
+                    "Sewaro Rock Garden",
+                    "Natural Waterfalls",
+                    "Riverside Picnic Areas",
+                    "Landscaped Flower Gardens",
+                    "Stone Pathways",
+                    "Wooden Bridges"
+                ],
+                "image": "images/gallery (23).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,300 m (4,265 ft)",
+                    "Key attraction: Sewaro Rock Garden",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Waterfall Sightseeing"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Family Picnics"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Riverside Relaxation"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~125 km) or Bagdogra Airport (~125 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~120 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Sombaria & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "title": "Signature Sombaria Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Sombaria Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (18).jpg"
+                    },
+                    {
+                        "name": "Sombaria Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (19).jpg"
+                    }
+                ],
+                "faqs": []
+            },
+            {
+                "name": "Chayatal",
+                "slug": "chayatal",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,700 m (5,577 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Chayatal Lake, Forest Walks, Birdwatching, Scenic Landscapes & Eco Tourism",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Sombaria is home to Bhutia, Lepcha, Nepali, Limboo, and Rai communities, who continue to preserve their traditional customs, festivals, handicrafts, and warm Himalayan hospitality. Agriculture, tourism, horticulture, and livestock farming remain the primary occupations.</p><h3>History, Geography & Climate</h3><p>Chayatal has long remained a peaceful rural settlement surrounded by forests and agricultural land. Over the years, its beautiful natural lake and serene environment have made it an emerging eco- tourism destination while retaining its untouched Himalayan charm.</p><h3>Culture & Local Life</h3><p>Sombaria is home to Bhutia, Lepcha, Nepali, Limboo, and Rai communities, who continue to preserve their traditional customs, festivals, handicrafts, and warm Himalayan hospitality. Agriculture, tourism, horticulture, and livestock farming remain the primary occupations.</p><h3>Why Visit Chayatal</h3><p>Combining peaceful Himalayan valleys, traditional village life, scenic rivers, organic farming, rich biodiversity, and authentic Sikkimese culture, Sombaria offers one of the most relaxing and lesser-</p>",
+                "attractions": [
+                    "Sombaria Valley",
+                    "Kalej Khola",
+                    "Scenic Riverbanks",
+                    "Cardamom Plantations",
+                    "Traditional Himalayan Villages",
+                    "Forest Nature Trails"
+                ],
+                "image": "images/gallery (24).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,700 m (5,577 ft)",
+                    "Key attraction: Sombaria Valley",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Riverside Walks"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Visits"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~130 km) or Bagdogra Airport (~130 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~125 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Chayatal & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "title": "Signature Chayatal Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Chayatal Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (19).jpg"
+                    },
+                    {
+                        "name": "Chayatal Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (20).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Sombaria located?",
+                        "answer": "Sombaria is located in the Gyalshing district of West Sikkim, about 38 km from Pelling."
+                    },
+                    {
+                        "question": "What is Sombaria famous for?",
+                        "answer": "Sombaria is famous for its peaceful Himalayan valleys, scenic rivers, cardamom plantations, traditional villages, and offbeat rural tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Sombaria?",
+                        "answer": "The best time to visit is October to May, when the weather is pleasant and the landscapes are lush and scenic."
+                    },
+                    {
+                        "question": "What is the altitude of Sombaria?",
+                        "answer": "Sombaria is situated at an altitude of approximately 1,300 metres (4,265 feet)."
+                    },
+                    {
+                        "question": "How can I reach Sombaria?",
+                        "answer": "Sombaria can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Sombaria?",
+                        "answer": "No. Indian tourists do not require a permit to visit Sombaria."
+                    },
+                    {
+                        "question": "Is Sombaria suitable for families?",
+                        "answer": "Yes. Sombaria is suitable for families, couples, photographers, birdwatchers, and travellers seeking a peaceful village experience."
+                    },
+                    {
+                        "question": "What are the top attractions in Sombaria?",
+                        "answer": "Major attractions include Kalej Khola, scenic river valleys, cardamom plantations, suspension bridges, forest trails, traditional villages, and nearby Dentam and Kaluk."
+                    }
+                ]
+            },
+            {
+                "name": "Daramdin",
+                "slug": "daramdin",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,300 m (4,265 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Organic Farming, Village Tourism, Scenic Valleys, Cardamom Plantations &",
+                "location": "Soreng, Sikkim",
+                "description": "<p>Chayatal has long remained a peaceful rural settlement surrounded by forests and agricultural land. Over the years, its beautiful natural lake and serene environment have made it an emerging eco- tourism destination while retaining its untouched Himalayan charm.</p><h3>History, Geography & Climate</h3><p>Chayatal has long remained a peaceful rural settlement surrounded by forests and agricultural land. Over the years, its beautiful natural lake and serene environment have made it an emerging eco- tourism destination while retaining its untouched Himalayan charm.</p><h3>Culture & Local Life</h3><p>The surrounding villages are inhabited by Bhutia, Lepcha, Nepali, Limboo, and Rai communities, who continue to preserve their traditional customs, agriculture, horticulture, handicrafts, and warm</p><h3>Why Visit Daramdin</h3><p>Combining a peaceful Himalayan lake, rich biodiversity, scenic forests, authentic village life, birdwatching opportunities, and serene mountain landscapes, Chayatal offers one of West Sikkim's</p>",
+                "attractions": [
+                    "Chayatal Lake",
+                    "Forest Nature Trails",
+                    "Birdwatching Areas",
+                    "Cardamom Plantations",
+                    "Scenic Viewpoints",
+                    "Traditional Himalayan Villages"
+                ],
+                "image": "images/gallery (1).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,300 m (4,265 ft)",
+                    "Key attraction: Chayatal Lake",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "hiking",
+                        "label": "Nature Walks"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Lake Photography"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Forest Exploration"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Drives"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~115 km) or Bagdogra Airport (~115 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~110 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Daramdin & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "title": "Signature Daramdin Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Daramdin Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (20).jpg"
+                    },
+                    {
+                        "name": "Daramdin Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (21).jpg"
+                    }
+                ],
+                "faqs": []
+            },
+            {
+                "name": "Biksthang",
+                "slug": "biksthang",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,350 m (4,429 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Organic Farming, Orange Orchards, Cardamom Plantations, Village Tourism &",
+                "location": "Soreng, Sikkim",
+                "description": "<p>Village tourism, organic farm visits, photography, birdwatching, scenic drives, cultural interaction, forest walks, countryside exploration, and peaceful homestay experiences. Soreng, Sombaria, Kaluk, Rinchenpong, Chayatal, Pelling, Hee Bermiok, and Dentam.</p><h3>History, Geography & Climate</h3><p>Biksthang has traditionally been an agricultural village where orange cultivation, cardamom farming,</p><h3>Culture & Local Life</h3><p>The village is home to Nepali, Bhutia, Lepcha, Rai, Limboo, and Tamang communities, who preserve traditional festivals, folk music, handicrafts, agriculture, and warm Himalayan hospitality. Organic farming and horticulture remain the backbone of the local economy.</p><h3>Why Visit Biksthang</h3><p>Combining authentic rural Himalayan culture, organic farming, scenic valleys, rich biodiversity, peaceful villages, and warm local hospitality, Daramdin offers one of the most genuine and relaxing</p>",
+                "attractions": [
+                    "Daramdin Valley",
+                    "Organic Farms",
+                    "Cardamom Plantations",
+                    "Scenic Mountain Roads",
+                    "Forest Nature Trails",
+                    "Birdwatching Areas"
+                ],
+                "image": "images/gallery (2).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,350 m (4,429 ft)",
+                    "Key attraction: Daramdin Valley",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Visits"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "road",
+                        "label": "Scenic Drives"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~120 km) or Bagdogra Airport (~115 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~110 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Biksthang & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "title": "Signature Biksthang Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Biksthang Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (21).jpg"
+                    },
+                    {
+                        "name": "Biksthang Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (22).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Chayatal located?",
+                        "answer": "Chayatal is located in the Gyalshing district of West Sikkim, about 40 km from Pelling."
+                    },
+                    {
+                        "question": "What is Chayatal famous for?",
+                        "answer": "Chayatal is famous for its peaceful natural lake, forest trails, birdwatching, scenic Himalayan landscapes, and eco-tourism experiences."
+                    },
+                    {
+                        "question": "What is the best time to visit Chayatal?",
+                        "answer": "The best time to visit is October to May, when the weather is pleasant and ideal for sightseeing and outdoor activities."
+                    },
+                    {
+                        "question": "What is the altitude of Chayatal?",
+                        "answer": "Chayatal is situated at an altitude of approximately 1,700 metres (5,577 feet)."
+                    },
+                    {
+                        "question": "How can I reach Chayatal?",
+                        "answer": "Chayatal can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Chayatal?",
+                        "answer": "No. Indian tourists do not require a permit to visit Chayatal."
+                    },
+                    {
+                        "question": "Is Chayatal suitable for families?",
+                        "answer": "Yes. Chayatal is ideal for families, couples, photographers, birdwatchers, and nature lovers seeking a peaceful getaway."
+                    },
+                    {
+                        "question": "What are the top attractions in Chayatal?",
+                        "answer": "Major attractions include Chayatal Lake, forest nature trails, birdwatching areas, cardamom plantations, scenic viewpoints, and nearby Sombaria and Dentam."
+                    }
+                ]
+            },
+            {
+                "name": "Martam",
+                "slug": "martam",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,350 m (4,429 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Organic Farming, Orange Orchards, Cardamom Plantations, Village Tourism &",
+                "location": "Soreng, Sikkim",
+                "description": "<p>Martam is one of the most scenic destinations in West Sikkim, renowned for its organic farming, orange orchards, cardamom plantations, village tourism & and captivating Himalayan landscapes.</p><h3>History, Geography & Climate</h3><p>Biksthang has traditionally been an agricultural village where orange cultivation, cardamom farming,</p><h3>Culture & Local Life</h3><p>The village is home to Nepali, Bhutia, Lepcha, Rai, Limboo, and Tamang communities, who preserve traditional festivals, folk music, handicrafts, agriculture, and warm Himalayan hospitality. Organic farming and horticulture remain the backbone of the local economy.</p><h3>Why Visit Martam</h3><p>Combining peaceful Himalayan villages, organic farming, colourful orange orchards, rich biodiversity, panoramic Kanchenjunga views, and authentic local hospitality, Biksthang offers one of the most</p>",
+                "attractions": [
+                    "Orange Orchards",
+                    "Cardamom Plantations",
+                    "Kanchenjunga Viewpoints",
+                    "Forest Nature Trails",
+                    "Traditional Himalayan Villages",
+                    "Organic Farms"
+                ],
+                "image": "images/gallery (3).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,350 m (4,429 ft)",
+                    "Key attraction: Orange Orchards",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Orchard Visits"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Experiences"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~120 km) or Bagdogra Airport (~115 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~110 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Martam & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "title": "Signature Martam Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Martam Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (22).jpg"
+                    },
+                    {
+                        "name": "Martam Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (23).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Biksthang located?",
+                        "answer": "Biksthang is located in the Soreng district of West Sikkim, about 38 km from Pelling."
+                    },
+                    {
+                        "question": "What is Biksthang famous for?",
+                        "answer": "Biksthang is famous for its organic farming, orange orchards, cardamom plantations, Kanchenjunga views, and peaceful village tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Biksthang?",
+                        "answer": "The best time to visit is October to May, with winter (November-January) being especially popular for its seasonal orange orchards."
+                    },
+                    {
+                        "question": "What is the altitude of Biksthang?",
+                        "answer": "Biksthang is situated at an altitude of approximately 1,350 metres (4,429 feet)."
+                    },
+                    {
+                        "question": "How can I reach Biksthang?",
+                        "answer": "Biksthang can be reached by road from Soreng, Pelling, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Biksthang?",
+                        "answer": "No. Indian tourists do not require a permit to visit Biksthang."
+                    },
+                    {
+                        "question": "Is Biksthang suitable for families?",
+                        "answer": "Yes. Biksthang is ideal for families, couples, photographers, birdwatchers, and travellers looking for a peaceful rural getaway."
+                    },
+                    {
+                        "question": "What are the top attractions in Biksthang?",
+                        "answer": "Major attractions include orange orchards, cardamom plantations, Kanchenjunga viewpoints, organic farms, forest trails, and nearby Kaluk and Rinchenpong. 21. Biksthang - Organic Himalayan Village of West Sikkim | Orange Orchards, Village Tourism & Kanchenjunga Views Biksthang is a peaceful Himalayan village located in the Soreng district of West Sikkim at an altitude of approximately 1,350 metres (4,429 ft). Surrounded by lush forests, terraced farmlands, orange orchards, cardamom plantations, and panoramic views of Mount Kangchenjunga (Kanchenjunga), Biksthang is one of the most beautiful rural destinations in western Sikkim. Known for its organic farming, traditional Himalayan lifestyle, and tranquil environment, the village offers visitors an authentic experience of Sikkim's countryside away from commercial tourism. Situated between Soreng, Rinchenpong, and Kaluk, Biksthang is blessed with fresh mountain air, scenic valleys, crystal-clear streams, and rich biodiversity. The village is particularly famous for its seasonal orange orchards, peaceful homestays, birdwatching opportunities, and warm hospitality, making it an ideal destination for nature lovers, photographers, and travellers seeking slow and sustainable tourism. Biksthang at a Glance * Altitude: 1,350 m (4,429 ft) * District: Soreng * State: Sikkim * Region: Eastern Himalayas * Distance from Pelling: ~38 km * Distance from Gangtok: ~120 km * Distance from NJP: ~110 km * Distance from Bagdogra Airport: ~115 km * Best Time to Visit: October-May * Permit Required: No * Famous For: Organic Farming, Orange Orchards, Cardamom Plantations, Village Tourism & Kanchenjunga Views History, Geography & Climate Biksthang has traditionally been an agricultural village where orange cultivation, cardamom farming, livestock rearing, and horticulture have supported local communities for generations. With the gradual growth of eco-tourism, the village has become an attractive destination while preserving its natural beauty and cultural traditions. The climate remains pleasant throughout the year, with cool summers, lush monsoons, colourful springs, and mild winters. During winter, the village is filled with ripe oranges, while autumn provides spectacular Himalayan views under clear blue skies. Biksthang's Three Tourism Zones Village & Heritage Zone Traditional Himalayan homes, local temples, peaceful village lanes, and friendly communities provide visitors with an authentic rural Sikkim experience. Agricultural Zone Orange orchards, cardamom plantations, terraced farms, vegetable gardens, and organic cultivation highlight the village's sustainable farming practices. Nature & Scenic Zone Forest trails, scenic viewpoints, mountain streams, and birdwatching areas offer spectacular landscapes and opportunities for nature exploration. Biodiversity & Wildlife Biksthang lies within the Eastern Himalayan Biodiversity Hotspot, supporting forests rich in oak, bamboo, pine, rhododendron, orchids, magnolia, medicinal plants, and diverse birdlife. Wildlife includes: * Barking Deer * Himalayan Serow * Red Panda (higher forest regions) * Himalayan Black Bear * Himalayan Monal * Blood Pheasant *"
+                    }
+                ]
+            },
+            {
+                "name": "Labdang",
+                "slug": "labdang",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,800 m (5,906 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Village Tourism, Forest Trails, Organic Farming, Kanchenjunga Views & Eco",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Village tourism, photography, birdwatching, forest walks, organic farm visits, cultural interaction, Pelling, Kaluk, Rinchenpong, Hee Bermiok, Dentam, Yangsum, Geyzing, and Khecheopalri Lake. Combining tranquil Himalayan landscapes, rich biodiversity, traditional village life, scenic forest</p><h3>Culture & Local Life</h3><p>The village is inhabited by Bhutia, Lepcha, Nepali, Rai, Limboo, and Tamang communities, who continue to preserve their traditional customs, folk music, festivals, handicrafts, agriculture, and warm Himalayan hospitality. Organic farming, horticulture, and eco-tourism remain the primary</p><h3>Why Visit Labdang</h3><p>Combining tranquil Himalayan landscapes, rich biodiversity, traditional village life, scenic forest trails, organic farming, and warm local hospitality, Kongri offers one of West Sikkim's most peaceful</p>",
+                "attractions": [
+                    "Kongri Village",
+                    "Forest Nature Trails",
+                    "Cardamom Plantations",
+                    "Organic Farms",
+                    "Mountain Viewpoints",
+                    "Birdwatching Areas"
+                ],
+                "image": "images/gallery (4).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,800 m (5,906 ft)",
+                    "Key attraction: Kongri Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Visits"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~135 km) or Bagdogra Airport (~150 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~145 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Labdang & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "title": "Signature Labdang Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Labdang Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (1).jpg"
+                    },
+                    {
+                        "name": "Labdang Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (2).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Yangsum located?",
+                        "answer": "Yangsum is located in the Gyalshing district of West Sikkim, about 28 km from Pelling."
+                    },
+                    {
+                        "question": "What is Yangsum famous for?",
+                        "answer": "Yangsum is famous for its peaceful Himalayan village atmosphere, organic farming, Kanchenjunga views, forest trails, and authentic rural tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Yangsum?",
+                        "answer": "The best time to visit is October to May, when the weather is pleasant and the Himalayan views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Yangsum?",
+                        "answer": "Yangsum is situated at an altitude of approximately 1,650 metres (5,413 feet)."
+                    },
+                    {
+                        "question": "How can I reach Yangsum?",
+                        "answer": "Yangsum can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Yangsum?",
+                        "answer": "No. Indian tourists do not require a permit to visit Yangsum."
+                    },
+                    {
+                        "question": "Is Yangsum suitable for families?",
+                        "answer": "Yes. Yangsum is ideal for families, couples, photographers, birdwatchers, and travellers seeking a peaceful village experience."
+                    },
+                    {
+                        "question": "What are the top attractions in Yangsum?",
+                        "answer": "Major attractions include Kanchenjunga viewpoints, organic farms, cardamom plantations, forest trails, traditional villages, and nearby Pelling, Darap, and Kaluk."
+                    }
+                ]
+            },
+            {
+                "name": "Yangsum",
+                "slug": "yangsum",
+                "subRegion": "west",
+                "tagline": "Picturesque Mountain Destination in West Sikkim",
+                "altitude": "1,800 m (5,900 ft)",
+                "bestTime": "March-June & October-December",
+                "famousFor": "Mountain Views, Himalayan Culture, Serenity",
+                "location": "West Sikkim, Sikkim",
+                "description": "<p>provide visitors with an authentic rural Sikkim experience. Orange orchards, cardamom plantations, terraced farms, vegetable gardens, and organic cultivation highlight the village's sustainable farming practices.</p><h3>Culture & Local Life</h3><p>The village is home to Nepali, Bhutia, Lepcha, Rai, Limboo, and Tamang communities, who preserve traditional festivals, folk music, handicrafts, agriculture, and warm Himalayan hospitality. Organic farming and horticulture remain the backbone of the local economy.</p><h3>Why Visit Yangsum</h3><p>Combining peaceful Himalayan villages, organic farming, colourful orange orchards, rich biodiversity, panoramic Kanchenjunga views, and authentic local hospitality, Biksthang offers one of the most</p>",
+                "attractions": [
+                    "Orange Orchards",
+                    "Cardamom Plantations",
+                    "Kanchenjunga Viewpoints",
+                    "Forest Nature Trails",
+                    "Traditional Himalayan Villages",
+                    "Organic Farms"
+                ],
+                "image": "images/gallery (5).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,800 m (5,900 ft)",
+                    "Key attraction: Orange Orchards",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Orchard Visits"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Experiences"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~45-90 km) or Bagdogra Airport (~130-160 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~120-150 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Yangsum & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "title": "Signature Yangsum Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Yangsum Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (23).jpg"
+                    },
+                    {
+                        "name": "Yangsum Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (24).jpg"
+                    }
+                ],
+                "faqs": [
+                    {
+                        "question": "Where is Yangsum located?",
+                        "answer": "Yangsum is located in the Gyalshing district of West Sikkim, about 28 km from Pelling."
+                    },
+                    {
+                        "question": "What is Yangsum famous for?",
+                        "answer": "Yangsum is famous for its peaceful Himalayan village atmosphere, organic farming, Kanchenjunga views, forest trails, and authentic rural tourism."
+                    },
+                    {
+                        "question": "What is the best time to visit Yangsum?",
+                        "answer": "The best time to visit is October to May, when the weather is pleasant and the Himalayan views are at their best."
+                    },
+                    {
+                        "question": "What is the altitude of Yangsum?",
+                        "answer": "Yangsum is situated at an altitude of approximately 1,650 metres (5,413 feet)."
+                    },
+                    {
+                        "question": "How can I reach Yangsum?",
+                        "answer": "Yangsum can be reached by road from Pelling, Geyzing, Gangtok, NJP, Siliguri, and Bagdogra."
+                    },
+                    {
+                        "question": "Is a permit required to visit Yangsum?",
+                        "answer": "No. Indian tourists do not require a permit to visit Yangsum."
+                    },
+                    {
+                        "question": "Is Yangsum suitable for families?",
+                        "answer": "Yes. Yangsum is ideal for families, couples, photographers, birdwatchers, and travellers seeking a peaceful village experience."
+                    },
+                    {
+                        "question": "What are the top attractions in Yangsum?",
+                        "answer": "Major attractions include Kanchenjunga viewpoints, organic farms, cardamom plantations, forest trails, traditional villages, and nearby Pelling, Darap, and Kaluk."
+                    }
+                ]
+            },
+            {
+                "name": "Kongri",
+                "slug": "kongri",
+                "subRegion": "west",
+                "tagline": "Peaceful Himalayan Village of West Sikkim",
+                "altitude": "1,650 m (5,413 ft)",
+                "bestTime": "October-May",
+                "famousFor": "Village Tourism, Organic Farming, Forest Trails, Kanchenjunga Views &",
+                "location": "Gyalshing, Sikkim",
+                "description": "<p>Yangsum is a serene Himalayan village located in the Gyalshing district of West Sikkim at an altitude of approximately 1,650 metres (5,413 ft). Surrounded by lush forests, terraced farms, cardamom plantations, mountain streams, and panoramic views of Mount Kangchenjunga (Kanchenjunga),</p><h3>Culture & Local Life</h3><p>Yangsum is inhabited by Bhutia, Lepcha, Nepali, Rai, Limboo, and Tamang communities, who preserve traditional customs, folk music, festivals, handicrafts, and warm Himalayan hospitality. Agriculture, horticulture, and tourism remain the primary occupations.</p><h3>Why Visit Kongri</h3><p>Combining peaceful Himalayan village life, rich biodiversity, organic farming, spectacular Kanchenjunga views, scenic forests, and authentic local hospitality, Yangsum offers one of the most</p>",
+                "attractions": [
+                    "Yangsum Village",
+                    "Organic Farms",
+                    "Cardamom Plantations",
+                    "Kanchenjunga Viewpoints",
+                    "Forest Nature Trails",
+                    "Mountain Streams"
+                ],
+                "image": "images/gallery (6).jpg",
+                "highlights": [
+                    "Nestled at an elevation of 1,650 m (5,413 ft)",
+                    "Key attraction: Yangsum Village",
+                    "Spectacular Himalayan landscape & tranquil trails",
+                    "Authentic local culture and hospitality"
+                ],
+                "thingsToDo": [
+                    {
+                        "icon": "village",
+                        "label": "Village Tourism"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Birdwatching"
+                    },
+                    {
+                        "icon": "camera",
+                        "label": "Photography"
+                    },
+                    {
+                        "icon": "hiking",
+                        "label": "Forest Walks"
+                    },
+                    {
+                        "icon": "village",
+                        "label": "Organic Farm Visits"
+                    },
+                    {
+                        "icon": "binoculars",
+                        "label": "Cultural Interaction"
+                    }
+                ],
+                "howToReach": {
+                    "byAir": "Pakyong Airport (~130 km) or Bagdogra Airport (~145 km)",
+                    "byTrain": "New Jalpaiguri Railway Station (NJP) (~140 km)",
+                    "byRoad": "Accessible via scenic mountain roads from Gangtok / Siliguri"
+                },
+                "packages": [
+                    {
+                        "title": "3N/4D Kongri & West Sikkim Tour",
+                        "includes": "Stay + Sightseeing + Transfers + Meals",
+                        "price": 8999,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "title": "Signature Kongri Offbeat Retreat",
+                        "includes": "Homestay + Local Guide + All Meals",
+                        "price": 6499,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ],
+                "stays": [
+                    {
+                        "name": "Kongri Mountain View Retreat",
+                        "rating": 4.6,
+                        "reviews": 32,
+                        "type": "Himalayan Homestay",
+                        "price": 1800,
+                        "image": "images/gallery (24).jpg"
+                    },
+                    {
+                        "name": "Kongri Eco Village Resort",
+                        "rating": 4.5,
+                        "reviews": 19,
+                        "type": "Eco Lodge",
+                        "price": 2800,
+                        "image": "images/gallery (1).jpg"
+                    }
+                ],
+                "faqs": []
             }
         ]
     },
     "sandakphu": {
         "title": "Sandakphu Region",
         "subtitle": "Roof of Bengal",
-        "description": "The legendary Singalila Ridge — trek to the highest peak of West Bengal and see four of the world's five tallest mountains.",
+        "description": "The legendary Singalila Ridge \u2014 trek to the highest peak of West Bengal and see four of the world's five tallest mountains.",
         "regionDescription": "Sandakphu is the highest mountain peak in West Bengal, offering an extraordinary panorama of four of the world's five highest peaks, including Everest and Kangchenjunga. The trek along the Singalila Ridge is one of India's most iconic high-altitude journeys, passing through rhododendron forests, prayer-flag villages, and cloud-wrapped ridges.",
         "heroImage": "images/sandakphu.jpg",
         "location": "Singalila National Park, Darjeeling",
@@ -4039,7 +16240,7 @@ window.destinationsData = {
                 "slug": "sandakphu",
                 "tagline": "Highest Peak in West Bengal",
                 "altitude": "3,636 m (11,930 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Everest View, Sleeping Buddha Panorama, Alpine Sunrises",
                 "location": "Singalila Ridge, Darjeeling",
                 "description": "<p>Sandakphu is the highest mountain peak in the state of West Bengal, towering at an altitude of 3,636 metres (11,930 ft). Located on the crest of the Singalila Ridge along the India-Nepal border, it is the crown jewel of Himalayan trekking in Eastern India.</p><h3>The Panorama of Giants</h3><p>Its greatest claim to fame is the unparalleled 180-degree panoramic view it offers. From the summit, visitors can witness four of the five highest peaks in the world in a single view: Mount Everest, Kangchenjunga, Lhotse, and Makalu, creating a truly awe-inspiring spectacle.</p><h3>Trekking & Environment</h3><p>Reaching Sandakphu requires navigating a challenging, rugged trail either on foot or via vintage Land Rovers. The environment is harsh and alpine, characterized by strong, freezing winds and frequent snow in winter. The slopes are covered with over 600 varieties of orchids and a vast array of rhododendrons that bloom spectacularly in spring.</p>",
@@ -4103,7 +16304,7 @@ window.destinationsData = {
                     },
                     {
                         "name": "Singalila Camp",
-                        "rating": 4.0,
+                        "rating": 4,
                         "reviews": 38,
                         "type": "Mountain Camp",
                         "price": 800,
@@ -4116,7 +16317,7 @@ window.destinationsData = {
                 "slug": "phalut",
                 "tagline": "The Solitary Tri-Junction Summit",
                 "altitude": "3,600 m (11,811 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Close-up Kangchenjunga, Tri-Junction of Bengal, Sikkim & Nepal, Ridge Walk",
                 "location": "Singalila Ridge, Tri-Junction",
                 "description": "<p>Phalut is the second highest peak in West Bengal, located at an altitude of 3,600 metres (11,811 ft), further along the Singalila Ridge from Sandakphu. It sits at the tri-junction of Sikkim, West Bengal, and Nepal, offering an even more raw and isolated Himalayan experience.</p><h3>The Close-up View</h3><p>While Sandakphu offers a wider panorama, Phalut is physically much closer to the Kanchenjunga range, providing a seemingly touchable, overwhelmingly massive view of the Sleeping Buddha. The terrain here is barren, wind-swept, and undulating, devoid of the dense tree cover found at lower altitudes.</p><h3>The Ultimate Trekking Challenge</h3><p>The trek from Sandakphu to Phalut is considered one of the most scenic and challenging ridge walks in the Indian Himalayas. Due to its remoteness, Phalut receives fewer visitors than Sandakphu, preserving its pristine and deeply tranquil atmosphere.</p>",
@@ -4157,7 +16358,7 @@ window.destinationsData = {
                 "slug": "manebhanjan",
                 "tagline": "Gateway to Singalila & Land Rovers",
                 "altitude": "1,928 m (6,325 ft)",
-                "bestTime": "Round the Year (Best Oct–May)",
+                "bestTime": "Round the Year (Best Oct\u2013May)",
                 "famousFor": "Sandakphu Trek Gateway, Vintage 1950s Land Rovers, Border Market",
                 "location": "Darjeeling District, Indo-Nepal Border",
                 "description": "<p>Manebhanjan is a small, bustling transit town situated at an altitude of 1,928 metres (6,325 ft) on the India-Nepal border. It serves as the primary gateway and starting point for the famous Sandakphu-Phalut trek and Singalila National Park.</p><h3>Gateway to Singalila</h3><p>The name Manebhanjan translates to 'where stupas and roads meet'. The town is internationally renowned for its fleet of vintage series Land Rovers dating from the 1950s, which navigate the steep, rugged, and boulder-strewn road up to Sandakphu.</p><h3>Culture & Transit</h3><p>The town has a frontier-like atmosphere, with a lively blend of Indian and Nepali cultures. It offers essential supplies, trekking gear rentals, and accommodations for trekkers preparing for their journey.</p>",
@@ -4197,7 +16398,7 @@ window.destinationsData = {
                 "slug": "tonglu",
                 "tagline": "Panoramic Himalayan Viewpoint",
                 "altitude": "3,070 m (10,072 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Sunrise, Himalayan Views, Rhododendrons",
                 "location": "Singalila National Park, Darjeeling",
                 "description": "<p>Tonglu is one of the higher peaks of the Singalila Ridge and a popular first-night halt on the Sandakphu trek, situated at an altitude of 3,070 metres (10,072 ft). It is located within the pristine environment of Singalila National Park.</p><h3>Scenic Views & Environment</h3><p>Tonglu offers stunning panoramic views of the Darjeeling hills and the Teesta Valley, along with a majestic view of the Kanchenjunga range. The area is characterized by alpine meadows and dense forests of rhododendron, which paint the hillsides in vibrant reds and pinks during spring.</p><h3>The Trekkers' Halt</h3><p>The settlement is minimal, consisting primarily of a Trekkers' Hut and a few basic homestays. The peaceful environment and dramatic altitude shift make Tonglu a memorable stop for trekkers acclimatizing to higher elevations.</p>",
@@ -4237,7 +16438,7 @@ window.destinationsData = {
                 "slug": "tumling",
                 "tagline": "Border Village of the Himalayas",
                 "altitude": "2,970 m (9,744 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Homestays, Sunrise Views, Mountain Landscapes",
                 "location": "India-Nepal Border, Singalila Ridge",
                 "description": "<p>Tumling is a tiny, picturesque hamlet located at an altitude of 2,970 metres (9,600 ft) along the Singalila Ridge. Tumling is technically located within Nepal, though there are no border restrictions for trekkers on the Sandakphu route.</p><h3>Nature & Hospitality</h3><p>The village is known for its exceptionally warm hospitality, with a handful of well-maintained homestays catering to trekkers. It marks the entry point into the core area of the Singalila National Park, surrounded by rolling hills and offering clear, spectacular views of the Sleeping Buddha (the Kanchenjunga massif).</p><h3>Flora & Fauna</h3><p>The region around Tumling is rich in biodiversity. It is one of the best areas along the trek to spot rare Himalayan bird species and the elusive Red Panda. The transition from temperate forests to sub-alpine vegetation becomes highly pronounced around this altitude.</p>",
@@ -4281,7 +16482,7 @@ window.destinationsData = {
                 "slug": "kalipokhri",
                 "tagline": "Sacred Black Water Lake",
                 "altitude": "3,186 m (10,453 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Holy Dark Water Lake, Tibetan Prayer Flags, Trekker Stopover",
                 "location": "Singalila Ridge, Indo-Nepal Border",
                 "description": "<p>Kalipokhri is named after a sacred, dark-water high-altitude pond surrounded by fluttering Buddhist prayer flags and carved mani stones. According to local beliefs, the sacred water in the lake never freezes completely even during freezing sub-zero winters.</p><h3>Acclimatization Halt</h3><p>Surrounded by clusters of wooden tea houses and stone lodges, Kalipokhri is a crucial acclimatization halt for trekkers preparing for the final ascent up to Sandakphu summit.</p><p>Trekkers can enjoy warm mountain meals, relax by Tibetan wood stoves, and take in serene mountain stillness under starry Himalayan skies.</p>",
@@ -4321,7 +16522,7 @@ window.destinationsData = {
                 "slug": "dhotrey",
                 "tagline": "Scenic Forest Village Gateway",
                 "altitude": "2,590 m (8,500 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Pine Forests, Shortcut Trail to Tonglu, Serene Village Life",
                 "location": "Darjeeling District, West Bengal",
                 "description": "<p>Dhotrey is a serene, tranquil village nestled amid thick pine and rhododendron woods on the fringes of Singalila National Park. It has become famous as the favorite scenic alternative trailhead for reaching Tonglu, saving distance while offering a lush forest hike.</p><p>With quiet homestays, rolling terraced fields, and fresh mountain air, Dhotrey is an eco-tourism gem in its own right for travelers seeking peaceful Himalayan seclusion.</p>",
@@ -4361,7 +16562,7 @@ window.destinationsData = {
                 "slug": "chitrey",
                 "tagline": "Peaceful Monastery Hillside",
                 "altitude": "2,540 m (8,340 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Old Buddhist Monastery, Scenic Meadows, First Steep Ascent",
                 "location": "Above Manebhanjan, Darjeeling District",
                 "description": "<p>Chitrey is the first major milestone perched 3 kilometers above Manebhanjan on the initial climb towards Sandakphu. Surrounded by pine hills and green slopes, it is known for its peaceful Buddhist monastery.</p><p>Trekkers often pause in Chitrey to catch their breath, sip steaming ginger tea, and spin the prayer wheels while enjoying sweeping views of Manebhanjan and the valleys below.</p>",
@@ -4401,7 +16602,7 @@ window.destinationsData = {
                 "slug": "meghma",
                 "tagline": "Village in the Clouds",
                 "altitude": "2,900 m (9,514 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Mist & Cloudscapes, Border Monastery, Trail Junction",
                 "location": "Indo-Nepal Border, Singalila Ridge",
                 "description": "<p>Meghma translates poetically to 'Mother of Clouds', an apt description for this misty mountain settlement frequently shrouded in ethereal swirling fog. Situated right on the border, Meghma is where the trail forks toward Tonglu in India or Tumling via Nepal.</p><p>A historic Buddhist monastery with a gilded spire stands as the centerpiece of this mystical outpost surrounded by prayer flags.</p>",
@@ -4441,7 +16642,7 @@ window.destinationsData = {
                 "slug": "gairibas",
                 "tagline": "Valley of Bamboo & Red Pandas",
                 "altitude": "2,621 m (8,600 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Singalila Forest Checkpost, Red Panda Habitat, Dense Bamboo Groves",
                 "location": "Singalila National Park, Darjeeling",
                 "description": "<p>Gairibas is a sheltered mountain hollow located between Tumling and Kalipokhri, surrounded by dense forests of dwarf bamboo, magnolias, and rhododendrons. It hosts a key Singalila National Park forest checkpost.</p><p>Because of the dense bamboo cover, the valley around Gairibas is recognized as a prime habitat for the elusive and endangered Red Panda and rare Himalayan avifauna.</p>",
@@ -4481,7 +16682,7 @@ window.destinationsData = {
                 "slug": "kaiyakatta",
                 "tagline": "Mountain Pass Resting Stop",
                 "altitude": "2,800 m (9,186 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Trekking Tea Stalls, Pine Forests, Nepal Border Trail",
                 "location": "Singalila Ridge, Indo-Nepal Frontier",
                 "description": "<p>Kaiyakatta is a friendly mountain pass resting settlement situated between Gairibas and Kalipokhri along the Singalila trekking highway. It marks a gradual climbing traverse along the slopes.</p><p>Trekkers stop here at cozy timber shacks for hot noodle soup, tea, and to chat with local Sherpa families while soaking in crisp Himalayan breezes.</p>",
@@ -4521,7 +16722,7 @@ window.destinationsData = {
                 "slug": "bikhebhanjang",
                 "tagline": "Valley of Aconite Wildflowers",
                 "altitude": "3,200 m (10,498 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Final Ascent to Sandakphu, Dramatic Ridge Views, Alpine Aconite",
                 "location": "Base of Sandakphu Summit, Darjeeling",
                 "description": "<p>Bikhebhanjang literally translates to 'Valley of Poison', named after the yellow flowering aconite plants that grow abundantly across these high slopes. It lies at the foot of the grueling final 4-kilometer zigzag ascent to Sandakphu summit.</p><p>It features a small cluster of rustic stone lodges where trekkers gather strength before tackling the steepest gradient of the entire trail.</p>",
@@ -4561,13 +16762,13 @@ window.destinationsData = {
                 "slug": "sabarkum",
                 "tagline": "The Solitary High Ridge Point",
                 "altitude": "3,530 m (11,581 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Ridge Walk Between Sandakphu & Phalut, Sweeping Views, Pristine Isolation",
                 "location": "Singalila Ridge, West Bengal",
                 "description": "<p>Sabarkum is a windswept, dramatic high point located along the 21-kilometer wilderness ridge connecting Sandakphu to Phalut. Untouched by roads or commercial lodges, it is one of the rawest natural viewpoints on the entire trail.</p><p>Trekkers traversing the ridge walk through carpets of wildflowers and dwarf juniper, with panoramic glimpses of Everest on one side and Kanchenjunga towering on the other.</p>",
                 "attractions": [
                     "Sabarkum Ridge Crest",
-                    "Uninterrupted 360° Panorama",
+                    "Uninterrupted 360\u00b0 Panorama",
                     "Trail to Srikhola Descent"
                 ],
                 "image": "images/gallery (13).jpg",
@@ -4601,7 +16802,7 @@ window.destinationsData = {
                 "slug": "gurdum",
                 "tagline": "Hidden Valley Sanctuary",
                 "altitude": "2,300 m (7,545 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Peaceful Valley Village, Forest Descent Route, Timber Cottages",
                 "location": "Singalila Valley, Darjeeling District",
                 "description": "<p>Gurdum is a picture-postcard hamlet nestled deep in a secluded, emerald valley on the descent route from Sandakphu towards Srikhola. Sheltered by towering pines and flowering magnolias, Gurdum feels like a paradise after the freezing ridge winds.</p><p>The village is known for neat wooden cottages, organic vegetable patches, and warm family homestays serving authentic mountain meals.</p>",
@@ -4641,7 +16842,7 @@ window.destinationsData = {
                 "slug": "srikhola",
                 "tagline": "Riverside Haven of Singalila",
                 "altitude": "1,900 m (6,233 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Iconic Suspension Bridge, Gushing Mountain River, Trek Completion Halt",
                 "location": "Darjeeling District, West Bengal",
                 "description": "<p>Srikhola is named after the tumbling, crystal-clear Sri Khola river that flows energetically through the valley. It is one of the most beloved and celebrated resting spots for trekkers completing their Singalila circuit.</p><p>Cross the iconic wooden suspension bridge, relax by the boulder-strewn riverbank listening to roaring cascades, and enjoy comfortable riverside lodges nestled amid dense oak forests.</p>",
@@ -4681,7 +16882,7 @@ window.destinationsData = {
                 "slug": "ramam",
                 "tagline": "Forest Hamlet of the Eastern Ridge",
                 "altitude": "2,560 m (8,400 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Deep Forest Treks, Village Homestays, Birdwatching",
                 "location": "Singalila National Park Belt, Darjeeling",
                 "description": "<p>Ramam is a peaceful mountain settlement nestled within the pristine forests of the Singalila belt. It lies on the classic descent trail winding down from Phalut and Gorkhey on the return circuit towards Rimbik.</p><p>Enveloped by moss-draped oak trees and bird song, Ramam offers a wonderful blend of traditional agrarian lifestyle and wilderness serenity.</p>",
@@ -4761,7 +16962,7 @@ window.destinationsData = {
                 "slug": "gorkhey",
                 "tagline": "Fairytale Valley Village",
                 "altitude": "2,350 m (7,710 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Confluence of Rivers, Pine Forest Enclosure, Fairytale Scenery",
                 "location": "West Bengal & West Sikkim Border",
                 "description": "<p>Gorkhey is widely considered one of the most picturesque, fairytale villages in the entire Eastern Himalayas. Tucked snugly in an amphitheater of pine-covered slopes, it sits at the confluence of the Gorkhey Khola river right on the Bengal-Sikkim border.</p><p>Cottages with bright tin roofs, stone bridges, and crystal streams create a serene world untouched by modern noise.</p>",
@@ -4801,7 +17002,7 @@ window.destinationsData = {
                 "slug": "samanden",
                 "tagline": "The Lost Valley of Bengal",
                 "altitude": "2,480 m (8,136 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Flat Plateau in High Hills, Organic Terraced Farming, Peaceful Solitude",
                 "location": "Singalila Forest Fringe, Darjeeling District",
                 "description": "<p>Known affectionately as 'The Lost Valley', Samanden is a remarkable flat plateau carved into the high mountain wilderness near Gorkhey. Surrounded entirely by towering pine forests, the plateau features neat organic farms that look straight out of rural Switzerland.</p><p>Its astonishing tranquility and idyllic farmhouses make it an unforgettable hidden sanctuary for nature lovers.</p>",
@@ -4840,8 +17041,8 @@ window.destinationsData = {
                 "name": "Singalila National Park",
                 "slug": "singalila-national-park",
                 "tagline": "Wild Realm of the Red Panda",
-                "altitude": "2,200 – 3,636 m",
-                "bestTime": "October–May",
+                "altitude": "2,200 \u2013 3,636 m",
+                "bestTime": "October\u2013May",
                 "famousFor": "Red Panda Wildlife, 600+ Orchid Species, Rhododendron Blooms",
                 "location": "Singalila Ridge, Darjeeling District",
                 "description": "<p>Singalila National Park is a high-altitude sanctuary spanning the Singalila Ridge. It is celebrated internationally for its extraordinary biodiversity, virgin alpine forests, and as one of the last secure refuges on Earth for the elusive endangered Red Panda.</p><p>In spring, the park bursts into a riot of colors with over 20 species of blooming rhododendrons and 600 species of orchids, framing unmatched views of the Himalayan crown.</p>",
@@ -4921,7 +17122,7 @@ window.destinationsData = {
                 "slug": "palmajua",
                 "tagline": "Gateway to Singalila's Forest Buffer",
                 "altitude": "2,200 m (7,218 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Birding Paradise, Oak and Chestnut Forests, Offbeat Tranquility",
                 "location": "Singalila Buffer Belt, Darjeeling District",
                 "description": "<p>Palmajua is a tiny, peaceful mountain village located along the forested buffer boundary of Singalila National Park near Dhotrey. Blanketed by dense stands of oak, chestnut, and bamboo, it is renowned as a premier paradise for birdwatchers.</p><p>Rare Himalayan birds such as the Fire-tailed Myzornis, Satyr Tragopan, and diverse flycatchers thrive in these untouched canopy corridors.</p>",
@@ -5001,7 +17202,7 @@ window.destinationsData = {
                 "slug": "chewabhanjang",
                 "tagline": "Historic Indo-Nepal High Pass",
                 "altitude": "3,140 m (10,301 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Historic Trade Pass, Nepal Border Ridge, Trek to Uttarey",
                 "location": "Singalila Ridge, West Sikkim & Nepal Border",
                 "description": "<p>Chewabhanjang is a historic high-altitude mountain pass located on the Singalila Ridge right along the border between West Sikkim and Nepal. For centuries it served as an important trade and yak-grazing passage between Tibet, Nepal, and Sikkim.</p><p>From Chewabhanjang, trekkers enjoy sweeping views across the ridges of eastern Nepal and northern Sikkim, surrounded by sub-alpine vegetation and old border outposts.</p>",
@@ -5041,7 +17242,7 @@ window.destinationsData = {
                 "slug": "timburey",
                 "tagline": "Whispering Waters of Srikhola",
                 "altitude": "1,850 m (6,070 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Riverside Homestays, Hanging Bridges, Forest Walks",
                 "location": "Singalila Valley, Darjeeling District",
                 "description": "<p>Timburey is a charming riverside hamlet located just upstream from Srikhola. Framed by thick emerald forests and mountain brooks, Timburey is celebrated for quiet, heartfelt homestays where guests fall asleep to the music of flowing water.</p><p>Hanging bridges, lush cardamom orchards, and butterfly-rich forest paths make it a paradise for eco-conscious travelers.</p>",
@@ -5081,7 +17282,7 @@ window.destinationsData = {
                 "slug": "bhareng",
                 "tagline": "Quiet Frontier Mountain Hamlet",
                 "altitude": "1,800 m (5,905 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Organic Farms, Singalila Trails, Himalayan Hospitality",
                 "location": "West Bengal & West Sikkim Border Fringe",
                 "description": "<p>Bhareng is a secluded mountain hamlet situated near the border boundary of West Bengal and Sikkim in the foothills of the Singalila range. Known for organic hillside farming, warm community life, and lush vistas of terraced valleys, Bhareng offers complete serenity.</p><p>Hikers enjoy visiting local farms, tasting fresh organic crops, and exploring quiet trails leading toward Srikhola and Rimbik.</p>",
@@ -5121,7 +17322,7 @@ window.destinationsData = {
                 "slug": "sepi",
                 "tagline": "The Suspension Bridge Village",
                 "altitude": "1,950 m (6,398 ft)",
-                "bestTime": "October–May",
+                "bestTime": "October\u2013May",
                 "famousFor": "Srikhola River Crossing, Shared Jeep Point, Riverside Walks",
                 "location": "Near Srikhola, Darjeeling District",
                 "description": "<p>Sepi is a welcoming riverside settlement located near Srikhola. It serves as an important transit junction where the motorable road meets the Singalila trekking trail, with shared jeeps connecting toward Rimbik and Darjeeling.</p><p>Surrounded by crystal rivers and tea plantations, Sepi is a favorite stopping spot for trekkers to relax, refresh, and toast to the successful completion of the mountain loop.</p>",
@@ -5201,7 +17402,7 @@ window.destinationsData = {
                 "slug": "jawbari",
                 "tagline": "Peaceful Indo-Nepal Border Hamlet",
                 "altitude": "2,850 m (9,350 ft)",
-                "bestTime": "March–May & October–December",
+                "bestTime": "March\u2013May & October\u2013December",
                 "famousFor": "Border Trail Rest Stop, Mountain Tea Stalls, High-Altitude Farmland",
                 "location": "Indo-Nepal Border, Singalila Ridge",
                 "description": "<p>Jawbari (also spelled Jaubari) is a charming ridge hamlet perched on the international boundary between Tumling and Gairibas. The boundary line runs straight through the village, with homes and gardens resting on both Indian and Nepalese soil.</p><p>Known for its peaceful atmosphere, wooden lodges, and grazing yaks, Jawbari is a cherished resting spot for trekkers traversing the Singalila ridge.</p>",

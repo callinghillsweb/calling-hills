@@ -263,6 +263,75 @@
             font-size: 15px;
             margin-bottom: 22px;
         }
+
+        /* Special Sandakphu Flagship Trek Cards Styling */
+        .sandakphu-special-card {
+            position: relative;
+            border: 1.5px solid rgba(212, 175, 55, 0.45) !important;
+            background: linear-gradient(180deg, #ffffff 0%, #fdfbf7 100%) !important;
+            box-shadow: 0 10px 32px rgba(48, 109, 41, 0.08), 0 0 20px rgba(212, 175, 55, 0.12) !important;
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+        }
+        .sandakphu-special-card:hover {
+            transform: translateY(-6px) !important;
+            border-color: #d4af37 !important;
+            box-shadow: 0 18px 42px rgba(48, 109, 41, 0.16), 0 0 28px rgba(212, 175, 55, 0.28) !important;
+        }
+        .sandakphu-banner-ribbon {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: linear-gradient(135deg, #163820, #0d1f17);
+            color: #f3dfa2;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            padding: 6px 14px;
+            border-radius: 999px;
+            border: 1px solid rgba(212, 175, 55, 0.5);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .sandakphu-badge {
+            background: linear-gradient(135deg, #fdf6e2, #faeed0) !important;
+            color: #8b6b1b !important;
+            border: 1px solid rgba(212, 175, 55, 0.6) !important;
+            font-weight: 700 !important;
+        }
+        .sandakphu-altitude-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(48, 109, 41, 0.08);
+            color: var(--ch-green-deep);
+            border: 1px solid rgba(48, 109, 41, 0.2);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            margin-top: 6px;
+        }
+        .pkg-filter-btn[data-filter="sandakphu"] {
+            border-color: rgba(212, 175, 55, 0.65) !important;
+            color: #8b6b1b !important;
+            background: linear-gradient(135deg, #fffef9, #fbf7ee) !important;
+            font-weight: 700 !important;
+        }
+        .pkg-filter-btn[data-filter="sandakphu"]:hover {
+            border-color: #8b6b1b !important;
+            background: #fdf5df !important;
+        }
+        .pkg-filter-btn[data-filter="sandakphu"].active {
+            background: linear-gradient(135deg, #163820, #0d1f17) !important;
+            color: #f3dfa2 !important;
+            border-color: #d4af37 !important;
+            box-shadow: 0 4px 16px rgba(212, 175, 55, 0.35) !important;
+        }
+
     </style>
 </head>
 <body>
@@ -348,7 +417,7 @@
                             <circle cx="11" cy="11" r="8"></circle>
                             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                         </svg>
-                        <input type="text" id="pkg-search-input" class="pkg-search-input" placeholder="Search 73 tour packages (e.g. Tiger Hill, Silk Route, Tinchuley, Mirik, Goecha La, Chilapata)..." autocomplete="off">
+                        <input type="text" id="pkg-search-input" class="pkg-search-input" placeholder="Search 81 tour packages (e.g. Sandakphu, Phalut, Land Rover, Tiger Hill, Silk Route, Goecha La)..." autocomplete="off">
                         <button id="pkg-clear-search" class="pkg-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
                     </div>
 
@@ -379,21 +448,22 @@
                 </div>
 
                 <div class="pkg-meta-bar">
-                    <span class="pkg-results-count" id="pkg-results-count">Showing <strong>73</strong> of 73 Curated Journeys</span>
+                    <span class="pkg-results-count" id="pkg-results-count">Showing <strong>81</strong> of 81 Curated Journeys</span>
                     <button class="pkg-reset-btn" id="pkg-reset-btn" style="display: none;">Reset Filters</button>
                 </div>
             </div>
 
             <!-- Region Filter Bar -->
             <div class="pkg-filter-bar" id="pkg-filter-bar">
-                <button class="pkg-filter-btn active" data-filter="all">All Packages (73)</button>
+                <button class="pkg-filter-btn active" data-filter="all">All Packages (81)</button>
+                <button class="pkg-filter-btn" data-filter="sandakphu">🌟 Sandakphu &amp; Singalila (9)</button>
                 <button class="pkg-filter-btn" data-filter="darjeeling">Darjeeling (22)</button>
                 <button class="pkg-filter-btn" data-filter="silk-route">Silk Route &amp; East Sikkim (10)</button>
                 <button class="pkg-filter-btn" data-filter="kalimpong">Kalimpong (8)</button>
                 <button class="pkg-filter-btn" data-filter="dooars">Dooars (9)</button>
                 <button class="pkg-filter-btn" data-filter="sikkim">West &amp; South Sikkim (18)</button>
                 <button class="pkg-filter-btn" data-filter="north-sikkim">North Sikkim (1)</button>
-                <button class="pkg-filter-btn" data-filter="treks">Treks &amp; Expeditions (4)</button>
+                <button class="pkg-filter-btn" data-filter="treks">Treks &amp; Expeditions (12)</button>
                 <button class="pkg-filter-btn" data-filter="custom">Custom &amp; Groups (1)</button>
             </div>
 
@@ -10583,24 +10653,27 @@ Nights</span>
                     </div>
                 </div>
 
-<!-- Trek 1: Sandakphu Summit Trek -->
-                <div class="pkg-card featured-card" data-region="treks">
+<!-- Package: Sandakphu Summit Trek (Plan 01) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>🏔️ Bengal Highest Peak • 3,636m</span>
+                    </div>
                     <img src="./images/sandakphu.jpg" alt="Sandakphu Summit Trek" class="pkg-image" loading="lazy">
                     <div class="pkg-body">
                         <div class="pkg-header-top">
-                            <span class="pkg-badge">Singalila Ridge</span>
+                            <span class="pkg-badge sandakphu-badge">🌟 Flagship Summit Trek</span>
                             <span class="pkg-duration">8 Days / 7 Nights</span>
                         </div>
                         
-                        <h3 class="pkg-title">Sandakphu Summit Guided Trek</h3>
+                        <h3 class="pkg-title">Sandakphu Summit Trek</h3>
                         
                         <div class="pkg-meta">
-                            <span><strong>Highest Point:</strong> 3,636 m / 11,930 ft</span><br>
-                            <span><strong>Best For:</strong> Trekkers, Himalayan Photographers &amp; Nature Seekers</span>
+                            <span><strong>Theme:</strong> The Crown Ridge of Bengal & Sleeping Buddha Sunrise</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: 3,636 m / 11,930 ft • Grade: Moderate</span>
                         </div>
 
                         <div class="pkg-teaser">
-                            Walk along the legendary Singalila Ridge between India and Nepal. Marvel at the grand "Sleeping Buddha" vista — Everest, Kanchenjunga, Lhotse, and Makalu in one panoramic horizon.
+                            Classic Guided Summit Journey with 2N Sandakphu & Gurdum Descent
                         </div>
 
                         <div class="pkg-price-tag">
@@ -10608,17 +10681,17 @@ Nights</span>
                         </div>
 
                         <div class="pkg-route">
-                            Route: NJP → Dhotrey (1N) → Tumling (1N) → Kalipokhri (1N) → Sandakphu (2N) → Gurdum (1N) → Srikhola (1N) → NJP
+                            Route: NJP / Bagdogra → Dhotrey → Tumling → Kalipokhri → Sandakphu (2N) → Gurdum → Srikhola / Sepi / Rimbik → NJP / Bagdogra
                         </div>
 
                         <div class="pkg-highlights">
                             <div class="pkg-highlights-title">Package Highlights</div>
                             <div class="pkg-highlights-list">
-                                <span class="pkg-highlight-pill">Kanchenjunga Sleeping Buddha</span>
-                                <span class="pkg-highlight-pill">Mt. Everest &amp; Lhotse Views</span>
-                                <span class="pkg-highlight-pill">2 Nights at Sandakphu Summit</span>
+                                <span class="pkg-highlight-pill">Sleeping Buddha 180° Panorama</span>
+                                <span class="pkg-highlight-pill">Sandakphu Summit (3,636 m)</span>
                                 <span class="pkg-highlight-pill">Singalila National Park</span>
-                                <span class="pkg-highlight-pill">Kalipokhri Sacred Lake</span>
+                                <span class="pkg-highlight-pill">Kalipokhri Sacred Black Lake</span>
+                                <span class="pkg-highlight-pill">Gurdum Bamboo & Oak Forest</span>
                                 <span class="pkg-highlight-pill">Srikhola Suspension Bridge</span>
                             </div>
                         </div>
@@ -10631,65 +10704,115 @@ Nights</span>
                             <div class="accordion-content">
                                 <div class="accordion-content-inner">
                                     <div class="day-plan">
-                                        <div class="day-title">Day 1 | NJP / Bagdogra &rarr; Dhotrey (2,590 m)</div>
-                                        <div class="day-desc">Drive from NJP to Dhotrey (approx. 5-6 hrs) through lush cedar forests. Acclimatization walk and briefing.</div>
-                                        <div class="day-meals">Meals: Lunch, Evening Snacks &amp; Dinner<br>Overnight Stay: Dhotrey Homestay</div>
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Journey: Approx. 105 km | Drive: 5–6 hrs • Dhotrey Altitude: Approx. 2,590 m / 8,500 ft</div>
+                                        <div class="day-desc">
+                                            Journey: Approx. 105 km | Drive: 5–6 hrs Pickup from NJP Railway Station / Bagdogra Airport. Begin the scenic drive towards the Eastern Himalayas.
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
                                     </div>
+
                                     <div class="day-plan">
-                                        <div class="day-title">Day 2 | Dhotrey &rarr; Tumling / Tonglu (2,970 m)</div>
-                                        <div class="day-desc">Begin trekking through dense rhododendron and bamboo trails into Singalila National Park. Reach Tumling ridge.</div>
-                                        <div class="day-meals">Meals: Breakfast, Lunch, Snacks &amp; Dinner<br>Overnight Stay: Tumling</div>
+                                        <div class="day-title">Day 2 | DHOTREY → TUMLING</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6–8 km | Trekking Time: 3–4 hrs • Altitude: Dhotrey approx. 2,590 m → Tumling approx. 2,875–3,050 m</div>
+                                        <div class="day-desc">
+                                            Breakfast and begin the first day of the guided trek. Enter beautiful pine and conifer forests, with rhododendron appearing along the Walk through peaceful forest paths with gradual altitude gain.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tumling</div>
                                     </div>
+
                                     <div class="day-plan">
-                                        <div class="day-title">Day 3 | Tumling &rarr; Kalipokhri (3,186 m)</div>
-                                        <div class="day-desc">Trek through Jaubari and Gairibas to sacred Kalipokhri lake surrounded by prayer flags.</div>
-                                        <div class="day-meals">Meals: Breakfast, Lunch, Snacks &amp; Dinner<br>Overnight Stay: Kalipokhri</div>
+                                        <div class="day-title">Day 3 | TUMLING → KALIPOKHRI</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 12–13 km | Trekking Time: 5–7 hrs • Altitude: Tumling approx. 2,900 m → Kalipokhri approx. 3,180–3,200 m / 10,400–10,500 ft</div>
+                                        <div class="day-desc">
+                                            Early morning opportunity to enjoy the Tumling sunrise. Breakfast and begin the day's trek. Continue through the high mountain trail towards the Singalila National Park
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Kalipokhri</div>
                                     </div>
+
                                     <div class="day-plan">
-                                        <div class="day-title">Day 4 | Kalipokhri &rarr; Sandakphu Summit (3,636 m)</div>
-                                        <div class="day-desc">Steep, rewarding final climb to the summit of Sandakphu. Unobstructed view of 4 of the world's 5 highest peaks.</div>
-                                        <div class="day-meals">Meals: Breakfast, Lunch, Snacks &amp; Dinner<br>Overnight Stay: Sandakphu Lodge</div>
+                                        <div class="day-title">Day 4 | KALIPOKHRI → SANDAKPHU SUMMIT</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6 km | Trekking Time: 3–5 hrs • Altitude: Kalipokhri approx. 3,200 m → Sandakphu 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            Breakfast and begin the Sandakphu summit approach. Trek towards Bikeybhanjan, followed by the final ascent towards Sandakphu. The forest gradually gives way to open high-altitude ridge terrain.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
                                     </div>
+
                                     <div class="day-plan">
-                                        <div class="day-title">Day 5 | Sandakphu Summit Exploration &amp; Rest Day</div>
-                                        <div class="day-desc">Golden sunrise over Everest and Kanchenjunga. Relax, explore the ridge trails and photograph alpine peaks.</div>
-                                        <div class="day-meals">Meals: Breakfast, Lunch, Snacks &amp; Dinner<br>Overnight Stay: Sandakphu Lodge</div>
+                                        <div class="day-title">Day 5 | SANDAKPHU STAY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            SUNRISE • ACCLIMATIZATION • REST • HIMALAYAN PANORAMA Wake up early for the spectacular Sandakphu sunrise. On a clear morning, watch the first sunlight illuminate the Himalayan peaks.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
                                     </div>
+
                                     <div class="day-plan">
-                                        <div class="day-title">Day 6 | Sandakphu &rarr; Gurdum (2,300 m)</div>
-                                        <div class="day-desc">Steep descent through serene bamboo and oak forests down into the tranquil valley of Gurdum.</div>
-                                        <div class="day-meals">Meals: Breakfast, Lunch, Snacks &amp; Dinner<br>Overnight Stay: Gurdum Homestay</div>
+                                        <div class="day-title">Day 6 | SANDAKPHU → GURDUM</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 10 km | Trekking Time: 3.5–5 hrs • Altitude: Sandakphu 3,636 m → Gurdum approx. 2,150–2,300 m</div>
+                                        <div class="day-desc">
+                                            HIGH RIDGE → DENSE FOREST → GURDUM VALLEY Breakfast and begin the descent from Sandakphu. The trail quickly changes from exposed high ridge terrain to dense Singalila forest.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Gurdum</div>
                                     </div>
+
                                     <div class="day-plan">
-                                        <div class="day-title">Day 7 | Gurdum &rarr; Srikhola / Sepi</div>
-                                        <div class="day-desc">Gentle trek beside the rushing Srikhola River. Cross the wooden suspension bridge. Celebration dinner.</div>
-                                        <div class="day-meals">Meals: Breakfast, Lunch, Snacks &amp; Dinner<br>Overnight Stay: Srikhola</div>
+                                        <div class="day-title">Day 7 | GURDUM → SRIKHOLA / SEPI / RIMBIK</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6–13 km, depending on the selected overnight point • Trekking Time: Approx. 2–5 hrs • Altitude: Gurdum approx. 2,150–2,300 m → lower Himalayan settlements</div>
+                                        <div class="day-desc">
+                                            Trek: Approx. 6–13 km, depending on the selected overnight point FOREST TRAIL → STREAMS → HIMALAYAN VILLAGES Breakfast and begin the final trekking section.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Srikhola / Sepi / Rimbik</div>
                                     </div>
+
                                     <div class="day-plan">
-                                        <div class="day-title">Day 8 | Srikhola / Sepi &rarr; NJP / Bagdogra Drop</div>
-                                        <div class="day-desc">Board vehicles for scenic return drive to NJP / Bagdogra. Trek completion certificate distributed.</div>
-                                        <div class="day-meals">Meals: Breakfast<br><br><strong style="color: var(--ch-gold);">Trek Completed with Proud Memories! 🌿🏔️</strong></div>
+                                        <div class="day-title">Day 8 | SRIKHOLA / SEPI / RIMBIK → NJP / BAGDOGRA</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Road Journey: Approx. 110–140 km, depending on the selected departure point</div>
+                                        <div class="day-desc">
+                                            Journey Time: Approx. 5–7 hrs, depending on road conditions Breakfast at the accommodation. Check out from Srikhola / Sepi / Rimbik.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 10 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Departure</div>
                                     </div>
+
                                     <div class="incl-excl">
                                         <div>
                                             <h4>✔ Inclusions</h4>
                                             <ul>
-                                                <li>Certified Trek Leader &amp; Local Guides</li>
-                                                <li>Porter Service for luggage support</li>
-                                                <li>All Meals &amp; High-Altitude Snacks</li>
-                                                <li>Singalila Forest Permits &amp; Entry Fees</li>
-                                                <li>Lodge / Homestay Accommodation</li>
-                                                <li>Completion Certificate</li>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
                                             </ul>
                                         </div>
                                         <div>
                                             <h4>✖ Exclusions</h4>
                                             <ul>
-                                                <li>Personal Trekking Gear &amp; Shoes</li>
-                                                <li>Camera Fees at Forest Checkposts</li>
-                                                <li>Personal Medical Expenses &amp; Insurance</li>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
                                             </ul>
                                         </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -10701,6 +10824,1399 @@ Nights</span>
                         </div>
                     </div>
                 </div>
+
+<!-- Package: Sandakphu Summit Trek — Gurdum Forest Descent (Plan 02) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>🏔️ Bengal Highest Peak • 3,636m</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Sandakphu Summit Trek — Gurdum Forest Descent" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">🌟 Classic 7-Day Trek</span>
+                            <span class="pkg-duration">7 Days / 6 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Sandakphu Summit Trek — Gurdum Forest Descent</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Direct High-Altitude Ridge & Bamboo Forest Valley</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: 3,636 m / 11,930 ft • Grade: Moderate</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            A Classic Guided Sandakphu Summit Trek with Gurdum Forest Descent
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹14,999/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tumling → Kalipokhri → Sandakphu (1N) → Gurdum → Srikhola / Sepi / Rimbik → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Sleeping Buddha 180° Panorama</span>
+                                <span class="pkg-highlight-pill">Sandakphu Summit (3,636 m)</span>
+                                <span class="pkg-highlight-pill">Singalila National Park</span>
+                                <span class="pkg-highlight-pill">Kalipokhri Sacred Black Lake</span>
+                                <span class="pkg-highlight-pill">Gurdum Bamboo & Oak Forest</span>
+                                <span class="pkg-highlight-pill">Srikhola Suspension Bridge</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Journey: Approx. 105 km | Drive: 5–6 hrs • Altitude: Dhotrey approx. 2,590 m / 8,500 ft</div>
+                                        <div class="day-desc">
+                                            Journey: Approx. 105 km | Drive: 5–6 hrs Pickup from NJP Railway Station / Bagdogra Airport. Scenic drive through the foothills and tea gardens.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 12 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TUMLING</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6–8 km | 3–4 hrs • Altitude: 2,590 m → approx. 2,875–3,050 m</div>
+                                        <div class="day-desc">
+                                            Trek: Approx. 6–8 km | 3–4 hrs Begin the first day of the guided trek. Walk through pine, conifer and rhododendron forests.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TUMLING → KALIPOKHRI</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 12–13 km | 5–7 hrs • Altitude: Approx. 2,900 m → 3,180–3,200 m</div>
+                                        <div class="day-desc">
+                                            Trek: Approx. 12–13 km | 5–7 hrs Breakfast and begin the day's trek. Enter the Singalila National Park region.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 13 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Kalipokhri</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | KALIPOKHRI → SANDAKPHU</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6 km | 3–5 hrs • Altitude: Approx. 3,200 m → 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            Trek: Approx. 6 km | 3–5 hrs Begin the Sandakphu summit approach. Trek via Bikeybhanjan towards the final ascent.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | SANDAKPHU → GURDUM</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 10 km | 3.5–5 hrs • Altitude: 3,636 m → approx. 2,150–2,300 m</div>
+                                        <div class="day-desc">
+                                            Trek: Approx. 10 km | 3.5–5 hrs Early breakfast and begin the descent. Leave the high ridge and enter the dense Singalila forest.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 14 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Gurdum</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 6 | GURDUM → SRIKHOLA / SEPI / RIMBIK</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6–13 km, depending on selected endpoint • Trekking Time: Approx. 2–5 hrs</div>
+                                        <div class="day-desc">
+                                            Trek: Approx. 6–13 km, depending on selected endpoint Breakfast and begin the final forest descent. Continue through dense Himalayan forest and mountain trails.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Srikhola / Sepi / Rimbik</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 7 | SRIKHOLA / SEPI / RIMBIK → NJP / BAGDOGRA</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Road Journey: Approx. 110–140 km</div>
+                                        <div class="day-desc">
+                                            Journey Time: Approx. 5–7 hrs, depending on departure point and road conditions Begin the scenic road journey towards the plains. Travel through forests, mountain valleys and Himalayan foothills.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 15 ---</li>
+                                            <li>PAGE 16 ---</li>
+                                            <li>PAGE 17 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Departure</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Package: Grand Sandakphu & Phalut Trek (Plan 03) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>👑 Singalila Grand Expedition</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Grand Sandakphu & Phalut Trek" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">🏔️ Grand Singalila Ridge</span>
+                            <span class="pkg-duration">8 Days / 7 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Grand Sandakphu & Phalut Trek</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Complete High-Ridge Traverse to the Tri-Junction of Phalut</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: Sandakphu 3,636 m | Phalut 3,600 m • Grade: Moderate to Challenging</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            Complete Singalila Ridge Traverse — Sandakphu Summit & Phalut to Gorkhey
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹16,499/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tumling → Kalipokhri → Sandakphu → Phalut → Gorkhey → Srikhola → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Complete Ridge Traverse</span>
+                                <span class="pkg-highlight-pill">Sandakphu Summit (3,636 m)</span>
+                                <span class="pkg-highlight-pill">Phalut Tri-Junction (3,600 m)</span>
+                                <span class="pkg-highlight-pill">Mt. Everest & Makalu Views</span>
+                                <span class="pkg-highlight-pill">Gorkhey Fairytale Village</span>
+                                <span class="pkg-highlight-pill">Srikhola River Valley</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Dhotrey Altitude: Approx. 2,590 m / 8,500 ft</div>
+                                        <div class="day-desc">
+                                            Pickup from NJP Railway Station / Bagdogra Airport and begin the journey towards Travel through the changing landscape of North Bengal, gradually moving from the plains towards the Himalayan foothills.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 20 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TUMLING</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 2,590 m → 2,900–3,000 m</div>
+                                        <div class="day-desc">
+                                            Trek Distance: Approx. 6 km Begin the first trekking day from Dhotrey with the experienced local trek guide. Enter the beautiful mountain trail surrounded by pine, conifer and rhododendron
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TUMLING → KALIPOKHRI</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 2,900–3,000 m → 3,180–3,200 m</div>
+                                        <div class="day-desc">
+                                            Trek Distance: Approx. 12–15 km After breakfast, begin the scenic trail towards Kalipokhri. The route passes through the spectacular Singalila National Park landscape, with
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 21 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Kalipokhri</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | KALIPOKHRI → SANDAKPHU SUMMIT</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 3,200 m → 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            Trek Distance: Approx. 6 km Begin the important Sandakphu summit day after breakfast. Continue towards Bikeybhanjan, followed by the steep and rewarding final section
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | SANDAKPHU → PHALUT</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 3,636 m → 3,600 m / 11,811 ft</div>
+                                        <div class="day-desc">
+                                            Trek Distance: Approx. 20–21 km Start early for one of the most spectacular and demanding sections of the The trail follows the high ridge through the Singalila Ridge, with long stretches of
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 22 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Packed Lunch • Evening Snacks • Dinner<br>Overnight Stay: Phalut</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 6 | PHALUT → GORKHEY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 3,600 m → 2,300–2,400 m</div>
+                                        <div class="day-desc">
+                                            Trek Distance: Approx. 14–15 km After breakfast, begin the beautiful descent from Phalut towards Gorkhey. The trail gradually leaves the high ridge and enters greener Himalayan forest.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 23 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Gorkhey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 7 | GORKHEY → SRIKHOLA</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 2,300–2,400 m → Approx. 2,000 m</div>
+                                        <div class="day-desc">
+                                            Trek Distance: Approx. 14–16 km Begin the final trekking section after breakfast. Continue through beautiful forest trails, streams, valleys and traditional
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Srikhola</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 8 | SRIKHOLA → NJP / BAGDOGRA</div>
+                                        
+                                        <div class="day-desc">
+                                            Approx. Road Distance: 110–130 km Destination: NJP Railway Station / Bagdogra Airport Enjoy breakfast at Srikhola before beginning the return journey.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 24 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Tour Concludes (Drop at NJP / Bagdogra)</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Package: Grand Sandakphu & Phalut Trek — 2N Summit Experience (Plan 04) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>👑 Singalila Grand Expedition</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Grand Sandakphu & Phalut Trek — 2N Summit Experience" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">🏔️ Grand Ridge + 2N Summit</span>
+                            <span class="pkg-duration">9 Days / 8 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Grand Sandakphu & Phalut Trek — 2N Summit Experience</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Relaxed Summit Acclimatization & Epic 21km Ridge Trail to Phalut</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: Sandakphu 3,636 m | Phalut 3,600 m • Grade: Moderate to Challenging</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            High Ridge Expedition with Extra Acclimatization & 2 Nights at Sandakphu
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹18,499/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tumling → Kalipokhri → Sandakphu (2N) → Phalut → Gorkhey → Srikhola → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">2 Nights at Sandakphu (3,636 m)</span>
+                                <span class="pkg-highlight-pill">Dual Summit Sunrises</span>
+                                <span class="pkg-highlight-pill">Sandakphu–Phalut 21 km Ridge Walk</span>
+                                <span class="pkg-highlight-pill">Phalut Summit (3,600 m)</span>
+                                <span class="pkg-highlight-pill">Gorkhey Mountain Hamlet</span>
+                                <span class="pkg-highlight-pill">Srikhola River Trail</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Journey: Approx. 105 km | Drive: 5–6 hrs • Dhotrey Altitude: Approx. 2,590 m / 8,500 ft</div>
+                                        <div class="day-desc">
+                                            Journey: Approx. 105 km | Drive: 5–6 hrs Pickup from NJP Railway Station / Bagdogra Airport. Begin the scenic drive towards the Eastern Himalayas.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 30 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TUMLING</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6 km | Trekking Time: 3–4 hrs • Altitude: Dhotrey approx. 2,590 m → Tumling approx. 2,875–3,050 m</div>
+                                        <div class="day-desc">
+                                            Breakfast and begin the first day of the guided trek. Enter beautiful pine and conifer forests, with rhododendron appearing along the Walk along peaceful forest paths with gradual altitude gain.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TUMLING → KALIPOKHRI</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 12–13 km | Trekking Time: 5–7 hrs • Altitude: Tumling approx. 2,900 m → Kalipokhri approx. 3,180–3,200 m / 10,400–10,500 ft</div>
+                                        <div class="day-desc">
+                                            Early morning opportunity to enjoy the Tumling sunrise and Himalayan panorama. Breakfast and start the day's trek. Continue through the high mountain trail towards the Singalila National Park
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 31 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Kalipokhri</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | KALIPOKHRI → SANDAKPHU</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6 km | Trekking Time: 3–5 hrs • Altitude: Kalipokhri approx. 3,200 m → Sandakphu 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            Breakfast and begin the Sandakphu summit approach. Trek towards Bikeybhanjan, followed by the final ascent towards Sandakphu. The forest gradually gives way to more open high-altitude terrain and ridge
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | SANDAKPHU STAY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            SUNRISE • HIMALAYAN PANORAMA • ACCLIMATIZATION • REST Wake up early for the spectacular Sandakphu sunrise. On a clear morning, watch the first sunlight illuminate the Himalayan peaks.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 32 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 6 | SANDAKPHU → PHALUT</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 21 km | Trekking Time: 8–10 hrs • Altitude: Sandakphu 3,636 m → Phalut approx. 3,600 m / 11,811 ft</div>
+                                        <div class="day-desc">
+                                            THE GRAND SINGALILA RIDGE DAY Early breakfast and early morning trek start. This is the longest and most demanding trekking section of the itinerary.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 33 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Packed Lunch • Evening Snacks • Dinner<br>Overnight Stay: Phalut</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 7 | PHALUT STAY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 3,600 m / 11,811 ft</div>
+                                        <div class="day-desc">
+                                            PHALUT SUNRISE • REST • HIGH RIDGE EXPERIENCE Early morning opportunity to enjoy the Phalut sunrise. Enjoy the dramatic Himalayan panorama from the high ridge.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 34 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Phalut</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 8 | PHALUT → GORKHEY → SRIKHOLA</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 15 km Phalut → Gorkhey + approx. 12–14 km Gorkhey → Srikhola • Trekking Time: Approx. 8–10+ hrs, depending on trail conditions and group pace • Altitude: Phalut approx. 3,600 m → Gorkhey approx. 2,300–2,400 m → Srikhola approx.</div>
+                                        <div class="day-desc">
+                                            Trek: Approx. 15 km Phalut → Gorkhey + approx. 12–14 km Gorkhey → Srikhola HIGH RIDGE → HIMALAYAN FOREST → MOUNTAIN VILLAGES Early breakfast and begin the long descent from Phalut.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Packed Lunch • Evening Snacks • Dinner<br>Overnight Stay: Srikhola</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 9 | SRIKHOLA → NJP / BAGDOGRA</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Drive: Approx. 125–150 km | Journey Time: Approx. 5–7 hrs, depending on road conditions</div>
+                                        <div class="day-desc">
+                                            Drive: Approx. 125–150 km | Journey Time: Approx. 5–7 hrs, depending on road conditions Breakfast at the accommodation. Begin the scenic drive down through the lower Himalayan roads.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 35 ---</li>
+                                            <li>PAGE 36 ---</li>
+                                            <li>PAGE 37 ---</li>
+                                            <li>PAGE 38 ---</li>
+                                            <li>PAGE 39 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Departure</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Package: Grand Sandakphu & Phalut Trek — Extended Ridge Expedition (Plan 05) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>👑 Singalila Grand Expedition</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Grand Sandakphu & Phalut Trek — Extended Ridge Expedition" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">👑 Ultimate 10-Day Odyssey</span>
+                            <span class="pkg-duration">10 Days / 9 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Grand Sandakphu & Phalut Trek — Extended Ridge Expedition</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Immersive Himalayan Wilderness, Double Summit & Pine Valleys</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: Sandakphu 3,636 m | Phalut 3,600 m • Grade: Moderate to Challenging</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            The Ultimate 10-Day Singalila Odyssey with Extended Sandakphu & Phalut/Molley Stays
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹20,999/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tumling → Kalipokhri → Sandakphu (2N) → Phalut / Molley (2N) → Gorkhey → Srikhola → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">The 10-Day Grand Himalayan Odyssey</span>
+                                <span class="pkg-highlight-pill">2N Sandakphu + 2N Phalut / Molley</span>
+                                <span class="pkg-highlight-pill">Full Singalila National Park Traverse</span>
+                                <span class="pkg-highlight-pill">Panoramic 360° Everest & Kanchenjunga</span>
+                                <span class="pkg-highlight-pill">Gorkhey Valley & Mountain Homestays</span>
+                                <span class="pkg-highlight-pill">Srikhola & Sepi River Paths</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Journey: Approx. 105 km | Drive: 5–6 hrs • Dhotrey Altitude: Approx. 2,590 m / 8,500 ft</div>
+                                        <div class="day-desc">
+                                            Journey: Approx. 105 km | Drive: 5–6 hrs Pickup from NJP Railway Station / Bagdogra Airport. Begin the scenic journey towards the Eastern Himalayas.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 43 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TUMLING</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6 km | Trekking Time: 3–4 hrs • Altitude: Dhotrey approx. 2,590 m → Tumling approx. 2,875–3,050 m</div>
+                                        <div class="day-desc">
+                                            Breakfast and begin the first day of the guided trek. Enter beautiful pine and conifer forests, with rhododendron appearing along the Walk through peaceful forest paths with gradual altitude gain.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TUMLING → KALIPOKHRI</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 12–13 km | Trekking Time: 5–7 hrs • Altitude: Tumling approx. 2,900 m → Kalipokhri approx. 3,180–3,200 m / 10,400–10,500 ft</div>
+                                        <div class="day-desc">
+                                            Early morning opportunity to enjoy the Tumling sunrise and Himalayan panorama. Breakfast and begin the day's trek. Continue through the high mountain trail towards the Singalila National Park
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 44 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Kalipokhri</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | KALIPOKHRI → SANDAKPHU</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 6 km | Trekking Time: 3–5 hrs • Altitude: Kalipokhri approx. 3,200 m → Sandakphu 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            Breakfast and begin the Sandakphu summit approach. Trek towards Bikeybhanjan, followed by the final ascent towards Sandakphu. The forest gradually gives way to open high-altitude terrain and ridge landscapes.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 45 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | SANDAKPHU STAY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            SUNRISE • ACCLIMATIZATION • HIMALAYAN PANORAMA • REST Wake up early for the spectacular Sandakphu sunrise. On a clear morning, watch the first sunlight illuminate the Himalayan peaks.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 6 | SANDAKPHU → PHALUT / MOLLEY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 20–21 km | Trekking Time: 8–10 hrs • Altitude: Sandakphu 3,636 m → Phalut approx. 3,600 m / 11,811 ft</div>
+                                        <div class="day-desc">
+                                            THE GRAND SINGALILA RIDGE DAY Early breakfast and early morning trek start. This is one of the longest and most demanding trekking sections of the itinerary.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 46 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Packed Lunch • Evening Snacks • Dinner<br>Overnight Stay: Phalut / Molley</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 7 | PHALUT / MOLLEY STAY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Phalut approx. 3,600 m / 11,811 ft</div>
+                                        <div class="day-desc">
+                                            HIGH RIDGE • SUNRISE • REST • EXPLORATION Wake up early for the Phalut / Molley high-ridge sunrise, subject to weather and Enjoy the dramatic Himalayan panorama from the remote high-altitude landscape.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 47 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Phalut / Molley</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 8 | PHALUT / MOLLEY → GORKHEY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 14–15 km | Trekking Time: 4–6 hrs • Altitude: Approx. 3,600 m → Gorkhey approx. 2,300–2,400 m</div>
+                                        <div class="day-desc">
+                                            HIGH RIDGE → FOREST → HIMALAYAN VILLAGE Breakfast and begin the descent from the Phalut / Molley region. The landscape changes dramatically as altitude decreases.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Gorkhey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 9 | GORKHEY → SRIKHOLA</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trek: Approx. 14–16 km | Trekking Time: 4–6 hrs • Altitude: Gorkhey approx. 2,300–2,400 m → Srikhola approx. 1,800–2,100 m</div>
+                                        <div class="day-desc">
+                                            FOREST TRAILS • STREAMS • MOUNTAIN VILLAGES Breakfast and begin the final trekking section towards Srikhola. Continue through beautiful forest trails, streams and Himalayan settlements.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 48 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Srikhola</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 10 | SRIKHOLA → NJP / BAGDOGRA</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Drive: Approx. 125–150 km | Journey Time: Approx. 5–7 hrs, depending on road conditions</div>
+                                        <div class="day-desc">
+                                            Drive: Approx. 125–150 km | Journey Time: Approx. 5–7 hrs, depending on road conditions Breakfast at the accommodation. Begin the scenic drive down through the lower Himalayan roads.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 49 ---</li>
+                                            <li>PAGE 50 ---</li>
+                                            <li>PAGE 51 ---</li>
+                                            <li>PAGE 52 ---</li>
+                                            <li>PAGE 53 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Departure</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Package: Sandakphu Summit Touch — Land Rover Return (Plan 06) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>🚙 4×4 Land Rover Return Included</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Sandakphu Summit Touch — Land Rover Return" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">🚙 Trek Up + Land Rover Down</span>
+                            <span class="pkg-duration">5 Days / 4 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Sandakphu Summit Touch — Land Rover Return</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Smart Summit Climb with Iconic Vintage Land Rover Descent</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: 3,636 m / 11,930 ft • Grade: Moderate</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            Trek Up to the Summit, Return in Heritage 4×4 Land Rover
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹12,499/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tumling → Kalipokhri → Sandakphu Summit → 4×4 Land Rover → Manebhanjan → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Trek Up to Sandakphu (3,636 m)</span>
+                                <span class="pkg-highlight-pill">Heritage 4×4 Land Rover Return</span>
+                                <span class="pkg-highlight-pill">Kanchenjunga Sleeping Buddha View</span>
+                                <span class="pkg-highlight-pill">Kalipokhri Sacred Lake</span>
+                                <span class="pkg-highlight-pill">Singalila Forest Trails</span>
+                                <span class="pkg-highlight-pill">CallingHills Completion Certificate</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Road Journey: Approximately 95–105 km • Approx. Drive Time: 4–5 hours, depending on road and traffic conditions • Dhotrey Altitude: Approximately 2,542 m / 8,340 ft</div>
+                                        <div class="day-desc">
+                                            Your CallingHills Sandakphu Summit Touch journey begins with pickup from NJP Railway Station / Bagdogra Airport. Drive towards Dhotrey through the foothills and mountain roads of North Bengal.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 58 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TUMLING</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trekking Distance: Approximately 7 km • Approx. Trekking Time: 3–4 hours • Starting Altitude: Dhotrey — approx. 2,542 m / 8,340 ft</div>
+                                        <div class="day-desc">
+                                            After breakfast, begin the first trekking section from Dhotrey to Tumling. The trail climbs through forest landscapes towards the Singalila Ridge. The route includes sections of rhododendron and Himalayan forest.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 59 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TUMLING → GAIRIBAS → KALIPOKHRI</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trekking Distance: Approximately 13–15 km • Approx. Trekking Time: 6–7 hours • Starting Altitude: Tumling — approx. 2,920–2,970 m</div>
+                                        <div class="day-desc">
+                                            Lowest Major Point: Gairibas — approx. 2,621 m / 8,600 ft After an early breakfast, begin the longest trekking day of the itinerary. The trail descends from Tumling towards the Gairibas area and then climbs again through the
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 60 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Kalipokhri</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | KALIPOKHRI → BIKEYBHANJAN → SANDAKPHU</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Trekking Distance: Approximately 6 km • Approx. Trekking Time: 3–4 hours • Starting Altitude: Kalipokhri — approx. 3,170–3,186 m</div>
+                                        <div class="day-desc">
+                                            Bikeybhanjan: approximately 3,300+ m Highest Point: Sandakphu — 3,636 m / 11,930 ft After an early breakfast, begin the final ascent towards SANDAKPHU.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 61 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | SANDAKPHU → MANEBHANJAN BY LAND</div>
+                                        
+                                        <div class="day-desc">
+                                            Wake up early for the famous Sandakphu sunrise, weather permitting. After breakfast, board the pre-arranged Land Rover / authorised 4×4 vehicle for the return journey from Sandakphu towards Manebhanjan.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 62 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Tour Concludes (Drop at NJP / Bagdogra)</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>Vintage Heritage 4×4 Land Rover Return from Sandakphu to Manebhanjan</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Package: Sandakphu Summit Touch — Extended Summit Stay (Plan 07) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>🚙 4×4 Land Rover Return Included</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Sandakphu Summit Touch — Extended Summit Stay" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">🚙 2N Summit Stay + Land Rover</span>
+                            <span class="pkg-duration">6 Days / 5 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Sandakphu Summit Touch — Extended Summit Stay</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Dual Sunrise at Highest Peak with 4×4 Vintage Heritage Ride</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: 3,636 m / 11,930 ft • Grade: Moderate</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            Trek Up to Summit, Stay 2 Nights at 3,636m, Return by Heritage Land Rover
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹14,999/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tumling → Kalipokhri → Sandakphu (2N) → 4×4 Land Rover → Manebhanjan → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Trek Up + 2 Nights Summit Stay</span>
+                                <span class="pkg-highlight-pill">Two Epic High-Altitude Sunrises</span>
+                                <span class="pkg-highlight-pill">Heritage 4×4 Land Rover Return</span>
+                                <span class="pkg-highlight-pill">Panoramic Himalayan Skyline</span>
+                                <span class="pkg-highlight-pill">CallingHills Trek Kit & Certificate</span>
+                                <span class="pkg-highlight-pill">All Listed High-Altitude Meals</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 2,542 m / 8,340 ft</div>
+                                        <div class="day-desc">
+                                            Road Distance: Approximately 95–105 km Drive Time: Approximately 4–5 hours Begin the CallingHills Sandakphu Summit journey with pickup from NJP Railway Station /
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TUMLING</div>
+                                        
+                                        <div class="day-desc">
+                                            Trek Time: Approx. 3–4 hours Altitude Gain: Approx. 400–430 m After breakfast, begin trekking from Dhotrey to Tumling.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TUMLING → GAIRIBAS → KALIPOKHRI</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: Approx. 3,170–3,186 m / 10,400–10,450 ft</div>
+                                        <div class="day-desc">
+                                            Distance: Approx. 13–15 km Trek Time: Approx. 6–7 hours After breakfast, begin the longest trekking section of the itinerary.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 72 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Kalipokhri</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | KALIPOKHRI → BIKEYBHANJAN → SANDAKPHU</div>
+                                        <div style="font-size: 12px; color: var(--ch-green-deep); font-weight: 600; margin-bottom: 6px;">Altitude: 3,636 m / 11,930 ft</div>
+                                        <div class="day-desc">
+                                            Trek Time: Approx. 3–4 hours After an early breakfast, start the final ascent. The trail crosses Bikeybhanjan before the steep final climb to Sandakphu.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 73 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu — NIGHT 1</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | SANDAKPHU SUMMIT EXPERIENCE</div>
+                                        
+                                        <div class="day-desc">
+                                            Today is your additional summit day. Wake early for the Sandakphu sunrise, weather permitting. Enjoy the Himalayan panorama before breakfast.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Sandakphu — NIGHT 2</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 6 | SANDAKPHU → MANEBHANJAN BY LAND</div>
+                                        
+                                        <div class="day-desc">
+                                            Enjoy a final Himalayan morning at Sandakphu. After breakfast, board the pre-arranged Land Rover / authorised 4×4 vehicle. The vehicle descends from Sandakphu towards Manebhanjan through the rugged Singalila
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 74 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Tour Concludes (Drop at NJP / Bagdogra)</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>Vintage Heritage 4×4 Land Rover Return from Sandakphu to Manebhanjan</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Package: Singalila Ridge & Rangeet Majua Trek (Option A) (Plan 08) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>🍃 Offbeat Mountain Valley Homestay</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Singalila Ridge & Rangeet Majua Trek (Option A)" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">🍃 Offbeat Valley & Ridge</span>
+                            <span class="pkg-duration">5 Days / 4 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Singalila Ridge & Rangeet Majua Trek (Option A)</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Enchanting Pine Forests, Valley Streams & Organic Himalayan Homestays</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: Tonglu approx. 3,036 m / 9,960 ft • Grade: Easy to Moderate</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            Peaceful Himalayan Forest & Mountain Village Retreat with 2N Rangeet Majua
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹9,999/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tonglu / Tumling → Rangeet Majua (2N) → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Tonglu Ridge Viewpoint (3,036 m)</span>
+                                <span class="pkg-highlight-pill">Dhotrey Pine & Conifer Forest</span>
+                                <span class="pkg-highlight-pill">2 Nights at Rangeet Majua Hamlet</span>
+                                <span class="pkg-highlight-pill">Rushing Himalayan River Valley</span>
+                                <span class="pkg-highlight-pill">Authentic Local Village Homestays</span>
+                                <span class="pkg-highlight-pill">CallingHills Local Trek Guide</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        
+                                        <div class="day-desc">
+                                            Your CallingHills journey begins with pickup from NJP Railway Station / Bagdogra Airport and a scenic drive towards Dhotrey. As the plains gradually give way to the Darjeeling Himalaya, the landscape changes to tea
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TONGLU / TUMLING</div>
+                                        
+                                        <div class="day-desc">
+                                            After breakfast, begin the first major trekking section of the journey. The trail climbs gradually through beautiful Himalayan forest, with sections of rhododendron vegetation and mountain landscapes. The Dhotrey–Tonglu section is a well-known trekking
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tonglu / Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TONGLU / TUMLING → MEGHMA / CHITREY →</div>
+                                        
+                                        <div class="day-desc">
+                                            Wake up early to experience the mountain morning. Weather permitting, enjoy sunrise views from the Tonglu / Tumling area before breakfast. After breakfast, continue towards the Meghma–Chitrey section of the Singalila trekking
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 83 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Rangeet Majua</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | RANGEET MAJUA VILLAGE & LOCAL</div>
+                                        
+                                        <div class="day-desc">
+                                            Today is dedicated to experiencing the quieter side of the Himalayan countryside. After breakfast, explore the surrounding Rangeet Majua village area with your local trek team. Depending on weather, local conditions and the final accommodation location, the day may
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 84 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Rangeet Majua</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | RANGEET MAJUA → NJP / BAGDOGRA</div>
+                                        
+                                        <div class="day-desc">
+                                            After breakfast, check out from the homestay and begin the return journey towards NJP Railway Station / Bagdogra Airport. Enjoy the final mountain drive as the Himalayan landscape gradually changes towards the plains.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Tour Concludes (Drop at NJP / Bagdogra)</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Package: Singalila Ridge & Rangeet Majua Trek (Option B) (Plan 09) -->
+                <div class="pkg-card featured-card sandakphu-special-card" data-region="treks sandakphu">
+                    <div class="sandakphu-banner-ribbon">
+                        <span>🍃 Offbeat Mountain Valley Homestay</span>
+                    </div>
+                    <img src="./images/sandakphu.jpg" alt="Singalila Ridge & Rangeet Majua Trek (Option B)" class="pkg-image" loading="lazy">
+                    <div class="pkg-body">
+                        <div class="pkg-header-top">
+                            <span class="pkg-badge sandakphu-badge">🍃 Heritage Trail & Homestay</span>
+                            <span class="pkg-duration">5 Days / 4 Nights</span>
+                        </div>
+                        
+                        <h3 class="pkg-title">Singalila Ridge & Rangeet Majua Trek (Option B)</h3>
+                        
+                        <div class="pkg-meta">
+                            <span><strong>Theme:</strong> Monastery Trails, Himalayan Tea Country & Peaceful Village Immersion</span><br>
+                            <span class="sandakphu-altitude-pill">⛰️ Highest Point: Tonglu approx. 3,036 m / 9,960 ft • Grade: Easy to Moderate</span>
+                        </div>
+
+                        <div class="pkg-teaser">
+                            Heritage Ridge Walking via Chitrey / Meghma & Riverside Village Stay
+                        </div>
+
+                        <div class="pkg-price-tag">
+                            Starting @ ₹11,999/- <span style="font-size: 12px; font-weight: 500; color: var(--ch-text-mid);">*Per Person</span>
+                        </div>
+
+                        <div class="pkg-route">
+                            Route: NJP / Bagdogra → Dhotrey → Tonglu / Tumling → Chitrey / Meghma → Rangeet Majua → NJP / Bagdogra
+                        </div>
+
+                        <div class="pkg-highlights">
+                            <div class="pkg-highlights-title">Package Highlights</div>
+                            <div class="pkg-highlights-list">
+                                <span class="pkg-highlight-pill">Singalila Forest & Ridge Trail</span>
+                                <span class="pkg-highlight-pill">Tonglu / Tumling Panoramic Vistas</span>
+                                <span class="pkg-highlight-pill">Historic Chitrey & Meghma Trail</span>
+                                <span class="pkg-highlight-pill">Rangeet Majua Riverside Hamlet</span>
+                                <span class="pkg-highlight-pill">Organic Homestays & Village Life</span>
+                                <span class="pkg-highlight-pill">CallingHills Guide & Trek Kit</span>
+                            </div>
+                        </div>
+
+                        <div class="accordion">
+                            <button class="accordion-btn">
+                                <span>View Full Details &amp; Itinerary</span>
+                                <svg class="accordion-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="accordion-content-inner">
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 1 | NJP / BAGDOGRA → DHOTREY</div>
+                                        
+                                        <div class="day-desc">
+                                            Your CallingHills Himalayan trekking journey begins with pickup from NJP Railway Station / Drive towards Dhotrey through the scenic foothills and mountain roads. As the journey moves towards the Darjeeling Himalaya, the landscape gradually changes from the plains to tea
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 92 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Lunch • Evening Snacks • Dinner<br>Overnight Stay: Dhotrey</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 2 | DHOTREY → TONGLU / TUMLING</div>
+                                        
+                                        <div class="day-desc">
+                                            After breakfast, begin the first major trekking section of the journey from Dhotrey towards The trail passes through beautiful Himalayan forest landscapes with sections of rhododendron vegetation and mountain scenery.
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 93 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Tonglu / Tumling</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 3 | TONGLU / TUMLING → MEGHMA → CHITREY /</div>
+                                        
+                                        <div class="day-desc">
+                                            Wake up early to enjoy the mountain morning. Weather permitting, witness the beautiful sunrise and Himalayan views from the Tonglu / After breakfast, continue trekking towards the Meghma and Chitrey section of the Singalila
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 94 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Chitrey / Meghma</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 4 | CHITREY / MEGHMA → RANGEET MAJUA</div>
+                                        
+                                        <div class="day-desc">
+                                            After breakfast, begin the journey from Chitrey / Meghma towards Rangeet Majua. The route continues through the quieter Himalayan countryside, with forest paths, village landscapes and scenic mountain surroundings.
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast • Lunch • Evening Snacks • Dinner<br>Overnight Stay: Rangeet Majua</div>
+                                    </div>
+
+                                    <div class="day-plan">
+                                        <div class="day-title">Day 5 | RANGEET MAJUA → NJP / BAGDOGRA</div>
+                                        
+                                        <div class="day-desc">
+                                            After breakfast, check out from the homestay and begin the return journey towards NJP Railway Station / Bagdogra Airport. Enjoy the final scenic mountain drive as the landscape gradually changes from the Himalaya
+                                        <ul class="day-list" style="margin-top: 8px;">
+                                            <li>PAGE 95 ---</li>
+                                        </ul>
+                                        </div>
+                                        <div class="day-meals">Meals: Breakfast<br>Overnight Stay: Tour Concludes (Drop at NJP / Bagdogra)</div>
+                                    </div>
+
+                                    <div class="incl-excl">
+                                        <div>
+                                            <h4>✔ Inclusions</h4>
+                                            <ul>
+                                                <li>Experienced Local Trek Leader / Singalila Guide throughout</li>
+                                                <li>CallingHills Trek Kit & Route Formalities Included</li>
+                                                <li>CallingHills Trek Completion Certificate on successful summit</li>
+                                                <li>All Accommodations (Homestays / Mountain Lodges)</li>
+                                                <li>All Listed Meals (Nutritious Breakfast, Lunch, Evening Snacks & Dinner)</li>
+                                                <li>Pickup and Drop from NJP Railway Station / Bagdogra Airport</li>
+                                                <li>24×7 On-Ground Emergency Support & Route Coordination</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4>✖ Exclusions</h4>
+                                            <ul>
+                                                <li>Train / Flight Tickets to and from NJP / Bagdogra</li>
+                                                <li>Personal Porter / Horse / Yak (Available optional on request)</li>
+                                                <li>Personal Trekking Gear (Trekking poles, warm layers, trekking boots)</li>
+                                                <li>Camera, Video & Drone fees at Singalila Forest Checkposts</li>
+                                                <li>Personal medical expenses, travel insurance & evacuation</li>
+                                                <li>Any unexpected costs due to landslides, road blocks, or severe weather</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Policies & Highlights -->
+                                    <div class="policy-block" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed rgba(48, 109, 41, 0.2);">
+                                        <h4 style="color: var(--ch-green-deep); margin-bottom: 12px; font-family: var(--font-heading);">CallingHills High-Altitude Expedition Policies</h4>
+                                        <ul style="font-size: 13px; color: var(--ch-text-dark); line-height: 1.6; padding-left: 16px; margin-bottom: 16px;">
+                                            <li><strong>Certified Mountain Guides:</strong> Experienced local trek leader and guide accompany you throughout the Singalila Ridge.</li>
+                                            <li><strong>Trek Completion Certificate:</strong> Official CallingHills Summit Completion Certificate presented upon route completion.</li>
+                                            <li><strong>Forest Formalities:</strong> Required Singalila National Park permits and local entry formalities coordinated in advance.</li>
+                                            <li><strong>Safety & Weather Flexibility:</strong> Guides reserve the right to adapt the route for guest safety depending on mountain weather and ridge conditions.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pkg-ctas">
+                            <button class="btn-primary">Enquire Now &rarr;</button>
+                            <button class="btn-secondary"><svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                
 
                 <!-- Trek 2: Goecha La & Dzongri High Altitude Expedition -->
                 <div class="pkg-card featured-card" data-region="treks">
@@ -11299,7 +12815,7 @@ Nights</span>
                     const cardBlob = card.dataset.searchBlob;
 
                     // Region filter
-                    const matchesRegion = state.region === 'all' || cardRegion === state.region;
+                    const matchesRegion = state.region === 'all' || cardRegion === state.region || (cardRegion && cardRegion.split(' ').includes(state.region));
 
                     // Duration filter
                     let matchesDuration = true;

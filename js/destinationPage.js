@@ -156,8 +156,11 @@
                                 <img class="dr-place-card-img" src="${place.image || getGalleryImage(i + 1)}" alt="${place.name}" loading="lazy" onerror="this.parentElement.classList.add('img-placeholder'); this.style.display='none';">
                             </div>
                             <div class="dr-place-card-body">
-                                <h4>${place.name}</h4>
-                                <div class="place-arrow">
+                                <div style="flex: 1; min-width: 0;">
+                                    <h4 style="margin: 0; line-height: 1.25; font-size: 15px;">${place.name}</h4>
+                                    <div style="font-size: 11px; color: #6b7c69; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${place.famousFor ? place.famousFor.split(',')[0].trim() : (place.tagline || '')}</div>
+                                </div>
+                                <div class="place-arrow" style="margin-left: 8px;">
                                     ${getIcon('arrow')}
                                 </div>
                             </div>

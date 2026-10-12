@@ -1651,3 +1651,106 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* ─── All Places Explorer Section on Destinations Hub ─── */
+.dh-all-places {
+    padding: clamp(30px, 5vw, 60px) clamp(20px, 5vw, 80px);
+    background: rgba(255, 255, 255, 0.45);
+    border-top: 1px solid #e8e3da;
+    position: relative;
+    z-index: 2;
+}
+.dh-all-places-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.dh-places-search-box {
+    position: relative;
+    max-width: 360px;
+    width: 100%;
+}
+.dh-places-search-box input {
+    width: 100%;
+    background: #fff;
+    border: 1.5px solid #d4ddd2;
+    border-radius: 50px;
+    padding: 12px 20px 12px 42px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.dh-places-search-box input:focus {
+    border-color: var(--ch-green-deep);
+    box-shadow: 0 4px 14px rgba(13, 83, 14, 0.15);
+}
+.dh-places-search-box svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    stroke: #6b7c69;
+    pointer-events: none;
+}
+.dh-filter-tabs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.dh-filter-btn {
+    padding: 9px 18px;
+    border-radius: 40px;
+    border: 1.5px solid #d4ddd2;
+    background: #fff;
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    color: #2b3a2a;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.dh-filter-btn:hover {
+    border-color: var(--ch-green-deep);
+    color: var(--ch-green-deep);
+    transform: translateY(-2px);
+}
+.dh-filter-btn.active {
+    background: var(--ch-green-deep);
+    color: #fff;
+    border-color: var(--ch-green-deep);
+    box-shadow: 0 4px 14px rgba(13, 83, 14, 0.25);
+}
+.dh-place-region-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(13, 31, 23, 0.78);
+    backdrop-filter: blur(6px);
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+    pointer-events: none;
+    z-index: 2;
+}
+.dh-all-places-count {
+    font-family: var(--font-body);
+    font-size: 13px;
+    color: #6b7c69;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+

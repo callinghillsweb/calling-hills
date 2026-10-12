@@ -236,6 +236,17 @@
         color: var(--ch-green-deep);
         font-size: 20px;
     }
+
+    /* Newly Added Homestays Card Highlight */
+    .htl-card-new {
+        border: 1.5px solid rgba(212, 175, 55, 0.45) !important;
+        background: linear-gradient(180deg, #ffffff 0%, #fdfbf7 100%);
+    }
+    .htl-card-new:hover {
+        border-color: #d4af37 !important;
+        box-shadow: 0 12px 30px rgba(48, 109, 41, 0.12), 0 0 18px rgba(212, 175, 55, 0.22) !important;
+    }
+
     </style>
 </head>
 <body>
@@ -313,7 +324,7 @@
                         <circle cx="11" cy="11" r="8"></circle>
                         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
-                    <input type="text" id="htl-search-input" class="htl-search-input" placeholder="Search 55 stays (e.g. Kanchenjunga, Mall Road, Rishop, Homestay)..." autocomplete="off">
+                    <input type="text" id="htl-search-input" class="htl-search-input" placeholder="Search 76 stays (e.g. New 1, Kanchenjunga, Mall Road, Rishop, Homestay)..." autocomplete="off">
                     <button id="htl-clear-search" class="htl-clear-btn" aria-label="Clear search" style="display: none;">&times;</button>
                 </div>
                 
@@ -322,7 +333,7 @@
                     <div class="htl-dropdown-group">
                         <label for="htl-place-select" class="htl-dropdown-label">Place:</label>
                         <select id="htl-place-select" class="htl-select">
-                            <option value="all">All Locations (55)</option>
+                            <option value="all">All Locations (76)</option>
                         </select>
                     </div>
 
@@ -340,7 +351,7 @@
             </div>
 
             <div class="htl-meta-bar">
-                <span class="htl-results-count" id="htl-results-count">Showing <strong>55</strong> verified stays</span>
+                <span class="htl-results-count" id="htl-results-count">Showing <strong>76</strong> verified stays</span>
                 <button class="htl-reset-btn" id="htl-reset-btn" style="display: none;">Reset Filters</button>
             </div>
         </div>
@@ -503,11 +514,34 @@
             { id: 53, name: "Tinchulay Tinchulay Kanchanjunga View Premium tea garden Homestay", price: "₹2199/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchenjunga View", distance: "Darjeeling", premium: true, region: "Darjeeling", subRegion: "Darjeeling", imageCount: 7, ext: 'jpg' },
             { id: 54, name: "Lamahatta Lamahatta Kanchanjunga View Premium Homestay", price: "₹1799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchenjunga View", distance: "Darjeeling", premium: true, region: "Darjeeling", subRegion: "Darjeeling", imageCount: 11, ext: 'jpg' },
             { id: 55, name: "Lamahatta Lamahatta Kanchanjunga Sunrise View Premium Homestay", price: "₹1799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchenjunga View", distance: "Darjeeling", premium: true, region: "Darjeeling", subRegion: "Darjeeling", imageCount: 12, ext: 'jpg' },
+
+            // ── Handpicked Sikkim & Kalimpong Homestays (21 Stays) ──
+            { id: 56, name: "Aritar Premium Kanchanjunga view Homestay", price: "₹1,599/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchanjunga View", distance: "Aritar, East Sikkim", premium: true, region: "Sikkim", subRegion: "East Sikkim", folder: "hotel-new-1", imageCount: 9, ext: "jpg" },
+            { id: 57, name: "Ravangla Premium Kanchanjunga view Homestay", price: "₹1,799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchanjunga View", distance: "Ravangla, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-2", imageCount: 11, ext: "jpg" },
+            { id: 58, name: "Ravangla Premium Wooden Eco Homestay", price: "₹1,599/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Wooden Eco Mountain View", distance: "Ravangla, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-3", imageCount: 9, ext: "jpg" },
+            { id: 59, name: "Ravangla Premium Buddha Kanchanjunga view Homestay", price: "₹1,899/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Buddha Park & Kanchanjunga View", distance: "Ravangla, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-4", imageCount: 9, ext: "jpg" },
+            { id: 60, name: "Namchi Premium view Homestay", price: "₹1,599/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Valley & Mountain View", distance: "Namchi, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-5", imageCount: 13, ext: "jpg" },
+            { id: 61, name: "Namchi Premium view MallRoad Homestay", price: "₹1,899/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Central Mall Road & Valley View", distance: "Mall Road, Namchi, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-6", imageCount: 15, ext: "jpg" },
+            { id: 62, name: "Namchi Premium Homestay", price: "₹1,399/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Premium Hill View", distance: "Namchi, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-7", imageCount: 8, ext: "jpg" },
+            { id: 63, name: "Temi Tea Garden Premium view Homestay", price: "₹1,599/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Temi Tea Garden View", distance: "Temi Tea Estate, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-8", imageCount: 7, ext: "jpg" },
+            { id: 64, name: "Temi Tea Garden Premium Kanchenjunga view Homestay", price: "₹2,699/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchenjunga & Tea Estate View", distance: "Temi Tea Estate, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-9", imageCount: 18, ext: "jpg" },
+            { id: 65, name: "Borong Premium view Homestay", price: "₹1,799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Wilderness & Valley View", distance: "Borong, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-10", imageCount: 13, ext: "jpg" },
+            { id: 66, name: "Borong Premium Kanchenjunga view Homestay", price: "₹1,499/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchenjunga Range View", distance: "Borong, South Sikkim", premium: true, region: "Sikkim", subRegion: "South Sikkim", folder: "hotel-new-11", imageCount: 11, ext: "jpg" },
+            { id: 67, name: "Yuksom Premium view Homestay", price: "₹1,499/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Himalayan Foothill View", distance: "Yuksom, Sikkim", premium: true, region: "Sikkim", subRegion: "West/South Sikkim", folder: "hotel-new-12", imageCount: 11, ext: "jpg" },
+            { id: 68, name: "Rishop Neora Valley Kanchanjunga View Resort", price: "₹1,899/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Neora Valley & Kanchanjunga View", distance: "Rishop, Kalimpong", premium: true, region: "Kalimpong", subRegion: "Rishop", folder: "hotel-new-13", imageCount: 13, ext: "jpg" },
+            { id: 69, name: "Yuksom Premium Homestay", price: "₹1,799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Historic Capital View", distance: "Yuksom, Sikkim", premium: true, region: "Sikkim", subRegion: "West/South Sikkim", folder: "hotel-new-14", imageCount: 7, ext: "jpg" },
+            { id: 70, name: "Rishop Wooden Eco Forest Homestay", price: "₹1,799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Pine Forest & Mountain View", distance: "Rishop, Kalimpong", premium: true, region: "Kalimpong", subRegion: "Rishop", folder: "hotel-new-15", imageCount: 13, ext: "jpg" },
+            { id: 71, name: "Phadamchen Premium Kanchanjunga view Homestay", price: "₹1,399/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchanjunga & Silk Route View", distance: "Phadamchen, East Sikkim", premium: true, region: "Sikkim", subRegion: "East Sikkim", folder: "hotel-new-16", imageCount: 10, ext: "jpg" },
+            { id: 72, name: "Kolakham Neora Valley Forest View Homestay", price: "₹1,899/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Neora Valley Forest View", distance: "Kolakham, Kalimpong", premium: true, region: "Kalimpong", subRegion: "Kolakham", folder: "hotel-new-17", imageCount: 13, ext: "jpg" },
+            { id: 73, name: "Phadamchen Kanchanjunga view Premium Homestay", price: "₹1,799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Kanchanjunga View", distance: "Phadamchen, East Sikkim", premium: true, region: "Sikkim", subRegion: "East Sikkim", folder: "hotel-new-18", imageCount: 10, ext: "jpg" },
+            { id: 74, name: "Aritar Premium view Homestay", price: "₹1,799/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Lampokhari Lake & Mountain View", distance: "Aritar, East Sikkim", premium: true, region: "Sikkim", subRegion: "East Sikkim", folder: "hotel-new-19", imageCount: 14, ext: "jpg" },
+            { id: 75, name: "Zuluk Premium Homestay", price: "₹1,399/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Historic Silk Route View", distance: "Zuluk, East Sikkim", premium: true, region: "Sikkim", subRegion: "East Sikkim", folder: "hotel-new-20", imageCount: 10, ext: "jpg" },
+            { id: 76, name: "Zuluk Premium view Homestay", price: "₹1,399/-", meals: "Breakfast + Lunch + Evening Snacks + Dinner", view: "Zig-Zag Road & Mountain View", distance: "Zuluk, East Sikkim", premium: true, region: "Sikkim", subRegion: "East Sikkim", folder: "hotel-new-21", imageCount: 10, ext: "jpg" },
         ];
 
         // Build media list from known image counts (files named "image (N).jpg")
         function getMedia(hotel) {
-            const basePath = `./hotels/hotel-${hotel.id}/`;
+            const basePath = hotel.folder ? `./hotels/${hotel.folder}/` : `./hotels/hotel-${hotel.id}/`;
             const media = [];
             const ext = hotel.ext || 'jpg';
             for (let i = 1; i <= hotel.imageCount; i++) {
@@ -588,7 +622,7 @@
         // Place & Price Helpers
         function getPlace(h) {
             const combined = `${h.name} ${h.distance} ${h.subRegion || ''}`.toLowerCase();
-            if (combined.includes('mall road')) return 'Mall Road (Darjeeling)';
+            if (combined.includes('mall road') && !combined.includes('namchi')) return 'Mall Road (Darjeeling)';
             if (combined.includes('lamahatta')) return 'Lamahatta';
             if (combined.includes('tinchulay') || combined.includes('tinchuley')) return 'Tinchuley';
             if (combined.includes('dawaipani')) return 'Dawaipani';
@@ -613,7 +647,16 @@
             if (combined.includes('tukvar')) return 'Tukvar';
             if (combined.includes('majua')) return 'Majua';
             if (combined.includes('daragaon')) return 'Daragaon';
+            if (combined.includes('aritar')) return 'Aritar (East Sikkim)';
+            if (combined.includes('ravangla')) return 'Ravangla (South Sikkim)';
+            if (combined.includes('namchi')) return 'Namchi (South Sikkim)';
+            if (combined.includes('temi')) return 'Temi Tea Garden (South Sikkim)';
+            if (combined.includes('borong')) return 'Borong (South Sikkim)';
+            if (combined.includes('yuksom')) return 'Yuksom (Sikkim)';
+            if (combined.includes('phadamchen')) return 'Phadamchen (East Sikkim)';
+            if (combined.includes('zuluk')) return 'Zuluk (East Sikkim)';
             if (h.region === 'Kalimpong') return 'Kalimpong';
+            if (h.region === 'Sikkim') return 'Sikkim';
             return 'Darjeeling Town';
         }
 
@@ -660,7 +703,7 @@
                 regionCounts[r] = (regionCounts[r] || 0) + 1;
             });
 
-            const regionTabsList = ['All Stays', 'Darjeeling', 'Kalimpong'];
+            const regionTabsList = ['All Stays', 'Darjeeling', 'Kalimpong', 'Sikkim'];
             if (tabsContainer) {
                 tabsContainer.innerHTML = regionTabsList.map((r, i) => 
                     `<button class="region-tab ${i === 0 ? 'active' : ''}" data-region="${r === 'All Stays' ? 'all' : r}">
@@ -747,8 +790,10 @@
                         grouped[p].push(h);
                     });
 
-                    let html = '';
-                    for (const [placeName, hotels] of Object.entries(grouped)) {
+                                        let html = '';
+                    const placeKeys = Object.keys(grouped).sort((a, b) => a.localeCompare(b));
+                    for (const placeName of placeKeys) {
+                        const hotels = grouped[placeName];
                         html += `
                             <div class="subregion-section">
                                 <h2 class="subregion-header">${placeName} (${hotels.length})</h2>
