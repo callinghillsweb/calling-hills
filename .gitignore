@@ -44,3 +44,10 @@ scratch/
 packages pdf/
 *.pdf
 
+# Video Files
+*.mp4
+*.mov
+*.avi
+reviews image and video/videos/
+
+
