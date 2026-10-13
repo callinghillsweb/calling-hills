@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -251,49 +251,416 @@
             height: 16px;
         }
 
-        /* CTA Section */
-        .reviews-cta {
-            background: var(--ch-forest-deep);
-            padding: 80px 20px;
-            text-align: center;
+        /* ═══════════════════════════════════════════
+           CUSTOMER MOMENTS REAL IMAGES CAROUSEL
+        ═══════════════════════════════════════════ */
+        .customer-moments-section {
+            background: linear-gradient(180deg, #091711 0%, #0d1f17 50%, #081410 100%);
+            padding: 90px 20px 100px;
             position: relative;
+            overflow: hidden;
+            border-top: 1px solid rgba(200, 169, 110, 0.15);
         }
 
-        .reviews-cta h2 {
+        .customer-moments-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: url('./topo-bg.png');
+            background-size: 500px;
+            background-repeat: repeat;
+            opacity: 0.12;
+            pointer-events: none;
+        }
+
+        .customer-moments-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .customer-moments-header {
+            text-align: center;
+            max-width: 760px;
+            margin: 0 auto 48px;
+        }
+
+        .customer-moments-header .section-tag {
+            color: var(--ch-gold);
+            font-size: 11px;
+            letter-spacing: 0.25em;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .customer-moments-header h2 {
             font-family: var(--font-heading);
-            font-size: clamp(28px, 4vw, 44px);
+            font-size: clamp(30px, 4.5vw, 48px);
             font-weight: 800;
             color: var(--ch-mist);
+            line-height: 1.15;
             margin-bottom: 16px;
         }
 
-        .reviews-cta p {
+        .customer-moments-header p {
             font-family: var(--font-body);
-            font-size: 18px;
+            font-size: 16px;
+            line-height: 1.6;
             color: var(--ch-mist-dim);
-            margin-bottom: 32px;
-            max-width: 500px;
-            margin-left: auto;
-            margin-right: auto;
         }
 
-        .reviews-cta-btn {
-            display: inline-block;
-            padding: 16px 40px;
+        /* Carousel Wrapper */
+        .moments-carousel-wrapper {
+            position: relative;
+            padding: 10px 0 20px;
+        }
+
+        .moments-track {
+            display: flex;
+            gap: 24px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 16px 12px 28px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--ch-gold) rgba(255, 255, 255, 0.05);
+            -webkit-overflow-scrolling: touch;
+            cursor: grab;
+            user-select: none;
+        }
+
+        .moments-track:active {
+            cursor: grabbing;
+        }
+
+        .moments-track::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .moments-track::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+
+        .moments-track::-webkit-scrollbar-thumb {
             background: var(--ch-gold);
-            color: var(--ch-forest-deep);
+            border-radius: 10px;
+        }
+
+        /* Moment Card */
+        .moment-card {
+            flex: 0 0 310px;
+            background: rgba(18, 38, 29, 0.7);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border: 1px solid rgba(200, 169, 110, 0.22);
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+        }
+
+        .moment-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(200, 169, 110, 0.6);
+            box-shadow: 0 20px 48px rgba(0, 0, 0, 0.5), 0 0 24px rgba(200, 169, 110, 0.2);
+        }
+
+        .moment-card-img-wrap {
+            position: relative;
+            width: 100%;
+            height: 330px;
+            overflow: hidden;
+            background: #081410;
+        }
+
+        .moment-card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            display: block;
+        }
+
+        .moment-card:hover .moment-card-img {
+            transform: scale(1.06);
+        }
+
+        /* Badges Overlay */
+        .moment-badge-verified {
+            position: absolute;
+            top: 14px;
+            left: 14px;
+            background: rgba(13, 83, 14, 0.92);
+            backdrop-filter: blur(8px);
+            color: #fff;
+            font-family: var(--font-body);
+            font-size: 11px;
+            font-weight: 700;
+            padding: 5px 11px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .moment-badge-gift {
+            position: absolute;
+            bottom: 14px;
+            right: 14px;
+            background: rgba(13, 31, 23, 0.9);
+            border: 1px solid rgba(200, 169, 110, 0.45);
+            backdrop-filter: blur(8px);
+            color: var(--ch-gold-light);
+            font-family: var(--font-body);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Card Info */
+        .moment-card-body {
+            padding: 18px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            background: rgba(13, 31, 23, 0.45);
+        }
+
+        .moment-location {
+            font-family: var(--font-body);
+            font-size: 11.5px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--ch-gold);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .moment-title {
             font-family: var(--font-heading);
             font-size: 16px;
             font-weight: 700;
-            border-radius: 12px;
-            text-decoration: none;
-            transition: all 0.3s ease;
+            color: var(--ch-mist);
+            line-height: 1.3;
         }
 
-        .reviews-cta-btn:hover {
-            background: var(--ch-gold-light);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(200, 169, 110, 0.3);
+        .moment-stars {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            color: #f5c518;
+            font-size: 12px;
+        }
+
+        .moment-stars span {
+            color: var(--ch-mist-dim);
+            font-size: 12px;
+            margin-left: 4px;
+            font-family: var(--font-body);
+        }
+
+        /* Navigation Arrows */
+        .moments-nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: rgba(13, 31, 23, 0.88);
+            backdrop-filter: blur(12px);
+            border: 1.5px solid rgba(200, 169, 110, 0.45);
+            color: var(--ch-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 5;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .moments-nav-btn:hover {
+            background: var(--ch-gold);
+            color: var(--ch-forest-deep);
+            border-color: var(--ch-gold);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .moments-prev {
+            left: -20px;
+        }
+
+        .moments-next {
+            right: -20px;
+        }
+
+        /* Trust Bar */
+        .moments-trust-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: clamp(16px, 3vw, 40px);
+            margin-top: 40px;
+            flex-wrap: wrap;
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(200, 169, 110, 0.2);
+            padding: 10px 18px;
+            border-radius: 100px;
+            font-family: var(--font-body);
+            font-size: 13.5px;
+            font-weight: 500;
+            color: var(--ch-mist);
+        }
+
+        .trust-badge .trust-icon {
+            font-size: 18px;
+        }
+
+        /* Lightbox Modal */
+        .moment-lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 1000;
+            background: rgba(8, 20, 16, 0.94);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.35s ease;
+            padding: 24px;
+        }
+
+        .moment-lightbox.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .moment-lightbox-dialog {
+            max-width: 920px;
+            width: 100%;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        .moment-lightbox-img {
+            max-width: 100%;
+            max-height: 75vh;
+            object-fit: contain;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+            border: 1px solid rgba(200, 169, 110, 0.3);
+        }
+
+        .moment-lightbox-caption {
+            margin-top: 16px;
+            text-align: center;
+            color: var(--ch-mist);
+            font-family: var(--font-heading);
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .moment-lightbox-close {
+            position: absolute;
+            top: -46px;
+            right: 0;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .moment-lightbox-close:hover {
+            background: var(--ch-gold);
+            color: var(--ch-forest-deep);
+        }
+
+        .moment-lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(13, 31, 23, 0.85);
+            border: 1px solid rgba(200, 169, 110, 0.4);
+            color: var(--ch-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .moment-lightbox-nav:hover {
+            background: var(--ch-gold);
+            color: var(--ch-forest-deep);
+        }
+
+        .moment-lightbox-prev {
+            left: -60px;
+        }
+
+        .moment-lightbox-next {
+            right: -60px;
+        }
+
+        @media (max-width: 900px) {
+            .moments-nav-btn {
+                display: none;
+            }
+            .moment-card {
+                flex: 0 0 270px;
+            }
+            .moment-card-img-wrap {
+                height: 290px;
+            }
+            .moment-lightbox-prev {
+                left: 10px;
+            }
+            .moment-lightbox-next {
+                right: 10px;
+            }
         }
 
         /* Responsive */
@@ -421,14 +788,348 @@
         </div>
     </section>
 
-    <!-- ═══════════ CTA ═══════════ -->
-    <section class="reviews-cta">
-        <h2>Ready to Create Your Own Story?</h2>
-        <p>Join 500+ happy travellers and let us craft your perfect Himalayan journey.</p>
-        <a href="./contact.html" class="reviews-cta-btn">Plan My Trip &rarr;</a>
+    <!-- ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  REAL CUSTOMER MOMENTS CAROUSEL ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  -->
+    <section class="customer-moments-section" id="customer-moments">
+        <div class="customer-moments-container">
+            <div class="customer-moments-header">
+                <div class="section-tag">✦ REAL HIMALAYAN STORIES</div>
+                <h2>Smiles of CallingHills</h2>
+                <p>Real travellers, genuine smiles, and unforgettable memories captured across Darjeeling, Kalimpong, Dooars & Sikkim.</p>
+            </div>
+
+            <div class="moments-carousel-wrapper">
+                <button class="moments-nav-btn moments-prev" id="moments-prev" aria-label="Previous customer photo">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+
+                <div class="moments-track" id="moments-track">
+                    <!-- Card 1 -->
+                    <div class="moment-card" data-idx="0" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0278.jpg" data-caption="Gangtok & Sikkim Tour • CallingHills Welcome Kit 🎁">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0278.jpg" alt="CallingHills Happy Guest in Sikkim" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Gangtok, Sikkim
+                            </div>
+                            <div class="moment-title">Himalayan Welcome & Homestay Comfort</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="moment-card" data-idx="1" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0279.jpg" data-caption="Darjeeling Queen of Hills • Warm Hospitality & Scenic Views">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0279.jpg" alt="CallingHills Guest in Darjeeling" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Darjeeling Hills
+                            </div>
+                            <div class="moment-title">Tea Estate Mornings & Mountain Air</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="moment-card" data-idx="2" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0280.jpg" data-caption="Kalimpong & Lava Retreat • Peaceful Mountain Stay">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0280.jpg" alt="CallingHills Guest in Kalimpong" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Kalimpong & Lava
+                            </div>
+                            <div class="moment-title">Pine Forests & Serene Homestay</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="moment-card" data-idx="3" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0281.jpg" data-caption="Dooars Wilderness & Safari • Family Adventure">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0281.jpg" alt="CallingHills Guest in Dooars" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Dooars Safari
+                            </div>
+                            <div class="moment-title">Jungle Trails & Wildlife Encounters</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="moment-card" data-idx="4" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0283.jpg" data-caption="Pelling & West Sikkim • Kanchenjunga Vistas">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0283.jpg" alt="CallingHills Guest in Pelling" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Pelling, West Sikkim
+                            </div>
+                            <div class="moment-title">Golden Sunrise on Snow Peaks</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="moment-card" data-idx="5" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0285.jpg" data-caption="North Sikkim Expedition • Yumthang & Lachung">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0285.jpg" alt="CallingHills Guest in North Sikkim" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                North Sikkim
+                            </div>
+                            <div class="moment-title">Valley of Flowers & Mountain Passes</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 7 -->
+                    <div class="moment-card" data-idx="6" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0286.jpg" data-caption="Mirik Lake & Kurseong • Pine Ridges">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0286.jpg" alt="CallingHills Guest in Mirik" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Mirik & Kurseong
+                            </div>
+                            <div class="moment-title">Tranquil Lakes & Foggy Forests</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 -->
+                    <div class="moment-card" data-idx="7" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0289.jpg" data-caption="East Sikkim • Tsomgo Lake & Nathula Road">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0289.jpg" alt="CallingHills Guest in East Sikkim" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                East Sikkim
+                            </div>
+                            <div class="moment-title">Glacial Lakes & Rugged High Altitudes</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 9 -->
+                    <div class="moment-card" data-idx="8" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0290.jpg" data-caption="Ravangla & Namchi • South Sikkim Heritage">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0290.jpg" alt="CallingHills Guest in Ravangla" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Ravangla, South Sikkim
+                            </div>
+                            <div class="moment-title">Buddha Park & Spiritual Sanctuaries</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 10 -->
+                    <div class="moment-card" data-idx="9" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0291.jpg" data-caption="Rishop & Lolegaon • Canopy Walks & Peaks">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0291.jpg" alt="CallingHills Guest in Rishop" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Rishop & Lolegaon
+                            </div>
+                            <div class="moment-title">Panoramic Ridges & Stargazing Nights</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 11 -->
+                    <div class="moment-card" data-idx="10" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0292.jpg" data-caption="Lataguri & Gorumara • Tea Gardens & Jungle Stays">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0292.jpg" alt="CallingHills Guest in Lataguri" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Lataguri & Gorumara
+                            </div>
+                            <div class="moment-title">Tea Estate Cottages & Jungle Echoes</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 12 -->
+                    <div class="moment-card" data-idx="11" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0293.jpg" data-caption="Yuksom Heritage • Ancient Capital of Sikkim">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0293.jpg" alt="CallingHills Guest in Yuksom" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Yuksom, West Sikkim
+                            </div>
+                            <div class="moment-title">Historic Monasteries & Forest Treks</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 13 -->
+                    <div class="moment-card" data-idx="12" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0294.jpg" data-caption="Old Silk Route & Zuluk • Loops & Sunrise">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0294.jpg" alt="CallingHills Guest on Old Silk Route" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Old Silk Route, Zuluk
+                            </div>
+                            <div class="moment-title">Cloud Valleys & Legendary Mountain Bends</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Card 14 -->
+                    <div class="moment-card" data-idx="13" data-src="./reviews%20image%20and%20video/images/IMG-20261012-WA0295.jpg" data-caption="CallingHills Signature Holiday • Cherished Memories">
+                        <div class="moment-card-img-wrap">
+                            <img src="./reviews%20image%20and%20video/images/IMG-20261012-WA0295.jpg" alt="CallingHills Signature Travellers" class="moment-card-img" loading="lazy">
+                            <span class="moment-badge-verified">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                                Verified Guest
+                            </span>
+                            <span class="moment-badge-gift">Gift Kit 🎁</span>
+                        </div>
+                        <div class="moment-card-body">
+                            <div class="moment-location">
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                CallingHills Signature Tour
+                            </div>
+                            <div class="moment-title">Heartfelt Smiles & Lifelong Memories</div>
+                            <div class="moment-stars">★★★★★ <span>5.0 • Verified Trip</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="moments-nav-btn moments-next" id="moments-next" aria-label="Next customer photo">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+
+            <!-- Trust Bar -->
+            <div class="moments-trust-bar">
+                <div class="trust-badge">
+                    <span class="trust-icon">✨</span>
+                    <span>500+ Delighted Guests</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="trust-icon">🛡️</span>
+                    <span>100% Verified Real Travellers</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="trust-icon">🎁</span>
+                    <span>Complimentary CallingHills Gift Kits</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="trust-icon">⭐</span>
+                    <span>4.9 / 5 Google Review Score</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- ═══════════ FOOTER ═══════════ -->
+    <!-- ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  LIGHTBOX MODAL ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  -->
+    <div class="moment-lightbox" id="moment-lightbox" role="dialog" aria-modal="true" aria-label="Customer photo enlarged view">
+        <div class="moment-lightbox-dialog">
+            <button class="moment-lightbox-close" id="lightbox-close" aria-label="Close dialog">&times;</button>
+            <button class="moment-lightbox-nav moment-lightbox-prev" id="lightbox-prev" aria-label="Previous photo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <img src="" alt="Enlarged guest review photo" class="moment-lightbox-img" id="lightbox-img">
+            <button class="moment-lightbox-nav moment-lightbox-next" id="lightbox-next" aria-label="Next photo">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+            <div class="moment-lightbox-caption" id="lightbox-caption">
+                <span>Verified Traveller Moment</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  FOOTER ═ ═ ═ ═ ═ ═ ═ ═ ═ ═ ═  -->
     <footer class="footer">
         <div class="footer-watermark">CallingHills</div>
         <div class="footer-container">
@@ -833,6 +1534,136 @@
     renderColumn(document.getElementById('col-1'), col1Data);
     renderColumn(document.getElementById('col-2'), col2Data);
     renderColumn(document.getElementById('col-3'), col3Data);
+    
+    // ══════════════════════════════════════════════════════
+    // CUSTOMER MOMENTS CAROUSEL & LIGHTBOX
+    // ══════════════════════════════════════════════════════
+    const momentsTrack = document.getElementById('moments-track');
+    const momentsPrev = document.getElementById('moments-prev');
+    const momentsNext = document.getElementById('moments-next');
+    const momentCards = document.querySelectorAll('.moment-card');
+    const lightbox = document.getElementById('moment-lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const lightboxPrev = document.getElementById('lightbox-prev');
+    const lightboxNext = document.getElementById('lightbox-next');
+
+    // Carousel buttons
+    if (momentsPrev && momentsNext && momentsTrack) {
+        momentsPrev.addEventListener('click', () => {
+            momentsTrack.scrollBy({ left: -340, behavior: 'smooth' });
+        });
+        momentsNext.addEventListener('click', () => {
+            momentsTrack.scrollBy({ left: 340, behavior: 'smooth' });
+        });
+    }
+
+    // Drag-to-scroll support for moments track
+    if (momentsTrack) {
+        let isDown = false;
+        let startX, scrollLeft, hasMoved = false;
+
+        momentsTrack.addEventListener('mousedown', (e) => {
+            isDown = true;
+            hasMoved = false;
+            startX = e.pageX - momentsTrack.offsetLeft;
+            scrollLeft = momentsTrack.scrollLeft;
+        });
+
+        momentsTrack.addEventListener('mouseleave', () => {
+            isDown = false;
+        });
+
+        momentsTrack.addEventListener('mouseup', () => {
+            isDown = false;
+        });
+
+        momentsTrack.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - momentsTrack.offsetLeft;
+            const walk = (x - startX) * 1.5;
+            if (Math.abs(walk) > 5) hasMoved = true;
+            momentsTrack.scrollLeft = scrollLeft - walk;
+        });
+    }
+
+    // Lightbox Data & Logic
+    const momentsData = Array.from(momentCards).map(card => ({
+        src: card.getAttribute('data-src'),
+        caption: card.getAttribute('data-caption')
+    }));
+
+    let currentLightboxIdx = 0;
+
+    function openLightbox(idx) {
+        currentLightboxIdx = idx;
+        const item = momentsData[idx];
+        if (!item) return;
+        lightboxImg.src = item.src;
+        lightboxCaption.innerHTML = `<span>${item.caption}</span>`;
+        lightbox.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function showPrevLightbox() {
+        currentLightboxIdx = (currentLightboxIdx - 1 + momentsData.length) % momentsData.length;
+        openLightbox(currentLightboxIdx);
+    }
+
+    function showNextLightbox() {
+        currentLightboxIdx = (currentLightboxIdx + 1) % momentsData.length;
+        openLightbox(currentLightboxIdx);
+    }
+
+    // Attach click to cards
+    momentCards.forEach((card, idx) => {
+        card.addEventListener('click', () => {
+            openLightbox(idx);
+        });
+    });
+
+    if (lightboxClose) {
+        lightboxClose.addEventListener('click', closeLightbox);
+    }
+
+    if (lightboxPrev) {
+        lightboxPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showPrevLightbox();
+        });
+    }
+
+    if (lightboxNext) {
+        lightboxNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showNextLightbox();
+        });
+    }
+
+    // Click backdrop to close
+    if (lightbox) {
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                closeLightbox();
+            }
+        });
+    }
+
+    // Keyboard support (Escape, Left, Right)
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox || !lightbox.classList.contains('active')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') showPrevLightbox();
+        if (e.key === 'ArrowRight') showNextLightbox();
+    });
+
     </script>
 </body>
 </html>

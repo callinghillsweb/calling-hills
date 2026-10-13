@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/main.css?v=3">
+    <link rel="stylesheet" href="./css/main.css?v=6">
     <link rel="icon" type="image/png" href="./logo up.jpeg">
 
     <style>
@@ -552,7 +552,6 @@
 
         function createCarousel(media, hotelId) {
             if (media.length === 0) {
-                // Placeholder
                 return `<div class="htl-carousel" data-hotel="${hotelId}">
                     <div class="htl-slides">
                         <div class="htl-slide htl-slide-active">
@@ -596,6 +595,7 @@
 
         function buildCard(hotel, media) {
             const premiumTag = hotel.premium ? '<div class="htl-premium">★ Premium</div>' : '';
+            const stayIdTag = `<span class="htl-stay-id">Stay ID: ${hotel.stayId || hotel.code || ('CH' + (hotel.region === 'Kalimpong' ? 'KP' : hotel.region === 'Sikkim' ? 'SK' : 'DJ') + '-H' + String(hotel.id).padStart(3, '0'))}</span>`;
 
             return `<div class="htl-card ${hotel.premium ? 'htl-card-premium' : ''}" id="hotel-${hotel.id}">
                 ${premiumTag}
@@ -607,19 +607,21 @@
                     </div>
                 </div>
                 <div class="htl-card-info">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                        ${stayIdTag}
+                    </div>
                     <h3 class="htl-name">${hotel.name}</h3>
                     <div class="htl-features">
                         <span class="htl-feat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>${hotel.meals}</span>
                         <span class="htl-feat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>${hotel.view}</span>
-                        <span class="htl-feat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>${hotel.distance}</span>
+                        <span class="htl-feat"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="12" r="3"/></svg>${hotel.distance}</span>
                     </div>
-                    <a href="./contact.html" class="htl-btn">Enquire Now →</a>
+                    <a href="./contact.html?type=hotel&id=${encodeURIComponent(hotel.stayId || hotel.code || '')}&name=${encodeURIComponent(hotel.name)}" class="htl-btn">Enquire Now →</a>
                 </div>
             </div>`;
         }
 
-        
-        // Place & Price Helpers
+                // Place & Price Helpers
         function getPlace(h) {
             const combined = `${h.name} ${h.distance} ${h.subRegion || ''}`.toLowerCase();
             if (combined.includes('mall road') && !combined.includes('namchi')) return 'Mall Road (Darjeeling)';
@@ -727,7 +729,7 @@
                     if (filterState.place !== 'all' && h.place !== filterState.place) return false;
                     if (filterState.query) {
                         const q = filterState.query.toLowerCase();
-                        const searchStr = `${h.name} ${h.place} ${h.distance} ${h.view} ${h.meals} ${h.region}`.toLowerCase();
+                        const searchStr = `${h.stayId || ''} ${h.code || ''} ${h.name} ${h.place} ${h.distance} ${h.view} ${h.meals} ${h.region}`.toLowerCase();
                         if (!searchStr.includes(q)) return false;
                     }
                     return true;

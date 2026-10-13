@@ -317,8 +317,8 @@
             <div class="dl-content" id="dl-content">
                 ${renderOverviewTab(place, regionData)}
                 ${renderThingsToDoTab(place)}
-                ${renderPackagesTab(place)}
-                ${renderStaysTab(place)}
+                ${renderPackagesTab(place, regionKey)}
+                ${renderStaysTab(place, regionKey)}
                 ${renderGalleryTab(place)}
                 ${place.faqs ? renderFaqsTab(place) : ''}
             </div>
@@ -478,8 +478,12 @@
         </div>`;
     }
 
-    function renderPackagesTab(place) {
-        const packages = place.packages || [];
+    function renderPackagesTab(place, regionKey) {
+        let packages = (place.packages && place.packages.length > 0) ? place.packages : [];
+
+        if (packages.length === 0 && typeof window.CH_getPackagesForPlace === 'function') {
+            packages = window.CH_getPackagesForPlace(place, regionKey);
+        }
 
         if (packages.length === 0) {
             return `
@@ -499,30 +503,53 @@
         return `
         <div class="dl-tab-panel" id="tab-packages">
             <div class="dl-packages-header">
-                <h2>Best Packages for ${place.name}</h2>
-                <a href="packages.html">View All Packages →</a>
+                <div>
+                    <h2>Curated Tour Packages for ${place.name}</h2>
+                    <div style="font-family: var(--font-body); font-size: 14px; color: #6b7c69; margin-top: 4px;">
+                        Handpicked authentic itineraries covering ${place.name} and surrounding scenic trails
+                    </div>
+                </div>
+                <a href="packages.html" style="font-family: var(--font-body); font-size: 14px; font-weight: 600; color: var(--ch-green-deep); text-decoration: none;">View All 81 Packages →</a>
             </div>
             <div class="dl-packages-grid">
-                ${packages.map(pkg => `
+                ${packages.map(pkg => {
+                    const priceText = pkg.price ? (typeof pkg.price === 'number' ? '₹' + pkg.price.toLocaleString('en-IN') + '/-' : pkg.price) : 'Starting @ ₹4,999/-';
+                    const routeText = pkg.route || pkg.includes || pkg.teaser || 'Customized Himalayan Tour';
+                    const imgUrl = pkg.image || getGalleryImage(1);
+                    return `
                     <div class="dl-package-card">
-                        <img class="dl-package-card-img" src="${pkg.image || getGalleryImage(1)}" alt="${pkg.title}" loading="lazy" onerror="this.parentElement.querySelector('.dl-package-card-img').style.display='none';">
+                        <img class="dl-package-card-img" src="${imgUrl}" alt="${pkg.title}" loading="lazy" onerror="this.src='pkg-darjeeling.png';">
                         <div class="dl-package-card-body">
-                            <h4>${pkg.title}</h4>
-                            <div class="pkg-includes">${pkg.includes}</div>
-                            <div class="pkg-price">
-                                <span class="price-amount">₹${pkg.price.toLocaleString('en-IN')}</span>
-                                <span class="price-unit">/ per person</span>
+                            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--ch-green-deep); background: rgba(13, 83, 14, 0.08); padding: 4px 10px; border-radius: 20px;">
+                                    ${pkg.duration || 'Curated Tour'}
+                                </span>
                             </div>
-                            <a href="contact.html" class="pkg-btn">View Details</a>
+                            <h4>${pkg.title}</h4>
+                            <div class="pkg-includes" style="font-size: 12.5px; line-height: 1.5; color: #6b7c69; margin-bottom: 14px;">
+                                ${routeText.length > 115 ? routeText.substring(0, 112) + '...' : routeText}
+                            </div>
+                            <div class="pkg-price">
+                                <span class="price-amount">${priceText}</span>
+                                <span class="price-unit">${priceText.indexOf('@') !== -1 ? '' : '/ person'}</span>
+                            </div>
+                            <div style="display: flex; gap: 8px; margin-top: auto;">
+                                <a href="packages.html" class="pkg-btn" style="flex: 1; text-align: center; font-size: 13px; padding: 9px 12px; text-decoration: none;">View Details</a>
+                                <a href="https://wa.me/919051966561?text=Hello%20CallingHills%2C%20I%20am%20interested%20in%20the%20package%3A%20${encodeURIComponent(pkg.title)}%20for%20${encodeURIComponent(place.name)}" target="_blank" class="pkg-btn" style="background: #14351d; flex: 1; text-align: center; font-size: 13px; padding: 9px 12px; text-decoration: none;">Book Now</a>
+                            </div>
                         </div>
-                    </div>
-                `).join('')}
+                    </div>`;
+                }).join('')}
             </div>
         </div>`;
     }
 
-    function renderStaysTab(place) {
-        const stays = place.stays || [];
+    function renderStaysTab(place, regionKey) {
+        let stays = (place.stays && place.stays.length > 0) ? place.stays : [];
+
+        if (stays.length === 0 && typeof window.CH_getStaysForPlace === 'function') {
+            stays = window.CH_getStaysForPlace(place, regionKey);
+        }
 
         if (stays.length === 0) {
             return `
@@ -543,37 +570,56 @@
         <div class="dl-tab-panel" id="tab-stays">
             <div class="dl-stays-header">
                 <div>
-                    <h2>Stay & Homestays in ${place.name}</h2>
-                    <div class="stays-sub">Handpicked stays for a comfortable experience</div>
+                    <h2>Verified Stay & Homestays in ${place.name}</h2>
+                    <div class="stays-sub">Handpicked mountain homestays with authentic hospitality, home-cooked meals & views</div>
                 </div>
+                <a href="hotels.html" style="font-family: var(--font-body); font-size: 14px; font-weight: 600; color: var(--ch-green-deep); text-decoration: none;">View All 76 Homestays →</a>
             </div>
             <div class="dl-stays-grid">
-                ${stays.map(stay => `
-                    <div class="dl-stay-card">
-                        <div class="dl-stay-card-img-wrapper">
-                            <img class="dl-stay-card-img" src="${stay.image || getGalleryImage(1)}" alt="${stay.name}" loading="lazy">
+                ${stays.map(stay => {
+                    const priceText = stay.price ? (typeof stay.price === 'number' ? '₹' + stay.price.toLocaleString('en-IN') + '/-' : stay.price) : '₹1,499/-';
+                    const imgUrl = stay.image || getGalleryImage(2);
+                    const locationDesc = stay.distance || stay.subRegion || stay.location || place.name;
+                    const mealsDesc = stay.meals || 'Breakfast + Lunch + Dinner Included';
+                    const viewDesc = stay.view || 'Mountain View';
+                    return `
+                    <div class="dl-stay-card" style="display: flex; flex-direction: column;">
+                        <div class="dl-stay-card-img-wrapper" style="position: relative;">
+                            <img class="dl-stay-card-img" src="${imgUrl}" alt="${stay.name}" loading="lazy" onerror="this.src='about-village.png';">
+                            <span style="position: absolute; top: 12px; left: 12px; background: rgba(13, 31, 23, 0.85); backdrop-filter: blur(8px); color: #f3dfa2; font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px;">
+                                ${viewDesc}
+                            </span>
                             <button class="save-btn" title="Save">${getIcon('heart')}</button>
                         </div>
-                        <div class="dl-stay-card-body">
+                        <div class="dl-stay-card-body" style="display: flex; flex-direction: column; flex: 1;">
                             <h4>${stay.name}</h4>
-                            <div class="stay-rating">
-                                <span class="stars">★★★★${stay.rating >= 4.5 ? '★' : '☆'}</span>
-                                <span class="rating-num">${stay.rating}</span>
-                                <span class="review-count">(${stay.reviews} reviews)</span>
+                            <div style="font-size: 12px; color: #6b7c69; margin-bottom: 8px; display: flex; align-items: center; gap: 4px;">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                <span>${locationDesc}</span>
                             </div>
-                            <div class="stay-type-tags">
-                                <span class="stay-type-tag">${stay.type}</span>
+                            <div class="stay-rating" style="margin-bottom: 8px;">
+                                <span class="stars" style="color: #d4af37;">★★★★★</span>
+                                <span class="rating-num" style="font-weight: 700;">4.9</span>
+                                <span class="review-count" style="font-size: 12px; color: #6b7c69;">(Verified Homestay)</span>
                             </div>
-                            <div class="stay-price">
+                            <div class="stay-type-tags" style="margin-bottom: 12px;">
+                                <span class="stay-type-tag" style="background: rgba(13, 83, 14, 0.08); color: var(--ch-green-deep); font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: 4px; display: inline-block;">
+                                    ${mealsDesc}
+                                </span>
+                            </div>
+                            <div class="stay-price" style="margin-top: auto; display: flex; align-items: center; justify-content: space-between;">
                                 <div>
-                                    <span class="price-amount">₹${stay.price.toLocaleString('en-IN')}</span>
-                                    <span class="price-unit"> / night</span>
+                                    <span class="price-amount" style="font-family: var(--font-script); font-size: 22px; font-weight: 700; color: var(--ch-green-deep);">${priceText}</span>
+                                    <span class="price-unit" style="font-size: 12px; color: #6b7c69;"> / night</span>
                                 </div>
-                                <button class="stay-view-btn" onclick="window.location.href='contact.html'">View Details</button>
+                                <div style="display: flex; gap: 6px;">
+                                    <a href="hotels.html" class="stay-view-btn" style="text-decoration: none; padding: 8px 12px; border-radius: 6px; background: var(--ch-green-deep); color: #fff; font-size: 12px; font-weight: 600; display: inline-block;">View Stay</a>
+                                    <a href="https://wa.me/919051966561?text=Hello%20CallingHills%2C%20I%20want%20to%20enquire%20about%20staying%20at%20${encodeURIComponent(stay.name)}%20(${encodeURIComponent(place.name)})" target="_blank" class="stay-view-btn" style="text-decoration: none; padding: 8px 10px; border-radius: 6px; background: #25D366; color: #fff; font-size: 12px; font-weight: 600; display: inline-block;">WhatsApp</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                `).join('')}
+                    </div>`;
+                }).join('')}
             </div>
         </div>`;
     }
@@ -654,6 +700,11 @@
                 const panel = document.getElementById(`tab-${tabId}`);
                 if (panel) {
                     panel.classList.add('active');
+                    // Ensure cards in the active panel are always fully visible
+                    panel.querySelectorAll('.dl-package-card, .dl-stay-card').forEach(c => {
+                        c.style.opacity = '1';
+                        c.style.transform = 'translateY(0)';
+                    });
                     // Smooth scroll to tabs
                     const tabBar = document.getElementById('dl-tabs');
                     if (tabBar) {
@@ -667,7 +718,8 @@
 
     // ─── Animate Cards ───
     function animateCards() {
-        const cards = document.querySelectorAll('.dr-place-card, .dr-subregion-card, .dl-package-card, .dl-stay-card');
+        // Only observe region level cards that are immediately visible in DOM
+        const cards = document.querySelectorAll('.dr-place-card, .dr-subregion-card');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry, idx) => {
                 if (entry.isIntersecting) {
