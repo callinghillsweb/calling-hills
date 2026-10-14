@@ -13,7 +13,7 @@
 
 
 
-    <link rel="stylesheet" href="./css/main.css?v=6">
+    <link rel="stylesheet" href="./css/main.css?v=7">
     <link rel="icon" type="image/png" href="./logo up.jpeg">
 
     <!-- Package Filter Tabs Styling -->
@@ -332,6 +332,204 @@
             box-shadow: 0 4px 16px rgba(212, 175, 55, 0.35) !important;
         }
 
+        @media (max-width: 768px) {
+            .pkg-controls-container {
+                padding: 16px !important;
+                margin: 20px 0 16px 0 !important;
+                border-radius: 14px !important;
+            }
+            .pkg-controls-top {
+                gap: 12px !important;
+            }
+            .pkg-search-box {
+                flex: 1 1 100% !important;
+                width: 100% !important;
+            }
+            .pkg-search-input {
+                font-size: 15px !important;
+                padding: 12px 38px 12px 42px !important;
+            }
+            .pkg-filters-row {
+                flex: 1 1 100% !important;
+                width: 100% !important;
+                display: grid !important;
+                grid-template-columns: 1fr 1fr !important;
+                gap: 8px !important;
+            }
+            .pkg-dropdown-group {
+                width: 100% !important;
+                box-sizing: border-box !important;
+                padding: 6px 10px !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 2px !important;
+            }
+            .pkg-dropdown-label {
+                font-size: 10px !important;
+            }
+            .pkg-select {
+                width: 100% !important;
+                font-size: 12px !important;
+                padding: 2px 0 !important;
+            }
+            .pkg-filter-bar {
+                display: flex !important;
+                flex-wrap: nowrap !important;
+                overflow-x: auto !important;
+                -webkit-overflow-scrolling: touch !important;
+                scrollbar-width: none !important;
+                gap: 8px !important;
+                margin: 16px -16px 24px -16px !important;
+                padding: 4px 16px 10px 16px !important;
+            }
+            .pkg-filter-bar::-webkit-scrollbar {
+                display: none !important;
+            }
+            .pkg-filter-btn {
+                flex-shrink: 0 !important;
+                white-space: nowrap !important;
+                padding: 8px 16px !important;
+                font-size: 13px !important;
+            }
+            .pkg-ctas {
+                display: flex !important;
+                flex-direction: row !important;
+                flex-wrap: wrap !important;
+                gap: 8px !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+            }
+            .pkg-ctas .btn-primary {
+                flex: 0 0 100% !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+                padding: 13px 16px !important;
+                font-size: 14px !important;
+            }
+            .pkg-ctas .btn-secondary {
+                flex: 1 1 calc(50% - 4px) !important;
+                width: calc(50% - 4px) !important;
+                max-width: calc(50% - 4px) !important;
+                min-width: 0 !important;
+                box-sizing: border-box !important;
+                padding: 11px 6px !important;
+                font-size: 12.5px !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                gap: 5px !important;
+                white-space: nowrap !important;
+            }
+            .pkg-ctas .btn-share {
+                flex: 1 1 calc(50% - 4px) !important;
+                width: calc(50% - 4px) !important;
+                max-width: calc(50% - 4px) !important;
+                min-width: 0 !important;
+                box-sizing: border-box !important;
+                padding: 11px 6px !important;
+                font-size: 12.5px !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                gap: 5px !important;
+                white-space: nowrap !important;
+            }
+
+            /* ── Highlighted "View Full Details & Itinerary" Button on Mobile ── */
+            .accordion {
+                margin: 16px 0 18px 0 !important;
+                border: 1.5px solid rgba(212, 175, 55, 0.4) !important;
+                border-radius: 12px !important;
+                background: #ffffff !important;
+                box-shadow: 0 4px 18px rgba(13, 40, 24, 0.08) !important;
+                overflow: hidden !important;
+                transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+            }
+
+            .accordion.active {
+                border-color: rgba(212, 175, 55, 0.75) !important;
+                box-shadow: 0 6px 22px rgba(13, 40, 24, 0.14) !important;
+            }
+
+            .accordion-btn {
+                width: 100% !important;
+                box-sizing: border-box !important;
+                padding: 13px 16px !important;
+                background: linear-gradient(135deg, #0d2818 0%, #174229 55%, #10331e 100%) !important;
+                border: none !important;
+                font-family: var(--font-heading) !important;
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                color: #ffffff !important;
+                letter-spacing: 0.3px !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: space-between !important;
+                gap: 10px !important;
+                cursor: pointer !important;
+                box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+                transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1) !important;
+            }
+
+            .accordion-btn:active {
+                transform: scale(0.99) !important;
+            }
+
+            .accordion-btn span {
+                display: inline-flex !important;
+                align-items: center !important;
+                gap: 8px !important;
+                color: #ffffff !important;
+                font-family: var(--font-heading) !important;
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+            }
+
+            /* Elegant gold mountain accent - strictly no emoji */
+            .accordion-btn span::before {
+                content: "✦" !important;
+                font-size: 13px !important;
+                color: #d4af37 !important;
+                line-height: 1 !important;
+                text-shadow: 0 0 10px rgba(212, 175, 55, 0.7) !important;
+                transition: transform 0.3s ease !important;
+            }
+
+            .accordion-btn .accordion-icon {
+                width: 24px !important;
+                height: 24px !important;
+                min-width: 24px !important;
+                background: linear-gradient(135deg, #d4af37 0%, #b88e28 100%) !important;
+                color: #0d2818 !important;
+                stroke: #0d2818 !important;
+                border-radius: 50% !important;
+                padding: 4px !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) !important;
+                transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), background 0.3s ease, box-shadow 0.3s ease !important;
+            }
+
+            .accordion-btn.active {
+                background: linear-gradient(135deg, #07190f 0%, #0d2617 100%) !important;
+                border-bottom: 1.5px solid rgba(212, 175, 55, 0.45) !important;
+            }
+
+            .accordion-btn.active span::before {
+                transform: rotate(45deg) !important;
+                color: #f7dfa4 !important;
+            }
+
+            .accordion-btn.active .accordion-icon {
+                transform: rotate(180deg) !important;
+                background: linear-gradient(135deg, #fdf6e2 0%, #faeed0 100%) !important;
+                color: #0d2818 !important;
+                stroke: #0d2818 !important;
+                box-shadow: 0 2px 10px rgba(212, 175, 55, 0.4) !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -15601,6 +15799,45 @@ Nights</span>
                 }
             }
 
+            // Refresh package filters when Firebase packages are loaded
+            window.addEventListener('callinghills:firebase-packages-loaded', (event) => {
+                const newCards = event.detail?.cards || [];
+
+                newCards.forEach(card => {
+                    if (!grid.contains(card)) {
+                        grid.appendChild(card);
+                    }
+                });
+
+                // Include both existing and Firebase packages
+                cards = Array.from(grid.querySelectorAll('.pkg-card'));
+
+                // Rebuild search, duration, and price metadata
+                cards.forEach((card, index) => {
+                    card.dataset.index = index;
+
+                    const title = card.querySelector('.pkg-title')?.innerText.trim() || '';
+                    const duration = card.querySelector('.pkg-duration')?.innerText || '';
+                    const durationMatch = duration.match(/(\d+)\s*Days?/i);
+                    card.dataset.days = durationMatch ? parseInt(durationMatch[1], 10) : 3;
+
+                    const priceText = card.querySelector('.pkg-price-tag')?.innerText || '';
+                    const priceMatch = priceText.replace(/,/g, '').match(/\d+/);
+                    card.dataset.price = priceMatch ? parseInt(priceMatch[0], 10) : 5000;
+
+                    const route = card.querySelector('.pkg-route')?.innerText || '';
+                    const teaser = card.querySelector('.pkg-teaser')?.innerText || '';
+                    const highlights = Array.from(card.querySelectorAll('.pkg-highlight-pill'))
+                        .map(p => p.innerText).join(' ');
+
+                    card.dataset.searchBlob =
+                        `${title} ${route} ${teaser} ${highlights} ${card.dataset.region || ''}`
+                            .toLowerCase();
+                });
+
+                filterAndSortPackages();
+            });
+
             // Initial run with deep linking
             handleUrlDeepLink();
 
@@ -15714,5 +15951,328 @@ Nights</span>
         }
     </script>
 
+    <script type="module">
+        import { db } from "./js/firebase.js";
+        import {
+            collection,
+            getDocs,
+            query,
+            where
+        } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+
+        const slugify = (value) => String(value || "")
+            .normalize("NFKD")
+            .toLowerCase()
+            .trim()
+            .replace(/[’']/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "");
+
+        const escapeHTML = (value) =>
+            String(value ?? "").replace(/[&<>"']/g, (char) => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;"
+            })[char]);
+
+        function getRegion(destination = "") {
+            const value = destination.toLowerCase();
+
+            if (value.includes("darjeeling")) return "darjeeling";
+            if (value.includes("kalimpong") || value.includes("lava") ||
+                value.includes("rishop")) return "kalimpong";
+            if (value.includes("dooars") || value.includes("jaldapara") ||
+                value.includes("gorumara")) return "dooars";
+            if (value.includes("north sikkim") || value.includes("lachung") ||
+                value.includes("lachen")) return "north-sikkim";
+            if (value.includes("silk route") || value.includes("east sikkim"))
+                return "silk-route";
+            if (value.includes("sikkim") || value.includes("gangtok"))
+                return "sikkim";
+
+            return "custom";
+        }
+
+        function makePackageCard(pkg) {
+            const card = document.createElement("article");
+            card.className = "pkg-card";
+            card.dataset.region = getRegion(pkg.destination);
+            card.dataset.firebasePackage = "true";
+
+            const title = pkg.title || pkg.name || "Travel Package";
+            const destination = pkg.destination || "";
+            const duration = pkg.duration || "Duration on request";
+            const price = Number(pkg.startingPrice) || 0;
+            const image = pkg.imageUrl || pkg.imageURL || pkg.image || "";
+            const description = pkg.description || "";
+            const route = pkg.route || "";
+            const highlights = Array.isArray(pkg.highlights) ? pkg.highlights : [];
+            const inclusions = Array.isArray(pkg.inclusions) ? pkg.inclusions : [];
+            const itinerary = Array.isArray(pkg.itinerary) ? pkg.itinerary : [];
+
+            const imageHTML = image
+                ? `<img src="${escapeHTML(image)}" alt="${escapeHTML(title)}" class="pkg-image" loading="lazy">`
+                : "";
+
+            const highlightsHTML = highlights.length
+                ? `<div class="pkg-highlights">
+           <div class="pkg-highlights-title">Package Highlights</div>
+           <div class="pkg-highlights-list">
+             ${highlights.map(item => `<span class="pkg-highlight-pill">${escapeHTML(item)}</span>`).join("")}
+           </div>
+         </div>`
+                : "";
+
+            const inclusionsHTML = inclusions.length
+                ? `<div class="incl-excl">
+           <div><h4>✔ Inclusions</h4>
+             <ul>${inclusions.map(item => `<li>${escapeHTML(item)}</li>`).join("")}</ul>
+           </div>
+         </div>`
+                : "";
+
+            const itineraryHTML = itinerary.length
+                ? `<div class="accordion">
+           <button class="accordion-btn" type="button">
+             <span>View Full Details &amp; Itinerary</span>
+             <span class="accordion-icon">⌄</span>
+           </button>
+           <div class="accordion-content">
+             <div class="accordion-content-inner">
+               ${itinerary.map((day, index) => `
+                 <div class="day-plan">
+                   <div class="day-title">
+                     Day ${escapeHTML(day.day || index + 1)} |
+                     ${escapeHTML(day.title || "")}
+                   </div>
+                   <div class="day-desc">
+                     ${escapeHTML(day.description || "")}
+                   </div>
+                 </div>
+               `).join("")}
+             </div>
+           </div>
+         </div>`
+                : "";
+
+            card.innerHTML = `
+      <button type="button" class="pkg-card-share-btn" onclick="sharePackage(this)" data-title="${escapeHTML(title)}" data-slug="${escapeHTML(pkg.slug || pkg.id)}" title="Share this package" aria-label="Share package"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+      ${imageHTML}
+      <div class="pkg-body">
+        <div class="pkg-header-top">
+          <span class="pkg-badge">New Package</span>
+          <span class="pkg-duration">${escapeHTML(duration)}</span>
+        </div>
+        <h3 class="pkg-title">${escapeHTML(title)}</h3>
+        <div class="pkg-meta">
+          <span><strong>Destination:</strong> ${escapeHTML(destination)}</span>
+        </div>
+        <div class="pkg-teaser">${escapeHTML(description)}</div>
+        <div class="pkg-price-tag">
+          Starting @ ₹${price.toLocaleString("en-IN")}/-
+        </div>
+        ${route ? `<div class="pkg-route">Route: ${escapeHTML(route)}</div>` : ""}
+        ${highlightsHTML}
+        ${itineraryHTML}
+        ${inclusionsHTML}
+        <div class="pkg-ctas">
+          <button class="btn-primary" type="button" onclick="openEnquiryModal('Enquiry for ${escapeHTML(title)}')">Enquire Now &rarr;</button>
+          <button class="btn-secondary" type="button" onclick="addToCart({id: '${escapeHTML(pkg.slug || pkg.id)}', title: '${escapeHTML(title)}', price: ${price}, duration: '${escapeHTML(duration)}'})">
+            <svg class="cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Add to Cart
+          </button>
+          <button type="button" class="btn-share" onclick="sharePackage(this)" data-title="${escapeHTML(title)}" data-slug="${escapeHTML(pkg.slug || pkg.id)}" title="Share this package" aria-label="Share package">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span>Share</span>
+          </button>
+        </div>
+      </div>
+    `;
+
+            card.dataset.displayOrder = String(Number(pkg.displayOrder) || 0);
+            card.dataset.packageSource = "firebase";
+            if (pkg.slug) card.dataset.packageSlug = pkg.slug;
+            return card;
+        }
+
+        function orderValue(card) {
+            const value = Number(card.dataset.displayOrder);
+            return Number.isFinite(value) ? value : 0;
+        }
+
+        function sortCards(cards) {
+            const bucket = (order) => order > 0 ? 0 : order < 0 ? 2 : 1;
+
+            return cards.sort((a, b) => {
+                const ao = orderValue(a);
+                const bo = orderValue(b);
+                const ab = bucket(ao);
+                const bb = bucket(bo);
+
+                if (ab !== bb) return ab - bb;
+
+                if (ab === 0) return ao - bo;
+                if (ab === 2) return bo - ao;
+
+                const ai = Number(a.dataset.originalIndex);
+                const bi = Number(b.dataset.originalIndex);
+
+                return (Number.isFinite(ai) ? ai : 99999) -
+                    (Number.isFinite(bi) ? bi : 99999);
+            });
+        }
+
+        function readOriginalCards(grid) {
+            const used = new Set();
+
+            return Array.from(grid.querySelectorAll(".pkg-card"))
+                .filter(card => !card.dataset.firebasePackage)
+                .map((card, index) => {
+                    const title = card.querySelector(".pkg-title")?.textContent.trim() || "";
+                    let slug = card.dataset.slug || card.dataset.packageId || slugify(title);
+
+                    if (used.has(slug)) slug = `${slug}-${index + 1}`;
+                    used.add(slug);
+
+                    card.dataset.packageSlug = slug;
+                    card.dataset.packageSource = "html";
+                    card.dataset.originalIndex = String(index);
+                    card.dataset.displayOrder = card.dataset.displayOrder || "0";
+
+                    return { card, slug, index };
+                });
+        }
+
+        function applyOverride(original, override) {
+            const { card, slug, index } = original;
+
+            if (!override) return card;
+            if (override.published === false) {
+                card.remove();
+                return null;
+            }
+
+            if (override.cardHtml) {
+                const parsed = new DOMParser().parseFromString(
+                    override.cardHtml,
+                    "text/html"
+                );
+                const replacement = parsed.body.firstElementChild;
+
+                if (replacement?.classList.contains("pkg-card")) {
+                    replacement.dataset.packageSlug = slug;
+                    replacement.dataset.packageSource = "html";
+                    replacement.dataset.originalIndex = String(index);
+                    replacement.dataset.displayOrder = String(
+                        Number(override.displayOrder) || 0
+                    );
+
+                    const title = replacement.querySelector(".pkg-title")?.textContent.trim() ||
+                                  card.querySelector(".pkg-title")?.textContent.trim() ||
+                                  override.name || "";
+
+                    if (!replacement.querySelector(".pkg-card-share-btn")) {
+                        const topShareBtn = document.createElement("button");
+                        topShareBtn.type = "button";
+                        topShareBtn.className = "pkg-card-share-btn";
+                        topShareBtn.setAttribute("onclick", "sharePackage(this)");
+                        topShareBtn.setAttribute("data-title", title);
+                        topShareBtn.setAttribute("data-slug", slug);
+                        topShareBtn.setAttribute("title", "Share this package");
+                        topShareBtn.setAttribute("aria-label", "Share package");
+                        topShareBtn.innerHTML = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>`;
+                        replacement.prepend(topShareBtn);
+                    }
+
+                    const ctas = replacement.querySelector(".pkg-ctas");
+                    if (ctas && !ctas.querySelector(".btn-share")) {
+                        const bottomShareBtn = document.createElement("button");
+                        bottomShareBtn.type = "button";
+                        bottomShareBtn.className = "btn-share";
+                        bottomShareBtn.setAttribute("onclick", "sharePackage(this)");
+                        bottomShareBtn.setAttribute("data-title", title);
+                        bottomShareBtn.setAttribute("data-slug", slug);
+                        bottomShareBtn.setAttribute("title", "Share this package");
+                        bottomShareBtn.setAttribute("aria-label", "Share package");
+                        bottomShareBtn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span>Share</span>`;
+                        ctas.appendChild(bottomShareBtn);
+                    }
+
+                    card.replaceWith(replacement);
+                    return replacement;
+                }
+
+                console.warn("Invalid saved package card HTML:", slug);
+            }
+
+            card.dataset.displayOrder = String(Number(override.displayOrder) || 0);
+            return card;
+        }
+
+        async function loadPublishedPackages() {
+            const grid = document.querySelector(".pkg-grid");
+            if (!grid) return;
+
+            try {
+                const originals = readOriginalCards(grid);
+
+                // Published package records only.
+                const [packageSnapshot, overrideSnapshot] = await Promise.all([
+                    getDocs(query(collection(db, "packages"), where("published", "==", true))),
+                    getDocs(collection(db, "packageOverrides"))
+                ]);
+
+                const overrides = new Map(
+                    overrideSnapshot.docs.map(item => [item.id, item.data()])
+                );
+
+                const activeOriginalCards = [];
+
+                originals.forEach(original => {
+                    const card = applyOverride(original, overrides.get(original.slug));
+                    if (card) activeOriginalCards.push(card);
+                });
+
+                const firebaseCards = [];
+
+                packageSnapshot.docs.forEach(snapshot => {
+                    const pkg = { id: snapshot.id, ...snapshot.data() };
+                    const slug = pkg.slug || pkg.id;
+
+                    // Avoid duplicating a card already present in the original HTML.
+                    if (originals.some(item => item.slug === slug)) return;
+
+                    const existing = grid.querySelector(
+                        `[data-package-source="firebase"][data-package-slug="${CSS.escape(slug)}"]`
+                    );
+                    if (existing) return;
+
+                    const card = makePackageCard(pkg);
+                    card.dataset.packageSlug = slug;
+                    card.dataset.originalIndex = String(100000 + firebaseCards.length);
+                    firebaseCards.push(card);
+                });
+
+                const allCards = sortCards([...activeOriginalCards, ...firebaseCards]);
+
+                // Append in the desired order without replacing the grid or its controls.
+                allCards.forEach(card => grid.appendChild(card));
+
+                window.dispatchEvent(new CustomEvent(
+                    "callinghills:firebase-packages-loaded",
+                    { detail: { cards: allCards } }
+                ));
+
+                console.info(
+                    `CallingHills: applied ${overrides.size} override(s); ` +
+                    `${activeOriginalCards.length} original and ${firebaseCards.length} Firebase package(s) visible.`
+                );
+            } catch (error) {
+                console.error("Could not load package content from Firebase:", error);
+            }
+        }
+
+        loadPublishedPackages();
+    </script>
 </body>
 </html>

@@ -148,7 +148,17 @@
 
             <!-- Places Grid -->
             <div class="dr-places">
-                <h2 class="dr-places-title">Explore <span>${title}'s</span> Hidden Gems</h2>
+                <div class="dr-places-header">
+                    <div>
+                        <h2 class="dr-places-title">Explore <span>${title}'s</span> Hidden Gems</h2>
+                        <span class="dr-places-count" id="dr-places-count" style="font-size: 13px; color: #6b7c69; font-weight: 500;">Showing ${places.length} locations</span>
+                    </div>
+                    <div class="dr-places-search-box">
+                        ${getIcon('binoculars')}
+                        <input type="text" id="dr-places-search-input" placeholder="Search ${title} places..." autocomplete="off">
+                        <button type="button" id="dr-places-clear-btn" class="dr-places-clear-btn" aria-label="Clear search">&times;</button>
+                    </div>
+                </div>
                 <div class="dr-places-grid" id="places-grid">
                     ${places.map((place, i) => `
                         <a class="dr-place-card" href="destination-region.html?region=${regionKey}${subKey ? '&sub=' + subKey : ''}&place=${place.slug}" data-index="${i}">
@@ -180,6 +190,37 @@
                 </div>
             </div>
         `;
+
+        // Wire up live search for region places
+        const searchInput = document.getElementById('dr-places-search-input');
+        const clearBtn = document.getElementById('dr-places-clear-btn');
+        const countSpan = document.getElementById('dr-places-count');
+        const cards = document.querySelectorAll('#places-grid .dr-place-card');
+
+        if (searchInput && cards.length > 0) {
+            const filterPlaces = () => {
+                const query = searchInput.value.trim().toLowerCase();
+                if (clearBtn) clearBtn.style.display = query ? 'block' : 'none';
+                let visibleCount = 0;
+                cards.forEach(card => {
+                    const text = card.textContent.toLowerCase();
+                    const match = !query || text.includes(query);
+                    card.style.display = match ? '' : 'none';
+                    if (match) visibleCount++;
+                });
+                if (countSpan) {
+                    countSpan.textContent = `Showing ${visibleCount} of ${places.length} locations`;
+                }
+            };
+            searchInput.addEventListener('input', filterPlaces);
+            if (clearBtn) {
+                clearBtn.addEventListener('click', () => {
+                    searchInput.value = '';
+                    filterPlaces();
+                    searchInput.focus();
+                });
+            }
+        }
 
         // Animate cards
         animateCards();
@@ -766,6 +807,9 @@
 
     // ─── Browser Back/Forward ───
     window.addEventListener('popstate', init);
+
+    // Refresh the page when Firebase destination data finishes loading.
+    window.addEventListener('callinghills:destinations-updated', init);
 
     // ─── Run ───
     if (document.readyState === 'loading') {

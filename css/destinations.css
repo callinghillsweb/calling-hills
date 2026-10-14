@@ -447,11 +447,84 @@
     font-size: clamp(20px, 2.5vw, 28px);
     font-weight: 700;
     color: #000;
-    margin-bottom: 28px;
+    margin-bottom: 0;
 }
 .dr-places-title span {
     color: var(--ch-green-deep);
 }
+.dr-places-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.dr-places-search-box {
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+}
+.dr-places-search-box input {
+    width: 100%;
+    background: #fff;
+    border: 1.5px solid #d4ddd2;
+    border-radius: 50px;
+    padding: 10px 36px 10px 38px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.dr-places-search-box input:focus {
+    border-color: var(--ch-green-deep);
+    box-shadow: 0 4px 14px rgba(13, 83, 14, 0.15);
+}
+.dr-places-search-box svg {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    stroke: #6b7c69;
+    pointer-events: none;
+}
+.dr-places-clear-btn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #8a9888;
+    cursor: pointer;
+    padding: 2px;
+    line-height: 1;
+    display: none;
+}
+@media (max-width: 768px) {
+    .dr-places-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+    .dr-places-search-box {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .dr-places-search-box input {
+        box-sizing: border-box !important;
+        font-size: 15px !important;
+        padding: 12px 36px 12px 38px !important;
+        border-radius: 12px !important;
+    }
+}
+
 .dr-places-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -1753,4 +1826,97 @@
     margin-bottom: 16px;
     font-weight: 500;
 }
+
+/* ═══════════════════════════════════════════
+   DESTINATIONS PAGE MOBILE RESPONSIVE STYLES
+   Fixes search bar, clear button, and filter tabs on mobile
+   ═══════════════════════════════════════════ */
+.dh-places-clear-btn {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #8a9888;
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+    display: none;
+    transition: color 0.2s ease;
+}
+.dh-places-clear-btn:hover {
+    color: var(--ch-green-deep);
+}
+
+@media (max-width: 768px) {
+    .dh-all-places {
+        padding: 36px 16px 48px !important;
+    }
+
+    .dh-all-places-header {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 16px !important;
+        margin-bottom: 18px !important;
+    }
+
+    .dh-all-places-header .dh-regions-title {
+        font-size: 24px !important;
+        line-height: 1.25 !important;
+    }
+
+    .dh-all-places-header .dh-regions-sub {
+        font-size: 13.5px !important;
+        line-height: 1.5 !important;
+        margin-top: 4px !important;
+    }
+
+    .dh-places-search-box {
+        max-width: 100% !important;
+        width: 100% !important;
+        position: relative !important;
+    }
+
+    .dh-places-search-box input {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        font-size: 15px !important;
+        padding: 13px 44px 13px 44px !important;
+        border-radius: 12px !important;
+        background: #ffffff !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .dh-filter-tabs {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        scrollbar-width: none !important;
+        gap: 8px !important;
+        margin: 0 -16px 20px -16px !important;
+        padding: 4px 16px 10px 16px !important;
+    }
+
+    .dh-filter-tabs::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    .dh-filter-btn {
+        flex-shrink: 0 !important;
+        white-space: nowrap !important;
+        padding: 8px 16px !important;
+        font-size: 13px !important;
+        border-radius: 999px !important;
+        background: #ffffff !important;
+    }
+
+    .dh-all-places-count {
+        font-size: 12.5px !important;
+        margin-bottom: 16px !important;
+    }
+}
+
 

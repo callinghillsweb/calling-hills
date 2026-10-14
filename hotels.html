@@ -453,11 +453,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/hotelsData.js?v=1"></script>
 
     <!-- Hotels Page Script -->
     <script>
     (function() {
-        const hotelData = [
+        const hotelData = window.callingHillsHotelData || [
             { id: 1, name: "The Kanchenjunga Retreat", price: "₹1,399/-", meals: "Breakfast + Lunch / Dinner", view: "Kanchenjunga View Room Available", distance: "Mall Road Walking 2 Min", premium: false, region: "Darjeeling", subRegion: "Darjeeling", imageCount: 26, ext: 'jpeg' },
             { id: 2, name: "Darjeeling Heritage Stay", price: "₹1,499/-", meals: "Breakfast + Lunch / Dinner", view: "Kanchenjunga View Room Available", distance: "Mall Road Walking 5/6 Min", premium: false, region: "Darjeeling", subRegion: "Darjeeling", imageCount: 28 },
             { id: 3, name: "Pine View Homestay", price: "₹1,599/-", meals: "Breakfast + Lunch / Dinner", view: "Kanchenjunga View Room Available", distance: "Mall Road Walking 3/4 Min", premium: false, region: "Darjeeling", subRegion: "Darjeeling", imageCount: 41 },
@@ -925,8 +926,25 @@
         }
 
 
-        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
-        else init();
+        async function startHotelPage() {
+            try {
+                await import("./js/hotelFirebaseOverrides.js?v=1");
+
+                if (window.callingHillsHotelReady) {
+                    await window.callingHillsHotelReady;
+                }
+            } catch (error) {
+                console.error("Hotel Firebase integration failed:", error);
+            }
+
+            init();
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', startHotelPage);
+        } else {
+            startHotelPage();
+        }
     })();
     </script>
 </body>

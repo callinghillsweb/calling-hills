@@ -50,4 +50,9 @@ packages pdf/
 *.avi
 reviews image and video/videos/
 
+# Staging & Raw Media
+WhatsApp Image*.jpeg
+admin pannel/admin files/
+
+
 
