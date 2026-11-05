@@ -81,9 +81,9 @@ $ref    = isset($body['bookingRef']) ? trim($body['bookingRef']) : 'Himalayan To
 $notes  = isset($body['notes']) ? trim($body['notes']) : '';
 
 // Validation
-if ($amount < 1) {
+if ($amount < 500) {
     http_response_code(400);
-    echo json_encode(['error' => 'Advance amount must be at least ₹1']);
+    echo json_encode(['error' => 'Advance amount must be at least ₹500']);
     exit;
 }
 
