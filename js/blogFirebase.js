@@ -1,3 +1,4 @@
+
 import {
   collection,
   getDocs,
@@ -13,6 +14,7 @@ if (grid && isFirebaseConfigured) {
   loadPublicBlogs();
 }
 
+// Convert titles into URL-friendly slugs
 function normaliseBlogSlug(value) {
   return String(value || "")
     .normalize("NFKD")
@@ -23,10 +25,30 @@ function normaliseBlogSlug(value) {
     .replace(/^-+|-+$/g, "");
 }
 
+// Generate the individual article page URL
+function articleUrl(blog) {
+  const slug =
+    blog.slug || normaliseBlogSlug(blog.title || blog.name);
+
+  return `./blog-post.html?slug=${encodeURIComponent(slug)}`;
+}
+
+// Connect Read Story button
+function setReadStoryLink(card, blog) {
+  const link = card.querySelector(".blog-read-more");
+
+  if (link) {
+    link.href = articleUrl(blog);
+    link.removeAttribute("target");
+  }
+}
+
+// Parse publication dates
 function parseBlogDate(value) {
   if (!value) return null;
 
   const text = String(value).trim();
+
   const date = new Date(
     /^\d{4}-\d{2}-\d{2}$/.test(text)
       ? `${text}T12:00:00`
@@ -36,6 +58,7 @@ function parseBlogDate(value) {
   return Number.isNaN(date.getTime()) ? null : date;
 }
 
+// Format dates for display
 function formatBlogDate(value) {
   const date = parseBlogDate(value);
 
@@ -54,6 +77,7 @@ function setText(element, value) {
   }
 }
 
+// Update existing HTML blog cards using Firebase overrides
 function updateExistingCard(card, blog) {
   const title = blog.title || blog.name;
 
@@ -62,6 +86,7 @@ function updateExistingCard(card, blog) {
   setText(card.querySelector(".blog-excerpt"), blog.excerpt);
 
   const dateText = formatBlogDate(blog.publicationDate);
+
   if (dateText) {
     setText(card.querySelector(".blog-date"), dateText);
   }
@@ -79,12 +104,17 @@ function updateExistingCard(card, blog) {
     card.dataset.blogDate = date.toISOString();
   }
 
-  card.dataset.blogSlug = blog.slug || normaliseBlogSlug(title);
+  card.dataset.blogSlug =
+    blog.slug || normaliseBlogSlug(title);
+
+  setReadStoryLink(card, blog);
 }
 
+// Create cards for newly published Firebase blogs
 function createBlogCard(blog) {
   const card = document.createElement("article");
   card.className = "blog-card";
+
   card.dataset.blogSlug =
     blog.slug || normaliseBlogSlug(blog.title || blog.name);
 
@@ -102,6 +132,7 @@ function createBlogCard(blog) {
   image.src = blog.image || "./dest-darjeeling.png";
   image.alt = blog.title || blog.name || "Travel story";
   image.loading = "lazy";
+
   imageWrapper.append(image);
 
   const content = document.createElement("div");
@@ -121,13 +152,14 @@ function createBlogCard(blog) {
 
   const link = document.createElement("a");
   link.className = "blog-read-more";
-  link.href = "#";
+  link.href = articleUrl(blog);
   link.textContent = "READ STORY →";
 
   content.append(date, title, excerpt, link);
   card.append(imageWrapper, content);
 
   const parsedDate = parseBlogDate(blog.publicationDate);
+
   if (parsedDate) {
     card.dataset.blogDate = parsedDate.toISOString();
   }
@@ -135,9 +167,9 @@ function createBlogCard(blog) {
   return card;
 }
 
+// Load published blogs from Firestore
 async function loadPublicBlogs() {
   try {
-    // Only request published documents, as required by Firestore rules.
     const publishedQuery = query(
       collection(db, "blog"),
       where("published", "==", true),
@@ -150,7 +182,7 @@ async function loadPublicBlogs() {
       ...item.data(),
     }));
 
-    // Existing HTML articles are matched to their saved Firebase overrides.
+    // Existing HTML blog overrides
     const overrides = new Map(
       firebaseBlogs
         .filter((blog) => blog.source === "html")
@@ -162,6 +194,7 @@ async function loadPublicBlogs() {
 
     const handledSlugs = new Set();
 
+    // Update existing static HTML cards
     Array.from(grid.querySelectorAll(".blog-card")).forEach((card) => {
       const originalTitle =
         card.querySelector(".blog-title")?.textContent.trim() || "";
@@ -174,15 +207,18 @@ async function loadPublicBlogs() {
           card.querySelector(".blog-date")?.textContent,
         );
 
-        if (date) card.dataset.blogDate = date.toISOString();
+        if (date) {
+          card.dataset.blogDate = date.toISOString();
+        }
 
         card.dataset.blogSlug = slug;
+        setReadStoryLink(card, { slug });
+
         return;
       }
 
       handledSlugs.add(slug);
 
-      // Preserve the existing HTML card but hide it when unpublished.
       if (override.isPublished === false) {
         card.remove();
         return;
@@ -191,9 +227,10 @@ async function loadPublicBlogs() {
       updateExistingCard(card, override);
     });
 
-    // Add new Firebase stories that do not correspond to original HTML cards.
+    // Add newly created Firebase blog cards
     const newBlogs = firebaseBlogs
       .filter((blog) => blog.source !== "html")
+      .filter((blog) => blog.isPublished !== false)
       .filter((blog) => {
         const slug =
           blog.slug || normaliseBlogSlug(blog.title || blog.name);
@@ -201,8 +238,11 @@ async function loadPublicBlogs() {
         return !handledSlugs.has(slug);
       })
       .sort((a, b) => {
-        const dateA = parseBlogDate(a.publicationDate)?.getTime() || 0;
-        const dateB = parseBlogDate(b.publicationDate)?.getTime() || 0;
+        const dateA =
+          parseBlogDate(a.publicationDate)?.getTime() || 0;
+
+        const dateB =
+          parseBlogDate(b.publicationDate)?.getTime() || 0;
 
         return dateB - dateA;
       });
@@ -211,21 +251,24 @@ async function loadPublicBlogs() {
       grid.append(createBlogCard(blog));
     });
 
-    // Keep the latest dated articles first.
-    const cards = Array.from(grid.querySelectorAll(".blog-card"));
+    // Sort all cards by publication date
+    const cards = Array.from(
+      grid.querySelectorAll(".blog-card"),
+    );
 
     cards.sort((a, b) => {
-      const dateA =
-        Date.parse(a.dataset.blogDate || "") || 0;
-      const dateB =
-        Date.parse(b.dataset.blogDate || "") || 0;
+      const dateA = Date.parse(a.dataset.blogDate || "") || 0;
+      const dateB = Date.parse(b.dataset.blogDate || "") || 0;
 
       return dateB - dateA;
     });
 
     cards.forEach((card) => grid.append(card));
 
-    console.info("CallingHills blog content loaded from Firebase.");
+    console.info(
+      "CallingHills blog content loaded from Firebase.",
+    );
+
   } catch (error) {
     console.error(
       "Could not load CallingHills blog content from Firebase:",

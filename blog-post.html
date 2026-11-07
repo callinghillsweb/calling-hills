@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4f5d4b">
+  <title>Travel Story | CallingHills</title>
+  <link rel="icon" href="./logo up.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ch-green: #4f5d4b;
+      --ch-deep: #173f1c;
+      --ch-gold: #d6b36a;
+      --ch-cream: #fbf6df;
+      --ch-text: #28352a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--ch-cream);
+      color: var(--ch-text);
+      font-family: "DM Sans", sans-serif;
+    }
+    .navbar {
+      min-height: 78px;
+      padding: 14px 4%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      background: var(--ch-green);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 3px 18px #00000012;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .brand img {
+      width: 46px;
+      height: 46px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .brand span { color: var(--ch-gold); }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: clamp(12px, 2.1vw, 30px);
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--ch-gold); }
+    .article-wrap {
+      width: min(900px, 90%);
+      margin: 56px auto 90px;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 26px;
+      color: var(--ch-deep);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .article-category {
+      color: #477a3e;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    h1 {
+      color: var(--ch-deep);
+      font-family: "Cormorant Garamond", serif;
+      font-size: clamp(38px, 6vw, 62px);
+      line-height: 1.08;
+      margin: 0 0 14px;
+    }
+    .article-date { color: #758071; font-size: 14px; margin-bottom: 28px; }
+    .article-cover {
+      width: 100%;
+      max-height: 480px;
+      object-fit: cover;
+      border-radius: 14px;
+      display: none;
+      margin-bottom: 34px;
+    }
+    .article-story {
+      font-size: 17px;
+      line-height: 1.9;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+    .article-message {
+      padding: 22px;
+      border: 1px solid #d8dfc8;
+      border-radius: 10px;
+      background: #ffffff80;
+      line-height: 1.7;
+    }
+    footer {
+      padding: 28px 5%;
+      text-align: center;
+      background: var(--ch-green);
+      color: white;
+      font-size: 13px;
+    }
+    @media (max-width: 760px) {
+      .navbar { align-items: flex-start; flex-direction: column; }
+      .nav-links { gap: 12px 18px; }
+      .article-wrap { margin-top: 36px; }
+      .article-story { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a class="brand" href="./index.html">
+      <img src="./logo up.jpeg" alt="CallingHills logo">
+      <span style="color:white">Calling<span>Hills</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="./destinations.html">Destinations</a>
+      <a href="./packages.html">Packages</a>
+      <a href="./hotels.html">Hotels</a>
+      <a href="./car-rental.html">Car Rentals</a>
+      <a href="./about.html">About</a>
+      <a href="./blog.html">Blog</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main class="article-wrap">
+    <a class="back-link" href="./blog.html">← Back to all stories</a>
+    <article id="article">
+      <div class="article-message">Loading story…</div>
+    </article>
+  </main>
+
+  <footer>© 2026 CallingHills. All rights reserved. · Crafted with ♥ in the Himalayas</footer>
+
+  <script type="module">
+    import { db, isFirebaseConfigured } from "./js/firebase.js";
+    import {
+      collection,
+      getDocs,
+      query,
+      where
+    } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+
+    const article = document.getElementById("article");
+    const slug = new URLSearchParams(window.location.search).get("slug");
+
+    function showMessage(message) {
+      const box = document.createElement("div");
+      box.className = "article-message";
+      box.textContent = message;
+      article.replaceChildren(box);
+    }
+
+    function formatDate(value) {
+      if (!value) return "";
+      const date = new Date(
+        /^\d{4}-\d{2}-\d{2}$/.test(String(value))
+          ? `${value}T12:00:00`
+          : value
+      );
+      return Number.isNaN(date.getTime())
+        ? String(value)
+        : date.toLocaleDateString("en-IN", {
+            day: "2-digit", month: "long", year: "numeric"
+          });
+    }
+
+    function renderStory(blog) {
+      document.title = `${blog.title || "Travel Story"} | CallingHills`;
+
+      const category = document.createElement("div");
+      category.className = "article-category";
+      category.textContent = blog.category || "Travel Journal";
+
+      const title = document.createElement("h1");
+      title.textContent = blog.title || blog.name || "Travel Story";
+
+      const date = document.createElement("div");
+      date.className = "article-date";
+      date.textContent = formatDate(blog.publicationDate);
+
+      const cover = document.createElement("img");
+      cover.className = "article-cover";
+      cover.alt = blog.title || "Travel story";
+      if (blog.image) {
+        cover.src = blog.image;
+        cover.style.display = "block";
+        cover.onerror = () => { cover.style.display = "none"; };
+      }
+
+      const story = document.createElement("div");
+      story.className = "article-story";
+      story.textContent = blog.story || "";
+
+      article.replaceChildren(category, title, date);
+      if (blog.image) article.appendChild(cover);
+      if (blog.story && String(blog.story).trim()) {
+        article.appendChild(story);
+      } else {
+        const message = document.createElement("div");
+        message.className = "article-message";
+        message.textContent = "The full story has not been added to this article yet. Please check back soon.";
+        article.appendChild(message);
+      }
+    }
+
+    async function loadStory() {
+      if (!slug) {
+        showMessage("This story link is missing its article identifier. Please return to the blog and try again.");
+        return;
+      }
+      if (!isFirebaseConfigured) {
+        showMessage("The story service is temporarily unavailable. Please try again later.");
+        return;
+      }
+
+      try {
+        const publishedQuery = query(
+          collection(db, "blog"),
+          where("published", "==", true)
+        );
+        const snapshot = await getDocs(publishedQuery);
+        const match = snapshot.docs
+          .map((item) => ({ id: item.id, ...item.data() }))
+          .find((item) =>
+            item.slug === slug &&
+            item.isPublished !== false
+          );
+
+        if (!match) {
+          showMessage("This story could not be found or is no longer published.");
+          return;
+        }
+        renderStory(match);
+      } catch (error) {
+        console.error("Could not load blog story:", error);
+        showMessage("We couldn't load this story right now. Please try again shortly.");
+      }
+    }
+
+    loadStory();
+  </script>
+</body>
+</html>
