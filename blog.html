@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CallingHills — Travel Blog & Himalayan Stories</title>
-    <meta name="description" content="Read travel stories, tips, and guides for exploring the Eastern Himalayas — Darjeeling, Kalimpong, Sikkim, and Dooars.">
+    <meta name="description"
+        content="Read travel stories, tips, and guides for exploring the Eastern Himalayas — Darjeeling, Kalimpong, Sikkim, and Dooars.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="./css/main.css?v=3">
     <link rel="icon" type="image/png" href="./logo up.jpeg">
@@ -25,11 +29,14 @@
             position: relative;
             text-align: center;
         }
-        
+
         .blog-hero::before {
             content: '';
             position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
             background: linear-gradient(to bottom, rgba(251, 245, 221, 0.85), rgba(251, 245, 221, 1));
             z-index: 0;
         }
@@ -65,39 +72,44 @@
         .blog-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 40px;
+            gap: 28px;
             max-width: 1200px;
             margin: 0 auto;
         }
 
         .blog-card {
-            background: rgba(48, 109, 41, 0.03);
-            border: 1px solid rgba(48, 109, 41, 0.12);
-            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(48, 109, 41, 0.15);
+            border-radius: 16px;
             overflow: hidden;
-            transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            transition: transform 0.35s ease, background 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
             display: flex;
             flex-direction: column;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
         }
 
         .blog-card:hover {
             transform: translateY(-5px);
-            background: rgba(48, 109, 41, 0.08);
-            border-color: var(--ch-green);
-            box-shadow: 0 4px 16px rgba(13, 83, 14, 0.08);
+            background: #ffffff;
+            border-color: var(--ch-gold);
+            box-shadow: 0 12px 30px rgba(13, 83, 14, 0.12);
         }
 
         .blog-img-wrapper {
             position: relative;
             width: 100%;
-            padding-top: 60%;
+            padding-top: 58%;
             overflow: hidden;
-            background: rgba(0,0,0,0.05);
+            background: rgba(0, 0, 0, 0.05);
         }
 
         .blog-img-wrapper img {
             position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             object-fit: cover;
             transition: transform 0.5s ease;
         }
@@ -108,22 +120,23 @@
 
         .blog-category {
             position: absolute;
-            top: 16px;
-            left: 16px;
-            background: rgba(251, 245, 221, 0.95);
+            top: 14px;
+            left: 14px;
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(4px);
             color: var(--ch-green-deep);
             padding: 4px 12px;
-            font-size: 12px;
+            font-size: 11.5px;
             text-transform: uppercase;
             letter-spacing: 1px;
-            font-weight: 600;
-            border-radius: 4px;
-            border: 1px solid rgba(48, 109, 41, 0.2);
+            font-weight: 700;
+            border-radius: 20px;
+            border: 1px solid rgba(200, 169, 110, 0.4);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
         }
 
         .blog-content {
-            padding: 24px;
+            padding: 22px;
             display: flex;
             flex-direction: column;
             flex-grow: 1;
@@ -131,52 +144,61 @@
 
         .blog-date {
             font-family: var(--font-body);
-            font-size: 13px;
-            color: var(--ch-text-mid);
-            margin-bottom: 12px;
+            font-size: 12.5px;
+            color: #667768;
+            margin-bottom: 10px;
+            font-weight: 500;
         }
 
         .blog-title {
             font-family: var(--font-heading);
-            font-size: 24px;
+            font-size: 21px;
             color: var(--ch-green-deep);
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             line-height: 1.3;
-            font-weight: 600;
+            font-weight: 700;
         }
 
         .blog-excerpt {
             font-family: var(--font-body);
-            font-size: 15px;
-            color: var(--ch-text-dark);
+            font-size: 14.5px;
+            color: #2c3e2e;
             line-height: 1.6;
-            margin-bottom: 24px;
-            flex-grow: 1;
+            margin-bottom: 18px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .blog-read-more {
+            margin-top: auto;
             color: var(--ch-green);
-            font-size: 14px;
+            font-size: 13px;
             text-transform: uppercase;
             letter-spacing: 1px;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 8px;
-            font-weight: 600;
+            gap: 6px;
+            font-weight: 700;
+            transition: color 0.2s, gap 0.2s;
         }
-        
+
         .blog-read-more:hover {
             color: var(--ch-green-deep);
+            gap: 10px;
         }
     </style>
 </head>
+
 <body>
     <div class="ambient-gradient-bg"></div>
-    
+
     <!-- ═══════════ LOADER ═══════════ -->
     <div class="loader" id="loader">
-        <img src="./logo up.jpeg" alt="CallingHills" class="loader-logo-img" style="width: 120px; height: 120px; margin-bottom: 24px;">
+        <img src="./logo up.jpeg" alt="CallingHills" class="loader-logo-img"
+            style="width: 120px; height: 120px; margin-bottom: 24px;">
         <div class="loader-brand">Calling<span>Hills</span></div>
         <div class="loader-bar-track">
             <div class="loader-bar" id="loader-bar"></div>
@@ -229,14 +251,15 @@
         <div class="blog-hero-content">
             <div class="section-tag" style="margin-bottom: 16px; display: inline-block;">✦ TRAVEL STORIES</div>
             <h1 class="blog-hero-title">CallingHills Journal</h1>
-            <p class="blog-hero-subtitle">Offbeat guides, trekking tips, and cultural deep-dives into the Eastern Himalayas. Your next adventure starts here.</p>
+            <p class="blog-hero-subtitle">Offbeat guides, trekking tips, and cultural deep-dives into the Eastern
+                Himalayas. Your next adventure starts here.</p>
         </div>
     </section>
 
     <!-- ═══════════ BLOG GRID ═══════════ -->
     <section class="blog-section">
         <div class="blog-grid">
-            
+
             <!-- Post 1 Placeholder -->
             <article class="blog-card">
                 <div class="blog-img-wrapper">
@@ -246,8 +269,10 @@
                 <div class="blog-content">
                     <div class="blog-date">Oct 12, 2026</div>
                     <h2 class="blog-title">A Beginner's Guide to the Sandakphu Trek</h2>
-                    <p class="blog-excerpt">Everything you need to know about preparing for the most famous trek in West Bengal, including packing lists and best viewpoints.</p>
-                    <a href="#" class="blog-read-more">Read Story &rarr;</a>
+                    <p class="blog-excerpt">Everything you need to know about preparing for the most famous trek in West
+                        Bengal, including packing lists and best viewpoints.</p>
+                    <a href="./blog-post.html?slug=a-beginners-guide-to-the-sandakphu-trek" class="blog-read-more">Read
+                        Story &rarr;</a>
                 </div>
             </article>
 
@@ -260,8 +285,10 @@
                 <div class="blog-content">
                     <div class="blog-date">Oct 05, 2026</div>
                     <h2 class="blog-title">The Monasteries of West Sikkim</h2>
-                    <p class="blog-excerpt">Explore the ancient spiritual heritage of Sikkim through its iconic monasteries, from Pemayangtse to Tashiding.</p>
-                    <a href="#" class="blog-read-more">Read Story &rarr;</a>
+                    <p class="blog-excerpt">Explore the ancient spiritual heritage of Sikkim through its iconic
+                        monasteries, from Pemayangtse to Tashiding.</p>
+                    <a href="./blog-post.html?slug=the-monasteries-of-west-sikkim" class="blog-read-more">Read Story
+                        &rarr;</a>
                 </div>
             </article>
 
@@ -274,8 +301,10 @@
                 <div class="blog-content">
                     <div class="blog-date">Sep 28, 2026</div>
                     <h2 class="blog-title">Top 5 Offbeat Villages in Kalimpong</h2>
-                    <p class="blog-excerpt">Escape the crowds and discover the hidden gems of Kalimpong district. Perfect for slow travel and nature lovers.</p>
-                    <a href="#" class="blog-read-more">Read Story &rarr;</a>
+                    <p class="blog-excerpt">Escape the crowds and discover the hidden gems of Kalimpong district.
+                        Perfect for slow travel and nature lovers.</p>
+                    <a href="./blog-post.html?slug=top-5-offbeat-villages-in-kalimpong" class="blog-read-more">Read
+                        Story &rarr;</a>
                 </div>
             </article>
 
@@ -288,8 +317,10 @@
                 <div class="blog-content">
                     <div class="blog-date">Sep 15, 2026</div>
                     <h2 class="blog-title">A Guide to Dooars Wildlife Safaris</h2>
-                    <p class="blog-excerpt">Everything you need to know about spotting rhinos and elephants in Jaldapara and Gorumara National Parks.</p>
-                    <a href="#" class="blog-read-more">Read Story &rarr;</a>
+                    <p class="blog-excerpt">Everything you need to know about spotting rhinos and elephants in Jaldapara
+                        and Gorumara National Parks.</p>
+                    <a href="./blog-post.html?slug=a-guide-to-dooars-wildlife-safaris" class="blog-read-more">Read Story
+                        &rarr;</a>
                 </div>
             </article>
 
@@ -302,8 +333,10 @@
                 <div class="blog-content">
                     <div class="blog-date">Sep 02, 2026</div>
                     <h2 class="blog-title">Photographing the Sleeping Buddha</h2>
-                    <p class="blog-excerpt">The ultimate locations in Darjeeling and Sandakphu to capture the Kanchenjunga range at sunrise.</p>
-                    <a href="#" class="blog-read-more">Read Story &rarr;</a>
+                    <p class="blog-excerpt">The ultimate locations in Darjeeling and Sandakphu to capture the
+                        Kanchenjunga range at sunrise.</p>
+                    <a href="./blog-post.html?slug=photographing-the-sleeping-buddha" class="blog-read-more">Read Story
+                        &rarr;</a>
                 </div>
             </article>
 
@@ -316,8 +349,10 @@
                 <div class="blog-content">
                     <div class="blog-date">Aug 20, 2026</div>
                     <h2 class="blog-title">Tracing the Old Silk Route</h2>
-                    <p class="blog-excerpt">Journey through East Sikkim's historic Zuluk loops and high-altitude lakes on the ancient trade path to Tibet.</p>
-                    <a href="#" class="blog-read-more">Read Story &rarr;</a>
+                    <p class="blog-excerpt">Journey through East Sikkim's historic Zuluk loops and high-altitude lakes
+                        on the ancient trade path to Tibet.</p>
+                    <a href="./blog-post.html?slug=tracing-the-old-silk-route" class="blog-read-more">Read Story
+                        &rarr;</a>
                 </div>
             </article>
 
@@ -331,7 +366,8 @@
             <div class="footer-top">
                 <div class="footer-brand">
                     <a href="./index.html" class="nav-logo">
-                        <img src="./logo up.jpeg" alt="CallingHills Logo" class="nav-logo-img" style="height: 42px; width: auto;">
+                        <img src="./logo up.jpeg" alt="CallingHills Logo" class="nav-logo-img"
+                            style="height: 42px; width: auto;">
                         <div class="nav-logo-text">Calling<span>Hills</span></div>
                     </a>
                     <p>Discover Hidden Trails, Hill Villages & Nature's Soul</p>
@@ -349,7 +385,7 @@
                         <li><a href="./about.html#faq">FAQ</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-links">
                     <h4>Company</h4>
                     <ul>
@@ -363,33 +399,106 @@
                     <h4>Contact Us</h4>
                     <ul class="footer-contact-list">
                         <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
                             <span>6289590603 / 9123843327</span>
                         </li>
                         <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                </path>
+                            </svg>
                             <span>9051966561</span>
                         </li>
                         <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                            <a href="mailto:hello@callinghills.com" style="text-transform: none;">hello@callinghills.com</a>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:hello@callinghills.com"
+                                style="text-transform: none;">hello@callinghills.com</a>
                         </li>
                         <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-                            <a href="https://www.callinghills.com" style="text-transform: none;">www.callinghills.com</a>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                </path>
+                            </svg>
+                            <a href="https://www.callinghills.com"
+                                style="text-transform: none;">www.callinghills.com</a>
                         </li>
                     </ul>
                 </div>
                 <div class="footer-social">
                     <h4>Connect With Us</h4>
                     <div class="social-icons" style="display: flex; gap: 12px; flex-wrap: wrap;">
-                        <a href="https://www.facebook.com/share/1PEQPSyFLr/" target="_blank" class="social-icon" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
-                        <a href="https://www.instagram.com/callinghills_official?igsh=bDJoMjI4YzQ2Ymlp" target="_blank" class="social-icon" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
-                        <a href="https://youtube.com/@callinghills?si=6iCWARLhuYF7u9qm" target="_blank" class="social-icon" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
-                        <a href="https://wa.me/message/IJWEKZTQMGAFH1" target="_blank" class="social-icon" aria-label="WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a>
-                        <a href="https://www.linkedin.com/company/callinghills/" target="_blank" class="social-icon" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
-                        <a href="https://x.com/CallingHills?t=duZx4WDjIBnmWspT1prYQw&s=09" target="_blank" class="social-icon" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.73 16h5L9 4z"></path><path d="M4 20l6.76-6.76"></path><path d="M20 4l-5.76 5.76"></path></svg></a>
-                        <a href="https://pin.it/23Q54ZsbI" target="_blank" class="social-icon" aria-label="Pinterest"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="22" x2="12" y2="10"></line><path d="M12 2a10 10 0 1 0 10 10 10 10 0 0 0-10-10z"></path><path d="M12 14v4"></path><path d="M12 10V6"></path><path d="M9 10h6"></path><path d="M9 14h6"></path></svg></a>
+                        <a href="https://www.facebook.com/share/1PEQPSyFLr/" target="_blank" class="social-icon"
+                            aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg></a>
+                        <a href="https://www.instagram.com/callinghills_official?igsh=bDJoMjI4YzQ2Ymlp" target="_blank"
+                            class="social-icon" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg></a>
+                        <a href="https://youtube.com/@callinghills?si=6iCWARLhuYF7u9qm" target="_blank"
+                            class="social-icon" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z">
+                                </path>
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                            </svg></a>
+                        <a href="https://wa.me/message/IJWEKZTQMGAFH1" target="_blank" class="social-icon"
+                            aria-label="WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                </path>
+                            </svg></a>
+                        <a href="https://www.linkedin.com/company/callinghills/" target="_blank" class="social-icon"
+                            aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg></a>
+                        <a href="https://x.com/CallingHills?t=duZx4WDjIBnmWspT1prYQw&s=09" target="_blank"
+                            class="social-icon" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M4 4l11.73 16h5L9 4z"></path>
+                                <path d="M4 20l6.76-6.76"></path>
+                                <path d="M20 4l-5.76 5.76"></path>
+                            </svg></a>
+                        <a href="https://pin.it/23Q54ZsbI" target="_blank" class="social-icon"
+                            aria-label="Pinterest"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="22" x2="12" y2="10"></line>
+                                <path d="M12 2a10 10 0 1 0 10 10 10 10 0 0 0-10-10z"></path>
+                                <path d="M12 14v4"></path>
+                                <path d="M12 10V6"></path>
+                                <path d="M9 10h6"></path>
+                                <path d="M9 14h6"></path>
+                            </svg></a>
                     </div>
                 </div>
             </div>
@@ -411,4 +520,5 @@
     <script src="./js/main.js"></script>
     <script type="module" src="./js/blogFirebase.js"></script>
 </body>
+
 </html>

@@ -1,267 +1,821 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#4f5d4b">
-  <title>Travel Story | CallingHills</title>
-  <link rel="icon" href="./logo up.jpeg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --ch-green: #4f5d4b;
-      --ch-deep: #173f1c;
-      --ch-gold: #d6b36a;
-      --ch-cream: #fbf6df;
-      --ch-text: #28352a;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--ch-cream);
-      color: var(--ch-text);
-      font-family: "DM Sans", sans-serif;
-    }
-    .navbar {
-      min-height: 78px;
-      padding: 14px 4%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      background: var(--ch-green);
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      box-shadow: 0 3px 18px #00000012;
-    }
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      color: white;
-      text-decoration: none;
-      font-size: 22px;
-      font-weight: 700;
-    }
-    .brand img {
-      width: 46px;
-      height: 46px;
-      border-radius: 8px;
-      object-fit: cover;
-    }
-    .brand span { color: var(--ch-gold); }
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: clamp(12px, 2.1vw, 30px);
-      flex-wrap: wrap;
-    }
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 500;
-    }
-    .nav-links a:hover { color: var(--ch-gold); }
-    .article-wrap {
-      width: min(900px, 90%);
-      margin: 56px auto 90px;
-    }
-    .back-link {
-      display: inline-block;
-      margin-bottom: 26px;
-      color: var(--ch-deep);
-      text-decoration: none;
-      font-weight: 700;
-    }
-    .article-category {
-      color: #477a3e;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 12px;
-      font-weight: 700;
-      margin-bottom: 12px;
-    }
-    h1 {
-      color: var(--ch-deep);
-      font-family: "Cormorant Garamond", serif;
-      font-size: clamp(38px, 6vw, 62px);
-      line-height: 1.08;
-      margin: 0 0 14px;
-    }
-    .article-date { color: #758071; font-size: 14px; margin-bottom: 28px; }
-    .article-cover {
-      width: 100%;
-      max-height: 480px;
-      object-fit: cover;
-      border-radius: 14px;
-      display: none;
-      margin-bottom: 34px;
-    }
-    .article-story {
-      font-size: 17px;
-      line-height: 1.9;
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-    }
-    .article-message {
-      padding: 22px;
-      border: 1px solid #d8dfc8;
-      border-radius: 10px;
-      background: #ffffff80;
-      line-height: 1.7;
-    }
-    footer {
-      padding: 28px 5%;
-      text-align: center;
-      background: var(--ch-green);
-      color: white;
-      font-size: 13px;
-    }
-    @media (max-width: 760px) {
-      .navbar { align-items: flex-start; flex-direction: column; }
-      .nav-links { gap: 12px 18px; }
-      .article-wrap { margin-top: 36px; }
-      .article-story { font-size: 16px; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Story | CallingHills</title>
+    <meta name="description" content="Read authentic travel guides, trekking tips, and cultural journeys across the Eastern Himalayas with CallingHills.">
+    <link rel="icon" type="image/png" href="./logo up.jpeg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="./css/main.css?v=8">
+
+    <style>
+        /* ══════════════════════════════════════════════
+           LUXURY TOPOGRAPHIC EDITORIAL LAYOUT
+        ══════════════════════════════════════════════ */
+        :root {
+            --story-card-bg: rgba(255, 255, 255, 0.94);
+            --story-border: rgba(200, 169, 110, 0.32);
+            --story-text: #1d2c20;
+            --story-title: #0a1f13;
+        }
+
+        /* Reading Progress Indicator */
+        .reading-progress-bar {
+            position: fixed;
+            top: 72px;
+            left: 0;
+            height: 3px;
+            width: 0%;
+            background: linear-gradient(90deg, #306D29 0%, #C8A96E 100%);
+            z-index: 101;
+            transition: width 0.1s ease-out;
+        }
+
+        /* Topographic Background Section */
+        .blog-post-page {
+            position: relative;
+            background: linear-gradient(180deg, #f7f5ed 0%, #f4efe2 35%, #faf8f2 100%);
+            min-height: calc(100vh - 72px);
+            padding: 95px 16px 80px;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .blog-post-page::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url('./topo-bg.png');
+            background-size: 500px;
+            background-repeat: repeat;
+            opacity: 0.22;
+            mix-blend-mode: multiply;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .article-shell {
+            position: relative;
+            z-index: 2;
+            max-width: 920px;
+            margin: 0 auto;
+        }
+
+        /* Back to Stories Pill */
+        .back-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: #0d2e1b;
+            background: rgba(48, 109, 41, 0.08);
+            border: 1px solid rgba(48, 109, 41, 0.22);
+            padding: 8px 18px;
+            border-radius: 40px;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+        }
+        .back-pill:hover {
+            background: #0d2e1b;
+            color: #fff;
+            transform: translateX(-4px);
+            box-shadow: 0 6px 20px rgba(13, 46, 27, 0.25);
+            border-color: #0d2e1b;
+        }
+
+        /* Main Editorial Card */
+        .article-card {
+            background: var(--story-card-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1.5px solid var(--story-border);
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(13, 34, 23, 0.08), 0 4px 20px rgba(0, 0, 0, 0.03);
+            padding: clamp(24px, 5vw, 54px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-card::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #306D29 0%, #C8A96E 50%, #306D29 100%);
+        }
+
+        /* Tags / Badges Row */
+        .tags-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 14px;
+        }
+        .story-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            background: rgba(200, 169, 110, 0.16);
+            border: 1px solid rgba(200, 169, 110, 0.45);
+            color: #8b6b28;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        /* Headline */
+        .article-title {
+            font-family: var(--font-heading);
+            font-size: clamp(30px, 4.4vw, 48px);
+            line-height: 1.16;
+            color: var(--story-title);
+            font-weight: 700;
+            letter-spacing: -0.015em;
+            margin: 0 0 16px;
+        }
+
+        /* Meta Bar */
+        .article-meta-bar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            padding: 12px 0;
+            border-top: 1px solid rgba(48, 109, 41, 0.12);
+            border-bottom: 1px solid rgba(48, 109, 41, 0.12);
+            margin-bottom: 26px;
+            font-size: 13.5px;
+            color: #4f6153;
+        }
+        .meta-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .meta-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(48, 109, 41, 0.09);
+            color: #174f26;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 8px;
+            font-size: 12px;
+            border: 1px solid rgba(48, 109, 41, 0.18);
+        }
+        .meta-date {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+        }
+
+        /* WhatsApp Share Button */
+        .share-wa-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: #25D366;
+            color: #081a10;
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+            transition: all 0.25s ease;
+        }
+        .share-wa-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+
+        /* Featured Cover Image */
+        .cover-wrapper {
+            position: relative;
+            width: 100%;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 28px;
+            box-shadow: 0 16px 45px rgba(0, 0, 0, 0.12);
+            border: 1px solid rgba(200, 169, 110, 0.3);
+            background: #081a10;
+        }
+        .cover-img {
+            width: 100%;
+            max-height: 520px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Story Body Content */
+        .article-body {
+            font-family: var(--font-body);
+            font-size: 18px;
+            line-height: 1.88;
+            color: var(--story-text);
+        }
+        .article-body p {
+            margin-bottom: 24px;
+            color: #243528;
+        }
+        .article-body h2,
+        .article-body h3 {
+            font-family: var(--font-heading);
+            color: #0b2216;
+            margin: 38px 0 16px;
+            line-height: 1.25;
+            font-weight: 700;
+            font-size: clamp(22px, 3vw, 28px);
+            position: relative;
+            padding-left: 18px;
+        }
+        .article-body h2::before,
+        .article-body h3::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            bottom: 4px;
+            width: 4px;
+            background: linear-gradient(180deg, #306D29 0%, #C8A96E 100%);
+            border-radius: 3px;
+        }
+        .article-body ul,
+        .article-body ol {
+            margin: 20px 0 28px 24px;
+            padding: 0;
+        }
+        .article-body li {
+            margin-bottom: 10px;
+            line-height: 1.75;
+            color: #27392b;
+        }
+        .article-body blockquote {
+            margin: 32px 0;
+            padding: 22px 28px;
+            background: rgba(48, 109, 41, 0.06);
+            border-left: 4px solid #C8A96E;
+            border-radius: 0 16px 16px 0;
+            font-style: italic;
+            color: #0f371d;
+            font-size: 19px;
+            line-height: 1.7;
+        }
+
+        /* Bottom Luxury CTA Card */
+        .article-cta-box {
+            margin-top: 38px;
+            padding: clamp(22px, 4vw, 36px);
+            border-radius: 22px;
+            background: linear-gradient(140deg, #0d2217 0%, #06150e 100%);
+            border: 1.5px solid rgba(200, 169, 110, 0.4);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+        .article-cta-box::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url('./topo-bg.png');
+            background-size: 400px;
+            opacity: 0.12;
+            pointer-events: none;
+            filter: invert(1);
+        }
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+        .cta-tag {
+            display: inline-block;
+            color: var(--ch-gold);
+            font-size: 11.5px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .cta-title {
+            font-family: var(--font-heading);
+            font-size: clamp(24px, 3.5vw, 34px);
+            color: #fff;
+            margin: 0 0 12px;
+            line-height: 1.25;
+        }
+        .cta-desc {
+            color: var(--ch-mist-dim);
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+        .cta-btn-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, #C8A96E 0%, #a88338 100%);
+            color: #081410;
+            padding: 14px 26px;
+            border-radius: 12px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 14px;
+            box-shadow: 0 8px 24px rgba(200, 169, 110, 0.3);
+            transition: all 0.3s ease;
+        }
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(200, 169, 110, 0.45);
+        }
+        .btn-wa-cta {
+            background: rgba(37, 211, 102, 0.15);
+            border: 1.5px solid #25D366;
+            color: #fff;
+            padding: 13px 24px;
+            border-radius: 12px;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+        .btn-wa-cta:hover {
+            background: #25D366;
+            color: #081410;
+            transform: translateY(-2px);
+        }
+
+        /* Loading Spinner */
+        .story-spinner-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 340px;
+            text-align: center;
+        }
+        .story-spinner {
+            width: 48px;
+            height: 48px;
+            border: 3px solid rgba(48, 109, 41, 0.15);
+            border-top-color: var(--ch-green);
+            border-radius: 50%;
+            animation: storySpin 0.8s linear infinite;
+            margin-bottom: 18px;
+        }
+        @keyframes storySpin { to { transform: rotate(360deg); } }
+
+        /* Error/Empty Message */
+        .story-alert-box {
+            padding: 28px;
+            border-radius: 16px;
+            background: rgba(48, 109, 41, 0.05);
+            border: 1px solid rgba(48, 109, 41, 0.2);
+            text-align: center;
+            color: #27392b;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            .blog-post-page { padding: 90px 14px 70px; }
+            .article-card { padding: 24px 18px; border-radius: 20px; }
+            .article-meta-bar { flex-direction: column; align-items: flex-start; gap: 12px; }
+            .share-wa-btn { width: 100%; justify-content: center; }
+            .article-body { font-size: 16.5px; }
+        }
+    </style>
 </head>
 <body>
-  <nav class="navbar">
-    <a class="brand" href="./index.html">
-      <img src="./logo up.jpeg" alt="CallingHills logo">
-      <span style="color:white">Calling<span>Hills</span></span>
-    </a>
-    <div class="nav-links">
-      <a href="./destinations.html">Destinations</a>
-      <a href="./packages.html">Packages</a>
-      <a href="./hotels.html">Hotels</a>
-      <a href="./car-rental.html">Car Rentals</a>
-      <a href="./about.html">About</a>
-      <a href="./blog.html">Blog</a>
-      <a href="./contact.html">Contact</a>
+    <div class="ambient-gradient-bg"></div>
+
+    <!-- Reading Progress Indicator -->
+    <div class="reading-progress-bar" id="reading-progress"></div>
+
+    <!-- ═══════════ NAVBAR ═══════════ -->
+    <nav class="navbar" id="navbar">
+        <a href="./index.html" class="nav-logo" id="nav-logo">
+            <img src="./logo up.jpeg" alt="CallingHills Logo" class="nav-logo-img" style="height: 42px; width: auto;">
+            <div class="nav-logo-text">Calling<span>Hills</span></div>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="./destinations.html">Destinations</a></li>
+            <li><a href="./packages.html">Packages</a></li>
+            <li><a href="./hotels.html">Hotels</a></li>
+            <li><a href="./car-rental.html">Car Rentals</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./blog.html" class="active">Blog</a></li>
+            <li><a href="./reviews.html">Reviews</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="./packages.html" class="nav-cta" id="nav-cta">Plan My Trip</a>
+            <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="./destinations.html">Destinations</a>
+        <a href="./packages.html">Packages</a>
+        <a href="./hotels.html">Hotels</a>
+        <a href="./car-rental.html">Car Rentals</a>
+        <a href="./about.html">About</a>
+        <a href="./gallery.html">Gallery</a>
+        <a href="./blog.html" style="color: var(--ch-gold);">Blog</a>
+        <a href="./reviews.html">Reviews</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./packages.html" style="color: var(--ch-gold); margin-top: 16px;">Plan My Trip &rarr;</a>
     </div>
-  </nav>
 
-  <main class="article-wrap">
-    <a class="back-link" href="./blog.html">← Back to all stories</a>
-    <article id="article">
-      <div class="article-message">Loading story…</div>
-    </article>
-  </main>
+    <!-- ═══════════ MAIN ARTICLE SECTION ═══════════ -->
+    <main class="blog-post-page">
+        <div class="article-shell">
+            <a class="back-pill" href="./blog.html">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                <span>Back to All Stories</span>
+            </a>
 
-  <footer>© 2026 CallingHills. All rights reserved. · Crafted with ♥ in the Himalayas</footer>
+            <article class="article-card" id="article-card">
+                <!-- Dynamic Content Injected by JavaScript -->
+                <div class="story-spinner-wrap">
+                    <div class="story-spinner"></div>
+                    <div style="font-weight: 600; color: #306D29;">Loading Himalayan Story...</div>
+                </div>
+            </article>
+        </div>
+    </main>
 
-  <script type="module">
-    import { db, isFirebaseConfigured } from "./js/firebase.js";
-    import {
-      collection,
-      getDocs,
-      query,
-      where
-    } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="footer">
+        <div class="footer-watermark">CallingHills</div>
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="./index.html" class="nav-logo">
+                        <img src="./logo up.jpeg" alt="CallingHills Logo" class="nav-logo-img" style="height: 42px; width: auto;">
+                        <div class="nav-logo-text">Calling<span>Hills</span></div>
+                    </a>
+                    <p>Discover Hidden Trails, Hill Villages & Nature's Soul</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="./destinations.html">Destinations</a></li>
+                        <li><a href="./packages.html">Signature Packages</a></li>
+                        <li><a href="./hotels.html">Partner Hotels</a></li>
+                        <li><a href="./car-rental.html">Car Rentals</a></li>
+                        <li><a href="./blog.html">Travel Blog</a></li>
+                        <li><a href="./about.html#services">Our Services</a></li>
+                        <li><a href="./about.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="./contact.html#b2b-enquiry">B2B Partnership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contact-list">
+                        <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>6289590603 / 9123843327</span>
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            <span>9051966561</span>
+                        </li>
+                        <li style="display: flex; align-items: center; gap: 8px; font-size: 13px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <a href="mailto:hello@callinghills.com" style="text-transform: none;">hello@callinghills.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons" style="display: flex; gap: 12px; flex-wrap: wrap;">
+                        <a href="https://www.facebook.com/share/1PEQPSyFLr/" target="_blank" class="social-icon" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="https://www.instagram.com/callinghills_official" target="_blank" class="social-icon" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path></svg></a>
+                        <a href="https://youtube.com/@callinghills" target="_blank" class="social-icon" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                        <a href="https://wa.me/message/IJWEKZTQMGAFH1" target="_blank" class="social-icon" aria-label="WhatsApp"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 CallingHills. All rights reserved.</div>
+                <div>Crafted with &hearts; in the Himalayas</div>
+                <div><a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a></div>
+            </div>
+        </div>
+    </footer>
 
-    const article = document.getElementById("article");
-    const slug = new URLSearchParams(window.location.search).get("slug");
+    <!-- Back to top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">&uarr;</button>
 
-    function showMessage(message) {
-      const box = document.createElement("div");
-      box.className = "article-message";
-      box.textContent = message;
-      article.replaceChildren(box);
-    }
+    <!-- Core Scripts -->
+    <script src="./js/main.js"></script>
 
-    function formatDate(value) {
-      if (!value) return "";
-      const date = new Date(
-        /^\d{4}-\d{2}-\d{2}$/.test(String(value))
-          ? `${value}T12:00:00`
-          : value
-      );
-      return Number.isNaN(date.getTime())
-        ? String(value)
-        : date.toLocaleDateString("en-IN", {
-            day: "2-digit", month: "long", year: "numeric"
-          });
-    }
+    <!-- ═══════════ FIREBASE STORY LOADER & PARSER ═══════════ -->
+    <script type="module">
+        import { db, isFirebaseConfigured } from "./js/firebase.js";
+        import {
+            collection,
+            getDocs,
+            query,
+            where
+        } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
-    function renderStory(blog) {
-      document.title = `${blog.title || "Travel Story"} | CallingHills`;
+        const articleCard = document.getElementById("article-card");
+        const progressBar = document.getElementById("reading-progress");
+        const slug = new URLSearchParams(window.location.search).get("slug");
 
-      const category = document.createElement("div");
-      category.className = "article-category";
-      category.textContent = blog.category || "Travel Journal";
+        // Reading progress indicator
+        window.addEventListener("scroll", () => {
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            if (docHeight > 0) {
+                const scrolled = (window.scrollY / docHeight) * 100;
+                progressBar.style.width = Math.min(scrolled, 100) + "%";
+            }
+        });
 
-      const title = document.createElement("h1");
-      title.textContent = blog.title || blog.name || "Travel Story";
-
-      const date = document.createElement("div");
-      date.className = "article-date";
-      date.textContent = formatDate(blog.publicationDate);
-
-      const cover = document.createElement("img");
-      cover.className = "article-cover";
-      cover.alt = blog.title || "Travel story";
-      if (blog.image) {
-        cover.src = blog.image;
-        cover.style.display = "block";
-        cover.onerror = () => { cover.style.display = "none"; };
-      }
-
-      const story = document.createElement("div");
-      story.className = "article-story";
-      story.textContent = blog.story || "";
-
-      article.replaceChildren(category, title, date);
-      if (blog.image) article.appendChild(cover);
-      if (blog.story && String(blog.story).trim()) {
-        article.appendChild(story);
-      } else {
-        const message = document.createElement("div");
-        message.className = "article-message";
-        message.textContent = "The full story has not been added to this article yet. Please check back soon.";
-        article.appendChild(message);
-      }
-    }
-
-    async function loadStory() {
-      if (!slug) {
-        showMessage("This story link is missing its article identifier. Please return to the blog and try again.");
-        return;
-      }
-      if (!isFirebaseConfigured) {
-        showMessage("The story service is temporarily unavailable. Please try again later.");
-        return;
-      }
-
-      try {
-        const publishedQuery = query(
-          collection(db, "blog"),
-          where("published", "==", true)
-        );
-        const snapshot = await getDocs(publishedQuery);
-        const match = snapshot.docs
-          .map((item) => ({ id: item.id, ...item.data() }))
-          .find((item) =>
-            item.slug === slug &&
-            item.isPublished !== false
-          );
-
-        if (!match) {
-          showMessage("This story could not be found or is no longer published.");
-          return;
+        function normaliseBlogSlug(value) {
+            return String(value || "")
+                .normalize("NFKD")
+                .toLowerCase()
+                .trim()
+                .replace(/[’']/g, "")
+                .replace(/[^a-z0-9]+/g, "-")
+                .replace(/^-+|-+$/g, "");
         }
-        renderStory(match);
-      } catch (error) {
-        console.error("Could not load blog story:", error);
-        showMessage("We couldn't load this story right now. Please try again shortly.");
-      }
-    }
 
-    loadStory();
-  </script>
+        function formatDate(value) {
+            if (!value) return "Published Recently";
+            const date = new Date(
+                /^\d{4}-\d{2}-\d{2}$/.test(String(value))
+                    ? `${value}T12:00:00`
+                    : value
+            );
+            return Number.isNaN(date.getTime())
+                ? String(value)
+                : date.toLocaleDateString("en-IN", {
+                    day: "2-digit",
+                    month: "long",
+                    year: "numeric"
+                });
+        }
+
+        // Smart Rich Text / Paragraph Parser
+        function parseStoryContent(rawStory) {
+            if (!rawStory || !String(rawStory).trim()) {
+                return '<div class="story-alert-box">The full editorial story is currently being curated by our expedition desk. Please check back shortly or connect with our team on WhatsApp for details.</div>';
+            }
+
+            const cleanText = String(rawStory).replace(/\r\n/g, "\n");
+            const chunks = cleanText.split(/\n\s*\n/);
+            let html = "";
+
+            chunks.forEach(chunk => {
+                const trimmed = chunk.trim();
+                if (!trimmed) return;
+
+                // Headings: Markdown # or ## or lines ending with ':' and short
+                if (trimmed.startsWith("### ")) {
+                    html += `<h3>${escapeHtml(trimmed.substring(4))}</h3>`;
+                } else if (trimmed.startsWith("## ")) {
+                    html += `<h2>${escapeHtml(trimmed.substring(3))}</h2>`;
+                } else if (trimmed.startsWith("# ")) {
+                    html += `<h2>${escapeHtml(trimmed.substring(2))}</h2>`;
+                } else if (trimmed.length < 80 && trimmed.endsWith(":") && !trimmed.includes("\n")) {
+                    html += `<h3>${escapeHtml(trimmed)}</h3>`;
+                }
+                // Blockquotes
+                else if (trimmed.startsWith("> ") || (trimmed.startsWith('"') && trimmed.endsWith('"') && trimmed.length < 240)) {
+                    const quoteText = trimmed.replace(/^>\s*/, "").replace(/^"/, "").replace(/"$/, "");
+                    html += `<blockquote>“${escapeHtml(quoteText)}”</blockquote>`;
+                }
+                // Bullet List items
+                else if (/^[-*•]\s+/m.test(trimmed) || /^\d+\.\s+/m.test(trimmed)) {
+                    const lines = trimmed.split("\n");
+                    html += "<ul>";
+                    lines.forEach(line => {
+                        const cleanLine = line.replace(/^[-*•\d\.]+\s*/, "").trim();
+                        if (cleanLine) {
+                            html += `<li>${escapeHtml(cleanLine)}</li>`;
+                        }
+                    });
+                    html += "</ul>";
+                }
+                // Regular paragraph
+                else {
+                    const paraWithBreaks = trimmed.split("\n").map(escapeHtml).join("<br>");
+                    html += `<p>${paraWithBreaks}</p>`;
+                }
+            });
+
+            return html;
+        }
+
+        function escapeHtml(text) {
+            return String(text)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function renderStory(blog) {
+            const title = blog.title || blog.name || "Travel Story";
+            document.title = `${title} — CallingHills Journal`;
+
+            // Prepare Category Badges
+            const categoryStr = blog.category || "Travel Journal";
+            const tags = categoryStr
+                .split(/[,&|]/)
+                .map(t => t.trim())
+                .filter(Boolean);
+
+            const tagsHtml = tags
+                .map(tag => `<span class="story-tag">✦ ${escapeHtml(tag)}</span>`)
+                .join("");
+
+            // Estimate reading time
+            const wordCount = (blog.story || "").trim().split(/\s+/).length;
+            const readTime = Math.max(1, Math.round(wordCount / 200)) + " min read";
+
+            // WhatsApp share link
+            const shareUrl = encodeURIComponent(window.location.href);
+            const shareText = encodeURIComponent(`Check out this travel story on CallingHills: ${title}\n\n`);
+            const waShareHref = `https://wa.me/?text=${shareText}${shareUrl}`;
+
+            // Cover Image HTML
+            let coverHtml = "";
+            if (blog.image) {
+                coverHtml = `
+                    <div class="cover-wrapper">
+                        <img src="${escapeHtml(blog.image)}" alt="${escapeHtml(title)}" class="cover-img" onerror="this.parentElement.style.display='none'">
+                    </div>
+                `;
+            }
+
+            // Parsed Body HTML
+            const bodyHtml = parseStoryContent(blog.story);
+
+            // Compose Card Inner HTML
+            articleCard.innerHTML = `
+                <!-- Category Tags -->
+                <div class="tags-row">
+                    ${tagsHtml}
+                </div>
+
+                <!-- Headline -->
+                <h1 class="article-title">${escapeHtml(title)}</h1>
+
+                <!-- Meta Strip -->
+                <div class="article-meta-bar">
+                    <div class="meta-left">
+                        <span class="meta-badge">🏔️ CallingHills Journal</span>
+                        <span class="meta-date">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                            ${formatDate(blog.publicationDate)}
+                        </span>
+                        <span style="opacity: 0.5;">&bull;</span>
+                        <span>⏱️ ${readTime}</span>
+                    </div>
+                    <div>
+                        <a href="${waShareHref}" target="_blank" class="share-wa-btn" rel="noopener">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                            <span>Share Story</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Featured Cover Image -->
+                ${coverHtml}
+
+                <!-- Article Body -->
+                <div class="article-body">
+                    ${bodyHtml}
+                </div>
+
+                <!-- Bottom Tour Inquiry CTA -->
+                <div class="article-cta-box">
+                    <div class="cta-content">
+                        <span class="cta-tag">✦ BESPOKE HIMALAYAN EXPEDITIONS</span>
+                        <h3 class="cta-title">Plan Your Journey to ${escapeHtml(tags[0] || 'the Himalayas')}</h3>
+                        <p class="cta-desc">
+                            Inspired by this story? CallingHills handles complete ground operations: verified mountain homestays, commercial Land Rover permits, local Sherpa guides, and personalized itineraries.
+                        </p>
+                        <div class="cta-btn-row">
+                            <a href="./packages.html" class="btn-gold">Explore Signature Packages &rarr;</a>
+                            <a href="https://wa.me/919051966561?text=Hello%20CallingHills%2C%20I%20just%20read%20your%20story%20on%20${encodeURIComponent(title)}%20and%20want%20to%20plan%20a%20tour." target="_blank" class="btn-wa-cta">
+                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                                <span>Chat with Mountain Specialist</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function showMessage(title, text) {
+            articleCard.innerHTML = `
+                <div class="story-alert-box">
+                    <h3 style="font-family: var(--font-heading); color: #0d2e1b; font-size: 24px; margin-bottom: 8px;">${escapeHtml(title)}</h3>
+                    <p style="margin-bottom: 20px; color: #4a5c4e;">${escapeHtml(text)}</p>
+                    <a href="./blog.html" class="btn-gold" style="display: inline-block;">Return to Journal &rarr;</a>
+                </div>
+            `;
+        }
+
+        async function loadStory() {
+            if (!slug) {
+                showMessage("Story Identifier Missing", "This story link does not include an article slug. Please return to the journal to browse our travel stories.");
+                return;
+            }
+
+            if (!isFirebaseConfigured) {
+                showMessage("Service Connecting", "The story database is temporarily initializing. Please refresh in a moment.");
+                return;
+            }
+
+            try {
+                let match = null;
+
+                // 1. Try querying published blogs first
+                try {
+                    const pubQuery = query(
+                        collection(db, "blog"),
+                        where("published", "==", true)
+                    );
+                    const pubSnap = await getDocs(pubQuery);
+                    match = pubSnap.docs
+                        .map(doc => ({ id: doc.id, ...doc.data() }))
+                        .find(b => (b.slug === slug || normaliseBlogSlug(b.title || b.name) === slug) && b.isPublished !== false);
+                } catch (e) {
+                    console.warn("Filtered query failed, trying open fetch:", e);
+                }
+
+                // 2. Fallback to all docs if filtered query returned no match
+                if (!match) {
+                    const allSnap = await getDocs(collection(db, "blog"));
+                    match = allSnap.docs
+                        .map(doc => ({ id: doc.id, ...doc.data() }))
+                        .find(b => (b.slug === slug || normaliseBlogSlug(b.title || b.name) === slug) && b.isPublished !== false);
+                }
+
+                if (!match) {
+                    showMessage("Story Not Found", "We couldn't locate this story. It may have been archived or moved to another section.");
+                    return;
+                }
+
+                renderStory(match);
+
+            } catch (err) {
+                console.error("Error loading blog story:", err);
+                showMessage("Connection Error", "We encountered an issue fetching this story. Please check your internet connection or try again shortly.");
+            }
+        }
+
+        loadStory();
+    </script>
 </body>
 </html>
