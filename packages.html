@@ -15519,7 +15519,7 @@ Nights</span>
             const grid = document.querySelector('.pkg-grid');
             if (!grid) return;
 
-            const cards = Array.from(grid.querySelectorAll('.pkg-card'));
+            let cards = Array.from(grid.querySelectorAll('.pkg-card'));
             const searchInput = document.getElementById('pkg-search-input');
             const clearSearchBtn = document.getElementById('pkg-clear-search');
             const durationSelect = document.getElementById('pkg-duration-select');
@@ -15528,10 +15528,10 @@ Nights</span>
             const resetBtn = document.getElementById('pkg-reset-btn');
             const regionBtns = document.querySelectorAll('.pkg-filter-btn');
 
-            // Pre-parse metadata on all cards for instant 60fps filtering & sorting
-            cards.forEach((card, index) => {
-                card.dataset.index = index;
-                
+            // Parse metadata helper on card for instant 60fps filtering & sorting
+            function parseCardMetadata(card, index) {
+                if (index !== undefined) card.dataset.index = index;
+
                 // Title
                 const titleEl = card.querySelector('.pkg-title');
                 const title = titleEl ? titleEl.innerText.trim() : '';
@@ -15541,7 +15541,7 @@ Nights</span>
                 let days = 3;
                 if (durEl) {
                     const match = durEl.innerText.match(/(\d+)\s*Days?/i) || durEl.innerText.match(/(\d+)D/i);
-                    if (match) days = parseInt(match[1]);
+                    if (match) days = parseInt(match[1], 10);
                 }
                 card.dataset.days = days;
 
@@ -15550,7 +15550,7 @@ Nights</span>
                 let price = 5000;
                 if (priceEl) {
                     const cleanP = priceEl.innerText.replace(/[^0-9]/g, '');
-                    if (cleanP) price = parseInt(cleanP);
+                    if (cleanP) price = parseInt(cleanP, 10);
                 }
                 card.dataset.price = price;
 
@@ -15561,8 +15561,13 @@ Nights</span>
                 const teaser = teaserEl ? teaserEl.innerText : '';
                 const pills = Array.from(card.querySelectorAll('.pkg-highlight-pill')).map(p => p.innerText).join(' ');
                 const region = card.dataset.region || '';
-                
+
                 card.dataset.searchBlob = `${title} ${route} ${teaser} ${pills} ${region}`.toLowerCase();
+            }
+
+            // Pre-parse metadata on all initial cards
+            cards.forEach((card, index) => {
+                parseCardMetadata(card, index);
             });
 
             const state = {
@@ -15572,16 +15577,41 @@ Nights</span>
                 query: ''
             };
 
+            // Remove deep-link param from URL when user actively filters or searches
+            function clearUrlDeepLinkParams() {
+                try {
+                    if (window.location.search || window.location.hash) {
+                        const url = new URL(window.location.href);
+                        let changed = false;
+                        if (url.searchParams.has('pkg')) {
+                            url.searchParams.delete('pkg');
+                            changed = true;
+                        }
+                        if (url.hash && url.hash.includes('pkg')) {
+                            url.hash = '';
+                            changed = true;
+                        }
+                        if (changed) {
+                            const cleanSearch = url.searchParams.toString();
+                            const cleanUrl = url.pathname + (cleanSearch ? '?' + cleanSearch : '');
+                            window.history.replaceState({}, '', cleanUrl);
+                        }
+                    }
+                } catch (e) {}
+            }
+
             function filterAndSortPackages() {
                 let visibleCards = [];
 
                 cards.forEach(card => {
-                    const cardRegion = card.dataset.region;
+                    const cardRegion = card.dataset.region || '';
                     const cardDays = parseInt(card.dataset.days) || 3;
-                    const cardBlob = card.dataset.searchBlob;
+                    const cardBlob = card.dataset.searchBlob || '';
 
                     // Region filter
-                    const matchesRegion = state.region === 'all' || cardRegion === state.region || (cardRegion && cardRegion.split(' ').includes(state.region));
+                    const matchesRegion = state.region === 'all' ||
+                                          cardRegion === state.region ||
+                                          cardRegion.split(' ').includes(state.region);
 
                     // Duration filter
                     let matchesDuration = true;
@@ -15646,7 +15676,7 @@ Nights</span>
                             <div class="pkg-empty-icon">🏔️</div>
                             <h3>No Packages Found</h3>
                             <p>We couldn't find any tour packages matching your search criteria. Try adjusting your filters.</p>
-                            <button class="pkg-reset-btn" id="pkg-empty-reset-btn">View All 98 Packages</button>
+                            <button class="pkg-reset-btn" id="pkg-empty-reset-btn">View All ${cards.length} Packages</button>
                         `;
                         grid.appendChild(emptyEl);
                         const emptyReset = document.getElementById('pkg-empty-reset-btn');
@@ -15662,6 +15692,7 @@ Nights</span>
             }
 
             function resetAll() {
+                clearUrlDeepLinkParams();
                 state.query = '';
                 state.duration = 'all';
                 state.sort = 'recommended';
@@ -15678,6 +15709,7 @@ Nights</span>
             // Region button clicks
             regionBtns.forEach(btn => {
                 btn.addEventListener('click', () => {
+                    clearUrlDeepLinkParams();
                     regionBtns.forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
                     state.region = btn.getAttribute('data-filter') || 'all';
@@ -15688,6 +15720,7 @@ Nights</span>
             // Search input
             if (searchInput) {
                 searchInput.addEventListener('input', (e) => {
+                    clearUrlDeepLinkParams();
                     state.query = e.target.value.trim().toLowerCase();
                     filterAndSortPackages();
                 });
@@ -15695,6 +15728,7 @@ Nights</span>
 
             if (clearSearchBtn) {
                 clearSearchBtn.addEventListener('click', () => {
+                    clearUrlDeepLinkParams();
                     state.query = '';
                     searchInput.value = '';
                     filterAndSortPackages();
@@ -15704,6 +15738,7 @@ Nights</span>
             // Duration select
             if (durationSelect) {
                 durationSelect.addEventListener('change', (e) => {
+                    clearUrlDeepLinkParams();
                     state.duration = e.target.value;
                     filterAndSortPackages();
                 });
@@ -15712,6 +15747,7 @@ Nights</span>
             // Sort select
             if (sortSelect) {
                 sortSelect.addEventListener('change', (e) => {
+                    clearUrlDeepLinkParams();
                     state.sort = e.target.value;
                     filterAndSortPackages();
                 });
@@ -15722,9 +15758,8 @@ Nights</span>
                 resetBtn.addEventListener('click', resetAll);
             }
 
-
             // Handle URL Parameters (e.g. ?filter=darjeeling, ?pkg=slug, ?search=term, or #pkg-slug)
-            function handleUrlDeepLink() {
+            function handleUrlDeepLink(isRetry = false) {
                 const params = new URLSearchParams(window.location.search);
                 const filterParam = params.get('filter') || params.get('region');
                 const searchParam = params.get('search') || params.get('q');
@@ -15734,22 +15769,33 @@ Nights</span>
                 if (pkgParam) {
                     const cleanPkg = pkgParam.toLowerCase().trim();
                     targetCard = document.getElementById('pkg-' + cleanPkg) ||
+                                 document.getElementById(cleanPkg) ||
                                  document.querySelector('.pkg-card[data-pkg-slug="' + cleanPkg + '"]') ||
-                                 Array.from(cards).find(c => {
-                                     const slug = (c.getAttribute('data-pkg-slug') || '').toLowerCase();
+                                 document.querySelector('.pkg-card[data-package-slug="' + cleanPkg + '"]') ||
+                                 cards.find(c => {
+                                     const slug = (c.getAttribute('data-pkg-slug') || c.getAttribute('data-package-slug') || '').toLowerCase();
                                      const title = (c.querySelector('.pkg-title')?.textContent || '').toLowerCase();
-                                     return slug === cleanPkg || slug.includes(cleanPkg) || cleanPkg.includes(slug) || title.includes(cleanPkg);
+                                     return slug === cleanPkg ||
+                                            (cleanPkg.length > 3 && (slug.includes(cleanPkg) || cleanPkg.includes(slug))) ||
+                                            (title && title.includes(cleanPkg));
                                  });
                 }
 
                 if (targetCard) {
-                    const cardReg = targetCard.getAttribute('data-region') || '';
-                    const regParts = cardReg.split(' ');
+                    const cardReg = (targetCard.getAttribute('data-region') || '').toLowerCase();
+                    const regParts = cardReg.split(' ').filter(Boolean);
                     
                     let matchingBtn = null;
-                    for (const r of regParts) {
-                        matchingBtn = Array.from(regionBtns).find(b => b.getAttribute('data-filter') === r);
-                        if (matchingBtn) break;
+                    if (cardReg.includes('sandakphu')) {
+                        matchingBtn = Array.from(regionBtns).find(b => b.getAttribute('data-filter') === 'sandakphu');
+                    } else if (cardReg.includes('landrover')) {
+                        matchingBtn = Array.from(regionBtns).find(b => b.getAttribute('data-filter') === 'landrover');
+                    }
+                    if (!matchingBtn) {
+                        for (const r of regParts) {
+                            matchingBtn = Array.from(regionBtns).find(b => b.getAttribute('data-filter') === r);
+                            if (matchingBtn) break;
+                        }
                     }
 
                     if (matchingBtn) {
@@ -15814,28 +15860,22 @@ Nights</span>
 
                 // Rebuild search, duration, and price metadata
                 cards.forEach((card, index) => {
-                    card.dataset.index = index;
-
-                    const title = card.querySelector('.pkg-title')?.innerText.trim() || '';
-                    const duration = card.querySelector('.pkg-duration')?.innerText || '';
-                    const durationMatch = duration.match(/(\d+)\s*Days?/i);
-                    card.dataset.days = durationMatch ? parseInt(durationMatch[1], 10) : 3;
-
-                    const priceText = card.querySelector('.pkg-price-tag')?.innerText || '';
-                    const priceMatch = priceText.replace(/,/g, '').match(/\d+/);
-                    card.dataset.price = priceMatch ? parseInt(priceMatch[0], 10) : 5000;
-
-                    const route = card.querySelector('.pkg-route')?.innerText || '';
-                    const teaser = card.querySelector('.pkg-teaser')?.innerText || '';
-                    const highlights = Array.from(card.querySelectorAll('.pkg-highlight-pill'))
-                        .map(p => p.innerText).join(' ');
-
-                    card.dataset.searchBlob =
-                        `${title} ${route} ${teaser} ${highlights} ${card.dataset.region || ''}`
-                            .toLowerCase();
+                    parseCardMetadata(card, index);
                 });
 
-                filterAndSortPackages();
+                // If URL has deep link pkg, re-run deep link to match Firebase package if needed
+                const params = new URLSearchParams(window.location.search);
+                const hasPkg = params.has('pkg') || (window.location.hash && window.location.hash.includes('pkg'));
+                if (hasPkg) {
+                    handleUrlDeepLink(true);
+                } else {
+                    filterAndSortPackages();
+                }
+            });
+
+            // Handle browser Back / Forward buttons cleanly
+            window.addEventListener('popstate', () => {
+                handleUrlDeepLink();
             });
 
             // Initial run with deep linking
@@ -15887,11 +15927,17 @@ Nights</span>
         function sharePackage(btn) {
             const card = btn.closest('.pkg-card');
             const title = btn.getAttribute('data-title') || (card ? card.querySelector('.pkg-title')?.textContent.trim() : 'Himalayan Tour Package');
-            const slug = btn.getAttribute('data-slug') || (card ? card.getAttribute('data-pkg-slug') : '');
+            const slug = btn.getAttribute('data-slug') || (card ? (card.getAttribute('data-pkg-slug') || card.getAttribute('data-package-slug')) : '');
             
             const origin = window.location.origin && window.location.origin !== 'null' ? window.location.origin : '';
             const pathname = window.location.pathname;
             const shareUrl = origin + pathname + '?pkg=' + encodeURIComponent(slug) + '#pkg-' + encodeURIComponent(slug);
+
+            // Update browser URL gently without reload
+            try {
+                const targetUrl = pathname + '?pkg=' + encodeURIComponent(slug) + '#pkg-' + encodeURIComponent(slug);
+                window.history.replaceState({ pkg: slug }, '', targetUrl);
+            } catch (e) {}
 
             // Visual feedback on button
             const originalContent = btn.innerHTML;
