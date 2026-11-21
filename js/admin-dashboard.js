@@ -660,6 +660,255 @@ function renderFields(data = {}) {
         }
       } else wrapper.append(input);
       standardFields.append(wrapper);
+      // BLOG/JOURNAL STORY EDITOR ENHANCEMENT
+      if (activeType === "blog" && field.key === "story") {
+        const toolbar = document.createElement("div");
+        toolbar.className = "story-toolbar";
+
+        toolbar.innerHTML = `
+    <button type="button" data-action="heading">Heading</button>
+    <button type="button" data-action="subheading">Subheading</button>
+    <button type="button" data-action="bold"><b>B</b></button>
+    <button type="button" data-action="italic"><i>I</i></button>
+    <button type="button" data-action="quote">Quote</button>
+    <button type="button" data-action="bullet">• List</button>
+    <button type="button" data-action="numbered">1. List</button>
+    <button type="button" data-action="divider">Divider</button>
+    <button type="button" class="story-preview-toggle">Preview</button>
+  `;
+
+        const meta = document.createElement("div");
+        meta.className = "story-editor-meta";
+
+        const preview = document.createElement("div");
+        preview.className = "story-live-preview";
+        preview.hidden = true;
+
+        preview.innerHTML = `
+    <div class="story-preview-label">ARTICLE PREVIEW</div>
+    <div class="story-preview-content"></div>
+  `;
+
+        // Escape HTML to prevent raw HTML from executing in preview
+        function escapeHTML(text) {
+          return text.replace(/[&<>"']/g, (char) => {
+            const entities = {
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            };
+            return entities[char];
+          });
+        }
+
+        // Render basic Markdown-like formatting in the preview
+        function renderStory(text) {
+          const lines = text.split(/\r?\n/);
+          let html = "";
+          let inList = false;
+          let listType = "";
+
+          function closeList() {
+            if (inList) {
+              html += listType === "ol" ? "</ol>" : "</ul>";
+              inList = false;
+              listType = "";
+            }
+          }
+
+          function formatInline(text) {
+            let safe = escapeHTML(text);
+
+            safe = safe.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+            safe = safe.replace(/\*(.*?)\*/g, "<em>$1</em>");
+            safe = safe.replace(/_(.*?)_/g, "<em>$1</em>");
+
+            return safe;
+          }
+
+          for (const rawLine of lines) {
+            const line = rawLine.trim();
+
+            if (!line) {
+              closeList();
+              continue;
+            }
+
+            if (/^---+$/.test(line)) {
+              closeList();
+              html += "<hr>";
+              continue;
+            }
+
+            if (line.startsWith("### ")) {
+              closeList();
+              html += `<h3>${formatInline(line.slice(4))}</h3>`;
+              continue;
+            }
+
+            if (line.startsWith("## ")) {
+              closeList();
+              html += `<h2>${formatInline(line.slice(3))}</h2>`;
+              continue;
+            }
+
+            if (line.startsWith("> ")) {
+              closeList();
+              html += `<blockquote>${formatInline(line.slice(2))}</blockquote>`;
+              continue;
+            }
+
+            const bulletMatch = line.match(/^[-*]\s+(.+)/);
+            const numberedMatch = line.match(/^\d+\.\s+(.+)/);
+
+            if (bulletMatch || numberedMatch) {
+              const newType = numberedMatch ? "ol" : "ul";
+
+              if (!inList || listType !== newType) {
+                closeList();
+                html += newType === "ol" ? "<ol>" : "<ul>";
+                inList = true;
+                listType = newType;
+              }
+
+              const content = bulletMatch ? bulletMatch[1] : numberedMatch[1];
+
+              html += `<li>${formatInline(content)}</li>`;
+              continue;
+            }
+
+            closeList();
+            html += `<p>${formatInline(line)}</p>`;
+          }
+
+          closeList();
+          return html || "<p>Your article preview will appear here.</p>";
+        }
+
+        function updateEditor() {
+          const text = input.value.trim();
+          const words = text ? text.split(/\s+/).filter(Boolean).length : 0;
+
+          const readingTime = Math.max(1, Math.ceil(words / 200));
+
+          meta.textContent = `${words} words · Approximately ${readingTime} min read`;
+
+          preview.querySelector(".story-preview-content").innerHTML =
+            renderStory(input.value);
+        }
+
+        // Toolbar formatting
+        toolbar.querySelectorAll("[data-action]").forEach((button) => {
+          button.addEventListener("click", () => {
+            input.focus();
+
+            const start = input.selectionStart;
+            const end = input.selectionEnd;
+            const selected = input.value.substring(start, end);
+            const action = button.dataset.action;
+
+            let insertion = "";
+            let cursorOffset = 0;
+
+            switch (action) {
+              case "heading":
+                insertion = `## ${selected || "Heading"}`;
+                cursorOffset = selected ? insertion.length : 3;
+                break;
+
+              case "subheading":
+                insertion = `### ${selected || "Subheading"}`;
+                cursorOffset = selected ? insertion.length : 4;
+                break;
+
+              case "bold":
+                insertion = `**${selected || "bold text"}**`;
+                cursorOffset = selected
+                  ? insertion.length
+                  : insertion.length - 2;
+                break;
+
+              case "italic":
+                insertion = `_${selected || "italic text"}_`;
+                cursorOffset = selected
+                  ? insertion.length
+                  : insertion.length - 1;
+                break;
+
+              case "quote":
+                insertion = selected
+                  ? selected
+                      .split("\n")
+                      .map((line) => `> ${line}`)
+                      .join("\n")
+                  : "> Write a quote here";
+                cursorOffset = insertion.length;
+                break;
+
+              case "bullet":
+                insertion = selected
+                  ? selected
+                      .split("\n")
+                      .map((line) => `- ${line}`)
+                      .join("\n")
+                  : "- List item";
+                cursorOffset = insertion.length;
+                break;
+
+              case "numbered":
+                insertion = selected
+                  ? selected
+                      .split("\n")
+                      .map((line, index) => `${index + 1}. ${line}`)
+                      .join("\n")
+                  : "1. List item";
+                cursorOffset = insertion.length;
+                break;
+
+              case "divider":
+                insertion = "\n\n---\n\n";
+                cursorOffset = insertion.length;
+                break;
+            }
+
+            input.setRangeText(insertion, start, end, "end");
+
+            if (
+              !selected &&
+              (action === "heading" ||
+                action === "subheading" ||
+                action === "bold" ||
+                action === "italic")
+            ) {
+              const newCursor = start + cursorOffset;
+              input.setSelectionRange(newCursor, newCursor);
+            }
+
+            input.dispatchEvent(new Event("input", { bubbles: true }));
+            updateEditor();
+          });
+        });
+
+        // Preview toggle
+        toolbar
+          .querySelector(".story-preview-toggle")
+          .addEventListener("click", (event) => {
+            preview.hidden = !preview.hidden;
+
+            event.currentTarget.textContent = preview.hidden
+              ? "Preview"
+              : "Hide preview";
+
+            updateEditor();
+          });
+
+        input.addEventListener("input", updateEditor);
+
+        wrapper.append(toolbar, meta, preview);
+        updateEditor();
+      }
       if (field.key === "name" || field.key === "title")
         input.addEventListener("input", () => {
           const slug = standardFields.querySelector('[name="slug"]');
