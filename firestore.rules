@@ -1,0 +1,46 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.uid == "ayrwmWLYxxPa7BReRFZYA3lKHQY2";
+    }
+
+    function isContentCollection(collectionName) {
+      return collectionName in [
+        "regions",
+        "places",
+        "regionOverrides",
+        "placeOverrides",
+        "packages",
+        "packageOverrides",
+        "hotels",
+        "hotelOverrides",
+        "carRentals",
+        "carRentalOverrides",
+        "blog",
+        "homeBanner"
+      ];
+    }
+
+    match /{collectionName}/{document=**} {
+      // Public can read published content.
+      // The authenticated admin can read all content in allowed collections.
+      allow read: if isContentCollection(collectionName)
+        && (
+          isAdmin()
+          || (
+            'published' in resource.data
+            && resource.data.published == true
+          )
+        );
+
+      // Only the authenticated admin can create, update, or delete content.
+      allow create, update, delete: if
+        isContentCollection(collectionName)
+        && isAdmin();
+    }
+  }
+}

@@ -1,0 +1,146 @@
+diff --git a/car-rental.html b/car-rental.html
+--- a/car-rental.html
++++ b/car-rental.html
+@@ -85,7 +85,7 @@
+ <!-- ═══════════ CAR RENTAL SECTION ═══════════ -->
+ <section class="car-rental-section" style="padding: 80px 0; background: var(--ch-bg);">
+     <div class="hotels-container">
+-        <div class="hotels-grid">
++        <div class="hotels-grid" id="car-rentals-grid">
+@@ -389,4 +389,135 @@
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+     <script src="./js/main.js"></script>
++
++    <script type="module">
++        import { db, isFirebaseConfigured } from "./js/firebase.js";
++        import {
++            collection,
++            getDocs,
++            query,
++            where
++        } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
++
++        const carGrid = document.getElementById("car-rentals-grid");
++
++        function createCarRentalCard(car) {
++            const card = document.createElement("article");
++            card.className = "htl-card";
++
++            const media = document.createElement("div");
++            media.className = "htl-card-media";
++
++            const carousel = document.createElement("div");
++            carousel.className = "htl-carousel";
++
++            const slides = document.createElement("div");
++            slides.className = "htl-slides";
++
++            const slide = document.createElement("div");
++            slide.className = "htl-slide htl-slide-active";
++
++            const image = document.createElement("img");
++            image.src = car.image || "./logo up.jpeg";
++            image.alt = car.name ? `${car.name} car rental` : "Rental vehicle";
++            image.loading = "lazy";
++            image.onerror = () => {
++                image.onerror = null;
++                image.src = "./logo up.jpeg";
++            };
++
++            slide.appendChild(image);
++            slides.appendChild(slide);
++            carousel.appendChild(slides);
++            media.appendChild(carousel);
++
++            if (car.startingPricePerDay !== null && car.startingPricePerDay !== undefined && car.startingPricePerDay !== "") {
++                const price = document.createElement("div");
++                price.className = "htl-price";
++
++                const amount = document.createElement("span");
++                amount.className = "htl-price-amt";
++                amount.textContent = `₹${Number(car.startingPricePerDay).toLocaleString("en-IN")}`;
++
++                const suffix = document.createElement("span");
++                suffix.className = "htl-price-sub";
++                suffix.textContent = "/day (Starting)";
++
++                price.append(amount, suffix);
++                media.appendChild(price);
++            }
++
++            const info = document.createElement("div");
++            info.className = "htl-card-info";
++
++            const name = document.createElement("h3");
++            name.className = "htl-name";
++            name.textContent = car.name || "Rental Vehicle";
++            info.appendChild(name);
++
++            const features = document.createElement("div");
++            features.className = "htl-features";
++
++            const feature = document.createElement("span");
++            feature.className = "htl-feat";
++            const details = [];
++            if (car.seatingCapacity) details.push(`${car.seatingCapacity} Seats`);
++            if (car.vehicleType) details.push(car.vehicleType);
++            feature.textContent = details.join(" · ") || "Car Rental";
++            features.appendChild(feature);
++            info.appendChild(features);
++
++            if (car.description) {
++                const description = document.createElement("p");
++                description.textContent = car.description;
++                info.appendChild(description);
++            }
++
++            if (car.serviceNotes) {
++                const serviceNotes = document.createElement("p");
++                serviceNotes.textContent = car.serviceNotes;
++                info.appendChild(serviceNotes);
++            }
++
++            const enquiry = document.createElement("a");
++            enquiry.className = "htl-btn";
++            enquiry.textContent = "Enquire Now →";
++
++            // Only allow normal web links or local site paths from the admin field.
++            const enquiryUrl = (car.enquiryUrl || "").trim();
++            if (/^(https?:\/\/|\/|\.\/|\.\.\/|#)/i.test(enquiryUrl)) {
++                enquiry.href = enquiryUrl;
++            } else {
++                enquiry.href = "./contact.html";
++            }
++            info.appendChild(enquiry);
++
++            card.append(media, info);
++            return card;
++        }
++
++        async function loadPublishedCarRentals() {
++            if (!carGrid || !isFirebaseConfigured) return;
++
++            try {
++                const publishedCarsQuery = query(
++                    collection(db, "carRentals"),
++                    where("published", "==", true)
++                );
++                const snapshot = await getDocs(publishedCarsQuery);
++                const fragment = document.createDocumentFragment();
++
++                snapshot.forEach((carDocument) => {
++                    fragment.appendChild(createCarRentalCard(carDocument.data()));
++                });
++
++                carGrid.appendChild(fragment);
++            } catch (error) {
++                // Existing static car cards remain visible if Firebase is unavailable.
++                console.error("Unable to load published car rentals:", error);
++            }
++        }
++
++        loadPublishedCarRentals();
++    </script>
+ </body>
+ </html>
+*** End Patch
