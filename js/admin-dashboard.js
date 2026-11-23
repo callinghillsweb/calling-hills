@@ -674,6 +674,7 @@ function renderFields(data = {}) {
     <button type="button" data-action="bullet">• List</button>
     <button type="button" data-action="numbered">1. List</button>
     <button type="button" data-action="divider">Divider</button>
+    <button type="button" class="story-import-html">Import HTML</button>
     <button type="button" class="story-preview-toggle">Preview</button>
   `;
 
@@ -689,27 +690,69 @@ function renderFields(data = {}) {
     <div class="story-preview-content"></div>
   `;
 
-        // Escape HTML to prevent raw HTML from executing in preview
-        function escapeHTML(text) {
-          return text.replace(/[&<>"']/g, (char) => {
-            const entities = {
-              "&": "&amp;",
-              "<": "&lt;",
-              ">": "&gt;",
-              '"': "&quot;",
-              "'": "&#39;",
-            };
-            return entities[char];
-          });
+        // Safely preview HTML stories while preserving allowed article formatting.
+        function sanitizeStoryHTML(rawHTML) {
+          const parser = new DOMParser();
+          const parsed = parser.parseFromString(String(rawHTML || ""), "text/html");
+          const allowedTags = new Set([
+            "P", "BR", "H1", "H2", "H3", "H4", "H5", "H6",
+            "STRONG", "B", "EM", "I", "U", "S", "DEL", "BLOCKQUOTE",
+            "UL", "OL", "LI", "HR", "A", "IMG", "FIGURE", "FIGCAPTION",
+            "TABLE", "THEAD", "TBODY", "TR", "TH", "TD", "DIV", "SPAN"
+          ]);
+          const allowedAttrs = new Set(["href", "src", "alt", "title", "class"]);
+          parsed.querySelectorAll("script,style,iframe,object,embed,form,input,button,textarea,svg,math").forEach((node) => node.remove());
+          const walk = (root) => {
+            Array.from(root.childNodes).forEach((node) => {
+              if (node.nodeType === Node.ELEMENT_NODE) {
+                if (!allowedTags.has(node.tagName)) {
+                  walk(node);
+                  node.replaceWith(...Array.from(node.childNodes));
+                  return;
+                }
+                Array.from(node.attributes).forEach((attr) => {
+                  const name = attr.name.toLowerCase();
+                  const value = attr.value.trim();
+                  if (!allowedAttrsSafe(name, value, allowedAttrs)) node.removeAttribute(attr.name);
+                });
+                if (node.tagName === "A") {
+                  const href = node.getAttribute("href") || "";
+                  if (/^(javascript|data|vbscript):/i.test(href)) node.removeAttribute("href");
+                  node.setAttribute("rel", "noopener noreferrer");
+                }
+                if (node.tagName === "IMG") {
+                  const src = node.getAttribute("src") || "";
+                  if (/^(javascript|data):/i.test(src)) node.removeAttribute("src");
+                  node.setAttribute("loading", "lazy");
+                }
+                walk(node);
+              }
+            });
+          };
+          function allowedAttrsSafe(name, value, allowList) {
+            if (!allowList.has(name)) return false;
+            if ((name === "href" || name === "src") && /^(javascript|data|vbscript):/i.test(value)) return false;
+            return true;
+          }
+          walk(parsed.body);
+          return parsed.body.innerHTML;
         }
 
-        // Render basic Markdown-like formatting in the preview
+
+        function escapeHTML(text) {
+          return String(text).replace(/[&<>"']/g, (char) => ({
+            "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+          }[char]));
+        }
+
+        // Supports legacy Markdown-like text and imported/pasted HTML.
         function renderStory(text) {
-          const lines = text.split(/\r?\n/);
+          const source = String(text || "");
+          if (/<\/?[a-z][\s\S]*?>/i.test(source)) return sanitizeStoryHTML(source);
+          const lines = source.split(/\r?\n/);
           let html = "";
           let inList = false;
           let listType = "";
-
           function closeList() {
             if (inList) {
               html += listType === "ol" ? "</ol>" : "</ul>";
@@ -717,72 +760,31 @@ function renderFields(data = {}) {
               listType = "";
             }
           }
-
           function formatInline(text) {
             let safe = escapeHTML(text);
-
             safe = safe.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
             safe = safe.replace(/\*(.*?)\*/g, "<em>$1</em>");
             safe = safe.replace(/_(.*?)_/g, "<em>$1</em>");
-
             return safe;
           }
-
           for (const rawLine of lines) {
             const line = rawLine.trim();
-
-            if (!line) {
-              closeList();
-              continue;
-            }
-
-            if (/^---+$/.test(line)) {
-              closeList();
-              html += "<hr>";
-              continue;
-            }
-
-            if (line.startsWith("### ")) {
-              closeList();
-              html += `<h3>${formatInline(line.slice(4))}</h3>`;
-              continue;
-            }
-
-            if (line.startsWith("## ")) {
-              closeList();
-              html += `<h2>${formatInline(line.slice(3))}</h2>`;
-              continue;
-            }
-
-            if (line.startsWith("> ")) {
-              closeList();
-              html += `<blockquote>${formatInline(line.slice(2))}</blockquote>`;
-              continue;
-            }
-
+            if (!line) { closeList(); continue; }
+            if (/^---+$/.test(line)) { closeList(); html += "<hr>"; continue; }
+            if (line.startsWith("### ")) { closeList(); html += `<h3>${formatInline(line.slice(4))}</h3>`; continue; }
+            if (line.startsWith("## ")) { closeList(); html += `<h2>${formatInline(line.slice(3))}</h2>`; continue; }
+            if (line.startsWith("# ")) { closeList(); html += `<h1>${formatInline(line.slice(2))}</h1>`; continue; }
+            if (line.startsWith("> ")) { closeList(); html += `<blockquote>${formatInline(line.slice(2))}</blockquote>`; continue; }
             const bulletMatch = line.match(/^[-*]\s+(.+)/);
             const numberedMatch = line.match(/^\d+\.\s+(.+)/);
-
             if (bulletMatch || numberedMatch) {
               const newType = numberedMatch ? "ol" : "ul";
-
-              if (!inList || listType !== newType) {
-                closeList();
-                html += newType === "ol" ? "<ol>" : "<ul>";
-                inList = true;
-                listType = newType;
-              }
-
-              const content = bulletMatch ? bulletMatch[1] : numberedMatch[1];
-
-              html += `<li>${formatInline(content)}</li>`;
+              if (!inList || listType !== newType) { closeList(); html += newType === "ol" ? "<ol>" : "<ul>"; inList = true; listType = newType; }
+              html += `<li>${formatInline(bulletMatch ? bulletMatch[1] : numberedMatch[1])}</li>`;
               continue;
             }
-
-            closeList();
-            html += `<p>${formatInline(line)}</p>`;
+            closeList(); html += `<p>${formatInline(line)}</p>`;
           }
-
           closeList();
           return html || "<p>Your article preview will appear here.</p>";
         }
@@ -891,6 +893,28 @@ function renderFields(data = {}) {
           });
         });
 
+        // Import a local HTML article file directly into the story textarea.
+        const htmlFileInput = document.createElement("input");
+        htmlFileInput.type = "file";
+        htmlFileInput.accept = ".html,.htm,text/html";
+        htmlFileInput.hidden = true;
+        htmlFileInput.addEventListener("change", async () => {
+          const file = htmlFileInput.files?.[0];
+          if (!file) return;
+          try {
+            const imported = await file.text();
+            input.value = imported;
+            input.dispatchEvent(new Event("input", { bubbles: true }));
+            updateEditor();
+            setNotice(`Imported ${file.name} into the blog story editor. Review it before saving.`, "success");
+          } catch (error) {
+            setNotice(`Could not read the HTML file: ${error.message || error}`, "error");
+          } finally {
+            htmlFileInput.value = "";
+          }
+        });
+        toolbar.querySelector(".story-import-html").addEventListener("click", () => htmlFileInput.click());
+
         // Preview toggle
         toolbar
           .querySelector(".story-preview-toggle")
@@ -906,7 +930,7 @@ function renderFields(data = {}) {
 
         input.addEventListener("input", updateEditor);
 
-        wrapper.append(toolbar, meta, preview);
+        wrapper.append(toolbar, htmlFileInput, meta, preview);
         updateEditor();
       }
       if (field.key === "name" || field.key === "title")
